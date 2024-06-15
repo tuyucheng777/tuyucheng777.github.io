@@ -15,9 +15,9 @@ keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,开发者,编程,�
 encoding: "utf-8"
 favicon: favicon.ico 
 
-repository: taketoday7/taketoday7.github.io
-github_url: https://github.com/taketoday7
-url: http://taketoday7.github.io
+repository: tuyucheng777/tuyucheng777.github.io
+github_url: https://github.com/tuyucheng777
+url: http://tuyucheng777.github.io
 enforce_ssl: ityouknow.com
 
 ## Gem
@@ -396,17 +396,17 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: taketoday7
+    username: tuyucheng777
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: taketoday7
+    owner: tuyucheng777
     repo: blog-comments
     oauth:
         client_id: b5981caa1bd346619214
         client_secret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: taketoday7
+    owner: tuyucheng777
     repo: blog-comments
     clientID: b5981caa1bd346619214
     clientSecret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
