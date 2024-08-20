@@ -132,6 +132,7 @@ permalink: /javalibs
 - [GraphQL](#GraphQL)
 - [任务调度](#任务调度)
 - [配置管理](#配置管理)
+- [功能切换](#功能切换)
 - [业务流](#业务流)
 - [规则引擎](#规则引擎)
 - [API管理](#API管理)
@@ -394,7 +395,6 @@ permalink: /javalibs
 - [代码生成器](#代码生成器)
 - [目录服务](#目录服务)
 - [错误处理](#错误处理)
-- [功能切换](#功能切换)
 - [表情处理](#表情处理)
 - [行为分析](#行为分析)
 - [ASCII艺术](#ASCII艺术)
@@ -459,7 +459,8 @@ permalink: /javalibs
 * [Javalin](https://github.com/javalin/javalin)：Javalin是一个非常轻量级的Kotlin和Java Web框架，支持WebSockets、HTTP2和异步请求。
 * [Ninja](https://github.com/ninjaframework/ninja)：Ninja是Java的全栈Web框架，坚如磐石、快速且高效。
 * [SOFABoot](https://github.com/sofastack/sofa-boot)：SOFABoot是一个基于Spring Boot的Java开发框架，由蚂蚁开源。
-* [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架。
+* [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
+* [Grails](https://github.com/grails/grails-core)：Grails是一个用于使用Groovy编程语言构建Web应用程序的框架，由Pivotal开源。
 * [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
 * [Jooby](https://github.com/jooby-project/jooby)：Jooby是一个现代、高性能且易于使用的Java和Kotlin Web框架上。
 * [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
@@ -670,7 +671,6 @@ permalink: /javalibs
 ## 应用框架
 
 * [SiteMesh 3](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站。
-* [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，支持跨平台，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发。
 * [Apache Usergrid](https://github.com/apache/usergrid)：Usergrid是一个基于RESTful API的用于Web和移动应用程序的多租户后端即服务堆栈。
 * [Para](https://github.com/Erudika/para)：Para是一个可扩展的多租户后端服务器/框架，用于对象持久化和检索。
@@ -691,45 +691,6 @@ permalink: /javalibs
 ## 微服务框架
 
 * [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具(例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、短命微服务和契约测试)，由VMware(Pivotal)开源。
-* [Apache Dubbo](https://github.com/apache/dubbo)：Apache Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
-* [Jakarta EE](https://jakarta.ee/)：Jakarta EE为开发人员提供了一套全面的供应商中立的开放规范，用于从头开始开发现代云原生Java应用程序。
-* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：Micronaut是一个基于JVM的现代全栈Java框架，旨在构建模块化、易于测试的JVM应用程序，由Object Computing开源。
-* [Quarkus](https://github.com/quarkusio/quarkus)：Quarkus是一个用于编写Java应用程序的云原生容器优先框架，由RedHat开发。
-* [Helidon](https://github.com/helidon-io/helidon)：Helidon是一组用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
-* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包。
-* [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
-* [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
-* [ServiceTalk](https://github.com/apple/servicetalk)：ServiceTalk是一个JVM网络应用程序框架，具有针对特定协议(例如HTTP/1.x、HTTP/2.x等)定制的API，并支持多种编程范例，由Apple开源。
-* [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案。
-* [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：Apache ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
-* [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
-* [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
-* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务，并提供用于常见问题的库，例如服务端点、缓存、队列、持久性、分布式租赁和集群。
-* [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
-* [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架，由Lightbend开源。
-* [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
-* [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
-* [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
-* [Apache JClouds](https://github.com/apache/jclouds)：Apache JClouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
-* [WSO2 Microservices Framework](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
-* [NutzBoot](https://github.com/nutzam/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、服务治理、负载均衡、Hystrix、RPC等解决方案。
-* [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架。
-* [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
-* [ActiveJ](https://github.com/activej/activej)：适用于现代Web、云、高负载和微服务解决方案的Java框架。
-* [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
-* [Dapeng-SOA](https://github.com/dapeng-soa/dapeng-soa)：Dapeng-SOA是一个轻量级、高性能的微服务框架，构建在Netty以及定制的精简版Thrift之上，大鹏开源。
-* [Redkale](https://gitee.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
-* [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
-* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
-* [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
-* [Fusion](https://github.com/yupiik/fusion)：Fusion框架旨在提供一个非常轻量级的Java框架和Graal Native。
-* [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
-* [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
-* [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
-* [Worker Framework](https://github.com/WorkerFramework/worker-framework)：Worker Framework为跨平台、云就绪、分布式数据处理微服务提供了基础。
-
-## Spring Cloud生态
-
 * [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：该项目通过自动配置和绑定到Spring Environment和其他Spring编程模型习惯用法，为Spring Boot应用程序提供Netflix OSS集成。
 * [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：Spring Cloud Alibaba为分布式应用开发提供一站式解决方案。
 * [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp)：Spring Cloud GCP项目使Spring Framework成为Google Cloud Platform(GCP)的一等公民。
@@ -739,7 +700,37 @@ permalink: /javalibs
 * [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei)：Spring Cloud Huawei是一个让使用Spring Cloud开发微服务变得更加简单和高效的框架。
 * [Spring Cloud Formula](https://gitee.com/baidu/spring-cloud-formula)：基于Spring Boot兼容Spring Cloud生态开发的微服务框架，是百度云CNAP(Cloud-Native Application Platform)的面向客户提供的Java微服务框架设施。
 * [Spring Cloud OCI](https://github.com/oracle/spring-cloud-oci)：Spring Cloud OCI在内部OCI Java SDK的帮助下简化了与OCI服务的集成，Oracle开源。
-* [Spring Cloud Services Starters](https://github.com/pivotal-cf/spring-cloud-services-starters)：Spring Cloud Services Starters是一组精选的依赖项，可在Pivotal Cloud Foundry环境中与Spring Cloud Services一起使用。
+* [Apache Dubbo](https://github.com/apache/dubbo)：Apache Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
+* [Jakarta EE](https://jakarta.ee/)：Jakarta EE为开发人员提供了一套全面的供应商中立的开放规范，用于从头开始开发现代云原生Java应用程序。
+* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：Micronaut是一个基于JVM的现代全栈Java框架，旨在构建模块化、易于测试的JVM应用程序，由Object Computing开源。
+* [Quarkus](https://github.com/quarkusio/quarkus)：Quarkus是一个用于编写Java应用程序的云原生容器优先框架，由RedHat开发。
+* [Helidon](https://github.com/helidon-io/helidon)：Helidon是一组用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
+* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包。
+* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
+* [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
+* [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
+* [ServiceTalk](https://github.com/apple/servicetalk)：ServiceTalk是一个JVM网络应用程序框架，具有针对特定协议(例如HTTP/1.x、HTTP/2.x等)定制的API，并支持多种编程范例，由Apple开源。
+* [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案。
+* [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：Apache ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
+* [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
+* [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
+* [Lagom](https://github.com/lagom/lagom)：JVM平台上的响应式微服务框架，由Lightbend开源。
+* [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
+* [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
+* [WSO2 Microservices Framework](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
+* [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
+* [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架。
+* [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
+* [ActiveJ](https://github.com/activej/activej)：ActiveJ是适用于现代Web、云、高负载和微服务的Java 框架。
+* [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
+* [Dapeng SOA](https://github.com/dapeng-soa/dapeng-soa)：Dapeng SOA是一个轻量级、高性能的微服务框架，构建在Netty以及定制的精简版Thrift之上，大鹏开源。
+* [Redkale](https://gitee.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
+* [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
+* [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
+* [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
+* [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
+* [Worker Framework](https://github.com/WorkerFramework/worker-framework)：Worker Framework为跨平台、云就绪、分布式数据处理微服务提供了基础。
 
 ## 微服务工具
 
@@ -748,6 +739,7 @@ permalink: /javalibs
 * [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [Femas](https://github.com/TencentFemas/femas)：Femas是腾讯云开源的云原生微服务一站式管理平台。
 * [Moss](https://github.com/GrailStack/Moss)：Moss是Spring Cloud体系的服务治理平台。
+* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
 * [Blade-Tool](https://github.com/chillzhuang/blade-tool)：Spring Blade 3.0架构核心工具包。
 * [Conjure](https://github.com/palantir/conjure)：Conjure是一个简单的工具链，用于定义一次API并生成多种语言的客户端/服务器接口，由Palantir开源。
 * [GreenLightning](https://github.com/oci-pronghorn/GreenLightning)：高性能微服务运行时。
@@ -1548,10 +1540,12 @@ permalink: /javalibs
 ## 云原生
 
 * [Spring Cloud Kubernetes](https://github.com/spring-cloud/spring-cloud-kubernetes)：Spring Cloud Kubernetes提供了消费Kubernetes原生服务的Spring Cloud通用接口实现。
+* [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
 * [Buildpacks](https://buildpacks.io)：Buildpacks可以将应用程序源代码转换为可以在任何云上运行的镜像。
 * [LINSTOR](https://github.com/LINBIT/linstor-server)：LINSTOR由LINBIT开发，是一款开源软件，用于管理一组计算机上的复制卷。
 * [Mendmix](https://gitee.com/dromara/mendmix-cloud)：Mendmix是一站式分布式开发架构开源解决方案及云原生架构技术底座，由dromara社区开源。
 * [DataSophon](https://github.com/datavane/datasophon)：DataSophon是新一代云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台。
+* [Apache JClouds](https://github.com/apache/jclouds)：Apache JClouds是一个适用于Java平台的开源多云工具包，可让你自由地创建可跨云移植的应用程序，同时让你完全控制使用特定于云的功能。
 * [Kogito](https://github.com/apache/incubator-kie-kogito-runtimes)：Kogito是专注于云原生开发、部署和执行的下一代业务自动化平台。
 * [JEAF](https://anaptecs.atlassian.net/wiki/spaces/JEAF/overview)：JEAF是一组框架、库和工具，支持开发基于Java的轻量级云原生企业应用程序。
 * [Micro Integrator](https://github.com/wso2/micro-integrator)：Micro Integrator是WSO2 Enterprise Integrator(EI)的集成运行时，后者是一个开源混合集成平台。
@@ -1579,8 +1573,8 @@ permalink: /javalibs
 
 * [Apache EventMesh](https://github.com/apache/eventmesh)：Apache EventMesh是新一代Serverless事件中间件，用于构建分布式事件驱动应用程序，由微众银行开源。
 * [Kotless](https://github.com/JetBrains/kotless)：Kotlin Serverless框架，由JetBrains开源。
+* [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式，由蚂蚁开源。
 * [Powertools Lambda Java](https://github.com/aws-powertools/powertools-lambda-java)：Powertools是一个开发工具包，用于实现Serverless最佳实践并提高开发人员速度。
-* [SOFAServerless](https://github.com/sofastack/sofa-serverless)：SOFAServerless是一种模块化的应用架构模式，能够帮助大中小企业低成本地实现极速研发、运维、微服务演进和人员协作，从而为企业实现降本增效，由蚂蚁开源。
 * [Serverless Java Container](https://github.com/awslabs/aws-serverless-java-container)：Serverless Java Container让你可以在AWS Lambda中轻松运行使用Spring、Spring Boot、Apache Struts、Jersey或Spark等框架编写的Java应用程序。
 * [Spring Cloud Function](https://github.com/spring-cloud/spring-cloud-function)：基于Spring Boot的函数计算框架。
 * [Apache OpenWhisk](https://github.com/apache/openwhisk)：OpenWhisk是一个用于构建云应用程序的Serverless函数平台，由IBM开源。
@@ -1591,7 +1585,6 @@ permalink: /javalibs
 * [Cloudstate](https://github.com/cloudstateio/cloudstate)：Cloudstate是一个开源协议和参考实现，探索有状态无服务器的想法，最初由Lightbend开发。
 * [Functions Framework Java](https://github.com/GoogleCloudPlatform/functions-framework-java)：用于编写可移植Java函数的开源FaaS框架，由Google Cloud Functions团队提供。
 * [SwimOS](https://github.com/swimos/swim)：SwimOS是一个全栈应用程序平台，用于构建有状态的Web服务、流API和实时UI。
-* [Koupleless](https://github.com/koupleless/koupleless)：Koupleless是一种模块化的Serverless技术解决方案，它能让普通应用以比较低的代价演进为Serverless研发模式。
 * [Blox](https://github.com/blox/blox)：Blox提供针对在Amazon ECS上运行应用程序进行优化的开源调度程序，由Amazon开源。
 * [FDK Java](https://github.com/fnproject/fdk-java)：Java函数开发工具包可以轻松构建Java函数并将其部署到Fn，默认完全支持Java 11+。
 
@@ -1729,6 +1722,7 @@ permalink: /javalibs
 * [Cat](https://github.com/dianping/cat)：CAT是基于Java开发的实时应用监控平台，为美团点评提供了全面的实时监控告警服务。
 * [Brave](https://github.com/openzipkin/brave)：Brave是一个分布式跟踪仪器库。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：Pinpoint是一个用Java编写的大型分布式系统的APM工具，由韩国Naver研发团队开源。
+* [Apache HTrace](https://github.com/apache/incubator-retired-htrace)：HTrace是一个用于分布式系统的跟踪框架，由Cloudera开源。
 * [Spring Cloud Sleuth](https://github.com/spring-cloud/spring-cloud-sleuth)：Spring Cloud Sleuth为分布式跟踪提供Spring Boot自动配置。
 * [ApplicationInsights](https://github.com/microsoft/ApplicationInsights-Java)：Java应用程序洞察工具，由微软开源。
 * [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java)：OpenTelemetry Java SDK。
@@ -1955,6 +1949,7 @@ permalink: /javalibs
 * [Secor](https://github.com/pinterest/secor)：Secor是一项将Kafka日志持久保存到Amazon S3、Google Cloud Storage、Microsoft Azure Blob Storage和Openstack Swift的服务，由Pinterest开源。
 * [DataBand](https://gitee.com/475660/databand)：轻量级一站式大数据分析平台。
 * [Big Whale](https://gitee.com/meetyoucrop/big-whale)：美柚大数据研发的分布式计算任务调度系统，提供Spark、Flink等批处理任务的DAG调度和流处理任务的运行管理和状态监控，并具有Yarn应用管理、重复应用检测、大内存应用检测等功能。
+* [Apache Fluo](https://github.com/apache/fluo)：Apache Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，Google Percolator的开源实现。
 * [DataCap](https://github.com/devlive-community/datacap)：DataCap是用于数据转换、集成和可视化的集成软件，由Devlive社区开源。
 * [Fili](https://github.com/yahoo/fili)：Fili是一个基于Java的框架，可以轻松构建和维护用于时间序列报告和分析的RESTful Web服务，由Yahoo开源。
 * [DBus](https://github.com/BriData/DBus)：DBus专注于数据的收集及实时数据流计算，通过简单灵活的配置，无侵入的方式对源端数据进行采集。
@@ -2003,6 +1998,7 @@ permalink: /javalibs
 * [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
 * [Apache Gluten](https://github.com/apache/incubator-gluten)：Gluten是一个中间层，负责将基于JVM的SQL引擎的执行卸载到本机引擎，由Intel和Kyligence开源。
 * [Maha](https://github.com/yahoo/maha)：快速报告API开发的框架，开箱即用地支持Druid的高基数维度查找，由Yahoo开源。
+* [Hydra](https://github.com/addthis/hydra)：Hydra是最初由AddThis开发的分布式数据处理和存储系统。
 * [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)：Apache DataFusion Comet是一个Apache Spark插件，它使用Apache DataFusion作为本机运行时，以实现查询效率和查询运行时方面的改进，由Apple开源。
 * [XL-LightHouse](https://github.com/xl-xueling/xl-lighthouse)：XL-LightHouse是一套支持超大数据量、支持超高并发的通用型流式大数据统计系统。
 * [Conquery](https://github.com/ingef/conquery)：Conquery是一个强大的基于Web的工具，用于针对大型事件类数据集编写和执行查询。
@@ -2254,33 +2250,26 @@ permalink: /javalibs
 
 ## 分布式组件
 
-* [Oracle Coherence Community Edition](https://github.com/oracle/coherence)：Coherence是一个可扩展、容错、云就绪的分布式平台，用于构建基于网格的应用程序并可靠地存储数据，由Oracle开源。
+* [Oracle Coherence](https://github.com/oracle/coherence)：Coherence是一个可扩展、容错、云就绪的分布式平台，用于构建基于网格的应用程序并可靠地存储数据，由Oracle开源。
 * [Brooklin](https://github.com/linkedin/brooklin)：Brooklin是一个分布式系统，旨在在各种异构源和目标系统之间流式传输数据，具有高可靠性和大规模吞吐量，由LinkedIn开发。
 * [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
-* [Dynein](https://github.com/airbnb/dynein)：Airbnb开源的分布式延迟作业排队系统。
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
-* [Concourse](https://github.com/cinchapi/concourse)：Concourse是一个分布式数据库仓库，用于跨时间的事务搜索和分析。
-* [Onyx](https://github.com/onyx-platform/onyx)：分布式、无主、高性能、容错数据处理。
-* [Apache Fluo](https://github.com/apache/fluo)：一个分布式处理系统，允许用户对大型数据集进行增量更新，谷歌Percolator的开源实现。
-* [XXL-DEEP](https://github.com/xuxueli/xxl-deep)：分布式企业开发平台，提供整套开箱即用的基础模块。
+* [Onyx](https://github.com/onyx-platform/onyx)：Onyx是一个无主、云规模、容错、高性能分布式计算系统。
 * [Redis Session Manager](https://github.com/jcoleman/tomcat-redis-session-manager)：Session管理器实现，将Session存储在Redis中，以便在Tomcat服务器集群中轻松分发请求。
-* [dCache](https://github.com/dCache/dcache)：dCache是一个用于存储和检索大量数据的系统，这些数据分布在大量异构服务器节点中，在具有多种标准访问方法的单个虚拟文件系统树下。
-* [Octobot](https://github.com/cscotta/Octobot)：专为吞吐量、并行性和集群而设计的分布式任务队列工作线程。
-* [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库。
+* [Octobot](https://github.com/cscotta/Octobot)：Octobot是一款任务队列工作程序，旨在实现可靠性、易用性和吞吐量。
+* [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库，由SCIPR实验室开源。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
-* [Dempsy](https://github.com/Dempsy/dempsy)：分布式弹性消息处理系统。
+* [Dempsy](https://github.com/Dempsy/dempsy)：Dempsy是一个用于轻松编写分布式和动态可扩展应用程序的框架。
+* [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis、Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
 * [Redis Session Manager](https://github.com/chexagon/redis-session-manager)：Tomcat 8会话管理器通过持久化到Redis提供会话复制。
-* [Apache HTrace](https://github.com/apache/incubator-retired-htrace)：HTrace是一个用于分布式系统的跟踪框架，由Cloudera开源。
 * [DSLabs](https://github.com/emichael/dslabs)：DSLabs是一个用于创建、测试、模型检查、可视化和调试分布式系统实验室作业的新框架，由华盛顿大学开发。
-* [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象(存储为简单的字节数组)分布在集群节点之间进行分布式处理。
+* [Galaxy](https://github.com/puniverse/galaxy)：Galaxy是一个内存数据网格，它的主要功能是将数据对象分布在集群节点之间进行分布式处理。
 * [Distributor](https://gitee.com/HappyChicken/Distributor)：Distributor基于Redis实现常用的分布式组件，简单、可靠、开箱即用。
-* [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis + Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
 * [COMP Superscalar](https://github.com/bsc-wdc/compss)：COMP Superscalar(COMPS)是一种编程模型，旨在简化分布式基础设施(例如集群、网格和云)的应用程序开发，由巴塞罗那超级计算中心开源。
-* [UNICORE](https://www.unicore.eu/)：UNICORE提供了一个可立即运行的系统，使分布式计算和数据资源能够在内联网和互联网上以无缝且安全的方式可用。
+* [UNICORE](https://www.unicore.eu/)：UNICORE是一个用于构建联合系统的软件套件，提供对高性能计算和数据资源的安全、无缝访问，由于利希研究中心开发。
 * [Imhotep](https://github.com/indeedeng/imhotep)：Imhotep是Indeed打造的大型分析平台。
 * [Drasyl](https://github.com/drasyl/drasyl)：Drasyl是一个用于快速开发分布式应用程序的高性能框架，由汉堡大学开源。
-* [Hydra](https://github.com/addthis/hydra)：Hydra是最初由AddThis开发的分布式数据处理和存储系统。
 
 ## 分布式锁
 
@@ -2445,6 +2434,7 @@ permalink: /javalibs
 * [BBoxDB](https://github.com/jnidzwetzki/bboxdb)：BBoxDB是一个高可用的分布式存储管理器，旨在处理多维大数据。
 * [CurioDB](https://github.com/stephenmcd/curiodb)：CurioDB是一个分布式持久Redis克隆，使用Scala和Akka构建。
 * [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
+* [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
 
 #### 时序数据库
 
@@ -2519,6 +2509,7 @@ permalink: /javalibs
 * [Lealone](https://github.com/lealone/Lealone)：Lealone是一个高性能的面向OLTP场景的关系数据库，由阿里开源。
 * [DingoDB](https://github.com/dingodb/dingo)：DingoDB是一个分布式多模态向量数据库，它结合了数据湖和矢量数据库的功能，允许存储任何类型的数据，由九章云极开源。
 * [ToroDB](https://github.com/torodb/server)：ToroDB Server是一个运行在RDBMS之上的开源NoSQL数据库。
+* [Concourse](https://github.com/cinchapi/concourse)：Concourse是一个分布式数据库仓库，用于跨时间的事务搜索和分析，由Cinchapi开源。
 * [ElephantDB](https://github.com/nathanmarz/elephantdb)：ElephantDB是一个专门从Hadoop导出键/值数据的数据库。
 * [Elassandra](https://github.com/strapdata/elassandra)：Elassandra是一个Apache Cassandra发行版，包括Elasticsearch搜索引擎。
 * [Sensei](https://github.com/LinkedInAttic/sensei)：Sensei是一个分布式、弹性的实时可搜索数据库，由LinkedIn开源。
@@ -2650,6 +2641,7 @@ permalink: /javalibs
 * [TChannel](https://github.com/uber/tchannel-java)：TChannel协议的Java实现，由Uber开源。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
+* [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [NettyRPC](https://github.com/luxiaoxun/NettyRpc)：NettyRpc是一个基于Netty、ZooKeeper和Spring的简单RPC框架。
 * [Koalas RPC](https://gitee.com/dromara/koalas-rpc)：dromara社区开源的高可用、可拓展的RPC框架。
 * [Kotlinx RPC](https://github.com/Kotlin/kotlinx-rpc)：Kotlinx RPC是一个Kotlin库，用于向应用程序添加RPC服务，由JetBrains开源。
@@ -3023,7 +3015,7 @@ permalink: /javalibs
 * [JSON Schema Generator](https://github.com/victools/jsonschema-generator)：用于从Java类创建JSON模式(Draft 6、Draft 7、Draft 2019-09或Draft 2020-12)。
 * [JSON-Flattener](https://github.com/wnameless/json-flattener)：旨在扁平化嵌套的JSON对象，甚至可以将它们恢复扁平化。
 * [JSLT](https://github.com/schibsted/jslt)：JSLT是一种完整的JSON查询和转换语言，语言设计的灵感来自jq、XPath和XQuery。
-* [ZJSONPatch](https://github.com/flipkart-incubator/zjsonpatch)：这是用Java编写的RFC 6902 JSON Patch的实现。
+* [ZJSONPatch](https://github.com/flipkart-incubator/zjsonpatch)：这是用Java编写的RFC 6902 JSON Patch的实现，由Flipkart开源。
 * [JMESPath-Java](https://github.com/burtcorp/jmespath-java)：这是JMESPath的Java实现。
 * [JSON-Data-Generator](https://github.com/everwatchsolutions/json-data-generator)：一个强大的、通用的、流式随机JSON数据生成器。
 * [BSON4Jackson](https://github.com/michel-kraemer/bson4jackson)：该库向Jackson JSON处理器添加了对BSON的支持。
@@ -3248,6 +3240,7 @@ permalink: /javalibs
 * [SchedulerX](https://www.aliyun.com/aliware/schedulerx)：SchedulerX是阿里自研的基于Akka架构的分布式任务调度平台，支持Cron定时、一次性任务、任务编排、分布式数据处理，具有高可用、可视化、可运维、低延时等能力。
 * [ShedLock](https://github.com/lukas-krecan/ShedLock)：ShedLock确保你的计划任务最多同时执行一次。
 * [DisJob](https://github.com/dromara/disjob)：DisJob是一款分布式的任务调度及分布式计算框架，由dromara社区开源。
+* [Dynein](https://github.com/airbnb/dynein)：Dynein是Airbnb的开源分布式延迟作业排队系统。
 * [Saturn](https://github.com/vipshop/Saturn)：Saturn是唯品会打造的一个提供分布式、容错、高可用的作业调度服务的平台。
 * [Cron Utils](https://github.com/jmrozanec/cron-utils)：Cron-Utils是一个Java库，用于定义、解析、验证、迁移cron以及获取人类可读的描述。
 * [Apache Aurora](https://github.com/apache/aurora)：Apache Aurora允许你使用Apache Mesos集群作为私有云，它支持运行长时间运行的服务、cron作业和临时任务。
@@ -3317,6 +3310,18 @@ permalink: /javalibs
 * [JadConfig](https://github.com/Graylog2/JadConfig)：JadConfig是一个最小依赖的Java的简约注解驱动配置解析框架。
 * [Sjsonnet](https://github.com/databricks/sjsonnet)：Jsonnet配置语言的JVM实现，由Databricks开源。
 
+## 功能切换
+
+* [Togglz](https://github.com/togglz/togglz)：Togglz是Java功能切换模式的实现。
+* [FeatureProbe](https://github.com/FeatureProbe/FeatureProbe)：FeatureProbe是一项开源功能管理服务，由滴滴开发。
+* [FF4j](https://github.com/ff4j/ff4j)：FF4j是功能切换模式的实现。
+* [Piranha](https://github.com/uber/piranha)：Piranha是一个轻量级代码转换工具集，用于自动化大规模更改，由Uber开源。
+* [FeatureHub](https://github.com/featurehub-io/featurehub)：FeatureHub是一个云原生平台，可帮助软件团队管理其功能，从功能标记到A/B实验以及远程或集中配置。
+* [Unleash Java](https://github.com/Unleash/unleash-client-java)：适用于Java的Unleash客户端SDK。
+* [LaunchDarkly Java](https://github.com/launchdarkly/java-server-sdk)：LaunchDarkly是一个功能管理平台，每天提供数万亿个功能标记，帮助团队更快地构建更好的软件。
+* [OpenFeature](https://github.com/open-feature/java-sdk)：OpenFeature是一个开放规范，为功能标记提供与供应商无关、社区驱动的API，可与你最喜欢的功能标记管理工具配合使用。
+* [Split Java](https://github.com/splitio/java-client)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
+
 ## 业务流
 
 * [Camunda](https://github.com/camunda/camunda-bpm-platform)：Camunda Platform是一个灵活的工作流程和流程自动化框架，其核心是在JVM内运行的原生BPMN 2.0流程引擎。
@@ -3372,6 +3377,7 @@ permalink: /javalibs
 * [Automatiko](https://github.com/automatiko-io/automatiko-engine)：Automatiko是一个工具包，它利用成熟且已知的语言来构建自包含服务。
 * [Kstry](https://gitee.com/kstry/kstry-core)：Kstry可以将原本存在于代码中错综复杂的方法调用关系以可视化流程图的形式更直观的展示出来。
 * [Application Engine](https://github.com/netgrif/application-engine)：Application Engine是一个完全支持低代码语言Petriflow的工作流管理系统。
+* [Flux](https://github.com/flipkart-incubator/flux)：Flux是一个异步、可扩展、可选的多租户、分布式且可靠的基于状态机的编排器，由Flipkart开源。
 
 ## 规则引擎
 
@@ -3530,7 +3536,7 @@ permalink: /javalibs
 * [H2O](https://github.com/h2oai/h2o-3)：H2O是一个用于分布式、可扩展机器学习的内存平台。
 * [Apache Submarine](https://github.com/apache/submarine)：Apache Submarine是一个端到端机器学习平台，允许数据科学家创建端到端机器学习工作流程。
 * [GROBID](https://github.com/kermitt2/grobid)：GROBID是一个机器学习库，用于提取、解析PDF等原始文档并将其重新构建为结构化XML/TEI编码文档，重点关注技术和科学出版物。
-* [EasyML](https://github.com/ICT-BDA/EasyML)：EasyML是一种基于数据流的通用系统，可简化将机器学习算法应用于现实世界任务的过程。
+* [EasyML](https://github.com/ICT-BDA/EasyML)：EasyML是一种基于数据流的通用系统，可简化将机器学习算法应用于现实世界任务的过程，由中科大数据研究院开源。
 * [DeepDive](https://github.com/HazyResearch/deepdive)：斯坦福大学开发的信息抽取系统。
 * [Oryx 2](https://github.com/OryxProject/oryx)：Apache Spark、Apache Kafka上的Lambda架构，用于实时大规模机器学习。
 * [Seldon](https://github.com/SeldonIO/seldon-server)：基于Kubernetes构建的机器学习平台和推荐引擎。
@@ -5407,6 +5413,7 @@ permalink: /javalibs
 * [Source-Vue](https://gitee.com/open-source-byte/source-vue)：基于Spring Boot + Vue前后端分离的Java快速开发框架。
 * [Pangu](https://gitee.com/pulanos/pangu-framework)：盘古开发框架是一套轻量稳健的工业级前、中、后台三维多端行业数字化赋能开发基座。
 * [Sa-plus](https://gitee.com/click33/sa-plus)：Sa-plus是一个基于Spring Boot的快速开发框架，内置代码生成器。
+* [XXL-DEEP](https://github.com/xuxueli/xxl-deep)：XXL-DEEP是一个快速开发平台，核心目标是开发迅速、学习简单、能力丰富、开箱即用。
 * [JavaFX-Falsework](https://gitee.com/lwdillon/fx-falsework)：基于JavaFX、Spring Boot开发的客户端与服务端系统开发脚手架。
 * [XBoot](https://github.com/Exrick/xboot)：基于Spring Boot 2.x的一站式前后端分离快速开发平台。
 * [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：一个轻量级的快速开发平台，能快速开发项目并交付。
@@ -5427,6 +5434,7 @@ permalink: /javalibs
 
 ## 低代码
 
+* [APITable](https://github.com/apitable/apitable)：APITable是一个面向API的低代码平台，用于构建协作应用程序。
 * [JeeSite](https://gitee.com/thinkgem/jeesite4)：JeeSite快速开发平台，不仅仅是一个后台开发框架，它是一个企业级快速开发解决方案。
 * [Guns](https://gitee.com/stylefeng/guns)：Guns是一个现代化的Java应用开发框架，基于主流技术Spring Boot 2 + Vue 3。
 * [MakuBoot](https://gitee.com/makunet/maku-boot)：MakuBoot是采用Spring Boot 3.1、Spring Security 6.1、MybatisPlus等框架开发的一套Spring Boot低代码开发平台。
@@ -7122,7 +7130,6 @@ permalink: /javalibs
 * [Big Queue](https://github.com/bulldog2011/bigqueue)：基于内存映射文件的大、快速且持久的队列。
 * [Low GC MemBuffers](https://github.com/cowtowncoder/low-gc-membuffers)：用于创建内存循环缓冲区的库，该缓冲区使用直接ByteBuffer来最大限度地减少GC开销。
 * [LMDB JNI](https://github.com/deephacks/lmdbjni)：LMDB JNI为LMDB提供Java API，LMDB是Symas为OpenLDAP项目开发的超快速、超紧凑的键值嵌入式数据存储。
-* [Stream Lib](https://github.com/addthis/stream-lib)：一个Java库，用于汇总无法存储所有事件的流中的数据。
 * [Trie4J](https://github.com/takawitter/trie4j)：Trie4J是各种trie实现的排序集合。
 * [CuckooFilter4J](https://github.com/MGunlogson/CuckooFilter4J)：Cuckoo过滤器的高性能Java实现。
 * [HyperMinHash-Java](https://github.com/LiveRamp/HyperMinHash-java)：用于计算对数空间中的并集、交集和集合基数的概率数据结构。
@@ -7169,6 +7176,7 @@ permalink: /javalibs
 ## 算法库
 
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，TLA+Toolbox是TLA+的IDE。
+* [Stream Lib](https://github.com/addthis/stream-lib)：Stream Lib是一个用于汇总无法存储所有事件的流中数据的Java库，由AddThis开源。
 * [Hashids.java](https://github.com/yomorun/hashids-java)：Hashids算法Java实现。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho-Corasick算法的极快实现。
 * [Apache DataSketches](https://github.com/apache/datasketches-java)：Yahoo开源的随机流算法软件库。
@@ -7360,6 +7368,7 @@ permalink: /javalibs
 ## QA系统
 
 * [TDuck](https://gitee.com/TDuckApp/tduck-platform)：TDuck是国内首批基于Vue开源的问卷/表单收集工具。
+* [XIAOJUSURVEY](https://github.com/didi/xiaoju-survey)：XIAOJUSURVEY是一套轻量、安全的问卷系统，滴滴开源。
 * [QuestionAnsweringSystem](https://github.com/ysc/QuestionAnsweringSystem)：QuestionAnsweringSystem是一个Java实现的人机问答系统，能够自动分析问题并给出候选答案，这是IBM Watson的Java开源实现。
 * [Qanary](https://github.com/WDAqua/Qanary)：Qanary是一种创建问答系统的方法。
 * [YodaQA](https://github.com/brmson/yodaqa)：YodaQA是一个开源Factoid问答系统，可以使用即时信息提取从数据库和文本语料库中生成答案。
@@ -7582,6 +7591,7 @@ permalink: /javalibs
 
 * [HDFS](https://github.com/apache/hadoop)：Apache Hadoop软件库是一个框架，允许使用简单的编程模型跨计算机集群分布式处理大型数据集，由Yahoo开源。
 * [Jimfs](https://github.com/google/jimfs)：Jimfs是Java 8及更高版本的内存文件系统，实现了java.nio.file抽象文件系统API，由Google开源。
+* [DCache](https://github.com/dCache/dcache)：DCache是一个用于存储和检索分布在大量异构服务器节点中数据的系统，由费米实验室、德国电子加速器、北欧数据网格设施共同开源。
 * [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统，由柏林自由大学开源。
 * [Memory File System](https://github.com/marschall/memoryfilesystem)：用于测试目的的JSR-203文件系统的内存实现。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
@@ -8336,17 +8346,6 @@ permalink: /javalibs
 * [Graceful Response](https://github.com/feiniaojin/graceful-response)：Graceful Response是一个Spring Boot技术栈下的优雅响应处理器，提供一站式统一返回值封装、全局异常处理、自定义异常错误码等功能。
 * [Maybe](https://github.com/JoseLion/maybe)：Maybe是一个类似于java.util.Optional的单子包装器，但意图不同。
 * [Result](https://github.com/leakyabstractions/result)：该库的目的是为可能成功或失败的操作结果提供类型安全的封装，而不是抛出异常。
-
-## 功能切换
-
-* [Togglz](https://github.com/togglz/togglz)：Togglz是Java功能切换模式的实现。
-* [FF4j](https://github.com/ff4j/ff4j)：Java中功能切换模式的实现。
-* [FeatureHub](https://github.com/featurehub-io/featurehub)：FeatureHub是一个云原生平台，可帮助软件团队管理其功能，从功能标记到A/B实验以及远程或集中配置。
-* [Unleash Java Client](https://github.com/Unleash/unleash-client-java)：适用于Java的Unleash客户端SDK。
-* [LaunchDarkly Java SDK](https://github.com/launchdarkly/java-server-sdk)：LaunchDarkly是一个功能管理平台，每天提供数万亿个功能标记，帮助团队更快地构建更好的软件。
-* [Piranha](https://github.com/uber/piranha)：用于重构与功能标志API相关的代码的工具，由Uber开源。
-* [OpenFeature](https://github.com/open-feature/java-sdk)：OpenFeature是一个开放规范，为功能标记提供与供应商无关、社区驱动的API，可与你最喜欢的功能标记管理工具配合使用。
-* [Split Java SDK](https://github.com/splitio/java-client)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
 
 ## 表情处理
 
