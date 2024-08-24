@@ -15,438 +15,451 @@ permalink: /javalibs
 
 ## 目录
 
-- [Web框架](#Web框架)
-- [JSF框架](#JSF框架)
-- [REST框架](#REST框架)
-- [ORM框架](#ORM框架)
-- [持久层库](#持久层库)
-- [Mybatis生态](#Mybatis生态)
-- [应用框架](#应用框架)
-- [微服务框架](#微服务框架)
-- [微服务工具](#微服务工具)
-- [单元测试](#单元测试)
-- [集成测试](#集成测试)
-- [接口测试](#接口测试)
-- [功能测试](#功能测试)
-- [突变测试](#突变测试)
-- [模糊测试](#模糊测试)
-- [性能测试](#性能测试)
-- [属性测试](#属性测试)
-- [A/B测试](#AB测试)
-- [验收测试](#验收测试)
-- [回归测试](#回归测试)
-- [契约测试](#契约测试)
-- [渗透测试](#渗透测试)
-- [快照测试](#快照测试)
-- [黑盒&白盒测试](#黑盒白盒测试)
-- [断言库](#断言库)
-- [Mock框架](#Mock框架)
-- [Mock工具](#Mock工具)
-- [测试数据生成器](#测试数据生成器)
-- [BDD框架](#BDD框架)
-- [测试生成器](#测试生成器)
-- [Selenium生态](#Selenium生态)
-- [自动化框架](#自动化框架)
-- [测试报告](#测试报告)
-- [QA自动化](#QA自动化)
-- [自动化工具](#自动化工具)
-- [多线程测试](#多线程测试)
-- [JUnit扩展](#JUnit扩展)
-- [其他测试库](#其他测试库)
-- [代码覆盖率](#代码覆盖率)
-- [构建工具](#构建工具)
-- [包管理器](#包管理器)
-- [CI/CD](#CICD)
-- [发布工具](#发布工具)
-- [Java环境管理](#Java环境管理)
-- [JDK](#JDK)
-- [JVM语言](#JVM语言)
-- [JVM实现](#JVM实现)
-- [IDE](#IDE)
-- [项目管理](#项目管理)
-- [原型工具](#原型工具)
-- [云原生](#云原生)
-- [云计算](#云计算)
-- [Serverless](#Serverless)
-- [容器化工具](#容器化工具)
-- [Docker客户端](#Docker客户端)
-- [DevOps](#DevOps)
-- [云服务](#云服务)
-- [APM](#APM)
-- [分布式追踪](#分布式追踪)
-- [指标报告](#指标报告)
-- [注册中心](#注册中心)
-- [容错组件](#容错组件)
-- [混沌工程](#混沌工程)
-- [流量回放](#流量回放)
-- [API网关](#API网关)
-- [大数据框架](#大数据框架)
-- [大数据工具](#大数据工具)
-- [大数据组件](#大数据组件)
-- [数据可视化](#数据可视化)
-- [数据目录](#数据目录)
-- [流处理平台](#流处理平台)
-- [图处理](#图处理)
-- [ETL工具](#ETL工具)
-- [CDC组件](#CDC组件)
-- [Notebook](#Notebook)
-- [数据库中间件](#数据库中间件)
-- [数据湖框架](#数据湖框架)
-- [消息中间件](#消息中间件)
-- [Kafka生态](#Kafka生态)
-- [分布式组件](#分布式组件)
-- [分布式锁](#分布式锁)
-- [分布式事务](#分布式事务)
-- [分布式ID](#分布式ID)
-- [搜索引擎](#搜索引擎)
-- [图数据库](#图数据库)
-- [键值存储](#键值存储)
-- [时序数据库](#时序数据库)
-- [嵌入式数据库](#嵌入式数据库)
-- [关系型数据库](#关系型数据库)
-- [NoSQL数据库](#NoSQL数据库)
-- [OLAP数据库](#OLAP数据库)
-- [对象数据库](#对象数据库)
-- [Datalog数据库](#Datalog数据库)
-- [其他数据库](#其他数据库)
-- [存储引擎](#存储引擎)
-- [数据库连接池](#数据库连接池)
-- [HTTP客户端](#HTTP客户端)
-- [RPC框架](#RPC框架)
-- [响应式](#响应式)
-- [WebServer](#WebServer)
-- [WebSocket](#WebSocket)
-- [Jakarta EE产品](#JakartaEE产品)
-- [工具库](#工具库)
-- [Bean映射&复制](#Bean映射复制)
-- [IoC](#IoC)
-- [AOP](#AOP)
-- [日志库](#日志库)
-- [JSON库](#JSON库)
-- [JsonPath](#JsonPath)
-- [缓存库](#缓存库)
-- [集合库](#集合库)
-- [协程库](#协程库)
-- [并发编程](#并发编程)
-- [Actor模型](#Actor模型)
-- [GraphQL](#GraphQL)
-- [任务调度](#任务调度)
-- [配置管理](#配置管理)
-- [功能切换](#功能切换)
-- [业务流](#业务流)
-- [规则引擎](#规则引擎)
-- [API管理](#API管理)
-- [反射库](#反射库)
-- [日期时间](#日期时间)
-- [人工智能](#人工智能)
-- [LLM](#LLM)
-- [LLM客户端](#LLM客户端)
-- [机器学习](#机器学习)
-- [自然语言处理](#自然语言处理)
-- [深度学习](#深度学习)
-- [遗传算法](#遗传算法)
-- [专家系统](#专家系统)
-- [约束求解](#约束求解)
-- [实体解析](#实体解析)
-- [数据科学](#数据科学)
-- [异常检测](#异常检测)
-- [商业智能](#商业智能)
-- [指纹识别](#指纹识别)
-- [推荐系统](#推荐系统)
-- [逻辑编程](#逻辑编程)
-- [多智能体](#多智能体)
-- [MATLAB](#MATLAB)
-- [Jupyter](#Jupyter)
-- [元启发式框架](#元启发式框架)
-- [机器人开发](#机器人开发)
-- [数学库](#数学库)
-- [本体库](#本体库)
-- [语义Web](#语义Web)
-- [知识图谱](#知识图谱)
-- [生物信息学](#生物信息学)
-- [基因组学](#基因组学)
-- [医疗平台](#医疗平台)
-- [化学领域](#化学领域)
-- [安全库](#安全库)
-- [安全工具](#安全工具)
-- [自保护](#自保护)
-- [身份认证和授权](#身份认证和授权)
-- [JWT库](#JWT库)
-- [OAuth库](#OAuth库)
-- [跨域身份管理](#跨域身份管理)
-- [加密库](#加密库)
-- [密码库](#密码库)
-- [加密算法](#加密算法)
-- [模板引擎](#模板引擎)
-- [诊断工具](#诊断工具)
-- [性能分析](#性能分析)
-- [GC日志分析](#GC日志分析)
-- [堆转储](#堆转储)
-- [线程转储](#线程转储)
-- [对象测量](#对象测量)
-- [火焰图](#火焰图)
-- [脚本](#脚本)
-- [CLI工具](#CLI工具)
-- [命令行参数解析](#命令行参数解析)
-- [SSH工具](#SSH工具)
-- [DNS、内网穿透和代理](#DNS内网穿透和代理)
-- [Git工具](#Git工具)
-- [函数式编程](#函数式编程)
-- [Stream工具库](#Stream工具库)
-- [字节码操作](#字节码操作)
-- [图像处理](#图像处理)
-- [计算机视觉](#计算机视觉)
-- [光学字符识别](#光学字符识别)
-- [SVG库](#SVG库)
-- [验证码](#验证码)
-- [压缩库](#压缩库)
-- [爬虫框架](#爬虫框架)
-- [批处理框架](#批处理框架)
-- [注解处理器](#注解处理器)
-- [字符串工具库](#字符串工具库)
-- [Java 9-22](#9-22特性)
-- [消息/事件总线](#消息事件总线)
-- [接口文档](#接口文档)
-- [技术文档](#技术文档)
-- [Javadoc](#Javadoc)
-- [PDF库](#PDF库)
-- [Excel库](#Excel库)
-- [CSV库](#CSV库)
-- [Word库](#Word库)
-- [Toml库](#Toml库)
-- [HTML库](#HTML库)
-- [XML库](#XML库)
-- [YML库](#YML库)
-- [文件库](#文件库)
-- [License库](#License库)
-- [Markdown库](#Markdown库)
-- [集群管理](#集群管理)
-- [静态分析](#静态分析)
-- [软件质量](#软件质量)
-- [编码规范](#编码规范)
-- [依赖分析](#依赖分析)
-- [污点分析](#污点分析)
-- [审计框架](#审计框架)
-- [代码属性图](#代码属性图)
-- [API变更管理](#API变更管理)
-- [源代码浏览器](#源代码浏览器)
-- [脚手架](#脚手架)
-- [低代码](#低代码)
-- [Data API](#DataAPI)
-- [POS](#POS)
-- [业务](#业务)
-- [电商](#电商)
-- [支付](#支付)
-- [SDK](#SDK)
-- [微信开发](#微信开发)
-- [推送SDK](#推送SDK)
-- [API&客户端](#API客户端)
-- [中间件客户端](#中间件客户端)
-- [游戏服务器](#游戏服务器)
-- [即时通讯](#即时通讯)
-- [视频会议](#视频会议)
-- [FTP服务器](#FTP服务器)
-- [区块链](#区块链)
-- [以太坊](#以太坊)
-- [比特币](#比特币)
-- [物联网](#物联网)
-- [车联网](#车联网)
-- [嵌入式](#嵌入式)
-- [MQTT](#MQTT)
-- [金融](#金融)
-- [短信](#短信)
-- [DSL](#DSL)
-- [JMX](#JMX)
-- [RMI](#RMI)
-- [gRPC](#gRPC)
-- [Raft算法](#Raft算法)
-- [Paxos算法](#Paxos算法)
-- [对象池](#对象池)
-- [CQRS框架](#CQRS框架)
-- [DDD框架](#DDD框架)
-- [软件工程](#软件工程)
-- [设计模式](#设计模式)
-- [幂等处理](#幂等处理)
-- [数据字典](#数据字典)
-- [迁移&重构](#迁移重构)
-- [Bot](#Bot)
-- [安卓库](#安卓库)
-- [GUI框架](#GUI框架)
-- [Swing](#Swing)
-- [Swing主题库](#Swing主题库)
-- [Swing UI库](#SwingUI库)
-- [Swing组件库](#Swing组件库)
-- [Swing布局库](#Swing布局库)
-- [Swing选择器](#Swing选择器)
-- [Swing图表库](#Swing图表库)
-- [Swing测试库](#Swing测试库)
-- [JavaFX](#JavaFX)
-- [JavaFX主题库](#JavaFX主题库)
-- [JavaFX样式库](#JavaFX样式库)
-- [JavaFX组件库](#JavaFX组件库)
-- [JavaFX图表库](#JavaFX图表库)
-- [JavaFX图标库](#JavaFX图标库)
-- [JavaFX布局库](#JavaFX布局库)
-- [JavaFX渲染库](#JavaFX渲染库)
-- [浏览器](#浏览器)
-- [JavaFX小工具](#JavaFX小工具)
-- [GUI程序](#GUI程序)
-- [数学软件](#数学软件)
-- [UML工具](#UML工具)
-- [办公软件](#办公软件)
-- [数据库工具](#数据库工具)
-- [数据库建模](#数据库建模)
-- [字节码工具](#字节码工具)
-- [字节码混淆工具](#字节码混淆工具)
-- [游戏开发](#游戏开发)
-- [2D/3D渲染](#2D3D渲染)
-- [移动开发框架](#移动开发框架)
-- [JVM代理](#JVM代理)
-- [类加载](#类加载)
-- [RISC-V](#RISC-V)
-- [汇编](#汇编)
-- [LLVM](#LLVM)
-- [WebAssembly](#WebAssembly)
-- [JavaScript](#JavaScript)
-- [编译器&插件](#编译器插件)
-- [语言服务器](#语言服务器)
-- [数据库驱动](#数据库驱动)
-- [数据库迁移](#数据库迁移)
-- [数据源增强](#数据源增强)
-- [对象存储](#对象存储)
-- [音视频处理](#音视频处理)
-- [数据结构](#数据结构)
-- [基本类型](#基本类型)
-- [随机数生成器](#随机数生成器)
-- [堆外内存管理](#堆外内存管理)
-- [布隆过滤器](#布隆过滤器)
-- [算法库](#算法库)
-- [噪声库](#噪声库)
-- [原生开发](#原生开发)
-- [COM桥](#COM桥)
-- [GPU编程](#GPU编程)
-- [硬件操作](#硬件操作)
-- [运动规划](#运动规划)
-- [自动规划](#自动规划)
-- [操作系统](#操作系统)
-- [逆向工程](#逆向工程)
-- [电力系统](#电力系统)
-- [量子计算](#量子计算)
-- [QA系统](#QA系统)
-- [CMS系统](#CMS系统)
-- [ERP系统](#ERP系统)
-- [DMS系统](#DMS系统)
-- [SCRM系统](#SCRM系统)
-- [门户框架](#门户框架)
-- [教育软件](#教育软件)
-- [网络库](#网络库)
-- [网络工具](#网络工具)
-- [IP操作库](#IP操作库)
-- [状态机](#状态机)
-- [二维码生成器](#二维码生成器)
-- [文件系统](#文件系统)
-- [报表引擎](#报表引擎)
-- [物流系统](#物流系统)
-- [打包部署运行](#打包部署运行)
-- [地理空间](#地理空间)
-- [路由引擎](#路由引擎)
-- [几何学](#几何学)
-- [航空](#航空)
-- [水文学](#水文学)
-- [物理库](#物理库)
-- [无人机](#无人机)
-- [AIS库](#AIS库)
-- [跨语言](#跨语言)
-- [序列化](#序列化)
-- [IO操作](#IO操作)
-- [文件操作](#文件操作)
-- [文件上传](#文件上传)
-- [文件比较](#文件比较)
-- [邮件操作](#邮件操作)
-- [电子签名](#电子签名)
-- [安全培训](#安全培训)
-- [RSS](#RSS)
-- [SSE](#SSE)
-- [RPM](#RPM)
-- [EPC](#EPC)
-- [FMI](#FMI)
-- [OSGI](#OSGI)
-- [数控](#数控)
-- [数电](#数电)
-- [工业](#工业)
-- [海关](#海关)
-- [蓝牙](#蓝牙)
-- [校验](#校验)
-- [元编程](#元编程)
-- [分词器](#分词器)
-- [文本表](#文本表)
-- [语言库](#语言库)
-- [泛型库](#泛型库)
-- [国际化](#国际化)
-- [翻译库](#翻译库)
-- [字典库](#字典库)
-- [短链接](#短链接)
-- [单位库](#单位库)
-- [词法解析](#词法解析)
-- [形式验证](#形式验证)
-- [项目模板](#项目模板)
-- [印章生成](#印章生成)
-- [N+1问题](#N1问题)
-- [敏感词过滤](#敏感词过滤)
-- [正则表达式](#正则表达式)
-- [代码生成器](#代码生成器)
-- [目录服务](#目录服务)
-- [错误处理](#错误处理)
-- [表情处理](#表情处理)
-- [行为分析](#行为分析)
-- [ASCII艺术](#ASCII艺术)
-- [URL操作](#URL操作)
-- [WebRTC](#WebRTC)
-- [Expect库](#Expect库)
-- [JavaME](#JavaME)
-- [JavaCard](#JavaCard)
-- [WebService](#WebService)
-- [银行账号操作](#银行账号操作)
-- [用户代理解析](#用户代理解析)
-- [语义发布工具](#语义发布工具)
-- [数字信号处理](#数字信号处理)
-- [企业集成模式](#企业集成模式)
-- [数字资产管理](#数字资产管理)
-- [文档管理系统](#文档管理系统)
-- [数据匿名工具](#数据匿名工具)
-- [外部进程执行](#外部进程执行)
-- [苹果推送通知](#苹果推送通知)
-- [Java服务包装器](#Java服务包装器)
-- [守护进程](#守护进程)
-- [协议实现](#协议实现)
-- [BitTorrent](#BitTorrent)
-- [编解码](#编解码)
-- [Web资源](#Web资源)
-- [Web开发库](#Web开发库)
-- [手机号解析](#手机号解析)
-- [表达式引擎](#表达式引擎)
-- [数学表达式](#数学表达式)
-- [SQL解析器](#SQL解析器)
-- [对象图导航](#对象图导航)
-- [超媒体类型](#超媒体类型)
-- [术语服务器](#术语服务器)
-- [解析&转换](#解析转换)
-- [Minecraft](#Minecraft)
-- [Maven插件](#Maven插件)
-- [Gradle插件](#Gradle插件)
-- [Intellij插件](#Intellij插件)
-- [Spring生态](#Spring生态)
-- [其他](#其他)
-- [教程系列](#教程系列)
-- [Java教程](#Java教程)
-- [大数据教程](#大数据教程)
-- [Spring Boot教程](#Spring生态教程)
-- [算法和数据结构教程](#算法和数据结构教程)
-- [软件工程教程](#软件工程教程)
-- [其他技术教程](#其他技术教程)
-- [秒杀系统](#秒杀系统)
-- [源码分析](#源码分析)
-- [面试宝典](#面试宝典)
+* [Web框架()](#Web框架)
+* [JSF框架](#JSF框架)
+* [REST框架](#REST框架)
+* [ORM框架](#ORM框架)
+* [持久层库](#持久层库)
+* [Mybatis生态](#Mybatis生态)
+* [应用框架](#应用框架)
+* [微服务框架](#微服务框架)
+* [微服务工具](#微服务工具)
+* [测试](#测试)
+  * [单元测试](#单元测试)
+  * [集成测试](#集成测试)
+  * [接口测试](#接口测试)
+  * [功能测试](#功能测试)
+  * [突变测试](#突变测试)
+  * [模糊测试](#模糊测试)
+  * [性能测试](#性能测试)
+  * [属性测试](#属性测试)
+  * [A/B测试](#AB测试)
+  * [验收测试](#验收测试)
+  * [回归测试](#回归测试)
+  * [契约测试](#契约测试)
+  * [渗透测试](#渗透测试)
+  * [快照测试](#快照测试)
+  * [黑盒&白盒测试](#黑盒白盒测试)
+  * [断言库](#断言库)
+  * [Mock框架](#Mock框架)
+  * [Mock工具](#Mock工具)
+  * [测试数据生成器](#测试数据生成器)
+  * [BDD框架](#BDD框架)
+  * [测试生成器](#测试生成器)
+  * [Selenium生态](#Selenium生态)
+  * [自动化框架](#自动化框架)
+  * [测试报告](#测试报告)
+  * [QA自动化](#QA自动化)
+  * [自动化工具](#自动化工具)
+  * [多线程测试](#多线程测试)
+  * [JUnit扩展](#JUnit扩展)
+  * [其他测试库](#其他测试库)
+* [代码覆盖率](#代码覆盖率)
+* [构建工具](#构建工具)
+* [包管理器](#包管理器)
+* [CI/CD](#CICD)
+* [发布工具](#发布工具)
+* [Java环境管理](#Java环境管理)
+* [JDK](#JDK)
+* [JVM语言](#JVM语言)
+* [JVM实现](#JVM实现)
+* [IDE](#IDE)
+* [项目管理](#项目管理)
+* [原型工具](#原型工具)
+* [云原生](#云原生)
+* [云计算](#云计算)
+* [Serverless](#Serverless)
+* [容器化工具](#容器化工具)
+* [Docker客户端](#Docker客户端)
+* [DevOps](#DevOps)
+* [云服务](#云服务)
+* [APM](#APM)
+* [分布式追踪](#分布式追踪)
+* [指标报告](#指标报告)
+* [注册中心](#注册中心)
+* [容错组件](#容错组件)
+* [混沌工程](#混沌工程)
+* [流量回放](#流量回放)
+* [API网关](#API网关)
+* [大数据](#大数据)
+  * [大数据框架](#大数据框架)
+  * [大数据工具](#大数据工具)
+  * [大数据组件](#大数据组件)
+  * [数据可视化](#数据可视化)
+  * [数据目录](#数据目录)
+  * [查询引擎](#查询引擎)
+  * [流处理平台](#流处理平台)
+  * [ETL工具](#ETL工具)
+  * [CDC组件](#CDC组件)
+  * [Notebook](#Notebook)
+  * [数据同步](#数据同步)
+  * [数据湖框架](#数据湖框架)
+  * [Kafka生态](#Kafka生态)
+* [消息中间件](#消息中间件)
+* [分布式组件](#分布式组件)
+* [分布式锁](#分布式锁)
+* [分布式事务](#分布式事务)
+* [分布式ID](#分布式ID)
+* [数据库](#数据库)
+  * [搜索引擎](#搜索引擎)
+  * [图数据库](#图数据库)
+  * [键值存储](#键值存储)
+  * [时序数据库](#时序数据库)
+  * [嵌入式数据库](#嵌入式数据库)
+  * [关系型数据库](#关系型数据库)
+  * [NoSQL数据库](#NoSQL数据库)
+  * [OLAP数据库](#OLAP数据库)
+  * [对象数据库](#对象数据库)
+  * [Datalog数据库](#Datalog数据库)
+  * [其他数据库](#其他数据库)
+* [存储引擎](#存储引擎)
+* [图处理](#图处理)
+* [数据库中间件](#数据库中间件)
+* [数据库连接池](#数据库连接池)
+* [HTTP客户端](#HTTP客户端)
+* [RPC框架](#RPC框架)
+* [响应式](#响应式)
+* [WebServer](#WebServer)
+* [WebSocket](#WebSocket)
+* [Jakarta EE产品](#JakartaEE产品)
+* [工具库](#工具库)
+* [Bean映射&复制](#Bean映射复制)
+* [IoC](#IoC)
+* [AOP](#AOP)
+* [日志库](#日志库)
+* [JSON库](#JSON库)
+* [JsonPath](#JsonPath)
+* [缓存库](#缓存库)
+* [集合库](#集合库)
+* [协程库](#协程库)
+* [并发编程](#并发编程)
+* [Actor模型](#Actor模型)
+* [GraphQL](#GraphQL)
+* [任务调度](#任务调度)
+* [配置管理](#配置管理)
+* [功能切换](#功能切换)
+* [业务流](#业务流)
+* [规则引擎](#规则引擎)
+* [API管理](#API管理)
+* [反射库](#反射库)
+* [日期时间](#日期时间)
+* [人工智能](#人工智能)
+  * [LLM](#LLM)
+  * [LLM客户端](#LLM客户端)
+  * [机器学习](#机器学习)
+  * [自然语言处理](#自然语言处理)
+  * [深度学习](#深度学习)
+  * [遗传算法](#遗传算法)
+  * [专家系统](#专家系统)
+  * [计算机视觉](#计算机视觉)
+  * [光学字符识别](#光学字符识别)
+* [约束求解](#约束求解)
+* [实体解析](#实体解析)
+* [数据科学](#数据科学)
+* [异常检测](#异常检测)
+* [商业智能](#商业智能)
+* [指纹识别](#指纹识别)
+* [推荐系统](#推荐系统)
+* [逻辑编程](#逻辑编程)
+* [多智能体](#多智能体)
+* [MATLAB](#MATLAB)
+* [Jupyter](#Jupyter)
+* [元启发式框架](#元启发式框架)
+* [机器人开发](#机器人开发)
+* [数学库](#数学库)
+* [本体库](#本体库)
+* [语义Web](#语义Web)
+* [知识图谱](#知识图谱)
+* [生物信息学](#生物信息学)
+* [基因组学](#基因组学)
+* [医疗平台](#医疗平台)
+* [化学领域](#化学领域)
+* [安全库](#安全库)
+* [安全工具](#安全工具)
+* [自保护](#自保护)
+* [身份认证和授权](#身份认证和授权)
+* [JWT库](#JWT库)
+* [OAuth库](#OAuth库)
+* [跨域身份管理](#跨域身份管理)
+* [加密库](#加密库)
+* [密码库](#密码库)
+* [加密算法](#加密算法)
+* [模板引擎](#模板引擎)
+* [诊断工具](#诊断工具)
+* [性能分析](#性能分析)
+* [GC日志分析](#GC日志分析)
+* [堆转储](#堆转储)
+* [线程转储](#线程转储)
+* [对象测量](#对象测量)
+* [火焰图](#火焰图)
+* [脚本](#脚本)
+* [CLI工具](#CLI工具)
+* [命令行参数解析](#命令行参数解析)
+* [SSH工具](#SSH工具)
+* [DNS、内网穿透和代理](#DNS内网穿透和代理)
+* [Git工具](#Git工具)
+* [函数式编程](#函数式编程)
+* [Stream工具库](#Stream工具库)
+* [字节码操作](#字节码操作)
+* [图像处理](#图像处理)
+* [SVG库](#SVG库)
+* [验证码](#验证码)
+* [压缩库](#压缩库)
+* [爬虫框架](#爬虫框架)
+* [批处理框架](#批处理框架)
+* [注解处理器](#注解处理器)
+* [字符串工具库](#字符串工具库)
+* [Java 9-22](#9-22特性)
+* [消息/事件总线](#消息事件总线)
+* [接口文档](#接口文档)
+* [技术文档](#技术文档)
+* [Javadoc](#Javadoc)
+* [文件解析](#文件解析)
+  * [PDF库](#PDF库)
+  * [Excel库](#Excel库)
+  * [CSV库](#CSV库)
+  * [Word库](#Word库)
+  * [Toml库](#Toml库)
+  * [HTML库](#HTML库)
+  * [XML库](#XML库)
+  * [YML库](#YML库)
+  * [文件库](#文件库)
+  * [License库](#License库)
+  * [Markdown库](#Markdown库)
+* [集群管理](#集群管理)
+* [静态分析](#静态分析)
+* [软件质量](#软件质量)
+* [编码规范](#编码规范)
+* [依赖分析](#依赖分析)
+* [污点分析](#污点分析)
+* [审计框架](#审计框架)
+* [代码属性图](#代码属性图)
+* [API变更管理](#API变更管理)
+* [源代码浏览器](#源代码浏览器)
+* [脚手架](#脚手架)
+* [低代码](#低代码)
+* [Data API](#DataAPI)
+* [POS](#POS)
+* [业务](#业务)
+* [电商](#电商)
+* [支付](#支付)
+* [SDK](#SDK)
+* [微信开发](#微信开发)
+* [推送SDK](#推送SDK)
+* [API&客户端](#API客户端)
+* [中间件客户端](#中间件客户端)
+* [游戏服务器](#游戏服务器)
+* [即时通讯](#即时通讯)
+* [视频会议](#视频会议)
+* [FTP服务器](#FTP服务器)
+* [区块链](#区块链)
+* [以太坊](#以太坊)
+* [比特币](#比特币)
+* [物联网](#物联网)
+* [车联网](#车联网)
+* [嵌入式](#嵌入式)
+* [MQTT](#MQTT)
+* [金融](#金融)
+* [短信](#短信)
+* [DSL](#DSL)
+* [JMX](#JMX)
+* [RMI](#RMI)
+* [gRPC](#gRPC)
+* [Raft算法](#Raft算法)
+* [Paxos算法](#Paxos算法)
+* [对象池](#对象池)
+* [CQRS框架](#CQRS框架)
+* [DDD框架](#DDD框架)
+* [软件工程](#软件工程)
+* [设计模式](#设计模式)
+* [幂等处理](#幂等处理)
+* [数据字典](#数据字典)
+* [迁移&重构](#迁移重构)
+* [Bot](#Bot)
+* [安卓库](#安卓库)
+* [GUI开发工具](#GUI开发工具)
+  * [GUI框架](#GUI框架)
+  * [Swing](#Swing)
+  * [Swing主题库](#Swing主题库)
+  * [Swing UI库](#SwingUI库)
+  * [Swing组件库](#Swing组件库)
+  * [Swing布局库](#Swing布局库)
+  * [Swing选择器](#Swing选择器)
+  * [Swing图表库](#Swing图表库)
+  * [Swing测试库](#Swing测试库)
+  * [JavaFX](#JavaFX)
+  * [JavaFX主题库](#JavaFX主题库)
+  * [JavaFX样式库](#JavaFX样式库)
+  * [JavaFX组件库](#JavaFX组件库)
+  * [JavaFX图表库](#JavaFX图表库)
+  * [JavaFX图标库](#JavaFX图标库)
+  * [JavaFX布局库](#JavaFX布局库)
+  * [JavaFX渲染库](#JavaFX渲染库)
+  * [浏览器](#浏览器)
+  * [JavaFX小工具](#JavaFX小工具)
+  * [GUI程序](#GUI程序)
+  * [数学软件](#数学软件)
+  * [UML工具](#UML工具)
+  * [办公软件](#办公软件)
+  * [数据库工具](#数据库工具)
+  * [数据库建模](#数据库建模)
+  * [字节码工具](#字节码工具)
+  * [字节码混淆工具](#字节码混淆工具)
+  * [游戏开发](#游戏开发)
+* [2D/3D渲染](#2D3D渲染)
+* [移动开发框架](#移动开发框架)
+* [JVM代理](#JVM代理)
+* [类加载](#类加载)
+* [RISC-V](#RISC-V)
+* [汇编](#汇编)
+* [LLVM](#LLVM)
+* [WebAssembly](#WebAssembly)
+* [JavaScript](#JavaScript)
+* [编译器&插件](#编译器插件)
+* [语言服务器](#语言服务器)
+* [数据库驱动](#数据库驱动)
+* [数据库迁移](#数据库迁移)
+* [数据源增强](#数据源增强)
+* [Redis库/工具](#Redis库工具)
+* [MongoDB库/工具](#MongoDB库工具)
+* [Cassandra库/工具](#Cassandra库工具)
+* [Memcached库/工具](#Memcached库工具)
+* [ClickHouse库/工具](#ClickHouse库工具)
+* [ElasticSearch库/工具](#ElasticSearch库工具)
+* [对象存储](#对象存储)
+* [音视频处理](#音视频处理)
+* [数据结构](#数据结构)
+* [基本类型](#基本类型)
+* [随机数生成器](#随机数生成器)
+* [堆外内存管理](#堆外内存管理)
+* [布隆过滤器](#布隆过滤器)
+* [算法库](#算法库)
+* [噪声库](#噪声库)
+* [原生开发](#原生开发)
+* [COM桥](#COM桥)
+* [GPU编程](#GPU编程)
+* [硬件操作](#硬件操作)
+* [运动规划](#运动规划)
+* [自动规划](#自动规划)
+* [操作系统](#操作系统)
+* [逆向工程](#逆向工程)
+* [电力系统](#电力系统)
+* [量子计算](#量子计算)
+* [QA系统](#QA系统)
+* [CMS系统](#CMS系统)
+* [ERP系统](#ERP系统)
+* [DMS系统](#DMS系统)
+* [SCRM系统](#SCRM系统)
+* [门户框架](#门户框架)
+* [教育软件](#教育软件)
+* [网络库](#网络库)
+* [网络工具](#网络工具)
+* [IP操作库](#IP操作库)
+* [状态机](#状态机)
+* [二维码生成器](#二维码生成器)
+* [文件系统](#文件系统)
+* [报表引擎](#报表引擎)
+* [物流系统](#物流系统)
+* [打包部署运行](#打包部署运行)
+* [地理空间](#地理空间)
+* [路由引擎](#路由引擎)
+* [几何学](#几何学)
+* [航空](#航空)
+* [水文学](#水文学)
+* [物理库](#物理库)
+* [无人机](#无人机)
+* [AIS库](#AIS库)
+* [跨语言](#跨语言)
+* [序列化](#序列化)
+* [IO操作](#IO操作)
+* [文件操作](#文件操作)
+* [文件上传](#文件上传)
+* [文件比较](#文件比较)
+* [邮件操作](#邮件操作)
+* [电子签名](#电子签名)
+* [安全培训](#安全培训)
+* [RSS](#RSS)
+* [SSE](#SSE)
+* [RPM](#RPM)
+* [EPC](#EPC)
+* [FMI](#FMI)
+* [OSGI](#OSGI)
+* [数控](#数控)
+* [数电](#数电)
+* [工业](#工业)
+* [海关](#海关)
+* [蓝牙](#蓝牙)
+* [校验](#校验)
+* [元编程](#元编程)
+* [分词器](#分词器)
+* [文本表](#文本表)
+* [语言库](#语言库)
+* [泛型库](#泛型库)
+* [国际化](#国际化)
+* [翻译库](#翻译库)
+* [字典库](#字典库)
+* [短链接](#短链接)
+* [单位库](#单位库)
+* [词法解析](#词法解析)
+* [形式验证](#形式验证)
+* [项目模板](#项目模板)
+* [印章生成](#印章生成)
+* [N+1问题](#N1问题)
+* [敏感词过滤](#敏感词过滤)
+* [正则表达式](#正则表达式)
+* [代码生成器](#代码生成器)
+* [目录服务](#目录服务)
+* [错误处理](#错误处理)
+* [表情处理](#表情处理)
+* [行为分析](#行为分析)
+* [ASCII艺术](#ASCII艺术)
+* [URL操作](#URL操作)
+* [WebRTC](#WebRTC)
+* [Expect库](#Expect库)
+* [JavaME](#JavaME)
+* [JavaCard](#JavaCard)
+* [WebService](#WebService)
+* [银行账号操作](#银行账号操作)
+* [用户代理解析](#用户代理解析)
+* [语义发布工具](#语义发布工具)
+* [数字信号处理](#数字信号处理)
+* [企业集成模式](#企业集成模式)
+* [数字资产管理](#数字资产管理)
+* [文档管理系统](#文档管理系统)
+* [数据匿名工具](#数据匿名工具)
+* [外部进程执行](#外部进程执行)
+* [苹果推送通知](#苹果推送通知)
+* [Java服务包装器](#Java服务包装器)
+* [守护进程](#守护进程)
+* [协议实现](#协议实现)
+* [BitTorrent](#BitTorrent)
+* [编解码](#编解码)
+* [Web资源](#Web资源)
+* [Web开发库](#Web开发库)
+* [手机号解析](#手机号解析)
+* [表达式引擎](#表达式引擎)
+* [数学表达式](#数学表达式)
+* [SQL解析器](#SQL解析器)
+* [对象图导航](#对象图导航)
+* [超媒体类型](#超媒体类型)
+* [术语服务器](#术语服务器)
+* [解析&转换](#解析转换)
+* [Minecraft](#Minecraft)
+* [Maven插件](#Maven插件)
+* [Gradle插件](#Gradle插件)
+* [Intellij插件](#Intellij插件)
+* [Spring生态](#Spring生态)
+* [其他](#其他)
+* [教程系列](#教程系列)
+  * [Java教程](#Java教程)
+  * [大数据教程](#大数据教程)
+  * [Spring Boot教程](#Spring生态教程)
+  * [算法和数据结构教程](#算法和数据结构教程)
+  * [软件工程教程](#软件工程教程)
+  * [其他技术教程](#其他技术教程)
+  * [秒杀系统](#秒杀系统)
+  * [源码分析](#源码分析)
+  * [面试宝典](#面试宝典)
 
 ## Web框架
 
@@ -588,18 +601,17 @@ permalink: /javalibs
 * [AnyLine](https://gitee.com/anyline/anyline)：AnyLine的核心是一个面向运行时的元数据动态ORM。
 * [HsWeb-ORM](https://github.com/hs-web/hsweb-easy-orm)：简单的ORM工具，为动态表单而生。
 * [Easy Query](https://github.com/xuejmnet/easy-query)：Easy Query是一款轻量级的ORM框架，无需任何第三方依赖。
-* [Bee](https://github.com/automvc/bee)：Bee是一个人工智能、简单、高效的ORM框架，支持JDBC、Cassandra、Mongodb、Sharding。
+* [Bee](https://github.com/automvc/bee)：Bee是一个人工智能、简单、高效的ORM框架，支持JDBC、Cassandra、MongoDB、Sharding。
+* [Eloquent](https://github.com/gaarason/database-all)：Eloquent ORM提供一个美观、简单的与数据库打交道的ActiveRecord实现。
 * [Bean Searcher](https://github.com/troyzhxu/bean-searcher)：专注于高级查询的只读ORM，天然支持连接表，并且避免DTO/VO转换，使得一行代码实现复杂查询成为可能。
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
 * [Speedment](https://github.com/speedment/speedment)：Speedment是一个开源Java Stream ORM工具包和运行时。
 * [Beetl](https://gitee.com/xiandafu/beetlsql)：BeetlSQL的目标是提供开发高效、维护高效、运行高效的数据库访问框架。
-* [Mars](https://github.com/whaleal/mars)：用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
 * [AFinal](https://github.com/yangfuhai/afinal)：AFinal是一个Android的SQLite ORM和IoC框架。
 * [Sqli](https://github.com/x-ream/sqli)：ORM SQL查询构建器。
 * [Persism](https://github.com/sproket/Persism)：Persism是一个轻量级、自动发现、自动配置和约定优于配置的ORM库。
 * [SQLToy](https://github.com/sagframe/sagacity-sqltoy)：SQLToy是基于Java语言开发的，兼有Hibernate面向对象操作和MyBatis灵活查询的优点，同时更贴切项目、更贴切开发者的一个关系型数据库ORM框架。
 * [Android Orma](https://github.com/maskarade/Android-Orma)：Orma是一个适用于Android SQLite数据库的ORM框架。
-* [Ebatis](https://github.com/ymm-tech/ebatis)：Ebatis是一个声明式ElasticSearch ORM框架。
 * [Norm](https://github.com/dieselpoint/norm)：Norm是一种访问JDBC数据库的简单方法，通常只需一行代码。
 
 ## 持久层库
@@ -611,9 +623,6 @@ permalink: /javalibs
 * [Hypersistence Utils](https://github.com/vladmihalcea/hypersistence-utils)：Hypersistence Utils库提供Spring和Hibernate实用程序，可以帮助充分利用数据访问层。
 * [Sql2o](https://github.com/aaberg/sql2o)：Sql2o是一个小型Java库，可以轻松地将SQL语句的结果转换为对象。
 * [LitePal](https://github.com/guolindev/LitePal)：LitePal是一个开源Android库，可以让开发人员极其轻松地使用SQLite数据库。
-* [Morphia](https://github.com/MorphiaOrg/morphia)：基于Java的MongoDB对象-文档映射器。
-* [Easy-ES](https://gitee.com/dromara/easy-es)：Easy-ES是一款简化ElasticSearch搜索引擎操作的开源框架，全自动智能索引托管。
-* [ESClientRHL](https://gitee.com/zxporz/ESClientRHL)：EsClientRHL是一个可基于Spring Boot的ElasticSearch客户端调用封装工具。
 * [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
 * [Doma](https://github.com/domaframework/doma)：Doma是适用于Java 8+的面向DAO的数据库映射框架。
 * [Jinq](https://github.com/my2iu/Jinq)：Jinq为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
@@ -623,7 +632,6 @@ permalink: /javalibs
 * [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper)：SimpleFlatMapper提供了一个非常快速且易于使用的映射器。
 * [QueryStream](https://github.com/querystream/querystream)：QueryStream允许你使用类似Stream的API执行JPA查询。
 * [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准的Java数据持久化框架，完全兼容JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1等Java标准。
-* [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
 * [Apache EmpireDB](https://github.com/apache/empire-db)：Empire-DB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 * [Kundera](https://github.com/Impetus/kundera)：Kundera是一个带有JPA接口的“多语言对象映射器”。
 * [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
@@ -633,7 +641,6 @@ permalink: /javalibs
 * [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：Blaze Persistence是面向JPA提供程序的丰富Criteria API。
 * [JPA Streamer](https://github.com/speedment/jpa-streamer)：JPA Streamer是一个轻量级库，用于将JPA查询表达为Java Stream。
 * [Jcabi JDBC](https://github.com/jcabi/jcabi-jdbc)：流式的面向对象的JDBC包装器。
-* [MongoPlus](https://gitee.com/aizuda/mongo-plus)：使用MyBatisPlus的方式，优雅的操作MongoDB，由爱组搭开源。
 * [ActiveJPA](https://github.com/ActiveJpa/activejpa)：ActiveJPA是一个试图在JPA之上实现活动记录模式的Java库，该库的目标是消除创建DAO或Repository类的需要，并使DAL编程更加简单。
 * [TorpedoQuery](https://github.com/xjodoin/torpedoquery)：类型安全的Hibernate查询生成器。
 * [UroboroSQL](https://github.com/future-architect/uroborosql)：UroboroSQL是一个简单的SQL执行库，可以利用与Java 8兼容的2-way-SQL。
@@ -642,11 +649,10 @@ permalink: /javalibs
 * [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
 * [Apache JDO](https://github.com/apache/db-jdo)：JDO是访问数据库中持久数据的标准方法，使用普通旧式Java对象(POJO)来表示持久数据。
 * [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
-* [EsearchX](https://gitee.com/noear/esearchx)：基于Okhttp + Snack3开发，是一个代码直白和简单的Elasticsearch ORM框架。
 * [JDBCX](https://github.com/jdbcx/jdbcx)：JDBCX通过支持SQL之外的其他数据格式、压缩算法、对象映射、类型转换和查询语言来增强JDBC驱动程序。
 * [Spring Filter](https://github.com/turkraft/springfilter)：使用用户友好的查询语法动态过滤JPA实体和Mongo集合。
 * [Fenix](https://github.com/blinkfox/fenix)：Fenix是一个为了解决复杂动态SQL(JPQL)而生的Spring Data JPA扩展库。
-* [MiniDao](https://github.com/jeecgboot/MiniDao)：MiniDao是一款轻量级Java持久层框架，基于Spring JDBC + Freemarker实现，具备Mybatis一样的SQL分离和逻辑标签能力。
+* [MiniDao](https://github.com/jeecgboot/MiniDao)：MiniDao是一款轻量级Java持久层框架，基于Spring JDBC\Freemarker实现，具备Mybatis一样的SQL分离和逻辑标签能力。
 * [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
 * [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatisPlus注解和方法调用风格的直观API，由dromara社区开源。
 * [FluentJdbc](https://github.com/zsoltherpai/fluent-jdbc)：FluentJdbc是一个用于方便原生SQL查询的Java库。
@@ -803,6 +809,8 @@ permalink: /javalibs
 * [Database Rider](https://github.com/database-rider/database-rider)：Database Rider集成了DBUnit和JUnit，使数据库测试变得轻而易举。
 * [ElasticSearch Test](https://github.com/tlrx/elasticsearch-test)：一个让ElasticSearch单元测试变得轻而易举的框架。
 * [LDAP Server](https://github.com/intoolswetrust/ldap-server)：用于测试目的的简单内存LDAP服务器。
+* [Fongo](https://github.com/fakemongo/fongo)：Fongo是MongoDB的内存中Java实现，主要用途是轻量级集成测试，由Foursquare开源。
+* [MongoDB Java Server](https://github.com/bwaldvogel/mongo-java-server)：MongoDB Java Server是用Java伪造核心MongoDB服务器的实现，可用于集成测试。
 * [Testcontainers Spring Boot](https://github.com/PlaytikaOSS/testcontainers-spring-boot)：基于Spring Boot的集成测试的容器自动配置。
 * [Embedded Process Util](https://github.com/flapdoodle-oss/de.flapdoodle.embed.process)：Embedded Process Util为在单元测试中运行流程提供一种平台中立的方式。
 * [Embedded PostgreSQL Server](https://github.com/yandex-qatools/postgresql-embedded)：嵌入式PostgreSQL服务器提供了一种平台中立的方式来在单元测试中运行Postgres二进制文件。
@@ -1623,7 +1631,6 @@ permalink: /javalibs
 
 ## DevOps
 
-* [CacheCloud](https://github.com/sohutv/cachecloud)：CacheCloud是一个Redis云管理平台，支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率，由搜狐开源。
 * [DHorse](https://github.com/512team/dhorse)：DHorse是一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能。
 * [MQCloud](https://github.com/sohutv/mqcloud)：RocketMQ企业级一站式服务平台，由搜狐开源。
 * [EazyBuilder](https://github.com/iSoftStoneGroup/EazyBuilder)：EazyBuilder是一套完整的云原生架构下的DevOps平台项目，由软通动力开源。
@@ -1644,7 +1651,6 @@ permalink: /javalibs
 * [MSEC](https://github.com/Tencent/MSEC)：MSEC由腾讯QQ团队开源，它是一个后端Devops引擎，包括RPC、名称查找、负载均衡、监控、发布和容量管理。
 * [Mantis](https://github.com/Netflix/mantis)：Mantis使开发人员可以轻松构建实时、经济高效、以运营为中心的应用程序，Netflix开源。
 * [Phoenix](https://gitee.com/monitoring-platform/phoenix)：Phoenix是一个灵活可配置的开源监控平台，主要用于监控应用程序、服务器、Docker、数据库、网络、TCP端口和HTTP接口。
-* [KnowSearch](https://github.com/didi/KnowSearch)：KnowSearch是面向Elasticsearch研发与运维人员，围绕集群、索引构建的零侵入、多租户的Elasticsearch GUI管控平台，由滴滴开源。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：Frostmourne是汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
 * [Cubic](https://github.com/dromara/cubic)：Cubic一站式问题定位平台，分布式实例监控、线程栈监控、线程池监控、动态Arthas命令集、依赖分析等等，由dromara社区开源。
 * [Suricate](https://github.com/michelin/suricate)：Suricate是一款开源应用程序，它允许IT团队通过由可在电视上显示的小部件组成的仪表板来监控其环境，由米其林开源。
@@ -1840,7 +1846,11 @@ permalink: /javalibs
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单点访问。
 
-## 大数据框架
+## 大数据
+
+这里列出了大数据领域相关Java框架、组件、工具。
+
+#### 大数据框架
 
 * [Apache Hadoop](https://github.com/apache/hadoop)：Hadoop软件库是一个框架，允许使用简单的编程模型跨计算机集群分布式处理大型数据集，由Yahoo开源。
 * [Apache Spark](https://github.com/apache/spark)：Spark是一种多语言引擎，用于在单节点机器或集群上执行数据工程、数据科学和机器学习，由加州大学柏克莱分校AMPLab开源。
@@ -1848,12 +1858,9 @@ permalink: /javalibs
 * [Apache Pig](https://github.com/apache/pig)：Pig是一个用于处理非常大文件的数据流编程环境，由Yahoo开源。
 * [Apache Storm](https://github.com/apache/storm)：Storm是一个免费开源的分布式实时计算系统，由Twitter开源。
 * [Apache Cassandra](https://github.com/apache/cassandra)：Cassandra是一种高度可扩展的分区行存储，由Facebook开源。
-* [Apache Hive](https://github.com/apache/hive)：Hive是一种分布式容错数据仓库系统，可实现大规模分析，并有助于使用SQL读取、写入和管理分布式存储中的PB级数据，由Facebook开源。
 * [Apache HBase](https://github.com/apache/hbase)：HBase是一个开源、分布式、版本化、面向列的存储，由Powerset开源。
-* [Apache Doris](https://github.com/apache/doris)：Doris是一个基于MPP架构的易于使用、高性能、实时分析的数据库，由百度开源。
 * [Apache Calcite](https://github.com/apache/calcite)：Calcite是一个动态数据管理框架。
 * [Apache Nifi](https://github.com/apache/nifi)：NiFi是一个易于使用、功能强大且可靠的系统，用于处理和分发数据，由美国国家安全局开源。
-* [Apache Kylin](https://github.com/apache/kylin)：Kylin是一个面向Hadoop和云的统一且强大的OLAP平台，由eBay贡献。
 * [Apache Linkis](https://github.com/apache/linkis)：Linkis是一种计算中间件，充当上层应用程序和底层引擎(例如Spark、Hive和Flink)之间的层，由微众开源。
 * [Apache Flume](https://github.com/apache/logging-flume)：Flume是一种分布式、可靠且可用的服务，用于高效收集、聚合和移动大量日志数据，由Cloudera公司开源。
 * [Apache Geode](https://github.com/apache/geode)：Geode是一个数据管理平台，可在广泛分布的云架构中提供对数据密集型应用程序的实时、一致的访问，由GemStone开源。
@@ -1862,7 +1869,6 @@ permalink: /javalibs
 * [Apache Bookkeeper](https://github.com/apache/bookkeeper)：BookKeeper是一种可扩展、容错和低延迟的存储服务，针对仅附加工作负载进行了优化，由雅虎研究院开发。
 * [Apache InLong](https://github.com/apache/inlong)：InLong是一站式、全场景的海量数据集成框架，支持数据摄取、数据同步和数据订阅，提供自动、安全、可靠的数据传输能力，由腾讯大数据团队开源。
 * [Apache Accumulo](https://github.com/apache/accumulo)：Accumulo是一种排序的分布式键/值存储，可提供强大、可扩展的数据存储和检索，由美国国家安全局开源。
-* [Apache Phoenix](https://github.com/apache/phoenix)：Phoenix是基于HBase的SQL皮肤，作为客户端嵌入的JDBC驱动程序提供，旨在针对HBase数据的低延迟查询，由Salesforce开源。
 * [Apache Oozie](https://github.com/apache/oozie)：Oozie是一个可扩展、可伸缩且可靠的系统，用于通过Web服务定义、管理、调度和执行复杂的Hadoop工作负载，由Cloudera开源。
 * [Apache Ozone](https://github.com/apache/ozone)：Ozone是适用于Hadoop和云原生环境的可扩展、冗余和分布式对象存储，由腾讯大数据团队开源。
 * [Apache Celeborn](https://github.com/apache/incubator-celeborn)：Celeborn是一种弹性且高性能的服务，用于洗牌和溢出数据，由阿里云开源。
@@ -1880,14 +1886,11 @@ permalink: /javalibs
 * [Fire](https://gitee.com/fire-framework/fire)：Fire框架是由中通大数据自主研发并开源的、专门用于进行Spark和Flink任务开发的大数据框架。
 * [Apache OODT](https://github.com/apache/oodt)：OODT可以实现数据库链接、工作流处理以及硬件/文件管理等功能，由NASA的喷气机推力研究室开源。
 * [Apache Sedona](https://github.com/apache/sedona)：Sedona是一种空间计算引擎，使开发人员能够在Apache Spark和Apache Flink等现代集群计算系统中轻松处理任何规模的空间数据，由亚利桑那州立大学开源。
-* [Presto](https://github.com/prestodb/presto)：Presto是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
-* [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据分析的快速分布式SQL查询引擎，由Starburst开源。
-* [SquashQL](https://github.com/squashql/squashql)：SquashQL是一个开源SQL查询引擎，旨在简化构建多维查询的过程。
 * [Pipes](https://github.com/tinkerpop/pipes)：Pipes是一个数据流框架，可实现数据从输入到输出的拆分、合并、过滤和转换，由斯阿拉莫斯国家实验室开源。
 * [Scaleph](https://github.com/flowerfine/scaleph)：Scaleph是一个基于Flink和Kubernetes打造的开放数据平台，具备Flink和SeaTunnel任务管理能力，同时支持Doris集群在Kubernetes上的运维部署。
 * [Transport](https://github.com/linkedin/transport)：Transport是一个用于编写高性能用户定义函数(UDF)的框架，这些函数可跨各种引擎(包括Spark、Hive和Trino)进行移植，由LinkedIn开发。
 
-## 大数据工具
+#### 大数据工具
 
 * [HiBench](https://github.com/Intel-bigdata/HiBench)：HiBench是一个大数据基准测试套件，可帮助评估不同大数据框架的速度、吞吐量和系统资源利用率，由Intel开源。
 * [Apache Crunch](https://crunch.apache.org/)：Crunch库提供了一个用于编写、测试和运行MapReduce管道的框架，由Google开源。
@@ -1898,7 +1901,6 @@ permalink: /javalibs
 * [Yanagishima](https://github.com/yanagishima/yanagishima)：Yanagishima是Trino、Hive和Spark的开源Web应用程序。
 * [Apache Ambari](https://github.com/apache/ambari)：Ambari是一个用于配置、管理和监控Hadoop集群的工具，由Hortonworks开源。
 * [Elephant Bird](https://github.com/twitter/elephant-bird)：Elephant Bird是Twitter的开源库，包含LZO、Thrift和/或Protocol Buffer相关的Hadoop InputFormats、OutputFormats、Writables、Pig LoadFuncs、Hive SerDe、HBase杂项等。
-* [Priam](https://github.com/Netflix/Priam)：Priam是一个与Cassandra一起运行的流程/工具，这是一个高度可用的、面向列的数据库，由Netflix开源。
 * [Deequ](https://github.com/awslabs/deequ)：Deequ是一个构建在Spark之上的库，用于定义“数据单元测试”，测量大型数据集中的数据质量，由AWS开源。
 * [Cloudbreak](https://github.com/hortonworks/cloudbreak)：部署在云服务上的集成分析和数据管理平台，它提供广泛的数据分析和人工智能功能以及安全的用户访问和数据治理功能，由Hortonworks开源。
 * [YCSB](https://github.com/brianfrankcooper/YCSB)：雅虎云服务基准测试框架。
@@ -1909,7 +1911,6 @@ permalink: /javalibs
 * [BigQuery Utils](https://github.com/GoogleCloudPlatform/bigquery-utils)：BigQuery是一个Serverless、高度可扩展且经济高效的云数据仓库，内置内存BI引擎和机器学习，该库提供有用的实用程序来帮助你迁移和使用BigQuery，由Google开发。
 * [Apache Metron](https://github.com/apache/metron)：Metron集成了多种开源大数据技术，以提供集中的安全监控和分析工具，由Cisco开源。
 * [DataGenerator](https://github.com/FINRAOS/DataGenerator)：DataGenerator是一个用于系统地生成大量数据的Java库，美国金融业监管局开源。
-* [Cassandra Reaper](https://github.com/thelastpickle/cassandra-reaper)：Reaper是一种集中式、有状态且高度可配置的工具，用于针对单站点或多站点集群运行Cassandra修复，由DataStax开源。
 * [Surus](https://github.com/Netflix/Surus)：Pig和Hive中的分析工具集合，Netflix开源。
 * [Apache AsterixDB](https://github.com/apache/asterixdb)：AsterixDB是一个大数据管理系统，具有丰富的功能集，由加利福尼亚大学欧文分校的Michael Carey发起。
 * [Hollow](https://github.com/Netflix/hollow)：Hollow是一个Java库和工具集，用于将内存数据集从单个生产者传播到许多消费者，以实现高性能只读访问，由Netflix开源。
@@ -1929,7 +1930,6 @@ permalink: /javalibs
 * [WInte.r](https://github.com/olehmberg/winter)：WInte.r框架提供了端到端数据集成的方法，该框架实现了众所周知的数据预处理、模式匹配、身份解析、数据融合和结果评估方法。
 * [Inviso](https://github.com/Netflix/inviso)：Inviso是一个轻量级工具，提供搜索Hadoop作业、可视化性能和查看集群利用率的功能，由Netflix开源。
 * [AGEIPort](https://github.com/alibaba/AGEIPort)：AGEIPort是数字供应链孵化并在阿里内广泛使用的一套性能卓越、稳定可靠、功能丰富、易于扩展、生态完整的数据导入导出方案，由阿里开源。
-* [ES-Fastloader](https://github.com/didi/ES-Fastloader)：ES-Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
 * [Apache Livy](https://github.com/apache/incubator-livy)：Livy是一个开源REST接口，用于从任何地方与Spark交互，由Cloudera开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Squall](https://github.com/epfldata/squall)：Squall是一个构建在Storm之上的在线查询处理引擎，由洛桑联邦理工学院数据实验室开源。
@@ -1942,9 +1942,8 @@ permalink: /javalibs
 * [StreamDM](https://github.com/huawei-noah/streamDM)：StreamDM是一款新的开源软件，用于使用Spark Streaming挖掘大数据流，由华为诺亚方舟实验室开源。
 * [Marmaray](https://github.com/uber/marmaray)：Marmaray是一个通用的Hadoop数据摄取和分散框架和库，由Uber开源。
 
-## 大数据组件
+#### 大数据组件
 
-* [ChunJun](https://github.com/DTStack/chunjun)：ChunJun是基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
 * [DataSphere Studio](https://github.com/WeBankFinTech/DataSphereStudio)：DataSphere Studio是微众银行开发的一站式数据应用开发管理门户。
 * [Quicksql](https://github.com/Qihoo360/Quicksql)：Quicksql是一款SQL查询产品，可用于特定数据存储查询或多个数据存储关联查询，由360开源。
 * [BitSail](https://github.com/bytedance/bitsail)：BitSail是字节开源的基于分布式架构、高性能的数据集成引擎。
@@ -1971,16 +1970,14 @@ permalink: /javalibs
 * [Firehose](https://github.com/raystack/firehose)：Firehose是一种可扩展、无代码、云原生服务，用于将实时流数据从Kafka加载到数据存储、数据湖和分析存储系统。
 * [IndexR](https://github.com/shunfei/indexr)：IndexR是HDFS上的超快速列式数据格式，专注于快速分析，既适用于海量静态(历史)数据，也适用于快速摄取实时数据，由舜飞开源。
 * [DataFu](https://github.com/LinkedInAttic/datafu)：DataFu是用于处理Hadoop中的大规模数据的库集合，由LinkedIn开源。
-* [Apache Hama](http://hama.apache.org/)：Hama是一个使用批量同步并行(BSP)计算模型的大数据分析框架。
+* [Apache Hama](http://hama.apache.org/)：Hama是一个使用批量同步并行计算模型的大数据分析框架。
 * [LemonGrenade](https://github.com/NationalSecurityAgency/lemongrenade)：LemonGrenade被设计为一个自动化系统，能够将系统、数据源或功能智能地链接在一起，而无需最终用户手动指定链接，由美国国家安全局开源。
-* [XPipe](https://github.com/ctripcorp/x-pipe)：X-Pipe是由携程框架部门研发的Redis多数据中心复制管理系统。
 * [Apache Tez](https://github.com/apache/tez)：Tez是一个通用数据处理管道引擎，被设想为用于更高抽象的低级引擎，例如Hadoop Map-Reduce、Pig、Hive等，由IBM和Adobe开发。
 * [Esper](https://github.com/espertechinc/esper)：Esper是用于复杂事件处理(CEP)、流式SQL和事件系列分析的组件。
 * [Apache Falcon](http://falcon.apache.org/)：Falcon是一个Feed处理和Feed管理系统，旨在让最终消费者更轻松地在Hadoop集群上进行Feed处理和管理。
 * [Egeria](https://github.com/odpi/egeria)：Egeria提供开放元数据和治理类型系统、框架、API、事件有效负载和交换协议，由IBM开源。
 * [BigQuery Data Lineage](https://github.com/GoogleCloudPlatform/bigquery-data-lineage)：使用审核日志、ZetaSQL和Dataflow对BigQuery进行实时数据沿袭跟踪的参考实现，由Google开源。
 * [Suro](https://github.com/Netflix/suro)：Suro是一种数据管道服务，用于收集、聚合和调度大量应用程序事件(包括日志数据)，由Netflix开发。
-* [Maxwell](https://github.com/zendesk/maxwell)：Maxwell是一个变更数据捕获应用程序，它读取MySQL二进制日志并将数据变更以JSON形式写入Kafka、Kinesis和其他流平台，由Zendesk开源。
 * [MdRill](https://github.com/alibaba/mdrill)：MdRill作为数据在线分析处理软件，可以在几秒到几十秒的时间，分析百亿级别的任意组合维度的数据，由阿里开源。
 * [Apache Apex](https://github.com/apache/apex-core)：Apex是一个用于大数据流和批处理的统一平台，由DataTorrent开源。
 * [Apache Knox](https://github.com/apache/knox)：Knox是一个应用程序网关，用于以安全的方式与一个或多个Hadoop集群的REST API和用户界面进行交互。
@@ -2004,7 +2001,6 @@ permalink: /javalibs
 * [DeltaFi](https://gitlab.com/deltafi/deltafi)：DeltaFi是一个灵活、轻量代码的数据转换和标准化平台。
 * [Datacube](https://github.com/urbanairship/datacube)：具有数值数据汇总的多维数据存储，由Airship开源。
 * [Apache Eagle](https://github.com/apache/eagle)：Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
-* [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
 * [Apache Gluten](https://github.com/apache/incubator-gluten)：Gluten是一个中间层，负责将基于JVM的SQL引擎的执行卸载到本机引擎，由Intel和Kyligence开源。
 * [Maha](https://github.com/yahoo/maha)：快速报告API开发的框架，开箱即用地支持Druid的高基数维度查找，由Yahoo开源。
 * [Hydra](https://github.com/addthis/hydra)：Hydra是最初由AddThis开发的分布式数据处理和存储系统。
@@ -2012,7 +2008,7 @@ permalink: /javalibs
 * [XL-LightHouse](https://github.com/xl-xueling/xl-lighthouse)：XL-LightHouse是一套支持超大数据量、支持超高并发的通用型流式大数据统计系统。
 * [Conquery](https://github.com/ingef/conquery)：Conquery是一个强大的基于Web的工具，用于针对大型事件类数据集编写和执行查询。
 
-## 数据可视化
+#### 数据可视化
 
 * [Davinci](https://github.com/edp963/davinci)：Davinci面向产品经理、业务人员、数据工程师、数据分析师、数据科学家等，旨在提供一站式数据可视化解决方案，既可以独立作为公有云/私有云使用，也可以集成到第三方云中，由宜信开源。
 * [Prefuse](https://github.com/prefuse/Prefuse)：Prefuse是一个基于Java的工具包，用于构建交互式信息可视化应用程序，Prefuse支持一组丰富的数据建模、可视化和交互功能，由加州大学伯克利分校开源。
@@ -2027,7 +2023,6 @@ permalink: /javalibs
 * [Sigbla](https://github.com/sigbla/sigbla-app)：Sigbla是一个使用Kotlin编程语言处理表中数据的框架，它支持各种数据类型、响应式编程和事件、用户输入、图表等。
 * [VisNow](https://gitlab.com/visnow.org/VisNow)：VisNow是Java中的通用可视化框架，由华沙大学开发，它是一个模块化数据流驱动平台，使用户能够创建数据可视化、可视化分析、数据处理和简单模拟的方案。
 * [Moonbox](https://github.com/running-elephant/moonbox)：Moonbox基于“数据虚拟化”概念设计，旨在提供批量和交互式计算服务。
-* [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由携程开源。
 * [Data2viz](https://github.com/data2viz/data2viz)：Data2viz是Kotlin多平台的数据可视化工具库。
 * [McIDAS-V](https://www.ssec.wisc.edu/%7Ebillh/visad.html)：McIDAS-V是一款免费、开源、可视化和数据分析软件包，是SSEC 50年复杂McIDAS软件包历史中的下一代产品，由威斯康星大学麦迪逊分校开源。
 * [TelemetryViewer](https://github.com/farrellf/TelemetryViewer)：数据可视化工具。
@@ -2035,24 +2030,7 @@ permalink: /javalibs
 * [AAChartCore](https://github.com/AAChartModel/AAChartCore)：极其精美而又强大的Android数据可视化图表框架，支持柱状图、条形图、折线图、曲线图。
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 
-## 图处理
-
-* [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
-* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个实时图处理库，由Twitter开源。
-* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将graphviz与纯Java一起使用，使用Java代码创建graphviz模型并将其转换为漂亮的图形。
-* [Apache Commons Graph](https://github.com/apache/commons-graph)：Commons Graph是一个用于管理图和基于图的数据结构的工具包。
-* [PGX](https://www.oracle.com/middleware/technologies/parallel-graph-analytix.html)：PGX是一个用于图分析的工具包，支持高效的图算法和快速的类似SQL的图模式匹配查询，由Oracle开发。
-* [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
-* [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
-* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
-* [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
-* [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
-* [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
-* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
-* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
-* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
-
-## 数据目录
+#### 数据目录
 
 * [DataHub](https://github.com/datahub-project/datahub)：DataHub是现代数据堆栈的开源元数据平台，由LinkedIn开源。
 * [Metacat](https://github.com/Netflix/metacat)：Metacat是一个联合的元数据API服务，可以访问Hive、RDS、Teradata、Redshift、S3和Cassandra，由Netflix开源。
@@ -2065,7 +2043,19 @@ permalink: /javalibs
 * [Apache Gravitino](https://github.com/apache/gravitino)：Gravitino是一个高性能、地理分布式、联合元数据湖，由Datastrato开源。
 * [Magda](https://github.com/magda-io/magda)：Magda是适用于所有大数据和小数据的联合开源数据目录，由澳大利亚联邦科学与工业研究组织的Data61和澳大利亚总理及内阁部发起。
 
-## 流处理平台
+#### 查询引擎
+
+* [Apache Hive](https://github.com/apache/hive)：Hive是一种分布式容错数据仓库系统，可实现大规模分析，并有助于使用SQL读取、写入和管理分布式存储中的PB级数据，由Facebook开源。
+* [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据分析的快速分布式SQL查询引擎，由Starburst开源。
+* [Presto](https://github.com/prestodb/presto)：Presto是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
+* [Apache Phoenix](https://github.com/apache/phoenix)：Phoenix是基于HBase的SQL皮肤，作为客户端嵌入的JDBC驱动程序提供，旨在针对HBase数据的低延迟查询，由Salesforce开源。
+* [XSQL](https://github.com/Qihoo360/XSQL)：XSQL是一个多数据源查询引擎，设计简单易用，运行稳定，由360开源。
+* [Gimel](https://github.com/paypal/gimel)：Gimel提供统一的数据API来访问来自任何存储的数据，由Paypal开源。
+* [TrainDB](https://github.com/traindb-project/traindb)：TrainDB是一个基于ML的近似查询处理引擎，旨在在几秒钟内回答耗时的分析查询，由延世大学、光云大学、ETRI、RealTimeTech、BI Matrix开源。
+* [RumbleDB](https://github.com/RumbleDB/rumble)：RumbleDB是一个查询引擎，可让你轻松高效地查询大型、混乱的数据集，由苏黎世联邦理工学院开源。
+* [SquashQL](https://github.com/squashql/squashql)：SquashQL是一个开源SQL查询引擎，旨在简化构建多维查询的过程。
+
+#### 流处理平台
 
 * [Apache Flink](https://github.com/apache/flink)：一个开源流处理框架，具有强大的流处理和批处理能力，由柏林工业大学发起的项目。
 * [Apache RocketMQ](https://github.com/apache/rocketmq)：云原生消息传递和流媒体平台，可以轻松构建事件驱动的应用程序，由阿里开源。
@@ -2098,7 +2088,7 @@ permalink: /javalibs
 * [Gearpump](https://github.com/gearpump/gearpump)：Gearpump是一个轻量级的实时大数据流引擎，由Intel开源。
 * [BeepBeep](https://github.com/liflab/beepbeep-3)：BeepBeep是一个事件流查询引擎，由魁北克大学开源。
 
-## ETL工具
+#### ETL工具
 
 * [Addax](https://github.com/wgzhao/Addax)：一款多功能开源ETL工具，可以在各种RDBMS和NoSQL数据库之间无缝传输数据，使其成为数据迁移的理想解决方案，最初来源于阿里的DataX。
 * [TIS](https://github.com/datavane/tis)：支持基于Flink、DataX和Flink-CDC的敏捷DataOps，Chunjun具有Web-UI，由Datavane大数据组织开源。
@@ -2120,70 +2110,45 @@ permalink: /javalibs
 * [Flowman](https://github.com/dimajix/flowman)：Flowman是一个由Spark支持的ETL框架，简化了复杂数据管道的开发。
 * [WhiteRabbit](https://github.com/OHDSI/WhiteRabbit)：WhiteRabbit是一个小型应用程序，可用于分析数据库的结构和内容，为设计ETL做准备，由OHDSI开源。
 * [DataPull](https://github.com/homeaway/datapull)：DataPull是一种自助式分布式ETL工具，用于连接和转换来自异构数据存储的数据。
+* [Metorikku](https://github.com/YotpoLtd/metorikku)：Metorikku是一个简化在Apache Spark上编写和执行ETL的库。
 
-## CDC组件
+#### CDC组件
 
+* [Flink CDC](https://github.com/apache/flink-cdc)：Flink CDC是一个针对实时数据和批量数据的分布式数据集成工具，阿里开源。
+* [Databus](https://github.com/linkedin/databus)：Databus是一个与源无关的分布式变更数据捕获系统，它是LinkedIn数据处理管道的组成部分。
+* [Maxwell](https://github.com/zendesk/maxwell)：Maxwell是一个CDC应用程序，它读取MySQL二进制日志并将数据变更以JSON形式写入Kafka、Kinesis和其他流平台，由Zendesk开源。
 * [Debezium](https://github.com/debezium/debezium)：Debezium是一个开源项目，为CDC提供低延迟数据流平台，由RedHat开源。
-* [Flink CDC Connectors](https://github.com/ververica/flink-cdc-connectors)：CDC Connectors是Flink的一组源连接器，使用CDC从不同数据库中获取变更。
-* [Oracdc](https://github.com/averemee-si/oracdc)：Oracdc是一个用于异构IT环境中近实时数据集成和复制的软件包。
+* [Oracdc](https://github.com/averemee-si/oracdc)：Oracdc是一个用于异构IT环境中近实时数据集成和复制的软件包，由Oracle开源。
 * [TiBigData](https://github.com/tidb-incubator/TiBigData)：适用于TiDB、Presto、Flink和MapReduce连接器的其他大数据组件。
 * [Hoptimator](https://github.com/linkedin/Hoptimator)：Hoptimator是一个基于SQL的复杂数据管道控制平面，由LinkedIn开源。
 * [SpinalTap](https://github.com/airbnb/SpinalTap)：SpinalTap是一种通用的CDC服务，能够跨不同数据源低延迟地检测数据突变，并将其作为标准化事件传播给下游消费者，由Airbnb开源。
+* [ACDC](https://github.com/xdfdotcn/acdc)：ACDC是新东方集团架构部开源的数据平台产品。
 
-## Notebook
+#### Notebook
 
 * [Polynote](https://github.com/polynote/polynote)：Polynote是一个实验性多语言笔记本环境，由Netflix开源。
 * [Apache Zeppelin](https://github.com/apache/zeppelin)：Zeppelin是一款基于Web的笔记本，支持交互式数据分析，由韩国公司ZEPL开源。
 
-## 数据库中间件
+#### 数据同步
 
-* [DataX](https://github.com/alibaba/DataX)：DataX是阿里云DataWorks数据集成的开源版本，在阿里巴巴集团内被广泛使用的离线数据同步工具/平台。
-* [Databus](https://github.com/linkedin/databus)：Databus是一个与源无关的分布式变更数据捕获系统，它是LinkedIn数据处理管道的组成部分。
-* [Canal](https://github.com/alibaba/canal)：阿里开发的基于数据库增量日志解析，提供增量数据订阅&消费的中间件。
-* [Otter](https://github.com/alibaba/otter)：阿里开源的一个分布式数据库同步系统，尤其是在跨机房数据库同步方面，有很强大的功能。
-* [DRC](https://github.com/ctripcorp/drc)：DRC(Data Replicate Center)是携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件。
-* [Puma](https://github.com/dianping/puma)：获取数据库的变更并通过消息方式发布，并且可以实现数据库同步，由大众点评开源。
-* [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
-* [Cobar](https://github.com/alibaba/cobar)：Cobar是分库分表的代理，兼容MySQL协议和MySQL SQL语法，底层存储仅支持MySQL，支持前台业务更简单、稳定、高效、安全，由阿里开源。
-* [TSharding](https://github.com/baihui212/tsharding)：TSharding是蘑菇街交易平台使用的简单分片组件。
-* [DBLE](https://github.com/actiontech/dble)：DBLE是由爱可生开发的一种高扩展性的MySQL分片中间件。
-* [Gizzard](https://github.com/twitter-archive/gizzard)：用于创建最终一致的分布式数据存储的灵活分片框架，由Twitter开源。
-* [Mycat2](https://github.com/MyCATApache/Mycat2)：Mycat2是Mycat社区开发的一款分布式关系型数据库(中间件)。
-* [Heisenberg](https://github.com/brucexx/heisenberg)：Heisenberg是百度开源的一款基于MySQL协议之上的分库分表中间件，支持各种灵活的分库分表规则。
-* [Ctrip DAL](https://github.com/ctripcorp/dal)：Ctrip DAL是携程框架部开发的数据库访问框架，支持代码生成和水平扩展。
-* [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
-* [MySQL Binary Log Connector](https://github.com/shyiko/mysql-binlog-connector-java)：MySQL二进制日志连接器。
-* [TDDL](https://github.com/alibaba/tb_tddl)：TDDL是一个分布式数据库中间件，主要是为了解决分布式数据库产生的相关问题，由阿里开源。
-* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
-* [Zebra](https://github.com/Meituan-Dianping/Zebra)：Zebra是一个基于JDBC API协议上开发出的高可用、高性能的数据库访问层解决方案，是美团点评内部使用的数据库访问层中间件。
-* [ToroDB Stampede](https://github.com/torodb/stampede)：Stampede可将NoSQL数据从MongoDB副本集转换为PostgreSQL中的关系数据库。
-* [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
-* [Redis Replicator](https://github.com/leonchen83/redis-replicator)：Redis复制工具，支持同步、psync、psync2，可以解析RDB、AOF、混合RDB和AOF文件。
-* [Yugong](https://github.com/alibaba/yugong)：阿里巴巴去Oracle数据迁移同步工具。
-* [ReplicaDB](https://github.com/osalvador/ReplicaDB)：ReplicaDB是用于数据库复制的开源工具，旨在在关系型数据库和非关系型数据库之间高效传输批量数据。
-* [Ptubes](https://github.com/meituan/ptubes)：一款基于PITR的数据库容灾产品，可以用来将整个数据库恢复到特定时间点，美团开源。
-* [Tapdata](https://github.com/tapdata/tapdata)：Tapdata是一个实时数据集成平台，可以实现数据库、SaaS服务、应用程序、文件等各种系统之间的数据实时同步，由钛铂数据开源。
-* [esProc](https://github.com/SPLWare/esProc)：esProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
-* [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款在线分析处理(OLAP)服务器，使业务用户能够实时分析大量数据。
-* [Coral](https://github.com/linkedin/coral)：Coral是一个SQL翻译、分析和重写引擎，由LinkedIn开源。
-* [Elasticsearch SQL](https://github.com/NLPchina/elasticsearch-sql)：使用SQL查询Elasticsearch。
+* [ChunJun](https://github.com/DTStack/chunjun)：ChunJun是基于Flink的批流统一打造的数据同步工具，可以实现各种异构数据源之间的数据同步和计算，由袋鼠云开源。
+* [DataX](https://github.com/alibaba/DataX)：DataX是阿里云DataWorks数据集成的开源版本，在阿里内被广泛使用的离线数据同步工具/平台。
 * [Porter](https://gitee.com/sxfad/porter)：Porter是一款数据同步中间件，主要用于解决同构/异构数据库之间的表级别数据同步问题，由随行付开源。
-* [SymmetricDS](https://github.com/JumpMind/symmetric-ds)：SymmetricDS是数据库复制和文件同步软件，它独立于平台、支持Web且与数据库无关。
-* [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关，DataStax开源。
 * [Tunnel](https://github.com/hellobike/tunnel)：Tunnel是一个将PostgreSQL的实时数据同步到ES或Kafka的服务，哈啰单车开源。
+* [DBSyncer](https://gitee.com/ghi/dbsyncer)：DBSyncer是一款开源的数据同步中间件，提供MySQL、Oracle、SqlServer、PostgreSQL、ES、Kafka、File、SQL等同步场景。
+* [Otter](https://github.com/alibaba/otter)：Otter是阿里开源的一个分布式数据库同步系统，尤其是在跨机房数据库同步方面有很强大的功能。
+* [Puma](https://github.com/dianping/puma)：Puma可以获取数据库的变更并通过消息方式发布，并且可以实现数据库同步，由大众点评开源。
+* [Yugong](https://github.com/alibaba/yugong)：Yugong是阿里开源的去Oracle数据迁移同步工具。
+* [Tapdata](https://github.com/tapdata/tapdata)：Tapdata是一个实时数据集成平台，可以实现数据库、SaaS服务、应用程序、文件等各种系统之间的数据实时同步，由钛铂数据开源。
+* [SymmetricDS](https://github.com/JumpMind/symmetric-ds)：SymmetricDS是数据库复制和文件同步软件，它独立于平台、支持Web且与数据库无关，由JumpMind开源。
 * [DataLink](https://github.com/ucarGroup/DataLink)：DataLink是一个满足各种异构数据源之间的实时增量同步、离线全量同步，分布式、可扩展的数据交换平台，由神州优车开源。
-* [DBSyncer](https://gitee.com/ghi/dbsyncer)：DBSyncer是一款开源的数据同步中间件，提供MySQL、Oracle、SqlServer、PostgreSQL、Elasticsearch(ES)、Kafka、File、SQL等同步场景。
 * [DBSwitch](https://gitee.com/dromara/dbswitch)：DBSwitch工具提供源端数据库向目的端数据库的批量迁移同步功能，支持数据的全量和增量方式同步，由dromara社区开源。
 * [Mongeez](https://github.com/mongeez/mongeez)：Mongeez允许你管理Mongo文档的更改，并在执行部署时与代码更改同步传播这些更改。
-* [Raigad](https://github.com/Netflix/Raigad)：用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
-* [Morf](https://github.com/alfasoftware/morf)：Morf是一个用于跨平台演化关系型数据库机制、数据库访问和数据库成像/克隆的库。
-* [Binlog4j](https://gitee.com/dromara/binlog4j)：基于Java的轻量级MySQL(Mariadb) Binlog客户端，由dromara社区开源。
-* [Compass](https://github.com/sogou-biztech/compass)：Compass是搜狗商业平台研发部开发的一套轻量级的分布式数据库访问框架。
-* [Open Replicator](https://github.com/whitesock/open-replicator)：Open Replicator是一个用Java编写的高性能MySQL binlog解析器。
-* [DataSQRL](https://github.com/DataSQRL/sqrl)：DataSQRL将SQL编译为优化的数据管道和数据微服务，从而消除了集成和调整具有多个步骤或组件的数据架构的手动工作。
-* [SQLCommenter](https://github.com/google/sqlcommenter)：SQLCommenter是一套中间件/插件，使你的ORM能够在执行之前扩充SQL语句，并使用包含有关导致其执行的代码的信息的注释，由Google开源。
+* [Redis Replicator](https://github.com/leonchen83/redis-replicator)：Redis Replicator是一个Redis复制工具，支持同步、psync、psync2，可以解析RDB、AOF、混合RDB和AOF文件。
+* [RedisSyncer](https://github.com/TraceNature/redissyncer-server)：RedisSyncer是一个Redis多任务同步工具集，应用于Redis单实例及集群同步。
+* [Canal MySQL NoSQL Sync](https://github.com/liukelin/canal_mysql_nosql_sync)：基于Canal的MySQL、RabbitMQ、Redis/Memcached/MongoDB同步工具。
 
-## 数据湖框架
+#### 数据湖框架
 
 * [Apache Hudi](https://github.com/apache/hudi)：Hudi是一个事务性数据湖平台，可为数据湖带来数据库和数据仓库功能，由Uber开源。
 * [LakeSoul](https://github.com/lakesoul-io/LakeSoul)：LakeSoul是一个云原生Lakehouse框架，支持可扩展的元数据管理、ACID事务、高效灵活的更新插入操作、模式演化以及统一的流和批处理，由数元灵科技开源。
@@ -2198,6 +2163,38 @@ permalink: /javalibs
 * [OpenHouse](https://github.com/linkedin/openhouse)：OpenHouse是一个开源控制平面，旨在高效管理开放数据Lakehouse部署中的表，由LinkedIn开源。
 * [Pixels](https://github.com/pixelsdb/pixels)：Pixels的核心是专为数据湖和数据仓库设计的列式存储引擎。
 * [Apache XTable](https://github.com/apache/incubator-xtable)：XTable是一种表格式的跨表转换器，可促进跨数据处理系统和查询引擎的全方位互操作性，由Onehouse开源。
+
+#### Kafka生态
+
+* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
+* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
+* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
+* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
+* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
+* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
+* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
+* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
+* [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
+* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
+* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
+* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
+* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
+* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
+* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
+* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
+* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
+* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
+* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
+* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
+* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
+* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
+* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
+* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
+* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
+* [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
+* [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
+* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
+* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
 
 ## 消息中间件
 
@@ -2230,38 +2227,6 @@ permalink: /javalibs
 * [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
 * [Ytk-mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持快照持久化和Broker集群模式。
-
-## Kafka生态
-
-* [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
-* [Kafka-UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
-* [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
-* [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
-* [KnowStreaming](https://github.com/didi/KnowStreaming)：Know Streaming是一套云原生的Kafka管控平台，脱胎于众多互联网内部多年的Kafka运营实践经验，专注于Kafka运维管控、监控告警、资源治理、多活容灾等核心场景，由滴滴开源。
-* [EFAK](https://github.com/smartloli/EFAK)：EAFK是一个开源的Kafka集群管理和监控工具，旨在帮助用户更好地管理和监控其Kafka集群。
-* [Cruise-control](https://github.com/linkedin/cruise-control)：Cruise Control是一款帮助大规模运行Kafka集群的产品，由LinkedIn开源。
-* [KCenter](https://github.com/xaecbd/KCenter)：KCenter是一个统一的Kafka集群管理维护、生产者/消费者监控、生态组件使用的一站式平台。
-* [Kstreamplify](https://github.com/michelin/kstreamplify)：Kstreamplify是一个Java库，使你能够快速创建基于Kafka Stream的应用程序，并提供许多附加高级功能，由米其林开源。
-* [Kafka-Sprout](https://github.com/oslabs-beta/Kafka-Sprout)：Kafka Sprout是一个Web GUI，可以帮助你在本地计算机上快速启动Zookeeper和Kafka服务器，无需任何代码配置。
-* [Xinfra-Monitor](https://github.com/linkedin/kafka-monitor)：Xinfra Monitor是一个在真实集群中实现和执行长时间运行的kafka系统测试的框架，由LinkedIn开源。
-* [Confluent Schema Registry](https://github.com/confluentinc/schema-registry)：Kafka的Confluence模式注册中心。
-* [Kafdrop](https://github.com/HomeAdvisor/Kafdrop)：Kafdrop是一个用于监控Kafka集群的UI。
-* [Mirus](https://github.com/salesforce/mirus)：Mirus是Kafka的跨数据中心数据复制工具，由Salesforce开源。
-* [Kafdrop](https://github.com/obsidiandynamics/kafdrop)：Kafdrop是一个用于查看Kafka主题和浏览消费者组的Web UI。
-* [Jikkou](https://github.com/streamthoughts/jikkou)：Jikkou是一款开源工具，旨在提供一种高效且简单的方法来管理、自动化和配置事件流平台上的资源。
-* [Strimzi](https://github.com/strimzi/strimzi-kafka-operator)：Strimzi提供了一种在Kubernetes或OpenShift上以各种部署配置运行Kafka集群的方法，由RedHat开源。
-* [Julie](https://github.com/kafka-ops/julie)：JulieOps帮助你自动化管理Kafka中的事物，从主题、配置到元数据，以及访问控制、模式。
-* [Decaton](https://github.com/line/decaton)：Decaton是一个构建在Kafka之上的流式任务处理框架，由Line开源。
-* [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
-* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
-* [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载平衡的服务，由Pinterest开源。
-* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
-* [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
-* [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
-* [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
-* [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
-* [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
 
 ## 分布式组件
 
@@ -2298,7 +2263,7 @@ permalink: /javalibs
 * [Lock4j](https://gitee.com/baomidou/lock4j)：Lock4j是一个分布式锁组件，其提供了多种不同的支持以满足不同性能和环境的需求，由baomidou社区开源。
 * [Sherlock](https://github.com/coditory/sherlock-distributed-lock)：Sherlock是一个用于JVM项目的分布式锁库，它公开同步和响应式API，并使用数据库连接器来存储锁。
 * [Amazon DynamoDB Lock Client](https://github.com/awslabs/amazon-dynamodb-lock-client)：Amazon DynamoDB Lock Client是构建在DynamoDB之上的通用分布式锁库，支持粗粒度和细粒度锁定。
-* [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis + Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
+* [Nepxion Aquarius](https://github.com/Nepxion/Aquarius)：Nepxion Aquarius是一款基于Redis、Zookeeper的分布式应用组件集合，包含分布式锁，缓存，ID生成器，限速限流器。
 * [Redis Distributed Lock](https://github.com/TaXueWWL/redis-distributed-lock)：Redis分布式锁工具包，提供纯Java方式调用，支持传统Spring工程，也为Spring Boot应用提供了Starter。
 * [Distributed Lock](https://github.com/alturkovic/distributed-lock)：使用Spring进行分布式锁的简单实现。
 * [WLock](https://github.com/wuba/WLock)：WLock是一套基于一致性算法组件WPaxos实现的高可靠、高吞吐分布式锁服务，由58同城开源。
@@ -2375,7 +2340,6 @@ permalink: /javalibs
 * [Lemur Project](https://www.lemurproject.org/)：Lemur项目开发搜索引擎、浏览器工具栏、文本分析工具和数据资源，以支持信息检索和文本挖掘软件的研究和开发，由马萨诸塞大学阿默斯特分校智能信息检索中心(CIIR)和卡内基梅隆大学语言技术研究所(LTI)发起。
 * [Search Framework](https://gitee.com/oschina/search-framework)：这是OSChina网站的全文搜索框架源码。
 * [TngouDB](https://gitee.com/397713572/TngouDB)：TngouDB是天狗网开发的中文搜索引擎数据库，用于天狗农业网的农业搜索引擎。
-* [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
 * [MontySolr](https://github.com/adsabs/montysolr)：MontySolr是天体物理数据系统背后的搜索引擎，由哈佛大学和NASA开源。
 * [Astra](https://github.com/slackhq/astra)：Astra是一个用于日志、跟踪和审计数据的云原生搜索和分析引擎，由Slack开源。
 * [MG4J](https://mg4j.di.unimi.it/)：MG4J是一个用Java编写的免费全文搜索引擎，用于大型文档集合。
@@ -2573,6 +2537,53 @@ permalink: /javalibs
 
 * [PL/Java](https://github.com/tada/pljava)：PL/Java是一个免费的附加模块，它将Java存储过程、触发器和函数引入PostgreSQL后端。
 * [SPAN](https://github.com/americanexpress/SPAN)：SPAN是一个Java框架，它可以帮助开发人员通过提供配置和POJO详细信息来连接存储过程，由美国运通开源。
+
+## 图处理
+
+* [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
+* [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个实时图处理库，由Twitter开源。
+* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将graphviz与纯Java一起使用，使用Java代码创建graphviz模型并将其转换为漂亮的图形。
+* [Apache Commons Graph](https://github.com/apache/commons-graph)：Commons Graph是一个用于管理图和基于图的数据结构的工具包。
+* [PGX](https://www.oracle.com/middleware/technologies/parallel-graph-analytix.html)：PGX是一个用于图分析的工具包，支持高效的图算法和快速的类似SQL的图模式匹配查询，由Oracle开发。
+* [Gradoop](https://github.com/dbs-leipzig/gradoop)：Gradoop是一个开源研究框架，用于构建在Flink之上的可扩展图分析，由莱比锡大学数据库研究组开发。
+* [SociaLite](https://github.com/socialite-lang/socialite)：SociaLite是一种用于分布式图分析的高级查询语言，由斯坦福开源。
+* [JUNG](https://github.com/jrtom/jung)：JUNG是一个软件库，它提供了一种通用且可扩展的语言，用于对可以表示为图形或网络的数据进行建模、分析和可视化。
+* [PGQL](https://github.com/oracle/pgql-lang)：PGQL是一种基于SQL的属性图数据模型查询语言，为SQL和NoSQL用户带来图模式匹配功能，由Oracle开源。
+* [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning)：Ant Graph Learning为工业规模的图学习任务提供了全面的解决方案，由蚂蚁开源。
+* [GraphBuilder](https://github.com/intel/graphbuilder)：GraphBuilder库提供了构建大规模图的函数，由Intel开源。
+* [GraphStream](https://github.com/graphstream/gs-core)：GraphStream项目是一个Java库，提供API来建模、分析和可视化图和动态图，由勒阿弗尔大学开源。
+* [Erdos](https://github.com/Erdos-Graph-Framework/Erdos)：Erdos是一个非常轻量、模块化且超级易于使用的Java现代图论算法框架。
+* [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science)：GDS包括图算法、图转换和机器学习管道，通过Neo4j DBMS内的Cypher程序进行操作。
+
+## 数据库中间件
+
+* [Canal](https://github.com/alibaba/canal)：Canal是阿里开发的基于数据库增量日志解析，提供增量数据订阅&消费的中间件。
+* [DRC](https://github.com/ctripcorp/drc)：DRC是携程框架架构研发部数据中心组推出的用于数据双向或多向复制的数据库中间件。
+* [Apache ShardingSphere](https://github.com/apache/shardingsphere)：ShardingSphere是一种分布式SQL事务和查询引擎，允许在任何数据库上进行数据分片、扩展、加密等，由当当网开源。
+* [Cobar](https://github.com/alibaba/cobar)：Cobar是分库分表的代理，兼容MySQL协议和MySQL SQL语法，底层存储仅支持MySQL，支持前台业务更简单、稳定、高效、安全，由阿里开源。
+* [TSharding](https://github.com/baihui212/tsharding)：TSharding是蘑菇街交易平台使用的简单分片组件。
+* [DBLE](https://github.com/actiontech/dble)：DBLE是由爱可生开发的一种高扩展性的MySQL分片中间件。
+* [Gizzard](https://github.com/twitter-archive/gizzard)：Gizzard是用于创建最终一致的分布式数据存储的灵活分片框架，由Twitter开源。
+* [Mycat2](https://github.com/MyCATApache/Mycat2)：Mycat2是Mycat社区开发的一款分布式关系型数据库中间件。
+* [Heisenberg](https://github.com/brucexx/heisenberg)：Heisenberg是百度开源的一款基于MySQL协议之上的分库分表中间件，支持各种灵活的分库分表规则。
+* [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
+* [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
+* [MySQL BinLog Connector](https://github.com/shyiko/mysql-binlog-connector-java)：MySQL二进制日志连接器。
+* [TDDL](https://github.com/alibaba/tb_tddl)：TDDL是一个分布式数据库中间件，主要是为了解决分布式数据库产生的相关问题，由阿里开源。
+* [Zebra](https://github.com/Meituan-Dianping/Zebra)：Zebra是一个基于JDBC API协议上开发出的高可用、高性能的数据库访问层解决方案，是美团点评内部使用的数据库访问层中间件。
+* [ToroDB Stampede](https://github.com/torodb/stampede)：Stampede可将NoSQL数据从MongoDB副本集转换为PostgreSQL中的关系数据库。
+* [Sharding Method](https://github.com/QNJR-GROUP/sharding-method)：Sharding Method是分表分库的新思路-服务层Sharding框架，全SQL、全数据库兼容，由齐牛金融开源。
+* [ReplicaDB](https://github.com/osalvador/ReplicaDB)：ReplicaDB是用于数据库复制的开源工具，旨在在关系型数据库和NoSQL数据库之间高效传输批量数据。
+* [Ptubes](https://github.com/meituan/ptubes)：Ptubes是一款基于PITR的数据库灾难恢复产品，可以用来将整个数据库恢复到特定时间点，美团开源。
+* [EsProc](https://github.com/SPLWare/esProc)：EsProc SPL是一种用于数据处理的脚本语言，具有精心设计的丰富的库函数和强大的语法，可以通过JDBC接口在Java程序中执行并独立计算。
+* [Mondrian](https://github.com/pentaho/mondrian)：Mondrian是一款OLAP服务器，使业务用户能够实时分析大量数据。
+* [Coral](https://github.com/linkedin/coral)：Coral是一个SQL翻译、分析和重写引擎，由LinkedIn开源。
+* [Morf](https://github.com/alfasoftware/morf)：Morf是一个用于跨平台演化关系型数据库机制、数据库访问和数据库成像/克隆的库。
+* [Binlog4j](https://gitee.com/dromara/binlog4j)：Binlog4j是基于Java的轻量级MySQL Binlog客户端，由dromara社区开源。
+* [Compass](https://github.com/sogou-biztech/compass)：Compass是搜狗商业平台研发部开发的一套轻量级分布式数据库访问框架。
+* [Open Replicator](https://github.com/whitesock/open-replicator)：Open Replicator是一个用Java编写的高性能MySQL binlog解析器。
+* [DataSQRL](https://github.com/DataSQRL/sqrl)：DataSQRL将SQL编译为优化的数据管道和数据微服务，从而消除了集成和调整具有多个步骤或组件的数据架构的手动工作。
+* [SQLCommenter](https://github.com/google/sqlcommenter)：SQLCommenter是一套中间件/插件，使你的ORM能够在执行之前扩充SQL语句，并使用包含有关导致其执行的代码的信息的注释，由Google开源。
 
 ## 数据库连接池
 
@@ -2964,7 +2975,7 @@ permalink: /javalibs
 * [LogViewer](https://github.com/sevdokimov/log-viewer)：LogViewer是一个Web应用程序，用于在浏览器中实时监控服务器日志。
 * [Logback GELF](https://github.com/osiegmar/logback-gelf)：用于发送GELF消息的Logback Appender。
 * [Terse Logback](https://github.com/tersesystems/terse-logback)：Terse Logback是Logback扩展的集合，功能包括结构化日志记录、跟踪和可观察性。
-* [Log4j2-ElasticSearch](https://github.com/rfoltyns/log4j2-elasticsearch)：这是Log4j2 Appender插件的父项目，能够将日志批量推送到Elasticsearch集群。
+* [Log4j2 ElasticSearch](https://github.com/rfoltyns/log4j2-elasticsearch)：这是Log4j2 Appender插件的父项目，能够将日志批量推送到Elasticsearch集群。
 * [Logback Extensions](https://github.com/qos-ch/logback-extensions)：Logback Extensions项目为Logback日志框架提供社区支持的扩展。
 * [Splunk Logging](https://github.com/splunk/splunk-library-javalogging)：适用于流行Java日志框架的Splunk日志Appender。
 * [Logback More Appender](https://github.com/sndyuk/logback-more-appenders)：Logback的附加Appender，可以毫无顾虑地提供更好的性能和数据一致性。
@@ -3070,7 +3081,6 @@ permalink: /javalibs
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
 * [AutoLoadCache](https://github.com/qiujiayu/AutoLoadCache)：AutoLoadCache是基于AOP+注解等技术实现的高效的缓存管理解决方案。
 * [J2Cache](https://gitee.com/ld/J2Cache)：J2Cache是OSChina目前正在使用的二级缓存框架。
-* [RedisCache](https://gitee.com/darkidiot/RedisCache)：RedisCache是基于Jedis的SDK。
 * [XXL-Cache](https://github.com/xuxueli/xxl-cache)：XXL-Cache是一个分布式缓存管理平台，其核心设计目标是让分布式缓存的接入和管理的更加的简洁和高效。
 * [OHC](https://github.com/snazy/ohc)：Java堆外缓存解决方案。
 * [KCache](https://github.com/rayokota/kcache)：KCache是一个客户端库，它提供由Kafka中的压缩主题支持的内存缓存。
@@ -3265,6 +3275,7 @@ permalink: /javalibs
 * [Workhorse](https://github.com/coodoo-io/workhorse)：用于后台作业和业务关键任务的Java EE作业引擎。
 * [SIA-TASK](https://github.com/siaorg/sia-task)：SIA-TASK是任务调度的一体式解决方案，简单易用，由宜信开源。
 * [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
+* [BigBen](https://github.com/walmartlabs/bigben)：BigBen是一个基于Cassandra和Hazelcast的通用、多租户、基于时间的事件调度程序和Cron调度框架，由沃尔玛开源。
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
 * [CronMan](https://github.com/smmdwa/CronMan)：CronMan是一款轻量级的分布式任务调度系统。
 * [Chronus](https://github.com/360digitech/chronus)：Chronus是360数科技术团队基于阿里开源项目TBSchedule重写的分布式调度。
@@ -3482,7 +3493,7 @@ permalink: /javalibs
 * [AIAS](https://gitee.com/mymagicpower/AIAS)：人工智能加速器套件，提供SDK、平台引擎、场景套件。
 * [Dubhe](https://gitee.com/zhijiangtianshu/Dubhe)：之江天枢人工智能开源平台是由之江实验室牵头，联合国内顶尖科研力量共同打造的国产化自主可控的人工智能开源平台。
 * [AllData](https://github.com/alldatacenter/alldata)：AllData大数据产品是可定义数据中台，以数据平台为底座、数据中台为桥梁，以机器学习平台、GPT平台为框架，提供全链路数字化解决方案。
-* [Hbox](https://github.com/Qihoo360/XLearning)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
+* [Hbox](https://github.com/Qihoo360/hbox)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
 * [ModernMT](https://github.com/modernmt/modernmt)：ModernMT是一种基于Fairseq Transformer模型的上下文感知、增量和分布式通用神经机器翻译技术。
 * [Malmo](https://github.com/microsoft/malmo)：Malmo是一个建立在Minecraft之上的人工智能实验和研究平台，由Microsoft开源。
 * [XEF](https://github.com/xebia-functional/xef)：XEF是一站式库，以LLM、图像生成等形式将现代AI的力量带入你的应用程序或服务，由Xebia开源。
@@ -3695,6 +3706,38 @@ permalink: /javalibs
 * [EYE](https://github.com/eyereasoner/eye)：EYE是一个支持语义Web层并实现Notation3的推理引擎。
 * [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
 
+#### 计算机视觉
+
+* [ImageJ](https://github.com/imagej/ImageJ)：ImageJ是用于处理和分析科学图像的公共领域软件，由美国国家卫生研究院开源。
+* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成，由由南安普顿大学开发。
+* [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库，这是OpenCV的Java绑定。
+* [JavaCV](https://github.com/bytedeco/javacv)：JavaCV包含OpenCV、FFmpeg等的Java接口。
+* [BoofCV](https://github.com/lessthanoptimal/BoofCV)：BoofCV是一个开源实时计算机视觉库，功能包括低级图像处理、相机校准、特征检测/跟踪、运动结构、分类和识别。
+* [GRIP](https://github.com/WPIRoboticsProjects/GRIP)：GRIP是一款用于快速原型设计和部署计算机视觉算法的应用程序，主要用于机器人应用，由伍斯特理工学院开源。
+* [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
+* [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV Processing基于OpenCV的官方Java绑定，为常见的OpenCV函数提供方便的包装器。
+* [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
+
+#### 光学字符识别
+
+* [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
+* [SikuliX](https://github.com/RaiMan/SikuliX1)：SikuliX可以自动化你在运行Windows、Mac或某些Linux/Unix的台式计算机屏幕上看到的任何内容，它使用由OpenCV提供支持的图像识别来识别GUI组件，并可以通过鼠标和键盘操作对其进行操作。
+* [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
+* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：Face Recognition是用于Android和Java的人脸识别库，由苏黎世应用科学大学开源。
+* [FaceRecognition](https://github.com/wihoho/FaceRecognition)：FaceRecognition是使用PCA、LDA和LPP实现的人脸识别项目。
+* [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：SeetafaceJNI是基于中科院Seetaface 2进行封装的Java人脸识别库，支持人脸识别、1:1比对、1:N比对。
+* [FaceSearch](https://gitee.com/open-visual/face-search)：FaceSearch是阿里云视觉智能开放平台的人脸搜索M:N的开源替代，项目中使用的模型均为开源模型，项目支持OpenSearch、Milvus和Proxima向量存储库，并具有较高的自定义能力。
+* [FaceRecognition LivenessDetection Android](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android)：适用于Android的本地人脸识别人脸活体检测SDK，由FacePlugIn开源。
+* [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
+* [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：第5代深度学习人脸识别引擎Java SDK，由千搜科技开源。
+* [Tesseract4java](https://github.com/tesseract4java/tesseract4java)：Tesseract4java是用于Tesseract OCR的Java GUI和工具。
+* [OCR4All](https://github.com/OCR4all/OCR4all)：OCR4All允许任何给定用户对各种历史印刷品独立执行OCR，并以合理的时间支出获得高质量的结果，由维尔茨堡大学开源。
+* [EasyOCR](https://github.com/ushelp/EasyOCR)：EasyOCR是一个使用Java语言实现的OCR识别引擎，能自动完成图片清理、识别CAPTCHA验证码图片内容的一体化工作。
+* [MLKit](https://github.com/jenly1314/MLKit)：MLKit是一个能够将Google专业的机器学习知识带到应用中的极其简单易用的封装包。
+* [Scanner](https://github.com/shouzhong/Scanner)：Scanner包含常用的二维码/条码识别，以及身份证识别、银行卡识别、车牌识别、图片文字识别、驾驶证识别等。
+* [TreeHole OCR](https://github.com/AnyListen/tools-ocr)：TreeHole OCR是一款跨平台的OCR小工具，调用本地OCR进行识别，无需联网即可使用用到的技术和框架。
+* [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
+
 ## 约束求解
 
 * [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner)：OptaPlanner是一个轻量级、可嵌入的约束满足引擎，可优化规划问题，最初由RedHat开发。
@@ -3732,7 +3775,6 @@ permalink: /javalibs
 * [Enso](https://github.com/enso-org/enso)：Enso是一种屡获殊荣的交互式编程语言，具有双重视觉和文本表示形式。
 * [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
-* [RumbleDB](https://github.com/RumbleDB/rumble)：RumbleDB是一个查询引擎，可让你轻松高效地查询大型、混乱的数据集，由苏黎世联邦理工学院开源。
 * [Hopsworks](https://github.com/logicalclocks/hopsworks)：Hopsworks是一个ML数据平台，具有以Python为中心的特征存储和MLOps功能，由Hopsworks开源。
 * [Eclipse ICE](https://github.com/eclipse/ice)：ICE是一个科学工作台和工作流程环境，旨在改善计算科学家的用户体验。
 * [Morpheus](https://github.com/zavtech/morpheus-core)：Morpheus库旨在促进涉及大型数据集的高性能分析软件的开发，以便在JVM上进行离线和实时分析。
@@ -3755,24 +3797,26 @@ permalink: /javalibs
 ## 异常检测
 
 * [ThirdEye](https://github.com/startreedata/thirdeye)：ThirdEye是一款用于实时监控时间序列和交互式根本原因分析的集成工具，最初由LinkedIn开源。
+* [Sherlock](https://github.com/yahoo/sherlock)：Sherlock是一个构建在Druid之上的异常检测服务，由Yahoo开源。
 * [Adaptive Alerting](https://github.com/ExpediaGroup/adaptive-alerting)：Adaptive Alerting通过自动模型选择和拟合进行流异常检测，由Expedia开源。
 * [Random Cut Forest](https://github.com/aws/random-cut-forest-by-aws)：该仓库包含随机森林(RCF)概率数据结构的实现，由Amazon开发，用于流数据的非参数异常检测算法。
 * [AnomalyDetection](https://github.com/JeemyJohn/AnomalyDetection)：Java实现的异常检测算法。
 
 ## 商业智能
 
+* [Metabase](https://github.com/metabase/metabase)：Metabase是一个开源的商业智能工具，你可以通过它理解数据、分析数据，进行数据查询并获取格式化结果，以数据驱动决策。
 * [Poli](https://github.com/shzlw/poli)：Poli是一款易于使用的SQL报告应用程序，专为SQL爱好者打造。
 * [SuperSonic](https://github.com/tencentmusic/supersonic)：SuperSonic是下一代LLM支持的数据分析平台，集成了ChatBI和HeadlessBI，由腾讯音乐娱乐开源。
-* [CBoard](https://gitee.com/tuiqiao/CBoard)：由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
+* [CBoard](https://gitee.com/tuiqiao/CBoard)：CBoard由上海楚果信息技术有限公司主导开源，它不仅仅是一款自助BI数据分析产品，还是开放的BI产品开发平台。
 * [BI Platform](https://github.com/baidu/BIPlatform)：百度开源，业内领先的Holap敏捷BI分析平台，提供高性能、准实时、可扩展的、一站式的BI建模、分析平台。
 * [Abixen Platform](https://github.com/abixen/abixen-platform)：Abixen是一个基于微服务的软件平台，用于构建企业应用程序，通过创建特定的微服务并通过提供的CMS集成来提供功能。
 * [Helical Insight](https://github.com/helicalinsight/helicalinsight)：Helical Insight是世界上第一个开源商业智能框架，可以帮助你从一个或多个数据源中获取见解。
-* [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其`用作语义层的通用语义引擎。
+* [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其用作语义层的通用语义引擎。
 * [Guitar](https://github.com/iflytek/Guitar)：Guitar是一款简单、高效的分布式多维BI报表分析引擎，由科大讯飞开源。
-* [KNOWAGE](https://github.com/KnowageLabs/Knowage-Server)：KNOWAGE是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
+* [Knowage](https://github.com/KnowageLabs/Knowage-Server)：Knowage是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
 * [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单+自定义流程+自定义报表。
 * [ART](https://art.sourceforge.net/)：ART是一种报告和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
-* [富表低代码可视化大屏工具](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
+* [FusionView](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
 
 ## 指纹识别
 
@@ -3841,6 +3885,7 @@ permalink: /javalibs
 * [ROS 2 Java](https://github.com/ros2-java/ros2_java)：这是一组使开发人员能够为JVM和Android编写ROS 2应用程序的项目。
 * [YAGSL](https://github.com/BroncBotz3481/YAGSL)：YAGSL是一个由现任和前任BroncBotz导师为所有FRC团队开发的转向库。
 * [JBullet](http://jbullet.advel.cz/)：JBullet是Bullet物理库的Java端口。
+* [FTCVision](https://github.com/lasarobotics/FTCVision)：FTCVision是基于OpenCV的FTC计算机视觉库，由FRC 418团队开源。
 * [Robot Overlord](https://github.com/MarginallyClever/Robot-Overlord-App)：Robot Overlord是一款机器人3D控制软件，由Marginally Clever Robots开源。
 * [BowlerStudio](https://github.com/CommonWealthRobotics/BowlerStudio)：BowlerStudio是一款机器人开发应用程序，它将脚本和设备管理与强大的控制和处理功能结合在一起。
 * [EV3Dev-lang-Java](https://github.com/ev3dev-lang-java/ev3dev-lang-java)：EV3Dev-lang-Java是一个学习Java并使用EV3Dev和LeJOS方式支持的硬件为Mindstorms机器人创建软件的项目。
@@ -4010,6 +4055,7 @@ permalink: /javalibs
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
 * [Cromwell](https://github.com/broadinstitute/cromwell)：Cromwell是一个用于生物信息学的开源工作流程管理系统，由麻省理工学院和哈佛大学布罗德研究所开源。
 * [GATK](https://github.com/broadinstitute/gatk)：由麻省理工学院和哈佛大学布罗德研究所开源的下一代基因组分析工具包。
+* [QuPath](https://github.com/qupath/qupath)：QuPath是用于生物图像分析的开源软件，由英国女王大学开源。
 * [BioJava](https://github.com/biojava/biojava)：BioJava是一个开源项目，致力于提供处理生物数据的Java框架。
 * [ADAM](https://github.com/bigdatagenomics/adam)：ADAM是一个库和命令行工具，支持使用Spark跨集群/云计算环境并行进行基因组数据分析，由加州大学伯克利分校、西奈山伊坎医学院、微软研究院等开源。
 * [WDL](https://github.com/openwdl/wdl)：WDL是一种开放标准，用于使用人类可读和可写的语法来描述数据处理工作流，最初由布罗德研究所开发。
@@ -4700,6 +4746,7 @@ permalink: /javalibs
 * [Pngtastic](https://github.com/depsypher/pngtastic)：Pngtastic是一个纯Java PNG图像优化和操作库。
 * [Grid](https://github.com/guardian/grid)：Grid是卫报的图像管理系统，它提供了访问组织的媒体的通用且快速的体验，并以经济实惠的方式使用它来生成高质量的内容。
 * [Apache Commons Imaging](https://github.com/apache/commons-imaging)：Commons Imaging是一个纯Java图像库。
+* [SmartCropper](https://github.com/pqpo/SmartCropper)：SmartCropper是一个简单易用的智能图片裁剪库，适用于身份证，名片，文档等照片的裁剪。
 * [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys)：TwelveMonkeys ImageIO通过javax.imageio.*包的插件为Java平台提供扩展图像文件格式支持。
 * [ImgLib2](https://github.com/imglib/imglib2)：ImgLib2是一个通用的多维图像处理库。
 * [ImgScalr](https://github.com/rkalla/imgscalr)：ImgScalr是一个简单高效(硬件加速)的图片缩放“最佳实践”类库，纯Java 2D实现。
@@ -4733,37 +4780,6 @@ permalink: /javalibs
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
 * [Kim](https://github.com/Ashampoo/kim)：Kim是一个用于读取和写入图像元数据的Kotlin多平台库。
 * [Java Image Filters](http://www.jhlabs.com/ip/filters/index.html)：Java Image Filters是由Jhlabs开发的一组用来处理Java图像的类库，提供各种常用的图像处理效果，例如反转色、扭曲、水波纹、凹凸、黑白效果等等数十种效果。
-
-## 计算机视觉
-
-* [ImageJ](https://github.com/imagej/ImageJ)：ImageJ是用于处理和分析科学图像的公共领域软件，由美国国家卫生研究院开源。
-* [OpenIMAJ](https://github.com/openimaj/openimaj)：OpenIMAJ是一个屡获殊荣的库和工具集合，用于多媒体(图像、文本、视频、音频等)内容分析和内容生成。
-* [OpenCV](https://github.com/openpnp/opencv)：OpenCV是一个跨平台的计算机视觉库。
-* [JavaCV](https://github.com/bytedeco/javacv)：OpenCV、FFmpeg等的Java接口。
-* [ImageJ2](https://github.com/imagej/imagej2)：Image的重写版本，其中心目标是拓宽ImageJ的范式，超越原始ImageJ应用程序的限制，以支持更广泛的多维科学图像数据。
-* [BoofCV](https://github.com/lessthanoptimal/BoofCV)：BoofCV是一个开源实时计算机视觉库，功能包括低级图像处理、相机校准、特征检测/跟踪、运动结构、分类和识别。
-* [Origami](https://github.com/hellonico/origami)：JVM上图像处理、计算机视觉和神经网络的最低进入门槛。
-* [SikuliX](https://github.com/RaiMan/SikuliX1)：SikuliX可以自动化你在运行Windows、Mac或某些Linux/Unix的台式计算机屏幕上看到的任何内容，它使用由OpenCV提供支持的图像识别来识别GUI组件，并可以通过鼠标和键盘操作对其进行操作。
-* [PNG Upscale](https://github.com/Araxeus/PNG-Upscale)：使用预训练模型来升级图像的小工具。
-* [OpenCV Processing](https://github.com/atduskgreg/opencv-processing)：OpenCV计算机视觉库的处理库。
-* [DataGym.ai](https://github.com/datagym-ai/datagym-core)：DataGym.ai是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建您自己的训练数据管道。
-
-## 光学字符识别
-
-* [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
-* [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
-* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：用于Android和Java的人脸识别库，其中包含多种人脸识别方法，由苏黎世应用科学大学开源。
-* [FaceRecognition](https://github.com/wihoho/FaceRecognition)：使用PCA、LDA和LPP实现的人脸识别。
-* [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：基于中科院Seetaface 2进行封装的Java人脸识别库，支持人脸识别、1:1比对、1:N比对。
-* [FaceSearch](https://gitee.com/open-visual/face-search)：本项目是阿里云视觉智能开放平台的人脸搜索M:N的开源替代，项目中使用的模型均为开源模型，项目支持OpenSearch、Milvus和Proxima向量存储库，并具有较高的自定义能力。
-* [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
-* [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：第5代深度学习人脸识别引擎Java SDK，由千搜科技开源。
-* [OCR4all](https://github.com/OCR4all/OCR4all)：OCR4all允许任何给定用户对各种历史印刷品独立执行OCR，并以合理的时间支出获得高质量的结果，由维尔茨堡大学开源。
-* [EasyOCR](https://github.com/ushelp/EasyOCR)：EasyOCR是一个使用Java语言实现的OCR识别引擎，能自动完成图片清理、识别CAPTCHA验证码图片内容的一体化工作。
-* [MLKit](https://github.com/jenly1314/MLKit)：MLKit是一个能够将谷歌专业的机器学习知识带到应用中的极其简单易用的封装包。
-* [Scanner](https://github.com/shouzhong/Scanner)：这里有你常用的二维码/条码识别，还有你可能用到的身份证识别、银行卡识别、车牌识别、图片文字识别、驾驶证识别等。
-* [树洞OCR](https://github.com/AnyListen/tools-ocr)：一款跨平台的OCR小工具，调用本地OCR进行识别，无需联网即可使用用到的技术和框架。
-* [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
 
 ## SVG库
 
@@ -5998,7 +6014,6 @@ permalink: /javalibs
 * [Eclipse Xtend](https://github.com/eclipse/xtext-xtend)：Xtext是一个用于开发编程语言和DSL的框架。
 * [MyBatis Dynamic SQL](https://github.com/mybatis/mybatis-dynamic-sql)：适用于Kotlin和Java的SQL DSL，支持MyBatis或Spring JdbcTemplate的渲染。
 * [JMeter DSL](https://github.com/abstracta/jmeter-java-dsl)：使用JMeter作为引擎，以Git和程序员友好的方式运行性能测试的简单Java API。
-* [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
 * [JBBP](https://github.com/raydac/java-binary-block-parser)：在Java和Android中处理二进制数据的最舒适和动态的方式。
 * [Neo4j Cypher DSL](https://github.com/neo4j-contrib/cypher-dsl)：用于Cypher查询语言的Java DSL。
 * [Structurizr DSL](https://github.com/structurizr/dsl)：此项目包含Structurizr DSL的实现-一种使用DSL基于C4 Model创建Structurizr软件架构模型的方法。
@@ -6501,7 +6516,6 @@ permalink: /javalibs
 * [JabRef](https://github.com/JabRef/jabref)：用于管理BibTeX和biblatex(.bib)数据库的图形化Java应用程序。
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：使用JavaFX 19编写的Asciidoc编辑器和工具链(构建PDF、Epub、Mobi和HTML书籍、文档和幻灯片)。
 * [Fofa Viewer](https://github.com/wgpsec/fofa_viewer)：用JavaFX编写的简单FOFA客户端。
-* [QuPath](https://github.com/qupath/qupath)：QuPath是用于生物图像分析的开源软件，由英国女王大学开源。
 * [Phoenicis](https://github.com/PhoenicisOrg/phoenicis)：Phoenicis是PlayOnLinux和PlayOnMac 4的指定继承者，允许你在您喜欢的操作系统上安装和使用非本机应用程序。
 * [XPipe](https://github.com/xpipe-io/xpipe)：全新的Shell连接集线器和远程文件管理器。
 * [XR3Player](https://github.com/goxr3plus/XR3Player)：最先进的JavaFX媒体播放器。
@@ -6659,15 +6673,8 @@ permalink: /javalibs
 * [MDUT](https://github.com/SafeGroceryStore/MDUT)：MDUT是一款集成了多种主流数据库类型的中文数据库跨平台利用工具。
 * [Jailer](https://github.com/Wisser/Jailer)：数据库子集和关系数据浏览工具。
 * [Airpal](https://github.com/airbnb/airpal)：Airpal是一种基于Web的查询执行工具，它利用Facebook的PrestoDB使用户可以轻松编写查询和检索结果，由Airbnb开源。
-* [Variety](https://github.com/variety/variety)：Variety是MongoDB的模式分析器。
 * [ODC](https://github.com/oceanbase/odc)：ODC是一款开源、全能的跨场景数据库协同开发和数据管理工具，阿里开源。
 * [ChartSQL](https://docs.chartsql.com/)：ChartSQL是一种嵌入SQL脚本中的可视化语言，由Sales Insights开源。
-* [RedisClient](https://github.com/caoxinyu/RedisClient)：基于Java SWT和Jedis编写的Redis客户端GUI工具。
-* [Redis-Admin](https://github.com/mauersu/redis-admin)：基于Java EE和Jedis编写的Redis客户端Web工具。
-* [RedisDesktopClient](https://gitee.com/RedisDesktopClient/redis-desktop-client)：一款颜值较高、使用方便的Redis客户端工具。
-* [RedisPlus](https://gitee.com/MaxBill/RedisPlus)：RedisPlus是为Redis可视化管理开发的一款开源免费的桌面客户端软件，支持Windows、Linux、Mac三大系统平台。
-* [Redis-Admin](https://gitee.com/xuebusi/redis-admin)：一个简单好用的Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
-* [RedisFront](https://gitee.com/dromara/RedisFront)：dromara社区开源的跨平台Redis桌面客户端工具，支持单机模式、集群模式、哨兵模式以及SSH隧道连接。
 * [PrettyZoo](https://github.com/vran-dev/PrettyZoo)：Zookeeper GUI，支持Win/Mac/Linux平台。
 * [ZkUI](https://github.com/DeemOpen/zkui)：允许在Zookeeper上进行CRUD操作的UI仪表板。
 * [ZkClient](https://github.com/sgroschupf/zkclient)：Zookeeper客户端库。
@@ -6675,9 +6682,7 @@ permalink: /javalibs
 * [kafkaUI-lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
 * [Shepher](https://gitee.com/zhannngchen/shepher)：一款ZooKeeper的管理工具。
 * [Zookeeper-Visualizer](https://github.com/xin497668869/zookeeper-visualizer)：Zookeeper的可视化管理工具。
-* [Redis Manager](https://github.com/ngbdf/redis-manager)：Redis一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作。
 * [SchemaSpy](https://github.com/schemaspy/schemaspy)：SchemaSpy是一个数据库元数据分析器，它可以帮助你的数据库管理员和开发人员可视化、导航和理解你的数据模型。
-* [UMONGO](https://github.com/agirbal/umongo)：用于浏览和管理MongoDB集群的桌面应用程序。
 * [SQL Workbench](https://codeberg.org/sql-workbench/workbench)：SQL Workbench/J是一个独立于DBMS的跨平台SQL查询工具。
 * [SQuirreL SQL](https://github.com/squirrel-sql-client/squirrel-sql-code)：SQuirrel SQL是一个用Java写的数据库管理工具。
 * [Screw](https://gitee.com/leshalv/screw)：简洁好用的数据库表结构文档生成器。
@@ -6692,7 +6697,6 @@ permalink: /javalibs
 * [Rel](https://reldb.org/c/)：Rel是用于创建和管理数据库的软件。
 * [qStudio](https://github.com/timeseries/qstudio)：qStudio是一个免费的SQL GUI，它允许运行SQL脚本、轻松浏览表格、绘制图表和导出结果。
 * [SQL Analysis](https://github.com/jd-opensource/sql-analysis)：针对大促、日常系统稳定性隐患-慢SQL的预防和排查，基于Mybatis插件设计的一款慢SQL分析组件，区别于主流的基于慢SQL日志分析和预警，实时根据Explain分析结果分析，由京东开源。
-* [RCT](https://github.com/xaecbd/RCT)：RCT是通过解析RDB文件进行Redis内存结构分析的一站式平台。
 
 #### 数据库建模
 
@@ -6972,7 +6976,6 @@ permalink: /javalibs
 
 ## 数据库驱动
 
-* [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
 * [Postgresql](https://github.com/pgjdbc/pgjdbc)：Postgresql JDBC驱动程序。
 * [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
 * [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
@@ -6984,34 +6987,17 @@ permalink: /javalibs
 * [R2DBC SPI](https://github.com/r2dbc/r2dbc-spi)：R2DBC实现的SPI。
 * [R2DBC MSSQL](https://github.com/r2dbc/r2dbc-mssql)：使用TDS协议的SQLServer的R2DBC驱动程序。
 * [MariaDB R2DBC](https://github.com/mariadb-corporation/mariadb-connector-r2dbc)：非阻塞MariaDB和MySQL客户端。
-* [ElasticSearch](https://github.com/elastic/elasticsearch-java)：Elasticsearch官方Java客户端。
-* [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
-* [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：ElasticSearch高级Java REST客户端API。
-* [Flummi](https://github.com/otto-de/flummi)：Flummi是ElasticSearch的客户端库，提供了全面的Java查询DSL API，并通过HTTP/JSON与ElasticSearch集群进行通信。
-* [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端。
-* [Jedis](https://github.com/redis/jedis)：Redis的Java客户端，旨在提高性能和易用性。
-* [Tedis](https://github.com/justified/tedis)：Tedis是另一个Redis的Java客户端，阿里开源。
-* [Lettuce](https://github.com/lettuce-io/lettuce-core)：高级Java Redis客户端，用于线程安全同步、异步和响应式使用。支持集群、哨兵、管道和编解码器。
 * [Influx4j](https://github.com/brettwooldridge/influx4j)：适用于InfluxDB的高性能、零垃圾Java客户端/驱动程序。
-* [JRedis](https://github.com/alphazero/jredis)：Redis的Java客户端和连接器。
-* [Redis Protocol](https://github.com/spullara/redis-protocol)：Redis的Java客户端和服务端实现。
 * [OceanBase Client](https://github.com/oceanbase/obconnector-j)：兼容JDBC 4.2的OceanBase Java驱动程序。
-* [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
-* [Astyanax](https://github.com/Netflix/astyanax)：Cassandra Java客户端库，由Netflix开源。
-* [Folsom](https://github.com/spotify/folsom)：Java的异步Memcache客户端库，由Spotify开源。
 * [SQLite JDBC](https://github.com/xerial/sqlite-jdbc)：用于在Java中访问和创建SQLite数据库文件的库。
 * [Couchbase](https://github.com/couchbase/couchbase-java-client)：Couchbase Server的官方Java客户端。
 * [InfluxDB Java](https://github.com/influxdata/influxdb-java)：InfluxDB的官方Java客户端库。
 * [InfluxDB2 Java](https://github.com/influxdata/influxdb-client-java)：适用于JVM的InfluxDB 2客户端。
-* [XMemcached](https://github.com/killme2008/xmemcached)：Java中的高性能、易于使用的多线程Memcached客户端。
-* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
 * [Neo4j Java Driver](https://github.com/neo4j/neo4j-java-driver)：Neo4j的官方Java驱动程序。
 * [Reactive SQL Client](https://github.com/eclipse-vertx/vertx-sql-client)：用Java编写的高性能响应式SQL客户端。
 * [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
 * [Snowflake JDBC Driver](https://github.com/snowflakedb/snowflake-jdbc)：Snowflake JDBC驱动程序。
 * [JAsync-SQL](https://github.com/jasync-sql/jasync-sql)：JAsync-SQL是一个使用Kotlin编写的简单、基于Netty、异步、高性能且可靠的PostgreSQL和MySQL数据库驱动程序。
-* [Cassandra Java Driver](https://github.com/apache/cassandra-java-driver)：Cassandra的Java驱动程序。
-* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java 中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
 * [VtDriver](https://github.com/jd-opensource/vtdriver)：VtDriver是一套基于分布式数据库Vitess而开发的Vitess Java客户端解决方案，由京东开源。
 * [Aerospike Java Client](https://github.com/aerospike/aerospike-client-java)：Aerospike数据库的Java客户端库。
 * [OpenGauss JDBC](https://gitee.com/opengauss/openGauss-connector-jdbc)：OpenGauss JDBC驱动程序。
@@ -7024,20 +7010,15 @@ permalink: /javalibs
 * [Flyway](https://github.com/flyway/flyway)：Flyway是一款开源的数据库版本管理工具，它更倾向于规约优于配置的方式。
 * [Obevo](https://github.com/goldmansachs/obevo)：Obevo是一种数据库部署工具，可处理企业规模的架构和复杂性，由高盛银行开源。
 * [Mybatis Migrations](https://github.com/mybatis/migrations)：命令行数据库迁移工具。
-* [Cassandra Migration](https://github.com/Contrast-Security-OSS/cassandra-migration)：一个简单且轻量级的Cassandra数据库迁移工具，基于Flyway项目。
-* [Cassandra Schema Migration](https://github.com/patka/cassandra-migration)：该库可用于在Java应用程序内实现Cassandra数据库模式的迁移。
 * [Mongolastic](https://github.com/ozlerhakan/mongolastic)：Mongolastic使你能够将数据集从MongoDB节点迁移到ElasticSearch节点，反之亦然。
 * [Datafall](https://github.com/forcedotcom/Data-Migration-Tool)：Datafall 是一种将数据从一个Salesforce组织迁移到另一个Salesforce组织的工具。
 * [Neo4j-Migrations](https://github.com/michael-simons/neo4j-migrations)：Neo4j-Migrations是一种数据库迁移和重构工具，允许以受控且可重复的方式针对一个或多个Neo4j数据库运行Cypher脚本和编程重构。
-* [Cassandra Migration](https://github.com/smartcat-labs/cassandra-migration-tool-java)：适用于Java的Cassandra模式迁移工具。
 * [COS Migration](https://github.com/tencentyun/cos_migrate_tool_v5)：COS Migration是一个集成了COS数据迁移功能的一体化工具，由腾讯开源。
 * [OSSImport](https://help.aliyun.com/zh/data-online-migration/user-guide/ossimport-overview)：OSSImport是阿里的一款将数据迁移至OSS的商业工具。
 * [Celesta](https://github.com/CourseOrchestra/celesta)：Java的数据库迁移、SQL和测试工具。
-* [Elasticsearch-Evolution](https://github.com/senacor/elasticsearch-evolution)：用于迁移Elasticsearch映射的库。
+* [Elasticsearch Evolution](https://github.com/senacor/elasticsearch-evolution)：用于迁移Elasticsearch映射的库。
 * [Migrate2Postgres](https://github.com/isapir/Migrate2Postgres)：该工具允许你轻松地将数据库从其他兼容JDBC的DBMS迁移到Postgres。
-* [CQLMigrate](https://github.com/sky-uk/cqlmigrate)：CQLMigrate是一个用于在Cassandra集群上执行模式迁移的库。
 * [Couchmove](https://github.com/tchlyah/couchmove)：Couchmove是Couchbase的开源Java迁移工具。
-* [MongoBee](https://github.com/mongobee/mongobee)：Java版MongoDB数据迁移工具。
 * [Mongock](https://github.com/mongock/mongock)：Mongock是一个基于Java的迁移工具，作为应用程序代码的一部分。
 * [Solidbase](https://github.com/gitbucket/solidbase)：基于Liquibase的RDBMS和其他资源的通用迁移工具。
 * [R2DBC Migration](https://github.com/nkonev/r2dbc-migrate)：R2DBC数据库迁移库。
@@ -7047,6 +7028,98 @@ permalink: /javalibs
 * [Dynamic DataSource](https://github.com/baomidou/dynamic-datasource)：Dynamic DataSource是一个基于Spring Boot的快速集成多数据源的Starter。
 * [DataSource Proxy](https://github.com/jdbc-observations/datasource-proxy)：DataSource Proxy提供简单的API来拦截JDBC交互，并允许用户在查询或方法执行之前/之后执行自己的逻辑。
 * [Spring Boot Dynamic DataSource](https://github.com/helloworlde/SpringBoot-DynamicDataSource)：Spring Boot多数据源、动态数据源配置。
+
+## Redis库/工具
+
+* [Redisson](https://github.com/redisson/redisson)：Redisson是一个具有内存数据网格功能的Redis Java客户端。
+* [Jedis](https://github.com/redis/jedis)：Jedis是Redis的Java客户端，旨在提高性能和易用性。
+* [Tedis](https://github.com/justified/tedis)：Tedis是另一个Redis的Java客户端，阿里开源。
+* [Lettuce](https://github.com/lettuce-io/lettuce-core)：Lettuce是一个可扩展的线程安全Redis客户端，适用于同步、异步和响应式使用。
+* [Spring Data Redis](https://github.com/spring-projects/spring-data-redis)：Spring Data Redis提供从Spring应用程序轻松配置和访问Redis的功能。
+* [RedisCache](https://gitee.com/darkidiot/RedisCache)：RedisCache是基于Jedis的SDK。
+* [JRedis](https://github.com/alphazero/jredis)：JRedis是Redis的Java客户端和连接器。
+* [Redis Protocol](https://github.com/spullara/redis-protocol)：RedisClient是Redis的Java客户端和服务端实现。
+* [Carmine](https://github.com/taoensso/carmine)：Carmine是Clojure的成熟Redis客户端，提供惯用的Clojure API，速度快、功能强大且易于使用。
+* [RedisScala](https://github.com/etaty/rediscala)：RedisScala是具有非阻塞和异步I/O操作的Scala Redis客户端。
+* [Redis OM Spring](https://github.com/redis/redis-om-spring)：Redis OM Spring扩展了Spring Data Redis，以充分利用Redis和Redis Stack。
+* [RedisClient](https://github.com/caoxinyu/RedisClient)：RedisClient是一个基于Java SWT和Jedis编写的Redis客户端GUI工具。
+* [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
+* [Redis Desktop Client](https://gitee.com/RedisDesktopClient/redis-desktop-client)：Redis Desktop Client是一款颜值较高、使用方便的redis客户端工具。
+* [RedisPlus](https://gitee.com/MaxBill/RedisPlus)：RedisPlus是为Redis可视化管理开发的一款开源免费的桌面客户端软件。
+* [Redis Admin](https://gitee.com/xuebusi/redis-admin)：Redis Admin是一个简单好用的Redis缓存图形化管理工具，包含Redis的5种数据类型的CRUD操作。
+* [RedisFront](https://gitee.com/dromara/RedisFront)：RedisFront是一款开源跨平台Redis桌面客户端工具，支持单机模式、集群模式、哨兵模式以及SSH隧道连接，由dromara社区开源。
+* [Redis Manager](https://github.com/ngbdf/redis-manager)：Redis Manager是Redis一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作功能。
+* [XPipe](https://github.com/ctripcorp/x-pipe)：X-Pipe是由携程框架部门研发的Redis多数据中心复制管理系统。
+* [CacheCloud](https://github.com/sohutv/cachecloud)：CacheCloud是一个Redis云管理平台，支持Redis多种架构高效管理、有效降低大规模Redis运维成本，提升资源管控能力和利用率，由搜狐开源。
+* [RCT](https://github.com/xaecbd/RCT)：RCT是通过解析RDB文件进行Redis内存结构分析的一站式平台。
+* [Redis RDB CLI](https://github.com/leonchen83/redis-rdb-cli)：Redis RDB CLI是一个可以解析、过滤、拆分、合并RDB以及离线分析内存使用情况的工具。
+* [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
+
+## MongoDB库/工具
+
+* [MongoDB](https://github.com/mongodb/mongo-java-driver)：适用于Java、Kotlin和Scala的官方MongoDB驱动程序。
+* [Spring Data MongoDB](https://github.com/spring-projects/spring-data-mongodb)：Spring Data MongoDB项目旨在为新数据存储提供熟悉且一致的基于Spring的编程模型，同时保留特定于存储的特性和功能。
+* [ReactiveMongo](https://github.com/ReactiveMongo/ReactiveMongo)：ReactiveMongo是一个Scala驱动程序，提供完全非阻塞和异步I/O操作。
+* [Mars](https://github.com/whaleal/mars)：Mars是用于Java的MongoDB ORM/ODM框架，由上海锦木信息技术有限公司与中国东方航空公司共同开发。
+* [Morphia](https://github.com/MorphiaOrg/morphia)：Morphia是基于Java的MongoDB对象-文档映射器。
+* [Mongojack](https://github.com/mongojack/mongojack)：Mongojack将Java对象映射到MongoDB文档。
+* [MongoPlus](https://gitee.com/aizuda/mongo-plus)：MongoPlus可以使用MyBatisPlus的方式优雅的操作MongoDB，由爱组搭开源。
+* [Variety](https://github.com/variety/variety)：Variety是MongoDB的模式分析器。
+* [UMongo](https://github.com/agirbal/umongo)：UMongo是用于浏览和管理MongoDB集群的桌面应用程序。
+* [MongoBee](https://github.com/mongobee/mongobee)：MongoBee是一个Java工具，可帮助你管理MongoDB中的更改并将其与你的应用程序同步。
+
+## Cassandra库/工具
+
+* [Cassandra Java Driver](https://github.com/apache/cassandra-java-driver)：Cassandra的Java驱动程序。
+* [DataStax Java Driver](https://github.com/datastax/java-driver)：适用于Cassandra的DataStax Java驱动程序。
+* [Phantom](https://github.com/outworkers/phantom)：Phantom是适用于Cassandra/Datastax Enterprise的响应式类型安全Scala驱动程序。
+* [Astyanax](https://github.com/Netflix/astyanax)：Astyanax是Netflix开源的Cassandra Java客户端库。
+* [Spring Data Cassandra](https://github.com/spring-projects/spring-data-cassandra)：Spring Data Cassandra为Cassandra提供Spring Data模块熟悉的接口。
+* [Hector](https://github.com/hector-client/hector)：Hector是Cassandra的高级客户端库。
+* [Cassie](https://github.com/twitter-archive/cassie)：Cassie是一个小型、轻量级的Cassandra客户端，基于Finagle构建，由Twitter开源。
+* [Priam](https://github.com/Netflix/Priam)：Priam是一个与Cassandra一起运行的流程/工具，由Netflix开源。
+* [Stargate](https://github.com/stargate/stargate)：Stargate是部署在客户端应用程序和Cassandra数据库之间的数据网关，DataStax开源。
+* [Cassandra Reaper](https://github.com/thelastpickle/cassandra-reaper)：Reaper是一种集中式、有状态且高度可配置的工具，用于针对单站点或多站点集群运行Cassandra修复，由DataStax开源。
+* [Aegisthus](https://github.com/Netflix/aegisthus)：Aegisthus是Cassandra的批量数据管道，由Netflix开源。
+* [Cassandra Schema Migration](https://github.com/patka/cassandra-migration)：该库可用于在Java应用程序内实现Cassandra数据库模式的迁移。
+* [Cassandra Migration](https://github.com/smartcat-labs/cassandra-migration-tool-java)：适用于Java的Cassandra模式迁移工具。
+* [Cassandra Migration](https://github.com/Contrast-Security-OSS/cassandra-migration)：Cassandra Migration是一个简单且轻量级的Cassandra数据库迁移工具，基于Flyway项目，由Contrast开源。
+* [CQLMigrate](https://github.com/sky-uk/cqlmigrate)：CQLMigrate是一个用于在Cassandra集群上执行模式迁移的库，由英国天空公司开源。
+
+## Memcached库/工具
+
+* [Folsom](https://github.com/spotify/folsom)：Folsom是Java的异步Memcached客户端库，由Spotify开源。
+* [XMemcached](https://github.com/killme2008/xmemcached)：XMemcached是一个高性能、易于使用的Java阻塞多线程Memcached客户端。
+* [Spymemcached](https://github.com/dustin/java-memcached-client)：Spymemcached是一个用Java编写的简单、异步、单线程Memcached客户端。
+
+## ClickHouse库/工具
+
+* [ClickHouse Java](https://github.com/ClickHouse/clickhouse-java)：用于连接ClickHouse并处理各种格式数据的Java库。
+* [ClickHouse Native JDBC](https://github.com/housepower/ClickHouse-Native-JDBC)：用于在Java 中访问ClickHouse的原生JDBC库，还提供用于与Spark集成的库。
+* [Clickhouse Scala](https://github.com/crobox/clickhouse-scala-client)：Clickhouse Scala客户端，以响应式方式访问Clickhouse数据库。
+* [CKibana](https://github.com/TongchengOpenSource/ckibana)：CKibana是一项使用原生Kibana方便分析ClickHouse数据的服务，由同程旅行开源。
+* [Graphhouse](https://github.com/ClickHouse/graphouse)：Graphhouse允许你使用ClickHouse作为Graphite存储。
+
+## ElasticSearch库/工具
+
+* [ElasticSearch Java](https://github.com/elastic/elasticsearch-java)：ElasticSearch官方Java客户端。
+* [Jest](https://github.com/searchbox-io/Jest)：Jest是ElasticSearch的Java HTTP REST客户端。
+* [Bboss](https://github.com/bbossgroups/bboss-elasticsearch)：Bboss是一个很好的ElasticSearch Java REST客户端，它操作和访问ElasticSearch的方式与MyBatis类似。
+* [Flummi](https://github.com/otto-de/flummi)：Flummi是ElasticSearch的客户端库，提供了全面的Java查询DSL API，并通过HTTP/JSON与ElasticSearch集群进行通信。
+* [Pallas](https://github.com/vipshop/pallas)：Pallas是唯品会的统一搜索平台，建立在ElasticSearch之上，旨在解决各种搜索问题。
+* [Easy ES](https://gitee.com/dromara/easy-es)：Easy ES是一款简化ElasticSearch搜索引擎操作的开源框架，全自动智能索引托管，由dromara社区开源。
+* [Spring Data Elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch)：Spring Data Elasticsearch项目提供与Elasticsearch搜索引擎的集成。
+* [ESClientRHL](https://gitee.com/zxporz/ESClientRHL)：EsClientRHL是一个可基于Spring Boot的ElasticSearch客户端调用封装工具。
+* [EsearchX](https://gitee.com/noear/esearchx)：EsearchX基于OkHttp、Snack3开发，是一个代码直白和简单的Elasticsearch ORM框架。
+* [Elastic4s](https://github.com/Philippus/elastic4s)：Elastic4s是一个简洁、惯用、响应式、类型安全的Elasticsearch Scala客户端。
+* [Ebatis](https://github.com/ymm-tech/ebatis)：Ebatis是一个声明式ElasticSearch ORM框架。
+* [Querqy](https://github.com/querqy/querqy)：Querqy是一个在基于Java的搜索引擎中进行查询预处理的框架。
+* [ES Fastloader](https://github.com/didi/ES-Fastloader)：ES Fastloader利用Hadoop的容错性和并行性，在多个reducer节点中构建单独的ElasticSearch分片，然后将分片传输到ElasticSearch集群进行服务，由滴滴开源。
+* [Elasticsearch JDBC](https://github.com/jprante/elasticsearch-jdbc)：JDBC导入器允许从JDBC源获取数据以索引到Elasticsearch中。
+* [Elasticsearch SQL](https://github.com/NLPchina/elasticsearch-sql)：使用此插件，你可以使用熟悉的SQL语法查询Elasticsearch。
+* [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
+* [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
+* [KnowSearch](https://github.com/didi/KnowSearch)：KnowSearch是面向Elasticsearch研发与运维人员，围绕集群、索引构建的零侵入、多租户的Elasticsearch GUI管控平台，由滴滴开源。
 
 ## 对象存储
 
@@ -7489,7 +7562,7 @@ permalink: /javalibs
 * [MyCompany](https://github.com/lsfusion-solutions/mycompany)：适用于小型企业的ERP系统。
 * [悟空CRM](https://github.com/WuKongOpenSource/WukongCRM-11.0-JAVA)：基于Spring Cloud Alibaba微服务架构 + Vue ElementUI的前后端分离CRM系统。
 * [iBizEHR](https://gitee.com/ibizlab/iBizEHR)：iBizEHR是一套可满足万人应用的高性能人力资源管理软件，埃毕致开源。
-* [Saas ERP](https://gitee.com/hy417393356/saas-java)：基于Spring Boot 2.2.0、Mybatis、JWT、Redis、Vue + Element-UI的前后端分离的Saas平台后台管理系统。
+* [Saas ERP](https://gitee.com/hy417393356/saas-java)：基于Spring Boot 2.2.0、Mybatis、JWT、Redis、Vue、ElementUI的前后端分离的Saas平台后台管理系统。
 * [星云ERP](https://gitee.com/lframework/xingyun)：基于Spring Boot框架，为中小企业提供完全开源、永久免费、用户体验好的进销存ERP系统。
 * [Qcadoo MES](https://github.com/qcadoo/mes)：Qcadoo MES是一款针对中小企业的生产管理互联网应用，它结合了大型ERP系统的功能，适应中小企业的具体特点。
 * [Wimoor ERP](https://github.com/wimoor-erp/wimoor)：Wimoor ERP是国内首款百分百开源、支持商用的亚马逊ERP系统。
@@ -8170,6 +8243,7 @@ permalink: /javalibs
 * [Segment](https://github.com/houbb/segment)：Segment是基于结巴分词词库实现的更加灵活，高性能的Java分词实现。
 * [IK Analyzer Solr](https://github.com/magese/ik-analyzer-solr)：Solr 7.X-8.X的IK分词器。
 * [ElasticSearch Analysis Vietnamese](https://github.com/duydo/elasticsearch-analysis-vietnamese)：用于ElasticSearch的越南语分词插件。
+* [ElasticSearch Analysis Ansj](https://github.com/NLPchina/elasticsearch-analysis-ansj)：ElasticSearch是一个基于ansj分词算法的ElasticSearch的中文分词插件。
 * [IdeaSeg](https://gitee.com/indexea/ideaseg)：IdeaSeg是Indexea推出的一个基于最新的HanLP自然语言处理工具包实现的中文分词器。
 * [THULAC](https://github.com/thunlp/THULAC-Java)：THULAC是由清华大学自然语言处理与社会人文计算实验室研制推出的一套中文词法分析工具包，具有中文分词和词性标注功能。
 * [THUCTC](https://github.com/thunlp/THUCTC)：THUCTC是由清华大学自然语言处理实验室推出的中文文本分类工具包，能够自动高效地实现用户自定义的文本分类语料的训练、评测、分类功能。
