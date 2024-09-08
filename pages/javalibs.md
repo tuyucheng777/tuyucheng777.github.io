@@ -50,9 +50,9 @@ permalink: /javalibs
   * [测试生成器](#测试生成器)
   * [Selenium生态](#Selenium生态)
   * [自动化框架](#自动化框架)
-  * [测试报告](#测试报告)
-  * [QA自动化](#QA自动化)
   * [自动化工具](#自动化工具)
+  * [QA自动化](#QA自动化)
+  * [测试报告](#测试报告)
   * [多线程测试](#多线程测试)
   * [JUnit扩展](#JUnit扩展)
   * [其他测试库](#其他测试库)
@@ -529,7 +529,7 @@ permalink: /javalibs
 * [Stripes](https://github.com/StripesFramework/stripes)：Stripes是一个Java Web框架，其目标是使Java中基于Servlet/JSP的Web开发尽可能简单、直观。
 * [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
 * [Latke](https://github.com/88250/latke)：Latke是一个简单易用的Java Web应用开发框架，包含MVC、IoC、事件通知、ORM、插件等组件。
-* [NutzWk](https://github.com/Wizzercn/NutzWk)：开源企业级Java Web开发框架。
+* [NutzWk](https://github.com/Wizzercn/NutzWk)：NutzWk是基于国产框架NutzBoot开发的开源Java企业级Web框架。
 * [Albianj2](https://github.com/crosg/Albianj2)：Albianj是阅文集团设计并开发的一套分布式统一框架。
 * [Restlight](https://github.com/esastack/esa-restlight)：Restlight是一个轻量级且面向REST的Web框架。
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
@@ -1234,25 +1234,6 @@ permalink: /javalibs
 * [TestHub](https://gitee.com/dromara/TestHub)：TestHub是一款基于流程编排的自动化测试工具，由dromara社区开源。
 * [JSystem](https://github.com/Top-Q/jsystem)：JSystem是一个用于编写和管理自动化系统测试的专业开源框架。
 
-#### 测试报告
-
-* [Allure](https://github.com/allure-framework/allure2)：Allure Report是一种灵活的多语言测试报告工具，可向你展示已测试内容的详细表示，并从日常测试执行中提取最大程度的信息。
-* [Scott](https://github.com/dodie/scott)：获取非常详细的测试失败消息，无需断言库、额外配置或对现有测试进行更改。
-* [ReportPortal](https://github.com/reportportal/reportportal)：ReportPortal是一项TestOps服务，它提供了增强的功能，通过使用内置分析功能来加速结果分析和报告。
-* [Zebrunner Reporting](https://github.com/zebrunner/reporting)：Zebrunner Reporting是一种测试自动化管理工具，可累积并表示测试结果。
-* [Difido Reports](https://github.com/Top-Q/difido-reports)：该项目旨在为各种功能测试自动化框架提供灵活、实时的HTML报告。
-* [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
-* [Open Test Reporting](https://github.com/ota4j-team/open-test-reporting)：与语言无关的测试报告格式和工具。
-* [Cucumber Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
-* [Java TestNG](https://github.com/reportportal/agent-java-testNG)：将结果上传到ReportPortal服务器的TestNG报告器。
-* [Spock Reports](https://github.com/renatoathaydes/spock-reports)：该项目是Spock的全局扩展，用于创建测试报告。
-
-#### QA自动化
-
-* [Stevia](https://github.com/persado/stevia)：Stevia是Persado的开源QA自动化测试框架。
-* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
-* [AET](https://github.com/wttech/aet)：AET是一个检测网站上的视觉变化并执行基本页面健康检查(如W3C合规性、可访问性、HTTP状态码、JS错误检查等)的系统。
-
 #### 自动化工具
 
 * [MeterSphere](https://github.com/metersphere/metersphere)：MeterSphere是一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI测试和性能测试等功能，全面兼容JMeter、Selenium等主流开源标准，由飞致云开源。
@@ -1276,6 +1257,25 @@ permalink: /javalibs
 * [TESTAR](https://github.com/TESTARtool/TESTAR_dev)：TESTAR是一款能够在GUI级别对桌面、Web和移动应用程序进行无脚本自动化系统测试的工具，由瓦伦西亚理工大学、乌得勒支大学和荷兰开放大学等开发。
 * [Testerra](https://github.com/telekom/testerra)：Testerra是一个用于自动测试(Web)应用程序的集成框架，由德国电信开源。
 * [ReVoman](https://github.com/salesforce-misc/ReVoman)：ReVoman是一个JVM API自动化工具，它通过让你在JVM程序/测试中执行Postman集合来重新构想API自动化，由Salesforce开源。
+
+#### QA自动化
+
+* [Stevia](https://github.com/persado/stevia)：Stevia是Persado的开源QA自动化测试框架。
+* [QMetry](https://github.com/qmetry/qaf)：使用Selenium、WebDriver、TestNG和Jersey的Web、MobileWeb移动原生和Rest Web服务的质量自动化框架。
+* [AET](https://github.com/wttech/aet)：AET是一个检测网站上的视觉变化并执行基本页面健康检查(如W3C合规性、可访问性、HTTP状态码、JS错误检查等)的系统。
+
+#### 测试报告
+
+* [Allure](https://github.com/allure-framework/allure2)：Allure Report是一种灵活的多语言测试报告工具，可向你展示已测试内容的详细表示，并从日常测试执行中提取最大程度的信息。
+* [Scott](https://github.com/dodie/scott)：获取非常详细的测试失败消息，无需断言库、额外配置或对现有测试进行更改。
+* [ReportPortal](https://github.com/reportportal/reportportal)：ReportPortal是一项TestOps服务，它提供了增强的功能，通过使用内置分析功能来加速结果分析和报告。
+* [Zebrunner Reporting](https://github.com/zebrunner/reporting)：Zebrunner Reporting是一种测试自动化管理工具，可累积并表示测试结果。
+* [Difido Reports](https://github.com/Top-Q/difido-reports)：该项目旨在为各种功能测试自动化框架提供灵活、实时的HTML报告。
+* [Cluecumber](https://github.com/trivago/cluecumber)：用于从Cucumber BDD、Karate和其他框架生成的Cucumber兼容JSON文件创建聚合测试报告。
+* [Open Test Reporting](https://github.com/ota4j-team/open-test-reporting)：与语言无关的测试报告格式和工具。
+* [Cucumber Reporting](https://github.com/damianszczepanik/cucumber-reporting)：这是一个Java报告发布器，主要用于在Jenkins构建服务器上发布Cucumber报告。
+* [Java TestNG](https://github.com/reportportal/agent-java-testNG)：将结果上传到ReportPortal服务器的TestNG报告器。
+* [Spock Reports](https://github.com/renatoathaydes/spock-reports)：该项目是Spock的全局扩展，用于创建测试报告。
 
 #### 多线程测试
 
@@ -1813,6 +1813,7 @@ permalink: /javalibs
 * [Zipkin](https://github.com/openzipkin/zipkin)：Zipkin是一个分布式追踪系统，由Twitter开源。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：Pinpoint是一个用Java编写的大型分布式系统的APM工具，由韩国Naver研发团队开源。
 * [Cat](https://github.com/dianping/cat)：CAT是基于Java开发的实时应用监控平台，为美团点评提供了全面的实时监控告警服务。
+* [凤晴](http://www.uml.org.cn/wfw/202108185.asp)：凤睛是百度商业业务系统的APM，它侧重于对Java应用的监控，基本接入了百度绝大部分Java应用
 * [PFinder](https://developer.jdcloud.com/article/3821)：PFinder是京东UMP团队打造的新一代APM系统，集调用链追踪、应用拓扑、多维监控于一身。
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点专注于实时日志分析和人工智能集成，这是蚂蚁集团观测平台AntMonitor的开源版本。
 * [Matrix](https://github.com/Tencent/matrix)：Matrix是腾讯微信中使用的APM，用于监控、定位和分析性能问题。
@@ -1841,12 +1842,15 @@ permalink: /javalibs
 * [Apache SkyWalking](https://github.com/apache/skywalking)：SkyWalking是一个开源的APM系统，为云原生架构中的分布式系统提供监控、跟踪和诊断功能，由华为开源(吴晟)。
 * [Zipkin](https://github.com/openzipkin/zipkin)：Zipkin是一个分布式追踪系统，由Twitter开源。
 * [MTrace](https://tech.meituan.com/2016/10/14/mt-mtrace.html)：MTrace是美团内部的分布式会话跟踪系统，参考了Twitter的Zipkin以及阿里的鹰眼实现。
+* [LTrace](https://www.infoq.cn/article/mcadu5wixiviyyx6uetj)：LTrace由链家开发，为链家提供分布式调用链追踪能力。
 * [HoloInsight](https://github.com/traas-stack/holoinsight)：HoloInsight是一个云原生可观测平台，重点专注于实时日志分析和人工智能集成，这是蚂蚁集团观测平台AntMonitor的开源版本。
 * [Watchman](https://www.infoq.cn/article/weibo-watchman/)：Watchman是微博的链路追踪及服务质量保障系统。
 * [EagleEye](https://www.infoq.cn/article/jgzbemozgmbsukewff6j)：鹰眼是Google的分布式调用跟踪系统Dapper在淘宝的Java实现。
-* [CallGraph](https://cread.jd.com/read/startRead.action?bookId=30388376&readType=1)：京东的分布式跟踪解决方案。
+* [CallGraph](https://www.51cto.com/article/528304.html)：京东的分布式跟踪解决方案。
 * [SOFATracer](https://github.com/sofastack/sofa-tracer)：SOFATracer是一个用于分布式系统调用跟踪的组件，由蚂蚁开源。
-* [Cat](https://github.com/dianping/cat)：CAT是基于Java开发的实时应用监控平台，为美团点评提供了全面的实时监控告警服务。
+* [Cat](https://github.com/dianping/cat)：CAT是基于Java开发的实时应用监控平台，为大众点评提供了全面的实时监控告警服务。
+* [凤晴](http://www.uml.org.cn/wfw/202108185.asp)：凤睛是百度商业业务系统的APM，它侧重于对Java应用的监控，基本接入了百度绝大部分Java应用。
+* [Hiro](https://www.infoq.cn/article/suning-call-chain-monitoring-system-escort-818)：Hiro是苏宁易购开发的分布式跟踪系统。
 * [Brave](https://github.com/openzipkin/brave)：Brave是一个分布式跟踪仪器库。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint)：Pinpoint是一个用Java编写的大型分布式系统的APM工具，由韩国Naver研发团队开源。
 * [Apache HTrace](https://github.com/apache/incubator-retired-htrace)：HTrace是一个用于分布式系统的跟踪框架，由Cloudera开源。
@@ -1856,6 +1860,7 @@ permalink: /javalibs
 * [Wingtips](https://github.com/Nike-Inc/wingtips)：Wingtips是基于谷歌Dapper论文的Java分布式跟踪解决方案，由Nike开源。
 * [Micrometer Tracing](https://github.com/micrometer-metrics/tracing)：Micrometer Tracing是Micrometer应用程序跟踪门面。
 * [Hydra](https://github.com/odenny/hydra)：Hydra是京东开发的分布式跟踪系统。
+* [Pylon](https://www.infoq.cn/article/NDa71WVNsCWwl1Tdc44Q)：Pylon由网易云开发，为业务提供服务监控、链路追踪、治理分析、问题诊断等能力。
 * [Cicada](https://github.com/Yirendai/cicada)：Cicada是宜人贷开源的分布式跟踪系统，基于谷歌Dapper论文实现。
 * [PerfMark](https://github.com/perfmark/perfmark)：PerfMark是一个低开销、手动检测的Java跟踪库。
 * [Logbook](https://github.com/didi/logbook)：Logbook是一款面向ToB业务的服务端埋点方案，由滴滴开源。
@@ -2341,6 +2346,7 @@ permalink: /javalibs
 * [TubeMQ](https://github.com/apache/inlong/tree/master/inlong-tubemq)：TubeMQ是一个万亿级分布式消息中间件，由腾讯大数据团队开源。
 * [AutoMQ](https://github.com/AutoMQ/automq)：AutoMQ是基于云原生重新设计的新一代Kafka发行版，由阿里提供。
 * [DDMQ](https://github.com/didi/DDMQ)：DDMQ是滴滴基础设施团队基于RocketMQ打造的分布式消息产品。
+* [Nydus](https://www.infoq.cn/article/2_d683szyss0pjmdkxg2)：Nydus是网易云基于RocketMQ开发的消息队列。
 * [BifroMQ](https://github.com/baidu/bifromq)：BifroMQ是一种高性能、分布式MQTT代理实现，可无缝集成原生多租户支持，由百度开源。
 * [JGroups](https://github.com/belaban/JGroups)：JGroups是一个用于可靠消息传递的工具包，它可用于创建节点可以相互发送消息的集群，由RedHat开源。
 * [Kestrel](https://github.com/twitter-archive/kestrel)：Kestrel是一个简单分布式消息队列，增加了Actor和JVM提供的可扩展性，由Twitter开源。
@@ -3447,6 +3453,7 @@ permalink: /javalibs
 * [Cerberus](https://github.com/Nike-Inc/cerberus)：Cerberus API是一个云原生、可扩展的Spring Boot应用程序，可以安全地存储应用程序属性和文件，并具有强大的审核功能，Nike开源。
 * [Apache Commons Configuration](https://github.com/apache/commons-configuration)：Commons Configuration库提供了一个通用配置接口，使Java应用程序能够从各种源读取配置数据。
 * [QConfig](https://github.com/qunarcorp/qconfig)：QConfig中心式配置中心，提供高可用的配置托管/动态热更新服务，由去哪儿开源。
+* [Diamond](https://github.com/takeseem/diamond)：Diamond是一个持久配置管理中心，核心功能是使应用在运行中感知配置数据的变化，由淘宝开发。
 * [NightConfig](https://github.com/TheElectronWill/night-config)：NightConfig是一个功能强大且易于使用的Java配置库，用Java 8编写。
 * [Config Toolkit](https://github.com/dangdangdotcom/config-toolkit)：Config Toolkit用于简化从本地配置文件到Zookeeper的迁移，由当当开源。
 * [CFG4J](https://github.com/cfg4j/cfg4j)：CFG4J是用Java编写的分布式应用程序的现代配置库。
@@ -6992,6 +6999,7 @@ permalink: /javalibs
 ## 类加载
 
 * [SOFAArk](https://github.com/sofastack/sofa-ark)：SOFAArk是一款基于Java实现的动态热部署和轻量级类隔离框架，由蚂蚁集团开源贡献，主要提供应用模块的动态热部署和类隔离能力。
+* [Pandora](https://www.infoq.cn/article/kgxytjb2cr7hgukmjg0p)：Pandora是由淘宝团队打造的基于隔离技术而构建出的新一代的隔离容器。
 * [JCL](https://github.com/kamranzafar/JCL)：JCL是一个可配置、动态且可扩展的自定义类加载器，可以直接从Jar文件和其他源加载Java类。
 * [Java Dynamic Load Jar](https://github.com/Trinea/java-dynamic-load-jar)：解决在不同JAR中加载相同类时的类加载器隔离问题。
 * [ModRun](https://github.com/nanosai/modrun)：ModRun可以直接从Maven仓库加载和运行类，并在运行时解决依赖关系。
@@ -8759,6 +8767,7 @@ permalink: /javalibs
 ## 数字资产管理
 
 * [DSpace](https://github.com/DSpace/DSpace)：DSpace是一个专门的数字资产管理系统，它管理和发布由数字文件或“位流”组成的数字条目，并且允许创建、索引和搜索相关的元数据以便定位和存取该条目，由麻省理工学院联合美国惠普公司实验室开源。
+* [OCFL Java](https://github.com/OCFL/ocfl-java)：该项目是牛津大学OCFL规范的Java实现，OCFL规范描述了一种独立于应用程序的方法，以结构化、透明且可预测的方式存储数字信息。
 * [Cudami](https://github.com/dbmdz/cudami)：Cudami是一个编辑后台，用于管理网站、文章、数字化对象、数字原生对象和实体等文化数字资产，由巴伐利亚国立图书馆开源。
 * [DuraCloud](https://github.com/duracloud/duracloud)：DuraCloud是一种开源托管数字保存服务，它将灵活的存储选项与强大的工具相结合，以简化你的保存工作流程。
 * [Goobi](https://github.com/intranda/goobi-workflow)：Goobi是一款用于数字化项目的开源软件应用程序，它允许你对可自由定义的生产流程进行建模、管理和监督，并且许多机构每天都使用它来处理创建数字图书馆或博物馆所涉及的所有步骤。
@@ -8820,6 +8829,7 @@ permalink: /javalibs
 * [Apache Commons Daemon](https://github.com/apache/commons-daemon)：Commons Daemon是一组实用程序和Java支持类，用于将Java应用程序作为服务器进程运行。
 * [Launch4j](https://launch4j.sourceforge.net/)：Launch4j是一个跨平台工具，用于将作为jar分发的Java应用程序包装在轻量级Windows本机可执行文件中。
 * [JSmooth](https://github.com/BrunoReX/jsmooth)：JSmooth是一个Java可执行包装器，可构建启动Java应用程序的标准Windows可执行二进制文件(.exe)。
+* [JSystemd](https://github.com/jpmsilva/jsystemd)： JSystemd旨在提供一个更好的平台来将Java应用程序与systemd集成，并将它们作为适当的操作系统服务运行。
 
 ## 守护进程
 
