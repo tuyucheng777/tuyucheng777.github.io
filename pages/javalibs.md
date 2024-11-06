@@ -149,6 +149,7 @@ permalink: /javalibs
   * [Async/Await](#AsyncAwait)
   * [线程池](#线程池)
   * [Actor模型](#Actor模型)
+  * [ThreadLocal](#ThreadLocal)
   * [并发数据结构](#并发数据结构)
   * [竞争检测](#竞争检测)
 * [GraphQL](#GraphQL)
@@ -170,6 +171,7 @@ permalink: /javalibs
   * [联邦学习](#联邦学习)
   * [遗传算法](#遗传算法)
   * [专家系统](#专家系统)
+  * [差分隐私](#差分隐私)
   * [计算机视觉](#计算机视觉)
   * [光学字符识别](#光学字符识别)
 * [约束求解](#约束求解)
@@ -278,6 +280,13 @@ permalink: /javalibs
 * [微信开发](#微信开发)
 * [推送SDK](#推送SDK)
 * [API&客户端](#API客户端)
+  * [Git](#Git)
+  * [Twitter](#Twitter)
+  * [Facebook](#Facebook)
+  * [Instagram](#Instagram)
+  * [Slack](#Slack)
+  * [Reddit](#Reddit)
+  * [Spotify](#Spotify)
 * [Docker客户端](#Docker客户端)
 * [Consul客户端](#Consul客户端)
 * [Kubernetes客户端](#Kubernetes客户端)
@@ -447,6 +456,7 @@ permalink: /javalibs
 * [国际化](#国际化)
 * [翻译库](#翻译库)
 * [字典库](#字典库)
+* [颜色库](#颜色库)
 * [短链接](#短链接)
 * [单位库](#单位库)
 * [调用图](#调用图)
@@ -797,7 +807,7 @@ permalink: /javalibs
 * [Micronaut](https://github.com/micronaut-projects/micronaut-core)：Micronaut是一个基于JVM的现代全栈Java框架，旨在构建模块化、易于测试的JVM应用程序，由Object Computing开源。
 * [Quarkus](https://github.com/quarkusio/quarkus)：Quarkus是一个用于编写Java应用程序的云原生容器优先框架，由RedHat开发。
 * [Helidon](https://github.com/helidon-io/helidon)：Helidon是一组用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
-* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包，由Eclipse开源。
+* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包，主要由RedHat开源。
 * [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
 * [JHipster](https://github.com/jhipster/generator-jhipster)：JHipster是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
@@ -1922,6 +1932,7 @@ permalink: /javalibs
 * [Matrix](https://github.com/Tencent/matrix)：Matrix是腾讯微信中使用的APM，用于监控、定位和分析性能问题。
 * [SkyEye](https://github.com/JThink/SkyEye)：SkyEye是对Java、Scala等运行于JVM的程序进行实时日志采集、索引和可视化，对系统进行进程级别的监控的工具。
 * [Hawkular](https://github.com/hawkular/hawkular-apm)：Hawkular是RedHat开源的应用程序性能管理解决方案。
+* [Wavefront](https://docs.wavefront.com/)：Wavefront是一个高性能流分析平台，支持指标、计数器、直方图和跟踪/跨度的可观察性，由VMware维护。
 * [Sentry Java](https://github.com/getsentry/sentry-java)：适用于Java、Android和其他JVM语言的Sentry SDK。
 * [Hertzbeat](https://github.com/dromara/hertzbeat)：HertzBeat是一个开源的实时监控系统，具有自定义监控、高性能集群、Prometheus兼容和无代理功能，由dromara社区开源。
 * [ArgusAPM](https://github.com/Qihoo360/ArgusAPM)：ArgusAPM是360开源的线上移动性能检测平台。
@@ -2414,6 +2425,7 @@ permalink: /javalibs
 * [MyDataHarbor](https://gitee.com/mydataharbor/mydataharbor)：MyDataHarbor是一个致力于解决异构数据源之间的分布式、高扩展性、高性能、事务级的数据同步中间件。
 * [Canal MySQL NoSQL Sync](https://github.com/liukelin/canal_mysql_nosql_sync)：基于Canal的MySQL、RabbitMQ、Redis/Memcached/MongoDB同步工具。
 * [AMPLI-SYNC](https://github.com/sqlite-sync/SQLite-sync.com)：AMPLI-SYNC是一个用于在Sqlite和MS SQL/MySQL/Oracle/PostgreSQL数据库之间同步数据的框架。
+* [DatalinkX](https://github.com/SplitfireUptown/datalinkx)：基于Flink的异构数据源同步。
 
 #### 数据湖框架
 
@@ -2997,6 +3009,7 @@ permalink: /javalibs
 
 ## WebSocket
 
+* [Pushy](https://netflixtechblog.com/pushy-to-the-limit-evolving-netflixs-websocket-proxy-for-the-future-b468bc0ff658)：Pushy是Netflix的WebSocket服务器，可与运行Netflix应用程序的设备保持持久的WebSocket连接。
 * [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket)：该项目包含用纯Java编写的准系统WebSocket客户端和服务器实现。
 * [Scarlet](https://github.com/Tinder/Scarlet)：Scarlet是受Retrofit启发的适用于Kotlin、Java和Android的WebSocket客户端。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库。基于NIO而不是线程。
@@ -3421,7 +3434,6 @@ permalink: /javalibs
 
 * [AsyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：AsyncTool是解决任意的多线程并行、串行、阻塞、依赖、回调的并行框架，来自于京东主App后台。
 * [ZIO](https://github.com/zio/zio)：ZIO是一个用于异步和并发编程的零依赖Scala库。
-* [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：TransmittableThreadLocal提供一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
 * [Trickle](https://github.com/spotify/trickle)：Trickle是一个用于编写异步代码的小型库，由Spotify开源。
 * [JDeferred](https://github.com/jdeferred/jdeferred)：JDeferred是一个Java Deferred/Promise库，类似于JQuery的Deferred Object。
 * [Concurrentli](https://github.com/linkedin/concurrentli)：Concurrentli扩展了java.util.concurrent的多线程类，为多线程Java程序增加了便利性、效率和新工具，由LinkedIn开源。
@@ -3505,6 +3517,13 @@ permalink: /javalibs
 * [Apache Pekko](https://github.com/apache/incubator-pekko)：Pekko是一个开源框架，用于构建并发、分布式、弹性的应用程序。
 * [PraxisCore](https://github.com/praxis-live/praxiscore)：PraxisCore是用于网络物理编程的模块化JVM运行时，支持实时系统的实时编码。
 * [Elastic Actors](https://github.com/elasticsoftwarefoundation/elasticactors)：ElasticActors是一个Actor框架，它实现Actor模型并提供一些附加服务，例如持久性和可扩展性。
+
+#### ThreadLocal
+
+* [TransmittableThreadLocal](https://github.com/alibaba/transmittable-thread-local)：TransmittableThreadLocal提供一个增强的InheritableThreadLocal，即使使用线程池组件也可以在线程之间传输值，由阿里开源。
+* [Context Propagation](https://github.com/talsma-ict/context-propagation)：将ThreadLocal值的快照传播到另一个线程。
+* [Context Propagation](https://github.com/micrometer-metrics/context-propagation)：一个帮助跨不同类型的上下文机制(如ThreadLocal、Reactor Context等)传播上下文的库。
+* [SmallRye Context Propagation](https://github.com/smallrye/smallrye-context-propagation)：MicroProfile上下文传播的SmallRye实现。
 
 #### 并发数据结构
 
@@ -3737,6 +3756,7 @@ permalink: /javalibs
 * [URule](https://github.com/youseries/urule)：URule是一款基于RETE算法的纯Java规则引擎，提供规则集、决策表、决策树、评分卡、规则流等各种规则表现工具及基于网页的可视化设计器。
 * [DataFrames](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
 * [JVS-Rules](https://gitee.com/software-minister/jvs-rules)：本项目是基于JVS逻辑引擎构建的规则引擎，将JVS低代码开发平台的逻辑引擎简化，交互优化，从而形成侧重于金融风控、场景规则计算、在线决策的JVS-Rules。
+* [YARE](https://github.com/SabreOSS/yare)：YARE是一个用Java编写的规则引擎。
 
 ## API管理
 
@@ -4040,6 +4060,11 @@ permalink: /javalibs
 * [EYE](https://github.com/eyereasoner/eye)：EYE是一个支持语义Web层并实现Notation3的推理引擎。
 * [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
 
+#### 差分隐私
+
+* [PipelineDP4j](https://github.com/google/differential-privacy/tree/main/pipelinedp4j)：PipelineDP4j是适用于JVM的端到端差异隐私解决方案，支持各种分布式数据处理框架，由Google开源。
+* [ARX](https://github.com/arx-deidentifier/arx)：ARX是一款用于对敏感个人数据进行匿名化的综合开源软件，由德国慕尼黑工业大学开发。
+
 #### 计算机视觉
 
 * [ImageJ](https://github.com/imagej/ImageJ)：ImageJ是用于处理和分析科学图像的公共领域软件，由美国国家卫生研究院开源。
@@ -4100,6 +4125,7 @@ permalink: /javalibs
 
 * [Zingg](https://github.com/zinggAI/zingg)：Zingg是一种基于ML的实体解析工具。
 * [JedAI](https://github.com/scify/JedAIToolkit)：JedAI是一个开源、高可扩展性的Java实体解析工具包，由鲁汶大学、巴黎西岱大学、摩德纳雷焦艾米利亚大学开源。
+* [Duke](https://github.com/larsga/Duke)：Duke是一款快速灵活的重复数据删除引擎。
 * [Zentity](https://github.com/zentity-io/zentity)：Zentity是一个用于实时实体解析的Elasticsearch插件。
 * [ReCiter](https://github.com/wcmc-its/ReCiter)：ReCiter是一个高度准确的系统，用于猜测某个人在PubMed上发表了哪些出版物，由康奈尔大学开源。
 
@@ -4306,6 +4332,7 @@ permalink: /javalibs
 * [Jape](https://github.com/RBornat/jape)：Jape是一个可配置的证明计算器，支持推理系统中形式证明的交互式发现。
 * [Math](https://github.com/SpongePowered/math)：用于Java的不可变数学库，提供数学类型、快速三角函数、向量、矩阵、复数、四元数和操作链之间的轻松转换，重点关注游戏和计算机图形。
 * [F2J](https://sourceforge.net/projects/f2j)：F2J项目的目标是为最初用Fortran编写的数值库(特别是BLAS和LAPACK)提供Java API，由田纳西大学开源。
+* [NumJ](https://github.com/J-Libraries/numJ)：NumJ是一个受NumPy启发的Java库，提供对多维数组和数学运算的支持。
 * [Netlib](https://github.com/luhenry/netlib)：该项目提供了BLAS、LAPACK和ARPACK子例程的多个Java实现，支持Java 8+，它通过OpenBLAS和Intel MKL等本机实现提供BLAS、LAPACK和ARPACK的硬件加速。
 * [DDoggeg](https://github.com/lessthanoptimal/ddogleg)：DDoggeg是一个高性能Java库，用于非线性优化、稳健模型拟合、多项式求根、排序等。
 * [Catalano](https://github.com/DiegoCatalano/Catalano-Framework)：Catalano框架是一个用于Java和Android的科学计算框架。
@@ -5038,16 +5065,10 @@ permalink: /javalibs
 * [Agit](https://github.com/rtyley/agit)：Agit是适用于Android设备的开源Git客户端，允许你查看任何Git仓库的完整历史记录、查看更改并存储以进行完全离线访问。
 * [Copybara](https://github.com/google/copybara)：Copybara是Google内部使用的工具，用于在仓库之间转换和移动代码。
 * [BFG Repo-Cleaner](https://github.com/rtyley/bfg-repo-cleaner)：BFG是git-filter-branch的更简单、更快速的替代方案，用于清除Git仓库历史记录中的不良数据。
-* [Jcabi-Github](https://github.com/jcabi/jcabi-github)：GitHub API的Java面向对象包装器，带有整个GitHub API的假实现。
 * [RepoSense](https://github.com/reposense/RepoSense)：RepoSense是Git仓库的贡献分析工具。
 * [Git Commit Id Maven Plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)：可以将构建时Git仓库信息包含到POJO/properties文件中的Maven插件。
-* [GitLab4J](https://github.com/gitlab4j/gitlab4j-api)：GitLab4J API提供了功能齐全且易于使用的Java库，用于通过GitLab REST API使用GitLab仓库。
 * [GitSolo](https://gitee.com/zhiqim/gitsolo)：GitSolo是知启蒙团队开源的极简Git服务器，纯Java开发。
-* [Github Java API](https://github.com/hub4j/github-api)：该库定义了GitHub API的面向对象表示。
-* [Github Java Client](https://github.com/spotify/github-java-client)：Spotify开源的Github API的Java客户端。
-* [Java Gitlab API](https://github.com/timols/java-gitlab-api)：用Java编写的Gitlab API包装器。
 * [MeGit](https://github.com/eclipsesource/megit)：基于EGit的独立Git GUI。
-* [Tea4j](https://codeberg.org/gitnex/tea4j-autodeploy)：适用于Gitea API的Java SDK。
 * [Giter8](https://github.com/foundweekends/giter8)：Giter8是一个命令行工具，用于从GitHub或任何其他Git仓库上发布的模板生成文件和目录。
 * [GitHub Search](https://github.com/seart-group/ghs)：用于从GitHub爬取、存储和呈现项目以及与其相关的任何统计信息的平台，由瑞士卢加诺的意大利大学软件研究所开源。
 * [Coming](https://github.com/SpoonLabs/coming)：Coming是一个用于挖掘Git仓库的工具，由法国国立计算机及自动化研究院、里尔大学开源。
@@ -5451,6 +5472,7 @@ permalink: /javalibs
 * [Spring Boot Starter Swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)：该项目主要利用Spring Boot的自动配置特性来实现快速的将Swagger 2引入Spring Boot应用来生成API文档，简化原生使用Swagger 2的整合代码。
 * [JApiDocs](https://github.com/YeDaxia/JApiDocs)：JApiDocs是一个Spring Boot无注解API文档生成器。
 * [JSONDoc](https://github.com/fabiomaffioletti/jsondoc)：JSONDoc是一个Java库，可用于构建RESTful服务的文档。
+* [OpenAPI4J](https://github.com/openapi4j/openapi4j)：OpenAPI 3解析器、JSON模式和请求验证器。
 * [Swagger2Word](https://github.com/JMCuixy/swagger2word)：一个Swagger API文档转Word文档的工具项目。
 * [Spring REST Docs](https://github.com/spring-projects/spring-restdocs)：该项目的主要目标是通过将使用Asciidoctor手写的内容与使用Spring MVC测试框架生成的自动生成的示例相结合，轻松记录RESTful服务。
 * [Springwolf](https://github.com/springwolf/springwolf-core)：使用Spring Boot构建的异步API的自动化文档。
@@ -5579,6 +5601,7 @@ permalink: /javalibs
 * [CSV Utils](https://ostermiller.org/utils/CSV.html)：用于读取和写入CSV文本文件的工具类。
 * [CsvJdbc](https://github.com/simoc/csvjdbc)：CsvJdbc是一个只读JDBC驱动程序，它使用CSV文件或DBF文件作为数据库表，非常适合编写数据导入程序或分析日志文件。
 * [Deephaven CSV](https://github.com/deephaven/deephaven-csv)：Deephaven CSV库是一个高性能、面向列、类型推断的CSV解析器。
+* [PicoCSV](https://github.com/nbbrd/picocsv)：Java的轻量级CSV库。
 
 #### Word库
 
@@ -6078,45 +6101,68 @@ permalink: /javalibs
 
 ## API&客户端
 
+* [DyJava](https://gitee.com/sxwdmjy/dy-java)：DyJava是一款功能强大的抖音Java开发工具包，支持多种抖音开发功能模块的后端开发，包括但不限于移动/网站应用、开放平台、抖店和小程序等。
+* [TikTok4j](https://github.com/cyrus07424/tiktok4j)：Java版非官方TikTok/DouYin API。
+* [REST Countries](https://github.com/apilayer/restcountries)：REST Countries服务通过REST API提供有关国家/地区的通用信息。
+* [JIRA Client](https://github.com/bobcarroll/jira-client)：JIRA Client是一个简单的Java JIRA REST客户端。
+* [Twitch4j](https://github.com/twitch4j/twitch4j)：模块化异步/同步/响应式Twitch API客户端/IRC客户端。
+* [CatNip](https://github.com/mewna/catnip)：Java中的Discord API包装器，完全异步/响应式，构建在RxJava之上。
+* [Riot API Java](https://github.com/taycaldwell/riot-api-java)：一个易于使用的Java Riot Games API包装器。
+* [Telegram API](https://github.com/rubenlagus/TelegramApi)：用于创建Telegram客户端的Java库。
+* [Google Maps Services Java](https://github.com/googlemaps/google-maps-services-java)：Google Maps API Web服务的Java客户端库。
+* [Apple App Store Server Java Library](https://github.com/apple/app-store-server-library-java)：App Store Server API和App Store Server Notifications的Java服务器库。
+* [Spring Social Google](https://github.com/spring-social/spring-social-google)：Spring Social扩展，具有连接支持和Google API绑定。
+* [Java Youtube Downloader](https://github.com/sealedtx/java-youtube-downloader)：用于检索Youtube视频元数据的简单Java解析器。
+* [Jenkins Java Client](https://github.com/jenkinsci/java-client-api)：适用于Java的Jenkins API客户端。
+* [Cobalt](https://github.com/Auties00/Cobalt)：适用于Java和Kotlin的独立非官方全功能Whatsapp Web和移动API。
+* [Artifactory Java Client](https://github.com/jfrog/artifactory-client-java)：Artifactory Java客户端在你的Java代码中提供简单而强大的Artifactory连接和管理。
+
+#### Git
+
+* [Github Java Client](https://github.com/spotify/github-java-client)：Spotify开源的Github API的Java客户端。
+* [Jcabi Github](https://github.com/jcabi/jcabi-github)：GitHub API的Java面向对象包装器，带有整个GitHub API的假实现。
+* [GitLab4J](https://github.com/gitlab4j/gitlab4j-api)：GitLab4J API提供了功能齐全且易于使用的Java库，用于通过GitLab REST API使用GitLab仓库。
+* [Github Java API](https://github.com/hub4j/github-api)：该库定义了GitHub API的面向对象表示。
+* [Java Gitlab API](https://github.com/timols/java-gitlab-api)：用Java编写的Gitlab API包装器。
+* [Tea4j](https://codeberg.org/gitnex/tea4j-autodeploy)：适用于Gitea API的Java SDK。
+* [Bitbucket REST](https://github.com/cdancy/bitbucket-rest)：使用Bitbucket REST API的客户端库。
+
+#### Twitter
+
 * [Twitter4J](https://github.com/Twitter4J/Twitter4J)：Twitter4J是Twitter API的100%纯Java库，没有外部依赖。
 * [JTwitter](https://github.com/winterstein/JTwitter)：JTwitter是一个强大且易于使用的Twitter库。
 * [Twittered](https://github.com/redouane59/twittered)：面向Java开发人员的Twitter API客户端。
 * [Spring Social](https://github.com/spring-attic/spring-social)：Spring Social是Spring框架的扩展，可帮助你将应用程序与Facebook和Twitter等SaaS提供商连接起来。
 * [Twitter API Java Client](https://github.com/xdevplatform/twitter-api-java-sdk)：Java版Twitter API客户端库。
+
+#### Facebook
+
 * [RestFB](https://github.com/restfb/restfb)：RestFB是一个纯Java Facebook Graph API客户端，没有外部依赖。
 * [Facebook4J](https://github.com/roundrop/facebook4j)：Facebook4J是Java语言的Facebook Graph API绑定库。
 * [Facebook Business SDK](https://github.com/facebook/facebook-java-business-sdk)：用于Meta营销API的Java SDK。
+
+#### Instagram
+
 * [Instagram4j](https://github.com/instagram4j/instagram4j)：使用OkHttpClient作为Instagram私有API的Java包装器。
 * [JInstagram](https://github.com/sachin-handiekar/jInstagram)：Instagram API的Java库。
 * [Instagram Java Scraper](https://github.com/postaddictme/instagram-java-scraper)：Instagram Java Scraper可以获取Instagram帐户信息、照片、视频和评论。
-* [DyJava](https://gitee.com/sxwdmjy/dy-java)：DyJava是一款功能强大的抖音Java开发工具包，支持多种抖音开发功能模块的后端开发，包括但不限于移动/网站应用、开放平台、抖店和小程序等。
-* [TikTok4j](https://github.com/cyrus07424/tiktok4j)：Java版非官方TikTok/DouYin API。
+
+#### Slack
+
 * [Slack Java SDK](https://github.com/slackapi/java-slack-sdk)：Slack Java SDK以Java惯用方式支持Slack平台。
 * [Slack Client](https://github.com/HubSpot/slack-client)：Slack Web API的异步HTTP客户端，由HubSpot开源。
 * [Simple Slack API](https://github.com/Itiviti/simple-slack-api)：该库允许应用程序连接到Slack以从任何通道接收和发送消息。
-* [REST Countries](https://github.com/apilayer/restcountries)：REST Countries服务通过REST API提供有关国家/地区的通用信息。
-* [JIRA Client](https://github.com/bobcarroll/jira-client)：JIRA Client是一个简单的Java JIRA REST客户端。
-* [Twitch4j](https://github.com/twitch4j/twitch4j)：模块化异步/同步/响应式Twitch API客户端/IRC客户端。
+
+#### Reddit
+
 * [JRAW](https://github.com/mattbdean/JRAW)：JRAW是JVM的Reddit API包装器。
 * [Reddit4J](https://github.com/masecla22/Reddit4J)：Reddit4J是一个全面覆盖Reddit API的库。
 * [JReddit](https://github.com/jReddit/jReddit)：JReddit是用Java编写的Reddit API的包装器。
-* [CatNip](https://github.com/mewna/catnip)：Java中的Discord API包装器，完全异步/响应式，构建在RxJava之上。
-* [Riot API Java](https://github.com/taycaldwell/riot-api-java)：一个易于使用的Java Riot Games API包装器。
-* [Telegram API](https://github.com/rubenlagus/TelegramApi)：用于创建Telegram客户端的Java库。
+
+#### Spotify
+
 * [Librespot Java](https://github.com/librespot-org/librespot-java)：最新的开源Spotify客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：这是Spotify Web API的Java包装器/客户端。
-* [Google Maps Services Java](https://github.com/googlemaps/google-maps-services-java)：Google Maps API Web服务的Java客户端库。
-* [Apple App Store Server Java Library](https://github.com/apple/app-store-server-library-java)：App Store Server API和App Store Server Notifications的Java服务器库。
-* [Spring Social Google](https://github.com/spring-social/spring-social-google)：Spring Social扩展，具有连接支持和Google API绑定。
-* [Java Youtube Downloader](https://github.com/sealedtx/java-youtube-downloader)：用于检索Youtube视频元数据的简单Java解析器。
-* [Gerrit Java Client](https://github.com/uwolfer/gerrit-rest-java-client)：用于Gerrit代码审查的Java REST客户端。
-* [JOSS](https://github.com/javaswift/joss)：JOSS是OpenStack存储组件REST接口的Java客户端。
-* [Jenkins Java Client](https://github.com/jenkinsci/java-client-api)：适用于Java的Jenkins API客户端。
-* [Pterodactyl4J](https://github.com/mattmalec/Pterodactyl4J)：P4J致力于为Java提供干净且完整的Pterodactyl REST API包装。
-* [Cobalt](https://github.com/Auties00/Cobalt)：适用于Java和Kotlin的独立非官方全功能Whatsapp Web和移动API。
-* [ARI4Java](https://github.com/ari4java/ari4java)：Java的Asterisk REST接口(ARI)绑定。
-* [Bitbucket REST](https://github.com/cdancy/bitbucket-rest)：使用Bitbucket REST API的客户端库。
-* [Artifactory Java Client](https://github.com/jfrog/artifactory-client-java)：Artifactory Java客户端在你的Java代码中提供简单而强大的Artifactory连接和管理。
 
 ## Docker客户端
 
@@ -7230,6 +7276,7 @@ permalink: /javalibs
 * [Fernflower](https://github.com/fesh0r/fernflower)：Fernflower是第一个实际工作的Java分析反编译器，也可能是一般高级编程语言的分析反编译器，由JetBrains开源。
 * [Friday](https://github.com/zifeihan/friday)：Friday是一个Java实时反编译工具。
 * [Class Visualizer](https://github.com/jonatan-kazmierczak/class-visualizer)：Class Visualizer是一个免费交互式类图生成器。
+* [JODE](https://jode.sourceforge.io/)：JODE是一个包含Java反编译器和优化器的Java包。
 
 #### 代码混淆
 
@@ -7286,8 +7333,10 @@ permalink: /javalibs
 * [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine)：jMonkeyEngine是一款适合富有冒险精神的Java开发人员的3D游戏引擎。
 * [Unciv](https://github.com/yairm210/Unciv)：Civ V的开源、注重可修改性的Android和桌面重制版，使用LibGDX制作。
 * [KorGE](https://github.com/korlibs/korge)：KorGE是Kotlin的现代多平台游戏引擎。
+* [Ludii](https://github.com/Ludeme/Ludii)：Ludii是一个通用游戏系统，旨在玩、评估和设计各种游戏，包括棋盘游戏、纸牌游戏、骰子游戏、数学游戏等，由马斯特里赫特大学开源。
 * [JBox2d](https://github.com/jbox2d/jbox2d)：JBox2d是C++物理引擎LiquidFun和Box2d的Java端口。
 * [AndEngine](https://github.com/nicolasgramlich/AndEngine)：免费Android 2D OpenGL游戏引擎。
+* [HyperLap2D](https://github.com/rednblackgames/HyperLap2D)：HyperLap2D是一个功能强大、独立于平台的可视化编辑器，适用于复杂的2D世界和场景。
 * [Shattered Pixel Dungeon](https://github.com/00-Evan/shattered-pixel-dungeon)：Shattered Pixel Dungeon是一款传统的Roguelike地下城探索角色扮演游戏。
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon)：Pixel Dungeon是一款传统的Roguelike游戏，具有像素艺术图形和简单的界面，适用于Android、iOS、Windows、Mac和Linux。
 * [PretendYoureXyzzy](https://github.com/ajanata/PretendYoureXyzzy)：反人类卡牌克隆、服务器和Web客户端。
@@ -7624,6 +7673,7 @@ permalink: /javalibs
 * [Kafka-Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka-Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
 * [Kafbat UI](https://github.com/kafbat/kafka-ui)：Kafbat UI是一个免费的开源Web UI，用于监控和管理Kafka集群。
 * [Klaw](https://github.com/Aiven-Open/klaw)：Klaw是一个自助式Kafka主题管理/治理工具/门户，由Aiven开源。
+* [Astraea](https://github.com/opensource4you/astraea)：Astraea提供各式工具来降低Kafka使用门槛以及提高Kafka效能和资源使用率。
 
 #### MongoDB库/工具
 
@@ -8376,6 +8426,7 @@ permalink: /javalibs
 * [UReport-kepp](https://gitee.com/summer-T/ureport-keep)：UReport的替代项目。
 * [Skyeye Report](https://gitee.com/doc_wei01/skyeye-report)：Skyeye Report是一款高性能的Java报表引擎，提供完善的基于网页的报表设计器，可快速做出各种复杂的中式报表。
 * [Dynamic Reports](https://github.com/dynamicreports/dynamicreports)：DynamicReports是一个基于JasperReports的开源Java报表库，它允许创建动态报表设计，并且不需要可视化报表设计器。
+* [SpringReport](https://gitee.com/springreport/springreport)：SpringReport是一款企业级的报表系统，支持在线设计报表，并绑定动态数据源，无需写代码即可快速生成想要的报表。
 
 ## 物流系统
 
@@ -8643,6 +8694,7 @@ permalink: /javalibs
 ## 转换库
 
 * [Apache Commons Convert](https://commons.apache.org/sandbox/commons-convert)：Commons Convert是一个专用于将一种类型的对象转换为另一种类型的库。
+* [TypeMap](https://github.com/YunaBraska/type-map)：TypeMap和TypeConverter是一个动态、可扩展、高性能的类型转换库，原生支持GraalVM。
 * [LibNumberText](https://github.com/Numbertext/libnumbertext)：C++、Java、JavaScript和Python中的数字到数字名称和金钱文本转换库。
 
 ## IO操作
@@ -8654,6 +8706,7 @@ permalink: /javalibs
 * [Plexus IO](https://github.com/codehaus-plexus/plexus-io)：Plexus IO是一组Plexus组件，设计用于I/O操作。
 * [Jaydio](https://github.com/smacke/jaydio)：Jaydio是一个Java库，可让程序员更好地控制文件I/O，部分方法是绕过操作系统缓冲区高速缓存。
 * [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取tar文件的简单方法。
+* [PerfIO](https://github.com/szeiger/perfio)：PerfIO为二进制和文本数据提供缓冲流式I/O抽象。
 * [jMimeMagic](https://github.com/arimus/jmimemagic)：jMimeMagic是一个用于确定文件或流的MIME类型的Java库。
 * [SimpleMagic](https://github.com/j256/simplemagic)：简单的文件幻数和内容类型库，提供文件和字节数组的MIME类型确定。
 * [NIO_Uring](https://github.com/bbeaupain/nio_uring)：NIO_Uring是一个Java I/O库，它在底层使用io_uring。
@@ -8961,6 +9014,11 @@ permalink: /javalibs
 * [Mdict Java](https://github.com/KnIfER/mdict-java)：用于Java的Mdict字典文件格式的查询库。
 * [ExtJWNL](https://github.com/extjwnl/extjwnl)：ExtJWNL是一个用于创建、读取和更新WordNet格式词典的Java API。
 * [Stardict4j](https://codeberg.org/miurahr/stardict4j)：Stardict4j是Java版StarDict词典文件的访问库。
+
+## 颜色库
+
+* [Color Java](https://github.com/ngageoint/color-java)：Color是一个Java库，提供颜色表示，支持十六进制、RBG、算术RBG、HSL和整数颜色，由美国国家地理空间情报局开发。
+* [Color](https://github.com/bowbahdoe/color)：JVM的颜色库。
 
 ## 短链接
 
