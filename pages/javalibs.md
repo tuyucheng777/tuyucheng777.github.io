@@ -24,7 +24,7 @@ permalink: /javalibs
   * [持久层库](#持久层库)
   * [应用框架](#应用框架)
   * [微服务框架](#微服务框架)
-  * [Spring Cloud](#SpringCloud)
+  * [Spring Cloud](#Spring-Cloud)
 * [微服务工具](#微服务工具)
 * [REST错误处理](#REST错误处理)
 * [测试](#测试)
@@ -145,7 +145,7 @@ permalink: /javalibs
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
-* [Logback Appender](#LogbackAppender)
+* [Logback Appender](#Logback-Appender)
 * [结构化日志](#结构化日志)
 * [JSON库](#JSON库)
 * [JsonPath](#JsonPath)
@@ -224,7 +224,7 @@ permalink: /javalibs
 * [应用分析与监控](#应用分析与监控)
   * [诊断工具](#诊断工具)
   * [性能分析](#性能分析)
-  * [Spring Boot仪表板](#SpringBoot仪表板)
+  * [Spring Boot仪表板](#Spring-Boot仪表板)
   * [日志分析](#日志分析)
   * [GC日志分析](#GC日志分析)
   * [堆转储](#堆转储)
@@ -283,7 +283,7 @@ permalink: /javalibs
 * [源代码浏览器](#源代码浏览器)
 * [脚手架](#脚手架)
 * [低代码](#低代码)
-* [Data API](#DataAPI)
+* [Data API](#Data-API)
 * [POS](#POS)
 * [业务](#业务)
 * [电商](#电商)
@@ -343,7 +343,7 @@ permalink: /javalibs
   * [GUI框架](#GUI框架)
   * [Swing](#Swing)
   * [Swing主题库](#Swing主题库)
-  * [Swing UI库](#SwingUI库)
+  * [Swing UI库](#Swing-UI库)
   * [Swing组件库](#Swing组件库)
   * [Swing布局库](#Swing布局库)
   * [Swing选择器](#Swing选择器)
@@ -676,7 +676,6 @@ permalink: /javalibs
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
 * [Gaea](https://github.com/58code/Gaea)：Gaea是服务通讯框架，具有高并发、高性能、高可靠性，并提供异步、多协议、事件驱动的中间层服务框架，由58同城开源。
 * [Joynr](https://github.com/bmwcarit/joynr)：Joynr是一个与传输协议无关(MQTT、HTTP、WebSockets等)、基于Franca IDL的通信框架，支持多种通信范例，由宝马开源。
-* [DaRPC](https://github.com/zrlio/darpc)：DaRPC是一个Java库，为支持RDMA的网络接口提供超低延迟RPC，由IBM开源。
 * [SCF](https://juejin.cn/post/7123035209565470728)：转转RPC框架SCF继承自58集团RPC框架。
 * [DubboX](https://github.com/dangdangdotcom/dubbox)：DubboX在Dubbo框架中添加了RESTful远程处理、Kyro/FST序列化等功能，由当当开发。
 * [DubboG](https://github.com/lenovoDTC/dubbo-G)：DubboG是联想基于Dubbo 2.5.3的二次开发版本。
@@ -688,14 +687,11 @@ permalink: /javalibs
 * [IceRPC](https://github.com/zeroc-ice/ice)：IceRPC是一个新的开源RPC框架，可帮助你使用很少的代码构建速度极快的网络应用程序。
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [XXL-RPC](https://github.com/xuxueli/xxl-rpc)：XXL-RPC是一个分布式服务框架，提供稳定高性能的RPC远程服务调用功能。
-* [RSocket RPC](https://github.com/rsocket/rsocket-rpc-java)：RSocket RPC标准Java实现。
 * [RPC Framework](https://github.com/Snailclimb/guide-rpc-framework)：RPC Framework是一款基于Netty、Kyro、Zookeeper实现的自定义RPC框架。
 * [Sekiro](https://github.com/yint-tech/sekiro-open)：Sekiro是一个多语言、分布式、与网络拓扑无关的服务发布平台，由因体信息开源。
-* [ONCRPC4J](https://github.com/dCache/oncrpc4j)：ONCRPC4J是ONCRPC/SUNRPC的纯Java实现，由费米实验室、德国电子加速器、北欧数据网格设施共同开源。
 * [Hprose](https://github.com/hprose/hprose-java)：Hprose是一个高性能远程对象服务引擎。
 * [Jupiter](https://github.com/fengjiachun/Jupiter)：Jupiter是一款性能非常不错的，轻量级的分布式服务框架。
 * [NettyRPC](https://github.com/tang-jie/NettyRPC)：基于Netty的高性能Java RPC服务器，使用kryo、hessian、protostuff支持消息序列化。
-* [Ob1k](https://github.com/outbrain/ob1k)：Ob1k是一个异步轻量级RPC框架，用于快速开发异步、高性能微服务，由Outbrain开源。
 * [HARPC](https://github.com/baifendian/harpc)：HARPC是基于Thrift的跨语言、高可用的RPC框架，由百分点科技开源。
 
 #### JSF框架
@@ -2115,8 +2111,6 @@ permalink: /javalibs
 * [SOFARegistry](https://github.com/sofastack/sofa-registry)：SOFARegistry是蚂蚁金服开源的一个生产级、高时效、高可用的服务注册中心。
 * [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：Pantheon是分布式微服务注册中心。
 * [Artemis](https://github.com/ctripcorp/artemis)：Artemis是携程框架部门SOA服务注册表，包含服务自注册自发现、实例变更实时推送、服务分组路由功能。
-* [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供了一个发现基础设施来注册和发现微服务应用程序公开的服务。
-* [SnoopEE](https://github.com/ivargrimstad/snoop)：SnoopEE是一个基于Java EE的微服务的实验性注册和发现服务。
 
 ## 容错组件
 
@@ -2155,7 +2149,6 @@ permalink: /javalibs
 * [Snail Job](https://gitee.com/aizuda/snail-job)：Snail Job是一个功能强大的分布式重试和任务调度平台，为支持提高分布式业务系统一致性和分布式任务调度而设计，由爱组搭开源。
 * [Async Retry](https://github.com/nurkiewicz/async-retry)：Async Retry是用于Java 7/8的异步重试库。
 * [Retry4j](https://github.com/elennick/retry4j)：Retry4j是一个简单的Java库，可帮助重试瞬时故障情况或不可靠的代码。
-* [Retry](https://github.com/softwaremill/retry)：Retry提供了在 Scala Futures上运行的常见重试策略的接口，由SoftwareMill开发。
 * [Sisyphus](https://github.com/houbb/sisyphus)：Sisyphus是支持过程式编程和注解编程的Java重试框架。
 * [Retrieval](https://gitee.com/spjich/retrieval)：Retrieval是一个精简的Java重试组件，支持同步，异步，以及制定时间内重试。
 
@@ -4097,6 +4090,7 @@ permalink: /javalibs
 * [Spring AI](https://github.com/spring-projects/spring-ai)：Spring AI项目为开发AI应用程序提供了Spring友好的API和抽象。
 * [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)：Spring AI Alibaba基于Spring AI构建，是阿里云通义系列模型及服务在Java AI应用开发领域的最佳实践。
 * [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
+* [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [Ali LangEngine](https://github.com/AIDC-AI/ali-langengine)：Ali LangEngine是一个用Java编写的AI应用开发框架，由阿里开源。
 * [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：Java版LangChain，同时赋能LLM大数据。
 * [TorchV](https://torchv.com/)：TorchV AI是一款基于LLM、RAG和Agent技术的人工智能PaaS产品，目标是帮助企业快速建立AI应用。
@@ -4105,7 +4099,6 @@ permalink: /javalibs
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [LangChat](https://github.com/TyCoding/langchat)：LangChat是Java生态下企业级AIGC项目解决方案，在RBAC权限体系的基础上，集成AIGC大模型能力，帮助企业快速定制AI知识库、企业AI机器人。
 * [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
-* [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎。
 * [FreeChat](https://github.com/freechat-fun/freechat)：FreeChat的宗旨是构建一个云原生、健壮并且可快速商用化的企业级AI虚拟角色平台。
 * [Langtorch](https://github.com/Knowly-ai/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
@@ -4135,6 +4128,7 @@ permalink: /javalibs
 * [Simple OpenAI](https://github.com/sashirestela/simple-openai)：Simple OpenAI是一个Java HTTP客户端库，用于向OpenAI API发送请求并接收响应。
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
+* [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
 
 #### 机器学习
 
@@ -7946,7 +7940,7 @@ permalink: /javalibs
 * [Build Server Protocol](https://github.com/build-server-protocol/build-server-protocol)：该项目致力于改进语言服务器/编辑器和构建工具之间的集成，由Scala中心和JetBrains领导。
 * [BSL Language Server](https://github.com/1c-syntax/bsl-language-server)：BSL语言服务器协议的实现。
 
-## 数据库组件库
+## 数据库工具库
 
 这里列出了常用数据库的依赖、工具等。
 
@@ -10113,6 +10107,7 @@ permalink: /javalibs
 * [Janino](https://github.com/janino-compiler/janino)：Janino是一个超小、超快的Java编译器。
 * [JUEL](https://github.com/beckchr/juel)：JUEL是统一表达语言(EL)的实现，指定为JSP 2.1标准(JSR-245)的一部分，已在JEE5中引入。
 * [FEEL](https://github.com/camunda/feel-scala)：由Camunda用Scala编写的FEEL引擎。
+* [Liquor](https://gitee.com/noear/liquor)：Java动态编译、表达式、脚本工具。
 * [Cucumber Expressions](https://github.com/cucumber/cucumber-expressions)：Cucumber Expressions是正则表达式的替代品，具有更直观的语法。
 * [CEL Java](https://github.com/google/cel-java)：CEL是一种非图灵完备语言，旨在简单、快速、安全和可移植，由Google开发。
 * [Grammaticus](https://github.com/salesforce/grammaticus)：Grammaticus是一个语法引擎，允许用户重命名名词，同时保持内容的语法正确，由Salesforce开源。
