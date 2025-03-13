@@ -216,6 +216,9 @@ navs:
         subHref: /microservice.html
         subLabel: 微服务
 
+      - subHref: /netty.html
+        subLabel: Netty
+
       -
         subHref: /designpattern.html
         subLabel: 设计模式
