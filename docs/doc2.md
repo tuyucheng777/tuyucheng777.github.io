@@ -2821,10 +2821,10 @@
 * [JProtobuf](https://github.com/jhunters/jprotobuf)：JProtobuf是针对Java程序开发的一套简易类库，目的是简化Java语言对protobuf类库的使用，百度开源。
 * [Polyglot](https://github.com/grpc-ecosystem/polyglot)：Polyglot是一个gRPC客户端，可以与任何gRPC服务器通信。
 * [gRPC Spring Boot Starter](https://github.com/AnoyiX/grpc-spring-boot-starter)：Spring Boot快速集成gRPC，轻松实现远程方法调用。
-* [gRPC-Swagger](https://github.com/grpc-swagger/grpc-swagger)：使用Swagger-UI调试gRPC应用程序。
+* [gRPC Swagger](https://github.com/grpc-swagger/grpc-swagger)：使用Swagger-UI调试gRPC应用程序。
 * [Mediator](https://github.com/ButterCam/Mediator)：gRPC调试代理跨平台GUI。
 * [Google API Extensions Java](https://github.com/googleapis/gax-java)：适用于Java的Google API扩展。
-* [gRPC-Java-Contrib](https://github.com/salesforce/grpc-java-contrib)：grpc-java库的有用扩展。
+* [gRPC Java Contrib](https://github.com/salesforce/grpc-java-contrib)：grpc-java库的有用扩展。
 * [QuickBuffers](https://github.com/HebiRobotics/QuickBuffers)：QuickBuffers是Google Protocol Buffers的Java实现，专为零分配环境中的低延迟用例而开发。
 * [Sisyphus](https://github.com/ButterCam/sisyphus)：基于JVM的现代gRPC后端开发框架。
 * [nrtSearch](https://github.com/Yelp/nrtsearch)：基于Lucene的高性能gRPC服务器。
