@@ -146,6 +146,9 @@ navs:
         subHref: /java-security.html
         subLabel: Java密码学
 
+      - subHref: /java-os.html
+        subLabel: Java OS
+
       -
         subHref: /java-regex.html
         subLabel: Java正则表达式
