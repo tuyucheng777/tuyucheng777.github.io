@@ -153,27 +153,27 @@ navs:
         subHref: /java-regex.html
         subLabel: Java正则表达式
 
-  -
-    href: /kotlin.html
-    label: Kotlin
-    target: _self
-    subnav:
-
-      -
-        subHref: /kotlincore.html
-        subLabel: Kotlin核心
-
-      -
-        subHref: /kotlinlib.html
-        subLabel: Kotlin库
-      
-      -
-        subHref: /kotlintest.html
-        subLabel: Kotlin测试库
-
-      -
-        subHref: /kotlinspring.html
-        subLabel: Kotlin Spring
+  # -
+  #   href: /kotlin.html
+  #   label: Kotlin
+  #   target: _self
+  #   subnav:
+  #
+  #     -
+  #       subHref: /kotlincore.html
+  #       subLabel: Kotlin核心
+  #
+  #     -
+  #       subHref: /kotlinlib.html
+  #       subLabel: Kotlin库
+  #
+  #     -
+  #       subHref: /kotlintest.html
+  #       subLabel: Kotlin测试库
+  #
+  #     -
+  #       subHref: /kotlinspring.html
+  #       subLabel: Kotlin Spring
 
   -
     href: /spring.html
@@ -184,6 +184,9 @@ navs:
       -
         subHref: /spring.html
         subLabel: Spring
+
+      - subHref: /springai.html
+        subLabel: Spring AI
 
       -
         subHref: /spring-web.html
