@@ -272,8 +272,8 @@ navs:
         subLabel: BDD
 
       -
-        subHref: /selenium.html
-        subLabel: Selenium
+        subHref: /automatedtest.html
+        subLabel: 自动化测试
 
       -
         subHref: /load.html
