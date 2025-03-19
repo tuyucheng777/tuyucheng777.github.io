@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Jacoco报告的排除
-category: test-lib
-copyright: test-lib
+category: coverage
+copyright: coverage
 excerpt: Jacoco
 ---
 

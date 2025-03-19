@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Cobertura简介
-category: test-lib
-copyright: test-lib
+category: coverage
+copyright: coverage
 excerpt: Cobertura
 ---
 

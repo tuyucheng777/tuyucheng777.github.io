@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  SonarQube和JaCoCo的代码覆盖率
-category: test-lib
-copyright: test-lib
+category: coverage
+copyright: coverage
 excerpt: Jacoco
 ---
 
