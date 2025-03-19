@@ -212,15 +212,25 @@ navs:
         subHref: /spring-reactive.html
         subLabel: Spring Reactive
 
+  -   href: /microservice.html
+      label: 微服务
+      target: _self
+      subnav:
+
+        -   subHref: /quarkus.html
+            subLabel: Quarkus
+
+        -   subHref: /micronaut.html
+            subLabel: Micronaut
+
+        -   subHref: /grpc.html
+            subLabel: gRPC
+
   -
     href: /ecosystem.html
     label: Java生态
     target: _self
     subnav:
-
-      -
-        subHref: /microservice.html
-        subLabel: 微服务
 
       - subHref: /netty.html
         subLabel: Netty
@@ -240,10 +250,6 @@ navs:
       -
         subHref: /graphql.html
         subLabel: GraphQL
-
-      -
-        subHref: /grpc.html
-        subLabel: gRPC
 
       -
         subHref: /messaging.html
