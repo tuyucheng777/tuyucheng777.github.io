@@ -280,7 +280,7 @@ navs:
 
       -
         subHref: /load.html
-        subLabel: 负载测试
+        subLabel: 负载&性能测试
 
       -
         subHref: /spring-test.html
