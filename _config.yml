@@ -275,6 +275,9 @@ navs:
         subHref: /automatedtest.html
         subLabel: 自动化测试
 
+      - subHref: /coverage.html
+        subLabel: 代码覆盖率
+
       -
         subHref: /load.html
         subLabel: 负载测试
