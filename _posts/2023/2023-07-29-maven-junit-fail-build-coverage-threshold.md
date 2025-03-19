@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如果JUnit覆盖率低于特定阈值，则使Maven构建失败
-category: test-lib
-copyright: test-lib
+category: coverage
+copyright: coverage
 excerpt: Jacoco
 ---
 
