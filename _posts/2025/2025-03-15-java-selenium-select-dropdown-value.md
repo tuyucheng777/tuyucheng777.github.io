@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何使用Selenium Webdriver从下拉列表中选择值
-category: selenium
-copyright: selenium
+category: automatedtest
+copyright: automatedtest
 excerpt: Selenium
 ---
 

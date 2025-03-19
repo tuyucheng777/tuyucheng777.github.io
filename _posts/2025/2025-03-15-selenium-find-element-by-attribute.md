@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Selenium中按属性查找元素
-category: selenium
-copyright: selenium
+category: automatedtest
+copyright: automatedtest
 excerpt: Selenium
 ---
 

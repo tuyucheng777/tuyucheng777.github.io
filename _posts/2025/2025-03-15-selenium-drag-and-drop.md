@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何在Selenium中拖放
-category: selenium
-copyright: selenium
+category: automatedtest
+copyright: automatedtest
 excerpt: Selenium
 ---
 
