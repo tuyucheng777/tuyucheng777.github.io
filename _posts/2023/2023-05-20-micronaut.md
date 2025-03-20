@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Micronaut框架简介
-category: microservice
-copyright: microservice
+category: micronaut
+copyright: micronaut
 excerpt: Micronaut
 ---
 

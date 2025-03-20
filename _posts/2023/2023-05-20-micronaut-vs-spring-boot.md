@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Micronaut与Spring Boot
-category: microservice
-copyright: microservice
+category: micronaut
+copyright: micronaut
 excerpt: Micronaut
 ---
 
