@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot与Quarkus
-category: microservice
-copyright: microservice
+category: quarkus
+copyright: quarkus
 excerpt: Quarkus
 ---
 

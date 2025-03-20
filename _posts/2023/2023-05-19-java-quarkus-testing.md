@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  测试Quarkus应用程序
-category: microservice
-copyright: microservice
+category: quarkus
+copyright: quarkus
 excerpt: Quarkus
 ---
 

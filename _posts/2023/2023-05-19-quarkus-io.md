@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Quarkus指南
-category: microservice
-copyright: microservice
+category: quarkus
+copyright: quarkus
 excerpt: Quarkus
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Jandex索引发现Quarkus Bean
-category: microservice
-copyright: microservice
+category: quarkus
+copyright: quarkus
 excerpt: Quarkus
 ---
 

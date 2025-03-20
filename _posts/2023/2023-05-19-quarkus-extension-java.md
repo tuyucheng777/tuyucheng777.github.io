@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何实现Quarkus扩展
-category: microservice
-copyright: microservice
+category: quarkus
+copyright: quarkus
 excerpt: Quarkus
 ---
 
