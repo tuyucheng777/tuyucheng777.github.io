@@ -1569,6 +1569,8 @@ permalink: /javalibs
 ## CI/CD
 
 * [Jenkins](https://github.com/jenkinsci/jenkins)：Jenkins是领先的开源自动化服务器，使用Java构建，提供超过2000个插件来支持几乎所有事情的自动化。
+* [Space](https://www.jetbrains.com/space/)：Space是JetBrains公司专门为整个软件开发Pipeline提供的统一平台，它为远程开发环境提供了强大的编排支持。
+* [CloudBees](https://docs.cloudbees.com/)：CloudBees是一种功能齐全的云原生功能，可托管在本地或公共云中，用于大规模交付CI。
 * [CircleCI](https://circleci.com/)：CircleCI是一个持续集成和持续交付平台，可用于实施DevOps实践。
 * [TeamCity](https://www.jetbrains.com/teamcity/)：TeamCity是一个通用CI/CD软件平台，可实现灵活的工作流程、协作和开发实践，这是JetBrains的商业产品。
 * [Bamboo](https://www.atlassian.com/software/bamboo)：Bamboo是一款持续集成构建服务器软件，Atlassian提供的商业软件，也有免费版本。
