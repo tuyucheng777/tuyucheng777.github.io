@@ -254,6 +254,9 @@ navs:
       -
         subHref: /messaging.html
         subLabel: 消息中间件
+
+      - subHref: /libraries.html
+        subLabel: 开源库
   
   -
     href: /test.html
