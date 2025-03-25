@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  使用Selenium处理浏览器选项卡
+title:  使用Nats Java客户端发布和接收消息
 category: libraries
 copyright: libraries
-excerpt: Java
+excerpt: NATS
 ---
 
 ## 1. 概述
