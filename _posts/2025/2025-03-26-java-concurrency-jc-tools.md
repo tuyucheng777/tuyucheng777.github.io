@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  使用JCTools的Java并发实用程序
-category: java-concurrency
-copyright: java-concurrency
-excerpt: Java Concurrency
+category: libraries
+copyright: libraries
+excerpt: JCTools
 ---
 
 ## 1. 概述
