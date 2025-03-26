@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenAIAPI Java客户端
+title: OpenAI API Java客户端
 category: libraries
 copyright: libraries
 excerpt: OpenAI
