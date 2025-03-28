@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  ChronicleQueue简介
-category: java-new
-copyright: java-new
-excerpt: Java 9
+category: libraries
+copyright: libraries
+excerpt: ChronicleQueue
 ---
 
 ## 1. 概述
