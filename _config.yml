@@ -223,8 +223,8 @@ navs:
         -   subHref: /micronaut.html
             subLabel: Micronaut
 
-        -   subHref: /grpc.html
-            subLabel: gRPC
+        -   subHref: /rpc.html
+            subLabel: RPC
 
   -
     href: /ecosystem.html
