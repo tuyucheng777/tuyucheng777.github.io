@@ -25,7 +25,7 @@ excerpt: gRPC
 
 ## 3. Maven依赖
 
-让我们添加[grpc-netty](https://search.maven.org/classic/#search|ga|1|a%3A"grpc-netty")、[grpc-protobuf](https://search.maven.org/classic/#search|ga|1|a%3A"grpc-protobuf")和[grpc-stub](https://search.maven.org/classic/#search|ga|1|a%3A"grpc-stub")依赖：
+让我们添加[grpc-netty](https://mvnrepository.com/search?q=grpc-netty)、[grpc-protobuf](https://mvnrepository.com/search?q=grpc-protobuf)和[grpc-stub](https://mvnrepository.com/search?q=grpc-stub)依赖：
 
 ```xml
 <dependency>
