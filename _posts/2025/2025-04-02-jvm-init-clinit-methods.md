@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  JVM中的<init\>和<clinit\>方法
+title:  JVM中的<init>和<clinit>方法
 category: java-jvm
 copyright: java-jvm
 excerpt: JVM
