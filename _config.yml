@@ -231,6 +231,8 @@ navs:
     label: Java生态
     target: _self
     subnav:
+      - subHref: /kafka.html
+      - subLabel: Kafka
 
       - subHref: /netty.html
         subLabel: Netty
