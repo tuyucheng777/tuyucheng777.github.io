@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  将List<CompletableFuture <T>>转换为CompletableFuture<List<T>>
+title:  将List<CompletableFuture>转换为CompletableFuture<List>
 category: java-concurrency
 copyright: java-concurrency
 excerpt: Java CompletableFuture
