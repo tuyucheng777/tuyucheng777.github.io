@@ -231,6 +231,9 @@ navs:
     label: Java生态
     target: _self
     subnav:
+      - subHref: /webmodules.html
+        subLabel: Web框架
+
       - subHref: /kafka.html
         subLabel: Kafka
 
