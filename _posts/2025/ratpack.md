@@ -1,0 +1,268 @@
+---
+layout: post
+title:  使用Spring
+category: webmodules
+copyright: webmodules
+excerpt: webmodules
+---
+
+## 1. 概述
+
+[Ratpack](https://ratpack.io/)是一组基于JVM的库，专为当今的高性能实时应用程序而构建。它建立在嵌入式Netty事件驱动网络引擎之上，完全符合响应式设计模式。
+
+在本文中，我们将学习如何使用Ratpack并使用它构建一个小型应用程序。
+
+## 2. 为什么选择Ratpack
+
+Ratpack的主要优点：
+
+- 非常轻量、快速且可扩展
+- 比其他框架(如DropWizard)消耗的内存更少；可以在[这里](http://phillbarber.blogspot.in/2016/01/choosing-between-ratpack-and-dropwizard.html)找到一个有趣的基准比较结果
+- 由于Ratpack是基于Netty构建的，因此它完全是事件驱动的，并且本质上是非阻塞的
+- 它支持Guice依赖管理
+- 与Spring Boot类似，Ratpack有自己的测试库，可以快速设置测试用例
+
+## 3. 创建应用程序
+
+为了了解Ratpack的工作原理，我们首先用它创建一个小型应用程序。
+
+### 3.1 Maven依赖
+
+首先，让我们在pom.xml中添加以下依赖：
+
+```xml
+<dependency>
+    <groupId>io.ratpack</groupId>
+    <artifactId>ratpack-core</artifactId>
+    <version>1.4.5</version>
+</dependency>
+<dependency>
+    <groupId>io.ratpack</groupId>
+    <artifactId>ratpack-test</artifactId>
+    <version>1.4.5</version>
+</dependency>
+```
+
+你可以在[Maven Central](https://mvnrepository.com/artifact/io.ratpack/ratpack-core)上查看最新版本。
+
+请注意，尽管我们使用Maven作为构建系统，但根据[Ratpack的建议](https://ratpack.io/manual/current/quick-start.html#using_the_gradle_plugins)，最好使用Gradle作为构建工具，因为Ratpack通过[Ratpack的Gradle插件](https://plugins.gradle.org/search?term=ratpack)提供了一流的Gradle支持。
+
+我们可以使用以下构建Gradle脚本：
+
+```groovy
+buildscript {
+    repositories {
+      jcenter()
+    }
+    dependencies {
+      classpath "io.ratpack:ratpack-gradle:1.4.5"
+    }
+}
+ 
+apply plugin: "io.ratpack.ratpack-java"
+repositories {
+    jcenter()
+}
+dependencies {
+    testCompile 'junit:junit:4.11'
+    runtime "org.slf4j:slf4j-simple:1.7.21"
+}
+test {
+    testLogging {
+      events 'started', 'passed'
+    }
+}
+```
+
+### 3.2 构建应用程序
+
+一旦我们的构建管理配置完毕，我们需要创建一个类来启动嵌入式Netty服务器并构建一个简单的上下文来处理默认请求：
+
+```java
+public class Application {
+	
+    public static void main(String[] args) throws Exception {
+        RatpackServer.start(server -> server.handlers(chain -> chain
+            .get(ctx -> ctx.render("Welcome to Tuyucheng ratpack!!!"))));
+    }
+}
+```
+
+我们可以看到，通过使用RatpackServer，我们现在可以启动服务器(默认端口5050)。handlers()方法接收一个接收[Chain](https://ratpack.io/manual/current/api/ratpack/core/handling/Chain.html)对象的函数，该对象映射所有相应的传入请求。此“Handler链API”用于构建响应处理策略。
+
+如果我们运行此代码片段并在浏览器中访问http://localhost:5050，将会显示“Welcome to Tuyucheng ratpack!!!”。
+
+类似地，我们可以映射HTTP POST请求。
+
+### 3.3 处理URL路径参数
+
+在下一个示例中，我们需要在应用程序中捕获一些URL路径参数。在Ratpack中，我们使用[PathTokens](https://ratpack.io/manual/current/api/ratpack/core/path/PathTokens.html)来捕获它们：
+
+```java
+RatpackServer.start(server -> server
+    .handlers(chain -> chain
+    .get(":name", ctx -> ctx.render("Hello " 
+    + ctx.getPathTokens().get("name") + " !!!"))));
+```
+
+这里，我们映射了name URL参数，每当收到类似http://localhost:5050/John的请求时，响应将是“Hello John!!!”。
+
+### 3.4. 使用/不使用过滤器修改请求/响应头
+
+有时，我们需要根据需要修改内联HTTP响应标头，Ratpack具有[MutableHeaders](https://ratpack.io/manual/current/api/ratpack/core/http/MutableHeaders.html)来自定义传出响应。
+
+例如，我们需要更改响应中的以下标头：Access-Control-Allow-Origin、Accept-Language和Accept-Charset：
+
+```java
+RatpackServer.start(server -> server.handlers(chain -> chain.all(ctx -> {
+    MutableHeaders headers = ctx.getResponse().getHeaders();
+    headers.set("Access-Control-Allow-Origin", "*");
+    headers.set("Accept-Language", "en-us");
+    headers.set("Accept-Charset", "UTF-8");
+    ctx.next();
+}).get(":name", ctx -> ctx
+    .render("Hello " + ctx.getPathTokens().get("name") + "!!!"))));
+```
+
+通过使用MutableHeaders我们设置3个标头并将它们推送到Chain中。
+
+同样，我们也可以检查传入的请求标头：
+
+```java
+ctx.getRequest().getHeaders().get("//TODO")
+```
+
+通过创建过滤器也可以实现同样的效果，Ratpack有一个[Handler](https://ratpack.io/manual/current/handlers.html#handlers)接口，可以实现该接口来创建过滤器。它只有一个方法handle()，以当前Context作为参数：
+
+```java
+public class RequestValidatorFilter implements Handler {
+
+    @Override
+    public void handle(Context ctx) throws Exception {
+        MutableHeaders headers = ctx.getResponse().getHeaders();
+        headers.set("Access-Control-Allow-Origin", "*");
+        ctx.next();
+    }
+}
+```
+
+我们可以按照以下方式使用该过滤器：
+
+```java
+RatpackServer.start(
+    server -> server.handlers(chain -> chain
+        .all(new RequestValidatorFilter())
+        .get(ctx -> ctx.render("Welcome to tuyucheng ratpack!!!"))));
+}
+```
+
+### 3.5 JSON解析器
+
+Ratpack内部使用faster-jackson进行JSON解析，我们可以使用[Jackson](https://ratpack.io/manual/current/api/ratpack/core/jackson/Jackson.html)模块将任何对象解析为JSON。
+
+让我们创建一个用于解析的简单POJO类：
+
+```java
+public class Employee {
+
+    private Long id;
+    private String title;
+    private String name;
+
+    // getters and setters
+}
+```
+
+这里我们创建了一个名为Employee的简单POJO类，它有3个参数：id、title和name。现在我们将使用这个Employee对象转换成JSON，并在访问某个URL时返回相同的JSON：
+
+```java
+List<Employee> employees = new ArrayList<Employee>();
+employees.add(new Employee(1L, "Mr", "John Doe"));
+employees.add(new Employee(2L, "Mr", "White Snow"));
+
+RatpackServer.start(
+    server -> server.handlers(chain -> chain
+        .get("data/employees",
+        ctx -> ctx.render(Jackson.json(employees)))));
+```
+
+如我们所见，我们手动将两个Employee对象添加到列表中，并使用Jackson模块将它们解析为JSON。只要访问/data/employees URL，就会返回JSON对象。
+
+这里要注意的是，我们根本没有使用ObjectMapper，因为Ratpack的Jackson模块会动态地完成必要的操作。
+
+### 3.6 内存数据库
+
+Ratpack对内存数据库提供一流的支持，它使用[HikariCP](https://github.com/brettwooldridge/HikariCP)进行JDBC连接池。为了使用它，我们需要在pom.xml中添加Ratpack的[HikariCP模块依赖](https://mvnrepository.com/search?q=ratpack-hikari)：
+
+```xml
+<dependency>
+    <groupId>io.ratpack</groupId>
+    <artifactId>ratpack-hikari</artifactId>
+    <version>1.4.5</version>
+</dependency>
+```
+
+如果我们使用Gradle，则需要在Gradle构建文件中添加相同的内容：
+
+```groovy
+compile ratpack.dependency('hikari')
+```
+
+现在，我们需要创建一个包含表DDL语句的SQL文件，以便在服务器启动并运行后立即创建表。我们将在src/main/resources目录中创建DDL.sql文件并在其中添加一些DDL语句。
+
+由于我们使用的是H2数据库，因此我们也必须为其添加依赖。
+
+现在，通过使用HikariModule，我们可以在运行时初始化数据库：
+
+```java
+RatpackServer.start(
+    server -> server.registry(Guice.registry(bindings -> 
+        bindings.module(HikariModule.class, config -> {
+            config.setDataSourceClassName("org.h2.jdbcx.JdbcDataSource");
+            config.addDataSourceProperty("URL",
+            "jdbc:h2:mem:tuyucheng;INIT=RUNSCRIPT FROM 'classpath:/DDL.sql'");
+        }))).handlers(...));
+```
+
+## 4. 测试
+
+如前所述，Ratpack对JUnit测试用例提供了一流的支持，通过使用[MainClassApplicationUnderTest](https://ratpack.io/manual/current/api/ratpack/test/MainClassApplicationUnderTest.html)，我们可以轻松创建测试用例并测试端点：
+
+```java
+@RunWith(JUnit4.class)
+public class ApplicationTest {
+
+    MainClassApplicationUnderTest appUnderTest = new MainClassApplicationUnderTest(Application.class);
+
+    @Test
+    public void givenDefaultUrl_getStaticText() {
+        assertEquals("Welcome to tuyucheng ratpack!!!", appUnderTest.getHttpClient().getText("/"));
+    }
+
+    @Test
+    public void givenDynamicUrl_getDynamicText() {
+        assertEquals("Hello dummybot!!!", appUnderTest.getHttpClient().getText("/dummybot"));
+    }
+
+    @Test
+    public void givenUrl_getListOfEmployee() throws JsonProcessingException {
+        List<Employee> employees = new ArrayList<Employee>();
+        ObjectMapper mapper = new ObjectMapper();
+        employees.add(new Employee(1L, "Mr", "John Doe"));
+        employees.add(new Employee(2L, "Mr", "White Snow"));
+
+        assertEquals(mapper.writeValueAsString(employees), appUnderTest.getHttpClient().getText("/data/employees"));
+    }
+
+    @After
+    public void shutdown() {
+        appUnderTest.close();
+    }
+}
+```
+
+请注意，我们需要通过调用close()方法手动终止正在运行的MainClassApplicationUnderTest实例，因为它可能会不必要地阻塞JVM资源，这就是为什么我们使用@After注解在测试用例执行后强制终止实例。
+
+## 5. 总结
+
+在本文中，我们介绍了使用Ratpack的简单性。
