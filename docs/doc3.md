@@ -2147,6 +2147,7 @@ v2.0的原型实现，能够捕获和共享GS1批准的标准化事件/主数据
 * [RepRap](https://sourceforge.net/projects/reprap/)：RepRap是一种三维打印机原型机，它具有一定程度的自我复制能力，能够打印出大部分其自身的塑料组件，由英国巴斯大学开发。
 * [Zebra-zpl](https://github.com/w3blogfr/zebra-zpl)：用于生成通用ZPL命令以使用Java在Zebra打印机上打印标签的库。
 * [Bambu Farm](https://github.com/TFyre/bambu-farm)：基于Web的应用程序，使用MQTT/FTP/RTSP监控多台Bambu打印机(无需自定义固件)。
+* [ESC/POS Java](https://github.com/stefanosbou/esc-pos-java)：用于ESC/POS兼容热敏打印机的Java库，串行或网络连接。
 
 ## Web资源
 
