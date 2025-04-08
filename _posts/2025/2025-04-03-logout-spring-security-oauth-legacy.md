@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在OAuth安全应用程序中注销(使用Spring Security OAuth遗留堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  OAuth 2.0和动态客户端注册(使用Spring Security OAuth遗留堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Kong Ingress Controller与Spring Boot
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

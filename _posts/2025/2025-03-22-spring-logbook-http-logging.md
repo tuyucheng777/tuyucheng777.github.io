@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring中使用Logbook记录HTTP请求和响应
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

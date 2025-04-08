@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Reactor WebFlux与虚拟线程
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用API密钥和机密保护Spring Boot API
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

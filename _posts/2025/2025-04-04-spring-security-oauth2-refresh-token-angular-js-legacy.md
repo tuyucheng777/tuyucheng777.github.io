@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring REST API OAuth2 – 在Angular中处理刷新令牌(旧OAuth堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

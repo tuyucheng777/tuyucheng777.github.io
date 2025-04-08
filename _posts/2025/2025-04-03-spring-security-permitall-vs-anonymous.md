@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security中permitAll()和anonymous()之间的区别
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

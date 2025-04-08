@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Bootify快速进行Spring Boot原型设计
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

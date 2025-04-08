@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Security检测泄露的密码
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Data JPA
 ---
 

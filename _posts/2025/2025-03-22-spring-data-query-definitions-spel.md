@@ -1,3 +1,11 @@
+---
+layout: post
+title:  Spring Data JPA中支持SpEL的@Query定义
+category: springboot
+copyright: springboot
+excerpt: Spring Boot
+---
+
 ## 1. 概述
 
 [SpEL](https://www.baeldung.com/spring-expression-language)代表Spring表达式语言，是一个强大的工具，可以显著增强我们与Spring的交互，并提供对配置、属性设置和查询操作的额外抽象。

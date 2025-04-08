@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  OpenAPI生成器自定义模板
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

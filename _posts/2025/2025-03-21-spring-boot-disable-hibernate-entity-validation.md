@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot项目中禁用Hibernate实体验证
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring WebFlux中将Mono对象转换为另一个Mono对象
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

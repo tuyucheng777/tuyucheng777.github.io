@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将Firebase身份验证与Spring Security集成
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

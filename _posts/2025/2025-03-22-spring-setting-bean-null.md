@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将Spring Bean设置为Null
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

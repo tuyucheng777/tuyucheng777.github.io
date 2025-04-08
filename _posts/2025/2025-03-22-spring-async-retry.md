@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring中设置异步重试机制
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

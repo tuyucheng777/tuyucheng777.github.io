@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  自动注入具有多个实现的接口
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

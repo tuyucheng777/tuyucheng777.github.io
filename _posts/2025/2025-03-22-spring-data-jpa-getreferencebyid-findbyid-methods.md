@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  何时在Spring Data JPA中使用getReferenceById()和findById()方法
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

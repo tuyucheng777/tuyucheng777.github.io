@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  解决Spring JPA属性命名问题
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

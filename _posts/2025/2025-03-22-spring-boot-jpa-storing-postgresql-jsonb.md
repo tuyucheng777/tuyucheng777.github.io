@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Boot和JPA存储PostgreSQL JSONB
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

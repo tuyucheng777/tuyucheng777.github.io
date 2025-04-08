@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Java驱动程序和Spring Data进行MongoDB Atlas搜索
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data MongoDB
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中使用Tomcat启用HTTP2
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

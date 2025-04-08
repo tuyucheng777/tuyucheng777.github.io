@@ -1,3 +1,11 @@
+---
+layout: post
+title:  使用Flyway进行Spring R2DBC迁移
+category: springdata
+copyright: springdata
+excerpt: Spring Data JPA
+---
+
 ## 1. 简介
 
 在本教程中，我们将使用[Flyway](https://www.baeldung.com/flyway-migrations)探索Spring R2DBC迁移，Flyway是一种常用于[数据库迁移](https://www.baeldung.com/database-migrations-with-flyway)的开源工具。虽然在撰写本文时它还没有对R2DBC的原生支持，但我们将研究在应用程序启动期间迁移表和数据的替代方法。

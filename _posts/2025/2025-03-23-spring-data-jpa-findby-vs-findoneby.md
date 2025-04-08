@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data JPA中findBy和findOneBy之间的区别
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Webflux中抛出异常和Mono.error()的区别
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Loki在Spring Boot中记录日志
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

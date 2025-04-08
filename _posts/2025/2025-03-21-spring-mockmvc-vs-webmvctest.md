@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用MockMvc和SpringBootTest与使用WebMvcTest
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

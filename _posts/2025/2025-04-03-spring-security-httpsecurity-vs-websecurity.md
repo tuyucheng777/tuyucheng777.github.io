@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security中的HttpSecurity与WebSecurity
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Data JPA
 ---
 

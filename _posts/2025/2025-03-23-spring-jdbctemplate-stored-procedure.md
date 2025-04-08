@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring JdbcTemplate的存储过程
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

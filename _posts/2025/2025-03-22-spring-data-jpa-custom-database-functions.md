@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用JPA和Spring Boot调用自定义数据库函数
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

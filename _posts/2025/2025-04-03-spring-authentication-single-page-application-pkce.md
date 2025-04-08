@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Authorization Server中使用PKCE进行单页应用程序身份验证
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Authorization Server
 ---
 

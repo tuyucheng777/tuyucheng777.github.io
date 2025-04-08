@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Reactive中的Mono.fromCallable与Mono.justOrEmpty
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

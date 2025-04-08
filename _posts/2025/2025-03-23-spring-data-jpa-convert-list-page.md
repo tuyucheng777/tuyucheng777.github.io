@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Data JPA将List转换为Page
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

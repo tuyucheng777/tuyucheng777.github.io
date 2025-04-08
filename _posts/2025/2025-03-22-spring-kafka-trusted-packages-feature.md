@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Kafka可信包功能
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

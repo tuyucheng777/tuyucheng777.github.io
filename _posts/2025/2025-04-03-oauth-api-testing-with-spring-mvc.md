@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring MVC测试OAuth安全API(使用Spring Security OAuth遗留堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security OAuth
 ---
 

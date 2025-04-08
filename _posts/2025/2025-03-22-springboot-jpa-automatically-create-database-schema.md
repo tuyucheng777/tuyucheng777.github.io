@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Boot自动创建数据库模式
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

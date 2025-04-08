@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  2016年3月Spring和Spring Boot采用情况
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

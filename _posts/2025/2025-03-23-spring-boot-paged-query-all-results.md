@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Boot分页查询方法一次性获取所有结果
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

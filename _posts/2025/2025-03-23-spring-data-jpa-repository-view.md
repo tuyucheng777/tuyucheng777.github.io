@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  用于数据库视图的Spring Data JPA Repository
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

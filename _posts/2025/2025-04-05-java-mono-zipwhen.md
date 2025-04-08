@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将zipWhen()与Mono结合使用
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

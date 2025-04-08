@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用WebClient执行同步请求
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

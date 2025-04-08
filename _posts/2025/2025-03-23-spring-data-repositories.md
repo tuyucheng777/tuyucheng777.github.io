@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data中的CrudRepository、JpaRepository和PagingAndSortingRepository
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

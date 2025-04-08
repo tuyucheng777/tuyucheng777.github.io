@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot中的结构化日志
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

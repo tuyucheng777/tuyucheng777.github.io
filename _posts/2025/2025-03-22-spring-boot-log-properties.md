@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot应用程序中记录属性
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中禁用@Cacheable
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

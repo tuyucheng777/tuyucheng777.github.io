@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中将不区分大小写的@Value绑定到枚举
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

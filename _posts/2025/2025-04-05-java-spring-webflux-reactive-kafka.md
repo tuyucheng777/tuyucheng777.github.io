@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Reactive Kafka Stream和Spring WebFlux
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

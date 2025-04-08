@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot 3中将HttpStatus迁移到HttpStatusCode
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

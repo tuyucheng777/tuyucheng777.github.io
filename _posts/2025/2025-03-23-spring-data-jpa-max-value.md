@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Data JPA中查找最大值
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

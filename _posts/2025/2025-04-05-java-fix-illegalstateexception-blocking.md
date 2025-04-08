@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何解决“java.lang.IllegalStateException:block()/blockFirst()/blockLast() are blocking”
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

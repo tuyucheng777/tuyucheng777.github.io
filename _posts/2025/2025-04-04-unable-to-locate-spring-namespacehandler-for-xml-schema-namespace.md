@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  无法找到XML模式命名空间的Spring NamespaceHandler
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

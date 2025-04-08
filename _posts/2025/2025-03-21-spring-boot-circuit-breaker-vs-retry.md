@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot中断路器和重试的区别
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Security实现REST服务的基本身份验证和摘要身份验证
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

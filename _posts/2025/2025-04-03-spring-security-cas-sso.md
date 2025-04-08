@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Security与CAS SSO
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Data JPA
 ---
 

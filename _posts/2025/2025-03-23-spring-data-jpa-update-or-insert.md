@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Data JPA中实现更新或插入
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

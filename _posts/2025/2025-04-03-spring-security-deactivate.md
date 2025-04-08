@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  禁用Spring Security指南
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Data JPA
 ---
 

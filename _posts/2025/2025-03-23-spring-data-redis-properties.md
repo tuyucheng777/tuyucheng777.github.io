@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data Redis的基于属性的配置
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data Redis
 ---
 

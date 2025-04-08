@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  持久化DDD聚合
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: DDD
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot 3 – 配置Spring Security以允许Swagger UI
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

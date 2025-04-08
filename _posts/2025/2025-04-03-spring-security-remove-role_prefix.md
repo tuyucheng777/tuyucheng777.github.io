@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Security中删除ROLE_前缀
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

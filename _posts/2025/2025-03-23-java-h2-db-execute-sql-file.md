@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  从H2数据库中的文件运行查询
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

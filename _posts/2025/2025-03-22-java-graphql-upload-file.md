@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Java中使用GraphQL上传文件
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

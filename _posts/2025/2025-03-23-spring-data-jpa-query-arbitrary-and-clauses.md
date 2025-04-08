@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  具有任意AND子句的动态Spring Data JPA Repository查询
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

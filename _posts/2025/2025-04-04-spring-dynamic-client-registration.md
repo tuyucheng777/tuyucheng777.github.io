@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Authorization Server中的动态客户端注册
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Authorization Server
 ---
 

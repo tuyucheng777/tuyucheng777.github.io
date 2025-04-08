@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在非阻塞上下文中处理阻塞方法警告
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

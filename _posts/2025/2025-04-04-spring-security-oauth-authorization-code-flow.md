@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  包含前端应用程序的Spring Security OAuth-授权代码流程
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring授权服务器中的JWT访问令牌中添加权限作为自定义Claims
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何指定logback.xml位置
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

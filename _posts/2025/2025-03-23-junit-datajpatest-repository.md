@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  JUnit中的@DataJpaTest和Repository类
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

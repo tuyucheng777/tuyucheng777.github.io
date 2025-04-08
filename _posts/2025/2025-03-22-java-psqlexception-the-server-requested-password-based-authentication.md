@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  PSQLException：服务器请求基于密码的身份验证
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

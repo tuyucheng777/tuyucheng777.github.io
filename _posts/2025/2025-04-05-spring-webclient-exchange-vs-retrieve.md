@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring WebClient exchange()与retrieve()
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring Reactive
 ---
 

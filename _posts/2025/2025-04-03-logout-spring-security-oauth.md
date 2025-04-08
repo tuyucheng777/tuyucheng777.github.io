@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在OAuth保护的应用程序中注销
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

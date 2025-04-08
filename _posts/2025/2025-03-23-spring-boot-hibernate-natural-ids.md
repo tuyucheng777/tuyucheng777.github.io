@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot中的Hibernate自然ID
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

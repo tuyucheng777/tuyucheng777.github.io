@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security中的一次性令牌登录指南
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

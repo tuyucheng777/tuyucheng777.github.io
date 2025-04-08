@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中到达控制器之前修改请求主体
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

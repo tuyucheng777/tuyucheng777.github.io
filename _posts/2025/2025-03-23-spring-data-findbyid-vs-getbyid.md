@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data中findById和getById的区别
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

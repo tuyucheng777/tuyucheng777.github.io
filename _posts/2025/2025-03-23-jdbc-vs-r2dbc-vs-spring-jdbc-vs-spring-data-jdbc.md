@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  JDBC与R2DBC与Spring JDBC与Spring Data JDBC
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

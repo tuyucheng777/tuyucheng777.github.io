@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Webflux和Spring Data Reactive中的分页
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

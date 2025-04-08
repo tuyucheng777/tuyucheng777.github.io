@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将Passkeys集成到Spring Security
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Data JPA
 ---
 

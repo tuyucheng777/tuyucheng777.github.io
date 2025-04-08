@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring测试中禁用@EnableScheduling
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

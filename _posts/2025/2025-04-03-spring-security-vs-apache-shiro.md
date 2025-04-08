@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security与Apache Shiro
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何在一个地方记录所有请求、响应和异常
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

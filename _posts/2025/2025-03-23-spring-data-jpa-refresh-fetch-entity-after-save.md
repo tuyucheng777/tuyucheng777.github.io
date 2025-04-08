@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在JPA中保存后刷新并获取实体
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

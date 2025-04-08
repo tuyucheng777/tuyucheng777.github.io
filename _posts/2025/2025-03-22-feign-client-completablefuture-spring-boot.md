@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中将CompletableFuture与Feign Client结合使用
-category: spring-cloud
-copyright: spring-cloud
+category: springcloud
+copyright: springcloud
 excerpt: Spring Cloud OpenFeign
 ---
 

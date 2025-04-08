@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何在Spring Data JPA中获取最后一条记录
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

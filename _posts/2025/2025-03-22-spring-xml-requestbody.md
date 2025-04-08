@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring REST中的@RequestBody中使用XML
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

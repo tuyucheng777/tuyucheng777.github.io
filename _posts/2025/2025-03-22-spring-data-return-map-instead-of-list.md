@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Data JPA中返回Map而不是List
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

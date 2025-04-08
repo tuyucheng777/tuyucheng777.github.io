@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security的Java配置简介
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

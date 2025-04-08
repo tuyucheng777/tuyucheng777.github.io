@@ -1,3 +1,11 @@
+---
+layout: post
+title:  Spring REST API + OAuth2 + Angular
+category: springsecurity
+copyright: springsecurity
+excerpt: Spring Security OAuth2
+---
+
 ## 1. 概述
 
 在本教程中，**我们将使用OAuth2保护REST API并从简单的Angular客户端使用它**。

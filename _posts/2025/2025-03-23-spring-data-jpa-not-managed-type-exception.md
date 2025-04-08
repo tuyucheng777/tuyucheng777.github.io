@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data JPA 中的“Not a Managed Type”异常
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

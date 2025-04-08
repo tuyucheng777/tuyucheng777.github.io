@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  没有定义名为‘springSecurityFilterChain’的Bean
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

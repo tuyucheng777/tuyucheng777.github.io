@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot应用程序中设置默认时区
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

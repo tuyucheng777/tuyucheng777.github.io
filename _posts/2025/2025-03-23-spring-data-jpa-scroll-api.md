@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data JPA中的Scroll API
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

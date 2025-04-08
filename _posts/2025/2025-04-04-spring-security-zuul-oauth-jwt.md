@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用OAuth2和JWT在Zuul中处理安全性
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

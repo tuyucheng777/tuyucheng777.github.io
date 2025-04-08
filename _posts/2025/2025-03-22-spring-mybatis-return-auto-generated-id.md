@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用MyBatis和Spring从插入中返回自动生成的ID
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

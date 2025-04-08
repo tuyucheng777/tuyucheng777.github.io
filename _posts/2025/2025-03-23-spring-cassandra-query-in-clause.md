@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data Cassandra中使用IN子句进行查询
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data Cassandra
 ---
 

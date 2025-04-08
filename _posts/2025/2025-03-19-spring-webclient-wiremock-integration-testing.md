@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用WireMock进行Spring WebClient集成测试
-category: spring-reactive
-copyright: spring-reactive
+category: springreactive
+copyright: springreactive
 excerpt: Spring WebClient
 ---
 

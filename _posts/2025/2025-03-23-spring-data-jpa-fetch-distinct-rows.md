@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring Data JPA查找不同的行
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

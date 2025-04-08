@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Boot中使用AzureAD对用户进行身份验证
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: AzureAD
 ---
 

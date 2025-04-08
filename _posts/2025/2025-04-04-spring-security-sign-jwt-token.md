@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  创建用于签名JWT令牌的Spring Security密钥
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

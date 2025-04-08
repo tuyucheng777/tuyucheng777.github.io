@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Security OAuth2中的新功能 – 验证声明
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security OAuth2
 ---
 

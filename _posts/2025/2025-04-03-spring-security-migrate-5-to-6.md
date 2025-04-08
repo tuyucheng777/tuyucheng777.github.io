@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将应用程序从Spring Security 5迁移到Spring Security 6/Spring Boot 3
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

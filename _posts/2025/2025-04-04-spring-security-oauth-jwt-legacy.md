@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将JWT与Spring Security OAuth结合使用(旧堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

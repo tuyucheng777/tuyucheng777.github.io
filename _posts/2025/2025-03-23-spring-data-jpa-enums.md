@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Data JPA查询中使用枚举
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

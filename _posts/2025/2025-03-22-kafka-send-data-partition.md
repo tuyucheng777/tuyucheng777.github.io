@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将数据发送到Kafka中的特定分区
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

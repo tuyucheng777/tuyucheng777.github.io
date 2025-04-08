@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring框架中的统一SSL支持
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

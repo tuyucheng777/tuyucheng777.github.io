@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在MongoRepository中使用Limit和Skip的不同方法
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data MongoDB
 ---
 

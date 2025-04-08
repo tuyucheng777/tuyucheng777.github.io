@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何解决Spring Boot POST请求中的403错误
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

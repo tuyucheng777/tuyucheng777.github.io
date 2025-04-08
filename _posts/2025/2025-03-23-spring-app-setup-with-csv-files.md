@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring应用程序中通过CSV外部化设置数据
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

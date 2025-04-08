@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何让Spring Boot应用程序只执行一次计划任务
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

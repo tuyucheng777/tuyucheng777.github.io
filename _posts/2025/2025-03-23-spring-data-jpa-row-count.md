@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  在Spring Data JPA中计算结果行数
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

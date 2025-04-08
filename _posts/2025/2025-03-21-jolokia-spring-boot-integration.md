@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  将Jolokia与Spring Boot集成
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Jolokia
 ---
 

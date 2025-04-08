@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  OAuth2使用刷新令牌记住我(使用Spring Security OAuth遗留堆栈)
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Hibernate和Spring Data JPA中的N + 1问题
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

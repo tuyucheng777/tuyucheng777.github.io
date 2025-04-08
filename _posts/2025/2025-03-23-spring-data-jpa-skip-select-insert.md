@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data JPA中插入之前跳过选择
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

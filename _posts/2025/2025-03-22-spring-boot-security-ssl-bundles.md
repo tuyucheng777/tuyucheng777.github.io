@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用SSL捆绑包保护Spring Boot应用程序
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

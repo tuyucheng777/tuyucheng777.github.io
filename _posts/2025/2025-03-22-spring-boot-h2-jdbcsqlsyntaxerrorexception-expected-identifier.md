@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot H2 JdbcSQLSyntaxErrorException expected “identifier”
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

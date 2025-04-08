@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Boot微服务中的十二要素方法
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

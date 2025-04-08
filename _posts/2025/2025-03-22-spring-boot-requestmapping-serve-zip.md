@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  如何使用Spring Boot @RequestMapping提供Zip文件
-category: spring-boot
-copyright: spring-boot
+category: springboot
+copyright: springboot
 excerpt: Spring Boot
 ---
 

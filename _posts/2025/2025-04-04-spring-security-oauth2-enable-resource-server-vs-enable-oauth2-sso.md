@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  OAuth2–@EnableResourceServer与@EnableOAuth2Sso，OAuth2-@EnableResourceServer与@EnableOAuth2Sso
-category: spring-security
-copyright: spring-security
+category: springsecurity
+copyright: springsecurity
 excerpt: Spring Security
 ---
 

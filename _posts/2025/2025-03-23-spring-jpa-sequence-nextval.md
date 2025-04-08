@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用Spring JPA从序列中获取Nextval
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data JPA
 ---
 

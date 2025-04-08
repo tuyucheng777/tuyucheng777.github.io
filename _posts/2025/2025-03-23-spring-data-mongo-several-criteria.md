@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Spring Data MongoDB查询中的多个条件
-category: spring-data
-copyright: spring-data
+category: springdata
+copyright: springdata
 excerpt: Spring Data MongoDB
 ---
 
