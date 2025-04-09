@@ -33,13 +33,14 @@ excerpt: 搜索
 - 访问当前节点
 - 遍历左子树
 - 遍历右子树
+
 ```java
 public void traversePreOrder(Node node) {
-  if (node != null) {
-    visit(node.value);
-    traversePreOrder(node.left);
-    traversePreOrder(node.right);
-  }
+    if (node != null) {
+        visit(node.value);
+        traversePreOrder(node.left);
+        traversePreOrder(node.right);
+    }
 }
 ```
 
@@ -54,6 +55,7 @@ public void traversePreOrder(Node node) {
   - 弹出当前节点
   - 访问当前节点
   - 将右子节点推入栈，然后将左子节点推入栈
+  
 ```java
 public void traversePreOrderWithoutRecursion() {
     Stack<Node> stack = new Stack<Node>();
@@ -99,6 +101,7 @@ public void traverseInOrder(Node node) {
   - 继续将左子节点推入栈，直到到达当前节点的最左子节点
   - 弹出并访问栈最左边的节点
   - 将当前节点设置为弹出节点的右子节点
+  
 ```java
 public void traverseInOrderWithoutRecursion() {
     Stack stack = new Stack<>();
@@ -140,6 +143,7 @@ public void traversePostOrder(Node node) {
 
   - 检查我们是否已经遍历了左子树和右子树
   - 如果不是则将右子节点和左子节点推入栈
+  
 ```java
 public void traversePostOrderWithoutRecursion() {
     Stack<Node> stack = new Stack<Node>();
@@ -184,6 +188,7 @@ public void traversePostOrderWithoutRecursion() {
 - 将当前节点标记为已访问
 - 访问当前节点
 - 遍历未访问的相邻顶点
+
 ```java
 public boolean[] dfs(int start) {
     boolean[] isVisited = new boolean[adjVertices.size()];
@@ -214,6 +219,7 @@ private boolean[] dfsRecursive(int current, boolean[] isVisited) {
   - 将当前节点标记为已访问
   - 访问当前节点
   - 推入未访问的相邻顶点
+
 ```java
 public void dfsWithoutRecursion(int start) {
     Stack<Integer> stack = new Stack<Integer>();
@@ -228,7 +234,7 @@ public void dfsWithoutRecursion(int start) {
                 if (!isVisited[dest])
                     stack.push(dest);
             }
-            }
+        }
     }
     return isVisited;
 }
@@ -244,6 +250,8 @@ public void dfsWithoutRecursion(int start) {
 
 - 我们需要将访问过的顶点保存在栈中，因为拓扑排序是按相反顺序访问顶点
 - 遍历完所有邻居后，我们才将访问的节点推送到栈
+
+
 ```java
 public List<Integer> topologicalSort(int start) {
     LinkedList<Integer> result = new LinkedList<Integer>();
