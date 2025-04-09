@@ -246,6 +246,9 @@ navs:
       -
         subHref: /designpattern.html
         subLabel: 设计模式
+
+      - subHref: /algorithms.html
+        subLabel: 算法
       
       -
         subHref: /maven.html
