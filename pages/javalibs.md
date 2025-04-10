@@ -2558,7 +2558,7 @@ permalink: /javalibs
 * [Apache Hive](https://github.com/apache/hive)：Hive是一种分布式容错数据仓库系统，可实现大规模分析，并有助于使用SQL读取、写入和管理分布式存储中的PB级数据，由Facebook开源。
 * [Trino](https://github.com/trinodb/trino)：Trino是一个用于大数据分析的快速分布式SQL查询引擎，由Starburst开源。
 * [Presto](https://github.com/prestodb/presto)：Presto是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
-* [Amazon Athena](https://aws.amazon.com/cn/athena/)：是一种交互式查询服务，可让你方便地使用标准SQL直接分析Amazon S3中的数据。
+* [Amazon Athena](https://aws.amazon.com/cn/athena/)：Athena是一种交互式查询服务，可让你方便地使用标准SQL直接分析Amazon S3中的数据。
 * [Apache Phoenix](https://github.com/apache/phoenix)：Phoenix是基于HBase的SQL皮肤，作为客户端嵌入的JDBC驱动程序提供，旨在针对HBase数据的低延迟查询，由Salesforce开源。
 * [XSQL](https://github.com/Qihoo360/XSQL)：XSQL是一个多数据源查询引擎，设计简单易用，运行稳定，由360开源。
 * [Blaze](https://github.com/kwai/blaze)：Blaze加速器利用本机矢量化执行来加速查询处理，由快手开源。
