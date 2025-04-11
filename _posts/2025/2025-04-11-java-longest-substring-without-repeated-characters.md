@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  使用Spring
+title:  查找不包含重复字符的最长子字符串
 category: algorithms
 copyright: algorithms
-excerpt: Log4j
+excerpt: 字符串
 ---
 
 ## 1. 概述
