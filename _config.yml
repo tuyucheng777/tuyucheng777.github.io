@@ -234,6 +234,9 @@ navs:
       - subHref: /webmodules.html
         subLabel: Web框架
 
+      - subHref: /apache.html
+        subLabel: Apache生态
+
       - subHref: /kafka.html
         subLabel: Kafka
 
