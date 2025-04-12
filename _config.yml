@@ -177,16 +177,13 @@ navs:
 
   -
     href: /spring.html
-    label: Spring生态
+    label: Spring框架
     target: _self
     subnav:
 
       -
         subHref: /spring.html
         subLabel: Spring
-
-      - subHref: /springai.html
-        subLabel: Spring AI
 
       -
         subHref: /spring-web.html
@@ -211,6 +208,9 @@ navs:
       -
         subHref: /spring-reactive.html
         subLabel: Spring Reactive
+
+      - subHref: /springai.html
+        subLabel: Spring AI
 
   -   href: /microservice.html
       label: 微服务
@@ -322,10 +322,6 @@ navs:
       -
         subHref: /reactor.html
         subLabel: Reactor
-
-      -
-        subHref: /rsocket.html
-        subLabel: RSocket
       
       -
         subHref: /rxjava.html
@@ -338,6 +334,9 @@ navs:
       -
         subHref: /akka.html
         subLabel: Akka
+
+      - subHref: /rsocket.html
+        subLabel: RSocket
 
   -
     href: /archives.html
