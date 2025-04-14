@@ -439,13 +439,13 @@ gitment:
     owner: tuyucheng777
     repo: blog-comments
     oauth:
-        client_id: b5981caa1bd346619214
-        client_secret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
+        client_id: Ov23liw56wGHUmHcX255
+        client_secret: c7369596433da9501e12f5afdccc2530ca57fa41
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: tuyucheng777
     repo: blog-comments
-    clientID: b5981caa1bd346619214
-    clientSecret: 04549c149e3e6f9dbcb3563d3605eca1e08be343
+    clientID: Ov23liw56wGHUmHcX255
+    clientSecret: c7369596433da9501e12f5afdccc2530ca57fa41
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : true
