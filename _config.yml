@@ -56,10 +56,6 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: http://itmooc.tech/
-    label: IDEA破解
-    target: _blank  
-  -
     href: /link.html
     label: 友链
     target: _self
