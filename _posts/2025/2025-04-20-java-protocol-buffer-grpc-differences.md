@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Protobuf与gRPC
-category: grpc
-copyright: grpc
-excerpt: rpc
+category: rpc
+copyright: rpc
+excerpt: gRPC
 ---
 
 ## 1. 概述
