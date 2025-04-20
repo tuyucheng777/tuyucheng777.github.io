@@ -3,7 +3,7 @@ layout: post
 title:  Protobuf与gRPC
 category: grpc
 copyright: grpc
-excerpt: gRPC
+excerpt: rpc
 ---
 
 ## 1. 概述
