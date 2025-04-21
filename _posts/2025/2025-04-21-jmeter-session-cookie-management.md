@@ -26,7 +26,7 @@ excerpt: Apache JMeter
 
 最后，我们将得到这样的结构：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement01.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement01.png)
 
 ### 3.1 创建线程组
 
@@ -34,7 +34,7 @@ excerpt: Apache JMeter
 
 让我们右键单击Test Plan，然后Add > Threads (Users) > Thread Group并修改一些属性：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement02.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement02.png)
 
 - Stop Thread：由于我们需要登录才能访问应用程序，因此我们希望测试在第一次出现错误时停止。如果登录因任何原因失败，**此选项有助于减少生成的请求数**。
 - Number of Threads：**此参数用于测试应用程序是否能够同时处理多个会话**，由于我们需要每个用户的有效凭证，因此我们不能超过数据库中用户数的限制，稍后我们将配置该限制。
@@ -58,7 +58,7 @@ john_baz,password321
 
 然后，我们右键单击线程组，选择Add > Config Element > CSV Data Set Config：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement03.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement03.png)
 
 **在此组件中，我们唯一不会保留默认值的属性是Filename，我们将使用它来选择CSV文件**，其他值得注意的选项包括：
 
@@ -71,7 +71,7 @@ john_baz,password321
 
 最后，我们将添加另一个Config Element，然后选择HTTP Cookie Manager，**此组件启用JMeter中的会话管理**：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement04.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement04.png)
 
 - Clear cookies each iteration：这与“Same user on each iteration”选项具有相同的效果，因此当我们选中下一个选项时不可用。
 - Use Thread Group configuration to control cookie clearing：顾名思义，这考虑了我们之前定义的“Same user on each iteration”。
@@ -80,7 +80,7 @@ john_baz,password321
 
 我们的第一个请求是登录表单，让我们右键单击线程组，然后选择Add > Sampler > HTTP Request：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement05.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement05.png)
 
 让我们检查一下与我们的场景最相关的配置：
 
@@ -100,7 +100,7 @@ username=${username}&password=${password}
 
 我们需要将登录请求的Content-Type标头定义为application/x-www-form-urlencoded，为此，我们将右键单击登录请求，然后选择Add > Config Element > HTTP Header Manager，并将其作为名称/值对添加：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement06.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement06.png)
 
 **如果我们不包括它，我们的登录将会失败，因为服务器不知道如何处理请求**。
 
@@ -108,7 +108,7 @@ username=${username}&password=${password}
 
 当登录请求成功时，它会返回302代码，重定向到应用程序中的[登录页面](https://www.baeldung.com/spring-security-login#3-the-landing-page-on-success)。为了断言这一点，我们可以右键单击我们的登录请求，然后选择Add > Assertions > Response Assertion：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement07.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement07.png)
 
 这里，我们结合使用了“Response Code”和“Equals”选项，并在“Patterns to Test”字段中输入302代码，其他选项保留默认值。
 
@@ -116,7 +116,7 @@ username=${username}&password=${password}
 
 如果登录失败，响应中会包含指向错误页面的Location头，让我们添加另一个Response Assertion：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement08.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement08.png)
 
 - Response Headers：**这定义了我们要检查某个响应头的值**，我们不需要设置响应头的名称。
 - Contains + Not：**标头值不应包含“Patterns to Test”字段中指定的字符串**。
@@ -127,13 +127,13 @@ username=${username}&password=${password}
 
 **有了cookie管理器，所有后续请求都会自动包含会话cookie，从而授予对受保护资源的访问权限**：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement09.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement09.png)
 
 然后，我们将检查响应是否与预期值匹配。**在本例中，我们指定的安全端点Path返回当前登录用户的名称**，其他选项我们将保留默认值。
 
 因此，让我们将username变量包含在新的Response Assertion中的Patterns to Test字段中：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement10.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement10.png)
 
 - Text Response：我们将以纯文本形式检查回复
 - Matches：我们想要精确匹配
@@ -142,11 +142,11 @@ username=${username}&password=${password}
 
 在迭代结束时，我们将添加指向注销端点的注销请求：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement11.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement11.png)
 
 **并使用与登录断言类似的逻辑来检查我们是否成功注销，其中我们检查其中一个标头是否包含“logout”**：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement12.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement12.png)
 
 现在，我们有一个经过身份验证的用户与应用程序同时交互的完整测试周期。
 
@@ -154,15 +154,15 @@ username=${username}&password=${password}
 
 为了直观地了解底层发生的情况，我们右键单击“Thread Group”，然后选择Add > Listener > View Results Tree。**运行测试并检查登录请求后，单击Response data > Response headers即可看到JSESSIONID**：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement13.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement13.png)
 
 **我们还可以看到，当单击Request > Request Body时，cookie在我们的请求中被发送回受保护的资源**：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement14.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement14.png)
 
 最后，我们可以在Response Data > Response Body下验证预期的响应：
 
-![](/assets/images/2025/designpattern/jmetersessioncookiemanagement15.png)
+![](/assets/images/2025/load/jmetersessioncookiemanagement15.png)
 
 ## 8. 总结
 
