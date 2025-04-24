@@ -122,7 +122,7 @@ Maven工具可帮助将应用程序打包到部署到Azure Functions服务所规
 
 首先，我们将定义开发此Azure函数应用程序的主要类：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction01.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure01.png)
 
 让我们首先定义EmployeeSalaryFunction：
 ```java
@@ -193,7 +193,7 @@ Azure事件处理程序函数主要按照Java Azure Function SDK编程模型编�
 
 假设我们有多个实现来根据城市计算员工的最终工资：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction02.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure02.png)
 
 我们定义了NewYorkSalaryCalculatorFn、ChicagoSalaryCalculatorFn和CaliforniaSalaryCalculatorFn等函数，这些函数根据员工居住的城市计算员工的最终工资。
 
@@ -277,19 +277,19 @@ public class EmployeeSalaryHandler {
 
 **我们将使用Maven在Azure Functions上编译、打包和部署应用程序**，让我们从IntelliJ运行Maven目标：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction03.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure03.png)
 
 成功部署后，以下函数将显示在Azure门户上：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction04.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure04.png)
 
 最后，从Azure门户获取它们的端点后，我们可以调用它们并检查结果：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction05.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure05.png)
 
 此外，可以在Azure门户上确认函数调用：
 
-![](/assets/images/2025/springcloud/springboot31connectiondetailsabstraction06.png)
+![](/assets/images/2025/springcloud/springcloudfunctionmicrosoftazure06.png)
 
 ## 6. 总结
 
