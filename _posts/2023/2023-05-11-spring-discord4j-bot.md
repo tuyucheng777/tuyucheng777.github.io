@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  使用Discord4J + Spring Boot创建Discord机器人
-category: springboot
-copyright: springboot
-excerpt: Spring Boot
+category: saas
+copyright: saas
+excerpt: Discord4J
 ---
 
 ## 1. 概述

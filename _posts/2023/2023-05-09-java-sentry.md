@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Sentry快速指南
-category: test-lib
-copyright: test-lib
+category: saas
+copyright: saas
 excerpt: Sentry
 ---
 
