@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  CheckStyle简介
-category: test-lib
-copyright: test-lib
+category: staticanalysis
+copyright: staticanalysis
 excerpt: Checkstyle
 ---
 

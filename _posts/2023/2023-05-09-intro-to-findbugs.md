@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  FindBugs简介
-category: test-lib
-copyright: test-lib
+category: staticanalysis
+copyright: staticanalysis
 excerpt: FindBugs
 ---
 

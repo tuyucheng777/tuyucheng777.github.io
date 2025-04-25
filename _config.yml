@@ -276,6 +276,9 @@ navs:
 
       - subHref: /security.html
         subLabel: 安全框架
+        
+      - subHref: /staticanalysis.html
+        subLabel: 静态分析
 
       - subHref: /javafx.html
         subLabel: JavaFX

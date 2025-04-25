@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  使用SonarQube进行代码分析
-category: security
-copyright: security
+category: staticanalysis
+copyright: staticanalysis
 excerpt: SonarQube
 ---
 
