@@ -2128,6 +2128,7 @@ permalink: /javalibs
 * [Arthas](https://github.com/alibaba/arthas)：Arthas是阿里开源的Java诊断工具。
 * [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html)：JProfiler直观的UI帮助你解决性能瓶颈，确定内存泄漏并了解线程问题。
 * [YourKit](https://www.yourkit.com/features/)：YourKit是业界领先的Java剖析工具。
+* [JConsole](https://docs.oracle.com/en/java/javase/23/management/using-jconsole.html)：JConsole是一款符合JMX规范的监控工具，由Oracle开发。
 * [Async Profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
 * [JVM Profiler](https://github.com/uber-common/jvm-profiler)：JVM Profiler提供了一个Java Agent，以分布式方式收集Hadoop/Spark JVM进程的各种指标和堆栈跟踪，例如CPU/内存/IO指标，由Uber开源。
 * [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
@@ -4148,6 +4149,7 @@ permalink: /javalibs
 * [HelloDATA BE](https://github.com/kanton-bern/hellodata-be)：HelloDATA BE是一个基于现代数据堆栈的开源工具构建的企业数据平台。
 * [Operaton](https://github.com/operaton/operaton)：Operaton是一个原生的BPMN 2.0流程引擎，运行在Java虚拟机中。
 * [ZephFlow](https://github.com/fleaktech/zephflow-core)：ZephFlow是一个精简的框架，旨在使无状态数据处理变得简单、可靠和高效。
+* [Solon Flow](https://gitee.com/opensolon/solon-flow)：Java Flow通用流编排应用开发框架，支持已知流编排的各种场景。
 
 ## 规则引擎
 
@@ -4277,6 +4279,7 @@ permalink: /javalibs
 * [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow-java)：Tinyflow是一个使用Java开发的智能体编排解决方案。
+* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL和Kotlin Scripting的强大功能来定义一种针对构建LLM支持的解决方案而优化的语言，由德国电信股份公司开发。
 
 #### LLM客户端
 
@@ -8347,6 +8350,7 @@ permalink: /javalibs
 * [Huawei OBS](https://github.com/huaweicloud/huaweicloud-sdk-java-obs)：用于访问对象存储服务的OBS Java SDK。
 * [BlobIt](https://github.com/diennea/blobit)：BlobIt是基于Apache BookKeeper构建的分布式二进制大对象(BLOB)存储。
 * [ByteBin](https://github.com/lucko/bytebin)：ByteBin是一种快速、轻量级的内容存储网络服务。
+* [Dante OSS](https://gitee.com/herodotus/dante-oss)：Dante OSS是一款简化对象存储操作的开源框架。
 
 ## 音视频处理
 

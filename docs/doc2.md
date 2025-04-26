@@ -152,6 +152,7 @@
 * [LangGraph4j](https://github.com/bsorrentino/langgraph4j)：Java版LangGraph。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow-java)：Tinyflow是一个使用Java开发的智能体编排解决方案。
+* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL和Kotlin Scripting的强大功能来定义一种针对构建LLM支持的解决方案而优化的语言，由德国电信股份公司开发。
 
 #### LLM客户端
 
