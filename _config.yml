@@ -66,7 +66,7 @@ menus:
     target: _self
 
   - href: /javalibs.html
-    label: Java生态
+    label: Awesome Java
     target: _self
 
 # Navigation. main menu list
