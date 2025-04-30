@@ -1726,6 +1726,7 @@ v2.0的原型实现，能够捕获和共享GS1批准的标准化事件/主数据
 * [CATG](https://github.com/ksen007/janala2)：Concolic单元测试引擎，使用形式化方法自动生成单元测试。
 * [JKind](https://github.com/loonwerks/jkind)：JKind是基于SMT的Lustre安全属性无限状态模型检查器，由柯林斯航空航天公司开源。
 * [Asmeta](https://github.com/asmeta/asmeta)：Asmeta是抽象状态机(ASM)形式化方法的框架，它由用于执行不同验证和确认活动的不同工具组成，米兰大学开源。
+* [PRISM](https://github.com/prismmodelchecker/prism)：PRISM是一个概率模型检查器，用于对表现出随机或概率行为的系统进行形式化建模和分析，由牛津大学开源。
 * [Checker Framework](https://checkerframework.org/)：可插拔类型系统，包括空类型、物理单位、不变性类型等等。
 * [Daikon](https://github.com/codespecs/daikon)：检测可能的程序不变量并根据这些不变量生成JML规范，由华盛顿大学开源。
 * [Java PathFinder](https://github.com/javapathfinder/jpf-core)：JVM形式验证工具，包含模型检查器等，由NASA开源。
@@ -2627,7 +2628,6 @@ v2.0的原型实现，能够捕获和共享GS1批准的标准化事件/主数据
 * [ALARA](https://github.com/svalinn/ALARA)：ALARA的主要目的是计算整个核系统(包括裂变反应堆、聚变反应堆和加速器)中子辐射引起的诱导活化，由威斯康星大学麦迪逊分校开源。
 * [OpenLCA](https://github.com/GreenDelta/olca-app)：OpenLCA是一款用于可持续性和生命周期评估的开源免费软件。
 * [XraysLib](https://github.com/tschoonj/xraylib)：用于X射线荧光应用的X射线物质相互作用截面库。
-* [PRISM](https://github.com/prismmodelchecker/prism)：PRISM是一种概率模型检查器，是一种对表现出随机或概率行为的系统进行形式建模和分析的工具。
 * [Unique4j](https://github.com/prat-man/unique4j)：Unique4j是一个跨平台Java库，仅允许Java应用程序的单个实例运行，并支持第一个实例和后续实例之间的通信。
 * [Portico](https://github.com/openlvc/portico)：Portico是一个开源HLA运行时基础设施(RTI)实现，它旨在确保开源和免费访问驱动HLA联盟所需的必要基础设施。
 * [K Framework](https://github.com/runtimeverification/k)：K Framework是一种用于设计和建模编程语言和软件/硬件系统的工具。
