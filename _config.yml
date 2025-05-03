@@ -65,6 +65,11 @@ menus:
     label: 关于
     target: _self
 
+  -
+    href: /programming.html
+    label: 编程
+    target: _self
+
   - href: /javalibs.html
     label: Awesome Java
     target: _self
