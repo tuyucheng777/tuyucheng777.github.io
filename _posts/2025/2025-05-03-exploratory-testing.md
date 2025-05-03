@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  使用Spring
+title:  什么是探索性测试
 category: test
 copyright: test
 excerpt: 编程
