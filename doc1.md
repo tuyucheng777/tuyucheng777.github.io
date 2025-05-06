@@ -17,8 +17,6 @@
 * [数据库开发](#数据库开发)
   * [ORM框架](#ORM框架)
   * [持久层库](#持久层库)
-  * [Mybatis生态](#Mybatis生态)
-  * [JPA生态](#JPA生态)
   * [事务](#事务)
 * [微服务工具](#微服务工具)
 * [REST错误处理](#REST错误处理)
@@ -237,6 +235,7 @@
 * [字节码操作](docs/doc2.md#字节码操作)
 * [字节码工具库](docs/doc2.md#字节码工具库)
 * [图像处理](docs/doc2.md#图像处理)
+* [水印](docs/doc2.md#水印)
 * [SVG库](docs/doc2.md#SVG库)
 * [验证码](docs/doc2.md#验证码)
 * [压缩库](docs/doc2.md#压缩库)
@@ -571,6 +570,8 @@
 * [Gradle插件](docs/doc3.md#Gradle插件)
 * [Intellij插件](docs/doc3.md#Intellij插件)
 * [Spring生态](docs/doc3.md#Spring生态)
+* [Mybatis生态](docs/doc3.md#Mybatis生态)
+* [JPA生态](docs/doc3.md#JPA生态)
 * [其他](docs/doc3.md#其他)
 * [教程系列](docs/doc3.md#教程系列)
   * [Java教程](docs/doc3.md#Java教程)
@@ -917,46 +918,6 @@
 * [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery是一个功能强大且易于使用的对象SQL映射框架。
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
-
-#### Mybatis生态
-
-* [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
-* [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
-* [Fluent Mybatis](https://github.com/atool/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
-* [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
-* [Xbatis](https://gitee.com/xbatis/xbatis)：Xbatis是一款基于Mybatis的ORM框架。
-* [Mybatis PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)：Mybatis通用分页插件。
-* [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
-* [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
-* [MyBatis Mapper](https://github.com/mybatis-mapper/mapper)：这是一个不需要任何配置就可以直接使用的通用Mapper。
-* [FastMybatis](https://gitee.com/durcframework/fastmybatis)：FastMybatis是一个Mybatis开发框架，其宗旨为简单、快速、有效。
-* [MyBatis-Plus-Join](https://gitee.com/best_handsome/mybatis-plus-join)：对MyBatis-Plus多表查询的扩展。
-* [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
-* [MybatisPlus Generator](https://github.com/baomidou/generator)：用于MybatisPlus的代码生成器。
-* [Mybatis Mate](https://gitee.com/baomidou/mybatis-mate-examples)：Mybatis-Mate为MP企业级模块，支持分库分表，数据审计、数据敏感词过滤(AC算法)，字段加密，字典回写(数据绑定)，数据权限，表结构自动生成SQL维护，支持国密SM2、SM3、SM4加密算法等。
-* [SQL Analysis](https://github.com/jd-opensource/sql-analysis)：SQL Analysis是基于Mybatis插件设计的一款慢SQL分析组件，由京东开源。
-* [MyBatis Generator UI](https://github.com/zouzg/mybatis-generator-gui)：MyBatis Generator UI是基于MyBatis Generator开发一款界面工具。
-* [MyBatis Generator Plugin](https://github.com/itfsw/mybatis-generator-plugin)：Mybatis Generator代码生成插件拓展。
-* [MyBatis Plus Generator UI](https://github.com/davidfantasy/mybatis-plus-generator-ui)：提供交互式的Web UI用于生成兼容Mybatis Plus框架的相关功能代码。
-* [MybatisPlus Code Generator](https://github.com/fengwenyi/mybatis-plus-code-generator)：MyBatisPlus代码生成器。
-
-#### JPA生态
-
-* [JPA Spec](https://github.com/wenhao/jpa-spec)：JPA按Specification查询框架。
-* [RSQL JPA](https://github.com/tennaito/rsql-jpa)：该库提供了RSQL表达式到JPA Criteria Query(JPQL的对象表示)的转换器。
-* [RSQL JPA Specification](https://github.com/perplexhub/rsql-jpa-specification)：将RSQL查询转换为org.springframework.data.jpa.domain.Specification或com.querydsl.core.types.Predicate并支持实体关联查询。
-* [FluentJPA](https://github.com/streamx-co/FluentJPA)：FluentJPA是一种用于关系型数据库和JPA的语言集成查询(LINQ) 技术，它允许你通过直接集成到Java语言中来编写强类型查询。
-* [Blaze Persistence](https://github.com/Blazebit/blaze-persistence)：Blaze Persistence是面向JPA提供程序的丰富Criteria API。
-* [JPAStreamer](https://github.com/speedment/jpa-streamer)：JPAStreamer是一个轻量级库，用于将JPA查询表达为Java Stream。
-* [ActiveJPA](https://github.com/ActiveJpa/activejpa)：ActiveJPA是一个试图在JPA之上实现ActiveRecord模式的Java库。
-* [QueryStream](https://github.com/querystream/querystream)：QueryStream允许你使用类似Stream的API执行JPA查询。
-* [Spring Filter](https://github.com/turkraft/springfilter)：使用用户友好的查询语法动态过滤JPA实体和Mongo集合。
-* [Fenix](https://github.com/blinkfox/fenix)：Fenix是一个为了解决复杂动态SQL(JPQL)而生的Spring Data JPA扩展库。
-* [Spring Data JPA EntityGraph](https://github.com/Cosium/spring-data-jpa-entity-graph)：Spring Data JPA扩展允许在Repository上完全动态使用EntityGraph。
-* [Spring Data JPA DataTables](https://github.com/darrachequesne/spring-data-jpa-datatables)：该项目是Spring Data JPA项目的扩展，以便于与启用了服务器端处理的jQuery插件DataTables一起使用。
-* [Spring Search](https://github.com/sipios/spring-search)：Spring Search提供了一种简单的查询语言来对JPA实体执行高级搜索。
-* [Specification Arg Resolver](https://github.com/tkaczmarzyk/specification-arg-resolver)：用于使用Spring MVC和Spring Data JPA过滤数据的替代API。
-* [Spring Data JPA MongoDB Expressions](https://github.com/mhewedy/spring-data-jpa-mongodb-expressions)：Spring Data JPA MongoDB Expressions是一个允许你使用MongoDB查询语言查询Spring Data JPA Repository的库。
 
 #### 事务
 
