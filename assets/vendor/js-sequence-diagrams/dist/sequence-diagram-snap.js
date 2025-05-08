@@ -1302,7 +1302,7 @@ if (typeof Snap != 'undefined') {
         _.defaults(options, {
             'css-class': 'simple',
             'font-size': 16,
-            'font-family': 'Jetbrains Mono, Andale Mono, monospace'
+            'font-family': 'Andale Mono, monospace'
           });
 
         this.init(diagram, options, resume);
