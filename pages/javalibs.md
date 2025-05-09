@@ -320,7 +320,8 @@ permalink: /javalibs
   * [比特币](#比特币)
   * [区块链SDK](#区块链SDK)
   * [智能合约](#智能合约)
-* [物联网框架/工具](#物联网框架工具)
+* [物联网](#物联网)
+  * [物联网框架/工具](#物联网框架工具)
   * [车联网](#车联网)
   * [嵌入式](#嵌入式)
   * [MQTT](#MQTT)
@@ -1890,6 +1891,7 @@ permalink: /javalibs
 * [AIDE](https://www.android-ide.com/)：AIDE是一个Android/Java IDE，可以在Android手机上进行Android软件和游戏的开发，由Appfour提供。
 * [TIDE](https://sourceforge.net/projects/tide)：TIDE是一个小巧但功能强大且齐全的开源Java IDE。
 * [FDT](https://fdt.powerflasher.com/)：FDT是一个基于Eclipse的IDE，适用于交互式开发人员、自由职业者和机构，由Powerflasher开发。
+* [FeatureIDE](https://github.com/FeatureIDE/FeatureIDE)：FeatureIDE是一个基于Eclipse的IDE，支持面向特性的软件开发的所有阶段，主要由德国马格德堡大学、帕绍大学开发。
 * [Flash Builder](https://en.wikipedia.org/wiki/Adobe_Flash_Builder)：Adobe Flash Builder是基于Eclipse平台构建的IDE，可加速富互联网应用程序和跨平台桌面应用程序的开发。
 * [RStudio](https://github.com/rstudio/rstudio)：RStudio是R编程语言的集成开发环境，由Posit软件公司开源。
 * [Aptana Studio 3](https://github.com/aptana/studio3)：Aptana Studio 3是一个Web开发IDE，由Axway开源。
@@ -4529,7 +4531,7 @@ permalink: /javalibs
 * [MOEA](https://github.com/MOEAFramework/MOEAFramework)：MOEA框架是一个免费开源Java库，用于开发和试验多目标进化算法(MOEA)和其他通用多目标优化算法。
 * [Watchmaker](https://github.com/dwdyer/watchmaker)：Watchmaker框架是一个可扩展、高性能、面向对象的框架，用于在Java中实现独立于平台的进化/遗传算法。
 * [ECJ 23](https://github.com/GMUEClab/ecj)：ECJ是一个用Java编写的进化计算框架，提供了许多流行的EC算法和EC算法约定的工具，由乔治梅森大学开源。
-* [Evolving-Protozoa](https://github.com/DylanCope/Evolving-Protozoa)：该项目的目的是创造一个环境，让原生动物类实体能够进化其行为和形态，以便生存和繁殖。
+* [Evolving Protozoa](https://github.com/DylanCope/Evolving-Protozoa)：该项目的目的是创造一个环境，让原生动物类实体能够进化其行为和形态，以便生存和繁殖。
 * [JGAP](https://sourceforge.net/projects/jgap/)：JGAP是用Java编写的遗传算法和遗传编程包，由惠灵顿维多利亚大学开源。
 * [Opt4J](https://github.com/SDARG/opt4j)：Opt4J是一个基于Java的开源进化计算框架，它包含进化算法(包括SPEA2和NSGA2)、差分进化、粒子群优化、模拟退火等一组(多目标)优化算法。
 * [Eva](https://github.com/decorators-squad/eva)：Eva是进化算法的Java OOP实现，这是来自人工智能领域的概念。
@@ -4608,7 +4610,7 @@ permalink: /javalibs
 ## SMT求解器
 
 * [Alloy](https://github.com/AlloyTools/org.alloytools.alloy)：Alloy是一个独立的可执行文件，其中包括Kodkod模型查找器和各种SAT求解器，由MIT开源。
-* [Sat4j](https://gitlab.ow2.org/sat4j/sat4j)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集问题，由阿图瓦大学开源。
+* [Sat4j](https://gitlab.ow2.org/sat4j/sat4j)：Sat4j是一个用于解决布尔满足和优化问题的Java库，它可以解决SAT、MAXSAT、伪布尔、最小不可满足子集问题，由阿尔多瓦大学和法国国家科学研究院开发。
 * [DuaLip](https://github.com/linkedin/DuaLip)：DuaLip是一种基于Spark的超大规模线性规划(LP)求解器，由LinkedIn开发。
 * [EUROPA](https://github.com/nasa/europa)：EUROPA是一个用于建模和解决规划、调度和约束规划问题的框架，NASA艾姆斯研究中心开源。
 * [CVC5](https://github.com/cvc5/cvc5)：CVC5是一种用于确定一阶公式对一阶理论(或此类理论的组合)的可满足性的工具，由伯克利大学和三星研究院开发。
@@ -5086,7 +5088,6 @@ permalink: /javalibs
 * [JAAS](https://docs.oracle.com/en/java/javase/11/security/java-authentication-and-authorization-service-jaas-reference-guide.html)：JAAS实现了标准可插拔身份验证模块(PAM)框架的Java版本，由Oracle开发。
 * [Spring Security](https://github.com/spring-projects/spring-security)：Spring Security是一个功能强大且高度可定制的身份验证和访问控制框架，由VMware开源。
 * [Jakarta Security](https://github.com/jakartaee/security)：Jakarta Security提供了一组必需的安全功能，包括身份验证、授权、数据完整性和传输安全。
-* [Micronaut Security](https://github.com/micronaut-projects/micronaut-security)：Micronaut Security是一款功能齐全且可定制的安全解决方案。
 * [Apache Shiro](https://github.com/apache/shiro)：Shiro是一个功能强大且易于使用的Java安全框架，可以执行身份验证、授权、加密和会话管理。
 * [Apereo CAS](https://github.com/apereo/cas)：CAS是一个企业多语言单点登录解决方案和网络身份提供商，并试图成为满足你的身份验证和授权需求的综合平台，由耶鲁大学开源。
 * [AndOTP](https://github.com/andOTP/andOTP)：AndOTP是适用于Android的开源双因素身份验证。
@@ -5346,19 +5347,17 @@ permalink: /javalibs
 * [DIZK](https://github.com/scipr-lab/dizk)：DIZK是一个用于分布式零知识证明系统的Java库，由SCIPR实验室开源。
 * [BulletProofLib](https://github.com/bbuenz/BulletProofLib)：无需可信设置即可生成非交互式零知识证明的库，由斯坦福大学开源。
 
-## 模板引擎
-
 * [Thymeleaf](https://github.com/thymeleaf/thymeleaf)：Thymeleaf是一个现代服务器端Java模板引擎，适用于Web和独立环境。
 * [JSP](https://www.oracle.com/java/technologies/jspt.html)：Java应用程序最流行的视图技术之一，也是内置的模板引擎。
 * [Apache FreeMarker](https://github.com/apache/freemarker)：FreeMarker是一个基于模板生成文本输出(从HTML到自动生成源代码的任何内容)的通用工具。
 * [Pebble](https://github.com/PebbleTemplates/pebble)：Pebble是一个受Twig启发的Java模板引擎，带有内置的自动转义功能以确保安全，并且包括对国际化的集成支持。
 * [Groovy](http://groovy-lang.org/templating.html#_the_markuptemplateengine)：Groovy提供Markup模板引擎，该引擎基于构建器语法，可用于生成任何文本格式。
 * [Apache Velocity](https://github.com/apache/velocity-engine)：Velocity是一个用Java编写的通用模板引擎。
-* [Mustache](https://github.com/spullara/mustache.java)：支持许多其他编程语言的模板引擎。
-* [Apache Tiles](https://github.com/apache/tiles)：适用于现代Java应用程序的免费开源模板框架。
+* [Mustache](https://github.com/spullara/mustache.java)：Mustache模板引擎Java实现。
+* [Apache Tiles](https://github.com/apache/tiles)：Apache Tiles是一个Java EE应用的页面布局框架。
 * [EscapeVelocity](https://github.com/google/escapevelocity)：EscapeVelocity是一个可以在Java中使用的模板引擎，它是Velocity功能子集的重新实现，由Google开源。
-* [Jade4j](https://github.com/neuland/jade4j)：用Java编写的jade实现，现在改成pug4j。
-* [Handlebars.java](https://github.com/jknack/handlebars.java)：使用Java的无逻辑和语义Mustache模板。
+* [Jade4j](https://github.com/neuland/jade4j)：Jade4j的目的是能够在Java中处理jade模板，而不需要JavaScript环境，同时完全兼容原始jade语法。
+* [Handlebars.java](https://github.com/jknack/handlebars.java)：Handlebars.java是Handlebars的Java端口。
 * [Beetl](https://github.com/javamonkey/beetl2.0)：Beetl是新一代的模板引擎，更简单易用。
 * [Twirl](https://github.com/playframework/twirl)：Twirl是Play的默认模板引擎。
 * [Rocker](https://github.com/fizzed/rocker)：Rocker是一个Java 8+优化、近乎零拷贝渲染的快速模板引擎，可生成静态类型、纯Java对象模板，并与项目的其余部分一起编译。
@@ -5369,13 +5368,13 @@ permalink: /javalibs
 * [Chunk](https://github.com/tomj74/chunk-templates)：Chunk是一个Java模板引擎，适用于服务HTML或XML的应用程序。
 * [Trimou](https://github.com/trimou/trimou)：Java中的Mustache/Handlebars模板引擎。
 * [Rythm](https://github.com/rythmengine/rythmengine)：类似Razor、功能丰富、高性能且易于使用的Java模板引擎。
-* [Liqp](https://github.com/bkiers/Liqp)：基于ANTLR的“Liquid模板”解析器和渲染引擎。
+* [Liqp](https://github.com/bkiers/Liqp)：Liquid模板引擎的Java实现，由ANTLR语法支持。
 * [StringTemplate](https://github.com/antlr/stringtemplate4)：StringTemplate是一个Java模板引擎，用于生成源代码、网页、电子邮件或任何其他格式化文本输出。
 * [JTE](https://github.com/casid/jte)：JTE是一个适用于Java和Kotlin的安全且快速的模板。
 * [Jamal](https://github.com/verhas/jamal)：嵌入到Maven/JavaDoc中的可扩展模板引擎，支持多种扩展(Groovy、Ruby、JavaScript、JShell、PlantUml)，并支持片段处理。
-* [JStachio](https://github.com/jstachio/jstachio)：类型安全的Java Mustache模板引擎。
+* [JStachio](https://github.com/jstachio/jstachio)：JStachio是一种类型安全的Java Mustache模板引擎。
 * [Jtwig](https://github.com/jtwig/jtwig)：模块化、可配置且经过全面测试的模板引擎。
-* [JMustache](https://github.com/samskivert/jmustache)：这是Mustache模板语言的Java实现。
+* [JMustache](https://github.com/samskivert/jmustache)：JMustache是Mustache模板语言的Java实现。
 * [Enjoy](https://gitee.com/jfinal/enjoy)：Enjoy是基于Java语言的极轻量极模板引擎。
 * [Pug4j](https://github.com/neuland/pug4j)：Pug4j的目的是能够在不需要JavaScript环境的情况下处理Java中的pug模板，同时与原始pug语法完全兼容。
 * [JMTE](https://code.google.com/archive/p/jmte/)：JMTE旨在填补使用String.format等基本Java类的简单字符串格式化与Velocity或StringTemplate等复杂模板解决方案之间的空白。
@@ -8685,6 +8684,7 @@ permalink: /javalibs
 ## 算法库
 
 * [WikiSort](https://github.com/BonzaiThePenguin/WikiSort)：WikiSort是块合并排序的一种实现。
+* [Trilateration](https://github.com/lemmingapex/trilateration)：使用非线性最小二乘优化器解决N维空间三边测量问题的公式。
 * [Hashids.java](https://github.com/yomorun/hashids-java)：Hashids算法Java实现。
 * [AhoCorasickDoubleArrayTrie](https://github.com/hankcs/AhoCorasickDoubleArrayTrie)：基于双数组Trie结构的Aho Corasick算法的极快实现。
 * [JSI](https://github.com/aled/jsi)：JSI项目旨在维护高性能Java版本的RTree空间索引算法。
@@ -9912,15 +9912,19 @@ permalink: /javalibs
 ## 词法解析
 
 * [ANTLR](https://github.com/antlr/antlr4)：ANTLR是一个强大的解析器生成器，用于读取、处理、执行或翻译结构化文本或二进制文件。
+* [SableCC](https://github.com/SableCC/sablecc)：SableCC是一个解析器生成器，它能够生成功能齐全的面向对象框架，用于构建编译器、解释器和其他文本解析器，由麦吉尔大学开发。
 * [JavaParser](https://github.com/javaparser/javaparser)：该项目包含一组实现具有高级分析功能的Java 1.0 - Java 17解析器的库。
 * [Flexmark Java](https://github.com/vsch/flexmark-java)：Flexmark Java是CommonMark(规范0.28)解析器的Java实现，使用块优先、内联后Markdown解析架构。
 * [Kotlinx.AST](https://github.com/kotlinx/ast)：Kotlinx.AST是一个通用的AST解析库，Kotlin是目前唯一支持的语言。
 * [PartiQL Lang Kotlin](https://github.com/partiql/partiql-lang-kotlin)：PartiQL是一种富有表现力的、与SQL兼容的查询语言，可以访问关系型、半结构化和嵌套数据，由Amazon开源。
 * [Gumtree Spoon AST Diff](https://github.com/SpoonLabs/gumtree-spoon-ast-diff)：使用Gumtree算法计算两个Spoon抽象语法树之间的AST差异。
-* [JavaCC](https://github.com/javacc/javacc)：JavaCC是用于Java应用程序的最流行的解析器生成器。
+* [JavaCC](https://github.com/javacc/javacc)：JavaCC是用于Java应用程序的最流行的解析器生成器，最初由Sun开发。
 * [JFlex](https://github.com/jflex-de/jflex)：JFlex是Java的词法分析器生成器(也称为扫描器生成器)。
+* [JCPP](https://github.com/shevek/jcpp)：JCPP是C预处理器的完整、兼容、独立、纯Java实现。
+* [JLex](https://www.cs.princeton.edu/~appel/modern/java/JLex/)：JLex是一个用Java编写的词法分析器生成器，由普林斯顿大学开发。
 * [RSQL Parser](https://github.com/jirutka/rsql-parser)：RSQL是一种用于对RESTful API中的条目进行参数化过滤的查询语言。
 * [Parboiled](https://github.com/sirthias/parboiled)：Parboiled是一个混合Java/Scala库，提供基于解析表达式语法(PEG)的轻量级且易于使用但功能强大且优雅的任意输入文本解析。
+* [CUP](http://www2.cs.tum.edu/projects/cup/)：CUP是Java的一个LALR解析器生成器，慕尼黑工业大学开发。
 * [Parrot](https://github.com/daniellansun/groovy-parser)：Parrot可以解析Groovy源代码并构造相关的AST，与旧解析器生成的AST几乎相同。
 * [Canopy](https://github.com/jcoglan/canopy)：Canopy是一个针对Java、JavaScript、Python和Ruby的解析器编译器。
 
