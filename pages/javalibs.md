@@ -159,10 +159,13 @@ permalink: /javalibs
 * [日志库](#日志库)
 * [Logback Appender](#Logback-Appender)
 * [结构化日志](#结构化日志)
-* [JSON库](#JSON库)
-* [JSON Schema](#JSON-Schema)
-* [JsonPath](#JsonPath)
 * [序列化](#序列化)
+  * [JSON库](#JSON库)
+  * [JSON Schema](#JSON-Schema)
+  * [JsonPath](#JsonPath)
+  * [XML库](#XML库)
+  * [YML库](#YML库)
+  * [CBOR](#CBOR)
 * [缓存库](#缓存库)
 * [并发编程](#并发编程)
   * [Future扩展](#Future扩展)
@@ -269,8 +272,6 @@ permalink: /javalibs
   * [PPT库](#PPT库)
   * [Toml库](#Toml库)
   * [HTML库](#HTML库)
-  * [XML库](#XML库)
-  * [YML库](#YML库)
   * [Outlook库](#Outlook库)
   * [License库](#License库)
   * [Markdown库](#Markdown库)
@@ -473,10 +474,15 @@ permalink: /javalibs
   * [网络工具](#网络工具)
   * [端口转发](#端口转发)
   * [SDN](#SDN)
+  * [SMB](#SMB)
+  * [QUIC](#QUIC)
+  * [SOCKS](#SOCKS)
+  * [以太网](#以太网)
   * [IP操作库](#IP操作库)
 * [状态机](#状态机)
 * [二维码生成器](#二维码生成器)
 * [文件系统](#文件系统)
+* [IPFS](#IPFS)
 * [报表引擎](#报表引擎)
 * [物流系统](#物流系统)
 * [打包部署运行](#打包部署运行)
@@ -490,7 +496,6 @@ permalink: /javalibs
 * [无人机](#无人机)
 * [AIS库](#AIS库)
 * [跨语言](#跨语言)
-* [序列化](#序列化)
 * [转换库](#转换库)
 * [IO操作](#IO操作)
 * [文件操作](#文件操作)
@@ -513,6 +518,13 @@ permalink: /javalibs
 * [海关](#海关)
 * [蓝牙](#蓝牙)
 * [校验](#校验)
+* [IPP](#IPP)
+* [OSC](#OSC)
+* [FinTS](#FinTS)
+* [CalDAV](#CalDAV)
+* [WebDav](#WebDav)
+* [AirPlay](#AirPlay)
+* [充电桩](#充电桩)
 * [元编程](#元编程)
 * [分词器](#分词器)
 * [文本表](#文本表)
@@ -696,6 +708,7 @@ permalink: /javalibs
 * [Tars Java](https://github.com/TarsCloud/TarsJava)：Tars Java是腾讯Tars RPC框架的Java语言实现。
 * [Apache Thrift](https://github.com/apache/thrift)：Thrift是一个轻量级、独立于语言的软件堆栈，用于点对点RPC实现，由Facebook开源。
 * [OCTO-RPC](https://github.com/Meituan-Dianping/octo-rpc)：OCTO-RPC是支持Java和C++的企业级通信框架，在RPC服务之上扩展了丰富的服务治理功能，由美团开源。
+* [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
 * [Pinpoint](https://github.com/pinpoint-apm/pinpoint/tree/master/rpc)：Naver开源的RPC框架，服务于Pinpoint。
 * [TChannel](https://github.com/uber/tchannel)：TChannel是一种用于一般RPC的网络框架协议，支持无序响应，性能极高，中间人可以快速做出转发决策，由Uber开源。
 * [Protobuf RPC](https://github.com/baidu/Jprotobuf-rpc-socket)：Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现，由百度开源。
@@ -3709,7 +3722,41 @@ permalink: /javalibs
 * [CloudFoundry Java Logging](https://github.com/SAP/cf-java-logging-support)：CloudFoundry的Java日志记录支持，可以创建结构化日志消息和收集请求指标，由SAP开源。
 * [Echopraxia](https://github.com/tersesystems/echopraxia)：Echopraxia是一个围绕结构化日志记录设计的Java API。
 
-## JSON库
+## 序列化
+
+* [Hessian](http://hessian.caucho.com/)：Hessian是一种基于二进制的轻量级网络传输协议，用于在不同的应用程序之间进行远程过程调用，由Caucho开源。
+* [FlatBuffers](https://github.com/google/flatbuffers)：FlatBuffers是一个跨平台序列化库，旨在实现最大内存效率，由Google开源。
+* [Ysoserial](https://github.com/frohoff/ysoserial)：Ysoserial是一种概念验证工具，用于生成利用不安全的Java对象反序列化的有效负载。
+* [Apache Avro](https://github.com/apache/avro)：Avro是一个数据序列化系统。
+* [Protostuff](https://github.com/protostuff/protostuff)：Protostuff是一个Java序列化库，内置对向前向后兼容性(模式演化)和验证的支持。
+* [Apache Fury](https://github.com/apache/incubator-fury)：Fury是一种速度极快的多语言序列化框架，由JIT和零拷贝提供支持，可提供高达170倍的性能和终极易用性，阿里开源。
+* [FST](https://github.com/RuedigerMoeller/fast-serialization)：完全兼容JDK序列化协议的Java序列化框架，在序列化速度上能达到JDK的10倍。
+* [MessagePack](https://github.com/msgpack/msgpack-java)：Java的MessagePack序列化器实现。
+* [Serial](https://github.com/twitter/Serial)：Serial是一种自定义序列化实现，旨在提高性能并增加开发人员对对象序列化的可见性和控制，由Twitter开源。
+* [Swift](https://github.com/facebookarchive/swift)：Swift是一个易于使用、基于注解的Java库，用于创建Thrift可序列化类型和服务，由Facebook开源。
+* [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
+* [SOFA Hessian](https://github.com/sofastack/sofa-hessian)：SOFA Hessian基于原生Hessian v4.0.51进行改进，目前已在蚂蚁金服内部稳定运行多年。
+* [Colfer](https://github.com/pascaldekloe/colfer)：Colfer是一种针对速度和大小进行优化的二进制序列化格式。
+* [CapnProto](https://github.com/capnproto/capnproto-java)：Cap'n Proto是一种极其高效的数据和功能共享协议。
+* [Chronicle Wire](https://github.com/OpenHFT/Chronicle-Wire)：支持多种格式的低垃圾Java序列化库。
+* [Bond](https://github.com/microsoft/bond)：Bond是一个用于处理模式化数据的跨平台框架，支持跨语言反/序列化和强大的通用机制，可有效地操作数据，Microsoft开源。
+* [Zeno](https://github.com/Netflix/zeno)：Zeno是Netflix的内存数据传输框架。
+* [Kryo](https://github.com/EsotericSoftware/kryo)：Kryo是一个快速高效的Java二进制对象图序列化框架。
+* [CoralProto](https://github.com/coralblocks/CoralProto)：一种快速、二进制、无垃圾的序列化框架，具有简单、紧凑和简洁的非XML模式定义语言，支持可选字段、重复组、嵌套重复组、枚举、模式演变等。
+* [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由Google开源。
+* [uPickle](https://github.com/com-lihaoyi/upickle)：uPickle是一个简单、快速、无依赖的Scala JSON和二进制(MessagePack)序列化库。
+* [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
+* [Eclipse Serializer](https://github.com/eclipse-serializer/serializer)：Serializer项目可以对任何Java对象进行(反)序列化，而无需生成代码的注解、超类或接口或数据模式。
+* [VelocyPack Java](https://github.com/arangodb/java-velocypack)：VelocyPack(用于序列化和存储的快速而紧凑的格式)的Java实现。
+* [Kryo Serializers](https://github.com/magro/kryo-serializers)：一个为某些JDK类型和一些外部库(例如JodaTime)提供Kryo(v2、v3、v4)序列化器的项目。
+* [Fast Binary Encoding](https://github.com/chronoxor/FastBinaryEncoding)：Fast Binary Encoding是适用于C++、C#、Go、Java、JavaScript、Kotlin、Python、Ruby、Swift的超快速通用序列化解决方案。
+* [Fressian](https://github.com/Datomic/fressian)：Fressian是一种可扩展的二进制数据表示法。
+* [Zserio](https://github.com/ndsev/zserio)：Zserio是一个以紧凑、高效、低开销的方式序列化结构化数据的框架。
+* [Chill](https://github.com/twitter/chill)：Kryo序列化库的扩展，包括序列化器和一组类，以简化Hadoop、Storm、Akka等系统中Kryo的配置，由Twitter开源。
+* [ProtoStream](https://github.com/infinispan/protostream)：ProtoStream是一个基于Protobuf数据格式的序列化库。
+* [Opack](https://github.com/realtimetech-solution/opack)：Opack是一个Java库，可以实现Java对象与普通对象之间的序列化/反序列化，由韩国公司Realtime开源。
+
+#### JSON库
 
 * [Jackson](https://github.com/FasterXML/jackson)：Jackson是Java中使用最广泛的JSON库。
 * [Gson](https://github.com/google/gson)：Gson是一个Java库，可用于将Java对象转换为其JSON表示形式，由Google开源。
@@ -3751,7 +3798,6 @@ permalink: /javalibs
 * [Boon](https://github.com/boonproject/boon)：Boon是一个简单的基于Java的JSON工具包，你可以使用Boon以高效且快速的方式对JSON数据进行编码或解码。
 * [Hjson Java](https://github.com/hjson/hjson-java)：Hjson格式的Java实现。
 * [Avaje JsonB](https://github.com/avaje/avaje-jsonb)：通过APT源代码生成进行快速、无反射的JSON绑定的Java库。
-* [JSON-RPC](https://github.com/briandilley/jsonrpc4j)：该项目旨在为Java编程语言提供轻松实现JSON-RPC的工具。
 * [NanoJson](https://github.com/mmastrac/nanojson)：NanoJson是一个小型、兼容的Java JSON解析器和写入器。
 * [JSON Flattener](https://github.com/wnameless/json-flattener)：JSON Flattener可以扁平化嵌套的JSON对象，反之亦然。
 * [JSLT](https://github.com/schibsted/jslt)：JSLT是一种完整的JSON查询和转换语言。
@@ -3776,7 +3822,7 @@ permalink: /javalibs
 * [JsonDiff](https://gitee.com/codeleep/json-diff)：一款高性能且功能强大的JSON差异发现工具。
 * [Squiggly](https://github.com/bohnman/squiggly)：Squiggly是一个Jackson JSON PropertyFilter，它使用Facebook Graph API过滤语法的子集选择对象/列表/映射的属性。
 
-## JSON Schema
+#### JSON Schema
 
 * [Jsonschema2Pojo](https://github.com/joelittlejohn/jsonschema2pojo)：Jsonschema2Pojo从JSON或JSON Schema生成Java类型，并标注这些类型以与Jackson、Gson等进行数据绑定。
 * [JSON Schema Validator](https://github.com/everit-org/json-schema)：用于Java的JSON模式验证器，基于org.json API。
@@ -3794,7 +3840,7 @@ permalink: /javalibs
 * [JSONx Java](https://github.com/jsonx-org/java)：JSONx Java为JSON模式定义语言处理器、验证器和运行时API提供参考实现。
 * [JSON Schema](https://github.com/harrel56/json-schema)：实现JSON模式规范的Java库。
 
-## JsonPath
+#### JsonPath
 
 * [JsonPath](https://github.com/json-path/JsonPath)：JsonPath的实现版本，用于读取JSON文档的Java DSL。
 * [Snack3](https://gitee.com/noear/snack3)：Snack3是一个高性能的JsonPath框架，支持序列化反序列化、解析和转换、构建、查找、JsonPath查询。
@@ -3802,39 +3848,65 @@ permalink: /javalibs
 * [JMESPath Java](https://github.com/burtcorp/jmespath-java)：这是JMESPath的Java实现。
 * [Vert.x JsonPath](https://github.com/NoEnv/vertx-jsonpath)：Vert.x JsonPath是使用Vert.x的JsonObject和JsonArray对JsonPath的一个非常基本的实现。
 
-## 序列化
+#### XML库
 
-* [Hessian](http://hessian.caucho.com/)：Hessian是一种基于二进制的轻量级网络传输协议，用于在不同的应用程序之间进行远程过程调用，由Caucho开源。
-* [FlatBuffers](https://github.com/google/flatbuffers)：FlatBuffers是一个跨平台序列化库，旨在实现最大内存效率，由Google开源。
-* [Ysoserial](https://github.com/frohoff/ysoserial)：Ysoserial是一种概念验证工具，用于生成利用不安全的Java对象反序列化的有效负载。
-* [Apache Avro](https://github.com/apache/avro)：Avro是一个数据序列化系统。
-* [Protostuff](https://github.com/protostuff/protostuff)：Protostuff是一个Java序列化库，内置对向前向后兼容性(模式演化)和验证的支持。
-* [Apache Fury](https://github.com/apache/incubator-fury)：Fury是一种速度极快的多语言序列化框架，由JIT和零拷贝提供支持，可提供高达170倍的性能和终极易用性，阿里开源。
-* [FST](https://github.com/RuedigerMoeller/fast-serialization)：完全兼容JDK序列化协议的Java序列化框架，在序列化速度上能达到JDK的10倍。
-* [MessagePack](https://github.com/msgpack/msgpack-java)：Java的MessagePack序列化器实现。
-* [Serial](https://github.com/twitter/Serial)：Serial是一种自定义序列化实现，旨在提高性能并增加开发人员对对象序列化的可见性和控制，由Twitter开源。
-* [Swift](https://github.com/facebookarchive/swift)：Swift是一个易于使用、基于注解的Java库，用于创建Thrift可序列化类型和服务，由Facebook开源。
-* [Ion Java](https://github.com/amazon-ion/ion-java)：Ion数据表示法的Java实现，由Amazon开源。
-* [SOFA Hessian](https://github.com/sofastack/sofa-hessian)：SOFA Hessian基于原生Hessian v4.0.51进行改进，目前已在蚂蚁金服内部稳定运行多年。
-* [Colfer](https://github.com/pascaldekloe/colfer)：Colfer是一种针对速度和大小进行优化的二进制序列化格式。
-* [CapnProto](https://github.com/capnproto/capnproto-java)：Cap'n Proto是一种极其高效的数据和功能共享协议。
-* [Chronicle Wire](https://github.com/OpenHFT/Chronicle-Wire)：支持多种格式的低垃圾Java序列化库。
-* [Bond](https://github.com/microsoft/bond)：Bond是一个用于处理模式化数据的跨平台框架，支持跨语言反/序列化和强大的通用机制，可有效地操作数据，Microsoft开源。
-* [Zeno](https://github.com/Netflix/zeno)：Zeno是Netflix的内存数据传输框架。
-* [Kryo](https://github.com/EsotericSoftware/kryo)：Kryo是一个快速高效的Java二进制对象图序列化框架。
-* [CoralProto](https://github.com/coralblocks/CoralProto)：一种快速、二进制、无垃圾的序列化框架，具有简单、紧凑和简洁的非XML模式定义语言，支持可选字段、重复组、嵌套重复组、枚举、模式演变等。
-* [OpenRTB](https://github.com/google/openrtb)：该库支持OpenRTB规范，为所有protobuf支持的语言提供绑定，并为Java提供额外支持，例如JSON序列化和验证，由Google开源。
-* [uPickle](https://github.com/com-lihaoyi/upickle)：uPickle是一个简单、快速、无依赖的Scala JSON和二进制(MessagePack)序列化库。
-* [Reservoir](https://github.com/anupcowkur/Reservoir)：Reservoir是一个简单的Android库，允许你使用键/值对轻松序列化对象并将其缓存到磁盘。
-* [Eclipse Serializer](https://github.com/eclipse-serializer/serializer)：Serializer项目可以对任何Java对象进行(反)序列化，而无需生成代码的注解、超类或接口或数据模式。
-* [VelocyPack Java](https://github.com/arangodb/java-velocypack)：VelocyPack(用于序列化和存储的快速而紧凑的格式)的Java实现。
-* [Kryo Serializers](https://github.com/magro/kryo-serializers)：一个为某些JDK类型和一些外部库(例如JodaTime)提供Kryo(v2、v3、v4)序列化器的项目。
-* [Fast Binary Encoding](https://github.com/chronoxor/FastBinaryEncoding)：Fast Binary Encoding是适用于C++、C#、Go、Java、JavaScript、Kotlin、Python、Ruby、Swift的超快速通用序列化解决方案。
-* [Fressian](https://github.com/Datomic/fressian)：Fressian是一种可扩展的二进制数据表示法。
-* [Zserio](https://github.com/ndsev/zserio)：Zserio是一个以紧凑、高效、低开销的方式序列化结构化数据的框架。
-* [Chill](https://github.com/twitter/chill)：Kryo序列化库的扩展，包括序列化器和一组类，以简化Hadoop、Storm、Akka等系统中Kryo的配置，由Twitter开源。
-* [ProtoStream](https://github.com/infinispan/protostream)：ProtoStream是一个基于Protobuf数据格式的序列化库。
-* [Opack](https://github.com/realtimetech-solution/opack)：Opack是一个Java库，可以实现Java对象与普通对象之间的序列化/反序列化，由韩国公司Realtime开源。
+* [Jakarta XML Binding](https://github.com/jakartaee/jaxb-api)：Jakarta XML Binding提供了API和工具来自动执行XML文档和Java对象之间的映射。
+* [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：一个用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)的纯Java库。
+* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用Office或OpenOffice、LibreOffice创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
+* [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
+* [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
+* [BaseX](https://github.com/BaseXdb/basex)：一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
+* [Apache Commons JXPath](https://github.com/apache/commons-jxpath)：XPath 1.0的基于Java的实现，除了XML处理之外，还可以检查/修改Java对象图，甚至混合Java/XML结构。
+* [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
+* [jOOX](https://github.com/jOOQ/jOOX)：org.w3c.dom包的简单包装器，允许在需要DOM但过于冗长的情况下流式地创建和操作XML文档。
+* [Apache Commons SCXML](https://github.com/apache/commons-scxml)：状态图XML引擎的Java实现。
+* [Apache Commons Digester](https://github.com/apache/commons-digester)：Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
+* [TikXML](https://github.com/Tickaroo/tikxml)：适用于Java和Android的快速XML解析器。
+* [EXIficient](https://github.com/EXIficient/exificient)：EXIficient是EXI格式规范的开源实现，由Siemens开发。
+* [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
+* [JDOM](https://github.com/hunterhacker/jdom)：可以让Java操作XML变得容易。
+* [Aalto-XML](https://github.com/FasterXML/aalto-xml)：超高性能的下一代Stax XML处理器实现，实现了基本的Stax API(javax.xml.stream)和Stax2 API扩展(org.codehaus.woodstox.stax2)。
+* [Xembly](https://github.com/yegor256/xembly)：一种类似于汇编的命令式编程语言，用于XML文档中的数据操作。
+* [GsonXml](https://github.com/stanfy/gson-xml)：一个小型库，允许使用Google Gson库进行XML反序列化。
+* [Woodstox](https://github.com/FasterXML/woodstox)：Stax XML API(javax.xml.stream)实现。
+* [TagChowder](https://github.com/yahoo/tagchowder)：TagChowder是一个用Java编写的符合SAX的解析器，由Yahoo开源。
+* [Apache Santuario](https://github.com/apache/santuario-xml-security-java)：Santuario项目旨在提供XML主要安全标准的实现。
+* [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
+* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：一个用Java生成XML站点地图的库。
+* [Jaxen](https://github.com/jaxen-xpath/jaxen)：用于Java的XPath引擎。
+* [Simple-XMl](http://simple.sourceforge.net)：一个高性能的Java XML序列化和配置框架。
+* [Apache Xalan](https://xalan.apache.org/xalan-j/)：用Java编写的XSLT处理器。
+* [Apache Xerces](http://xerces.apache.org/xerces2-j/)：用Java编写的验证XML解析器。
+* [Apache VXQuery](https://vxquery.apache.org/)：并行XML查询处理器。
+* [XSoup](https://github.com/code4craft/xsoup)：基于JSoup的XPath选择器。
+* [XMLBeam](https://github.com/SvenEwald/xmlbeam)：通过在代码中使用注解或XPath来处理XML。
+* [Jcabi-XML](https://github.com/jcabi/jcabi-xml)：Java XML解析、转换、打印和校验库。
+* [Java-XMLBuilder](https://github.com/jmurty/java-xmlbuilder)：XML Builder是一个实用程序，允许使用相对稀疏的Java代码构建简单的XML文档。
+* [XMLResolver](https://github.com/xmlresolver/xmlresolver)：XMLResolver项目提供了SAX EntityResolver、Transformer URIResolver和新的NamespaceResolver的高级实现。
+* [Xjx](https://github.com/jonas-grgt/xjx)：Java的轻量级XML序列化和反序列化库。
+* [Validator](https://github.com/itplr-kosit/validator)：Validator是一个XML验证引擎，用于验证和处理各种格式的XML文件。
+* [XsdParser](https://github.com/xmlet/XsdParser)：XsdParser是一个将XML定义文件(.xsd)解析为Java对象列表的库。
+* [SimpleXml](https://github.com/codemonstur/simplexml)：独立的Java XML解析器和序列化器。
+* [Xacml4j](https://github.com/policy4j/xacml4j)：Xacml4j是OASIS XACML 3.0标准的参考实现。
+* [Balana](https://github.com/wso2/balana)：Balana是WSO2基于Sun的XACML实现而进行的XACML规范的开源实现。
+
+#### YML库
+
+* [EO-YAML](https://github.com/decorators-squad/eo-yaml)：适用于Java 8及更高版本的YAML库。
+* [SnakeYAML](https://bitbucket.org/asomov/snakeyaml/overview)：YAML解析库。
+* [YamlBeans](https://github.com/EsotericSoftware/yamlbeans)：YamlBeans可以轻松地将Java对象图与YAML进行序列化和反序列化。
+* [BoostedYAML](https://github.com/dejvokep/boosted-yaml)：一个简单易用的独立Java库，在处理YAML文档时提供增强的体验。
+* [Psych](https://github.com/ruby/psych)：Psych是一个YAML解析器和发射器。
+* [JYaml](https://jyaml.sourceforge.net/)：JYaml是一个用于处理Yaml文件格式的Java库。
+* [YamlPath](https://github.com/yaml-path/YamlPath)：用于读取YAML文档并替换值的Java DSL。
+* [YamlConfiguration](https://github.com/bspfsystems/YamlConfiguration)：YamlConfiguration是一个用于创建和编辑Java程序中使用的配置YAML文件的库。
+
+#### CBOR
+
+* [CBOR Java](https://github.com/c-rack/cbor-java)：RFC 7049的Java实现。
+* [CBOR Java](https://github.com/peteroupc/CBOR-Java)：CBOR的Java实现。
+* [Kripton](https://github.com/xcesco/kripton)：Kripton是一个适用于Android平台的Java库，它提供了一种简单统一的方法，通过注解和接口来管理不同Java类的持久性。
+* [CborTree](https://github.com/google/cbortree)：CborTree是一个Java库，用于将CBOR数据项编码/解码为方便的对象表示，Google开发。
 
 ## 缓存库
 
@@ -5286,6 +5358,8 @@ permalink: /javalibs
 * [Password4j](https://github.com/Password4j/password4j)：Password4j是一个Java用户友好的加密库，用于使用不同的密钥派生函数(KDF)和加密哈希函数(CHF)来加密和验证密码。
 * [Lazysodium](https://github.com/terl/lazysodium-java)：Libsodium加密库的Java实现。
 * [XiPKI](https://github.com/xipki/xipki)：XiPKI是一个高度可扩展和高性能的开源PKI(CA和OCSP响应器)。
+* [Jscep](https://github.com/jscep/jscep)：Jscep是SCEP协议的Java实现。
+* [Noise Java](https://github.com/rweather/noise-java)：Noise Java是Noise协议的纯Java实现。
 * [Keyczar](https://github.com/google/keyczar)：易于使用的加密工具包，由Google开源。
 * [AES](https://github.com/mervick/aes-everywhere)：AES是跨语言加密库，它提供了在不同编程语言和不同平台上使用单一算法加密和解密数据的能力。
 * [AWS Encryption SDK](https://github.com/aws/aws-encryption-sdk-java)：AWS加密SDK。
@@ -6064,59 +6138,6 @@ permalink: /javalibs
 * [RenderSnake](https://github.com/emicklei/rendersnake)：RenderSnake是一个Java库，用于创建仅使用Java生成HTML的组件和页面。
 * [Ultralight Java](https://github.com/LabyMod/ultralight-java)：Ultralight Web引擎的Java包装器，Ultralight是一款轻量级、跨平台的HTML渲染引擎，适用于桌面应用和游戏。
 
-#### XML库
-
-* [Jakarta XML Binding](https://github.com/jakartaee/jaxb-api)：Jakarta XML Binding提供了API和工具来自动执行XML文档和Java对象之间的映射。
-* [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：一个用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)的纯Java库。
-* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用Office或OpenOffice、LibreOffice创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
-* [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
-* [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
-* [BaseX](https://github.com/BaseXdb/basex)：一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
-* [Apache Commons JXPath](https://github.com/apache/commons-jxpath)：XPath 1.0的基于Java的实现，除了XML处理之外，还可以检查/修改Java对象图，甚至混合Java/XML结构。
-* [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
-* [jOOX](https://github.com/jOOQ/jOOX)：org.w3c.dom包的简单包装器，允许在需要DOM但过于冗长的情况下流式地创建和操作XML文档。
-* [Apache Commons SCXML](https://github.com/apache/commons-scxml)：状态图XML引擎的Java实现。
-* [Apache Commons Digester](https://github.com/apache/commons-digester)：Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
-* [TikXML](https://github.com/Tickaroo/tikxml)：适用于Java和Android的快速XML解析器。
-* [EXIficient](https://github.com/EXIficient/exificient)：EXIficient是EXI格式规范的开源实现，由Siemens开发。
-* [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
-* [JDOM](https://github.com/hunterhacker/jdom)：可以让Java操作XML变得容易。
-* [Aalto-XML](https://github.com/FasterXML/aalto-xml)：超高性能的下一代Stax XML处理器实现，实现了基本的Stax API(javax.xml.stream)和Stax2 API扩展(org.codehaus.woodstox.stax2)。
-* [Xembly](https://github.com/yegor256/xembly)：一种类似于汇编的命令式编程语言，用于XML文档中的数据操作。
-* [GsonXml](https://github.com/stanfy/gson-xml)：一个小型库，允许使用Google Gson库进行XML反序列化。
-* [Woodstox](https://github.com/FasterXML/woodstox)：Stax XML API(javax.xml.stream)实现。
-* [TagChowder](https://github.com/yahoo/tagchowder)：TagChowder是一个用Java编写的符合SAX的解析器，由Yahoo开源。
-* [Apache Santuario](https://github.com/apache/santuario-xml-security-java)：Santuario项目旨在提供XML主要安全标准的实现。
-* [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
-* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：一个用Java生成XML站点地图的库。
-* [Jaxen](https://github.com/jaxen-xpath/jaxen)：用于Java的XPath引擎。
-* [Simple-XMl](http://simple.sourceforge.net)：一个高性能的Java XML序列化和配置框架。
-* [Apache Xalan](https://xalan.apache.org/xalan-j/)：用Java编写的XSLT处理器。
-* [Apache Xerces](http://xerces.apache.org/xerces2-j/)：用Java编写的验证XML解析器。
-* [Apache VXQuery](https://vxquery.apache.org/)：并行XML查询处理器。
-* [XSoup](https://github.com/code4craft/xsoup)：基于JSoup的XPath选择器。
-* [XMLBeam](https://github.com/SvenEwald/xmlbeam)：通过在代码中使用注解或XPath来处理XML。
-* [Jcabi-XML](https://github.com/jcabi/jcabi-xml)：Java XML解析、转换、打印和校验库。
-* [Java-XMLBuilder](https://github.com/jmurty/java-xmlbuilder)：XML Builder是一个实用程序，允许使用相对稀疏的Java代码构建简单的XML文档。
-* [XMLResolver](https://github.com/xmlresolver/xmlresolver)：XMLResolver项目提供了SAX EntityResolver、Transformer URIResolver和新的NamespaceResolver的高级实现。
-* [Xjx](https://github.com/jonas-grgt/xjx)：Java的轻量级XML序列化和反序列化库。
-* [Validator](https://github.com/itplr-kosit/validator)：Validator是一个XML验证引擎，用于验证和处理各种格式的XML文件。
-* [XsdParser](https://github.com/xmlet/XsdParser)：XsdParser是一个将XML定义文件(.xsd)解析为Java对象列表的库。
-* [SimpleXml](https://github.com/codemonstur/simplexml)：独立的Java XML解析器和序列化器。
-* [Xacml4j](https://github.com/policy4j/xacml4j)：Xacml4j是OASIS XACML 3.0标准的参考实现。
-* [Balana](https://github.com/wso2/balana)：Balana是WSO2基于Sun的XACML实现而进行的XACML规范的开源实现。
-
-#### YML库
-
-* [EO-YAML](https://github.com/decorators-squad/eo-yaml)：适用于Java 8及更高版本的YAML库。
-* [SnakeYAML](https://bitbucket.org/asomov/snakeyaml/overview)：YAML解析库。
-* [YamlBeans](https://github.com/EsotericSoftware/yamlbeans)：YamlBeans可以轻松地将Java对象图与YAML进行序列化和反序列化。
-* [BoostedYAML](https://github.com/dejvokep/boosted-yaml)：一个简单易用的独立Java库，在处理YAML文档时提供增强的体验。
-* [Psych](https://github.com/ruby/psych)：Psych是一个YAML解析器和发射器。
-* [JYaml](https://jyaml.sourceforge.net/)：JYaml是一个用于处理Yaml文件格式的Java库。
-* [YamlPath](https://github.com/yaml-path/YamlPath)：用于读取YAML文档并替换值的Java DSL。
-* [YamlConfiguration](https://github.com/bspfsystems/YamlConfiguration)：YamlConfiguration是一个用于创建和编辑Java程序中使用的配置YAML文件的库。
-
 #### Outlook库
 
 * [Aspose.Email](https://products.aspose.com/email/java/)：Aspose.Email可以在Java应用程序内创建Outlook电子邮件、解析电子邮件或转换消息格式，如MSG、EML、MBOX、PST、OST和MHT。
@@ -6757,6 +6778,7 @@ permalink: /javalibs
 
 * [AntChain](https://github.com/AntChainOpenLabs)：蚂蚁链是蚂蚁集团自主研发的具备高性能、强隐私保护的区块链技术平台。
 * [JD Chain](https://gitee.com/jdchain/jdchain)：京东区块链是一个企业级的区块链框架系统，具有简洁、易用、可扩展和高性能的特点。
+* [IRI](https://github.com/iotaledger/iri)：IRI是一款开源Java软件，可在IOTA主网和Devnet上运行。
 * [TrustSQL](https://cloud.tencent.com/document/product/663/38243)：腾讯推出的区块链平台，专注于金融领域的区块链应用，包括身份验证、资产管理等。
 * [WeIdentity](https://github.com/WeBankBlockchain/WeIdentity)：WeIdentity是一套分布式多中心的技术解决方案，可承载实体对象(人或者物)的现实身份与链上身份的可信映射、以及实现实体对象之间安全的访问授权与数据交换，由微众银行开源。
 * [TRON](https://github.com/tronprotocol/java-tron)：Tron白皮书的Java实现。
@@ -6905,7 +6927,6 @@ permalink: /javalibs
 * [Eclipse Arrowhead](https://github.com/eclipse-arrowhead/core-java-spring)：Arrowhead是一个用于构建自动化和数字化解决方案的框架和实施平台。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
 * [Indriya](https://github.com/unitsofmeasurement/indriya)：JSR 385参考实现。
-* [SteVe](https://github.com/steve-community/steve)：SteVe于2013年在亚琛工业大学成立，提供了管理充电点、用户数据和用于用户身份验证的RFID卡的基本功能，并已在运行中进行了成功测试。
 * [Sentilo](https://github.com/sentilo/sentilo)：Sentilo是一个架构，它隔离了为利用“城市生成”的信息而开发的应用程序和部署在城市各处以收集和广播该信息的传感器层。
 * [WSO2 IoT Server](https://github.com/wso2/product-iots)：WSO2 IoT Server是一个完整的解决方案，使设备制造商和企业能够连接和管理其设备、构建应用程序、管理事件、保护设备和数据以及以可扩展的方式可视化传感器数据。
 * [MyController](https://github.com/mycontroller-org/mycontroller-v1-legacy)：MyController是一个适用于家庭、办公室或任何地方的物联网自动化控制器。
@@ -6979,7 +7000,7 @@ permalink: /javalibs
 * [Jamod](https://jamod.sourceforge.net/)：Jamod是100% Java的Modbus实现。
 * [Modbus](https://github.com/digitalpetri/modbus)：适用于Java 17+的Modbus TCP、Modbus RTU/TCP和Modbus RTU/串行的现代、高性能、易于使用的客户端和服务器实现。
 * [EasyModbus4j](https://github.com/zengfr/easymodbus4j)：EasyModbus4j是一个高性能和易用的Modbus协议的Java实现，基于Netty开发。
-* [Iot Modbus](https://github.com/luorongxi/iot-modbus)：物联网通讯协议，基于Netty框架，支持COM(串口)和TCP协议，支持服务端和客户端两种模式。
+* [Iot Modbus](https://gitee.com/takeoff/iot-modbus)：物联网通讯协议，基于Netty框架，支持COM(串口)和TCP协议，支持服务端和客户端两种模式。
 
 #### USB库
 
@@ -7306,6 +7327,8 @@ permalink: /javalibs
 * [Spectra](https://github.com/jagrosh/Spectra)：Spectra是一款私人、多用途、娱乐性和实用性的Discord机器人。
 * [Shiro](https://github.com/MisakaTAT/Shiro)：基于OneBot协议的QQ机器人快速开发框架。
 * [Simple Robot](https://github.com/simple-robot/simpler-robot)：Simple Robot是一个基于Kotlin协程的多平台Bot风格高性能异步事件调度框架，异步高效、Java友好。
+* [PircBotX](https://github.com/pircbotx/pircbotx)：PircBotX是一个强大的Java IRC客户端库，适用于机器人和用户客户端。
+* [Kitteh IRC Client Lib](https://github.com/KittehOrg/KittehIRCClientLib)：KICL是一个功能强大的现代Java IRC库，使用Netty库构建，以最大限度地提高性能和可扩展性。
 
 ## 安卓库
 
@@ -7935,6 +7958,7 @@ permalink: /javalibs
 
 * [JEdit](https://www.jedit.org/)：JEdit是一个用Java语言开发的文本编辑器。
 * [JEditor](https://jeditor.sourceforge.io/)：jEditor是一款具有语法高亮功能的简单Java文本编辑器，旨在作为其他应用程序的库使用。
+* [JNotepad](https://gitee.com/jcnc-org/JNotepad)：JNotepad是一款简约而强大的跨平台文本编辑器，旨在提供用户友好的界面和丰富的功能以及插件化使用。
 
 ## 游戏开发
 
@@ -8863,7 +8887,6 @@ permalink: /javalibs
 * [PixelController](https://github.com/neophob/PixelController)：该应用程序的主要目标是创建一个易于使用的矩阵控制器软件。
 * [Stream-Pi Client](https://github.com/stream-pi/client)：免费、开源、模块化、跨平台和可编程宏垫。
 * [JIntellitype](https://github.com/melloware/jintellitype)：JIntellitype是一个Java API，用于与Microsoft Intellitype命令交互以及在Java应用程序中注册全局热键。
-* [Cups4j](https://github.com/harwey/cups4j)：CUPS的Java打印库。
 * [EDSDK4J](https://github.com/kritzikratzi/edsdk4j)：这是Canon EOS数字软件开发套件EDSDK的Java包装器，可让你在Windows上完全访问Canon SLR相机。
 * [ProviewR](http://www.proview.se/v3/)：ProviewR可能是世界上第一个用于过程控制和自动化的开源系统。
 * [KWSwitch](https://gitee.com/kerwincui/kwswitch)：智能开关平台，包含服务端、硬件端、安卓端和前端。
@@ -9170,7 +9193,6 @@ permalink: /javalibs
 * [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是一个开源SDN网络操作系统，主要面向服务提供商和企业骨干网，由Linux基金会开源。
 * [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
 * [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
-* [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
 * [jNetMap](https://rakudave.ch/jnetmap/)：jNetMap是一个图形网络监控和文档工具，它会每x分钟ping所有注册的设备，并根据ping的结果更新状态。
 * [Discourse Network Analyzer](https://github.com/leifeld/dna)：Discourse Network Analyzer是一种具有网络导出功能的定性内容分析工具。
 * [Batfish](https://github.com/batfish/batfish)：Batfish是一种网络验证工具，通过分析网络设备的配置，为安全性、可靠性和合规性提供正确性保证。
@@ -9191,6 +9213,30 @@ permalink: /javalibs
 * [OpenDaylight](https://github.com/opendaylight)：OpenDaylight由Linux基金会支持，其目标在于开发支援软件定义网络(SDN)的各种软件工具，建立网络功能虚拟化的基础。
 * [Floodlight](https://github.com/floodlight/floodlight)：Floodlight是领先的开源OpenFlow控制器，由Cisco维护。
 * [Lighty](https://github.com/PANTHEONtech/lighty)：Lighty是一个由OpenDaylight提供支持的SDK，用于支持、简化和加速Java中软件定义网络(SDN)解决方案的开发，由PANTHEON开源。
+
+#### SMB
+
+* [jCIFS  NG](https://github.com/AgNO3/jcifs-ng)：jCIFS库的清理和改进版本。
+* [SMBJ](https://github.com/hierynomus/smbj)：Java中的服务器消息块(SMB2、SMB3)实现。
+* [JCIFS](https://github.com/codelibs/jcifs)：JCIFS是一个开源客户端库，以纯Java实现CIFS/SMB网络协议。
+
+#### QUIC
+
+* [Kwik](https://github.com/ptrd/kwik)：Kwik是QUIC协议Java的实现，Kwik最初仅作为客户端，但自2021年5月起它支持客户端和服务器。
+* [Quiche4j](https://github.com/kachayev/quiche4j)：QUIC传输协议和HTTP/3的Java实现。
+* [Netty QUIC Codec](https://github.com/netty/netty-incubator-codec-quic)：这是利用quiche的Netty的新型实验性QUIC编解码器。
+
+#### SOCKS
+
+* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
+* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
+* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
+
+#### 以太网
+
+* [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
+* [EtherNet/IP](https://github.com/digitalpetri/ethernet-ip)：适用于Java的异步、非阻塞EtherNet/IP客户端实现。
+* [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
 
 #### IP操作库
 
@@ -9275,6 +9321,12 @@ permalink: /javalibs
 * [Hadoop-20](https://github.com/facebookarchive/hadoop-20)：Facebook基于Hadoop 0.20-append的实时分布式FS。
 * [SDFS](https://github.com/opendedup/sdfs)：一种去重文件系统，可以将数据存储在对象存储或块存储中。
 * [N5](https://github.com/saalfeldlab/n5)：N5 API指定了存储大块n维张量以及类似于HDF5的组层次中的任意元数据所需的原始操作。
+
+## IPFS
+
+* [Java IPFS HTTP Client](https://github.com/ipfs-shipyard/java-ipfs-http-client)：HTTP IPFS API的Java实现。
+* [Mahuta](https://github.com/Consensys/Mahuta)：Mahuta是一个用于聚合和整合应用程序在IPFS网络上存储的文件或文档的库。
+* [Nabu](https://github.com/Peergos/nabu)：IPFS的最小Java实现。
 
 ## 报表引擎
 
@@ -9781,6 +9833,45 @@ permalink: /javalibs
 * [Functional Validation](https://github.com/MAIF/functional-validation)：该库提供了工具来验证Bean并组合验证堆栈错误。
 * [Vador](https://github.com/salesforce-misc/Vador)：Vador是一个现代验证框架，旨在简化和提高REST API验证，由Salesforce开源。
 * [SpEL Validator](https://github.com/stick-i/spel-validator)：SpEL Validator是基于Spring EL的参数校验包，也是javax.validation的扩展增强包，用于简化参数校验。
+
+## IPP
+
+* [JIPP](https://github.com/HPInc/jipp)：IPP的Java兼容实现，由惠普开源。
+* [Cups4j](https://github.com/harwey/cups4j)：CUPS的Java打印库。
+* [IPP Client Kotlin](https://github.com/gmuth/ipp-client-kotlin)：适用于Java和Kotlin的IPP协议客户端实现。
+
+## OSC
+
+* [JavaOSC](https://github.com/hoijui/JavaOSC)：JavaOSC赋予JVM语言程序以OSC内容格式序列化、解析、发送和接收数据的能力。
+* [OSCP5](https://github.com/sojamo/oscp5)：Java和Processing的OSC实现。
+
+## FinTS
+
+* [HBCI4Java](https://github.com/hbci4j/hbci4java)：基于Java的FinTS协议实现，支持所有功能(chipTAN、pushTAN、HHD、SEPA、PSD2)。
+* [Hibiscus](https://github.com/willuhn/hibiscus)：适用于Linux、Windows和MacOS的免费家庭银行业务分析。
+
+## CalDAV
+
+* [CalDAV4j](https://github.com/caldav4j/caldav4j)：CalDAV4j是一个实现CalDAV协议的Java库。
+* [Cosmo](https://github.com/mam-dev/cosmo)：Cosmo日历服务器实现了CalDAV协议的服务器端。
+
+## WebDav
+
+* [Sardine](https://github.com/lookfirst/sardine)：Sardine可用于与WebDAV服务器交互，并且与FTP相比，以编程方式管理远程文件要容易得多。
+* [Jackrabbit WebDAV](https://jackrabbit.apache.org/jcr/components/jackrabbit-webdav-library.html)：该组件提供用于构建WebDAV服务器或客户端的接口和常用实用程序类。
+* [Dav4JVM](https://github.com/bitfireAT/dav4jvm)：Dav4JVM是用于JVM(Java/Kotlin)的WebDAV/CalDAV/CardDAV库，它最初是为DAVx⁵开发的。
+* [Milton](https://github.com/miltonio/milton2)：可在Windows、Mac、Linux、Android和iOS上运行的Milton Java WebDAV/CalDAV/CardDAV服务器库。
+
+## AirPlay
+
+* [Open AirPlay](https://github.com/openairplay/open-airplay)：Apple的AirPlay协议的库集合。
+* [Java AirPlay Lib](https://github.com/serezhka/java-airplay-lib)：此库旨在轻松创建类似Apple TV的AirPlay2服务器。
+
+## 充电桩
+
+* [SteVe](https://github.com/steve-community/steve)：SteVe于2013年在亚琛工业大学成立，提供了管理充电点、用户数据和用于用户身份验证的RFID卡的基本功能，并已在运行中进行了成功测试。
+* [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
+* [OCPP](https://github.com/ShellRechargeSolutionsEU/ocpp)：该库是欧洲最大的电动汽车充电站运营商之一NewMotion开发和使用的OCPP的实现。
 
 ## 元编程
 
@@ -10332,38 +10423,14 @@ permalink: /javalibs
 
 ## 协议实现
 
-* [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
-* [SMBJ](https://github.com/hierynomus/smbj)：Java中的服务器消息块(SMB2、SMB3)实现。
-* [Sardine](https://github.com/lookfirst/sardine)：Sardine可用于与WebDAV服务器交互，并且与FTP相比，以编程方式管理远程文件要容易得多。
-* [JCIFS](https://github.com/codelibs/jcifs)：JCIFS是一个开源客户端库，以纯Java实现CIFS/SMB网络协议。
-* [jCIFS  NG](https://github.com/AgNO3/jcifs-ng)：jCIFS库的清理和改进版本。
 * [JSIP](https://github.com/usnistgov/jsip)：Java SIP规范参考实现，由美国国家标准技术研究院开源。
-* [IRI](https://github.com/iotaledger/iri)：IOTA参考实现。
 * [Open eCard](https://github.com/ecsec/open-ecard)：Open eCard旨在提供eCard-API-Framework(BSI TR-03112)和相关国际标准ISO/IEC 24727的开源和跨平台实现。
-* [Phase4](https://github.com/phax/phase4)：Phase4是一个可嵌入的轻量级Java库，用于发送和接收不同配置文件的AS4消息。
-* [Java IPFS HTTP Client](https://github.com/ipfs-shipyard/java-ipfs-http-client)：HTTP IPFS API的Java实现。
-* [PircBotX](https://github.com/pircbotx/pircbotx)：PircBotX是一个强大的Java IRC客户端库，适用于机器人和用户客户端。
-* [EtherNet/IP](https://github.com/digitalpetri/ethernet-ip)：适用于Java的异步、非阻塞EtherNet/IP客户端实现。
-* [HBCI4Java](https://github.com/hbci4j/hbci4java)：基于Java的FinTS协议实现，支持所有功能(chipTAN、pushTAN、HHD、SEPA、PSD2)。
-* [Jscep](https://github.com/jscep/jscep)：Jscep是SCEP协议的Java实现。
-* [CBOR-Java](https://github.com/c-rack/cbor-java)：RFC 7049的Java实现。
-* [Oxalis](https://github.com/OxalisCommunity/oxalis)：Oxalis是AS4规范的领先开源软件实现。
-* [Kwik](https://github.com/ptrd/kwik)：Kwik是QUIC协议Java的实现，Kwik最初仅作为客户端，但自2021年5月起它支持客户端和服务器。
-* [JavaOSC](https://github.com/hoijui/JavaOSC)：JavaOSC赋予JVM语言程序以OSC内容格式序列化、解析、发送和接收数据的能力。
-* [CalDAV4j](https://github.com/caldav4j/caldav4j)：CalDAV4j是一个实现CalDAV协议的Java库。
-* [Open-AirPlay](https://github.com/openairplay/open-airplay)：Apple的AirPlay协议的库集合。
-* [Kitteh IRC Client Lib](https://github.com/KittehOrg/KittehIRCClientLib)：KICL是一个功能强大的现代Java IRC库，使用Netty库构建，以最大限度地提高性能和可扩展性。
-* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
-* [JIPP](https://github.com/HPInc/jipp)：IPP的Java兼容实现，由惠普开源。
-* [HAP-Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
-* [Calimero-Core](https://github.com/calimero-project/calimero-core)：Calimero-Core提供(安全)KNX通信协议、KNX数据点和属性访问以及管理功能。
-* [Bacnet4J Wrapper](https://github.com/Code-House/bacnet4j-wrapper)：Bacnet4j是bacnet协议的Java实现，这是Bacnet4j API的简单门面。
-* [JSocks](https://github.com/ravn/jsocks)：JSocks是一个完全用Java编写的SOCKS服务器，同时支持SOCKS4和SOCKS5协议。
-* [SocksLib](https://github.com/fengyouchao/sockslib)：SocksLib是一个针对SOCKS5协议的Java库。
-* [Java SOCKS Proxy Server](https://github.com/bbottema/java-socks-proxy-server)：Java SOCKS Proxy Server是Java的SOCKS 4/5服务器。
-* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
+* [HAP Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
 * [SECS4Java8](https://github.com/kenta-shimizu/secs4java8)：该库是Java 8上的SEMI-SECS通信实现。
-* [Noise Java](https://github.com/rweather/noise-java)：Noise Java是Noise协议的纯Java实现。
+* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
+* [Calimero Core](https://github.com/calimero-project/calimero-core)：Calimero Core提供(安全)KNX通信协议、KNX数据点和属性访问以及管理功能。
+* [Bacnet4J Wrapper](https://github.com/Code-House/bacnet4j-wrapper)：Bacnet4j是bacnet协议的Java实现，这是Bacnet4j API的简单门面。
+* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
 
 ## BitTorrent
 
