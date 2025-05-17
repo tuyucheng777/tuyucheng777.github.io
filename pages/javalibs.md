@@ -140,6 +140,7 @@ permalink: /javalibs
   * [OLAP数据库](#OLAP数据库)
   * [向量数据库](#向量数据库)
   * [对象数据库](#对象数据库)
+  * [XML数据库](#XML数据库)
   * [Datalog数据库](#Datalog数据库)
   * [其他数据库](#其他数据库)
 * [图处理](#图处理)
@@ -219,6 +220,7 @@ permalink: /javalibs
 * [知识图谱](#知识图谱)
 * [生物信息学](#生物信息学)
 * [基因组学](#基因组学)
+* [NGS](#NGS)
 * [医疗平台](#医疗平台)
 * [化学库](#化学库)
 * [安全](#安全)
@@ -881,10 +883,10 @@ permalink: /javalibs
 * [Ktorm](https://github.com/kotlin-orm/ktorm)：Ktorm是一个直接基于纯JDBC的轻量级、高效的Kotlin ORM框架。
 * [Reladomo](https://github.com/goldmansachs/reladomo)：Reladomo是Java的企业级ORM框架，由高盛银行开源。
 * [SQLDelight](https://github.com/sqldelight/sqldelight)：SQLDelight会根据你的SQL语句生成类型安全的Kotlin API，由Square开发。
-* [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 * [Apache Cayenne](https://github.com/apache/cayenne)：Cayenne是一个开源持久层框架，提供ORM和远程处理服务，由ObjectStyle开源。
 * [Jimmer](https://github.com/babyfish-ct/jimmer)：Jimmer是一个针对Java和Kotlin的革命性ORM，以及一套基于它的完整的集成方案。
 * [JFinal](https://gitee.com/jfinal/jfinal)：JFinal是基于Java语言的极速Web、ORM框架。
+* [SQLlin](https://github.com/ctripcorp/SQLlin)：SQLlin是一个基于DSL和KSP的Kotlin Multiplatform ORM库，由携程开发。
 * [LiteORM](https://github.com/litesuits/android-lite-orm)：LiteORM是一个小巧、强大、性能更好的Android ORM类库。
 * [AnyLine](https://gitee.com/anyline/anyline)：AnyLine的核心是一个面向运行时的元数据动态ORM。
 * [NgBatis](https://github.com/nebula-contrib/ngbatis)：NgBatis是一个可以使用类似MyBatis、MyBatisPlus的方式，操作NebulaGraph的Java ORM框架。
@@ -918,6 +920,7 @@ permalink: /javalibs
 * [Lightblue](https://github.com/lightblue-platform/lightblue-core)：Lightblue是基于文档的数据访问层框架，由RedHat开源。
 * [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
 * [Doma](https://github.com/domaframework/doma)：Doma是适用于Java 8+的面向DAO的数据库映射框架。
+* [Doobie](https://github.com/typelevel/doobie)：Doobie是Scala的纯函数式JDBC层。
 * [JINQ](https://github.com/my2iu/Jinq)：JINQ为开发人员提供了一种用Java编写数据库查询的简单而自然的方法。
 * [Database](https://github.com/susom/database)：Database提供一种简化的数据库访问方式，它是JDBC驱动程序的包装器，由斯坦福开源。
 * [Permazen](https://github.com/permazen/permazen)：Permazen是用于SQL、键值或内存数据库的持久层框架。
@@ -928,6 +931,7 @@ permalink: /javalibs
 * [DAS](https://github.com/ppdaicorp/das)：DAS是信也科技自研的数据库访问框架。
 * [Dekaf](https://github.com/JetBrains/dekaf)：Dekaf是一个主要通过JDBC处理数据库的Java框架，由JetBrains开源。
 * [Requery](https://github.com/requery/requery)：Requery是一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
+* [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
 * [Apache Commons DbUtils](https://github.com/apache/commons-dbutils)：Commons DbUtils包是一组用于简化JDBC开发的Java工具类。
 * [Jcabi JDBC](https://github.com/jcabi/jcabi-jdbc)：Jcabi JDBC是JDBC的一个方便、流式的包装器。
 * [TorpedoQuery](https://github.com/xjodoin/torpedoquery)：类型安全的Hibernate查询生成器。
@@ -948,6 +952,7 @@ permalink: /javalibs
 * [DoytoQuery](https://github.com/doytowin/doyto-query)：DoytoQuery是一个功能强大且易于使用的对象SQL映射框架。
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
+* [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
 
 #### Mybatis生态
 
@@ -1074,7 +1079,6 @@ permalink: /javalibs
 * [TestNG](https://github.com/testng-team/testng)：TestNG是一个受JUnit启发的测试框架，但引入了一些新功能，使其更强大且更易于使用。
 * [Spock](https://github.com/spockframework/spock)：Spock是一个用于Java和Groovy应用程序的BDD风格的开发人员测试和规范框架。
 * [Kotest](https://github.com/kotest/kotest)：Kotest是一个灵活且全面的Kotlin测试工具，具有多平台支持。
-* [Robolectric](https://github.com/robolectric/robolectric)：Robolectric是Android的行业标准单元测试框架。
 * [uTest](https://github.com/com-lihaoyi/utest)：uTest是一个简单、直观的Scala测试库。
 
 #### 集成测试
@@ -1166,6 +1170,7 @@ permalink: /javalibs
 * [Mu2](https://github.com/cmu-pasta/mu2)：Mu2是一个用于突变引导模糊测试的模糊测试平台，构建在用于模糊Java程序的JQF平台之上，由CMU程序分析、软件测试和应用实验室开发。
 * [EvoMaster](https://github.com/WebFuzzing/EvoMaster)：EvoMaster是第一个开源AI驱动工具，可为Web/企业应用程序自动生成系统级测试用例。
 * [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer)：由Code Intelligence开发的适用于JVM平台的覆盖率引导的进程内模糊器，它基于libFuzzer，并将许多由仪器驱动的突变功能引入JVM。
+* [Snodge](https://github.com/npryce/snodge)：一个小型、可扩展的Kotlin库，用于随机变异JSON和XML文档、文本和二进制数据，适用于模糊测试。
 
 #### 性能测试
 
@@ -1181,6 +1186,7 @@ permalink: /javalibs
 * [Caliper](https://github.com/google/caliper)：Caliper是一个用于测量Java代码性能的工具，主要侧重于微基准测试，由Google开源。
 * [Criterium](https://github.com/hugoduncan/criterium)：使用Clojure编写的用于JVM的基准测试库。
 * [ScalaMeter](https://github.com/scalameter/scalameter)：适用于JVM平台的微基准测试和性能回归测试框架，ScalaMeter可以自动测量和收集程序的各种指标，然后生成漂亮的报告，或存储你的数据。
+* [RabbitMQ Performance Testing Tool](https://github.com/rabbitmq/rabbitmq-perf-test)：RabbitMQ性能测试工具，由Broadcom的RabbitMQ团队维护。
 * [JLBH](https://github.com/OpenHFT/JLBH)：JLBH是一个可让你对在上下文中运行的代码进行基准测试(而不是在微基准测试中)的工具。
 * [KoPeMe](https://github.com/DaGeRe/KoPeMe)：KoPeMe是一个用于在Java中进行性能测试的框架。
 * [Hyperfoil](https://github.com/Hyperfoil/Hyperfoil)：Hyperfoil是面向微服务的分布式基准测试框架，解决了协调遗漏谬误。
@@ -1297,6 +1303,8 @@ permalink: /javalibs
 * [JMock](https://github.com/jmock-developers/jmock-library)：JMock是一个支持使用Mock对象进行Java代码测试驱动开发的库。
 * [ScalaMock](https://github.com/paulbutcher/ScalaMock)：原生Scala Mock框架。
 * [JMockit](https://github.com/jmockit/jmockit1)：JMockit是用于集成测试、Mock、伪造和代码覆盖率的高级Java库。
+* [Mokkery](https://github.com/lupuuss/Mokkery)：Kotlin Multiplatform的Mock库，易于使用、无样板且由编译器插件驱动。
+* [Mockative](https://github.com/mockative/mockative)：使用KSP实现Kotlin/Native和Kotlin Multiplatform的Mock。
 * [Mockrunner](https://github.com/mockrunner/mockrunner)：Mockrunner是用于企业级应用程序的Mock工具。
 
 #### 接口Mock
@@ -1573,8 +1581,6 @@ permalink: /javalibs
 * [JSPUnit](https://sourceforge.net/projects/jspunit/)：JSPUnit是JUnit的扩展，用于对JSP进行单元测试。
 * [JSFUnit](https://jsfunit.jboss.org/)：JSFUnit是JSF应用程序的测试框架，由JBoss社区维护。
 * [Docker Compose JUnit Rule](https://github.com/palantir/docker-compose-rule)：这是一个用于执行与Docker Compose托管容器交互的JUnit测试的库，由Palantir开源。
-* [JUnit 5 FormattedSource](https://github.com/mikemybytes/junit5-formatted-source)：该库可以通过编写参数化测试的新方法对JUnit 5进行扩展。
-* [TestParameterInjector](https://github.com/google/TestParameterInjector)：TestParameterInjector是JUnit 4和JUnit 5测试运行程序，它针对字段/参数值的不同组合运行其测试方法，由Google开源。
 * [JGotesting](https://github.com/tastapod/jgotesting)：JGotesting是受Go测试包启发的JUnit兼容测试工具。
 * [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：适用于JUnit、ANT和Maven的随机测试基础设施。
 * [Kafka JUnit](https://github.com/charithe/kafka-junit)：Kafka JUnit提供了在测试期间启动和关闭Kafka 代理的工具程序。
@@ -1584,7 +1590,6 @@ permalink: /javalibs
 * [Weld Testing](https://github.com/weld/weld-testing)：该项目的主要目标是为CDI单元/组件测试提供简单快速的工具，这些工具作为JUnit 4、JUnit 5和Spock扩展实现。
 * [CDI-Unit](https://github.com/cdi-unit/cdi-unit)：CDI应用程序的单元测试库，支持Mockito来Mock依赖项。
 * [Kafka JUnit](https://github.com/mguenther/kafka-junit)：Kafka JUnit使开发人员能够在JUnit测试中启动和停止由Kafka代理和分布式Kafka Connect Workers组成的完整Kafka集群。
-* [JUnit JSON Params](https://github.com/joshka/junit-json-params)：一个JUnit 5库，提供在参数化测试中从JSON字符串或文件加载数据的注解。
 * [FakeTime](https://github.com/faketime-java/faketime)：FakeTime使用原生Java代理将System.currentTimeMillis()实现替换为你可以使用系统属性控制的实现。
 
 #### 其他测试库
@@ -3177,7 +3182,6 @@ permalink: /javalibs
 * [Elassandra](https://github.com/strapdata/elassandra)：Elassandra是一个Cassandra发行版，包括Elasticsearch搜索引擎。
 * [Sensei](https://github.com/LinkedInAttic/sensei)：Sensei是一个分布式、弹性的实时可搜索数据库，由LinkedIn开源。
 * [LevelDB](https://github.com/dain/leveldb)：Java中LevelDB的重写，此目标是拥有一个功能完整的实现，其性能与C++原始版本的性能相差不超过10%，并生成C++代码的逐字节精确副本。
-* [EXistDB](https://github.com/eXist-db/exist)：EXistDB是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
 * [Eva](https://github.com/Workiva/eva)：Eva是一个分布式数据库系统，实现了时间感知、累积和原子一致的实体属性值数据模型，由Workiva开源。
 * [CorfuDB](https://github.com/CorfuDB/CorfuDB)：Corfu是一个围绕共享日志抽象设计的一致性平台。
 * [Infinispan](https://github.com/infinispan/infinispan)：Infinispan是一个开源数据网格平台和高度可扩展的NoSQL云数据存储，由RedHat开源。
@@ -3211,6 +3215,11 @@ permalink: /javalibs
 
 * [ObjectDB](https://www.objectdb.com/)：ObjectDB是Java的对象数据库，可以在客户端-服务器模式和嵌入式模式下使用。
 * [Atoti](https://www.atoti.io/)：Atoti是一个数据分析平台，集一流的计算引擎、可视化套件和实时OLAP多维数据集于一体，由ActiveViam开发。
+
+#### XML数据库
+
+* [EXistDB](https://github.com/eXist-db/exist)：EXistDB是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
+* [BaseX](https://github.com/BaseXdb/basex)：BaseX是一款功能强大、性能卓越的XML数据库引擎，同时也是一款高度兼容的XQuery处理器，全面支持W3C更新和全文扩展。
 
 #### Datalog数据库
 
@@ -3268,7 +3277,6 @@ permalink: /javalibs
 * [Gizzard](https://github.com/twitter-archive/gizzard)：Gizzard是用于创建最终一致的分布式数据存储的灵活分片框架，由Twitter开源。
 * [Mycat2](https://github.com/MyCATApache/Mycat2)：Mycat2是Mycat社区开发的一款分布式关系型数据库中间件。
 * [Heisenberg](https://github.com/brucexx/heisenberg)：Heisenberg是百度开源的一款基于MySQL协议之上的分库分表中间件，支持各种灵活的分库分表规则。
-* [DAL](https://github.com/ctripcorp/dal)：DAL是携程框架部开发的数据库访问框架，支持流行的分库分表操作。
 * [Zdal](https://github.com/xie-summer/zdal)：Zdal是支付宝自主研发的数据中间件产品，采用标准的JDBC规范。
 * [Shark](https://github.com/gaoxianglong/shark)：Shark是一个分布式MySQL分库分表中间件。
 * [Oceanus](https://github.com/wuba/Oceanus)：58同城数据库中间件，功能简单、易于上手。
@@ -3851,37 +3859,37 @@ permalink: /javalibs
 #### XML库
 
 * [Jakarta XML Binding](https://github.com/jakartaee/jaxb-api)：Jakarta XML Binding提供了API和工具来自动执行XML文档和Java对象之间的映射。
-* [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：一个用于使用CSS 2.1进行布局和格式化、输出到Swing面板、PDF和图像来呈现任意格式良好的XML(或XHTML)的纯Java库。
-* [XDocReport](https://github.com/opensagres/xdocreport)：用于将使用Office或OpenOffice、LibreOffice创建的XML文档与Java模型合并，以生成报告并在需要时将其转换为其他格式(PDF、XHTML等)。
+* [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer)：Flying Saucer是一个纯Java库，用于使用CSS 2.1布局和格式化任意格式良好的XML(或XHTML)，输出到Swing面板、PDF和图像。
+* [XDocReport](https://github.com/opensagres/xdocreport)：XDocReport是一个Java API，用于将使用MS Office(docx、pptx)或OpenOffice(odt)、LibreOffice(odt)创建的XML文档与Java模型合并，生成报告，并根据需要将其转换为其他格式(PDF、XHTML等)。
 * [Dom4j](https://github.com/dom4j/dom4j)：Dom4j是一个处理XML的开源框架，它与XPath集成，完全支持DOM、SAX、JAXP和Java平台(例如Java 2 Collections)。
-* [XStream](https://github.com/x-stream/xstream)：用于Java和XML相互转换的库。
-* [BaseX](https://github.com/BaseXdb/basex)：一个XML数据库，用来存储紧缩的XML数据，提供了高效的XPath和XQuery的实现。
+* [XStream](https://github.com/x-stream/xstream)：XStream是一个简单的库，用于将对象序列化为XML。
 * [Apache Commons JXPath](https://github.com/apache/commons-jxpath)：XPath 1.0的基于Java的实现，除了XML处理之外，还可以检查/修改Java对象图，甚至混合Java/XML结构。
-* [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
-* [jOOX](https://github.com/jOOQ/jOOX)：org.w3c.dom包的简单包装器，允许在需要DOM但过于冗长的情况下流式地创建和操作XML文档。
+* [Jackson XML](https://github.com/FasterXML/jackson-dataformat-xml)：Jackson JSON处理器的扩展，增加了对POJO序列化为XML(以及从XML反序列化)的支持，作为JSON的替代方案。
+* [jOOX](https://github.com/jOOQ/jOOX)：jOOX是org.w3c.dom包的简单包装器，允许在需要DOM但过于繁琐的情况下流畅地创建和操作XML文档。
 * [Apache Commons SCXML](https://github.com/apache/commons-scxml)：状态图XML引擎的Java实现。
 * [Apache Commons Digester](https://github.com/apache/commons-digester)：Commons Digester包允许你配置XML到Java对象映射模块，每当识别出嵌套XML元素的特定模式时，该模块就会触发称为规则的某些操作。
 * [TikXML](https://github.com/Tickaroo/tikxml)：适用于Java和Android的快速XML解析器。
 * [EXIficient](https://github.com/EXIficient/exificient)：EXIficient是EXI格式规范的开源实现，由Siemens开发。
-* [JAXB Tools](https://github.com/highsource/jaxb-tools)：用于XML模式编译的最先进的JAXB2 Maven插件。
-* [JDOM](https://github.com/hunterhacker/jdom)：可以让Java操作XML变得容易。
-* [Aalto-XML](https://github.com/FasterXML/aalto-xml)：超高性能的下一代Stax XML处理器实现，实现了基本的Stax API(javax.xml.stream)和Stax2 API扩展(org.codehaus.woodstox.stax2)。
-* [Xembly](https://github.com/yegor256/xembly)：一种类似于汇编的命令式编程语言，用于XML文档中的数据操作。
-* [GsonXml](https://github.com/stanfy/gson-xml)：一个小型库，允许使用Google Gson库进行XML反序列化。
+* [JDOM](https://github.com/hunterhacker/jdom)：JDOM提供了一个完整的、基于Java的解决方案，用于从Java代码访问、操作和输出XML数据。
+* [XmlUtil](https://github.com/pdvrieze/xmlutil)：XmlUtil是一组支持Kotlin中的多平台XML的包。
+* [Aalto XML](https://github.com/FasterXML/aalto-xml)：Aalto XML处理器是一种超高性能的下一代Stax XML处理器实现，同时实现了基本的Stax API和Stax2 API扩展。
+* [Xembly](https://github.com/yegor256/xembly)：Xembly是一种类似Assembly的命令式编程语言，用于XML文档中的数据操作。
+* [GsonXml](https://github.com/stanfy/gson-xml)：GsonXml是一个小型库，允许使用Google Gson库进行XML反序列化。
 * [Woodstox](https://github.com/FasterXML/woodstox)：Stax XML API(javax.xml.stream)实现。
 * [TagChowder](https://github.com/yahoo/tagchowder)：TagChowder是一个用Java编写的符合SAX的解析器，由Yahoo开源。
 * [Apache Santuario](https://github.com/apache/santuario-xml-security-java)：Santuario项目旨在提供XML主要安全标准的实现。
 * [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri)：JAXB的Eclipse实现。
-* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：一个用Java生成XML站点地图的库。
-* [Jaxen](https://github.com/jaxen-xpath/jaxen)：用于Java的XPath引擎。
-* [Simple-XMl](http://simple.sourceforge.net)：一个高性能的Java XML序列化和配置框架。
-* [Apache Xalan](https://xalan.apache.org/xalan-j/)：用Java编写的XSLT处理器。
-* [Apache Xerces](http://xerces.apache.org/xerces2-j/)：用Java编写的验证XML解析器。
-* [Apache VXQuery](https://vxquery.apache.org/)：并行XML查询处理器。
+* [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j)：SitemapGen4j是一个用Java生成XML站点地图的库。
+* [Jaxen](https://github.com/jaxen-xpath/jaxen)：Jaxen是一个用Java编写的开源XPath 1.0库。
+* [Simple](http://simple.sourceforge.net)：Simple是Java的一个XML序列化框架。
+* [Xsd2bean](https://github.com/goldmansachs/gs-xsd2bean)：Xsd2bean是一个XML到对象的映射器，由高盛银行开源。
+* [Apache Xalan](https://xalan.apache.org/xalan-j/)：Xalan-Java是一个XSLT处理器，用于将XML文档转换为HTML、文本或其他XML文档类型。
+* [Apache Xerces](http://xerces.apache.org/xerces2-j/)：Xerces2提供了高性能、完全兼容的XML解析器。
+* [Apache VXQuery](https://vxquery.apache.org/)：Apache VXQuery是一个用Java实现的符合标准的XML查询处理器。
 * [XSoup](https://github.com/code4craft/xsoup)：基于JSoup的XPath选择器。
 * [XMLBeam](https://github.com/SvenEwald/xmlbeam)：通过在代码中使用注解或XPath来处理XML。
-* [Jcabi-XML](https://github.com/jcabi/jcabi-xml)：Java XML解析、转换、打印和校验库。
-* [Java-XMLBuilder](https://github.com/jmurty/java-xmlbuilder)：XML Builder是一个实用程序，允许使用相对稀疏的Java代码构建简单的XML文档。
+* [Jcabi XML](https://github.com/jcabi/jcabi-xml)：Java XML解析、转换、打印和校验库。
+* [Java XMLBuilder](https://github.com/jmurty/java-xmlbuilder)：XML Builder是一个实用程序，允许使用相对稀疏的Java代码构建简单的XML文档。
 * [XMLResolver](https://github.com/xmlresolver/xmlresolver)：XMLResolver项目提供了SAX EntityResolver、Transformer URIResolver和新的NamespaceResolver的高级实现。
 * [Xjx](https://github.com/jonas-grgt/xjx)：Java的轻量级XML序列化和反序列化库。
 * [Validator](https://github.com/itplr-kosit/validator)：Validator是一个XML验证引擎，用于验证和处理各种格式的XML文件。
@@ -5033,7 +5041,6 @@ permalink: /javalibs
 * [Nextflow](https://github.com/nextflow-io/nextflow)：Nextflow是一个工作流程系统，用于创建可扩展、可移植和可重复的工作流程，由西班牙巴塞罗那的生物医学和基因组学研究中心CRG开发。
 * [NF TencentCloud](https://github.com/Tencent/nf-tencentcloud)：NF TencentCloud是一个Nextflow插件，旨在为Nextflow工作流引擎添加腾讯云COS对象存储和腾讯健康组学平台执行器适配支持。
 * [Cromwell](https://github.com/broadinstitute/cromwell)：Cromwell是一个用于生物信息学的开源工作流程管理系统，由麻省理工学院和哈佛大学布罗德研究所开源。
-* [GATK](https://github.com/broadinstitute/gatk)：由麻省理工学院和哈佛大学布罗德研究所开源的下一代基因组分析工具包。
 * [QuPath](https://github.com/qupath/qupath)：QuPath是用于生物图像分析的开源软件，由英国女王大学开源。
 * [BioJava](https://github.com/biojava/biojava)：BioJava是一个开源项目，致力于提供处理生物数据的Java框架。
 * [ADAM](https://github.com/bigdatagenomics/adam)：ADAM是一个库和命令行工具，支持使用Spark跨集群/云计算环境并行进行基因组数据分析，由加州大学伯克利分校、西奈山伊坎医学院、微软研究院等开源。
@@ -5079,7 +5086,6 @@ permalink: /javalibs
 * [FairSIM](https://github.com/fairSIM/fairSIM)：结构照明显微镜(SIM)为荧光显微镜提供了一种快速、温和的超分辨率方法，FairSIM项目旨在为使用SIM的科学家提供一系列免费开源工具和资源，由比勒费尔德大学开源。
 * [GC4S](https://github.com/sing-group/GC4S)：GC4S是一个开源库，为Swing提供面向生物信息学的GUI组件集合，由维戈大学开源。
 * [VCell](https://github.com/virtualcell/vcell)：VCell是一个建立在中央数据库之上并以Web应用程序形式传播的用于建模细胞生物系统的综合平台，由康涅狄格大学开源。
-* [Eoulsan](https://github.com/GenomiqueENS/eoulsan)：Eoulsan是一个基于MapReduce算法的Hadoop实现的多功能框架，致力于分布式计算机上的高吞吐量测序数据分析，由巴黎高等师范学院生物研究所开源。
 * [Opal](https://github.com/obiba/opal)：Opal是OBiBa用于生物样本库或流行病学研究的核心数据库应用程序。
 * [BioMedICUS](https://github.com/nlpie/biomedicus)：BioMedICUS是一个用于生物医学和临床报告的大规模文本分析和处理的系统，由明尼苏达大学开发。
 
@@ -5089,10 +5095,8 @@ permalink: /javalibs
 * [DNAnalyzer](https://github.com/VerisimilitudeX/DNAnalyzer)：致力于彻底改变DNA分析领域，目标是使DNA分析工具的使用更加民主化。
 * [IGV](https://github.com/igvteam/igv)：用于Mac、Windows和Linux的桌面基因组可视化工具，由加州大学圣地亚哥分校、麻省理工学院和哈佛大学开源。
 * [GKL](https://github.com/Intel-HLS/GKL)：GKL包含GATK和HTSJDK等基因组学应用程序中使用的计算内核的优化版本，由Intel开源。
-* [HTSJDK](https://github.com/samtools/htsjdk)：HTSJDK是统一Java库的实现，用于访问用于高通量测序数据的常见文件格式，例如SAM和VCF，由哈佛医学院开源。
 * [GRIDSS](https://github.com/PapenfussLab/gridss)：GRIDSS是一个模块软件套件，包含可用于检测基因组重排的工具，由沃尔特和伊丽莎·霍尔医学研究所开源。
 * [Artemis](https://github.com/sanger-pathogens/Artemis)：Artemis软件是一套用于基因组浏览和注释的软件工具，由威康桑格研究所开源。
-* [MISO](https://github.com/miso-lims/miso-lims)：MISO是一个开源实验室信息管理系统(LIMS)，始于厄勒姆研究所，最近由安大略癌症研究所开发，专门用于跟踪下一代测序实验。
 * [P2Rank](https://github.com/rdk/p2rank)：P2Rank是一个独立的命令行程序，可根据蛋白质结构预测配体结合口袋。
 * [Apollo](https://github.com/GMOD/Apollo)：Apollo是一个基于Web的协作、实时基因组注释编辑器。
 * [OpenCGA](https://github.com/opencb/opencga)：OpenCGA是一个开源项目，旨在为数百TB甚至PB级的基因组规模数据分析提供大数据存储引擎和分析框架，由剑桥大学计算生物学开源。
@@ -5103,11 +5107,10 @@ permalink: /javalibs
 * [Cytoscape](https://cytoscape.org/)：Cytoscape是一个开源的生物信息学软件平台，用于可视化分子相互作用网络并与基因表达谱和其他状态数据集成，最初由西雅图系统生物学研究所开发。
 * [BioTapestry](https://biotapestry.systemsbiology.net/)：BioTapestry是一种交互式工具，用于通过网络构建、可视化和共享基因调控网络模型，由西雅图系统生物学研究所与加州理工学院戴维森实验室合作创建。
 * [InterProScan](https://github.com/ebi-pf-team/interproscan)：InterPro通过将蛋白质归类为家族并预测域和重要位点来提供蛋白质的功能分析，由欧洲分子生物学实验室开源。
-* [Cloud-Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台。
+* [Cloud Pipeline](https://github.com/epam/cloud-pipeline)：与云无关的基因组学分析、科学计算和存储平台，由EPAM开源。
 * [IRIDA](https://github.com/phac-nml/irida)：IRIDA是加拿大基因组流行病学综合快速传染病分析平台。
 * [SnpEff](https://github.com/pcingola/SnpEff)：基因组变异注释和功能效果预测工具包。
 * [PharmCAT](https://github.com/PharmGKB/PharmCAT)：一种从遗传数据集(以VCF文件表示)中提取所有CPIC指南基因变异、解释变异等位基因并生成报告的工具，由斯坦福大学和宾夕法尼亚大学维护。
-* [NGB](https://github.com/epam/NGB)：NGB是一种基于Web的NGS数据查看器，具有独特的结构变异(SV)可视化功能、高性能、可扩展性和云数据支持。
 * [Cellbase](https://github.com/opencb/cellbase)：Cellbase是一个集中式数据库，集成了来自多个主要基因组和生物数据库的大量信息，用于基因组注释和临床变异优先级排序，由剑桥大学计算生物学开源。
 * [VarSim](https://github.com/bioinform/varsim)：VarSim是用于癌症应用的高通量基因组测序的高保真模拟验证框架，由罗氏开源。
 * [FastQC](https://github.com/s-andrews/FastQC)：FastQC是一个旨在发现高通量测序数据集中潜在问题的程序，由巴布拉汉姆研究所生物信息学小组开源。
@@ -5118,6 +5121,17 @@ permalink: /javalibs
 * [GeneMANIA](https://github.com/GeneMANIA/genemania)：GeneMANIA可以帮助你预测你最喜欢的基因和基因组的功能，由多伦多大学开源。
 * [Compomics Utilities](https://github.com/compomics/compomics-utilities)：用于计算蛋白质组学的开源Java库，由根特大学开源。
 * [PIA](https://github.com/medbioinf/pia)：PIA是一个用于基于MS的蛋白质推断和识别分析的工具箱，由波鸿鲁尔大学开源。
+
+## NGS
+
+* [GATK](https://github.com/broadinstitute/gatk)：由麻省理工学院和哈佛大学布罗德研究所开源的下一代基因组分析工具包。
+* [MiXCR](https://github.com/milaboratory/mixcr)：MiXCR是一款通用软件，可快速准确地分析原始T细胞或B细胞受体组测序数据。
+* [FgBio](https://github.com/fulcrumgenomics/fgbio)：FgBio是一个用于处理基因组数据尤其是下一代测序数据的命令行工具包。
+* [HTSJDK](https://github.com/samtools/htsjdk)：HTSJDK是统一Java库的实现，用于访问用于高通量测序数据的常见文件格式，例如SAM和VCF，由哈佛医学院开源。
+* [MISO](https://github.com/miso-lims/miso-lims)：MISO是一个开源实验室信息管理系统(LIMS)，始于厄勒姆研究所，最近由安大略癌症研究所开发，专门用于跟踪下一代测序实验。
+* [NGB](https://github.com/epam/NGB)：NGB是一种基于Web的NGS数据查看器，具有独特的结构变异(SV)可视化功能、高性能、可扩展性和云数据支持，由EPAM开源。
+* [Eoulsan](https://github.com/GenomiqueENS/eoulsan)：Eoulsan是一个基于MapReduce算法的Hadoop实现的多功能框架，致力于分布式计算机上的高吞吐量测序数据分析，由巴黎高等师范学院生物研究所开源。
+* [AdamaJava](https://github.com/AdamaJava/adamajava)：AdamaJava包含与新一代测序(NGS)分析相关的变异调用程序和流程工具的代码，由昆士兰医学研究院伯格霍夫医学研究所的基因组信息学小组开发和维护。
 
 ## 医疗平台
 
@@ -5549,6 +5563,7 @@ permalink: /javalibs
 ## 函数式编程
 
 * [Vavr](https://github.com/vavr-io/vavr)：Vavr是Java 8的对象功能语言扩展，旨在减少代码行数并提高代码质量。
+* [Arrow](https://github.com/arrow-kt/arrow)：Arrow是Kotlin中类型化函数式编程的库。
 * [JavaTuples](https://github.com/javatuples/javatuples)：JavaTuples提供一组允许你使用元组的Java类。
 * [Functional Java](https://github.com/functionaljava/functionaljava)：Function Java是一个促进Java函数式编程的开源库。
 * [Apache Commons Functor](https://github.com/apache/commons-functor)：Commons Functor库定义了通用函子和函子相关的接口、实现和实用程序。
