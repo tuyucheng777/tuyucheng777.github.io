@@ -463,6 +463,7 @@ permalink: /javalibs
   * [ElasticSearch库/工具](#ElasticSearch库工具)
   * [DynamoDB库/工具](#DynamoDB库工具)
   * [Milvus库/工具](#Milvus库工具)
+  * [Vault库/工具](#Vault库工具)
 * [Pub/Sub库](#PubSub库)
 * [对象存储](#对象存储)
 * [音视频处理](#音视频处理)
@@ -2696,6 +2697,7 @@ permalink: /javalibs
 * [FHIR Data Pipes](https://github.com/google/fhir-data-pipes)：该仓库包括使用FHIR格式将来自FHIR服务器(例如HAPI、GCP FHIR存储，甚至OpenMRS)的数据转换为基于Parquet文件或其他FHIR服务器的数据仓库的管道，由Google开源。
 * [Talend Open Studio](https://github.com/Talend/tcommon-studio-se)：Talend Open Studio可以使你立即开始构建基本数据管道，从你控制的本地安装的开源环境中执行简单的ETL和数据集成任务，获取数据的图形配置文件并管理文件。
 * [Kettle](https://github.com/pentaho/pentaho-kettle)：Kettle是一款开源的ETL工具，可以用它来对数据进行抽取、清洗和转换操作，主作者是Matt Casters。
+* [FineDataLink](https://www.finedatalink.com/)：FineDataLink是一款低代码/高时效的企业级一站式数据集成平台，这是帆软的商业产品。
 * [Smart Kettle](https://gitee.com/yaukie/smartkettle)：Smart Kettle是基于开源Kettle自研的Kettle核心接口调用基础组件。
 * [Scriptella](https://github.com/scriptella/scriptella-etl)：Scriptella是一个用Java编写的开源ETL和脚本执行工具。
 * [Apatar](https://www.altoros.com/blog/tag/apatar/)：Apatar是一个开源的数据抽取、转换、装载(ETL)项目。
@@ -3020,7 +3022,6 @@ permalink: /javalibs
 * [YangDB](https://github.com/YANG-DB/yang-db)：YangDB是一个开源、可扩展、非原生图数据库(由Elasticsearch提供支持)。
 * [GalaxyBase](https://galaxybase.com/)：GalaxyBase国产的高性能图数据库。
 * [ONgDB](https://github.com/graphfoundation/ongdb)：ONgDB是一个开源、高性能、原生图存储，由Graph基金会开发。
-* [TuGraph Analytics](https://github.com/TuGraph-family/tugraph-analytics)：TuGraph Analytics是蚂蚁集团开发的开源OLAP图数据库。
 * [Bitsy](https://github.com/lambdazen/bitsy)：Bitsy是一个小型、快速、可嵌入、持久的内存图数据库，与Tinkerpop3兼容。
 * [OverflowDB](https://github.com/ShiftLeftSecurity/overflowdb)：OverflowDB是一个低内存占用的内存图数据库，由ShiftLeft开源。
 * [OhmDB](https://github.com/ohmdb/ohmdb)：OhmDB提供了关系数据库的强大功能和NoSQL数据库的灵活性。
@@ -3227,6 +3228,7 @@ permalink: /javalibs
 
 * [JGraphT](https://github.com/jgrapht/jgrapht)：JGraphT是一个免费的Java类库，提供数学图论对象和算法。
 * [GraphX](https://github.com/apache/spark/tree/master/graphx)：Spark GraphX是一个分布式图处理框架，它是基于Spark平台提供对图计算和图挖掘简洁易用的而丰富的接口。
+* [GeaFlow](https://github.com/TuGraph-family/tugraph-analytics)：GeaFlow是蚂蚁集团开发的开源OLAP图数据库。
 * [GraphJet](https://github.com/twitter/GraphJet)：GraphJet是一个实时图处理库，由Twitter开源。
 * [Graphviz Java](https://github.com/nidi3/graphviz-java)：将graphviz与纯Java一起使用，使用Java代码创建graphviz模型并将其转换为漂亮的图形。
 * [Apache Commons Graph](https://github.com/apache/commons-graph)：Commons Graph是一个用于管理图和基于图的数据结构的工具包。
@@ -4463,6 +4465,7 @@ permalink: /javalibs
 * [RuoYi Activiti](https://gitee.com/shenzhanwang/RuoYi-activiti)：基于Activiti 6.0，集流程设计、流程部署、流程执行、任务办理、流程监控于一体的开源工作流开发平台。
 * [F2BPM](https://www.f2bpm.com/)：F2BPM是一款纯国产工作流引擎，遵循WFMC/BPMN2.0的规范，由致博软件公司开发。
 * [盘古BPM](https://gitee.com/pangu-dm/pangubpm-dmn)：盘古BPM工作流平台是国内首款开源的互联网决策引擎系统，拥有独立的DMN1.3标准设计器、解析器、决策引擎、支持决策表、DRD、DRG。
+* [Y9 WorkFlow](https://github.com/risesoft-y9/WorkFlow-Engine)：基于Spring Boot、Vue前后端分离的Java国产信创工作流引擎，由北京有生博大软件开发。
 * [JsonFlow](https://gitee.com/jackrolling/jsonflow-ui)：简单但强大易用易扩展且适应复杂场景的中国式审批的工作流引擎系统。
 * [Smart Flow](https://gitee.com/smartboot/smart-flow)：SmartFlow是一个轻量、灵活的业务流程编排框架，支持业务流程中常见的条件分支控制、子流程、业务组件异步和降级等功能。
 * [COPPER](https://github.com/copper-engine/copper-engine)：COPPER是一个开源、强大、轻量且易于配置的工作流引擎，它使用Java作为工作流的描述语言。
@@ -4533,6 +4536,7 @@ permalink: /javalibs
 * [CrapApi](https://gitee.com/CrapApi/CrapApi)：CrapApi是完全开源、免费使用的API接口管理系统、BUG管理系统。
 * [XXL-API](https://github.com/xuxueli/xxl-api)：XXL-API是一个强大易用的API管理平台，提供API的管理、文档、Mock和测试等功能。
 * [WSO2 API Manager](https://github.com/wso2/product-apim)：WSO2 API Manager是一个用于创建、管理、使用和监控Web API的强大平台。
+* [Y9 API Platform](https://gitee.com/risesoft-y9/y9-interface-platform)：基于Spring Boot、Vue前后端分离的接口管理平台，由北京有生博大软件开发。
 * [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
 * [Repose](https://github.com/rackerlabs/repose)：Repose为API处理任务提供解决方案，例如身份验证、速率限制、API验证、HTTP请求日志记录等等。
 * [Postin](https://github.com/tiklab-project/tiklab-postin)：Postin提供API设计、调试、文档生成和Mock数据模拟等一站式解决方案。
@@ -5626,6 +5630,7 @@ permalink: /javalibs
 * [HTTP Signatures Java Client](https://github.com/tomitribe/http-signatures-java)：HTTP签名提供了一种机制，通过该机制可以使用共享密钥对HTTP消息进行数字“签名”，以验证发送者的身份并验证消息在传输过程中未被篡改。
 * [Ed25519](https://github.com/RubyCrypto/ed25519)：Ed25519高性能公钥签名系统作为RubyGem(MRI C扩展和JRuby Java扩展)。
 * [Hiss](https://github.com/Tap30/hiss)：Hiss是一个Java/Kotlin字段级加密和哈希库，允许你加密并计算对象中选定(带注解)字段的哈希值。
+* [Datasafe](https://github.com/adorsys/datasafe)：Datasafe是一个专为开发者和企业量身定制的强大库，提供加密和版本化的数据存储。
 
 #### 密码库
 
@@ -6807,6 +6812,7 @@ permalink: /javalibs
 * [BallCat](https://github.com/ballcat-projects/ballcat)：BallCat是一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷Starter进行功能扩展。
 * [Mall Tiny](https://github.com/macrozheng/mall-tiny)：Mall Tiny是一款基于Spring Boot、MyBatisPlus的快速开发脚手架。
 * [AgileBoot](https://github.com/valarchie/AgileBoot-Back-End)：AgileBoot是一套开源的全栈精简快速开发平台。
+* [Y9 Digital Infrastructure](https://github.com/risesoft-y9/Digital-Infrastructure)：基于Spring Boot、Vue前后端分离的Java快速开发框架，由北京有生博大软件开发。
 * [Spring Boot API Project Seed](https://github.com/lihengming/spring-boot-api-project-seed)：Spring Boot API Project Seed是一个基于Spring Boot、MyBatis的种子项目，用于快速构建中小型API、RESTful API项目。
 * [Vole](https://github.com/gavenwangcn/vole)：Vole是一个基于最新的Spring Cloud 2.0的微服务商业开发脚手架。
 * [Cola Cloud](https://gitee.com/leecho/cola-cloud)：Cola Cloud基于Spring Boot、Spring Cloud构建微服务架构企业级开发平台，集成OAuth2认证、集成短信验证码登录、FlyWay数据库版本管理、网关集成Swagger聚合所有服务API文档。
@@ -8961,6 +8967,11 @@ permalink: /javalibs
 
 * [Milvus Java SDK](https://github.com/milvus-io/milvus-sdk-java)：Milvus的Java SDK。
 * [MilvusPlus](https://gitee.com/dromara/MilvusPlus)：MilvusPlus是一个功能强大的Java库，旨在简化与Milvus向量数据库的交互，为开发者提供类似MyBatis Plus注解和方法调用风格的直观API，由dromara社区开源。
+
+#### Vault库/工具
+
+* [Vault Java Driver](https://github.com/BetterCloud/vault-java-driver)：HashiCorp的Vault机密管理解决方案的零依赖Java客户端。
+* [Spring Vault](https://github.com/spring-projects/spring-vault)：Spring Vault提供客户端访问、存储和撤销机密信息的支持。
 
 ## Pub/Sub库
 
