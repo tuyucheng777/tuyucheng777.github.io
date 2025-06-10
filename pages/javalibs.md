@@ -324,6 +324,7 @@ permalink: /javalibs
 * [源代码浏览器](#源代码浏览器)
 * [脚手架](#脚手架)
 * [低代码](#低代码)
+* [商城系统](#商城系统)
 * [QA系统](#QA系统)
 * [CMS系统](#CMS系统)
 * [ERP系统](#ERP系统)
@@ -6809,9 +6810,15 @@ permalink: /javalibs
 * [Open Capacity Platform](https://gitee.com/dromara/open-capacity-platform)：OCP是基于Spring Cloud的企业级微服务框架，其目标是帮助企业搭建一套类似百度能力开放平台的微服务框架，由dromara社区开源。
 * [JeeSpringCloud](https://gitee.com/JeeHuangBingGui/jeeSpringCloud)：基于Spring Boot 2.0的后台权限管理系统界面简洁美观敏捷开发系统架构。
 * [Hope Boot](https://github.com/java-aodeng/hope-boot)：Hope Boot是一款现代化的脚手架项目。
+* [AiDex Sharp](https://gitee.com/big-hedgehog/aidex-sharp)：AiDex Sharp基于Ruoyi Vue项目扩展，前端采用Ant Design Vue。
+* [iBase4J](https://gitee.com/iBase4J/iBase4J)：iBase4J是Java语言的分布式系统架构，使用Spring整合开源框架。
+* [Kitty](https://gitee.com/liuge1988/kitty)：基于Spring Boot、Spring Cloud、Vue.js、Element UI实现，采用前后端分离架构的权限管理系统，Java快速开发平台。
+* [EasyAdmin](https://gitee.com/lakernote/easy-admin)：基于Spring Boot 2、MybatisPlus、LayUI、MySQL前后端分离或一体的简单、轻量级的后台管理系统脚手架。
+* [Freeter](https://gitee.com/xcOschina/freeter-admin)：飞特后台管理系统，企业级快速开发框架。
+* [Ape Frame](https://gitee.com/classicChickenWings/ape-frame)：基于Spring Boot封装的轻量级开发框架。
+* [Opensabre](https://gitee.com/toopoo/SpringCloud)：Opensabre是基于Spring Cloud 2023的微服务开发平台，整合了Spring Security、Spring Cloud Alibaba等组件。
 * [Spring Boot Plus](https://github.com/geekidea/spring-boot-plus)：Spring Boot Plus是一个简单易用、高速、高效、功能丰富的开源Spring Boot脚手架。
 * [X-SpringBoot](https://github.com/yzcheng90/X-SpringBoot)：X-SpringBoot是一个轻量级的Java快速开发平台。
-* [Lenosp](https://gitee.com/zzdevelop/lenosp)：Lenosp是基于Spring Boot的脚手架，提供完善社区文档教程。
 * [BootDo](https://gitee.com/lcg0124/bootdo)：BootDo是高效率、低封装、面向学习型、微服务的开源Java EE开发框架。
 * [Dante Cloud](https://gitee.com/dromara/dante-cloud)：Dante Cloud国内首个支持阻塞式和响应式服务并行的微服务平台。
 * [SoybeanAdmin Quarkus](https://github.com/soybeanjs/soybean-admin-quarkus)：SoybeanAdmin Quarkus是一个基于Kotlin和Quarkus的现代化后台管理系统脚手架。
@@ -6881,6 +6888,7 @@ permalink: /javalibs
 * [Erupt](https://gitee.com/erupt/erupt)：Erupt是一个低代码全栈类框架，使用Java注解动态生成页面以及增删改查、权限控制等后台功能。
 * [UBML](https://gitee.com/ubml/ubml-sdk)：UBML是开放原子开源基金会下的项目，它是一种用于快速构建应用软件的低代码领域建模语言，来源于浪潮海岳iGIX团队。
 * [Juggle](https://gitee.com/Somta/Juggle)：Juggle是一个可用于接口编排、定制开发等场景的一套完整解决方案。
+* [MDP LCode](https://gitee.com/maimengcloud/mdp-lcode-backend)：唛盟LCode旨在为企业开发业务系统提供一整套解决方案，具有高效率、低代码、功能丰富等特点。
 * [MetaLowCode](https://gitee.com/MetaLowCode/MetaLowCode)：美乐是一个低代码开发平台，包含一个前端项目Meta LowCode和一个后端项目Meta Server，由极昇数科开源。
 * [VLife](https://gitee.com/wwwlike/vlife)：VLife是一套采用前后端分离(Java + React)架构的企业级低代码研发平台。
 * [MFish](https://gitee.com/qiufeng9862/mfish-nocode)：MFish是一款致力于让开发像摸鱼一样轻松的低代码/无代码平台。
@@ -6909,6 +6917,51 @@ permalink: /javalibs
 * [JeeLowCode](https://gitee.com/jeelowecode/JeeLowCode)：JeeLowCode是一款基于芋道源码精心二次封装的企业级低代码开发框架。
 * [Gemini](https://github.com/gemini-projects/gemini)：云原生和低代码平台，可在几分钟内创建全栈Web管理应用程序。
 * [Oinone](https://oinone.top/)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
+
+## 商城系统
+
+* [微同商城](https://gitee.com/fuyang_lipengjun/platform)：减少重复造轮子，开源微信小程序商城。
+* [Mall](https://github.com/macrozheng/mall)：Mall项目致力于打造一个完整的电商系统，采用现阶段主流技术实现。
+* [Xbin Store](https://github.com/xubinux/xbin-store)：模仿国内知名B2C网站，实现的一个分布式B2C商城。
+* [SuperMarket](https://github.com/ZongXR/SuperMarket)：设计精良的网上商城系统，使用Spring Cloud框架，基于Java开发。
+* [Funit](https://github.com/fushengqian/fuint)：Funit是一套开源的实体店铺会员管理和营销系统。
+* [CongoMall](https://github.com/nageoffer/congomall)：刚果商城是个从零到一的C端商城项目，包含商城核心业务和基础架构两大模块。
+* [Smart](https://gitee.com/52itstyle/spring-boot-seckill)：小柒商城专注赋能开发者，匠心打造高效能、全渠道、多场景电商系统。
+* [Lilishop](https://gitee.com/beijing_hongye_huicheng/lilishop)：Lilishop是基于Spring Boot的开源商城，由北京宏业汇成科技公司开发。
+* [JooLun WX](https://gitee.com/joolun/JooLun-wx)：Java免费开源商城，小程序、公众号管理，采用Java、Spring Boot 3、Vue 3、Element-Plus开发。
+* [Open Shop](https://gitee.com/old-peanut/wechat_applet__open_source)：Open Shop小程序商城，包括分销、团购、秒杀、优惠券、等功能。
+* [SmartShop](https://gitee.com/52itstyle/spring-boot-pay)：小七商城系统支持商家入驻，后端基于Spring Boot研发，前端使用Vue、UniApp开发。
+* [CRMEB](https://gitee.com/ZhongBangKeJi/crmeb_java)：CRMEB开源商城系统Java版，基于Java、Vue、UniApp开发。
+* [ZKMall](https://gitee.com/zkmall/b2b2c)：ZKMall是一款基于当前流行技术组合Spring Boot 3、MybatisPlus、Shiro、JWT、XXL-Job、Redisson、Redis、Mysql、Vue3、UniApp前后端分离B2B2C多商户Java电商系统。
+* [GPMall](https://github.com/2227324689/gpmall)：基于Spring Boot、Dubbo构建的电商平台。
+* [Laiketui](https://gitee.com/laiketui/open)：来客推商城系统。
+* [LiteMall](https://github.com/linlinjava/litemall)：基于Spring Boot、Vue的小商场系统。
+* [DTS Mall](https://gitee.com/qiguliuxing/dts-shop)：聚惠星商城DTS-SHOP，基于微信小程序、Spring Boot、Vue构建，支持单店铺、多店铺入驻的商城平台。
+* [Lenosp](https://gitee.com/zzdevelop/lenosp)：Lenosp是基于Spring Boot的脚手架，提供完善社区文档教程。
+* [Mall4j](https://gitee.com/gz-yami/mall4j)：Mall4j商城系统致力于为中小企业打造一个完整、易于维护的开源的电商商城系统，采用现阶段流行技术实现。
+* [Unimall](https://gitee.com/iotechn/unimall)：Unimall针对中小商户、企业和个人学习者开发。
+* [Timo](https://gitee.com/aun/Timo)：基于Spring Boot 2.0、Spring Data JPA、Thymeleaf、Shiro开发的后台管理系统。
+* [Echo](https://gitee.com/veal98/Echo)：Echo是一套前后端不分离的开源社区系统，基于目前主流Java Web技术栈，并提供详细的开发文档和配套教程。
+* [KxMall](https://gitee.com/zhengkaixing/kxmall)：KxMall生鲜商城，同时支持微信小程序、H5、安卓APP、苹果APP。
+* [ViewData](https://gitee.com/smartshop-mall/viewdata)：开源电商商城项目。
+* [MallPlus](https://gitee.com/catshen/mallplus)：基于Spring Boot、MyBatis Plus的电商系统，包括前台商城系统及后台管理系统。
+* [BizSpring](https://github.com/BizSpringSource/bizspring-vue3-opensource)：BizSpring商城、跨境电商，专注精品独立站。
+* [YouLai Mall](https://gitee.com/youlaitech/youlai-mall)：YouLai Mall是基于Spring Boot 3 、Spring Cloud & Alibaba 2022、Vue 3、Element Plus、UniApp等全栈主流技术栈构建的开源商城项目。
+* [YShop](https://github.com/guchengwuyue/yshopmall)：YShop是基于当前流行技术组合的前后端分离商城系统，由郑州意象网络科技公司开发。
+* [GuliMall](https://gitee.com/agoni_no/gulimall)：GuliMall项目致力于打造一个完整的电商系统，采用现阶段流行技术实现。
+* [WaynBoot](https://github.com/wayn111/waynboot-mall)：WaynBoot Mall是一套全部开源的H5商城项目，包含运营后台、H5商城前台和后端接口三个项目。
+* [Xiaoxiang](https://gitee.com/xiaoxiangopen/mall)：小象智慧农庄是采用Java开发的B2C商城系统。
+* [TMall](https://gitee.com/project_team/Tmall_demo)：一个基于Spring Boot的综合性B2C电商平台，需求设计主要参考天猫商城的购物流程。
+* [Morning](https://gitee.com/morning-pro/Morning)：猫宁Morning公益商城是中国公益性在线电子商城。
+* [XMall](https://github.com/Exrick/xmall)：基于SOA架构的分布式电商购物商城。
+* [Newbee Mall](https://github.com/newbee-ltd/newbee-mall)：Newbee Mall是一套电商系统，包括基础版本、前后端分离版本。
+* [Paas Cloud](https://github.com/paascloud/paascloud-master)：Spring Cloud、Vue、OAuth2.0全家桶实战，前后端分离模拟商城，完整的购物流程、后端运营平台，可以实现快速搭建企业级微服务项目。
+* [Weiit SaaS](https://gitee.com/wei-it/weiit-saas)：Weiit SaaS是完全开源电商SaaS系统。
+* [Open Mall](https://gitee.com/brother-ting/om)：Open Mall项目致力于打造分布式开源电商平台(社区团购、跨境电商、垂直电商、商城小程序、H5电商平台)。
+* [SHOPTNT](https://gitee.com/bbc-se/api)：SHOPTNT商城是使用Java语言开发，基于Spring Boot架构体系构建的一套B2B2C商城。
+* [Mall Swarm](https://github.com/macrozheng/mall-swarm)：Mall Swarm是一套微服务商城系统，采用了Spring Cloud 2023、Spring Boot 3.2、Sa-Token、MyBatis、Elasticsearch、Docker、Kubernetes等核心技术。
+* [NutzWk](https://gitee.com/wizzer/NutzWk)：本商城系统专注赋能开发者，匠心打造的商城源码支持多场景电商系统。
+* [Mall](https://gitee.com/zscat/mall)：Mall项目是一套电商系统，包括前台商城系统及后台管理系统、小程序、H5，基于Spring Boot + MyBatis实现。
 
 ## QA系统
 
@@ -7108,9 +7161,6 @@ permalink: /javalibs
 
 * [Broadleaf Commerce](https://github.com/BroadleafCommerce/BroadleafCommerce)：Broadleaf Commerce CE是一个完全用Java编写并利用Spring框架的电子商务框架。
 * [SAP Commerce](https://www.sap.com/products/crm/commerce-cloud.html)：SAP Commerce是一个使用Java、基于Spring MVC框架的电子商务平台。
-* [Lilishop](https://gitee.com/beijing_hongye_huicheng/lilishop)：Lilishop是基于Spring Boot的开源商城，由北京宏业汇成科技公司开发。
-* [YouLai Mall](https://gitee.com/youlaitech/youlai-mall)：YouLai Mall是基于Spring Boot 3 、Spring Cloud & Alibaba 2022、Vue 3、Element Plus、UniApp等全栈主流技术栈构建的开源商城项目。
-* [YShop](https://github.com/guchengwuyue/yshopmall)：YShop是基于当前流行技术组合的前后端分离商城系统，由郑州意象网络科技公司开发。
 * [Q-Calculator](https://github.com/CyrilFeng/Q-calculator)：Stateless高性能优惠叠加计算框架。
 * [Shopizer](https://github.com/shopizer-ecommerce/shopizer)：Java开源电子商务软件。
 * [Axelor Open Platform](https://github.com/axelor/axelor-open-suite)：Axelor开放平台是一个开源Java框架，用于创建现代商业应用程序。
@@ -7336,6 +7386,7 @@ permalink: /javalibs
 * [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
 * [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
 * [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
+* [MallChat](https://github.com/zongzibinbin/MallChat)：抹茶聊天是一个IM项目，通过Netty实现和前端的WebSocket连接。
 * [Aurora IMUI](https://github.com/jpush/aurora-imui)：Aurora IMUI是一个通用的IM UI组件库，不依赖于任何特定的IM SDK，极光开源。
 * [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
 * [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty、TCP、Protobuf实现的Android IM库。
@@ -8646,6 +8697,7 @@ permalink: /javalibs
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
 * [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
 * [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
+* [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
 * [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
 * [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
@@ -9621,6 +9673,7 @@ permalink: /javalibs
 * [HDFS](https://github.com/apache/hadoop)：Hadoop软件库是一个框架，允许使用简单的编程模型跨计算机集群分布式处理大型数据集，由Yahoo开源。
 * [Jimfs](https://github.com/google/jimfs)：Jimfs是Java 8及更高版本的内存文件系统，实现了java.nio.file抽象文件系统API，由Google开源。
 * [DCache](https://github.com/dCache/dcache)：DCache是一个用于存储和检索分布在大量异构服务器节点中数据的系统，由费米实验室、德国电子加速器、北欧数据网格设施共同开源。
+* [Ruyuan](https://gitee.com/suzhou-mopdila-information/ruyuan-dfs)：本项目是使用Java开发的一个分布式海量小文件存储系统，功能包括文件上传、文件下载、文件存储等。
 * [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统，由柏林自由大学开源。
 * [Memory File System](https://github.com/marschall/memoryfilesystem)：用于测试目的的JSR-203文件系统的内存实现。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
@@ -11258,7 +11311,6 @@ permalink: /javalibs
 * [Spring Cloud Learning](https://github.com/forezp/SpringCloudLearning)：史上最简单的Spring Cloud教程源码。
 * [Spring Boot Learning Example](https://github.com/JeffLi1993/springboot-learning-example)：Spring Boot实践学习案例，是Spring Boot初学者及核心技术巩固的最佳实践。
 * [Spring Boot Learning](https://github.com/dyc87112/SpringBoot-Learning)：打造全网内容最全，比收费教程更好的Spring Boot免费教程。
-* [Paas Cloud](https://github.com/paascloud/paascloud-master)：Spring Cloud + Vue + OAuth2.0全家桶实战，前后端分离模拟商城，完整的购物流程、后端运营平台，可以实现快速搭建企业级微服务项目。
 * [Spring Boot Learning](https://github.com/loda-kun/spring-boot-learning)：Spring Boot、Spring Cloud完整指南，越南语示例代码。
 * [Spring Petclinic](https://github.com/spring-projects/spring-petclinic)：Spring Petclinic是一个使用Maven或Gradle构建的Spring Boot应用程序。
 * [Mini Spring Cloud](https://github.com/DerekYRC/mini-spring-cloud)：Mini Spring Cloud是简化版的Spring Cloud框架，能帮助你快速熟悉Spring Cloud源码及掌握其核心原理。
