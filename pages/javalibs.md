@@ -224,6 +224,7 @@ permalink: /javalibs
   * [差分隐私](#差分隐私)
   * [计算机视觉](#计算机视觉)
   * [光学字符识别](#光学字符识别)
+  * [语音识别](#语音识别)
 * [SMT求解器](#SMT求解器)
 * [实体解析](#实体解析)
 * [数据科学](#数据科学)
@@ -4935,6 +4936,14 @@ permalink: /javalibs
 * [RapidOcr Java](https://github.com/MyMonsterCat/RapidOcr-Java)：Java代码实现调用RapidOCR。
 * [Java OCR API](https://github.com/Asprise/java-ocr-api)：Java OCR允许你对图像(JPEG、PNG、TIFF、PDF等)执行OCR和条形码识别，并输出为纯文本、具有完整坐标的XML以及可搜索的PDF。
 
+#### 语音识别
+
+* [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
+* [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由美国卡内基梅隆大学开发。
+* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
+* [JARVIS Speech API](https://github.com/lkuza2/java-speech-api)：JARVIS Speech API的设计简洁高效，使用Google开发的语音引擎来提供部分API功能。
+* [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
+
 ## SMT求解器
 
 * [Alloy](https://github.com/AlloyTools/org.alloytools.alloy)：Alloy是一个独立的可执行文件，其中包括Kodkod模型查找器和各种SAT求解器，由MIT开源。
@@ -9246,7 +9255,6 @@ permalink: /javalibs
 * [LavaPlayer](https://github.com/sedmelluq/lavaplayer)：LavaPlayer是一个用Java编写的音频播放器库，它可以从各种源加载音轨并将其转换为Opus帧流，专为Discord机器人使用而设计。
 * [Quick Media](https://github.com/liuyueyi/quick-media)：多媒体处理Web服务。
 * [OmRecorder](https://github.com/kailash09dabhi/OmRecorder)：一个简单的Pcm/Wav录音机。
-* [Sphinx-4](https://github.com/cmusphinx/sphinx4)：纯Java语音识别库，由美国卡内基梅隆大学开发。
 * [Photon](https://github.com/Netflix/photon)：Photon是IMF标准的Java实现，由Netflix开源。
 * [Concentus](https://github.com/lostromb/concentus)：Opus音频编解码器的纯可移植C#和Java实现。
 * [WVP-GB28181](https://github.com/648540858/wvp-GB28181-pro)：Web Video Platform是一个基于GB28181-2016标准实现的开箱即用的网络视频平台，负责实现核心信令与设备管理后台部分，支持NAT穿透，支持海康、大华、宇视等品牌的IPC、NVR接入。
