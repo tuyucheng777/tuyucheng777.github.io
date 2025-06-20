@@ -4,6 +4,10 @@
     font-family: Microsoft YaHei,"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
+a {
+    text-decoration: underline !important;
+}
+
 /** Header **/
 .site-header{
     padding-top:20px;

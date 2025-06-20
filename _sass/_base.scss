@@ -8,7 +8,15 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+a {
+  text-decoration: underline;
 
+  &:hover {
+    text-decoration: underline;
+    // 或者可以改为其他颜色/样式
+    // text-decoration: underline dotted;
+  }
+}
 
 /**
  * Basic styling
