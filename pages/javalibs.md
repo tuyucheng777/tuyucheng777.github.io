@@ -20,6 +20,7 @@ permalink: /javalibs
   * [RPC框架](#RPC框架)
   * [JSF框架](#JSF框架)
   * [REST框架](#REST框架)
+  * [WebService框架](#WebService框架)
   * [微服务框架](#微服务框架)
   * [Spring Cloud](#Spring-Cloud)
   * [CQRS框架](#CQRS框架)
@@ -606,7 +607,6 @@ permalink: /javalibs
 * [JavaME](#JavaME)
 * [JavaCard](#JavaCard)
 * [Wikipedia](#Wikipedia)
-* [WebService](#WebService)
 * [银行账号操作](#银行账号操作)
 * [用户代理解析](#用户代理解析)
 * [语义发布工具](#语义发布工具)
@@ -803,7 +803,7 @@ permalink: /javalibs
 * [Eclipse Jersey](https://github.com/eclipse-ee4j/jersey)：Jersey是一个REST框架，提供JAX-RS参考实现等，由Oracle开源。
 * [Dropwizard](https://github.com/dropwizard/dropwizard)：Dropwizard是一个Java框架，用于开发操作友好、高性能、RESTful Web Service，由Yammer开源。
 * [RESTEasy](https://github.com/resteasy/resteasy)：RESTEasy是一个JBoss项目，旨在为使用Java开发客户端和服务器RESTful应用程序和服务提供生产力框架，由RedHat开源。
-* [Apache CXF](https://github.com/apache/cxf)：CXF提供了用于方便地构建和开发Web Service的可靠基础架构。
+* [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
 * [Bootique](https://github.com/bootique/bootique)：Bootique是一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序，由ObjectStyle开源。
 * [RESTX](https://github.com/restx/restx)：RESTX是一个完整的轻量级颠覆性堆栈，其中包括类似Swagger的UI并将REST规范测试视为文档。
 * [Spray](https://github.com/spray/spray)：Spray是一套轻量级的Scala库，用于在Akka之上构建和使用RESTful Web服务。
@@ -831,6 +831,15 @@ permalink: /javalibs
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
 * [Conjure Java Runtime](https://github.com/palantir/conjure-java-runtime)：该项目提供了一组固定的库，用于定义和创建RESTish/RPC服务器和客户端，基于Feign作为客户端，以Dropwizard/Jersey和JAX-RS服务定义作为服务器，由Palantir开源。
 * [Utterlyidle](https://github.com/bodar/utterlyidle)：另一个受JSR 311优点启发的Java REST库。
+
+#### WebService框架
+
+* [JAX-WS](https://github.com/eclipse-ee4j/metro-jax-ws)：该项目包含Jakarta XML Web Service、Jakarta Web Services Metadata和Jakarta XML Web Services规范实现。
+* [Apache WS](https://ws.apache.org/)：Apache WS汇聚了众多与Web Service相关的项目，涵盖从基础XML解析器到WS标准集的各种内容。
+* [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
+* [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一款产品，专注于创建文档驱动的Web服务。
+* [SOAP WS](https://github.com/reficio/soap-ws)：SOAP WS是一个轻量级且易于使用的Java库，它包装了Spring WS并支持在纯XML级别处理SOAP。
+* [Membrane SOA Model](https://github.com/membrane/soa-model)：Membrane SOA Model是用于WSDL和XML Schema的开源工具包和Java API。
 
 #### 微服务框架
 
@@ -1827,7 +1836,7 @@ permalink: /javalibs
 * [Argus](https://github.com/arguslab/Argus-SAF)：Argus SAF是一个静态分析框架，用于对Android应用程序进行安全审查，由堪萨斯州立大学和南卡罗来纳大学开源。
 * [SWAN](https://github.com/themaplelab/swan)：SWAN是一个静态程序分析框架，支持对Swift应用程序进行深度数据流分析，由阿尔伯塔大学开源。
 * [Semgrep](https://github.com/semgrep/semgrep)：Semgrep是一种快速、开源、静态分析工具，用于在编辑期、提交和CI时搜索代码、查找错误并强制执行代码标准。
-* [CodeFuse-Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse-Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
+* [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse-Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：Tai-e是一个易于学习/使用的Java静态分析框架，由南京大学开源。
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，由Microsoft开发。
@@ -2875,6 +2884,7 @@ permalink: /javalibs
 * [Apache ServiceMix](https://github.com/apache/servicemix)：ServiceMix是一个灵活的开源集成容器，它将ActiveMQ、Camel、CXF和Karaf的特性和功能成为一个强大的运行时平台，你可以使用它来构建自己的集成解决方案。它提供了一个完全由OSGi提供支持的企业级ESB。
 * [Bus](https://github.com/839128/bus)：Bus是一个基础框架、服务套件，它基于Java 17编写，参考、借鉴了大量已有框架、组件的设计，可以作为后端服务的开发基础中间件。
 * [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 ESB是一款轻量级、高性能、接近零延迟的产品，为SOAP、WS和REST等多种不同技术以及SAP或HL7等特定领域的解决方案和协议提供全面支持。
+* [JBoss Fuse](https://github.com/jboss-fuse/fuse)：JBoss Fuse是一个开源ESB，其功能基于Apache Camel、Apache CXF、Apache ActiveMQ、Apache Karaf和Fabric8，集成在一个发行版中。
 
 ## 分布式开发
 
@@ -2994,6 +3004,7 @@ permalink: /javalibs
 * [Cleo](https://github.com/LinkedInAttic/cleo)：Cleo是一个灵活的软件库，用于快速开发部分、无序和实时的预输入搜索，由LinkedIn开源。
 * [OpenSearchServer](https://github.com/jaeksoft/opensearchserver)：OpenSearchServer是一款功能强大的、基于Lucene的企业级搜索引擎软件。
 * [Bobo](https://github.com/senseidb/bobo)：Bobo是一个用Java编写的多面搜索引擎，由LinkedIn开源。
+* [OpenK9](https://github.com/smclab/openk9)：OpenK9是一款完整的认知企业搜索解决方案，由SMC Treviso开源。
 * [Loklak](https://github.com/loklak/loklak_server)：Loklak是一个服务器应用程序，能够从各种来源收集消息，包括Twitter，服务器包含搜索索引和点对点索引共享接口。
 * [Kooder](https://gitee.com/koode/kooder)：Kooder是Gitee团队开发的一个代码搜索系统，为Gitee/GitLab/Gitea提供代码搜索服务。
 * [IndexTank](https://github.com/LinkedInAttic/indextank-engine)：该项目包含IndexTank搜索引擎实现，包括变量(提升)、类别、分面搜索、片段、自定义评分函数、建议和自动完成等功能，由LinkedIn开源。
@@ -10763,21 +10774,6 @@ permalink: /javalibs
 * [JWiki](https://github.com/fastily/jwiki)：用于轻松与Wikipedia/MediaWiki交互的库。
 * [DBpedia](https://github.com/dbpedia/extraction-framework)：DBpedia旨在从Wikipedia中提取结构化信息并将这些信息发布到网络上。
 * [JWPL](https://github.com/dkpro/dkpro-jwpl)：JWPL是一个基于Java的免费应用程序编程接口，允许访问维基百科中的所有信息，由达姆施塔特工业大学开源。
-
-## WebService
-
-* [Apache CXF](https://github.com/apache/cxf)：CXF提供了用于方便地构建和开发Web Service的可靠基础架构。
-* [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一个产品，专注于创建文档驱动的Web服务。
-* [Apache Axis2](https://axis.apache.org/axis2/java/core/index.html)：Axis2是一个Web Services JSON/SOAP/WSDL引擎，是广泛使用的Axis SOAP堆栈的继承者。
-* [Apache Axiom](https://ws.apache.org/axiom/)：Axiom库提供了符合XML Infoset的对象模型实现，支持按需构建对象树。
-* [Apache Woden](https://ws.apache.org/woden/)：Woden库是作为Apache Web Services项目的子项目开发的，提供用于读取、操作、创建和编写WSDL文档的Java API。
-* [Libre-wsdl4j](https://github.com/librewsdl4j/libre-wsdl4j)：Libre-wsdl4j是WSDL4J 1.6.3的一个分支，WSDL4j是WSDL的Java存根生成器。
-* [WSDL2REST](https://github.com/jboss-fuse/wsdl2rest)：一种允许从现有JAX-WS服务快速迁移到REST服务的工具。
-* [SOA Model](https://github.com/membrane/soa-model)：SOA Model是一个开源工具包和用于WSDL、XML Schema的Java API。
-* [SOAP WS](https://github.com/reficio/soap-ws)：SOAP WS是一个轻量级且易于使用的Java库，它包装了Spring-WS并支持在纯XML级别处理SOAP。
-* [jPasskit](https://github.com/drallgood/jpasskit)：jPasskit是Apple PassKit Web Service的Java实现。
-* [OpenMRS REST Web Services](https://github.com/openmrs/openmrs-module-webservices.rest)：为OpenMRS提供RESTful Web服务。
-* [Apache WSS4J](https://github.com/apache/ws-wss4j)：WSS4J项目提供了Web Services主要安全标准的Java实现，即OASIS Web Services Security(WS-Security)规范。
 
 ## 银行账号操作
 
