@@ -1896,23 +1896,23 @@ permalink: /javalibs
 * [Oracle OpenJDK](https://github.com/openjdk/jdk)：Oracle开源的OpenJDK官方版本。
 * [Amazon Corretto](https://github.com/corretto/corretto-8)：Amazon Corretto是OpenJDK的免费、多平台、生产就绪发行版。
 * [Eclipse Temurin](https://github.com/adoptium/temurin-build)：Eclipse基金会下的JDK版本，由Adoptium工作组开源。
-* [BellSoft Liberica](https://github.com/bell-sw/Liberica)：BellSoft Liberica JDK是OpenJDK的一个版本。
+* [BellSoft Liberica](https://github.com/bell-sw/Liberica)：Liberica JDK是由BellSoft出品的一款免费开源Java开发工具包。
 * [GraalVM](https://github.com/oracle/graal)：GraalVM是Oracle开源的一个高性能JDK发行版，可提前将Java应用程序编译成独立的二进制文件。
 * [Microsoft OpenJDK](https://github.com/microsoft/openjdk)：Microsoft OpenJDK是一个新的免费长期支持发行版。
-* [Azul Zulu](https://www.azul.com/zh-hans/core/)：Azul开源的JDK版本。
+* [Azul Zulu](https://www.azul.com/zh-hans/core/)：Azul Zulu是经过TCK测试和认证的开源OpenJDK构建版本。
 * [IBM Semeru](https://www.ibm.com/support/pages/java-sdk-downloads)：IBM开源的JDK版本，基于OpenJ9构建。
 * [RedHat JDK](https://developers.redhat.com/products/openjdk/download)：RedHat版本的OpenJDK是Java SE的开源实现。
 * [JetBrains Runtime](https://github.com/JetBrains/JetBrainsRuntime)：JetBrains Runtime是OpenJDK的一个分支，适用于Windows、Mac OS X和Linux。
 * [OpenLogic](https://www.openlogic.com/openjdk-downloads)：Perforce公司开源的OpenLogic为Linux、Windows和MacOS提供免费的OpenJDK 8、11、17和21季度版本。
-* [VMS OpenJDK](https://vmssoftware.com/products/openjdk/)：VMS软件公司的OpenJDK免费开源实现。
 * [SapMachine](https://github.com/SAP/SapMachine)：SapMachine是SAP维护的OpenJDK的一个发行版。
 * [Apache Harmony](https://harmony.apache.org/)：Apache Harmony旨在创建一个兼容Java SE 5和Java SE 6标准的完整、独立的Java运行时环境，主要由IBM开发。
+* [Canonical OpenJDK](https://ubuntu.com/toolchains/java)：Canonical为Ubuntu构建的OpenJDK，提供长达12年的安全维护。
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里巴巴Dragonwell是OpenJDK的下游版本，也是阿里内部的OpenJDK实现。
 * [Tencent Kona](https://github.com/Tencent/TencentKona-8)：腾讯Kona是OpenJDK的免费、生产就绪发行版，提供长期支持和季度更新。
 * [Huawei Bisheng](https://gitee.com/openeuler/bishengjdk-8)：毕昇JDK是华为内部OpenJDK定制版Huawei JDK的开源版本，是一个高性能、可用于生产环境的OpenJDK发行版。
 * [CompoundVM](https://github.com/bytedance/CompoundVM)：CVM是一个旨在将高版本JVM的性能提升到低版本JDK的项目，你可以几乎零成本地升级项目，并在应用程序上运行高级JVM功能，由字节开发。
 * [Loongson JDK](https://github.com/loongson/jdk)：龙芯平台Java环境是龙芯公司基于OpenJDK自主研发的MIPS版本。
-* [RunSoon OpenJDK](https://www.digitalchina.com/product/details10.html)：神州数码提供的基于OpenJDK的企业级JVM版本。
+* [RunSoon OpenJDK](https://clmarket.e-bridge.com.cn/clmarket/#/clmarket/index)：楠竹OpenJDK由神州数码提供支持，并拥有合同规定的SLA。
 * [坤泽JDK](https://www.primeton.com/products/jdk/)：坤泽JDK是基于OpenJDK进行信创适配与增强、一款高性能、可用于生产环境的商业发行版，由普元提供。
 
 ## JVM实现
@@ -4660,9 +4660,11 @@ permalink: /javalibs
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
-* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：为模型上下文协议提供Java SDK集成的一组项目。
+* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：适用于MCP服务器和客户端的官方Java SDK，由VMware开发。
+* [A2A Java](https://github.com/a2aproject/a2a-java)：A2A Java提供了A2A协议的Java服务器实现，由RedHat开发。
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
+* [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
 
 #### 代理框架
@@ -6991,7 +6993,7 @@ permalink: /javalibs
 * [Nussknacker](https://github.com/TouK/nussknacker)：Nussknacker是一款低代码可视化工具，可供领域专家构建、运行和监控实时决策算法，而不是在代码中实现它们。
 * [JeeLowCode](https://gitee.com/jeelowecode/JeeLowCode)：JeeLowCode是一款基于芋道源码精心二次封装的企业级低代码开发框架。
 * [Gemini](https://github.com/gemini-projects/gemini)：云原生和低代码平台，可在几分钟内创建全栈Web管理应用程序。
-* [Oinone](https://oinone.top/)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
+* [Oinone](https://gitee.com/oinone/oinone-pamirs)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
 * [MuYun](https://github.com/ximatai/MuYun)：MuYun是一个云原生、开发者优先、前后端分离、按需插拔的轻代码平台。
 * [Aware IM](https://www.awareim.com/)：Aware IM是一款低代码Web应用构建器，专为快速、稳定且可扩展的开发而设计，由Awaresoft开发。
 
@@ -7269,6 +7271,7 @@ permalink: /javalibs
 
 * [DB2Rest](https://github.com/kdhrubo/db2rest)：DB2Rest是一个现代低代码REST Data API平台，可以轻松构建智能应用程序。
 * [Spring Data REST](https://github.com/spring-projects/spring-data-rest)：该项目的目标是提供一种灵活且可配置的机制来编写可以通过HTTP公开的简单服务。
+* [SQLREST](https://gitee.com/inrgihc/sqlrest)：SQLREST是一个开源项目，旨在提供一种简单而强大的方式来将SQL查询转化为RESTful API。
 
 ## POS
 
