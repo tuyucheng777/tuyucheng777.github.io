@@ -285,7 +285,7 @@
 * [注解处理器](docs/doc2.md#注解处理器)
 * [字符串工具库](docs/doc2.md#字符串工具库)
 * [字符串插值](docs/doc2.md#字符串插值)
-* [Java 9-22](docs/doc2.md#9-22特性)
+* [Java 9-25](docs/doc2.md#9-25特性)
 * [接口文档](docs/doc2.md#接口文档)
 * [技术文档](docs/doc2.md#技术文档)
 * [Javadoc](docs/doc2.md#Javadoc)
@@ -423,6 +423,7 @@
   * [JavaFX图标库](docs/doc3.md#JavaFX图标库)
   * [JavaFX布局库](docs/doc3.md#JavaFX布局库)
   * [JavaFX渲染库](docs/doc3.md#JavaFX渲染库)
+  * [键盘鼠标监听器](docs/doc3.md#键盘鼠标监听器)
   * [浏览器](docs/doc3.md#浏览器)
   * [JavaFX小工具](docs/doc3.md#JavaFX小工具)
   * [GUI程序](docs/doc3.md#GUI程序)
@@ -453,6 +454,7 @@
 * [热加载](docs/doc3.md#热加载)
 * [类加载](docs/doc3.md#类加载)
 * [RISC-V](docs/doc3.md#RISC-V)
+* [MIPS](docs/doc3.md#MIPS)
 * [汇编](docs/doc3.md#汇编)
 * [LLVM](docs/doc3.md#LLVM)
 * [WebAssembly](docs/doc3.md#WebAssembly)
@@ -1612,7 +1614,8 @@
 * [Async Profiler](https://github.com/async-profiler/async-profiler)：该项目是一个低开销的Java采样分析器，不会遇到安全点偏差问题。
 * [JVM Profiler](https://github.com/uber-common/jvm-profiler)：JVM Profiler提供了一个Java Agent，以分布式方式收集Hadoop/Spark JVM进程的各种指标和堆栈跟踪，例如CPU/内存/IO指标，由Uber开源。
 * [TProfiler](https://github.com/alibaba/TProfiler)：TProfiler是一个可以在生产环境长期使用的性能分析工具，由阿里开源。
-* [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：NetBeans IDE的内置分析器。
+* [IntelliJ Profiler](https://lp.jetbrains.com/intellij-idea-profiler/)：IntelliJ Profiler是一款简单但功能强大的CPU和内存分配分析工具，由JetBrains开发。
+* [NetBeans Profiler](https://github.com/apache/netbeans/tree/master/profiler)：NetBeans Profiler与Oracle的开源NetBeans IDE捆绑在一起。
 * [Greys](https://github.com/oldmanpushcart/greys-anatomy)：Greys是一个JVM进程执行过程中的异常诊断工具，可以在不中断程序执行的情况下轻松完成问题排查工作。
 * [HouseMD](https://github.com/CSUG/HouseMD)：HouseMD是淘宝写的一个非常优秀的Java进程运行时诊断和调试工具。
 * [Bistoury](https://github.com/qunarcorp/bistoury)：Bistoury是去哪儿开源的一个对应用透明、无侵入的Java应用诊断工具，用于提升开发人员的诊断效率和能力。
@@ -3903,7 +3906,7 @@
 
 * [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
 * [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
-* [Embabel](https://github.com/embabel/embabel-agent)：用于在JVM上编写代理流的框架，将LLM触发的交互与代码和领域模型无缝融合。
+* [Embabel](https://github.com/embabel/embabel-agent)：Embabel是一个在JVM上编写代理流的框架，它将LLM触发的交互与代码和领域模型无缝融合。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 
 #### 机器学习
