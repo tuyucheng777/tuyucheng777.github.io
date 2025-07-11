@@ -185,8 +185,8 @@ permalink: /javalibs
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
-* [Logback Appender](#Logback-Appender)
-* [结构化日志](#结构化日志)
+  * [Logback Appender](#Logback-Appender)
+  * [结构化日志](#结构化日志)
 * [序列化](#序列化)
   * [Protocol Buffer](#Protocol-Buffer)
   * [CBOR](#CBOR)
@@ -434,6 +434,7 @@ permalink: /javalibs
 * [安卓库](#安卓库)
 * [GUI开发/程序](#GUI开发程序)
   * [GUI框架](#GUI框架)
+  * [移动开发框架](#移动开发框架)
   * [Swing](#Swing)
   * [Swing主题库](#Swing主题库)
   * [Swing UI库](#Swing-UI库)
@@ -477,14 +478,15 @@ permalink: /javalibs
 * [游戏开发](#游戏开发)
   * [游戏引擎](#游戏引擎)
   * [游戏服务器](#游戏服务器)
+  * [2D/3D渲染](#2D3D渲染)
   * [游戏开发库](#游戏开发库)
+  * [碰撞检测](#碰撞检测)
   * [寻路算法](#寻路算法)
   * [实体框架](#实体框架)
   * [游戏编辑器](#游戏编辑器)
   * [开源游戏](#开源游戏)
   * [游戏开发工具](#游戏开发工具)
-* [2D/3D渲染](#2D3D渲染)
-* [移动开发框架](#移动开发框架)
+  * [虚拟现实](#虚拟现实)
 * [JVM代理](#JVM代理)
 * [热加载](#热加载)
 * [类加载](#类加载)
@@ -929,6 +931,7 @@ permalink: /javalibs
 * [JdonFramework](https://github.com/banq/jdonframework)：JdonFramework是一个支持Pub-Sub异步编程模型的领域事件框架。
 * [PostgreSQL Event Sourcing](https://github.com/eugene-khyst/postgresql-event-sourcing)：这是一个使用PostgreSQL作为事件存储的事件源系统的参考实现，并使用Spring Boot构建。
 * [Reveno](https://github.com/dmart28/reveno)：Reveno是一款基于JVM、速度极快、持久耐用且简洁易用的异步事务处理框架。
+* [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
 * [Sourcerer](https://github.com/elder-oss/sourcerer)：Sourcerer是一个固执己见、功能性且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构，由Elder开发。
@@ -1881,9 +1884,10 @@ permalink: /javalibs
 * [Argus](https://github.com/arguslab/Argus-SAF)：Argus SAF是一个静态分析框架，用于对Android应用程序进行安全审查，由堪萨斯州立大学和南卡罗来纳大学开源。
 * [SWAN](https://github.com/themaplelab/swan)：SWAN是一个静态程序分析框架，支持对Swift应用程序进行深度数据流分析，由阿尔伯塔大学开源。
 * [Semgrep](https://github.com/semgrep/semgrep)：Semgrep是一种快速、开源、静态分析工具，用于在编辑期、提交和CI时搜索代码、查找错误并强制执行代码标准。
-* [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse-Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
+* [CodeFuse Query](https://github.com/codefuse-ai/CodeFuse-Query)：CodeFuse Query是一种强大的静态代码分析平台，适合大规模、复杂的代码库分析场景，由蚂蚁CodeFuse团队开发。
 * [Find Security Bugs](https://github.com/find-sec-bugs/find-sec-bugs)：Find Security Bugs是用于Java Web应用程序安全审核的SpotBugs插件，由OWASP开源。
 * [Tai-e](https://github.com/pascal-lab/Tai-e)：Tai-e是一个易于学习/使用的Java静态分析框架，由南京大学开源。
+* [CodeCC](https://github.com/TencentBlueKing/bk-codecc)：CodeCC提供专业的代码检查解决方案及服务，为产品质量保驾护航，由腾讯开源。
 * [TLAPlus](https://github.com/tlaplus/tlaplus)：TLC是一个显式状态模型检查器，用于检查以TLA+编写的规范，由Microsoft开发。
 * [NullAway](https://github.com/uber/NullAway)：NullAway是一个帮助消除Java代码中的NPE的工具，由Uber开源。
 * [CodeCompass](https://github.com/Ericsson/CodeCompass)：CodeCompass是一个用C/C++和Java编写的大型软件的软件理解工具，由爱立信开源。
@@ -2594,6 +2598,7 @@ permalink: /javalibs
 * [AAChartCore](https://github.com/AAChartModel/AAChartCore)：AAChartCore是AAChartKit的Java语言版本，基于流行的开源前端图表库Highcharts的一套易于使用、极其优雅的图形绘制控件。
 * [Super Mjograph](https://www.mjograph.net/)：Mjograph是一款在Mac OSX和Java上运行的XY(2D)图形编辑器，旨在为研究人员提供一种快速的方法来可视化数值数据并创建出版质量的绘图。
 * [ALITA](https://github.com/didi/ALITA)：ALITA是一个基于层的数据分析工具，由滴滴开源。
+* [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
 
 #### 数据目录
 
@@ -3945,7 +3950,7 @@ permalink: /javalibs
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
 * [Journal.IO](https://github.com/sbtourist/Journal.IO)：Journal.IO是一种轻量级、快速且易于使用的日志存储实现，基于仅追加旋转日志和校验和可变长度记录，支持并发读写、动态批处理、可调持久性和数据压缩。
 
-## Logback Appender
+#### Logback Appender
 
 * [Logback Elasticsearch Appender](https://github.com/internetitem/logback-elasticsearch-appender)：将日志事件直接从Logback发送到Elasticsearch。
 * [Logstash Logback Encoder](https://github.com/logfellow/logstash-logback-encoder)：Logback JSON编码器和附加器。
@@ -3964,7 +3969,7 @@ permalink: /javalibs
 * [GELFJ](https://github.com/t0xa/gelfj)：GELFJ是Java中非常简单的GELF实现，带有Log4j附加程序和JDK日志处理程序。
 * [Logback MDC TTL](https://github.com/ofpay/logback-mdc-ttl)：Logback扩展，支持跨线程池的MDC跟踪。
 
-## 结构化日志
+#### 结构化日志
 
 * [Java Grok](https://github.com/thekrakken/java-grok)：使用Java Grok，你可以将非结构化日志和事件数据转换为结构化数据(JSON)。
 * [ECS Logging Java](https://github.com/elastic/ecs-logging-java)：ECS Logging Java可帮助开发者轻松地实现结构化日志。
@@ -5124,7 +5129,6 @@ permalink: /javalibs
 * [ROS 2 Java](https://github.com/ros2-java/ros2_java)：这是一组使开发人员能够为JVM和Android编写ROS 2应用程序的项目。
 * [YAGSL](https://github.com/BroncBotz3481/YAGSL)：YAGSL是一个由现任和前任BroncBotz导师为所有FRC团队开发的转向库。
 * [Caliko](https://github.com/FedUni/caliko)：Caliko库是Java语言FABRIK逆运动学(IK)算法的实现，由澳大利亚联邦大学开源。
-* [JBullet](http://jbullet.advel.cz/)：JBullet是Bullet物理库的Java端口。
 * [FTCVision](https://github.com/lasarobotics/FTCVision)：FTCVision是基于OpenCV的FTC计算机视觉库，由FRC 418团队开源。
 * [Maple SIM](https://github.com/Shenzhen-Robotics-Alliance/maple-sim)：利用物理引擎将FRC Java机器人模拟提升到新水平，由深圳市机器人产业联盟开源。
 * [JROSBridge](https://github.com/rctoris/jrosbridge)：原生Java EE ROSBridge客户端，由伍斯特理工学院开源。
@@ -6755,7 +6759,7 @@ permalink: /javalibs
 
 ## 编码规范
 
-* [Google Java Format](https://github.com/google/google-java-format)：一个重新格式化Java源代码以符合Google Java风格的程序。
+* [Google Java Format](https://github.com/google/google-java-format)：Google Java Format是一个重新格式化Java源代码以符合Google Java风格的程序。
 * [Spring Java Format](https://github.com/spring-io/spring-javaformat)：一组可应用于任何Java项目以提供一致的Spring风格的插件。
 * [Square Java Code Style](https://github.com/square/java-code-styles)：Square的Java和Android项目的IntelliJ IDEA代码样式设置。
 * [Spotless](https://github.com/diffplug/spotless)：Spotless是支持多种语言的代码格式化工具。
@@ -6776,19 +6780,17 @@ permalink: /javalibs
 
 ## 依赖分析
 
-* [DependencyCheck](https://github.com/jeremylong/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
+* [Dependency Track](https://github.com/DependencyTrack/dependency-track)：Dependency Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险，由OWASP开源。
+* [Dependency Check](https://github.com/dependency-check/DependencyCheck)：OWASP DependencyCheck是一种软件组合分析实用程序，可检测应用程序依赖中公开披露的漏洞。
 * [Depends](https://github.com/multilang-depends/depends)：Depends是一个源代码依赖提取工具，旨在从各种编程语言推断源代码实体(例如文件和方法)之间的语法关系。
 * [Jarviz](https://github.com/ExpediaGroup/jarviz)：Jarviz是专为Java应用程序设计的依赖分析和可视化工具，由Expedia开源。
 * [Classycle](https://classycle.sourceforge.net/)：Classycle可以分析Java应用程序或库中的静态类和包依赖关系。
 * [DepAn](https://github.com/google/depan)：DepAn是一个直接操作工具，用于可视化、分析和重构大型应用程序中的依赖关系，Google开源。
-* [JDependency](https://github.com/tcurdt/jdependency)：可帮助分析类级别依赖关系、冲突和缺失的类。
-* [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：Dependency-Track是一个智能组件分析平台，允许组织识别并降低软件供应链中的风险，由OWASP开源。
+* [JDependency](https://github.com/tcurdt/jdependency)：JDependency是一个小型库，可帮助你分析类级依赖关系、冲突和缺失类。
 * [Degraph](https://github.com/riy/degraph)：Degraph是一个用于可视化和测试JVM应用程序中的类和包依赖关系的工具。
 * [Depgraph Maven Plugin](https://github.com/ferstl/depgraph-maven-plugin)：该Maven插件在单个模块上生成依赖关系图，或者在多模块项目上以聚合形式生成依赖关系图。
-* [FASTEN](https://github.com/fasten-project/fasten)：在调用图级别分析包依赖网络的工具。
+* [FASTEN](https://github.com/fasten-project/fasten)：FASTEN项目是一个智能软件包管理系统，旨在增强软件生态系统的稳健性和安全性，由代尔夫特理工大学开源。
 * [MissingLink](https://github.com/spotify/missinglink)：用于检测Java项目中链接问题的构建时工具，由Spotify开源。
-* [JResolve-CLI](https://github.com/bowbahdoe/jresolve-cli)：用于解决JVM依赖的命令行工具。
-* [Dependency-Analysis](https://github.com/project-ncl/dependency-analysis)：该项目是一项服务，它提供有关已构建工件的信息并分析项目的依赖关系。
 * [OSS Review Toolkit](https://github.com/oss-review-toolkit/ort)：OSS Review Toolkit是一个FOSS策略自动化和编排工具包，你可以使用它以战略、安全和高效的方式管理你的软件依赖项。
 
 ## 污点分析
@@ -6826,6 +6828,7 @@ permalink: /javalibs
 * [Repsy](https://repsy.io/)：Repsy是下一代通用包仓库。
 * [Gemfury](https://gemfury.com/)：Gemfury是一项用于安全存储和部署代码包的托管服务。
 * [Hadess](https://github.com/tiklab-project/tiklab-hadess)：Hadess是一款开源、免费的制品管理工具，提供了高效、安全的制品存储和版本控制。
+* [FOLib](https://github.com/BoCloud/folib)：FOLib是一个为AI研发而生、全语言软件供应链服务平台。
 
 ## Java环境管理
 
@@ -6841,7 +6844,7 @@ permalink: /javalibs
 ## 代码属性图
 
 * [Code Property Graph](https://github.com/ShiftLeftSecurity/codepropertygraph)：CPG是一种可扩展且与语言无关的程序代码表示形式，专为增量和分布式代码分析而设计。
-* [Plume](https://github.com/plume-oss/plume)：Plume是一个代码表示基准测试库，可以选择从Java字节码中提取AST并将结果存储在各种图形数据库中，由Amazon开源。
+* [Plume](https://github.com/plume-oss/plume)：Plume是一个代码表示基准测试库，可以选择从Java字节码中提取AST并将结果存储在各种图数据库中，由Amazon开源。
 
 ## API变更管理
 
@@ -6976,6 +6979,7 @@ permalink: /javalibs
 * [Structr](https://github.com/structr/structr)：Structr是一个使用图数据库的集成低代码开发和运行时环境。
 * [DBAPI](https://gitee.com/freakchicken/db-api)：DBAPI是一个面向数仓开发人员的低代码工具，只需在页面上编写SQL，并配置好参数，就可以自动生成HTTP接口。
 * [Citrus](https://github.com/Yiuman/citrus)：低代码快速开发脚手架，灵活、高效。
+* [TinyEngine](https://github.com/opentiny)：TinyEngine支持开发者定制低代码平台，实时在线构建低代码平台，并支持二次开发或集成低代码平台能力，由华为开发。
 * [Convertigo](https://github.com/convertigo/convertigo)：Convertigo是一个开源的低代码和无代码平台，用于移动和Web应用程序开发以及后端即服务。
 * [Orienteer](https://github.com/OrienteerBAP/Orienteer)：Orienteer是一个灵活的业务应用平台，它可以让你构建功能齐全的专用企业应用程序，例如CRM、ERP、供应链管理应用程序等。
 * [Open Lowcode](https://github.com/openlowcode/Open-Lowcode)：Open Lowcode允许组织快速开发特定的应用程序，并以最低的预算扩展它们。
@@ -8389,8 +8393,19 @@ permalink: /javalibs
 * [NetBeans Platform](https://netbeans.apache.org/tutorial/main/kb/docs/platform/)：NetBeans Platform是一个广泛的Java框架，可以在其上构建大型桌面应用程序。
 * [QtJambi](https://github.com/OmixVisualization/qtjambi)：QtJambi是Java编程语言的Qt绑定，最初由Qt公司的前身Trolltech开发。
 * [Kotlin LibUI](https://github.com/msink/kotlin-libui)：libui是一个轻量级的C语言多平台UI库，使用此绑定，你可以开发跨平台且外观原生的GUI程序。
+* [ImGui](https://github.com/kotlin-graphics/imgui)：这是ImGui的Kotlin重写，一个用于C++的无膨胀图形用户界面库。
+* [ImGui Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
+* [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
+* [PolyUI](https://github.com/Polyfrost/polyui-jvm)：PolyUI是一个由Polyfrost开发的声明式UI框架。
 * [Membrane](https://github.com/phronmophobic/membrane)：Membrane提供了构建用户界面所需的所有工具。
 * [Apache Pivot](https://github.com/apache/pivot)：Pivot是一个用Java构建丰富互联网应用程序的平台，其中WTK工具包是它的图形组件，由VMware开源。
+
+#### 移动开发框架
+
+* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
+* [CodenameOne](https://github.com/codenameone/CodenameOne)：Codename One是面向Java和Kotlin开发人员的移动优先跨平台环境。
+* [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
+* [MobileUI](https://mobileui.dev/)：MobileUI是第一个适用于iOS和Android的基于Java的原生UI框架。
 
 #### Swing
 
@@ -8428,7 +8443,6 @@ permalink: /javalibs
 * [Material UI Swing](https://github.com/atarw/material-ui-swing)：适用于Java Swing的现代Material Design UI。
 * [Swing9patch](https://github.com/JackJiang2011/Swing9patch)：Swing9patch工程是一组很酷的Java Swing可重用组件或UI效果。
 * [SnapKit](https://github.com/reportmill/SnapKit)：SnapKit是一个现代Java UI库和工具，用于创建丰富的Java客户端应用程序。
-* [ImGui](https://github.com/kotlin-graphics/imgui)：这是ImGui的Kotlin重写，一个用于C++的无膨胀图形用户界面库。
 * [Lemur](https://github.com/jMonkeyEngine-Contributions/Lemur)：Lemur是用于在jMonkeyEngine应用程序中制作用户界面的GUI工具包。
 * [Griffon](https://github.com/griffon/griffon)：Griffon是JVM的桌面应用程序开发平台，受Grails的启发，Griffon利用了约定优于配置、模块化和选择自由等概念。
 * [JGoodies](https://www.jgoodies.com/downloads/libraries/)：JGoodies可帮助美化桌面应用程序并更快地构建设计良好、一致的视图。
@@ -8485,13 +8499,15 @@ permalink: /javalibs
 #### Swing图表库
 
 * [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
+* [Lets Plot](https://github.com/JetBrains/lets-plot)：Lets Plot是一个基于图形语法原理构建的多平台绘图库，由JetBrains开源。
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
 * [Ardor3D](https://github.com/Renanse/Ardor3D)：Ardor3D是一个基于Java的免费、面向专业的开源3D图形引擎。
 * [JGraphX](https://github.com/jgraph/jgraphx)：JGraphX是一个Java Swing图表库。
-* [Three Kt](https://github.com/markaren/three.kt)：流行的Three.js 3D库的Kotlin/JVM端口。
 * [Java-GTK](https://github.com/bailuk/java-gtk)：Java的GTK 4绑定。
 * [Mil Sym Java](https://github.com/missioncommand/mil-sym-java)：Mil Sym Java是一组陈旧的Java库，已在美国陆军任务指挥软件中使用多年。
+* [VTM](https://github.com/mapsforge/vtm)：OpenGL矢量地图库-在Android、iOS、桌面和浏览器上运行。
+* [JPlotter](https://github.com/hageldave/JPlotter)：使用AWT和LWJGL的基于OpenGL的Java 2D绘图库。
 
 #### Swing测试库
 
@@ -8807,6 +8823,7 @@ permalink: /javalibs
 * [ELamX2](https://github.com/AndiMb/eLamX2)：ELamX²是一款用Java编写的开源复合计算器，由德累斯顿工业大学航空航天工程学院飞机工程系主任开发。
 * [Autoplot](https://autoplot.org/)：Autoplot是一款用于网络数据的交互式浏览器，由NASA等组织开发。
 * [Underscore Backup](https://underscorebackup.com/)：Underscore Backup是一款数据备份和恢复解决方案，主要用于Windows和Mac操作系统，提供了一种安全、高效的方式来备份用户的数据。
+* [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
 
 #### IDE
 
@@ -9097,9 +9114,8 @@ permalink: /javalibs
 #### 游戏引擎
 
 * [LibGDX](https://github.com/libgdx/libgdx)：LibGDX是一个基于OpenGL的跨平台Java游戏开发框架，专为Windows、Linux、macOS、Android、Web浏览器和iOS设计。
-* [LWJGL](https://github.com/LWJGL/lwjgl3)：LWJGL是一个Java库，支持跨平台访问流行的原生API，可用于图形(OpenGL、Vulkan、bgfx)、音频(OpenAL、Opus)、并行计算(OpenCL、CUDA)和XR(OpenVR、LibOVR、OpenXR)应用程序。
 * [FXGL](https://github.com/AlmasB/FXGL)：Java/JavaFX/Kotlin游戏引擎库。
-* [Godot Kotlin/JVM](https://github.com/utopia-rise/godot-kotlin-jvm)：这是Godot游戏引擎的Kotlin语言绑定。
+* [Godot Kotlin/JVM](https://github.com/utopia-rise/godot-kotlin-jvm)：Godot Kotlin/JVM是一个Godot模块，它允许你在JVM上使用Kotlin编写游戏或应用程序逻辑。
 * [KTX](https://github.com/libktx/ktx)：KTX是一个扩展LibGDX的Kotlin游戏框架。
 * [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine)：jMonkeyEngine是一款适合富有冒险精神的Java开发人员的3D游戏引擎。
 * [Defold](https://github.com/defold/defold)：Defold是一款完全免费的游戏引擎，可用于开发桌面、移动和Web游戏。
@@ -9118,15 +9134,27 @@ permalink: /javalibs
 * [Indigo](https://github.com/PurpleKingdomGames/indigo)：Indigo是一款用Scala编写的游戏引擎，专为函数式程序员打造，由Purple Kingdom游戏公司开源。
 * [Litiengine](https://github.com/gurkenlabs/litiengine)：LITIENGINE是一个免费且开源的Java 2D游戏引擎，它提供了一个全面的Java库和一个专用的地图编辑器来创建基于图块的2D游戏。
 * [Mini2Dx](https://github.com/mini2Dx/mini2Dx)：Mini2Dx的主要目标是提供一个初学者友好、精通的框架，用于用Java快速原型设计和构建2D游戏。
-* [LGame](https://github.com/cping/LGame)：一个跨平台的Java游戏引擎，支持JavaFX/Android/IOS/HTML5/Linux/MAC/Windows。
+* [LGame](https://github.com/cping/LGame)：LGame是一个跨平台的Java游戏引擎，支持JavaFX/Android/IOS/HTML5/Linux/MAC/Windows。
 * [Jake2](https://bytonic.de/html/jake2.html)：Quake II游戏引擎的Java端口。
 * [LionEngine](https://github.com/b3dgs/lionengine)：LionEngine是专为Lionheart Remake项目开发的游戏引擎，可轻松与Java一起使用。
 * [SilenceEngine](https://github.com/sriharshachilakapati/SilenceEngine)：SilenceEngine是一款2D/3D游戏引擎，可以为你处理游戏开发的低级方面，如图形、输入处理、资源加载和碰撞检测。
+* [JustWeEngine](https://github.com/lfkdsk/JustWeEngine)：一个简单的开源Android原生游戏框架。
+* [Spout](https://github.com/spoutdev/Spout)：开源、多线程、体素游戏引擎和平台，用Java编写。
+* [LittleKt](https://github.com/littlektframework/littlekt)：LittleKt是一个基于WebGPU的Kotlin多平台2D游戏开发框架。
+* [MiniGDX](https://github.com/minigdx/minigdx)：MiniGDX是一款基于Kotlin/Multiplatform的极简3D游戏引擎。
+* [Chunk Stories](https://github.com/Hugobros3/chunkstories)：Chunk Stories是一款高级版Minecraft克隆版，其定制引擎拥有一流的模组支持。
+* [CosPlay](https://github.com/nivanov/cosplay)：CosPlay是用Scala 3编写的2D ASCII游戏引擎。
+* [Engine](https://github.com/UnknownDomainGames/Engine)：本项目为一款模组化游戏引擎，开发语言为Java，渲染后端为OpenGL 4.2及Vulkan。
+* [Scage](https://github.com/delorum/scage)：Scage是一个用于编写简单2D OpenGL游戏的框架。
+* [Tiny](https://github.com/minigdx/tiny)：Tiny是一款由Lua提供支持的轻量级跨平台游戏引擎。
+* [Voodoo2D](https://github.com/JacksonHoggard/voodoo2d)：Voodoo2D是一款基于LWJGL构建的2D游戏引擎，其设计旨在轻量级且易于使用。
+* [Kubriko](https://github.com/pandulapeter/kubriko)：Kubriko旨在为Android、桌面(Windows、Linux、macOS)、iOS和Web平台创建简单的2D游戏，提供一个轻量级、可扩展且易于使用的解决方案。
+* [GDL](https://github.com/damn/gdl-old)：GDL是一个函数式2D游戏引擎，围绕保存应用程序当前状态的上下文对象的思想构建。
 * [DimensioneX](https://www.dimensionex.net/)：DimensioneX是一款简单、免费的多人(MMORPG)游戏引擎。
 * [VASSAL](https://github.com/vassalengine/vassal)：VASSAL是一个游戏引擎，用于构建和玩在线改编的棋盘游戏和纸牌游戏。
 * [Env3D](https://sourceforge.net/projects/env3d/)：用Java编写的3D引擎，面向计算机科学专业的学生。
 * [FastJ](https://github.com/fastjengine/FastJ)：FastJ是一个免费开源的基于Java的2D游戏引擎和框架，它旨在使用Java(和JVM语言)提供最佳的2D游戏制作体验。
-* [Kool](https://github.com/fabmax/kool)：Kool是一个多平台OpenGL/WebGPU/Vulkan游戏引擎，适用于桌面Java、Android和浏览器。
+* [Kool](https://github.com/kool-engine/kool)：Kool是一个多平台OpenGL/WebGPU/Vulkan游戏引擎，适用于桌面Java、Android和浏览器。
 * [OpenRSC](https://github.com/Open-RSC/Core-Framework)：该仓库包含Open RuneScape Classic游戏框架。
 * [Yaeger](https://github.com/han-yaeger/yaeger)：Yaeger是一个教育游戏引擎运行时，也是一个功能齐全的2D游戏引擎，只需要传统的面向对象编程风格，由HAN应用科技大学开源。
 * [Arc](https://github.com/Anuken/Arc)：基于LibGDX的Java游戏开发框架。
@@ -9134,6 +9162,7 @@ permalink: /javalibs
 
 #### 游戏服务器
 
+* [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
 * [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
 * [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
@@ -9150,11 +9179,45 @@ permalink: /javalibs
 * [Gamioo](https://github.com/jiangguilong2000/gamioo)：游戏服务器框架，基于此框架，可以快速实现一个高可用、易维护、稳定、高性能的游戏服务器。
 * [TenIO](https://github.com/congcoi123/tenio)：TenIO是一个用于创建多人在线游戏的开源项目，其中包括专门为多人游戏设计的基于Java NIO的服务器。
 * [Avalon](https://gitee.com/codeborker/Avalon)：基于Akka的高性能可伸缩的Java网络游戏服务器，简单的单服务器开发与集群开发的切换。
-* [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
 * [Grasscutter](https://github.com/Grasscutters/Grasscutter)：Grasscutter是一个实验性游戏服务器，旨在模拟玩某个动漫游戏的体验。
+* [Sorapointa](https://github.com/Sorapointa/Sorapointa)：为某款动漫游戏重新实现服务器软件。
+* [Finisterra](https://github.com/ao-libre/finisterra)：基于热门阿根廷MMORPG Argentum Online的Java游戏客户端和服务器。
+* [RS Mod](https://github.com/rsmod/rsmod)：RS Mod是一款RuneScape游戏服务器模拟器，旨在尽可能在机械上与原版游戏保持一致。
+* [TOAST Haste](https://github.com/nhn/toast-haste.framework)：TOAST Haste是一个易于开发的异步游戏服务器框架。
 * [PretendYoureXyzzy](https://github.com/ajanata/PretendYoureXyzzy)：反人类卡牌克隆、服务器和Web客户端。
 * [LunarCore](https://github.com/Melledy/LunarCore)：某回合制动漫游戏的游戏服务器重新实现。
 * [L2J Server](https://bitbucket.org/l2jserver/l2j-server-game)：L2J Server是一款完全用Java编写的开源服务器模拟器，适用于著名的韩国MMORPG。
+
+#### 2D/3D渲染
+
+* [LWJGL](https://github.com/LWJGL/lwjgl3)：LWJGL是一个Java库，支持跨平台访问流行的原生API，可用于图形(OpenGL、Vulkan、bgfx)、音频(OpenAL、Opus)、并行计算(OpenCL、CUDA)和XR(OpenVR、LibOVR、OpenXR)应用程序。
+* [JMathPlot](https://github.com/yannrichet/jmathplot)：Java交互式2D和3D绘图。
+* [Skija](https://github.com/JetBrains/skija)：Skia是一个开源2D图形库，提供可跨各种硬件和软件平台工作的通用API，Skija是Skia的高质量Java绑定，由JetBrains开源。
+* [Rajawali](https://github.com/Rajawali/Rajawali)：Rajawali是一款基于OpenGL ES 2.0/3.0的Android 3D引擎。
+* [Jzy3d](https://github.com/jzy3d/jzy3d-api)：Jzy3d是一个用Java轻松绘制3D和2D图表的框架，使用快速原生GPU渲染或基于CPU的渲染来增强跨OS/JVM/GPU组合的可移植性。
+* [JOGL](https://github.com/sgothel/jogl)：JOGL项目负责Java高性能图形绑定的开发，旨在为用Java编写的应用程序提供硬件支持的3D图形和多媒体，最初由Sun开发。
+* [JOML](https://github.com/JOML-CI/JOML)：用于OpenGL渲染计算的Java数学库。
+* [PanamaGL](https://gitlab.com/jzy3d/panama-gl)：PanamaGL旨在使用适用于JDK 22及更高版本的FFM API提供与OpenGL的多平台绑定。
+* [OPENRNDR](https://github.com/openrndr/openrndr)：OPENRNDR是一个用于创意编码、实时和交互式图形的Kotlin/JVM库。
+* [VK²](https://github.com/kotlin-graphics/vkk)：VK²的目标是为Vulkan C API提供一个库，以提升开发者的Vulkan体验，且不会带来任何显著的CPU运行时开销。
+* [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz提供了自动查找和简化图形驱动程序中的错误的工具，由Google开源。
+* [Kgpu](https://github.com/kgpu/kgpu)：基于WebGPU和WebGPU Native的Kotlin JVM/JS跨平台图形API。
+* [Nifty GUI](https://github.com/nifty-gui/nifty-gui)：Nifty GUI是一个Java库，支持为游戏或类似应用程序构建交互式用户界面。
+* [GLN](https://github.com/kotlin-graphics/gln)：OpenGL的包装器，旨在通过使GL代码紧凑、更简单和类型安全来改善开发体验。
+* [GLM](https://github.com/kotlin-graphics/glm)：GLM是OpenGL Mathematics的Kotlin端口。
+* [OverrunGL](https://github.com/Over-Run/overrungl)：Overrun Game Library是一个用Java 24实现的高性能库，它支持跨平台访问一组C库绑定，提供各种有用的实用程序。
+* [Three Kt](https://github.com/markaren/three.kt)：流行的Three.js 3D库的Kotlin/JVM端口。
+* [Kotlin](https://github.com/zakgof/korender)：Kotlin基于OpenGL/OpenGL ES/WebGL的多平台3D图形渲染引擎。
+* [JGLM](https://github.com/jroyalty/jglm)：OpenGL Mathematics C++库(GLM)的概念性移植。
+* [GLM](https://github.com/java-graphics/glm)：GLM是OpenGL Mathematics(GLM)的Java端口，它是一个基于OpenGL着色语言(GLSL)规范的图形软件数学库。
+* [Kgl](https://github.com/gergelydaniel/kgl)：Kotlin Multiplatform的轻量级OpenGL抽象。
+* [Marlin](https://github.com/bourgesl/marlin-renderer)：Marlin是一个开源Java 2D渲染引擎，基于OpenJDK的Pisces实现，针对性能进行了优化(改进了内存使用和占用空间、更好的多线程)和更好的视觉质量。
+* [Oreon](https://github.com/fynnfluegge/oreon-engine)：OpenGL/Vulkan Java 3D引擎。
+* [ModernUI](https://github.com/BloCamLimb/ModernUI)：Modern UI是一个专为独立2D和3D渲染软件开发而设计的桌面应用程序框架。
+* [Scenery](https://github.com/scenerygraphics/scenery)：Scenery是一个场景绘制和渲染库，它允许你基于网格数据快速创建高质量的3D可视化效果。
+* [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
+* [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
+* [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
 
 #### 游戏开发库
 
@@ -9163,11 +9226,19 @@ permalink: /javalibs
 * [Recast4j](https://github.com/ppiastucki/recast4j)：Recast和Detour导航网格工具集的Java端口。
 * [Slick2D](https://slick.ninjacave.com/)：Slick2D是一组易于使用的工具和实用程序，围绕LWJGL、OpenGL绑定，使2D Java游戏开发变得更加容易。
 * [Nes4j](https://gitee.com/navigatorCode/nes4j)：基于Java语言实现的任天堂红白机模拟器。
-* [ODE4j](https://github.com/tzaeschke/ode4j)：ODE是一个用于模拟刚体动力学的开源高性能库。
 * [JInput](https://github.com/jinput/jinput)：用于访问输入设备的库，由Sun公司游戏技术小组发起。
-* [Dyn4j](https://github.com/dyn4j/dyn4j)：纯Java 2D碰撞检测和物理引擎，旨在快速、稳定、可扩展且易于使用。
 * [SquidLib](https://github.com/yellowstonegames/SquidLib)：SquidLib是一个功能非常齐全的库，部分目标是制作传统Roguelike和类似类型的游戏。
+
+#### 碰撞检测
+
+* [ODE4j](https://github.com/tzaeschke/ode4j)：ODE是一个用于模拟刚体动力学的开源高性能库。
+* [Dyn4j](https://github.com/dyn4j/dyn4j)：纯Java 2D碰撞检测和物理引擎，旨在快速、稳定、可扩展且易于使用。
+* [Phys2D](https://code.google.com/archive/p/phys2d/)：Phys2D是一个Java的2D物理库。
+* [JBullet](http://jbullet.advel.cz/)：JBullet是Bullet物理库的Java端口。
+* [Minie](https://github.com/stephengold/Minie)：Minie项目旨在改进Bullet实时物理模拟和Khaled Mamou的V-HACD库与jMonkeyEngine游戏引擎的集成。
+* [Bullet](https://github.com/kotlin-graphics/bullet)：JVM Bullet物理SDK：用于VR、游戏、视觉效果、机器人、机器学习等的实时碰撞检测和多物理模拟。
 * [Libbulletjme](https://github.com/stephengold/Libbulletjme)：BulletPhysics和V-HACD的JNI接口。
+* [Jolt JNI](https://github.com/stephengold/jolt-jni)：Jolt JNI项目为Jolt Physics和V-HACD库提供JVM绑定，以促进使用Java和Kotlin等JVM语言进行物理模拟。
 
 #### 寻路算法
 
@@ -9178,9 +9249,11 @@ permalink: /javalibs
 #### 实体框架
 
 * [Artemis ODB](https://github.com/junkdog/artemis-odb)：Artemis ODB是一个基于Java的高性能实体组件系统框架。
-* [Ashley](https://github.com/libgdx/ashley)：用Java编写的小型实体框架，它的灵感来自于Ash和Artemis等框架。
+* [Ashley](https://github.com/libgdx/ashley)：Ashley是一个用Java编写的小型实体框架，它的灵感来自于Ash和Artemis等框架。
 * [Dominion](https://github.com/dominion-dev/dominion-ecs-java)：Dominion是Java的一个实体组件系统库。
-* [Zay ES](https://github.com/jMonkeyEngine-Contributions/zay-es)：Zay-ES是一种基于Java的高性能实体组件系统，它可以避免ES架构的大多数/所有典型缺点，同时又不牺牲ES的“纯度”。
+* [Zay ES](https://github.com/jMonkeyEngine-Contributions/zay-es)：Zay ES是一个基于Java的高性能实体组件系统。
+* [Fleks](https://github.com/Quillraven/Fleks)：用Kotlin编写的快速、轻量级实体组件系统库。
+* [Geary](https://github.com/MineInAbyss/geary)：Geary是一个用Kotlin编写的实体组件系统。
 
 #### 游戏编辑器
 
@@ -9189,6 +9262,8 @@ permalink: /javalibs
 * [Overlap2D](https://github.com/UnderwaterApps/overlap2d)：Overlap2D是一款2D关卡和UI编辑器，具有与引擎无关的游戏开发理念。
 * [Bladecoder Adventure](https://github.com/bladecoder/bladecoder-adventure-engine)：Bladecoder Adventure引擎是一组用于创建交互式图形冒险(经典点击游戏)的工具。
 * [Talos](https://github.com/rockbite/talos)：基于节点的开源VFX编辑器，具有强大的界面和随时可用的LibGDX运行时。
+* [RPGBoss](https://github.com/rpgboss/rpgboss)：点击式角色扮演游戏编辑器和引擎。
+* [Mundus](https://github.com/mbrlabs/Mundus)：Mundus是一个独立于平台的3D世界编辑器，采用Java、Kotlin以及LibGDX、VisUI构建。
 
 #### 开源游戏
 
@@ -9205,32 +9280,10 @@ permalink: /javalibs
 * [DisUnity](https://github.com/ata4/disunity)：用Java编写的Unity资源和资源包文件的实验性命令行工具集，主要用于提取。
 * [Alice](https://github.com/TheAliceProject/alice3)：Alice是一个基于块的创新编程环境，可以轻松创建动画、构建交互式叙述或以3D方式编写简单游戏，由CMU开源。
 
-## 2D/3D渲染
+#### 虚拟现实
 
-* [JMathPlot](https://github.com/yannrichet/jmathplot)：Java交互式2D和3D绘图。
-* [Lets Plot](https://github.com/JetBrains/lets-plot)：Lets-Plot是一个基于图形语法原理构建的多平台绘图库，由JetBrains开源。
-* [VTM](https://github.com/mapsforge/vtm)：OpenGL矢量地图库-在Android、iOS、桌面和浏览器上运行。
-* [Constellation](https://github.com/constellation-app/constellation)：Constellation是一款以图形为中心的数据可视化和交互式分析应用程序，支持跨大型复杂数据集的数据访问、联合和操作功能。
-* [Skija](https://github.com/JetBrains/skija)：Skia是一个开源2D图形库，提供可跨各种硬件和软件平台工作的通用API，Skija是Skia的高质量Java绑定，由JetBrains开源。
-* [Jzy3d](https://github.com/jzy3d/jzy3d-api)：Jzy3d是一个用Java轻松绘制3D和2D图表的框架，使用快速原生GPU渲染或基于CPU的渲染来增强跨OS/JVM/GPU组合的可移植性。
-* [Marlin](https://github.com/bourgesl/marlin-renderer)：Marlin是一个开源Java 2D渲染引擎，基于OpenJDK的Pisces实现，针对性能进行了优化(改进了内存使用和占用空间、更好的多线程)和更好的视觉质量。
-* [Oreon](https://github.com/fynnfluegge/oreon-engine)：OpenGL/Vulkan Java 3D引擎。
-* [LEGUI](https://github.com/SpinyOwl/legui)：Java OpenGL GUI库，专为与最新的LWJGL(LWJGL 3)一起使用而创建。
-* [ImGui-Java](https://github.com/SpaiR/imgui-java)：ImGui基于JNI的绑定。
-* [GraphicsFuzz](https://github.com/google/graphicsfuzz)：GraphicsFuzz提供了自动查找和简化图形驱动程序中的错误的工具，由Google开源。
-* [ModernUI](https://github.com/BloCamLimb/ModernUI)：从低级3D图形API到高级视图模型的现代桌面框架，用于开发2D/3D渲染软件或游戏引擎，具有国际化支持和许多新技术。
-* [Art of Illusion](https://github.com/ArtOfIllusion/ArtOfIllusion)：Art of Illusion是一个免费、开源的3D建模和渲染软件。
-* [Scenery](https://github.com/scenerygraphics/scenery)：由Kotlin和Vulkan提供支持的JVM上体积和几何数据的灵活VR可视化。
-* [Grafx](https://grafx.sourceforge.net/)：Grafx是一个开源Java库，用于使用浮点端点坐标绘制线条和填充多边形。
-* [ClearVolume](https://github.com/ClearVolume/clearvolume)：ClearVolume是一个实时3D可视化库，专为SPIM和DLSM显微镜等高端体积显微镜而设计，由马克斯普朗克分子细胞生物学和遗传学研究所开源。
-* [Vulkan4j](https://github.com/club-doki7/vulkan4j)：Vulkan4j是一系列针对Java的图形和相关API绑定，使用Java 22 Panama API实现。
-
-## 移动开发框架
-
-* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
-* [CodenameOne](https://github.com/codenameone/CodenameOne)：Codename One是面向Java和Kotlin开发人员的移动优先跨平台环境。
-* [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
-* [MobileUI](https://mobileui.dev/)：MobileUI是第一个适用于iOS和Android的基于Java的原生UI框架。
+* [jMonkeyVR](https://github.com/phr00t/jMonkeyVR)：简单、免费且通用的VR开发解决方案。
+* [OpenVR](https://github.com/kotlin-graphics/openvr)：OpenVR的Kotlin包装器。
 
 ## JVM代理
 
@@ -9749,6 +9802,7 @@ permalink: /javalibs
 * [JNA AAC Encoder](https://github.com/sheinbergon/jna-aac-encoder)：此库为JVM提供AAC编码功能。
 * [JavaForce](https://github.com/pquiring/javaforce)：JavaForce库，用于构建强大的应用程序和服务(相机、OpenGL、OpenCL、ffmpeg的原生绑定)，包含VoIP协议栈、PLC I/O和众多应用程序。
 * [SimpleRtmp](https://github.com/faucamp/SimpleRtmp)：SimpleRtmp是一个用于构建RTMP客户端应用程序的Java库。
+* [JOAL](https://github.com/sgothel/joal)：JOAL是OpenAL API的Java绑定的参考实现，旨在为用Java编写的应用程序提供硬件支持的3D空间音频。
 
 ## 数据结构
 
@@ -10033,16 +10087,12 @@ permalink: /javalibs
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM)：TornadoVM是OpenJDK和GraalVM的插件，允许程序员在异构硬件上自动运行Java程序，这是曼彻斯特大学高级处理器技术小组的研究项目。
 * [JCuda](https://github.com/jcuda/jcuda)：CUDA的Java绑定。
 * [Aparapi](https://github.com/Syncleus/aparapi)：Aparapi允许开发人员通过在运行时动态地将Java字节代码转换为OpenCL内核来编写能够直接在显卡GPU上执行的本机Java代码。
-* [JOML](https://github.com/JOML-CI/JOML)：用于OpenGL渲染计算的Java数学库。
-* [JOGL](https://github.com/sgothel/jogl)：OpenGL API的Java绑定。
 * [PixelFlow](https://github.com/diwi/PixelFlow)：用于高性能GPU计算处理的Java库。
 * [JavaCL](https://github.com/nativelibs4java/JavaCL)：Java的OpenCL绑定。
 * [ArrayFire Java](https://github.com/arrayfire/arrayfire-java)：ArrayFire的Java包装器。
 * [JOCL](https://github.com/gpu/JOCL)：OpenCL的Java绑定。
-* [JOAL](https://github.com/sgothel/joal)：JOAL项目托管OpenAL API的Java绑定的参考实现，旨在为用Java编写的应用程序提供硬件支持的3D空间化音频。
 * [grCUDA](https://github.com/NVIDIA/grcuda)：GraalVM的多语言CUDA集成，由英伟达开源。
 * [CLIJ2](https://github.com/clij/clij2)：CLIJ2是一个适用于ImageJ/Fiji、Icy、Matlab和Java的GPU加速图像处理库，由萨塞克斯大学、荷兰癌症研究所、剑桥大学、牛津大学、悉尼大学等组织共同开发。
-* [PanamaGL](https://gitlab.com/jzy3d/panama-gl)：PanamaGL旨在使用适用于JDK 22及更高版本的FFM API提供与OpenGL的多平台绑定。
 * [Beehive LevelZero JNI](https://github.com/beehive-lab/levelzero-jni)：该项目是针对Intel LevelZero的Java本机接口(JNI)绑定，由曼彻斯特大学开源。
 
 ## 硬件操作
@@ -10375,6 +10425,7 @@ permalink: /javalibs
 
 ## 物理库
 
+* [SICMUtils](https://github.com/sicmutils/sicmutils)：Scmutils系统的Clojure实现，用于Clojure和ClojureScript语言中的数学和物理研究。
 * [FreeHEP](https://java.freehep.org/)：FreeHEP库的目标是鼓励高能物理领域Java代码的共享和重用，由SLAC国家加速器实验室开源。
 
 ## 无人机
