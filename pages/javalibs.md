@@ -229,12 +229,17 @@ permalink: /javalibs
   * [日历库](#日历库)
   * [日期/时间解析器](#日期时间解析器)
 * [人工智能](#人工智能)
-  * [LLM](#LLM)
+  * [LLM框架](#LLM框架)
+  * [推理引擎](#推理引擎)
+  * [AI智能体](#AI智能体)
   * [LLM客户端](#LLM客户端)
+  * [LLMOps](#LLMOps)
   * [代理框架](#代理框架)
   * [机器学习](#机器学习)
   * [自然语言处理](#自然语言处理)
   * [深度学习](#深度学习)
+  * [贝叶斯推理](#贝叶斯推理)
+  * [模型训练](#模型训练)
   * [语义解析](#语义解析)
   * [信息提取](#信息提取)
   * [联邦学习](#联邦学习)
@@ -447,6 +452,8 @@ permalink: /javalibs
   * [QQ机器人](#QQ机器人)
   * [微信机器人](#微信机器人)
 * [Android开发](#Android开发)
+  * [Android框架](#Android框架)
+  * [Android UI库](#Android-UI库)
   * [ActionBar小部件](#ActionBar小部件)
   * [Activity小部件](#Activity小部件)
   * [Adapter](#Adapter)
@@ -468,6 +475,7 @@ permalink: /javalibs
   * [Android数字选择器](#Android数字选择器)
   * [Android滚动选择器](#Android滚动选择器)
   * [Android联系人选择器](#Android联系人选择器)
+  * [热修复](#热修复)
 * [GUI开发/程序](#GUI开发程序)
   * [GUI框架](#GUI框架)
   * [移动开发框架](#移动开发框架)
@@ -3116,6 +3124,7 @@ permalink: /javalibs
 * [TomP2P](https://github.com/tomp2p/TomP2P)：TomP2P是一个P2P库和分布式哈希表(DHT)实现，为分布式应用程序提供去中心化的键值基础架构。
 * [Sleeper](https://github.com/gchq/sleeper)：Sleeper是一种Serverless、云原生、基于日志结构合并树的可扩展键值存储，由英国政府通讯总部开源。
 * [Oak](https://github.com/yahoo/Oak)：OakMap是一个并发键值Map，它将所有键和值保留在堆外，由Yahoo开源。
+* [KVDB](https://github.com/jd-opensource/jdchain-kvdb)：KVDB是一个简单的NoSQL数据库，支持简单的键值读写操作，由京东开源。
 * [LMDB](https://github.com/lmdbjava/lmdbjava)：LMDB是一种使用B+树的有序、嵌入式、持久的键值存储。
 * [PalDB](https://github.com/linkedin/PalDB)：PalDB是一个用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
 * [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
@@ -4731,9 +4740,7 @@ permalink: /javalibs
 
 * [Artemis](https://github.com/ls1intum/Artemis)：Artemis通过对编程练习、测验、建模任务等的即时、个人反馈，将交互式学习带入生活，由慕尼黑工业大学开源。
 * [Lucida](https://github.com/claritylab/lucida)：Lucida是一款基于语音和视觉的智能个人助理，灵感来自Sirius。
-* [EasyAI](https://gitee.com/dromara/easyAi)：EasyAI是一个原生Java人工智能算法框架，由dormara社区开源。
-* [OpenPAI](https://github.com/microsoft/pai)：OpenPAI是一个开源平台，提供完整的AI模型训练和资源管理能力，易于扩展并支持各种规模的本地、云和混合环境，由Microsoft开源。
-* [SUSI.AI Server](https://github.com/fossasia/susi_server)：SUSI.AI是一款智能开源个人助理，它能够通过使用API来执行诸如音乐播放、制作待办事项列表、设置闹钟、流播客、播放有声读物以及提供天气、交通和其他实时信息等操作，从而进行聊天和语音交互，由FOSSASIA组织开源。
+* [SUSI.AI Server](https://github.com/fossasia/susi_server)：SUSI.AI是一款智能开源个人助理，由FOSSASIA组织开源。
 * [GDX AI](https://github.com/libgdx/gdx-ai)：GDX AI是一个高性能框架，提供游戏行业使用的一些最常见的AI技术。
 * [AIMA Java](https://github.com/aimacode/aima-java)：Russell和Norvig的《人工智能-一种现代的方法》中算法的Java实现。
 * [Alan AI](https://github.com/alan-ai/alan-sdk-android)：适用于Android的对话式AI SDK，可通过操作实现文本和语音对话。
@@ -4752,36 +4759,38 @@ permalink: /javalibs
 * [SD4J](https://github.com/oracle-samples/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
 * [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源。
 * [JSoar](https://github.com/soartech/jsoar)：Soar认知架构的纯Java实现，由密歇根大学人工智能实验室开源。
-* [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
 
-#### LLM
+#### LLM框架
 
 * [LangChain4j](https://github.com/langchain4j/langchain4j)：LangChain4j的目标是简化将AI/LLM功能集成到Java应用程序中。
 * [Semantic Kernel](https://github.com/microsoft/semantic-kernel-java)：Semantic Kernel是Microsoft开源的SDK，它将OpenAI、Azure OpenAI和Hugging Face等大语言模型(LLM)与C#、Python和Java等传统编程语言集成在一起。
 * [Spring AI](https://github.com/spring-projects/spring-ai)：Spring AI项目为开发AI应用程序提供了Spring友好的API和抽象。
 * [Spring AI Alibaba](https://github.com/alibaba/spring-ai-alibaba)：Spring AI Alibaba基于Spring AI构建，是阿里云通义系列模型及服务在Java AI应用开发领域的最佳实践。
-* [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
 * [Agents Flex](https://gitee.com/agents-flex/agents-flex)：Agents Flex是一个用Java开发的AI应用开发框架，旨在简化AI应用开发。
 * [Solon AI](https://gitee.com/opensolon/solon-ai)：面向全场景的Java AI应用开发框架。
-* [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
 * [FIT Framework](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [LangGraph4j](https://github.com/langgraph4j/langgraph4j)：Java版LangGraph，一个使用LLM构建有状态、多参与者应用程序的库。
-* [Ali LangEngine](https://github.com/AIDC-AI/ali-langengine)：Ali LangEngine是一个用Java编写的AI应用开发框架，由阿里开源。
-* [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：Java版LangChain，同时赋能LLM大数据。
-* [Optimus-1](https://github.com/JiuTian-VL/Optimus-1)：混合多模态记忆赋能智能体，在长期任务中表现出色，由哈尔滨工业大学开发。
-* [UseOpen LLM Server](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，这是永源的产品。
-* [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多代理系统。
-* [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级全栈AI数智化应用极速开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
-* [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
-* [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
-* [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
+* [LangChain Java](https://github.com/HamaWhiteGG/langchain-java)：LangChain的Java语言实现，它使得开发LLM驱动的应用程序变得尽可能简单。
+* [Ali LangEngine](https://github.com/AIDC-AI/Agentic-ADK)：Ali LangEngine是一个用Java编写的AI应用开发框架，由阿里开源。
 * [Langtorch](https://github.com/Knowly-ai/langtorch)：Langtorch是一个Java库，可让你轻松构建可组合的LLM应用程序。
-* [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java-LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
-* [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
-* [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow-java)：Tinyflow是一个使用Java开发的智能体编排解决方案。
-* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL和Kotlin Scripting的强大功能来定义一种针对构建LLM支持的解决方案而优化的语言，由德国电信股份公司开发。
-* [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
+* [LangStream](https://github.com/LangStream/langstream)：LangStream是一个用于构建和运行GenAI应用程序的框架，DataStax开源。
+* [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
+* [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
+
+#### 推理引擎
+
+* [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
+* [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
+* [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
+* [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
+
+#### AI智能体
+
+* [JManus](https://github.com/alibaba/spring-ai-alibaba/tree/main/spring-ai-alibaba-jmanus)：Manus是用于构建通用AI代理的开源框架，JManus是Manus的Java实现，由阿里开源。
+* [JoyAgent](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
+* [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
+* [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
 
 #### LLM客户端
 
@@ -4808,6 +4817,13 @@ permalink: /javalibs
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
 * [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
+* [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
+
+#### LLMOps
+
+* [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
+* [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
+* [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 
 #### 代理框架
 
@@ -4815,6 +4831,7 @@ permalink: /javalibs
 * [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
 * [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
+* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
 
 #### 机器学习
 
@@ -4852,9 +4869,7 @@ permalink: /javalibs
 * [Sandwood](https://github.com/oracle/sandwood)：Sandwood是一种基于JVM的概率模型的语言、编译器和运行时，由Oracle开源。
 * [Ytk-Learn](https://github.com/kanyun-inc/ytk-learn)：Ytk-Learn是一个分布式机器学习库，它实现了大多数流行的机器学习算法，由看云控股技术团队开源。
 * [Meka](https://github.com/Waikato/meka)：MEKA项目提供了多标签学习和评估方法的开源实现，由怀卡托大学开发。
-* [Airy](https://github.com/airyhq/airy)：Airy是一个开源流应用程序框架，用于训练ML模型并向其提供历史和实时数据。
 * [Mallet](https://github.com/mimno/Mallet)：Mallet是一个基于Java的包，用于统计自然语言处理、文档分类、聚类、主题建模、信息提取和其他文本机器学习应用，由马萨诸塞大学和宾夕法尼亚大学开发。
-* [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
 * [AMIDST](https://github.com/amidst/toolbox)：AMIDST是用于可扩展概率机器学习的Java工具包。
 * [Conjecture](https://github.com/etsy/Conjecture)：Conjecture是一个使用Scalding DSL在Hadoop中构建机器学习模型的框架，由Etsy开源。
 * [Metarank](https://github.com/metarank/metarank)：Metarank是一项开源排名服务，它可以帮助你构建个性化的语义/神经搜索和推荐。
@@ -4882,14 +4897,12 @@ permalink: /javalibs
 * [Byzer](https://github.com/byzer-org/byzer-lang)：Byzer是一种低代码、开源和分布式编程语言，用于以云原生方式进行数据管道、分析和人工智能。
 * [Neureka](https://github.com/Gleethos/neureka)：Neureka是一个轻量级、独立于平台、OpenCL加速的ND数组/张量库。
 * [Morel](https://github.com/hydromatic/morel)：Morel是一个标准ML解释器，具有关系扩展，用Java实现。
-* [Aurora](https://github.com/AcaiSoftware/aurora)：Aurora是用于模型训练、评估、部署、调整和基准测试的Java机器学习框架。
 * [StackNet](https://github.com/kaz-Anova/StackNet)：StackNet是一个计算、可扩展和分析框架，类似于前馈神经网络，并在多个级别使用Wolpert的堆栈泛化来提高机器学习问题的准确性，由伦敦大学开源。
 * [ML4AI](https://gitee.com/sleechengn/ml4ai)：机器学习、人工智能、张量库。
 * [Eggroll](https://gitee.com/WeBank/eggroll)：Eggroll是用于机器学习的简单高性能计算框架，由微众开源。
 * [MLReef](https://github.com/MLReef/mlreef)：MLReef是一个开源MLOps平台，可帮助你与数千名其他用户协作、复制和共享你的机器学习工作。
 * [Fregata](https://github.com/TalkingData/Fregata)：Fregata是一个基于Spark的轻量级、超快速的大规模机器学习库，并在Scala中提供高级API，由TalkingData开源。
 * [RuleKit](https://github.com/adaa-polsl/RuleKit)：RuleKit是一种用于规则学习的多功能工具，基于顺序覆盖归纳算法，它适用于分类、回归和生存问题，由西里西亚理工大学开源。
-* [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
 * [Foundry](https://github.com/algorithmfoundry/Foundry)：Cognitive Foundry是一个开源Java库，用于构建专注于机器学习的智能系统，由桑迪亚国家实验室领导。
 * [Komputation](https://github.com/sekwiatkowski/komputation)：Komputation是一个用Kotlin和CUDA C编写的JVM神经网络框架。
 
@@ -4934,10 +4947,10 @@ permalink: /javalibs
 #### 深度学习
 
 * [Eclipse Deeplearning4J](https://github.com/deeplearning4j/deeplearning4j)：Deeplearning4j是一套用于在JVM上运行深度学习的工具，由Skymind开源。
+* [EasyAI](https://gitee.com/dromara/easyAi)：EasyAI是一个原生Java人工智能算法框架，由dormara社区开源。
 * [Deep Java Library](https://github.com/deepjavalibrary/djl)：DJL是一个开源、高级、与引擎无关的深度学习Java框架，由AWS开源。
 * [BigDL](https://github.com/intel-analytics/BigDL-2.x)：BigDL是一个使用INT4/FP4/INT8/FP8在Intel XPU上运行LLM的库，延迟非常低，由Intel开源。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，由JetBrains开源。
-* [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
 * [Porcupine](https://github.com/Picovoice/porcupine)：Porcupine是一款高精度且轻量级的唤醒词引擎。
@@ -4955,6 +4968,20 @@ permalink: /javalibs
 * [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark)：CaffeOnSpark将深度学习引入Hadoop和Spark集群，由Yahoo开源。
 * [JDLL](https://github.com/bioimage-io/JDLL)：JDLL提供了一个用于运行深度学习模型的Java库，支持Java软件和各种深度学习框架之间的通信。
 * [WekaDeeplearning4j](https://github.com/Waikato/wekaDeeplearning4j)：WekaDeeplearning4j让用户能够在Weka环境中训练和测试深度学习模型，由怀卡托大学开源。
+
+#### 贝叶斯推理
+
+* [Rainier](https://github.com/stripe/rainier)：Rainier通过马尔可夫链蒙特卡罗为贝叶斯推理提供了高性能Scala API，由Stripe开源。
+* [BEAST 2](https://github.com/CompEvol/beast2)：BEAST是一个使用分子序列MCMC进行贝叶斯推理的跨平台程序，由奥克兰大学领导开发。
+* [BEAST X](https://github.com/beast-dev/beast-mcmc)：BEAST X是一款跨平台的程序，使用MCMC对分子序列进行贝叶斯分析。
+
+#### 模型训练
+
+* [OpenPAI](https://github.com/microsoft/pai)：OpenPAI是一个开源平台，提供完整的AI模型训练和资源管理能力，易于扩展并支持各种规模的本地、云和混合环境，由Microsoft开源。
+* [Airy](https://github.com/airyhq/airy)：Airy是一个开源流应用程序框架，用于训练ML模型并向其提供历史和实时数据。
+* [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
+* [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
+* [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
 
 #### 语义解析
 
@@ -7111,6 +7138,7 @@ permalink: /javalibs
 * [ES](https://github.com/zhangkaitao/es)：ES是一个Java EE企业级项目的快速开发的脚手架，提供了底层抽象和通用功能。
 * [SOP](https://gitee.com/durcframework/SOP)：SOP是一个开放平台解决方案项目，基于Spring Cloud实现，目标让用户快速搭建自己的开放平台。
 * [Roses](https://gitee.com/stylefeng/roses)：Roses基于Spring Boot 3、JDK 17，是开源项目Guns的核心支撑层。
+* [JBolt](http://jbolt.cn/)：基于JFinal打造的企业级Java Web框架核心库，通过链式SQL构建器、约定优于配置和丰富的功能模块，让Java Web开发变得简单、高效。
 * [BallCat](https://github.com/ballcat-projects/ballcat)：BallCat是一个快速开发脚手架，快速搭建企业级后台管理系统，并提供多种便捷Starter进行功能扩展。
 * [Mall Tiny](https://github.com/macrozheng/mall-tiny)：Mall Tiny是一款基于Spring Boot、MyBatisPlus的快速开发脚手架。
 * [AgileBoot](https://github.com/valarchie/AgileBoot-Back-End)：AgileBoot是一套开源的全栈精简快速开发平台。
@@ -8547,6 +8575,41 @@ permalink: /javalibs
 
 这里列出了Android开发中各种各样的组件、布局、视图、动画等库。
 
+#### Android框架
+
+* [Flutter](https://github.com/flutter/flutter)：Flutter是Google的SDK，旨在通过单一代码库为移动端、网页端和桌面端打造美观、快速的用户体验。
+* [React Native](https://github.com/facebook/react-native)：React Native将React的声明式UI框架引入iOS和Android平台，由Facebook开源。
+* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
+* [RIBs](https://github.com/uber/RIBs)：RIBs是Uber许多移动应用程序背后的跨平台架构框架。
+* [UniApp](https://github.com/dcloudio/uni-app)：UniApp是一个使用Vue.js开发小程序、Web、App的统一前端框架，由DCloud开源。
+* [Hummer](https://github.com/didi/Hummer)：Hummer是一套高性能高可用的跨端开发框架，一套代码可以同时支持开发Android和iOS应用，由滴滴开源。
+* [KuiklyUI](https://github.com/Tencent-TDS/KuiklyUI)：Kuikly是一个基于Kotlin多平台的全面的UI和逻辑跨平台解决方案，由腾讯开源。
+* [Lynx](https://github.com/lynx-family/lynx)：Lynx是一系列开源技术，使开发人员能够利用他们现有的Web技能，从单一代码库为移动和Web创建真正的原生UI，并具有规模和速度方面的性能，由字节开源。
+
+#### Android UI库
+
+* [Material Components Android](https://github.com/material-components/material-components-android)：适用于Android的模块化和可定制的Material Design UI组件。
+* [QMUI Android](https://github.com/Tencent/QMUI_Android)：QMUI Android的设计目的是用于辅助快速搭建一个具备基本设计还原效果的Android项目，由腾讯开源。
+* [RxBinding](https://github.com/JakeWharton/RxBinding)：RxJava从平台和支持库中绑定用于Android UI小部件的API。
+* [Aurora IMUI](https://github.com/jpush/aurora-imui)：Aurora IMUI是一个通用的IM UI组件库，不依赖于任何特定的IM SDK，极光开源。
+* [XUI](https://github.com/xuexiangjys/XUI)：一个简洁而优雅的Android原生UI框架。
+* [ShineButton](https://github.com/ChadCSong/ShineButton)：这是一个Android的UI库，效果类似闪光。
+* [FirebaseUI Android](https://github.com/firebase/FirebaseUI-Android)：FirebaseUI是Android的一个开源库，可让你快速将常见的UI元素连接到Firebase API。
+* [Tangram Android](https://github.com/alibaba/Tangram-Android)：Tangram是一个模块化UI解决方案，用于动态构建原生页面，由阿里开源。
+* [ChatKit](https://github.com/stfalcon-studio/ChatKit)：ChatKit是一个旨在简化聊天等简单UI开发的库。
+* [Litho](https://github.com/facebook/litho)：Litho是一个用于在Android上构建高效UI的声明性框架，由Facebook开源。
+* [GreenDroid](https://github.com/cyrilmottier/GreenDroid)：GreenDroid是一个Android平台的开发库，它使应用程序的UI开发更加轻松，并保持一致性。
+* [DivKit](https://github.com/divkit/divkit)：DivKit是一个开源的服务器驱动UI(SDUI)框架。
+* [Genius](https://github.com/qiujuer/Genius-Android)：Android Material Design主题UI和工具库。
+* [Android UI](https://github.com/markushi/android-ui)：用于UI组件的Android库。
+* [Android UI Animation Libraries](https://github.com/Ramotion/android-ui-animation-components-and-libraries)：Ramotion开发的Android库、UI组件和自定义动画的精选列表。
+* [RWidgetHelper](https://github.com/RuffianZhong/RWidgetHelper)：Android UI快速开发库。
+* [Redwood](https://github.com/cashapp/redwood)：Redwood是一个使用Kotlin构建响应式Android、iOS和Web UI的库。
+* [FlatUI](https://github.com/eluleci/FlatUI)：FlatUI是一个库，可让你使用具有更好和自定义外观的原生Android小部件。
+* [Anvil](https://github.com/anvil-ui/anvil)：Anvil是一个用于创建响应式用户界面的小型Java库。
+* [Compose Cupertino](https://github.com/alexzhirkevich/compose-cupertino)：用于iOS的Compose Multiplatform UI组件。
+* [RapidView](https://github.com/Tencent/RapidView)：RapidView是一套用于开发Android客户端界面、逻辑以及功能的开发组件，由腾讯开源。
+
 #### ActionBar小部件
 
 * [ActionBarSherlock](https://github.com/JakeWharton/ActionBarSherlock)：ActionBarSherlock是一个独立库，旨在通过单一API促进所有Android版本中操作栏设计模式的使用。
@@ -8764,7 +8827,7 @@ permalink: /javalibs
 * [EasyRecyclerView](https://github.com/Jude95/EasyRecyclerView)：将开发中常用的RecyclerView的各种需求封装进库。
 * [SuperRecyclerView](https://github.com/Malinskiy/SuperRecyclerView)：这是为了让RecyclerView更易于使用的一次尝试。
 * [SpringView](https://github.com/liaoinstan/SpringView)：SpringView是一个提供上下拉拖拽功能的组件，可以高度定制，实现各种下拉\拉画效果。
-* [https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)：该项目旨在为Android提供可重复使用的WaveSwipe刷新小部件。
+* [WaveSwipeRefreshLayout](https://github.com/recruit-lifestyle/WaveSwipeRefreshLayout)：该项目旨在为Android提供可重复使用的WaveSwipe刷新小部件。
 * [CircleRefreshLayout](https://github.com/tuesda/CircleRefreshLayout)：这是一个具有自定义下拉刷新布局的项目，其中包含有趣的动画。
 * [RecyclerRefreshLayout](https://github.com/dinuscxj/RecyclerRefreshLayout)：一个用于Android的下拉刷新布局，RecyclerRefreshLayout基于SwipeRefreshLayout。
 * [Taurus](https://github.com/Yalantis/Taurus)：该项目旨在提供一个简单且可定制的下拉刷新实现。
@@ -9100,6 +9163,18 @@ permalink: /javalibs
 * [UnifiedContactPicker](https://github.com/quiin/UnifiedContactPicker)：统一联系人选择器Android库。
 * [Android Contact Picker](https://github.com/codinguser/android_contact_picker)：在Android上轻松显示和检索联系人信息。
 * [MultiContactPicker](https://github.com/broakenmedia/MultiContactPicker)：一个使用RecyclerView和字母快速滚动的简单Material Design多触点选择器。
+
+#### 热修复
+
+* [Tinker](https://github.com/Tencent/tinker)：Tinker是Android的一个热修复解决方案库，它支持dex、库和资源更新，无需重新安装apk，由腾讯开源。
+* [Robust](https://github.com/Meituan-Dianping/Robust)：Robust是一款高兼容性、高稳定性的Android HotFix解决方案，由美团开发。
+* [Nuwa](https://github.com/jasonross/Nuwa)：纯Java实现，可以对你的Android应用程序进行热修复。
+* [Small](https://github.com/wequick/Small)：将应用程序拆分成小部分的小型框架。
+* [HotFix](https://github.com/dodola/HotFix)：安卓App热补丁动态修复框架。
+* [RocooFix](https://github.com/dodola/RocooFix)：另一个修补程序框架。
+* [FastDex](https://github.com/typ0520/fastdex)：FastDex可以帮助你加快APK生成过程。
+* [Aceso](https://github.com/meili/Aceso)：Aceso是一个通过优化AOSP的“InstantRun HotSwap”解决方案的Android HotFix，它用于修复线上BUG，而无需发布新的APK，由蘑菇街开源。
+* [Amigo](https://github.com/eleme/Amigo)：Amigo是一个修补程序库，可以修复Android应用的所有问题，由饿了么开源。
 
 ## GUI开发/程序
 
