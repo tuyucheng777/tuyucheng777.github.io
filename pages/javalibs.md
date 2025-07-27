@@ -323,7 +323,7 @@ permalink: /javalibs
 * [接口文档](#接口文档)
 * [技术文档](#技术文档)
 * [Javadoc](#Javadoc)
-* [文件解析](#文件解析)
+* [文件操作](#文件操作)
   * [PDF库](#PDF库)
   * [Excel库](#Excel库)
   * [CSV库](#CSV库)
@@ -345,7 +345,7 @@ permalink: /javalibs
   * [文件库](#文件库)
   * [文件转换](#文件转换)
   * [Mime解析](#Mime解析)
-  * [文件操作](#文件操作)
+  * [文件监视](#文件监视)
   * [文件上传](#文件上传)
   * [文件比较](#文件比较)
   * [文件预览](#文件预览)
@@ -634,6 +634,7 @@ permalink: /javalibs
 * [跨语言](#跨语言)
 * [转换库](#转换库)
 * [IO库](#IO库)
+* [目录库](#目录库)
 * [电子签名](#电子签名)
 * [安全培训](#安全培训)
 * [RSS](#RSS)
@@ -3794,6 +3795,7 @@ permalink: /javalibs
 #### 以太网
 
 * [Nzyme](https://github.com/nzymedefense/nzyme)：借助Nzyme，你可以监控所有以太网和WiFi网络流量是否存在威胁、确认预期行为并有选择地将数据转发到你的SIEM或日志管理系统。
+* [Etherip](https://github.com/ornl-epics/etherip)：用于通过以太网/IP协议在AllenBradley Control Logix或Compact Logix PLC上读取和写入标签的Java库，由橡树岭国家实验室开源。
 * [EtherNet/IP](https://github.com/digitalpetri/ethernet-ip)：适用于Java的异步、非阻塞EtherNet/IP客户端实现。
 * [CICFlowMeter](https://github.com/ahlashkari/CICFlowMeter)：CICFlowMeter是一种用于异常检测的以太网流量双向流生成器和分析器，由约克大学开发。
 
@@ -5739,7 +5741,7 @@ permalink: /javalibs
 
 #### OAuth库
 
-* [Keycloak](https://github.com/keycloak/keycloak)：：适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat开源。
+* [Keycloak](https://github.com/keycloak/keycloak)：适用于现代应用程序和服务的开源身份和访问管理解决方案，由RedHat开源。
 * [SuperTokens](https://github.com/supertokens/supertokens-core)：Auth0/Firebase Auth/AWS Cognito的开源替代品。
 * [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
 * [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server)：Spring Authorization Server是一个框架，提供OAuth 2.1和OpenID Connect 1.0规范以及其他相关规范的实现。
@@ -6589,7 +6591,7 @@ permalink: /javalibs
 * [Codesnippet Javadoc Doclet](https://github.com/jtulach/codesnippet4javadoc)：Codesnippet Doclet可帮助你在文档中包含真实的代码片段，确保它们始终可编译。
 * [Deploy Publish JavaDoc](https://github.com/MathieuSoysal/Javadoc-publisher.yml)：自动从Java项目生成Javadoc并将其发布到GitHub Page。
 
-## 文件解析
+## 文件操作
 
 #### PDF库
 
@@ -6919,16 +6921,11 @@ permalink: /javalibs
 * [MIME Type](https://github.com/overview/mime-types)：用于检测文件MIME类型的Java库。
 * [Email Mime Parser](https://github.com/ram-sharma-6453/email-mime-parser)：基于Mime4j的简化Java电子邮件Mime解析器。
 
-#### 文件操作
+#### 文件监视
 
-* [AppDirs](https://github.com/harawata/appdirs)：AppDirs是一个小型Java库，它提供了平台相关的特殊文件夹/目录的路径。
-* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：用于基于java.nio.file.WatchService监视目录或单个文件的Java库。
+* [FSWatch](https://github.com/vorburger/ch.vorburger.fswatch)：基于java.nio.file.WatchService监控目录或单个文件的Java库。
 * [Directory Watcher](https://github.com/gmethvin/directory-watcher)：适用于JDK 8+的目录监视实用程序，旨在为Linux、macOS和Windows提供准确且高效的递归监视。
 * [Play File Watch Library](https://github.com/playframework/play-file-watch)：这是Play文件监视库，它可用于以独立于平台的方式监视文件。
-* [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
-* [Wildcard](https://github.com/EsotericSoftware/wildcard)：Wildcard是一个小型Java库，用于执行文件和目录的高效模式匹配。
-* [Directories](https://github.com/dirs-dev/directories-jvm)：Directories是一个提供配置/缓存/数据路径的小型库，遵循Linux、MacOS、BSD和Windows上的相应约定。
-* [Resource Loader](https://github.com/terl/resource-loader)：Resource Loader为你提供了加载资源文件的功能，无论是从JAR文件内部还是外部加载。
 * [Kfswatch](https://github.com/irgaly/kfswatch)：Kotlin多平台文件系统观察器库。
 
 #### 文件上传
@@ -8376,6 +8373,7 @@ permalink: /javalibs
 * [Iot Modbus](https://gitee.com/flyoss/iot-modbus)：物联网通讯协议，基于Netty框架，支持COM(串口)和TCP协议，支持服务端和客户端两种模式。
 * [Modbus4Android](https://github.com/zgkxzx/Modbus4Android)：这是适用于Android的Modbus库。
 * [Modbus4Android](https://github.com/licheedev/Modbus4Android)：Modbus的Android实现，添加对Android串口(RTU)的支持。
+* [Nifty Modbus](https://github.com/SolarNetwork/nifty-modbus)：Nifty Modbus是一个优秀的Java Modbus库。
 
 #### USB库
 
@@ -11589,6 +11587,12 @@ permalink: /javalibs
 * [Rsync4j](https://github.com/fracpete/rsync4j)：适用于Linux、OSX和Windows的rsync的简单Java包装器。
 * [Jayo](https://github.com/jayo-projects/jayo)：Jayo是一个基于java.io的JVM同步I/O库，这会产生简单、可读和可调试的代码，就像标准的阻塞程序一样，但它在幕后执行非阻塞I/O。
 
+## 目录库
+
+* [AppDirs](https://github.com/harawata/appdirs)：AppDirs是一个小型Java库，它提供了平台相关的特殊文件夹/目录的路径。
+* [Wildcard](https://github.com/EsotericSoftware/wildcard)：Wildcard是一个小型Java库，用于执行文件和目录的高效模式匹配。
+* [Directories](https://github.com/dirs-dev/directories-jvm)：Directories是一个提供配置/缓存/数据路径的小型库，遵循Linux、MacOS、BSD和Windows上的相应约定。
+
 ## 电子签名
 
 * [XAdES4j](https://github.com/luisgoncalves/xades4j)：XAdES4j是XML高级电子签名(XAdES 1.3.2和1.4.1)的高级、可配置和可扩展的Java实现。
@@ -12219,6 +12223,7 @@ permalink: /javalibs
 * [Apache Commons Exec](https://github.com/apache/commons-exec)：Commons Exec是一个从JVM内可靠地执行外部进程的库。
 * [Ch.Vorburger.Exec](https://github.com/vorburger/ch.vorburger.exec)：这是一个小型库，允许在后台从Java代码启动外部进程。
 * [JProc](https://github.com/fleipold/jproc)：用于运行外部进程的Java库。
+* [Giraffe](https://github.com/palantir/giraffe)：Giraffe是一个Java库，可让你轻松访问本地和远程计算机上的文件并执行命令，由Palantir开源。
 * [Overthere](https://github.com/xebialabs/overthere)：Overthere是一个Java库，用于在远程主机上操作文件和执行进程。
 * [ZT-EXEC](https://github.com/zeroturnaround/zt-exec)：Java进程执行库。
 * [ZT-Process-Killer](https://github.com/zeroturnaround/zt-process-killer)：停止从Java启动的进程或通过PID的系统进程。
