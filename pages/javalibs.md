@@ -608,6 +608,13 @@ permalink: /javalibs
   * [下采样](#下采样)
 * [噪声库](#噪声库)
 * [原生开发](#原生开发)
+* [互操作](#互操作)
+    * [Python](#Python)
+    * [Swift](#Swift)
+    * [Ruby](#Ruby)
+    * [Rust](#Rust)
+    * [R](#R)
+    * [.NET](#NET)
 * [操作系统信息](#操作系统信息)
 * [COM桥](#COM桥)
 * [GPU编程](#GPU编程)
@@ -631,7 +638,6 @@ permalink: /javalibs
 * [物理库](#物理库)
 * [无人机](#无人机)
 * [AIS库](#AIS库)
-* [跨语言](#跨语言)
 * [转换库](#转换库)
 * [IO库](#IO库)
 * [目录库](#目录库)
@@ -3503,6 +3509,7 @@ permalink: /javalibs
 * [Rapidoid](https://github.com/rapidoid/rapidoid)：Rapidoid是一款速度极快的HTTP服务器和现代Java Web框架/应用程序容器，重点关注高生产率和高性能。
 * [Nginx Clojure](https://github.com/nginx-clojure/nginx-clojure)：Nginx Clojure是一个Nginx模块，用于嵌入Clojure或Java或Groovy程序，通常是那些基于Ring的处理程序。
 * [Jibble](http://www.jibble.org/miniwebserver/)：Jibble是一个用Java编写的非常小的独立Web服务器，它打包在JAR文件中，也可以在你自己的Java程序中使用。
+* [TorqueBox](https://github.com/torquebox/torquebox)：TorqueBox运行在JRuby之上，并基于一个全新的轻量级、可插拔、多语言服务器。
 * [Android HTTP Server](https://github.com/piotrpolak/android-http-server)：完全用Java编写的小型但功能强大的多线程Web服务器。
 * [MuServer](https://github.com/3redronin/mu-server)：MuServer是一个基于Netty的现代Java Web服务器。
 * [Fluent HTTP](https://github.com/CodeStory/fluent-http)：Fluent HTTP是一个简单、快速、成熟的Web服务器。
@@ -4805,6 +4812,7 @@ permalink: /javalibs
 * [Java LangChain](https://github.com/Starcloud-Cloud/java-langchain)：Java LangChain是一个Java 8+的LangChain实现，在Java环境中构建强大的基于LLM的应用程序。
 * [ChocoBuilder](https://github.com/unit-mesh/choco-builder)：ChocoBuilder是一款开源的LLM应用开发框架，旨在帮助你轻松打造强大的软件开发SDLC、LLM生成助手。
 * [JBoltAI](https://jboltai.com/)：JBoltAI是Java企业级AI应用开发框架，旨在帮助Java系统快速接入大模型能力并开发具有AI能力的功能模块。
+* [DriftKit](https://github.com/driftkit-ai/driftkit-framework)：适用于Java的生产级AI框架。
 
 #### 推理引擎
 
@@ -6279,7 +6287,7 @@ permalink: /javalibs
 * [Java Image Filters](http://www.jhlabs.com/ip/filters/index.html)：Java Image Filters是由Jhlabs开发的一组用来处理Java图像的类库，提供各种常用的图像处理效果，例如反转色、扭曲、水波纹、凹凸、黑白效果等等数十种效果。
 * [JAI EXT](https://github.com/geosolutions-it/jai-ext)：JAI EXT是一个开源项目，旨在扩展JAI API，由GeoSolutions开源。
 * [Animated GIF Library](https://github.com/rtyley/animated-gif-lib-for-java)：Java的动画GIF库。
-* [GifAnimation](https://github.com/extrapixel/gif-animation)：GifAnimation是一个用于播放和导出GIF动画的Processing库。
+* [Color Thief](https://github.com/SvenWoltmann/color-thief-java)：从图像中抓取主色或代表性调色板。
 
 #### 水印
 
@@ -8091,6 +8099,7 @@ permalink: /javalibs
 * [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云聊天拥有全球接入、一对一聊天、群聊、消息推送、档案和关系链托管、账户认证等一整套解决方案。
 * [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
 * [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
+* [V-IM](https://gitee.com/alyouge/V-IM)：V-IM是基于JS的超轻量级聊天软件，服务端使用Spring Boot。
 * [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
 * [MallChat](https://github.com/zongzibinbin/MallChat)：抹茶聊天是一个IM项目，通过Netty实现和前端的WebSocket连接。
 * [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
@@ -10479,6 +10488,9 @@ permalink: /javalibs
 * [LebJS](https://github.com/LebsterFace/LebJS)：LebJS是用Java编写的JavaScript引擎。
 * [JScript](https://github.com/TopchetoEU/jscript)：JScript是一个引擎，能够运行EcmaScript 5，完全用Java编写。
 * [Karate JS](https://github.com/karatelabs/karate-js)：适用于JVM的轻量级JavaScript引擎。
+* [Trireme](https://github.com/apigee/trireme)：Trireme在JVM内运行Node.js脚本。
+* [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
+* [SWC4j](https://github.com/caoccao/swc4j)：SWC4j是一款基于JVM的超高速JavaScript和TypeScript编译和打包工具。
 
 ## 编译器&插件
 
@@ -11160,6 +11172,58 @@ permalink: /javalibs
 * [JNI4Android](https://github.com/bilibili/jni4android)：从伪Java生成C包装器，由B站开源。
 * [JFA](https://github.com/0x4a616e/jfa)：JFA是一个用于访问Apple Foundation框架的纯Java库。
 
+## 互操作
+
+* [LuaJava](https://github.com/jasonsantos/luajava)：LuaJava是一个Java脚本编写工具，该工具的目标是允许用Lua编写的脚本操作用Java开发的组件。
+* [Rococoa](https://github.com/iterate-ch/rococoa)：Rococoa是绑定到Mac Objective-C对象系统的通用Java，它允许在Java中创建和使用Objective-C对象，以及在Java中实现Objective-C接口。
+* [Javonet](https://www.javonet.com/)：Javonet是一个高级库，可以在任何编程语言和模块之间进行直接方法调用，从而无需集成层。
+* [DynamicObject](https://github.com/rschmitt/dynamic-object)：DynamicObject使Java开发人员能够以惯用的方式和最少的样板使用Clojure强大的数据建模功能。
+* [GraalPHP](https://github.com/abertschi/graalphp)：GraalPHP是一个实验性的即时(JIT)编译器和运行时，用于在GraalVM上托管的PHP 7.4+。
+* [TruffleSqueak](https://github.com/hpi-swa/trufflesqueak)：GraalVM的Squeak/Smalltalk VM和多语言编程环境，由波茨坦大学开源。
+
+#### Python
+
+* [GraalPy](https://github.com/oracle/graalpython)：GraalPy是基于GraalVM构建的JVM的Python语言的高性能实现，由Oracle开源。
+* [Py4J](https://github.com/py4j/py4j)：Py4J使Python程序能够动态访问任意Java对象。
+* [JPype](https://github.com/jpype-project/jpype)：JPype是一个Python模块，可在Python内部提供对Java的完全访问。
+* [Jep](https://github.com/ninia/jep)：Jep通过JNI将CPython嵌入到Java中。
+* [PemJa](https://github.com/alibaba/pemja)：PemJa是一个基于FFI的开源跨语言调用框架，由阿里开源。
+* [QPython](https://github.com/qpython-android/qpython)：QPython是适用于Android的Python引擎。
+
+#### Swift
+
+* [Swift Java](https://github.com/swiftlang/swift-java)：Swift Java互操作性工具和库，Apple开源。
+* [SwiftJava](https://github.com/SwiftJava/SwiftJava)：SwiftJava是一个Swift代码生成器，以及一个支持用Swift 3.0的Xcode beta6版本编写的代码的小框架。
+* [AndroidKit](https://github.com/PureSwift/Android)：Swift绑定到Android SDK(通过JNI)和NDK。
+
+#### Ruby
+
+* [JRuby](https://github.com/jruby/jruby)：JRuby是使用JVM的Ruby语言的实现。
+* [TruffleRuby](https://github.com/oracle/truffleruby)：TruffleRuby是Ruby编程语言的GraalVM高性能实现，由Oracle开源。
+* [Rjb](https://github.com/arton/rjb)：Rjb是使用JNI的Ruby-Java桥。
+
+#### Rust
+
+* [JNI Rs](https://github.com/jni-rs/jni-rs)：该项目为Rust提供了完整的JNI绑定。
+* [J4RS](https://github.com/astonbitecode/j4rs)：J4RS允许从Rust轻松调用Java代码，反之亦然。
+* [Robusta](https://github.com/giovanniberti/robusta)：该库提供了一个过程宏，使得在Rust中编写与JNI兼容的代码变得更容易。
+* [Duchess](https://github.com/duchess-rs/duchess)：Duchess是一个Rust包，可以简单、符合人体工程学且高效地与Java代码进行互操作。
+
+#### R
+
+* [RCaller](https://github.com/jbytecode/rcaller)：RCaller是一个软件库，旨在简化从Java调用R的过程，由伊斯坦布尔大学数值方法教授开源。
+* [FastR](https://github.com/oracle/fastr)：FastR是基于GraalVM构建的R编程语言的高性能实现，由Oracle开发。
+* [RJava](https://github.com/s-u/rJava)：R/Java接口允许在R中使用Java以及将R嵌入到Java中(通过JRI)。
+* [Renjin](https://github.com/bedatadriven/renjin)：Renjin是基于JVM的R语言解释器。
+* [Rserve](https://github.com/s-u/REngine)：Rserve是一个TCP/IP服务器，它允许其他程序使用各种语言的R功能，而无需初始化R或链接到R库。
+* [RSession](https://github.com/yannrichet/rsession)：Rsession提供了一个易于使用的Java类，可以访问远程或本地R会话。
+
+#### .NET
+
+* [JNI4NET](https://github.com/jni4net/jni4net)：JVM和CLR之间的快速、面向对象、进程内桥梁。
+* [Java.Interop](https://github.com/dotnet/java-interop)：Java.Interop是JNI的绑定，可用于托管语言(如C#)和一组相关的代码生成器，以允许Java代码调用托管代码，由Microsoft开源。
+* [Bluebonnet](https://github.com/spaceflint7/bluebonnet)：这是基于JVM的.NET平台的部分实现，并与Android运行时兼容。
+
 ## 操作系统信息
 
 * [Sigar](https://github.com/hyperic/sigar)：Sigar提供跨平台的系统信息收集的API。
@@ -11540,33 +11604,6 @@ permalink: /javalibs
 * [AisLib](https://github.com/dma-ais/AisLib)：AisLib是一个用于处理AIS消息的Java库，由丹麦海事局开源。
 * [Java Marine API](https://github.com/ktuukkan/marine-api)：Java Marine API是一个NMEA 0183解析器库，用于对各种电子海洋设备(例如GPS、回声测深仪和气象仪器)提供的数据进行解码和编码。
 * [Risky](https://github.com/amsa-code/risky)：用于分析带有时间戳的位置数据的工具，例如来自AIS的船舶位置报告。
-
-## 跨语言
-
-* [Swift Java](https://github.com/swiftlang/swift-java)：Swift Java互操作性工具和库，Apple开源。
-* [SwiftJava](https://github.com/SwiftJava/SwiftJava)：SwiftJava是一个Swift代码生成器，以及一个支持用Swift 3.0的Xcode beta6版本编写的代码的小框架。
-* [Py4J](https://github.com/py4j/py4j)：Py4J使Python程序能够动态访问任意Java对象。
-* [Jep](https://github.com/ninia/jep)：Jep通过JNI将CPython嵌入到Java中。
-* [QPython](https://github.com/qpython-android/qpython)：QPython是适用于Android的Python引擎。
-* [RCaller](https://github.com/jbytecode/rcaller)：RCaller是一个软件库，旨在简化从Java调用R的过程，由伊斯坦布尔大学数值方法教授开源。
-* [FastR](https://github.com/oracle/fastr)：FastR是基于GraalVM构建的R编程语言的高性能实现，由Oracle开发。
-* [RJava](https://github.com/s-u/rJava)：R/Java接口允许在R中使用Java以及将R嵌入到Java中(通过JRI)。
-* [Renjin](https://github.com/bedatadriven/renjin)：Renjin是基于JVM的R语言解释器。
-* [Rserve](https://github.com/s-u/REngine)：Rserve是一个TCP/IP服务器，它允许其他程序使用各种语言的R功能，而无需初始化R或链接到R库。
-* [RSession](https://github.com/yannrichet/rsession)：Rsession提供了一个易于使用的Java类，可以访问远程或本地R会话。
-* [J4RS](https://github.com/astonbitecode/j4rs)：J4RS允许从Rust轻松调用Java代码，反之亦然。
-* [Robusta](https://github.com/giovanniberti/robusta)：该库提供了一个过程宏，使得在Rust中编写与JNI兼容的代码变得更容易。
-* [Duchess](https://github.com/duchess-rs/duchess)：Duchess是一个Rust包，可以简单、符合人体工程学且高效地与Java代码进行互操作。
-* [LuaJava](https://github.com/jasonsantos/luajava)：LuaJava是一个Java脚本编写工具，该工具的目标是允许用Lua编写的脚本操作用Java开发的组件。
-* [Rococoa](https://github.com/iterate-ch/rococoa)：Rococoa是绑定到Mac Objective-C对象系统的通用Java，它允许在Java中创建和使用Objective-C对象，以及在Java中实现Objective-C接口。
-* [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
-* [J2C](https://github.com/arnetheduck/j2c)：J2C可以将Java代码转换为可编译的C++(11)代码。
-* [JTcl](https://github.com/jtcl-project/jtcl)：JTcl是用Java编写的Tcl(工具命令语言)的实现。
-* [PemJa](https://github.com/alibaba/pemja)：PemJa是一个基于FFI的开源跨语言调用框架，由阿里开源。
-* [JNI4NET](https://github.com/jni4net/jni4net)：JVM和CLR之间的快速、面向对象、进程内桥梁。
-* [Trireme](https://github.com/apigee/trireme)：Trireme在JVM内运行Node.js脚本。
-* [Javonet](https://www.javonet.com/)：Javonet是一个高级库，可以在任何编程语言和模块之间进行直接方法调用，从而无需集成层。
-* [DynamicObject](https://github.com/rschmitt/dynamic-object)：DynamicObject使Java开发人员能够以惯用的方式和最少的样板使用Clojure强大的数据建模功能。
 
 ## 转换库
 
