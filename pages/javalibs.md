@@ -489,6 +489,7 @@ permalink: /javalibs
   * [Android更新库](#Android更新库)
   * [Android热修复](#Android热修复)
   * [Android运行时权限](#Android运行时权限)
+  * [Android下载库](#Android下载库)
 * [GUI开发/程序](#GUI开发程序)
   * [GUI框架](#GUI框架)
   * [移动开发框架](#移动开发框架)
@@ -512,7 +513,7 @@ permalink: /javalibs
   * [JavaFX渲染库](#JavaFX渲染库)
   * [键盘鼠标监听器](#键盘鼠标监听器)
   * [浏览器](#浏览器)
-  * [JavaFX小工具](#JavaFX小工具)
+  * [JavaFX程序](#JavaFX程序)
   * [GUI程序](#GUI程序)
   * [IDE](#IDE)
   * [文本编辑器](#文本编辑器)
@@ -812,6 +813,7 @@ permalink: /javalibs
 * [CUBA Platform](https://github.com/cuba-platform/cuba)：CUBA Platform是一个高级框架，用于快速开发具有丰富Web界面的企业应用程序。
 * [Tiny Framework](https://gitee.com/tinyframework/tiny)：企业级Java EE应用开发框架套件。
 * [Minum](https://github.com/byronka/minum)：Minum是一个从头开始构建的最小Java Web框架，零依赖，使用虚拟线程。
+* [TurboWeb](https://gitee.com/turboweb/turboweb)：TurboWeb是一个现代、高性能的Java Web框架，底层基于Netty，核心依托JDK 21虚拟线程，为高并发场景而生。
 * [Dragome](https://www.dragome.com/)：Dragome是一个使用纯Java语言创建客户端Web应用程序的开源工具。
 * [Atmosphere](https://github.com/Atmosphere/atmosphere)：Atmosphere框架包含用于构建异步Web应用程序的客户端和服务器端组件。
 * [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
@@ -912,7 +914,7 @@ permalink: /javalibs
 * [Grumpyrest](https://github.com/MartinGeisse/grumpyrest)：Grumpyrest是一个Java REST服务器框架，不使用注解、自动依赖注入或响应流，并最大限度地减少反射的使用。
 * [Resty](https://github.com/Dreampie/Resty)：Resty一款极简的RESTful轻量级的Web框架。
 * [Airlift](https://github.com/airlift/airlift)：Airlift是一个用Java构建REST服务的框架，由Dropbox开源。
-* [Apache Juneau](https://github.com/apache/juneau)：Juneau是一个强大的框架，用于简化构建和解析RESTful API的过程，由IBM开发。
+* [Apache Juneau](https://github.com/apache/juneau)：Juneau是一个强大的框架，用于简化构建和解析RESTful API的过程，由IBM开源。
 * [Kanary](https://github.com/SeunAdelekan/Kanary)：用于在Kotlin/Java中构建REST API的简约Web框架。
 * [Moqui Framework](https://github.com/moqui/moqui-framework)：Moqui是一个全功能、企业级应用开发框架，基于Groovy和Java语言。
 * [Kilo](https://github.com/HTTP-RPC/Kilo)：Kilo是一个开源框架，用于在Java中创建和使用RESTful和类REST Web服务。
@@ -1338,6 +1340,7 @@ permalink: /javalibs
 * [Embedded DB JUnit](https://github.com/zapodot/embedded-db-junit)：提供内存数据库的JUnit Rule(支持H2和HyperSQL)。
 * [Nats Server Embedded](https://github.com/YunaBraska/nats-server-embedded)：用于测试的Nats服务器。
 * [PelicanDT](https://github.com/alibaba/PelicanDT)：PelicanDT是阿里云提供的一款Linux系统远程控制利器，是主要针对分布式应用提供的集成测试解决方案，用于帮助开发者简单、高效地测试分布式应用。
+* [Lowkey Vault](https://github.com/nagyesta/lowkey-vault)：Lowkey Vault是一个测试替身，旨在与Azure Key Vault REST API兼容。
 
 #### 接口测试
 
@@ -1798,6 +1801,7 @@ permalink: /javalibs
 
 * [Awaitility](https://github.com/awaitility/awaitility)：Awaitility是一种DSL，允许你以简洁且易于阅读的方式表达对异步系统的期望。
 * [Lincheck](https://github.com/JetBrains/lincheck)：Lincheck是一个实用且用户友好的框架，用于在JVM上测试并发算法，由JetBrains开源。
+* [Lin Check](https://github.com/devexperts/lin-check)：Lin Check是一个用于测试并发数据结构正确性的框架，由Devexperts开源。
 * [Vmlens](https://github.com/vmlens/vmlens)：Vmlens使在JVM上对多线程应用程序进行单元测试变得容易。
 * [Thread Weaver](https://github.com/google/thread-weaver)：Weaver是一个用于测试多线程代码的Java框架，由Google开源。
 * [JCStress](https://github.com/openjdk/jcstress)：JCStress是实验性工具和一套测试，用于帮助研究JVM、类库和硬件中并发支持的正确性，由Oracle开源。
@@ -2316,7 +2320,7 @@ permalink: /javalibs
 * [Statsd JVM Profiler](https://github.com/etsy/statsd-jvm-profiler)：Statsd JVM Profiler是一个JVM代理分析器，它将分析数据发送到StatsD，由Esty开源。
 * [SJK](https://github.com/aragozin/jvm-tools)：SJK是一个用于JVM诊断、故障排除和分析的命令行工具。
 * [Jvmtop](https://github.com/patric-r/jvmtop)：Jvmtop是一个轻量级控制台应用程序，用于监视计算机上所有可访问的、正在运行的JVM。
-* [Aprof](https://github.com/devexperts/aprof)：Aprof是一个Java内存分配分析器，对分析的应用程序的性能影响非常低，由Devexperts开发。
+* [Aprof](https://github.com/devexperts/aprof)：Aprof是一个Java内存分配分析器，对分析的应用程序的性能影响非常低，由Devexperts开源。
 * [Sniffy](https://github.com/sniffy/sniffy)：Sniffy是一个Java分析器，它直接在浏览器中显示结果。
 * [Spf4j](https://github.com/zolyfarkas/spf4j)：Spf4j库是旨在提高Java应用程序的可观察性和性能的组件集合。
 * [JavaMelody](https://github.com/javamelody/javamelody)：JavaMelody的目标是监控QA和生产环境中的Java或Java EE应用程序。
@@ -2414,6 +2418,7 @@ permalink: /javalibs
 * [TDA](https://github.com/irockel/tda)：TDA是一个小型Swing GUI，用于分析Java VM生成的线程转储和堆信息。
 * [MJProf](https://github.com/AdoptOpenJDK/mjprof)：MJProf是一个单子线程转储分析工具集，它使用一系列简单的可组合构建块(monad)来分析jstack输出。
 * [JStack Review](https://jstack.review/)：JStack Review从浏览器内分析Java线程转储。
+* [JStackFX](https://github.com/twasyl/jstackfx)：JStackFX是一种用于分析线程转储的工具。
 
 #### 对象测量
 
@@ -3612,7 +3617,6 @@ permalink: /javalibs
 
 #### 网络库
 
-* [Fast Android Networking](https://github.com/amitshekhariitbhu/Fast-Android-Networking)：Fast Android Networking是一个功能强大的库，用于在Android应用程序中执行任何类型的网络。
 * [Network Connection](https://github.com/facebookarchive/network-connection-class)：Network Connection是一个Android库，可让你了解当前用户的互联网连接质量，由Facebook开源。
 * [Apache Commons Net](https://github.com/apache/commons-net)：Commons Net库包含网络实用程序和协议实现的集合。
 * [Envoy Mobile](https://github.com/envoyproxy/envoy-mobile)：构建在Envoy项目的核心网络层上的多平台客户端HTTP/网络库。
@@ -4108,6 +4112,7 @@ permalink: /javalibs
 * [Zserio](https://github.com/ndsev/zserio)：Zserio是一个以紧凑、高效、低开销的方式序列化结构化数据的框架。
 * [Chill](https://github.com/twitter/chill)：Kryo序列化库的扩展，包括序列化器和一组类，以简化Hadoop、Storm、Akka等系统中Kryo的配置，由Twitter开源。
 * [Opack](https://github.com/realtimetech-solution/opack)：Opack是一个Java库，可以实现Java对象与普通对象之间的序列化/反序列化，由韩国公司Realtime开源。
+* [FastProto](https://github.com/indunet/fastproto)：FastProto是一个功能强大的二进制数据处理工具，旨在简化Java环境中的二进制数据编码和解码。
 
 #### Protocol Buffer
 
@@ -4231,6 +4236,7 @@ permalink: /javalibs
 * [Titanium JSON-LD](https://github.com/filip26/titanium-json-ld)：JSON-LD 1.1处理器和API。
 * [Schema.org Java](https://github.com/google/schemaorg-java)：用于处理JSON-LD格式的Schema.org数据的Java实用程序，由Google开发。
 * [Schema.org Java](https://github.com/Kobee1203/schema-org-java)：Schema-org Java是一个用于创建schema.org实体的库。
+* [JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld)：JB4JSON-LD是一个简单的库，用于将Java对象序列化为JSON-LD，由布拉格捷克技术大学开源。
 
 #### JSON比较
 
@@ -6364,9 +6370,11 @@ permalink: /javalibs
 * [LZMA](https://github.com/jponge/lzma-java)：该库为在Java平台上运行的应用程序提供LZMA压缩。
 * [LZO](https://github.com/shevek/lzo-java)：liblzo2 LZO压缩算法的纯Java实现。
 * [LZ4](https://github.com/lz4/lz4-java)：用于Java的LZ4压缩库。
+* [Succinct](https://github.com/amplab/succinct)：Succinct是一个数据存储系统，支持直接查询压缩后的数据，由加州大学伯克利分校AMPLab开源。
 * [Compress](https://gitee.com/yu120/compress)：基于gzip、deflate、lz4、snappy、lzo等算法实现数据压缩，主要用于RPC通讯数据的压缩。
 * [Zip4j](https://github.com/srikanth-lingala/zip4j)：Zip4j是最全面的zip文件或流Java库。
-* [JavaFastPFOR](https://github.com/lemire/JavaFastPFOR)：Java中的一个简单的整数压缩库。
+* [Kanzi](https://github.com/flanglet/kanzi)：Kanzi是一个用Java实现的现代、模块化、可扩展、高效的无损数据压缩器。
+* [JavaFastPFOR](https://github.com/lemire/JavaFastPFOR)：Java中的简单整数压缩库。
 * [ZT ZIP](https://github.com/zeroturnaround/zt-zip)：Java zip库，构建于java.util.zip包之上。
 * [ZIP Forge](https://github.com/helpermethod/zip-forge)：一个小型的、格式化程序友好的Java DSL，用于创建ZIP文件。
 * [ShrinkWrap](https://github.com/shrinkwrap/shrinkwrap)：ShrinkWrap是一个Java库，用于创建Java存档，例如JAR、WAR、EAR和RAR，由JBoss开源。
@@ -6608,6 +6616,7 @@ permalink: /javalibs
 * [JPedal](https://www.idrsolutions.com/jpedal/)：JPedal是一个Java PDF库，它使Java开发人员可以轻松地在Java中处理PDF文档，这是IDRsolutions的商业产品。
 * [OpenPDF](https://github.com/LibrePDF/OpenPDF)：OpenPDF是一个Java库，用于创建和编辑PDF文件。
 * [PD4ML](https://pd4ml.com/)：PD4ML提供强大的工具和API，用于生成高质量、定制化、可访问的文档，用于打印和长期电子存档。
+* [PDFtk Java](https://gitlab.com/pdftk-java/pdftk)：PDFtk是一款用于处理PDF文档日常事务的简单工具。
 * [PDF Clown](https://pdfclown.org/)：PDF Clown是一个用于Java的通用PDF库，专注于严格执行PDF 1.7规范(ISO 32000-1)。
 * [X-EasyPDF](https://gitee.com/dromara/x-easypdf)：X-EasyPDF是一个基于PDFBox/FOP二次封装的框架，由dromara社区开源。
 * [PDFsam](https://github.com/torakiki/pdfsam)：PDFsam是一款用于拆分、合并、混合、旋转PDF文件和提取页面的桌面应用程序。
@@ -6630,31 +6639,32 @@ permalink: /javalibs
 * [OrsonPDF](https://github.com/jfree/orsonpdf)：OrsonPDF是一个适用于Java平台的PDF生成库，允许你使用标准Java2D绘图API(Graphics2D)创建PDF格式的内容。
 * [ComPDFKit](https://github.com/ComPDFKit/compdfkit-api-java)：ComPDFKit提供强大稳定的PDF库和完整的PDF功能来构建PDF查看器和编辑器，允许预览、编辑、注释、签名、加密和解密PDF文件。
 * [PDF Test](https://github.com/codeborne/pdf-test)：PDF测试库，确保你的代码生成正确的PDF，由Codeborne开发。
+* [PDF Generator](https://github.com/UttamPanchasara/PDF-Generator)：PDF生成器库，可以轻松地从字符串内容或任何HTML内容创建PDF。
 
 #### Excel库
 
 * [Apache POI](https://github.com/apache/poi)：POI是用于读写Office二进制和OOXML文件格式的Java库。
 * [EasyExcel](https://github.com/alibaba/easyexcel)：EasyExcel是一个基于Java的、快速、简洁、解决大文件内存溢出的Excel处理工具，由阿里开源。
-* [FastExcel](https://github.com/CodePhiliaX/fastexcel)：EasyExcel最新升级版本，快速、简洁、解决大文件内存溢出的Java处理Excel工具。
+* [FastExcel](https://github.com/fast-excel/fastexcel)：EasyExcel最新升级版本，快速、简洁、解决大文件内存溢出的Java处理Excel工具。
 * [Aspose.Cells](https://products.aspose.com/cells/java/)：Aspose.Cells提供Excel文件生成、转换和操作。
 * [Spire.XLS](https://www.e-iceblue.com/Introduce/xls-for-java.html)：Spire.XLS是一个专业的Java Excel API，使开发人员无需使用Microsoft Office或Microsoft Excel即可创建、管理、操作、转换和打印Excel工作表。
 * [Docx4j](https://github.com/plutext/docx4j)：Docx4j是一个开源库，用于创建、编辑和保存OpenXML包，包括docx、pptx和xslx。
 * [MyExcel](https://github.com/liaochong/myexcel)：MyExcel是一个集导入导出、加密Excel等多项功能的工具包。
 * [EasyPOI](https://gitee.com/wupaas/easypoi)：EasyPOI是一个POI工具库，提供了Excel的快速导入导出、Excel模板导出、Word模板导出。
-* [Excel4j](https://gitee.com/Crab2Died/Excel4J)：Excel4j是基于POI的Excel和Commons-CSV的CSV操作组件。
+* [Excel4j](https://gitee.com/Crab2Died/Excel4J)：Excel4j是基于POI的Excel和Commons CSV的CSV操作组件。
 * [EasyFile](https://gitee.com/openquartz/easy-file)：EasyFile是一整套Web大文件导出解决方案，可以轻松导出千万以上数据。
 * [FastExcel](https://github.com/dhatim/fastexcel)：FastExcel可用于快速生成和读取大Excel文件。
 * [JXLS](https://github.com/jxlsteam/jxls)：Jxls是一个小型且易于使用的Java库，用于使用Excel模板文件生成Excel报告。
 * [Poiji](https://github.com/ozlerhakan/poiji)：Poiji是一个小型线程安全Java库，提供从Excel工作表到Java类的一种映射方式。
 * [AutoPOI](https://github.com/jeecgboot/autopoi)：AutoPOI是Excel和Word的简易工具类，由北京国炬公司开发。
-* [XresLoader](https://github.com/xresloader/xresloader)：XresLoader是一组用于把Excel数据结构化并导出为程序可读的数据文件的导表工具集。
+* [XresLoader](https://github.com/owent/xresloader)：XresLoader是一组用于把Excel数据结构化并导出为程序可读的数据文件的导表工具集。
 * [AutoExcel](https://github.com/feng-haitao/auto-excel)：AutoExcel是Excel的快速导入和导出工具。
 * [Excel Streaming Reader](https://github.com/monitorjbl/excel-streaming-reader)：使用POI的流式Excel读取器的易于使用的实现。
 * [ZeroCell](https://github.com/creditdatamw/zerocell)：ZeroCell提供了一个简单的API，用于使用注解将Excel中的数据加载到POJO中，将Excel中的列映射到Java类中的字段。
 * [EEC](https://github.com/wangguanquan/eec)：EEC是一款轻量且高效的Excel读写工具，它具有包体小、接入代码量少和运行时消耗资源少等优点。
 * [ExcelKit](https://gitee.com/wuwenze/ExcelKit)：简单、好用且轻量级的海量Excel文件导入导出解决方案。
 * [ExcelUtil](https://github.com/SargerasWang/ExcelUtil)：用于导入导出Excel的Util包，基于Java的POI。
-* [POI Excel](https://gitee.com/stupid1t/poi-excel)：POI-Excel是一个基于POI的Java工具，旨在简化新手在处理Excel表格时的操作。
+* [POI Excel](https://gitee.com/stupid1t/poi-excel)：POI Excel是一个基于POI的Java工具，旨在简化新手在处理Excel表格时的操作。
 * [Chimm.Excel](https://gitee.com/chimmhuang/chimm.excel)：Chimm.Excel是一个用Java写的Excel生成工具，基于模板操作，简单、快捷、易上手。
 * [ExcelCompare](https://github.com/na-ka-na/ExcelCompare)：ExcelCompare是一个命令行工具，用于比较Excel/Open document(ods)电子表格。
 * [ZK Spreadsheet](https://github.com/zkoss/zkspreadsheet)：ZK Spreadsheet是一个开源的、可嵌入的、基于Web的在线电子表格，它使用纯Java在浏览器中提供Excel的丰富功能。
@@ -6663,7 +6673,7 @@ permalink: /javalibs
 * [Xcelite](https://github.com/eBay/xcelite)：Xcelite是一个类似ORM的Java库，它允许你轻松地将Java Bean序列化到Excel电子表格或从Excel电子表格反序列化Java Bean，由eBay开源。
 * [Java Excel API](https://jexcelapi.sourceforge.net/)：Java Excel API是一个成熟的开源Java API，使开发人员能够动态读取、写入和修改Excel电子表格。
 * [HY Common Report](https://github.com/HY-Org/hy.common.report)：报表、Excel操作类库。
-* [DsExcel Java](https://github.com/GrapeCity/DsExcel-Java)：高速Java Excel电子表格API库。
+* [DsExcel Java](https://github.com/GrapeCity/DsExcel-Java)：DsExcel是一个跨平台、高速、占用空间小的电子表格API库，无需依赖Excel。
 * [Excel Boot](https://github.com/programmeres/excel-boot)：Excel Boot是一款Excel导入导出解决方案组成的轻量级开源组件。
 * [MemPOI](https://github.com/firegloves/MemPOI)：使用POI简化从数据库导出到Excel文件的库。
 * [Excel Plus](https://github.com/hellokaton/excel-plus)：提高Excel操作库的生产力。
@@ -6675,7 +6685,7 @@ permalink: /javalibs
 * [MyExcel](https://github.com/liaochong/myexcel)：MyExcel是一个集导入导出、加密Excel等多项功能的工具包，支持CSV文件。
 * [Super CSV](https://github.com/super-csv/super-csv)：Super CSV是一个快速、程序员友好的开源库，用于使用Java读写CSV文件。
 * [FastCSV](https://github.com/osiegmar/FastCSV)：FastCSV是一个快如闪电、无依赖的Java CSV库，符合RFC标准。
-* [Excel4j](https://gitee.com/Crab2Died/Excel4J)：Excel4j是基于POI的Excel和Commons-CSV的CSV操作组件。
+* [Excel4j](https://gitee.com/Crab2Died/Excel4J)：Excel4j是基于POI的Excel和Commons CSV的CSV操作组件。
 * [Charred](https://github.com/cnuernber/charred)：Charred是针对CSV和JSON格式的高效基于字符的文件解析库。
 * [Jackson Dataformats Text](https://github.com/FasterXML/jackson-dataformats-text)：支持通过Jackson抽象读取和写入CSV编码数据。
 * [UniVocity Parsers](https://github.com/uniVocity/univocity-parsers)：UniVocity Parsers是速度最快功能最全的CSV开发库之一，同时支持CSV与固定宽度记录的读写。
@@ -6696,10 +6706,13 @@ permalink: /javalibs
 
 * [Aspose.Words](https://products.aspose.com/words/java/)：Aspose.Words是一个原生库，它为开发人员提供了丰富的功能来创建、编辑和转换Word、PDF、Web文档，而无需在系统上安装Microsoft Word环境。
 * [Spire.Doc](https://www.e-iceblue.com/Introduce/doc-for-java.html)：Spire.Doc是一个专业的Word API，它使Java应用程序能够创建、转换、处理和打印Word文档，而无需依赖Microsoft Word。
-* [POI-TL](https://github.com/Sayi/poi-tl)：POI-TL是一个Word模板引擎，可以根据Word模板和数据生成新文档。
-* [Docx4j](https://github.com/plutext/docx4j)：Docx4j是一个开源库，用于创建、编辑和保存OpenXML“包”，包括docx、pptx和xslx。
+* [POI-TL](https://github.com/Sayi/poi-tl)：POI TL是一个Word模板引擎，可以根据Word模板和数据生成新文档。
+* [Docx4j](https://github.com/plutext/docx4j)：Docx4j是一个开源库，用于创建、编辑和保存OpenXML包，包括docx、pptx和xslx。
 * [Docx Stamper](https://github.com/thombergs/docx-stamper)：Docx Stamper是一个用于docx文档的Java模板引擎。
-* [WordGO](https://github.com/qrpcode/wordgo)：让Java生成word文档更容易。
+* [Stencil](https://github.com/erdos/stencil)：Stencil是一个开源模板引擎，可以从JVM转换Office Open XML文档(主要是Microsoft Office Word .docx文件)。
+* [Office Stamper](https://github.com/verronpro/office-stamper)：Office Stamper是一个Java模板引擎，允许在运行时动态创建DOCX文档。
+* [WordGO](https://gitee.com/qiruipeng/WordGo)：让Java生成word文档更容易。
+* [OfficeExport Java](https://github.com/kmood/officeexport-java)：OfficeExport Java基于Apache FreeMarker，通过极简API实现Java Bean即数据源，模板即样式的Word导出。
 
 #### PPT库
 
@@ -6905,7 +6918,7 @@ permalink: /javalibs
 * [Java WkHtmlToPdf Wrapper](https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper)：WkHtmlToPdf命令行工具的基于Java的包装器。
 * [Pdf2Dom](https://github.com/radkovo/Pdf2Dom)：Pdf2Dom是一个PDF解析器，可将文档转换为HTML DOM表示形式。
 * [HTMLToPDF](https://github.com/wooio/htmltopdf-java)：该项目基于WkHtmlToPdf，它将HTML文档转换为PDF。
-* [PDF Converter](https://github.com/jmrozanec/pdf-converter)：一个Java库，用于将.pdf文件转换为.epub、.txt、.png、.jpg、.zip格式。
+* [PDF Converter](https://github.com/jmrozanec/pdf-converter)：一个将.pdf文件转换为.epub、.txt、.png、.jpg和.zip格式的Java库。
 * [Documents4j](https://github.com/documents4j/documents4j)：Documents4j是一个用于将文档转换为另一种文档格式的Java库。
 * [Mammoth](https://github.com/mwilliamson/java-mammoth)：Mammoth旨在转换.docx文档，例如由Microsoft Word、Google Docs和LibreOffice创建的文档，并将其转换为HTML。
 * [Html2Image](https://github.com/hkirk/java-html2image)：这个简单的Java库将纯HTML标签转换为图像，并使用HTML元素提供客户端图像映射。
@@ -6916,6 +6929,9 @@ permalink: /javalibs
 * [Fugerit Doc](https://github.com/fugerit-org/fj-doc)：从XML文档元模型开始生成不同输出格式的文档的框架。
 * [Silencio](https://github.com/damianszczepanik/silencio)：Silencio是一个用于转换XML、JSON、YAML、Properties和其他格式的Java库。
 * [KefirBB](https://github.com/kefirfromperm/kefirbb)：KefirBB是一个用于文本处理的Java库。
+* [Docs To PDF Converter](https://github.com/yeokm1/docs-to-pdf-converter)：一个独立的Java库/命令行工具，可将DOC、DOCX、PPT、PPTX和ODT文档转换为PDF文件。
+* [Docx4j ImportXHTML](https://github.com/plutext/docx4j-ImportXHTML)：使用Docx4j将XHTML转换为OpenXML WordML(docx)，还支持转换为pptx。
+* [Email To PDF Converter](https://github.com/nickrussler/email-to-pdf-converter)：该软件可用于将电子邮件文件转换为PDF文件，它可以用作库、命令行工具或带有GUI的桌面应用程序。
 
 #### Mime解析
 
@@ -9431,6 +9447,25 @@ permalink: /javalibs
 * [Rx Android Permissions](https://github.com/sergejsha/rx-android-permissions)：Android 6.0中引入的用于观察和请求Android运行时权限的简单RxJava库。
 * [PowerPermission](https://github.com/underwindfall/PowerPermission)：PowerPermission使得处理运行时权限变得非常容易。
 
+#### Android下载库
+
+* [FileDownloader](https://github.com/lingochamp/FileDownloader)：Android多任务文件下载引擎。
+* [OkDownload](https://github.com/lingochamp/okdownload)：可靠、灵活、快速且强大的下载引擎。
+* [Fast Android Networking](https://github.com/amitshekhariitbhu/Fast-Android-Networking)：Fast Android Networking是一个功能强大的库，用于在Android应用程序中执行任何类型的网络。
+* [RxDownload](https://github.com/ssseasonnn/RxDownload)：使用RxJava和Kotlin编写的多线程下载工具。
+* [Android Download Manager](https://github.com/majidgolshadi/Android-Download-Manager-Pro)：Android/Java下载管理器库可帮助你以并行机制分块下载文件。
+* [Multi Thread Downloader](https://github.com/devaige/MultiThreadDownloader)：轻量级、简单的Android多线程下载器。
+* [MultiThreadDownload](https://github.com/Aspsine/MultiThreadDownload)：Android多线程下载库。
+* [Thin DownloadManager](https://github.com/smanikandan14/ThinDownloadManager)：Thin DownloadManager是一个Android库，主要用于下载文件，并在应用程序中使用Android提供的DownloadManager时避免使用DOWNLOAD_WITHOUT_NOTIFICATION权限。
+* [Picasso 2 OkHttp 3 Downloader](https://github.com/JakeWharton/picasso2-okhttp3-downloader)：针对Picasso 2的OkHttp 3下载器实现。
+* [CoreProgress](https://github.com/lizhangqu/CoreProgress)：CoreProgress是一个支持OkHttp上传下载进度的框架。
+* [Download Manager](https://github.com/novoda/download-manager)：处理长时间下载、处理网络交互并在失败后自动重试下载的库。
+* [Android Downloader](https://github.com/ixuea/android-downloader)：Android Downloader是一个适用于Android的开源多线程和多任务下载信息框架。
+* [Downloader](https://github.com/Justson/Downloader)：Downloader是一个非常轻巧以及功能强大快速下载库。
+* [M3U8Downloader](https://github.com/Jay-Goo/M3U8Downloader)：M3U8下载器，支持多线程下载、断点续传、后台下载、本地播放解决方案、M3U8加密解决方案。
+* [FileDownloader](https://github.com/wlfcolin/file-downloader)：FileDownloader是一个强大的HTTP/HTTPS文件下载工具
+* [Pump](https://github.com/huxq17/Pump)：Pump是一个快速、易于使用的Android下载库，支持多任务、多线程、断点下载。
+
 ## GUI开发/程序
 
 这里列出了Java中常用的Swing、JavaFX开发库，以及一些Java开发的GUI工具。
@@ -9526,6 +9561,7 @@ permalink: /javalibs
 * [SwingX](https://github.com/arotenberg/swingx)：SwingX是一个扩展Java Swing库的组件和实用程序库。
 * [SwingBox](https://github.com/radkovo/SwingBox)：SwingBox是一个Java Swing组件，允许显示包含CSS支持的(X)HTML文档。
 * [Swing Toast Notifications](https://github.com/DJ-Raven/swing-toast-notifications)：Java桌面应用程序使用Swing Toast通知。
+* [TableFilter](https://coderazzi.net/tablefilter/)：TableFilter是一组Swing组件，用于支持用户自定义的表格过滤功能。
 
 #### Swing Dock库
 
@@ -9763,7 +9799,7 @@ permalink: /javalibs
 * [JFX Browser](https://github.com/badarshahzad/Jfx-Browser)：JFX Browser是一个多选项卡浏览器。
 * [Webview Java](https://github.com/webview/webview_java)：Webview项目的Java移植，它使用JNA并自动提取当前系统所需的dll/dylib/so库。
 
-#### JavaFX小工具
+#### JavaFX程序
 
 * [JabRef](https://github.com/JabRef/jabref)：JabRef是一个开源、跨平台的引文和引用管理工具。
 * [AsciidocFX](https://github.com/asciidocfx/AsciidocFX)：AsciidocFX是一款书籍/文档编辑工具，用户可以创建PDF、Epub、Mobi和HTML等形式的书籍/文档。
@@ -9791,6 +9827,7 @@ permalink: /javalibs
 * [Usagi](https://github.com/OHDSI/Usagi)：Usagi是一个帮助创建编码系统和词汇标准概念之间映射的应用程序，由OHDSI开源。
 * [Trinity](https://github.com/Birdasaur/Trinity)：Trinity提供性能分析和XAI工具，非常适合深度学习系统或执行复杂分类或解码的其他模型。
 * [Board Instrumentation Framework](https://github.com/intel/Board-Instrumentation-Framework)：这个项目允许你灵活地对几乎任何你想要的内容进行仪表化和图形化显示，由Intel开发。
+* [Officer Breaker](https://github.com/nedlir/OfficerBreaker)：Officer Breaker是一个简单的程序，它可以从属于Office Open XML格式系列(.pptx/.xlsx/.docx文件类型)的只读保护文件中删除密码。
 
 #### GUI程序
 
@@ -10015,7 +10052,7 @@ permalink: /javalibs
 * [VUE](https://github.com/VUE/VUE)：VUE是一个用Java编写的免费开源概念图应用程序，由塔夫茨大学学术技术小组开发。
 * [CompendiumNG](https://github.com/compendiumng/compendiumng)：CompendiumNG是一个功能强大的应用程序，可让你使用节点和链接结构创建广泛的地图，由英国开放大学开源。
 * [MindRaider](https://mindraider.sourceforge.net/)：MindRaider是一款个人笔记本和大纲编辑器。
-* [Mindolph](https://github.com/twasyl/jstackfx)：Mindolph是一款开源个人知识管理软件。
+* [Mindolph](https://github.com/mindolph/Mindolph)：Mindolph是一款开源个人知识管理软件。
 
 #### 数据库软件
 
@@ -11857,7 +11894,7 @@ permalink: /javalibs
 * [Mojito](https://github.com/box/mojito)：Mojito是一个持续本地化平台，依靠持续集成将所有软件字符串收集到一处，实时查看哪些产品需要本地化。
 * [Tolgee](https://github.com/tolgee/tolgee-platform)：Tolgee是一个本地化平台，允许你将应用程序翻译成任何语言，而无需修改代码。
 * [Humanize](https://github.com/mfornos/humanize)：Humanize是一种Java工具，用于为数据添加国际化。
-* [Tradukisto](https://github.com/allegro/tradukisto)：用于将数字转换为其单词表示形式的Java库，由Allegro开源。
+* [Tradukisto](https://github.com/allegro/tradukisto)：Tradukisto是一个强大的Java库，旨在将数字转换为相应的单词表示形式，由Allegro开源。
 * [Kilt](https://github.com/hupfdule/kilt)：Kilt是一组小工具，用于简化Java i18n资源包的处理。
 * [ICU4j](https://github.com/unicode-org/icu)：为软件应用提供Unicode和国际化支持，由IBM开源。
 * [Gettext](https://github.com/jgettext/gettext-commons)：Gettext Commons项目为国际化(i18n)通过GNU gettext和Java实现资源包。
@@ -12324,7 +12361,7 @@ permalink: /javalibs
 * [Simple Binary Encoding](https://github.com/real-logic/simple-binary-encoding)：SBE是OSI第6层表示，用于对低延迟金融应用程序的二进制应用程序消息进行编码和解码。
 * [Juniversalchardet](https://github.com/albfernandez/juniversalchardet)：Juniversalchardet是universalchardet的Java端口，universalchardet是Mozilla的编码检测器库。
 * [PETSCII BBS Builder](https://github.com/sblendorio/petscii-bbs)：一个Java框架，用于构建高度可定制的PETSCII(和ASCII)支持的BBS，可从8位Commodore计算机访问。
-* [FastProto](https://github.com/indunet/fastproto)：FastProto是一个功能强大的二进制数据处理工具，旨在简化Java环境中的二进制数据编码和解码。
+* [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 
 ## 打印机
 
