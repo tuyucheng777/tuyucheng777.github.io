@@ -243,6 +243,7 @@ permalink: /javalibs
   * [语义解析](#语义解析)
   * [信息提取](#信息提取)
   * [联邦学习](#联邦学习)
+  * [推荐系统](#推荐系统)
   * [遗传算法](#遗传算法)
   * [约束编程](#约束编程)
   * [专家系统](#专家系统)
@@ -261,7 +262,6 @@ permalink: /javalibs
 * [异常检测](#异常检测)
 * [商业智能](#商业智能)
 * [指纹识别](#指纹识别)
-* [推荐系统](#推荐系统)
 * [逻辑编程](#逻辑编程)
 * [MATLAB](#MATLAB)
 * [Jupyter](#Jupyter)
@@ -830,7 +830,7 @@ permalink: /javalibs
 * [ACT Framework](https://gitee.com/actframework/actframework)：ACT是一个简洁易用，具有强大表达力的Java MVC全栈框架。
 * [Hasor](https://gitee.com/clougence/hasor)：Hasor是一套基于Java语言的开发框架，可以和现有技术体系做到完美融合，由开云集致开源。
 * [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。
-* [Vert.x Web](https://github.com/vert-x3/vertx-web)：Vert.x Web是一套用于构建Web应用程序的构建块，可用于构建现代、可扩展的Web应用程序。
+* [Vert.x Web](https://github.com/vert-x3/vertx-web)：Vert.x Web是一套用于构建Web应用程序的构建块。
 * [Objectos Way](https://github.com/objectos/objectos.way)：Objectos Way允许你仅使用Java编程语言来创建完整的Web应用程序。
 * [Eclipse Scout](https://github.com/eclipse-scout/scout.rt)：Scout是一个成熟且开源的框架，适用于Web上的现代业务应用程序。
 * [Cloudopt Next](https://github.com/cloudoptlab/cloudopt-next)：Cloudopt Next是一个非常轻量级、基于JVM的全栈Kotlin框架，支持Java、Kotlin语言，由最好的Java库和标准精心打造。
@@ -1185,6 +1185,8 @@ permalink: /javalibs
 * [MyBatis Plus Generator UI](https://github.com/davidfantasy/mybatis-plus-generator-ui)：提供交互式的Web UI用于生成兼容Mybatis Plus框架的相关功能代码。
 * [MybatisPlus Code Generator](https://github.com/fengwenyi/mybatis-plus-code-generator)：MyBatisPlus代码生成器。
 * [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
+* [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
+* [Spring Data MyBatis](https://github.com/easybest/spring-data-mybatis)：该模块提供对基于MyBatis的数据访问层的增强支持。
 
 #### Hibernate库
 
@@ -3558,6 +3560,7 @@ permalink: /javalibs
 * [Mycat NIO](https://github.com/MyCATApache/Mycat-NIO)：非常高性能又简单的NIO框架。
 * [Acteur](https://github.com/timboudreau/acteur)：Acteur是一个使用Netty编写Web服务器应用程序的框架。
 * [UberFire I/O](https://github.com/kiegroup/appformer/tree/main/uberfire-io)：NIO.2的实用程序/门面集。
+* [Getty](https://gitee.com/kokjuis/getty)：Getty是完全基于Java NIO封装的高性能网络框架。
 
 #### 网络库
 
@@ -5013,6 +5016,21 @@ permalink: /javalibs
 * [HIGHFLIP](https://github.com/baidu/highflip)：HIGHFLIP是一个顶层联邦学习互通服务，用于解决异构联邦平台间相互通信的问题，百度开源。
 * [FATE Serving](https://github.com/FederatedAI/FATE-Serving)：FATE Serving是一个高性能、工业化的联邦学习模型服务系统，由微众开源。
 
+#### 推荐系统
+
+* [Twitter Recommendation Algorithm](https://github.com/twitter/the-algorithm)：Twitter的推荐算法是一组服务和作业，负责在所有Twitter产品界面(例如For You时间线、搜索、探索、通知)上提供推文和其他内容的提要。
+* [LibRec](https://github.com/guoguibing/librec)：LibRec是一个用于推荐系统的Java库，它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：评级预测和项目排名。
+* [TagRec](https://github.com/learning-layers/TagRec)：TagRec的目的是为社区提供一个用Java编写的简单易用的通用标签推荐框架，以便使用一组众所周知的标准来评估新的标签推荐算法，由格拉茨技术大学开源。
+* [RankSys](https://github.com/RankSys/RankSys)：RankSys是一个用于实施和评估推荐算法和技术的新框架。
+* [LensKit](https://github.com/lenskit/lenskit)：LensKit是协同过滤算法的实现，也是一组用于对算法进行基准测试的工具，由明尼苏达大学开源。
+* [CARSKit](https://github.com/irecsys/CARSKit)：CARSKit是一款基于Java的开源上下文感知推荐引擎。
+* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
+* [Neo4j Reco](https://github.com/graphaware/neo4j-reco)：GraphAware Neo4j推荐引擎是一个基于Neo4j构建高性能复杂推荐引擎的库。
+* [Samantha](https://github.com/grouplens/samantha)：Samantha是用于离线机器学习和推荐建模以及快速在线生产服务的通用推荐器和预测器服务器，由明尼苏达大学开源。
+* [Universal Recommender](https://github.com/actionml/universal-recommender)：Universal Recommender是一种新型的协同过滤推荐器，其基于一种能够利用各种用户偏好指标数据的算法-相关交叉出现算法。
+* [CF4j](https://github.com/ferortega/cf4j)：Java的协同过滤库，用于开展基于协同过滤的推荐系统研究实验。
+* [Sifarish](https://github.com/pranab/sifarish)：Sifarish是一套基于Hadoop和Storm实现的个性化推荐解决方案。
+
 #### 遗传算法
 
 * [Jenetics](https://github.com/jenetics/jenetics)：Jenetics是一个遗传算法、进化算法、语法进化、遗传编程和多目标优化库。
@@ -5273,21 +5291,6 @@ permalink: /javalibs
 * [SourceAFIS](https://github.com/robertvazan/sourceafis-java)：SourceAFIS Java是SourceAFIS(一种用于识别人类指纹的算法)的纯Java端口，它可以1:1比较两个指纹或1:N在大型数据库中搜索匹配的指纹。
 * [FingerprintIdentify](https://github.com/uccmawei/FingerprintIdentify)：Android指纹验证SDK。
 * [Android-Goldfinger](https://github.com/infinum/Android-Goldfinger)：用于简化生物识别身份验证实施的Android库。
-
-## 推荐系统
-
-* [Twitter Recommendation Algorithm](https://github.com/twitter/the-algorithm)：Twitter的推荐算法是一组服务和作业，负责在所有Twitter产品界面(例如For You时间线、搜索、探索、通知)上提供推文和其他内容的提要。
-* [LibRec](https://github.com/guoguibing/librec)：LibRec是一个用于推荐系统的Java库，它实现了一套最先进的推荐算法，旨在解决两个经典的推荐任务：评级预测和项目排名。
-* [TagRec](https://github.com/learning-layers/TagRec)：TagRec的目的是为社区提供一个用Java编写的简单易用的通用标签推荐框架，以便使用一组众所周知的标准来评估新的标签推荐算法，由格拉茨技术大学开源。
-* [RankSys](https://github.com/RankSys/RankSys)：RankSys是一个用于实施和评估推荐算法和技术的新框架。
-* [LensKit](https://github.com/lenskit/lenskit)：LensKit是协同过滤算法的实现，也是一组用于对算法进行基准测试的工具，由明尼苏达大学开源。
-* [CARSKit](https://github.com/irecsys/CARSKit)：CARSKit是一款基于Java的开源上下文感知推荐引擎。
-* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
-* [Neo4j Reco](https://github.com/graphaware/neo4j-reco)：GraphAware Neo4j推荐引擎是一个基于Neo4j构建高性能复杂推荐引擎的库。
-* [Samantha](https://github.com/grouplens/samantha)：Samantha是用于离线机器学习和推荐建模以及快速在线生产服务的通用推荐器和预测器服务器，由明尼苏达大学开源。
-* [Universal Recommender](https://github.com/actionml/universal-recommender)：Universal Recommender是一种新型的协同过滤推荐器，其基于一种能够利用各种用户偏好指标数据的算法-相关交叉出现算法。
-* [CF4j](https://github.com/ferortega/cf4j)：Java的协同过滤库，用于开展基于协同过滤的推荐系统研究实验。
-* [Sifarish](https://github.com/pranab/sifarish)：Sifarish是一套基于Hadoop和Storm实现的个性化推荐解决方案。
 
 ## 逻辑编程
 
@@ -6817,7 +6820,7 @@ permalink: /javalibs
 * [Aspose.HTML](https://products.aspose.com/html/java/)：Aspose.HTML是一种高级HTML操作API，用于在Java应用程序内操作和生成HTML。
 * [JFiveParse](https://github.com/digitalfondue/jfiveparse)：一个符合Java HTML 5的解析器。
 * [Boilerplate](https://github.com/kohlschutter/boilerpipe)：Boilerplate库提供了算法来检测和删除网页主要文本内容周围多余的“混乱”(样板、模板)。
-* [JsoupXpath](https://github.com/zhegexiaohuozi/JsoupXpath)：纯Java实现的支持W3C Xpath 1.0标准语法的HTML解析器。
+* [JsoupXpath](https://github.com/zhegexiaohuozi/JsoupXpath)：JsoupXpath是一款纯Java开发的使用XPath解析提取HTML数据的解析器。
 * [JTidy](https://github.com/jtidy/jtidy)：JTidy是HTML Tidy的Java端口，一个HTML语法检查器和漂亮的打印机。
 * [J2Html](https://github.com/tipsy/j2html)：Java到HTML生成器。
 * [Jspoon](https://github.com/DroidsOnRoids/jspoon)：Jspoon是一个Java库，它提供基于CSS选择器将HTML解析为Java对象的功能。
@@ -9929,8 +9932,8 @@ permalink: /javalibs
 * [Scenic View](https://github.com/JonathanGiles/scenic-view)：Scenic View是一个JavaFX应用程序，旨在让你轻松了解应用程序场景图的当前状态，并且还可以轻松操作场景图的属性，而无需继续编辑代码。
 * [Usagi](https://github.com/OHDSI/Usagi)：Usagi是一个帮助创建编码系统和词汇标准概念之间映射的应用程序，由OHDSI开源。
 * [Trinity](https://github.com/Birdasaur/Trinity)：Trinity提供性能分析和XAI工具，非常适合深度学习系统或执行复杂分类或解码的其他模型。
-* [Board Instrumentation Framework](https://github.com/intel/Board-Instrumentation-Framework)：这个项目允许你灵活地对几乎任何你想要的内容进行仪表化和图形化显示，由Intel开发。
 * [Officer Breaker](https://github.com/nedlir/OfficerBreaker)：Officer Breaker是一个简单的程序，它可以从属于Office Open XML格式系列(.pptx/.xlsx/.docx文件类型)的只读保护文件中删除密码。
+* [RoomIt](https://gitee.com/rococy/RoomIt)：RoomIt是一款基于JavaFX、操作简便、轻量的屏幕画笔工具。
 
 #### GUI程序
 
@@ -12528,6 +12531,7 @@ permalink: /javalibs
 
 * [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移cron以及获取人类可读的描述。
 * [Cron Parser](https://github.com/grahamar/cron-parser)：将cron表达式转换为人类可读字符串的Java库。
+* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 
 ## 手机号解析
 
@@ -12588,6 +12592,7 @@ permalink: /javalibs
 * [SQL Parser](https://www.sqlparser.com/sql-parser-java.php)：SQL Parser提供了对各种数据库的SQL脚本的深入和详细分析，这是一个付费产品。
 * [ElasticSearch SQL](https://github.com/iamazy/elasticsearch-sql)：使用Antlr4将SQL解析为ElasticSearch DSL。
 * [Superior SQL Parser](https://github.com/melin/superior-sql-parser)：基于Antlr 4的多种数据库SQL解析器。
+* [M-SqlParser](https://gitee.com/M-SQLParse/M-SqlParser)：M-SqlParser解析SQL语句并将其转换为Java类的层次结构。
 
 ## 解析器组合器
 
