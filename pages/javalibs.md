@@ -140,6 +140,7 @@ permalink: /javalibs
 * [数据库](#数据库)
   * [搜索引擎](#搜索引擎)
   * [图数据库](#图数据库)
+  * [RDF数据库](#RDF数据库)
   * [键值存储](#键值存储)
   * [数据网格](#数据网格)
   * [时序数据库](#时序数据库)
@@ -158,6 +159,7 @@ permalink: /javalibs
 * [响应式](#响应式)
 * [网络编程](#网络编程)
   * [HTTP客户端](#HTTP客户端)
+  * [HTTP路由](#HTTP路由)
   * [Web服务器](#Web服务器)
   * [应用服务器](#应用服务器)
   * [WebSocket服务器](#WebSocket服务器)
@@ -292,7 +294,6 @@ permalink: /javalibs
   * [本体转换](#本体转换)
   * [RDF库](#RDF库)
   * [语义Web](#语义Web)
-  * [三元组存储](#三元组存储)
   * [知识图谱](#知识图谱)
 * [生物信息学](#生物信息学)
   * [生物工具](#生物工具)
@@ -960,7 +961,6 @@ permalink: /javalibs
 * [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
 * [Bootique](https://github.com/bootique/bootique)：Bootique是一种最简单的Java启动器和集成技术，它旨在构建无容器的可运行Java应用程序，由ObjectStyle开源。
 * [RESTX](https://github.com/restx/restx)：RESTX是一个完整的轻量级颠覆性堆栈，其中包括类似Swagger的UI并将REST规范测试视为文档。
-* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
 * [Spray](https://github.com/spray/spray)：Spray是一套轻量级的Scala库，用于在Akka之上构建和使用RESTful Web服务。
 * [Xenon](https://github.com/vmware-archive/xenon)：Xenon是一个用于编写小型REST服务的框架，由VMware开发。
 * [Restlet](https://github.com/restlet/restlet-framework-java)：Restlet框架帮助Java开发人员构建更好的遵循REST架构风格的Web API，由Talend开源。
@@ -1281,7 +1281,6 @@ permalink: /javalibs
 * [Multiverse](https://github.com/pveentjer/Multiverse)：Multiverse是JVM的软件事务内存实现。
 * [LCN](https://github.com/codingapi/tx-lcn)：LCN分布式事务框架，兼容Dubbo、Spring Cloud、Motan框架，支持各种关系数据库，由CodingAPI组织开源。
 * [CAP4j](https://github.com/netcorepal/cap4j)：CAP4j是一个基于最终一致性的微服务分布式事务解决方案。
-* [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
 * [Apache ServiceComb Pack](https://github.com/apache/servicecomb-pack)：ServiceComb Pack是微服务应用程序的最终数据一致性解决方案，目前提供TCC和Saga分布式事务协调解决方案，使用Alpha作为事务协调器，Omega作为事务代理，由华为开源。
 * [Raincat](https://github.com/dromara/raincat)：Raincat是强一致分布式事务框架，由dromara社区开源。
 * [Scalardb](https://github.com/scalar-labs/scalardb)：ScalarDB是一个跨数据库HTAP引擎，由韩国Scalar公司维护。
@@ -2556,10 +2555,8 @@ permalink: /javalibs
 * [Apache Nifi](https://github.com/apache/nifi)：NiFi是一个易于使用、功能强大且可靠的系统，用于处理和分发数据，由美国国家安全局开源。
 * [Apache Linkis](https://github.com/apache/linkis)：Linkis是一种计算中间件，充当上层应用程序和底层引擎(例如Spark、Hive和Flink)之间的层，由微众开源。
 * [Apache Drill](https://github.com/apache/drill)：Drill是一个分布式MPP查询层，支持针对NoSQL和Hadoop数据存储系统的SQL和替代查询语言，由LinkedIn、思科、威斯康星大学麦迪逊分校等开源。
-* [Apache Bookkeeper](https://github.com/apache/bookkeeper)：BookKeeper是一种可扩展、容错和低延迟的存储服务，针对仅附加工作负载进行了优化，由雅虎研究院开发。
 * [Apache InLong](https://github.com/apache/inlong)：InLong是一站式、全场景的海量数据集成框架，支持数据摄取、数据同步和数据订阅，提供自动、安全、可靠的数据传输能力，由腾讯大数据团队开源。
 * [Apache Oozie](https://github.com/apache/oozie)：Oozie是一个可扩展、可伸缩且可靠的系统，用于通过Web服务定义、管理、调度和执行复杂的Hadoop工作负载，由Yahoo开源。
-* [Apache Ozone](https://github.com/apache/ozone)：Ozone是适用于Hadoop和云原生环境的可扩展、冗余和分布式对象存储，由腾讯大数据团队开源。
 * [Apache Mnemonic](https://github.com/apache/mnemonic)：Mnemonic是一个面向非易失性混合内存存储的库，由Intel开源。
 * [Apache Kyuubi](https://github.com/apache/kyuubi)：Kyuubi是一个分布式多租户网关，用于在数据仓库和Lakehouse上提供Serverless SQL，由网易数帆开源。
 * [Snowplow](https://github.com/snowplow/snowplow)：Snowplow是一个开发者优先的收集行为数据的引擎。
@@ -2672,6 +2669,7 @@ permalink: /javalibs
 * [Tempura](https://github.com/alibaba/cost-based-incremental-optimizer)：Tempura是一种基于成本的增量数据处理通用优化框架，由阿里开发。
 * [StreamSets](https://github.com/streamsets/datacollector-oss)：StreamSets Data Collector是一个企业级开源持续大数据采集平台。
 * [Hera](https://github.com/scxwhite/hera)：Hera是一个分布式大数据任务调度系统。
+* [SSM](https://github.com/Intel-bigdata/SSM)：大数据智能存储管理，全面的冷热数据优化解决方案，由Intel开源。
 
 #### 数据目录
 
@@ -2735,6 +2733,9 @@ permalink: /javalibs
 
 #### 存储系统
 
+* [Apache Bookkeeper](https://github.com/apache/bookkeeper)：BookKeeper是一种可扩展、容错和低延迟的存储服务，针对仅附加工作负载进行了优化，由雅虎研究院开发。
+* [Apache Ozone](https://github.com/apache/ozone)：Ozone是适用于Hadoop和云原生环境的可扩展、冗余和分布式对象存储，由腾讯大数据团队开源。
+* [TAPIR](https://github.com/UWSysLab/tapir)：TAPIR是一种用于线性化分布式事务的新协议，使用复制构建，没有一致性保证，由华盛顿大学CSE系统实验室开源。
 * [Pocket](https://github.com/stanford-mast/pocket)：Pocket是一个专为临时数据共享而设计的存储系统，由斯坦福大学开源。
 * [Apache Crail](https://github.com/apache/incubator-crail)：Apache Crail是一个快速的多层分布式存储系统，专为高性能网络和存储硬件而设计，由IBM开源。
 
@@ -2894,6 +2895,7 @@ permalink: /javalibs
 * [Pixels](https://github.com/pixelsdb/pixels)：Pixels的核心是专为数据湖和数据仓库设计的列式存储引擎，由中国人民大学开源。
 * [Apache XTable](https://github.com/apache/incubator-xtable)：XTable是一种表格式的跨表转换器，可促进跨数据处理系统和查询引擎的全方位互操作性，由Onehouse开源。
 * [RTF](https://github.com/jd-bigdata/rtf-lake)：京东RTF实时数据湖，是一个从底层重新构建的系统，解决了数据的接入、解析及清洗等ETL过程。
+* [PuppetDB](https://github.com/puppetlabs/puppetdb)：PuppetDB是Puppet的快速、可扩展且可靠的数据仓库。
 
 #### 数据Shuffle
 
@@ -2902,6 +2904,7 @@ permalink: /javalibs
 * [Shuttle](https://github.com/cubefs/shuttle)：Shuttle提供远程Shuffle功能，可以按分区将Shuffle数据分组并转储到分布式文件系统中，由OPPO大数据团队开源。
 * [Remote Shuffle Server](https://github.com/uber/RemoteShuffleService)：Uber Remote Shuffle Server为Spark应用程序提供了在远程服务器上存储Shuffle数据的功能。
 * [Cloud Shuffle Service](https://github.com/bytedance/CloudShuffleService)：Cloud Shuffle Service是适用于计算引擎(包括Spark/Flink/MapReduce)的通用远程Shuffle解决方案，由字节开源。
+* [Splash](https://github.com/MemVerge/splash)：Splash提供一个快速、灵活和可靠的Shuffle管理器，允许用户插入喜欢的后端存储和网络框架来保存和交换Shuffle数据。
 
 #### 时序数据分析
 
@@ -3175,6 +3178,19 @@ permalink: /javalibs
 * [Fluree](https://github.com/fluree/db)：Fluree是一个不可变、时态、账本支持的语义图数据库，具有云原生架构。
 * [Segrada](https://github.com/mkalus/segrada)：Segrada是一个用于研究和文献的语义图数据库。
 
+#### RDF数据库
+
+* [GraphDB](https://www.ontotext.com/)：GraphDB是一个企业级RDF和图数据库，具有高效推理、集群和外部索引同步支持。
+* [BlazeGraph](https://github.com/blazegraph/database)：Blazegraph是一个超高性能图数据库，支持蓝图和RDF/SPARQL API。
+* [AllegroGraph](https://allegrograph.com/)：AllegroGraph是一个闭源的三元组存储，也可用作文档存储，目前用于美国国防部项目。
+* [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三元存储，具有全文和GeoSPARQL支持。
+* [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三元存储和推理器，由雷神公司开源。
+* [Apache Rya](https://github.com/apache/rya)：Rya是一个可扩展的RDF存储，它构建在列式索引存储(例如Accumulo)之上，它作为RDF4J的扩展来实现，以提供简单的查询机制(SPARQL、SERQL等)和RDF数据存储(RDF/XML、NTriples等)。
+* [Halyard](https://github.com/Merck/Halyard)：Halyard是一个高度水平扩展的三元组存储系统，支持命名图，旨在集成超大规模语义数据模型，并存储和查询完整的关联数据宇宙快照，由默克公司开源。
+* [ERGS](https://github.com/IBM/expressive-reasoning-graph-store)：ERGS是一个基于属性图架构构建的OWL推理器和RDF三元组存储，由IBM开源。
+* [Strabon](https://strabon.di.uoa.gr/)：Strabon是一个完全实现的语义地理空间数据库系统，由雅典大学开源。
+* [Mulgara](http://www.mulgara.org/)：Mulgara是一个完全用Java编写的快速RDF数据库。
+
 #### 键值存储
 
 * [Apache Accumulo](https://github.com/apache/accumulo)：Accumulo是一种排序的分布式键/值存储，可提供强大、可扩展的数据存储和检索，由美国国家安全局开源。
@@ -3194,6 +3210,7 @@ permalink: /javalibs
 * [Oak](https://github.com/yahoo/Oak)：OakMap是一个并发键值Map，它将所有键和值保留在堆外，由Yahoo开源。
 * [KVDB](https://github.com/jd-opensource/jdchain-kvdb)：KVDB是一个简单的NoSQL数据库，支持简单的键值读写操作，由京东开源。
 * [LMDB](https://github.com/lmdbjava/lmdbjava)：LMDB是一种使用B+树的有序、嵌入式、持久的键值存储。
+* [Doris](https://github.com/itisaid/Doris)：Doris是大规模分布式KV存储系统，由阿里开源。
 * [Adama](https://github.com/mathgladiator/adama-lang)：Adama是一个开源、响应式、无服务器、隐私优先、面向文档、以计算为中心的键值存储系统。
 * [PalDB](https://github.com/linkedin/PalDB)：PalDB是一个用Java编写的嵌入式一次性写入键值存储，由LinkedIn开源。
 * [HaloDB](https://github.com/yahoo/HaloDB)：HaloDB是一个用Java编写的快速且简单的嵌入式键值存储，由Yahoo开源。
@@ -3205,12 +3222,15 @@ permalink: /javalibs
 * [CurioDB](https://github.com/stephenmcd/curiodb)：CurioDB是一个分布式持久Redis克隆，使用Scala和Akka构建。
 * [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
 * [Hank](https://github.com/LiveRamp/hank)：Hank是LiveRamp构建和使用的一个非常快速且非常紧凑的分布式键值NoSQL数据库。
+* [WaspDB](https://github.com/rehacktive/waspdb)：WaspDB是一个适用于Android的纯Java键值对数据库库。
 * [FastKV](https://github.com/BillyWei01/FastKV)：FastKV是用Java编写的高效可靠的键值存储库，专为Android平台优化。
 * [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
 * [Distkv](https://github.com/distkv-project/distkv)：Distkv是一个具有表概念的轻量级分布式键值数据库系统。
 * [Chronos](https://github.com/Txture/chronos)：该项目致力于为Java虚拟机提供高效易用的版本化数据库持久化解决方案。
 * [Prithvi](https://github.com/psidh/Prithvi)：Prithvi是一个用Java从头构建的内存键值数据库，不依赖外部框架。
 * [PufferDB](https://github.com/adrielcafe/pufferdb)：PufferDB是一个键值存储，由Protobuf和协程提供支持。
+* [KVault](https://github.com/Liftric/KVault)：KVault是Kotlin多平台项目的安全键值存储。
+* [Riffle](https://github.com/Factual/riffle)：Riffle是一种只读键/值存储格式。
 
 #### 数据网格
 
@@ -3241,6 +3261,7 @@ permalink: /javalibs
 * [TimeBase](https://github.com/finos/TimeBase-CE)：TimeBase是Deltix公司开发的高性能时序数据库。
 * [ChronixDB](https://github.com/ChronixDB/chronix.server)：高效、快速的时序存储。
 * [Warp 10](https://github.com/senx/warp10-platform)：Warp 10是一个专为物联网设计的模块化开源平台，可收集、存储并允许你分析传感器数据。
+* [Yuvi](https://github.com/pinterest/yuvi)：Yuvi是一个用于存储近期时序指标数据的内存存储引擎，由Pinterest开源。
 
 #### 嵌入式数据库
 
@@ -3380,6 +3401,7 @@ permalink: /javalibs
 * [EmoDB](https://github.com/bazaarvoice/emodb)：EmoDB是一个RESTful HTTP服务器，用于存储JSON对象并监视这些事件的更改，由Bazaarvoice开源。
 * [RSQLDB](https://github.com/alibaba/rsqldb)：RSQLDB是一个基于RocketMQ的流处理数据库，由阿里开源。
 * [Apollo Delphinius](https://github.com/salesforce/apollo)：Apollo Delphinius项目是一个实验性多租户分布式系统平台，由Salesforce开源。
+* [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 
 ## 图处理
 
@@ -3517,7 +3539,6 @@ permalink: /javalibs
 * [FusionAuth HTTPClient](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
-* [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
 * [HTTP4K](https://github.com/http4k/http4k)：HTTP4K是一个用纯Kotlin编写的轻量级但功能齐全的HTTP工具包，可以以功能一致的方式提供和使用HTTP服务。
 * [LiteHTTP](https://github.com/litesuits/android-lite-http)：LiteHTTP是一个简单、智能且灵活的Android HTTP框架。
@@ -3531,6 +3552,12 @@ permalink: /javalibs
 * [RestVolley](https://github.com/HujiangTechnology/RestVolley)：RestVolley是一个基于Volley和OkHttp的HTTP请求框架，由沪江科技开源。
 * [King HttpClient](https://github.com/king/king-http-client)：支持SSE的异步HTTP客户端。
 * [Smart HTTP](https://gitee.com/smartboot/smart-http)：Smart HTTP是一款可编程的HTTP应用微内核，方便用户根据自身需求进行服务端或客户端的应用开发。
+
+#### HTTP路由
+
+* [Riptide](https://github.com/zalando/riptide)：Riptide是一个实现客户端响应路由的库，由Zalando开源。
+* [Netty HTTP](https://github.com/cdapio/netty-http)：一个使用Netty开发HTTP服务的库，支持基于JAX-RS风格注解路由端点的功能，由Google开源。
+* [Netty Router](https://github.com/sinetja/netty-router)：Netty Router是一个小型Java库，将HTTP请求路由到你的Netty处理程序。
 
 #### Web服务器
 
@@ -4195,6 +4222,7 @@ permalink: /javalibs
 * [JProtobuf](https://github.com/jhunters/jprotobuf)：JProtobuf是针对Java程序开发的一套简易类库，目的是简化Java语言对Protobuf类库的使用，百度开源。
 * [Jackson Datetype Protocol](https://github.com/HubSpot/jackson-datatype-protobuf)：增加了对Google Protocol Buffers与JSON之间的序列化和反序列化支持的Jackson模块。
 * [Protobuf Dynamic](https://github.com/os72/protobuf-dynamic)：用于简化Protocol Buffers反射机制的库，无需protoc编译器。
+* [Protobuf Converter](https://github.com/rgushel/protobuf-converter)：Protobuf Converter是一个用于将你的域模型对象转换为Google Protobuf消息以及反之亦然的库。
 
 #### CBOR
 
@@ -5320,6 +5348,7 @@ permalink: /javalibs
 * [OpenDial](https://github.com/plison/opendial)：OpenDial是一个基于Java、领域无关的工具包，用于开发语音对话系统，由奥斯陆大学开源。
 * [Recognito](https://github.com/amaurycrickx/recognito)：Java中的文本独立说话人识别。
 * [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
+* [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 
 ## SMT求解器
 
@@ -5750,7 +5779,6 @@ permalink: /javalibs
 * [VIVO](https://github.com/vivo-project/VIVO)：VIVO是一个可扩展的语义Web应用程序，用于研究发现和展示学术工作。
 * [Karma](https://github.com/usc-isi-i2/Web-Karma)：Karma是一种信息集成工具，使用户能够快速轻松地集成来自各种数据源的数据，由南加州大学信息科学研究所开源。
 * [SPARQL](https://github.com/SPARQL-Anything/sparql.anything)：SPARQL Anything是一个用于语义Web重新设计的系统，允许用户使用SPARQL查询任何内容。
-* [Strabon](https://strabon.di.uoa.gr/)：Strabon是一个完全实现的语义地理空间数据库系统，由雅典大学开源。
 * [LinkedGeoData](https://github.com/GeoKnow/LinkedGeoData)：LinkedGeoData致力于向数据网/语义网添加空间维度，由莱比锡大学开源。
 * [YAGO](https://github.com/yago-naga/yago3)：YAGO是一个大型语义知识库，包含有关人物、城市、国家、电影和组织的一般知识，由巴黎高科电信大学、马克斯普朗克信息研究所以及Ambiverse联合开发。
 * [D2RQ](https://github.com/d2rq/d2rq)：D2RQ平台是一个用于以虚拟只读RDF图形式访问关系数据库的系统，由约翰开普勒林茨大学、HP实验室等组织开源。
@@ -5760,15 +5788,6 @@ permalink: /javalibs
 * [SHACL](https://github.com/TopQuadrant/shacl)：基于Apache Jena的W3C形状约束语言(SHACL)的开源实现。
 * [Racer](https://github.com/ha-mo-we/Racer)：Racer是一个知识表示系统，它为描述逻辑SRIQ(D)实现了高度优化的表格演算。
 * [Bio2RDF](https://github.com/bio2rdf/bio2rdf-scripts)：Bio2RDF是一个开源项目，它使用语义网技术构建并提供生命科学领域最大的关联数据网络。
-
-#### 三元组存储
-
-* [AllegroGraph](https://allegrograph.com/)：AllegroGraph是一个闭源的三元组存储，也可用作文档存储，目前用于美国国防部项目。
-* [qEndpoint](https://github.com/the-qa-company/qEndpoint)：qEndpoint是一个高度可扩展的三元存储，具有全文和GeoSPARQL支持。
-* [Parliament](https://github.com/raytheonbbn/parliament)：Parliament是专为语义网设计的高性能三元存储和推理器，由雷神公司开源。
-* [Apache Rya](https://github.com/apache/rya)：Rya是一个可扩展的RDF存储，它构建在列式索引存储(例如Accumulo)之上，它作为RDF4J的扩展来实现，以提供简单的查询机制(SPARQL、SERQL等)和RDF数据存储(RDF/XML、NTriples等)。
-* [Halyard](https://github.com/Merck/Halyard)：Halyard是一个高度水平扩展的三元组存储系统，支持命名图，旨在集成超大规模语义数据模型，并存储和查询完整的关联数据宇宙快照，由默克公司开源。
-* [ERGS](https://github.com/IBM/expressive-reasoning-graph-store)：ERGS是一个基于属性图架构构建的OWL推理器和RDF三元组存储，由IBM开源。
 
 #### 知识图谱
 
@@ -6438,6 +6457,7 @@ permalink: /javalibs
 * [Streamplify](https://github.com/beryx/streamplify)：该库的目标是提供有用的Java 8流并帮助你构建允许高效并行处理的新流。
 * [Seq](https://github.com/wolray/seq)：提供一个强大而完备的流式编程API，并为Java添加类似生成器的编程机制。
 * [StreamLine](https://github.com/YunaBraska/streamline)：StreamLine是一种增强型Java Stream API，针对并发处理进行了优化，充分利用了Project Loom虚拟线程的强大功能。
+* [LazySeq](https://github.com/nurkiewicz/LazySeq)：Java 8的惰性序列实现。
 
 #### Lambda扩展
 
@@ -11289,7 +11309,7 @@ permalink: /javalibs
 ## 对象存储
 
 * [Aliyun OSS](https://github.com/aliyun/aliyun-oss-java-sdk)：Aliyun OSS的Java SDK。
-* [Aliyun OSS Android](https://github.com/aliyun/aliyun-oss-android-sdk)：阿里云对象存储服务Android SDK。
+* [Java Storage](https://github.com/googleapis/java-storage)：适用于Java的Google云存储客户端。
 * [Ambry](https://github.com/linkedin/ambry)：Ambry是一个分布式对象存储，支持存储数万亿个小型不可变对象(50K-100K)以及数十亿个大型对象，由LinkedIn开发。
 * [MinIO](https://github.com/minio/minio-java)：用于Java的MinIO客户端SDK。
 * [MinIO Plus](https://gitee.com/lxp135/minio-plus)：MinIO Plus是一个MinIO的二次封装与增强工具。
@@ -11303,6 +11323,7 @@ permalink: /javalibs
 * [ByteBin](https://github.com/lucko/bytebin)：ByteBin是一种快速、轻量级的内容存储网络服务。
 * [Dante OSS](https://gitee.com/herodotus/dante-oss)：Dante OSS是一款简化对象存储操作的开源框架。
 * [UPYUN Java SDK](https://github.com/upyun/java-sdk)：又拍云存储Java SDK。
+* [Pithos](https://github.com/exoscale/pithos)：Pithos是一个与S3兼容的对象存储，利用Cassandra水平分发内容。
 
 ## 音视频处理
 
@@ -11365,7 +11386,6 @@ permalink: /javalibs
 * [Panako](https://github.com/JorenSix/Panako)：Panako是一种声学指纹识别系统，该系统能够从音频流中提取指纹，并将这些指纹存储在数据库中，或者在提取的指纹和存储的指纹之间找到匹配。
 * [JNAJack](https://github.com/jaudiolibs/jnajack)：JACK音频连接套件的Java绑定。
 * [FFmpeg4j](https://github.com/Manevolent/ffmpeg4j)：FFmpeg4j是一个Java库，它封装了FFmpeg库的功能。
-* [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 * [XYScope](https://github.com/ffd8/xyscope)：XYScope是一个处理库，用于通过将图形转换为音频来在矢量显示器(示波器、激光)上渲染图形。
 * [SoundLibs](https://github.com/pdudits/soundlibs)：Java声音库的Maven工件。
 * [RootEncoder](https://github.com/pedroSG94/RootEncoder)：RootEncoder是一个流编码器，使用RTMP、RTSP和SRT协议将视频/音频推送到媒体服务器。
@@ -11828,7 +11848,6 @@ permalink: /javalibs
 * [JavaFS](https://github.com/puniverse/javafs)：Java文件系统，由FUSE提供支持。
 * [ParallelGit](https://github.com/pimpcapital/ParallelGit)：适用于Git的高性能Java 7 NIO内存文件系统。
 * [Amazon S3 FileSystem NIO2](https://github.com/Upplication/Amazon-S3-FileSystem-NIO2)：适用于Java 7(NIO2)的Amazon AWS S3文件系统提供程序。
-* [Google NIO Filesystem](https://github.com/googleapis/java-storage-nio)：用于Google Cloud Storage的NIO文件系统提供程序的Java客户端。
 * [FUSE-Java](https://github.com/EtiennePerot/fuse-jna)：使用JNA的Java FUSE绑定
 * [JSR-203 Hadoop](https://github.com/damiencarol/jsr203-hadoop)：Hadoop分布式文件系统的JSR 203实现。
 * [S3FS NIO](https://github.com/carlspring/s3fs-nio)：这是使用Java 8的JSR-203的Amazon AWS S3文件系统提供程序的实现。
@@ -11949,7 +11968,6 @@ permalink: /javalibs
 * [地图瓦片图下载器](https://gitee.com/CrimsonHu/java_map_download)：使用Java开发的地图瓦片图下载工具，支持OpenStreetMap、天地图、谷歌地图、高德地图、腾讯地图、必应地图的XYZ瓦片图下载与合并。
 * [GAF](https://gitee.com/supermapgaf/GAF)：SuperMap GAF基于SuperMap GIS基础软件进行研发，是连接GIS基础软件与行业应用的重要纽带。
 * [JPX](https://github.com/jenetics/jpx)：JPX是一个Java库，用于创建、读取和写入GPX格式的GPS数据。
-* [GeoDesk](https://github.com/clarisma/geodesk)：GeoDesk是一个用于OpenStreetMap数据的快速且存储高效的地理空间数据库。
 * [Timeshape](https://github.com/RomanIakovlev/timeshape)：Timeshape是一个Java库，可用于确定给定地理坐标属于哪个时区。
 * [Time Zone Map](https://github.com/dustin-johnson/timezonemap)：用于将位置或地区映射到时区的Java/Kotlin库。
 * [LatLongToTimezone](https://github.com/drtimcooper/LatLongToTimezone)：Java语言的经纬度到时区映射器。
