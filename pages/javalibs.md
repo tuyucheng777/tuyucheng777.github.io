@@ -454,6 +454,7 @@ permalink: /javalibs
     * [Reddit](#Reddit)
     * [TikTok](#TikTok)
     * [Spotify](#Spotify)
+    * [Notion](#Notion)
     * [Riot](#Riot)
     * [TheMovieDb](#TheMovieDb)
     * [TeamSpeak](#TeamSpeak)
@@ -602,10 +603,11 @@ permalink: /javalibs
 * [JVM代理](#JVM代理)
 * [热加载](#热加载)
 * [类加载](#类加载)
-* [RISC-V](#RISC-V)
+* [芯片模拟器](#芯片模拟器)
 * [MIPS](#MIPS)
 * [汇编](#汇编)
 * [LLVM](#LLVM)
+* [PC模拟器](#PC模拟器)
 * [编译器&插件](#编译器插件)
 * [语言服务器](#语言服务器)
 * [数据库工具库](#数据库工具库)
@@ -1095,6 +1097,7 @@ permalink: /javalibs
 * [Aggregate Framework](https://github.com/changmingxie/aggregate-framework)：Aggregate Framework是一款基于DDD和CQRS思想开发的领域驱动框架。
 * [Cheddar](https://github.com/travel-cloud/Cheddar)：Cheddar是一个Java框架，适用于AWS上的企业应用程序，使用域驱动设计(DDD)。
 * [ZenWave SDK](https://github.com/ZenWave360/zenwave-sdk)：ZenWave SDK是一个用于DDD和API优先的可配置且可扩展的工具包，可以从不同模型的组合生成代码。
+* [Nest](https://github.com/jovezhao/nest)：Nest是一个帮助开发人员快速实现基于领域驱动设计的技术框架。
 
 #### 应用框架
 
@@ -2637,6 +2640,7 @@ permalink: /javalibs
 * [Fili](https://github.com/yahoo/fili)：Fili是一个基于Java的框架，可以轻松构建和维护用于时间序列报告和分析的RESTful Web服务，由Yahoo开源。
 * [Zeus](https://github.com/cloverfisher/zeus)：宙斯是阿里开源的一款分布式Hadoop作业调度平台，支持多机器的水平扩展。
 * [DBus](https://github.com/BriData/DBus)：DBus专注于数据的收集及实时数据流计算，通过简单灵活的配置，无侵入的方式对源端数据进行采集。
+* [Sylph](https://github.com/harbby/sylph)：Sylph是一个用于实时流计算的平台，核心是通过工作流描述构建分布式流计算应用程序。
 * [Hermes](https://www.infoq.cn/article/zx0g0ruv5nzxpfjdpvpr)：Hermes是腾讯数据平台部自研的实时分析平台。
 * [Qualitis](https://github.com/WeBankFinTech/Qualitis)：Qualitis是一个数据质量管理平台，支持各种数据源的质量验证、通知和管理，用于解决数据处理过程中引起的各种数据质量问题，由微众开源。
 * [Embulk](https://github.com/embulk/embulk)：Embulk是一个并行批量数据加载器，有助于在各种存储、数据库、NoSQL和云服务之间传输数据。
@@ -4245,6 +4249,7 @@ permalink: /javalibs
 * [RxStore](https://github.com/Gridstone/RxStore)：一个小型库，可帮助使用RxJava将对象保存到磁盘和从磁盘恢复对象。
 * [KStore](https://github.com/xxfast/KStore)：一个小型的Kotlin多平台库，使用kotlinx.coroutines、kotlinx.serialization和kotlinx.io辅助在磁盘上保存和恢复对象。
 * [Pherialize](https://github.com/kayahr/pherialize)：Pherialize是一个小型库，允许将Java对象序列化为PHP序列化格式，并将数据从该格式反序列化回Java对象。
+* [SerialKiller](https://github.com/ikkisoft/SerialKiller)：SerialKiller是一个易于使用的前瞻Java反序列化库，用于保护应用程序免受不受信任的输入。
 
 #### Protocol Buffer
 
@@ -4349,6 +4354,7 @@ permalink: /javalibs
 * [JSON Schema](https://github.com/harrel56/json-schema)：实现JSON模式规范的Java库。
 * [Jackson JsonSchema Generator](https://github.com/mbknor/mbknor-jackson-jsonSchema)：使用Jackson注解生成具有多态性的JSON模式。
 * [JSON Kotlin Schema](https://github.com/pwall567/json-kotlin-schema)：JSON Schema的Kotlin实现。
+* [CZML Writer](https://github.com/AnalyticalGraphicsInc/czml-writer)：该项目提供.NET和Java库，用于写入与Cesium一起使用的CZML内容。
 
 #### JsonPath
 
@@ -5423,6 +5429,7 @@ permalink: /javalibs
 #### 语音识别
 
 * [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
+* [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [Live Transcribe](https://github.com/google/live-transcribe-speech-engine)：Live Transcribe是一款Android应用，可为失聪或听力障碍人士提供实时字幕，包含与Google Cloud Speech API进行通信的客户端库，由Google开源。
 * [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由CMU开发。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
@@ -5458,6 +5465,7 @@ permalink: /javalibs
 ## 数据科学
 
 * [Tablesaw](https://github.com/jtablesaw/tablesaw)：Tablesaw是一个DataFrame和可视化库，支持加载、清理、转换、过滤和汇总数据。
+* [Luckysheet](https://github.com/dream-num/Luckysheet)：Luckysheet是一款类似Excel的在线电子表格，功能强大、配置简单。
 * [OpenRefine](https://github.com/OpenRefine/OpenRefine)：OpenRefine是一个基于Java的强大工具，可让你加载数据、理解数据、清理数据、协调数据，并使用来自Web的数据对其进行扩充，由Google开源。
 * [Apache SystemDS](https://github.com/apache/systemds)：SystemDS是一个开源ML系统，适用于端到端数据科学生命周期。
 * [Incanter](https://github.com/incanter/incanter)：Incanter是一个基于Clojure、类似R的JVM统计计算和图形环境。
@@ -8558,6 +8566,12 @@ permalink: /javalibs
 * [Librespot Java](https://github.com/librespot-org/librespot-java)：最新的开源Spotify客户端。
 * [Spotify Web API Java](https://github.com/spotify-web-api-java/spotify-web-api-java)：这是Spotify Web API的Java包装器/客户端。
 
+#### Notion
+
+* [Notion SDK JVM](https://github.com/seratch/notion-sdk-jvm)：这是适用于任何JVM语言用户的Notion API SDK。
+* [Notion SDK](https://github.com/notionsdk/notion-sdk-kotlin-old)：非官方Notion API包装器，用Kotlin编写，可在Java中使用。
+* [klibnotion](https://github.com/BoD/klibnotion)：适用于Kotlin、Java等的Notion API客户端库。
+
 #### Riot
 
 * [Riot API Java](https://github.com/taycaldwell/riot-api-java)：一个易于使用的Java Riot Games API包装器。
@@ -8762,6 +8776,7 @@ permalink: /javalibs
 * [Cardano](https://github.com/bloxbean/cardano-client-lib)：Java中的Cardano客户端库。
 * [Hashgraph Java SDK](https://github.com/hashgraph/hedera-sdk-java)：适用于Java的Hedera Hashgraph SDK。
 * [Sol4k](https://github.com/sol4k/sol4k)：Sol4k是Solana的Kotlin客户端，可与Java或任何其他JVM语言以及Android一起使用。
+* [Java Stellar SDK](https://github.com/lightsail-network/java-stellar-sdk)：Java Stellar SDK库提供了用于构建交易并连接到Horizon和Soroban-RPC服务器的API。
 
 #### 智能合约
 
@@ -10449,6 +10464,7 @@ permalink: /javalibs
 * [RomRaider](https://github.com/RomRaider/RomRaider)：RomRaider是一款免费的开源调校套件，用于查看、记录和调校现代斯巴鲁发动机控制单元。
 * [GlobalQuake](https://github.com/xspanger3770/GlobalQuake)：GlobalQuake是一款实验性的Java应用，旨在近乎实时地显示全球地震。
 * [IrScrutinizer](https://github.com/bengtmartensson/IrScrutinizer)：IrScrutinizer是一个功能强大的程序，用于捕获、生成、分析、导入和导出红外(IR)信号。
+* [LPAdesktop](https://github.com/Truphone/LPAdesktop)：LPA模拟器是一款用于管理可移动eUICC上的eSIM配置文件的应用程序。
 
 #### IDE
 
@@ -10541,6 +10557,9 @@ permalink: /javalibs
 * [Blackboard](https://github.com/mpue/blackboard)：Blackboard是为业余爱好者设计的，可以帮助在所谓的面包板上轻松构建原型。
 * [CircuitSim](https://github.com/ra4king/CircuitSim)：基本电路模拟器。
 * [OpenBench LogicSniffer](https://github.com/jawi/ols)：开源逻辑分析仪Open Bench Logic Sniffer的替代客户端。
+* [GeckoCIRCUITS](https://github.com/geckocircuits/GeckoCIRCUITS)：GeckoCIRCUITS是一款针对电力电子应用优化的快速电路模拟器。
+* [JSpice](https://github.com/knowm/jspice)：JSpice是一个受SPICE启发、用Java制作的模拟电路模拟器，重点是模拟忆阻器和包含忆阻器的模拟电路。
+* [Coulomb](https://github.com/hamza-algohary/Coulomb)：Coulomb是一个使用Java、Gtk4和libadwaita编写的简单而优雅的电路模拟器。
 
 #### UML工具
 
@@ -10607,7 +10626,6 @@ permalink: /javalibs
 * [Rel](https://reldb.org/c/)：Rel是一个主要用于教育目的的DBMS，但也适合用作桌面DBMS或轻量级服务器。
 * [ODC](https://github.com/oceanbase/odc)：ODC是一款开源、全能的跨场景数据库协同开发和数据管理工具，阿里开源。
 * [JookDB](https://jookdb.com/)：免费通用的数据库管理工具，支持多种数据库，由杰恩软件公司开发。
-* [BrModelo](https://github.com/chcandido/brModelo)：是一款开源的数据库建模工具，专为教育用途设计，由圣卡塔琳娜联邦大学开源。
 * [CloudBeaver](https://github.com/dbeaver/cloudbeaver)：CloudBeaver是一个云数据库管理器，提供丰富的Web界面。
 * [EXperDB Management](https://github.com/experdb/eXperDB-Management)：EXperDB Management是一款PostgreSQL管理工具。
 * [Binjr](https://github.com/binjr/binjr)：Binjr是一个独立的时序浏览器，它将其他应用程序生成的时序数据呈现为动态可编辑视图，并提供高级功能以顺畅高效地导航数据。
@@ -10620,9 +10638,10 @@ permalink: /javalibs
 #### 数据库建模
 
 * [Open ModelSphere](http://www.modelsphere.com/org/index.html)：Open ModelSphere是一个强大的数据、流程和UML建模工具。
-* [PDManer](https://gitee.com/robergroup/pdmaner)：PDManer元数建模，是一款多操作系统开源免费的桌面版关系数据库模型建模工具，相对于PowerDesigner，他具备界面简洁美观，操作简单，上手容易等特点。
+* [PDMaas](https://gitee.com/yonsum/PDMaas)：PDMaas是一款优秀的国产数据建模工具。
 * [Mogwai ERDesigner NG](https://github.com/mirkosertic/MogwaiERDesignerNG)：Mogwai ERDesigner是一款实体关系建模/设计工具(ERD)，类似于ERWin等。
 * [CHINER](https://gitee.com/robergroup/chiner)：CHINER元数建模，一款丰富数据库生态、独立于具体数据库之外的、数据库关系模型设计平台。
+* [BrModelo](https://github.com/chcandido/brModelo)：BrModelo是一款开源的数据库建模工具，专为教育用途设计，由圣卡塔琳娜联邦大学开源。
 * [SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler)：SchemaCrawler是一个免费的数据库模式发现和理解工具。
 * [FML](https://github.com/alibaba/fast-modeling-language)：FML是一种专为维度建模而设计的类似SQL的语言，由阿里开源。
 
@@ -10715,6 +10734,9 @@ permalink: /javalibs
 * [Artillery](https://github.com/Weik1/Artillery)：Java插件化漏洞扫描器，GUI基于JavaFX，POC目前集成WebLogic、Tomcat、Shiro、Spring。
 * [Oday](https://github.com/Janhsu/oday)：JavaFX编写的POC管理和漏洞扫描小工具。
 * [Nuclei](https://github.com/Yong-An-Dang/nuclei-plus)：基于Nuclei的功能增强。
+* [ShiroAttack2](https://github.com/SummerSec/ShiroAttack2)：Shiro550反序列化漏洞利用工具。
+* [ShiroExploit](https://github.com/feihong-cs/ShiroExploit-Deprecated)：Shiro550/Shiro721一键化利用工具，支持多种回显方式。
+* [Java Echo Generator](https://github.com/pen4uin/java-echo-generator)：一款支持高度自定义的Java回显载荷生成工具。
 
 #### 远程连接
 
@@ -10949,6 +10971,7 @@ permalink: /javalibs
 * [Shattered Pixel Dungeon](https://github.com/00-Evan/shattered-pixel-dungeon)：Shattered Pixel Dungeon是一款传统的Roguelike地下城探索角色扮演游戏。
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon)：Pixel Dungeon是一款传统的Roguelike游戏，具有像素艺术图形和简单的界面，适用于Android、iOS、Windows、Mac和Linux。
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
+* [Jpcsp](https://github.com/jpcsp/jpcsp)：Jpcsp是最先进的PlayStation Portable模拟器，允许你在PC上玩PSP游戏。
 
 #### 游戏开发工具
 
@@ -11001,7 +11024,7 @@ permalink: /javalibs
 * [Cytodynamics](https://github.com/linkedin/Cytodynamics)：Cytodynamics是一个使JVM上的动态JAR加载和类加载器隔离变得简单的Java库，由LinkedIn开源。
 * [XJar](https://github.com/core-lib/xjar)：Spring Boot JAR安全加密运行工具，同时支持的原生JAR。
 
-## RISC-V
+## 芯片模拟器
 
 * [Chisel](https://github.com/chipsalliance/chisel)：Chisel是一种开源硬件描述语言(HDL)，用于在寄存器传输级别描述数字电子设备和电路，从而促进ASIC和FPGA数字逻辑的高级电路生成和设计重用设计，由伯克利大学开源。
 * [XiangShan](https://github.com/OpenXiangShan/XiangShan)：XiangShan是一款开源的高性能RISC-V处理器，中国科学院计算技术研究所开发。
@@ -11011,6 +11034,11 @@ permalink: /javalibs
 * [NutShell](https://github.com/OSCPU/NutShell)：NutShell是由OSCPU(大学开源芯片项目)团队开发的处理器。
 * [Ventus(乘影) GPGPU](https://github.com/THU-DSP-LAB/ventus-gpgpu)：支持RISCV-V扩展的GPGPU处理器，使用Chisel HDL开发，由清华大学开源。
 * [FireSim](https://github.com/firesim/firesim)：FireSim是一款开源FPGA加速的全系统硬件仿真平台，可以轻松验证、分析和调试10到100 MHz的RTL硬件实现，由加州大学伯克利分校的电气工程和计算机科学系开发。
+* [Venus](https://github.com/kvakil/venus)：Venus是一款专为教育打造的RISC-V指令集模拟器。
+* [OpenCar](https://github.com/anons-org/opencar)：OpenCar是一款仿真RISC-V指令集的软件，目标是提供基础的RV指令模拟环境。
+* [ARMStrong](https://github.com/linouxis9/ARMStrong)：专为教育而设计的快速、简单的ARM模拟器。
+* [Symon](https://github.com/sethm/symon)：Symon是基于MOS Technologies 6502微处理器及其兼容系统的通用模拟器。
+* [Neptune](https://github.com/LPC4/Neptune-32)：Neptune是一款定制的32位CPU模拟器，集成了汇编器和汇编语言。
 
 ## MIPS
 
@@ -11032,6 +11060,12 @@ permalink: /javalibs
 * [JLang](https://github.com/polyglot-compiler/JLang)：JLang向Polyglot编译器添加了LLVM后端，将Java转换为LLVM IR，由康奈尔大学开源。
 * [LLJVM](https://github.com/davidar/lljvm)：LLJVM提供了一组工具和库，用于在JVM上运行相对较低级别的语言(例如C)。
 * [LLFI](https://github.com/DependableSystemsLab/LLFI)：LLFI是一个基于LLVM的故障注入工具，它将故障注入到应用程序源代码的LLVM IR中，由不列颠哥伦比亚大学开源。
+
+## PC模拟器
+
+* [JPC](https://github.com/ianopolous/JPC)：JPC是一款快速的现代x86 PC模拟器，能够启动Windows直至Windows 95(以及安全模式下的Windows 98)和一些图形Linux，由牛津大学开源。
+* [MTMC](https://github.com/msu/mtmc)：MTMC是一台虚拟计算机，旨在以有趣和直观的方式展示数字计算的工作原理，由蒙大拿州立大学开源。
+* [Triton-64](https://github.com/LPC4/Triton-64)：完整的64位虚拟机实现，具有自定义CPU架构、汇编器、编译器和使用JavaFX用Java构建的开发环境。
 
 ## 编译器&插件
 
@@ -11057,6 +11091,7 @@ permalink: /javalibs
 * [InMemoryJavaCompiler](https://github.com/trung/InMemoryJavaCompiler)：在内存中编译Java源代码的实用程序类。
 * [Compiler](https://github.com/michaelliao/compiler)：使用Java 6编译器API在内存中编译Java代码。
 * [SourceBuddy](https://github.com/sourcebuddy/sourcebuddy)：SourceBuddy是一个Java库，可用于在程序中编译和加载动态生成的Java源代码。
+* [RubyFlux](https://github.com/headius/rubyflux)：RubyFlux是一个编译器，它将Ruby代码库转换为一组封闭的.java源文件，适合在任何JVM上运行，无需额外的运行时要求。
 
 ## 语言服务器
 
@@ -11418,7 +11453,6 @@ permalink: /javalibs
 * [JLayer](https://github.com/umjammer/jlayer)：为Java平台实时解码/播放/转换MPEG 1/2/2.5 Layer 1/2/3(即MP3)的库。
 * [Xuggler](https://www.xuggle.com/xuggler/)：Xuggler是一个功能强大的工具，旨在简化直接从Java解压缩、修改和重新压缩任何媒体文件或流的过程。
 * [Jaudiotagger](https://bitbucket.org/ijabz/jaudiotagger)：Jaudiotagger是音频标记库，用于标记音频文件中的数据。
-* [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer)：Universal Media Server是兼容DLNA的UPnP媒体服务器，它能够在大多数现代设备之间共享视频、音频和图像。
 * [Smallville](https://github.com/nickm980/smallville)：生成代理是虚拟角色，可以存储记忆并对环境做出动态反应。
 * [Rebound](https://github.com/facebookarchive/rebound)：Rebound是一个模拟弹簧动力学的Java库，由Facebook开源。
@@ -11737,6 +11771,7 @@ permalink: /javalibs
 * [Jep](https://github.com/ninia/jep)：Jep通过JNI将CPython嵌入到Java中。
 * [PemJa](https://github.com/alibaba/pemja)：PemJa是一个基于FFI的开源跨语言调用框架，由阿里开源。
 * [QPython](https://github.com/qpython-android/qpython)：QPython是适用于Android的Python引擎。
+* [Pyrolite](https://github.com/irmen/Pyrolite)：该库允许你的Java或.NET程序非常轻松地与Python程序交互，使用Pyro协议调用远程对象上的方法。
 
 #### Swift
 
