@@ -479,6 +479,7 @@ permalink: /javalibs
     * [物联网网关](#物联网网关)
     * [MQTT](#MQTT)
     * [车联网](#车联网)
+    * [车载诊断](#车载诊断)
     * [嵌入式](#嵌入式)
     * [串口](#串口)
     * [Modbus](#Modbus)
@@ -841,7 +842,7 @@ permalink: /javalibs
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
 * [Feat](https://gitee.com/smartboot/feat)：Feat是一个类似于Vert.x和Spring Boot的Java Web服务开发框架，专注于提供高性能、低资源消耗的解决方案。
-* [Rose](https://github.com/XiaoMi/rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。
+* [Rose](https://github.com/paoding-code/paoding-rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。
 * [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
 * [Kora](https://github.com/kora-projects/kora)：Kora是一个用于编写Java/Kotlin应用程序的框架，重点关注性能、效率和透明度。
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
@@ -2192,6 +2193,7 @@ permalink: /javalibs
 * [Eclipse ioFog](https://github.com/eclipse-iofog/Agent)：ioFog是一个开源的边缘计算平台，它提供了一套用于管理和编排边缘设备的工具和框架，由IBM开源。
 * [ColocationSim](https://github.com/pku-finelab/ColocationSim)：ColocationSim通过先进的模拟技术，解决了混合部署在线与离线作业在真实环境中测试所带来的高成本、高风险以及长周期问题，北京大学开源。
 * [Nimbus](https://github.com/nimbusproject/nimbus)：Nimbus是用于科学的云计算软件，由芝加哥大学开源。
+* [EdgeCloudSim](https://github.com/CagataySonmez/EdgeCloudSim)：EdgeCloudSim提供了一个专门针对边缘计算场景的模拟环境，可用于开展兼顾计算和网络资源的实验。
 
 ## Serverless
 
@@ -2384,13 +2386,13 @@ permalink: /javalibs
 * [Jolokia](https://github.com/jolokia/jolokia)：Jolokia是一个JMX-HTTP桥接器，提供JSR-160连接器的替代方案。
 * [Nudge4j](https://github.com/lorenzoongithub/nudge4j)：通过字节码注入从Java 8浏览器远程开发控制台。
 * [Sysmon](https://github.com/palantir/Sysmon)：Sysmon是一个用于JVM的轻量级平台监控工具，由Palantir开源。
-* [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、ping和跟踪。
 * [KoTime](https://github.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
 * [Djigger](https://github.com/exense/djigger)：Djigger是一个用于Java应用程序的生产就绪性能分析和监控解决方案，主要依赖于先进的全天候采样器和仪器代理模式。
 * [JRat](https://jrat.sourceforge.net/)：JRat是一个低开销、易于使用的Java平台开源性能分析器。
 * [RemoraJ](https://github.com/Nastel/remoraj)：RemoraJ是一个可扩展的Java分析代理，它使用字节码检测以最小的开销拦截Java IPC调用。
 * [JETM](https://github.com/frenchc/jetm)：JETM是一个用于编程或声明式性能监控的Java库。
 * [Eclipse Trace Compass](https://github.com/eclipse-tracecompass/org.eclipse.tracecompass)：Trace Compass是一款开源应用程序，可通过读取和分析系统日志或跟踪来解决性能和可靠性问题。
+* [Erlyberly](https://github.com/andytill/erlyberly)：Erlyberly是一款使用Erlang跟踪技术的Erlang、Elixir和LFE调试器。
 
 #### Spring Boot仪表板
 
@@ -2401,6 +2403,7 @@ permalink: /javalibs
 * [SnapAdmin](https://github.com/aileftech/snap-admin)：适用于Spring Boot应用的即插即用、自动生成的CRUD数据库管理面板。
 * [Ostara](https://github.com/krud-dev/ostara)：Ostara是一款开源桌面应用程序，旨在简化Spring Boot应用程序的管理和监控。
 * [KoTime](https://gitee.com/huoyo/ko-time)：KoTime是一个轻量级的Spring Boot项目性能分析工具，通过追踪方法调用链路以及对应的运行时长快速定位性能瓶颈。
+* [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、Ping和跟踪。
 
 #### GC日志分析
 
@@ -3080,6 +3083,7 @@ permalink: /javalibs
 * [WLock](https://github.com/wuba/WLock)：WLock是一套基于一致性算法组件WPaxos实现的高可靠、高吞吐分布式锁服务，由58同城开源。
 * [Distributor](https://gitee.com/HappyChicken/Distributor)：Distributor基于Redis实现常用的分布式组件，简单、可靠、开箱即用。
 * [Jedis Lock](https://github.com/abelaska/jedis-lock)：Jedis Lock是一个使用Redis数据库和Jedis驱动实现的分布式锁，使用起来非常方便和简单。
+* [Distributed Redis Tool](https://github.com/crossoverJie/distributed-redis-tool)：这是一个基于Redis的简单分布式工具。
 
 #### 分布式ID
 
@@ -3264,6 +3268,7 @@ permalink: /javalibs
 * [KVault](https://github.com/Liftric/KVault)：KVault是Kotlin多平台项目的安全键值存储。
 * [Riffle](https://github.com/Factual/riffle)：Riffle是一种只读键/值存储格式。
 * [HeftyDB](https://github.com/jordw/heftydb)：HeftyDB是一个适用于JVM的持久化、排序的键值对库。
+* [Remember](https://github.com/tumblr/Remember)：适用于Android的由共享偏好支持的内存数据存储，由Tumblr开源。
 
 #### 数据网格
 
@@ -3336,7 +3341,7 @@ permalink: /javalibs
 * [SimpleDB](https://github.com/iamxpy/SimpleDB)：加州大学伯克利分校的数据库课程CS186实现。
 * [Simple DB HW 2021](https://github.com/MIT-DB-Class/simple-db-hw-2021)：MIT数据库课程6.830实现。
 * [TMDB](https://github.com/whu-totemdb/tmdb)：武汉大学移动端Totem数据库系统。
-* [MYDB](https://github.com/CN-GuoZiyang/MYDB)：MYDB是一个Java实现的简单的数据库，部分原理参照自MySQL、PostgreSQL和SQLite。
+* [MYDB](https://github.com/senshinya/MYDB)：MYDB是一个Java实现的简单的数据库，部分原理参照自MySQL、PostgreSQL和SQLite。
 * [AntsDB](https://github.com/waterguo/antsdb)：AntsDB是HBase的低延迟、高并发虚拟SQL层。
 * [Wasp](https://github.com/alibaba/wasp)：Wasp是类Google MegaStore & F1的分布式关系型数据库，由阿里开源。
 * [Sqlg](https://github.com/pietermartin/sqlg)：Sqlg是Tinkerpop3在RDBMS上的实现，支持H2、HSQLDB、Postgresql。
@@ -4426,6 +4431,7 @@ permalink: /javalibs
 * [CarbonJ](https://github.com/salesforce/carbonj)：CarbonJ是Carbon Cache和Carbon Relay的直接替代品，它在设计时考虑了高性能读写吞吐量，由Salesforce开源。
 * [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
+* [IgDiskCache](https://github.com/facebookarchive/ig-disk-cache)：IgDiskCache是一个容错的Android磁盘缓存库，由Instagram开源。
 
 ## 集合库
 
@@ -5175,7 +5181,7 @@ permalink: /javalibs
 * [NLPLang](https://github.com/NLPchina/nlp-lang)：NLPLang是一个基本包，封装了大多数NLP项目中常用工具。
 * [SmoothNLP](https://github.com/smoothnlp/SmoothNLP)：专注于可解释推理的NLP工具集。
 * [SimpleNLG](https://github.com/simplenlg/simplenlg)：SimpleNLG是一个简单的Java API，旨在促进自然语言的生成，最初由阿伯丁大学开发。
-* [MyNLP](https://github.com/mayabot/mynlp)：MyNLP是一个生产级、高性能、模块化、可扩展的中文NLP工具包，由上海万行公司开源。
+* [MyNLP](https://github.com/jimichan/mynlp)：MyNLP是一个生产级、高性能、模块化、可扩展的中文NLP工具包，由上海万行公司开源。
 * [Apache UIMA](https://github.com/apache/uima-uimaj)：UIMA是分析大量非结构化信息以发现与最终用户相关的知识的软件系统，由IBM开源。
 * [Phrasal](https://github.com/stanfordnlp/phrasal)：Phrasal是用Java编写的大型统计机器翻译系统，由斯坦福开源。
 * [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft)：NLPraft是一个开源库，用于为现代应用程序添加自然语言接口。
@@ -5488,7 +5494,6 @@ permalink: /javalibs
 * [KNIME](https://github.com/knime/knime-core)：KNIME是由德国的康斯坦茨大学，一组研究制药应用的开发团队在2006年7月推出的一款针对大数据的软件。
 * [Davinci](https://github.com/edp963/davinci)：Davinci是一个DVaaS平台解决方案，面向业务人员/数据工程师/数据分析师/数据科学家，致力于提供一站式数据可视化解决方案，由宜信开源。
 * [DataCap](https://github.com/devlive-community/datacap)：DataCap是用于数据转换、集成和可视化的集成软件，由Devlive社区开源。
-* [Prefuse](https://github.com/prefuse/Prefuse)：Prefuse是一个基于Java的工具包，用于构建交互式信息可视化应用程序，Prefuse支持一组丰富的数据建模、可视化和交互功能，由加州大学伯克利分校开源。
 * [ECharts](https://gitee.com/free/ECharts)：ECharts是针对ECharts 2.X版本的Java类库，实现了所有ECharts中的JSON结构对应的Java对象，并且可以很方便的创建Option、Series等。
 * [ECharts Java](https://github.com/ECharts-Java/ECharts-Java)：ECharts Java是一个轻量级但全面的库，供Java开发人员轻松使用JavaScript可视化库ECharts。
 * [Mirador](https://github.com/mirador/mirador)：Mirador是一种通过视觉探索在复杂数据集中识别新假设的工具，由斯坦福联合哈佛大学、美国国家美术馆和其他几家世界各地的机构共同进行扩展开发。
@@ -6162,6 +6167,7 @@ permalink: /javalibs
 * [RhizobiaJ](https://github.com/momosecurity/rhizobia_J)：Java安全SDK及编码规范，由陌陌安全团队开源。
 * [NTRU](https://github.com/tbuktu/ntru)：NTRUEncrypt和NTRUSign的Java实现。
 * [Fosstars Rating Core](https://github.com/SAP/fosstars-rating-core)：这是一个用于定义和计算开源项目评级的框架，由SAP开源。
+* [CSRFGuard](https://github.com/aramrami/OWASP-CSRFGuard)：CSRFGuard是一个实现同步器令牌模式变体的库，用于减轻CSRF攻击的风险，由OWASP开源。
 
 #### 安全工具
 
@@ -6224,6 +6230,7 @@ permalink: /javalibs
 * [BGMProvider](https://gitee.com/openeuler/bgmprovider)：BGMProvider目标是提供一个完整的GMTLS Java实现，由华为开发。
 * [Themis](https://github.com/cossacklabs/themis)：Themis是一个开源高级加密服务库，用于在身份验证、存储、消息传递、网络交换等过程中保护数据。
 * [Jasypt](https://github.com/jasypt/jasypt)：Jasypt是一个Java库，允许开发人员以最小的努力向项目添加基本的加密功能，而无需深入了解密码学的工作原理。
+* [Enigma](https://github.com/mikepound/enigma)：Enigma的Java实现，以及解密它的现代攻击。
 * [Cryptomator](https://github.com/cryptomator/cryptomator)：Cryptomator为云中的文件提供多平台透明客户端加密。
 * [Cryptacular](https://github.com/vt-middleware/cryptacular)：对Java版BouncyCastle加密API的友好补充。
 * [Wycheproof](https://github.com/google/wycheproof)：Wycheproof项目针对已知攻击测试加密库，由Google开源。
@@ -6693,6 +6700,7 @@ permalink: /javalibs
 * [Animated GIF Library](https://github.com/rtyley/animated-gif-lib-for-java)：Java的动画GIF库。
 * [Color Thief](https://github.com/SvenWoltmann/color-thief-java)：从图像中抓取主色或代表性调色板。
 * [WebP ImageIO](https://github.com/sejda-pdf/webp-imageio)：适用于Google WebP图像格式的Java Image I/O读取器和写入器。
+* [Image Similarity](https://github.com/nivance/image-similarity)：计算图片之间的相似度。
 
 #### 水印
 
@@ -7693,6 +7701,7 @@ permalink: /javalibs
 * [Zheng](https://gitee.com/shuzheng/zheng)：Zheng是基于Spring、Spring MVC、Mybatis分布式敏捷开发系统架构，提供整套公共微服务模块。
 * [ELADMIN](https://github.com/elunez/eladmin)：一个基于Spring Boot 2.7.18 、 Spring Boot JPA、JWT、Spring Security、Redis、Vue的前后端分离的后台管理系统。
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发，由Haulmont开源。
+* [Seed4J](https://github.com/seed4j/seed4j)：Seed4J是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
 * [Qingzhou](https://gitee.com/openeuler/qingzhou)：轻舟是一款开源的轻量级软件开发平台，其愿景是优化通用型Web管理软件的开发质量与效率，并实现不同类型软件的集中化统一管理，由华为开发。
 * [LAMP Cloud](https://github.com/dromara/lamp-cloud)：LAMP Cloud基于JDK 11、Spring Cloud、Spring Boot开发的微服务中后台快速开发平台，专注于多租户(SaaS架构)解决方案，由dromara社区开源。
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
@@ -7757,6 +7766,7 @@ permalink: /javalibs
 * [JavaFX Falsework](https://gitee.com/lwdillon/fx-falsework)：基于JavaFX、Spring Boot开发的客户端与服务端系统开发脚手架。
 * [XBoot](https://github.com/Exrick/xboot)：XBoot是基于Spring Boot 2.x的一站式前后端分离快速开发平台。
 * [Snowy](https://gitee.com/xiaonuobase/snowy)：Snowy是国内首个国密前后端分离快速开发平台，集成国密加解密插件，软件层面完全符合等保测评要求，同时实现国产化机型、中间件、数据库适配。
+* [Element Vue SpringBoot Code Template](https://github.com/xwjie/ElementVueSpringbootCodeTemplate)：使用Vue、VueX、ElementUI、Spring Boot的代码框架。
 * [FCat](https://gitee.com/softnetcat/FCat)：FCAT是企业级基础功能框架，软件巢工作室出品。
 * [AXBoot Framework](https://github.com/axboot/ax-boot-framework)：AXBoot是使用Java和HTML5的全栈Java Web应用程序框架。
 * [Essencium Backend](https://github.com/Frachtwerk/essencium-backend)：Essencium是一个构建在Spring Boot之上的软件库，允许开发人员快速开始新的软件项目。
@@ -8768,6 +8778,7 @@ permalink: /javalibs
 * [Snowblossom](https://github.com/snowblossomcoin/snowblossom)：Snowblossom是一种简单的加密货币。
 * [Arbitrader](https://github.com/agonyforge/arbitrader)：Arbitrader是一个在两个不同的加密货币交易所之间寻找交易机会并执行自动低风险交易的程序。
 * [BITISAN](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange)：BITISAN交易所支持多种数字资产的交易，涵盖加密货币、代币化资产以及其他数字化资产。
+* [MultiBit](https://github.com/Multibit-Legacy/multibit)：MultiBit是一个简化支付验证(SPV)比特币桌面客户端。
 
 #### 区块链SDK
 
@@ -8843,6 +8854,8 @@ permalink: /javalibs
 * [OpenIita](https://gitee.com/open-iita/iotkit-parent)：铱塔智联开源平台是一个开源的物联网基础开发平台，提供了物联网及相关业务开发的常见基础功能，能帮助你快速搭建自己的物联网相关业务平台。
 * [Scada-LTS](https://github.com/SCADA-LTS/Scada-LTS)：Scada-LTS是一个基于Web的开源多平台解决方案，用于构建你自己的SCADA(监控和数据采集)系统。
 * [Aura Tower](https://github.com/blumek/aura-tower)：Aura Tower是一个开源项目，旨在通过直观的仪表板控制和监控物联网设备。
+* [OpenIoT](https://github.com/OpenIotOrg/openiot)：OpenIoT为物联网构建一个新颖的开源平台，该平台包含一些独特的功能，例如能够按照基于云/实用程序的范式组合非平凡的物联网服务，由瑞士苏黎世联邦理工学院、希腊信息技术与通信研究所开源。
+* [KCloud Platform IoT](https://github.com/KouShenhai/KCloud-Platform-IoT)：KCloud Platform IoT是一个企业级微服务架构的IoT云平台。
 
 #### 智能家居
 
@@ -8901,6 +8914,11 @@ permalink: /javalibs
 * [JT Framework](https://github.com/hylexus/jt-framework)：基于Spring Boot的JT-808协议服务端。
 * [Eclipse MOSAIC](https://github.com/eclipse/mosaic)：MOSAIC是智能互联移动领域的多尺度仿真框架，它允许将来自不同领域的模拟器耦合到综合模拟工具。
 * [JTT1078 Video Server](https://gitee.com/matrixy/jtt1078-video-server)：基于JT/T 1078协议实现的视频转播服务器。
+
+#### 车载诊断
+
+* [OBD Java API](https://github.com/pires/obd-java-api)：OBD-II Java API。
+* [Kotlin OBD API](https://github.com/eltonvs/kotlin-obd-api)：一个轻量级、由开发人员驱动的API，用于查询和解析OBD命令。
 
 #### 嵌入式
 
@@ -10131,6 +10149,7 @@ permalink: /javalibs
 
 * [XChart](https://github.com/knowm/XChart)：XChart是一个轻量且方便的数据绘制库，旨在在尽可能短的时间内从数据到图表，并消除自定义图表样式时的猜测工作。
 * [JFreeChart](https://github.com/jfree/jfreechart)：JFreeChart是一个适用于Java平台的综合免费图表库，可在客户端(JavaFX和Swing)或服务器端使用。
+* [Prefuse](https://github.com/prefuse/Prefuse)：Prefuse是一个基于Java的工具包，用于构建交互式信息可视化应用程序，由加州大学伯克利分校开源。
 * [Lets Plot](https://github.com/JetBrains/lets-plot)：Lets Plot是一个基于图形语法原理构建的多平台绘图库，由JetBrains开源。
 * [Orson Charts](https://github.com/jfree/orson-charts)：Orson Charts是一个用于Java平台的3D图表库，可以生成各种3D图表，用于客户端应用程序(JavaFX和Swing)和服务器端应用程序(导出为PDF、SVG、PNG和JPEG)。
 * [Matplotlib4j](https://github.com/sh0nk/matplotlib4j)：Matplotlib4j是一个用于Java、Scala和Kotlin的简单绘图库。
@@ -11060,6 +11079,7 @@ permalink: /javalibs
 * [JLang](https://github.com/polyglot-compiler/JLang)：JLang向Polyglot编译器添加了LLVM后端，将Java转换为LLVM IR，由康奈尔大学开源。
 * [LLJVM](https://github.com/davidar/lljvm)：LLJVM提供了一组工具和库，用于在JVM上运行相对较低级别的语言(例如C)。
 * [LLFI](https://github.com/DependableSystemsLab/LLFI)：LLFI是一个基于LLVM的故障注入工具，它将故障注入到应用程序源代码的LLVM IR中，由不列颠哥伦比亚大学开源。
+* [Jeandle](https://github.com/jeandle/jeandle-jdk)：Jeandle是一个Java的JIT，利用LLVM编译器基础架构生成机器码，旨在提供强大的编译优化并交付高性能代码。
 
 ## PC模拟器
 
@@ -11079,7 +11099,7 @@ permalink: /javalibs
 * [Java-OO](https://github.com/amelentev/java-oo)：Java-OO是Java编译器和IDE的模块化扩展，用于支持运算符重载(类似Scala)。
 * [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
 * [DroidPlugin](https://github.com/DroidPluginTeam/DroidPlugin)：DroidPlugin是一个新的插件框架，它使宿主应用程序无需安装、修改和重新打包即可运行任何第三方APK。
-* [JTransc](https://github.com/jtransc/jtransc)：JTransc是一个AOT，它将.class和.jar文件编译为目标编程语言/可执行文件，将所有必需的依赖项捆绑在单个文件或文件夹中，无需抖动或外部运行时。
+* [JTransc](https://github.com/soywiz-archive)：JTransc是一个AOT，它将.class和.jar文件编译为目标编程语言/可执行文件，将所有必需的依赖项捆绑在单个文件或文件夹中，无需抖动或外部运行时。
 * [Apache Commons JCI](https://github.com/apache/commons-jci)：Commons JCI是一个Java编译器接口，它可用于编译Java本身，或任何其他可编译为Java类的语言(例如Groovy或JavaScript)。
 * [Deptitive](https://github.com/moditect/deptective)：Deptitive是javac的一个插件，它根据允许的依赖的描述来验证项目包之间的依赖关系，并在检测到任何无意的依赖关系时使编译失败。
 * [Polyglot](https://github.com/polyglot-compiler/polyglot)：Polyglot是Java编程语言的高度可扩展的编译器前端，由康奈尔大学开源。
@@ -11580,6 +11600,7 @@ permalink: /javalibs
 * [Minperf](https://github.com/thomasmueller/minperf)：极小的完美哈希函数库。
 * [Bloofi](https://github.com/lemire/bloofi)：多维布隆过滤器的Java实现。
 * [Opposite Bloom Filter](https://github.com/jmhodges/opposite_of_a_bloom_filter)：该仓库包含Java和Go中“布隆过滤器的对立面”的线程安全实现。
+* [Java Bloom Filter](https://github.com/MagnusS/Java-BloomFilter)：Java Bloom Filter是一个用Java编写的独立布隆过滤器实现。
 
 #### 布谷鸟过滤器
 
@@ -11958,7 +11979,7 @@ permalink: /javalibs
 * [YARG](https://github.com/cuba-platform/yarg)：YARG是一个Java开源报告库，由Haulmont开发。
 * [Pentaho](https://github.com/pentaho/pentaho-reporting)：Pentaho是用于生成报告的Java类库，它使用来自多个来源的数据提供灵活的报告和打印功能，并支持输出到显示设备、打印机、PDF、Excel、XHTML、纯文本、XML和CSV文件。
 * [DynamicJasper](https://github.com/intive-FDV/DynamicJasper)：DynamicJasper是一个隐藏JasperReports复杂性的API，它可以帮助开发人员在设计简单/中等复杂性报表时节省时间，自动生成报表元素的布局。
-* [ExtentReports](https://github.com/extent-framework/extentreports-java)：使用ExtentReports库，可以为你的测试创建美观、交互式且详细的报告。
+* [ExtentReports](https://github.com/extent-framework/extentreports-java)：ExtentReports是一个用于自动化测试的日志记录器样式的报告库。
 * [FineReport](https://www.finereport.com/)：FineReport是一款用于报表制作，分析和展示的工具，这是帆软公司的商业产品。
 * [Logi Report](https://devnet.logianalytics.com/hc/en-us/categories/1500001227442-Logi-Report)：Logi Report被设计为作为独立服务器执行，但可以将其集成到现有WAR项目中。
 * [Report Mill](http://www.reportmill.com/product/)：ReportMill可以平滑地嵌入到每个Java应用程序中，此外，与BIRT一样它非常灵活：可以在运行时自定义报告。
@@ -12388,7 +12409,7 @@ permalink: /javalibs
 ## 字体库
 
 * [Aspose.Font](https://products.aspose.com/font/java/)：Aspose.Font使你能够轻松加载、保存、绘制、转换和渲染字体文件。
-* [SFNTly](https://github.com/googlefonts/sfntly)：使用、编辑和创建基于SFNT的字体的库。
+* [SFNTly](https://github.com/googlefonts/sfntly)：使用、编辑和创建基于SFNT的字体的库，由Google开源。
 * [FontBox](https://github.com/apache/pdfbox/tree/trunk/fontbox)：FontBox库是一个用于处理PDF字体的开源Java工具。
 
 ## 语言库
@@ -13381,6 +13402,7 @@ permalink: /javalibs
 * [NFCTools](https://github.com/grundid/nfctools)：NFCTools是Java中NFC库和工具的集合。
 * [Psychometrics](https://github.com/meyerjp3/psychometrics)：一个用于心理测量分析的Java库。
 * [Java ADS-B](https://github.com/openskynetwork/java-adsb)：这是Java的Mode S和ADS-B解码库。
+* [Kumo](https://github.com/kennycason/kumo)：Kumo的目标是用Java创建一个功能强大且用户友好的词云API。
 
 ## 教程系列
 
