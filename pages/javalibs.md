@@ -240,6 +240,7 @@ permalink: /javalibs
 * [工作流](#工作流)
 * [编排引擎](#编排引擎)
 * [规则引擎](#规则引擎)
+* [状态机](#状态机)
 * [API管理](#API管理)
 * [日期时间](#日期时间)
     * [日历库](#日历库)
@@ -627,6 +628,7 @@ permalink: /javalibs
     * [数据源增强](#数据源增强)
     * [数据库工具](#数据库工具)
     * [存储过程](#存储过程)
+    * [N+1检测](#N1检测)
     * [Redis库/工具](#Redis库工具)
     * [Kafka库/工具](#Kafka库工具)
     * [MongoDB库/工具](#MongoDB库工具)
@@ -640,6 +642,7 @@ permalink: /javalibs
     * [Milvus库/工具](#Milvus库工具)
     * [Vault库/工具](#Vault库工具)
 * [对象存储](#对象存储)
+* [文件系统](#文件系统)
 * [音视频处理](#音视频处理)
   * [音频库](#音频库)
   * [视频库](#视频库)
@@ -685,16 +688,14 @@ permalink: /javalibs
 * [COM桥](#COM桥)
 * [GPU编程](#GPU编程)
 * [硬件操作](#硬件操作)
+* [操作系统](#操作系统)
 * [运动规划](#运动规划)
 * [自动规划](#自动规划)
-* [操作系统](#操作系统)
 * [电力系统](#电力系统)
 * [量子计算](#量子计算)
-* [状态机](#状态机)
-* [文件系统](#文件系统)
 * [IPFS](#IPFS)
 * [报表引擎](#报表引擎)
-* [打包部署运行](#打包部署运行)
+* [打包/部署/运行](#打包部署运行)
 * [地理空间](#地理空间)
   * [坐标库](#坐标库)
   * [经纬度库](#经纬度库)
@@ -750,7 +751,6 @@ permalink: /javalibs
 * [形式验证](#形式验证)
 * [印章生成](#印章生成)
 * [数据脱敏](#数据脱敏)
-* [N+1问题](#N1问题)
 * [敏感词过滤](#敏感词过滤)
 * [正则表达式](#正则表达式)
 * [代码生成器](#代码生成器)
@@ -794,7 +794,6 @@ permalink: /javalibs
     * [GWT库](#GWT库)
     * [JavaScript/TypeScript转译器](#JavaScriptTypeScript转译器)
     * [CSS库](#CSS库)
-* [Cron解析](#Cron解析)
 * [手机号解析](#手机号解析)
 * [表达式引擎](#表达式引擎)
 * [数学表达式](#数学表达式)
@@ -927,6 +926,7 @@ permalink: /javalibs
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
 * [Sumk](https://github.com/youtongluan/sumk)：Sumk的定位是为互联网公司提供一个快速开发、接口交互(RPC和HTTP)、数据缓存、读写分离、负载均衡、故障转移的框架。
 * [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
+* [Fairy](https://github.com/FairyProject/fairy)：Fairy是一个兼容开源的Java框架。
 
 #### RPC框架
 
@@ -1090,6 +1090,7 @@ permalink: /javalibs
 * [Evento](https://github.com/EventoFramework/evento-framework)：Evento框架为开发人员提供了一套强大的工具包，用于构建和管理利用事件溯源和CQRS架构模式的分布式应用程序。
 * [Splitet](https://github.com/Splitet/SplitetFramework)：Splitet是一个基于Java的事件溯源框架，由Kloia开源。
 * [Loom](https://github.com/loom/loom-java)：Loom是一组用于实现分布式消息传递和事件源模式的框架。
+* [OpenCQRS](https://github.com/open-cqrs/opencqrs)：OpenCQRS是一个轻量级开源Java框架，用于基于CQRS和事件源模式构建应用程序。
 * [Sourcerer](https://github.com/elder-oss/sourcerer)：Sourcerer是一个固执己见、功能性且与存储无关的框架，用于使用事件源在Java 8中实现CQRS架构，由Elder开发。
 * [Apache Polygene](https://github.com/apache/polygene-java)：Apache Polygene实现了面向复合编程，无需使用任何预处理器或新的语言元素。
 * [Dewdrop](https://github.com/matsientst/dewdrop)：Dewdrop是一个固执己见、简单而强大的框架，用于在Java中实现事件源。
@@ -2650,6 +2651,7 @@ permalink: /javalibs
 * [HbaseGUI](https://github.com/Observe-secretly/HbaseGUI)：HbaseGUI可视化工具，通过Hbase Client直接操作Hbase。
 * [Bigdata File Viewer](https://github.com/Eugene-Mark/bigdata-file-viewer)：跨平台桌面应用程序，用于查看常见的大数据二进制格式，如Parquet、ORC、Avro等。
 * [Scaleph](https://github.com/flowerfine/scaleph)：Scaleph是一个基于Flink和Kubernetes打造的开放数据平台，具备Flink和SeaTunnel任务管理能力，同时支持Doris集群在Kubernetes上的运维部署。
+* [Base DMS](https://github.com/basedt/dms)：Base DMS是一个开源、免费且由AI驱动的智能数据管理系统。
 
 #### 大数据组件
 
@@ -2993,8 +2995,7 @@ permalink: /javalibs
 * [LCM](https://github.com/lcm-proj/lcm)：LCM是一组用于消息传递和数据编组的库和工具，针对高带宽和低延迟至关重要的实时系统，由MIT开源。
 * [CMB](https://github.com/Comcast/cmb)：CMB是一款高可用性、水平可扩展的队列和通知服务，兼容AWS SQS和SNS，由Comcast开源。
 * [Hub](https://github.com/flightstats/hub)：Hub是一个分布式链表、消息传递系统。
-* [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
-* [Ytk-mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
+* [Ytk-Mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-Mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持快照持久化和Broker集群模式。
 
 #### 事件总线
@@ -3018,6 +3019,7 @@ permalink: /javalibs
 
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架，由Chronicle软件公司开源。
 * [Aeron](https://github.com/real-logic/Aeron)：Aeron是一个开源高性能消息传输机制(单向)，支持高效可靠的UDP单播、UDP多播和IPC消息传输，由Adaptive公司开源。
+* [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
 * [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
 * [CoralSequencer](https://www.coralblocks.com/index.php/category/coralsequencer/)：CoralSequencer是一款功能齐全、超低延迟、全序消息传递中间件，适用于基于异步消息的分布式系统。
@@ -3419,8 +3421,9 @@ permalink: /javalibs
 * [Vespa](https://github.com/vespa-engine/vespa)：Vespa是一个开源的大规模分布式实时计算的向量和文本搜索引擎，Yahoo开发。
 * [DingoDB](https://github.com/dingodb/dingo)：DingoDB是由DataCanvas设计和开发的开源分布式多模态向量数据库。
 * [Simbase](https://github.com/guokr/simbase)：Simbase是一个类似Redis的向量相似度数据库，由果壳科技开源。
-* [Cottontail DB](https://github.com/vitrivr/cottontaildb)：Cottontail DB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
+* [Cottontail](https://github.com/vitrivr/cottontaildb)：CottontailDB是一个旨在多媒体检索的列存储，它允许经典的布尔和向量空间检索，即相似性搜索中使用的最近邻查找，由巴塞尔大学开源。
 * [VectoRex](https://gitee.com/giteeClass/VectoRex)：VectoRex是一个纯Java实现的高性能、可扩展的向量搜索引擎，专为现代AI和大数据应用设计。
+* [Research4j](https://github.com/bhavuklabs/research4j)：Research4j是一个功能全面的Java库，它通过智能查询分析、动态引文获取、自适应推理策略以及无缝LLM集成来实现研究工作流程的自动化。
 
 #### 对象数据库
 
@@ -4728,6 +4731,10 @@ permalink: /javalibs
 * [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
 * [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
+* [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
+* [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移Cron以及获取人类可读的描述。
+* [Cron Parser](https://github.com/grahamar/cron-parser)：将Cron表达式转换为人类可读字符串的Java库。
+* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 
 ## 配置管理
 
@@ -4936,6 +4943,27 @@ permalink: /javalibs
 * [Rule Engine](https://github.com/jetlinks/rule-engine)：基于流程的流式规则引擎。
 * [Power Flows DMN](https://github.com/powerflows/powerflows-dmn)：Power Flows DMN是一个强大的决策引擎。
 
+## 状态机
+
+* [Squirrel](https://github.com/hekailiang/squirrel)：Squirrel为Java提供了一个易于使用、类型安全且高度可扩展的状态机实现。
+* [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)：Spring Statemachine项目提供了一个通用的基础设施来在Spring应用程序中使用状态机概念。
+* [Stateless4j](https://github.com/stateless4j/stateless4j)：轻量级Java状态机。
+* [StateMachine](https://github.com/Tinder/StateMachine)：Kotlin和Swift中的状态机库，由Tinder开源。
+* [EasyFlow](https://github.com/Beh01der/EasyFlow)：EasyFlow是一个简单且轻量级的Java有限状态机。
+* [KStateMachine](https://github.com/KStateMachine/kstatemachine)：KStateMachine是一个强大的Kotlin多平台库，具有清晰的DSL语法，用于创建由Kotlin Coroutines驱动的复杂状态机和状态图。
+* [Easy States](https://github.com/j-easy/easy-states)：Easy States是Java中事件驱动的确定性有限自动机实现。
+* [StatefulJ](https://github.com/statefulj/statefulj)：StatefulJ是一个轻量级、开源的Java事件驱动有限状态机(FSM)和一个完整的基于Spring Data的框架，可让你轻松定义状态机并将其集成到你的应用程序中。
+* [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案。
+* [Mensa](https://github.com/QSFT/Mensa)：Mensa是一种通用、灵活、增强且高效的模式匹配状态机的Java实现，由Dell开源。
+* [Winder](https://github.com/eBay/Winder)：Winder是一个基于Quartz的简单状态机，由eBay开源。
+* [State Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
+* [Makina](https://github.com/clnhlzmn/makina)：Makina是一个分层状态机源到源转换器，它将状态机描述作为输入并生成这些状态机的C语言实现。
+* [JState](https://github.com/UnquietCode/JState)：Java中的高级状态机。
+* [State Machine Compiler](https://smc.sourceforge.net/)：SMC最大限度地利用了状态模式，允许你的对象处理意外事件、恢复并继续提供服务(而不是崩溃)的转换。
+* [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
+* [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
+* [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
+
 ## API管理
 
 * [RAP](https://github.com/thx/RAP)：RAP是一种Web工具，允许开发人员快速定义和记录在典型的基于RESTful API的Web应用程序中使用的Web API，阿里开源。
@@ -5092,6 +5120,7 @@ permalink: /javalibs
 * [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
+* [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 
 #### 代理框架
 
@@ -5222,6 +5251,7 @@ permalink: /javalibs
 * [Zemberek NLP](https://github.com/ahmetaa/zemberek-nlp)：Zemberek NLP提供土耳其语自然语言处理工具。
 * [Baleen](https://github.com/dstl/baleen)：Baleen是一个文本分析框架，允许从非结构化和半结构化数据中提取信息，由英国国防科学技术实验室开源。
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
+* [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 
 #### 分词器
 
@@ -7625,6 +7655,7 @@ permalink: /javalibs
 * [MOJI](https://github.com/nordicway/moji)：MOJI是Moss剽窃检测服务的非官方Java客户端。
 * [Antiplag](https://github.com/fanghon/antiplag)：作业查重软件，它实现了程序代码、文档文本、图片之间的相似度检查。
 * [AC](https://github.com/manuel-freire/ac2)：AC是一款源代码抄袭检测工具，由马德里康普顿斯大学开源。
+* [XINCHECK](https://github.com/tianlian0/duplicate-check-sample)：文本查重SDK，可用于论文查重、标书查重、文档查重、作业查重、合同查重、防串标等场景，由芯锋科技公司开发。
 
 #### 软件工程
 
@@ -11206,6 +11237,7 @@ permalink: /javalibs
 * [PGJDBC NG](https://github.com/impossibl/pgjdbc-ng)：PostgreSQL的新JDBC驱动程序，旨在支持JDBC和Postgres的高级功能。
 * [Postgresql R2DBC](https://github.com/pgjdbc/r2dbc-postgresql)：Postgresql R2DBC驱动程序。
 * [PostgreSQL Async](https://github.com/mauricio/postgresql-async)：用Scala编写的异步、基于Netty的PostgreSQL和MySQL数据库驱动程序。
+* [Postgres Async Driver](https://github.com/alaisi/postgres-async-driver)：Postgres Async Driver是PostgreSQL的非阻塞Java驱动程序。
 * [MySQL](https://github.com/mysql/mysql-connector-j)：MySQL JDBC驱动程序。
 * [AWS MySQL JDBC](https://github.com/awslabs/aws-mysql-jdbc)：AWS MySQL Driver是一个使应用程序能够充分利用集群MySQL数据库功能的驱动程序。
 * [AWS JDBC Driver](https://github.com/aws/aws-advanced-jdbc-wrapper)：该包装器是对现有JDBC驱动程序的补充，旨在扩展驱动程序的功能，使应用程序能够充分利用Amazon Aurora等集群数据库的功能。
@@ -11277,6 +11309,12 @@ permalink: /javalibs
 
 * [PL/Java](https://github.com/tada/pljava)：PL/Java是一个免费的附加模块，它将Java存储过程、触发器和函数引入PostgreSQL后端。
 * [SPAN](https://github.com/americanexpress/SPAN)：SPAN是一个Java框架，它可以帮助开发人员通过提供配置和POJO详细信息来连接存储过程，由美国运通开源。
+
+#### N+1检测
+
+* [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
+* [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
+* [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
 
 #### Redis库/工具
 
@@ -11495,6 +11533,36 @@ permalink: /javalibs
 * [Dante OSS](https://gitee.com/herodotus/dante-oss)：Dante OSS是一款简化对象存储操作的开源框架。
 * [UPYUN Java SDK](https://github.com/upyun/java-sdk)：又拍云存储Java SDK。
 * [Pithos](https://github.com/exoscale/pithos)：Pithos是一个与S3兼容的对象存储，利用Cassandra水平分发内容。
+
+## 文件系统
+
+* [HDFS](https://github.com/apache/hadoop)：Hadoop软件库是一个框架，允许使用简单的编程模型跨计算机集群分布式处理大型数据集，由Yahoo开源。
+* [Hops](https://github.com/hopshadoop/hops)：Hops是Apache Hadoop的下一代发行版，具有可扩展、高可用和可定制的元数据。
+* [Jimfs](https://github.com/google/jimfs)：Jimfs是Java 8及更高版本的内存文件系统，实现了java.nio.file抽象文件系统API，由Google开源。
+* [Ruyuan](https://gitee.com/suzhou-mopdila-information/ruyuan-dfs)：本项目是使用Java开发的一个分布式海量小文件存储系统，功能包括文件上传、文件下载、文件存储等。
+* [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统，由柏林自由大学开源。
+* [Memory File System](https://github.com/marschall/memoryfilesystem)：用于测试目的的JSR-203文件系统的内存实现。
+* [ADFS](https://github.com/taobao/ADFS)：ADFS是Hadoop的演进版本，提供高可用性、自动重启等特性，由阿里开源。
+* [TngouFS](https://gitee.com/397713572/tngouFS)：TngouFS是天狗网用于该网站的图片存储。
+* [JFileServer](https://github.com/FileSysOrg/jfileserver)：JFileServer是一个基于Java的文件服务器，目前支持SMB/CIFS、FTP/FTPS和NFS协议。
+* [Apache Commons VFS](https://github.com/apache/commons-vfs)：Commons VFS是一个虚拟文件系统库。
+* [FastDFS Client](https://github.com/happyfish100/fastdfs-client-java)：FastDFS Java客户端SDK。
+* [FastDFS Client](https://github.com/tobato/FastDFS_Client)：FastDFS的Java客户端。
+* [JNR FUSE](https://github.com/SerCeMan/jnr-fuse)：JNR FUSE是使用Java Native Runtime的Java中的FUSE实现。
+* [NFS4J](https://github.com/dCache/nfs4j)：NFS服务器版本3、4.0和4.1的纯Java实现，包括带有nfs4.1-files和flex-files布局类型的pNFS扩展。
+* [NFS Java Client](https://github.com/EMCECS/nfs-client-java)：该项目是一个NFS Java客户端，具有一些额外的抽象，允许扩展处理其他NFS版本(目前仅处理NFS v3)，由EMC开源。
+* [JavaFS](https://github.com/puniverse/javafs)：Java文件系统，由FUSE提供支持。
+* [ParallelGit](https://github.com/pimpcapital/ParallelGit)：适用于Git的高性能Java 7 NIO内存文件系统。
+* [Amazon S3 FileSystem NIO2](https://github.com/Upplication/Amazon-S3-FileSystem-NIO2)：适用于Java 7(NIO2)的Amazon AWS S3文件系统提供程序。
+* [FUSE Java](https://github.com/EtiennePerot/fuse-jna)：使用JNA的Java FUSE绑定。
+* [JSR-203 Hadoop](https://github.com/damiencarol/jsr203-hadoop)：Hadoop分布式文件系统的JSR 203实现。
+* [S3FS NIO](https://github.com/carlspring/s3fs-nio)：这是使用Java 8的JSR-203的Amazon AWS S3文件系统提供程序的实现。
+* [Hadoop COS](https://github.com/tencentyun/hadoop-cos)：Hadoop COS实现了以腾讯云COS作为底层文件系统运行上层计算任务的功能，支持使用Hadoop、Spark以及Tez等处理存储在腾讯云COS对象存储系统上的数据。
+* [Hadoop-20](https://github.com/facebookarchive/hadoop-20)：Facebook基于Hadoop 0.20-append的实时分布式FS。
+* [SDFS](https://github.com/opendedup/sdfs)：一种去重文件系统，可以将数据存储在对象存储或块存储中。
+* [N5](https://github.com/saalfeldlab/n5)：N5 API指定了存储大块n维张量以及类似于HDF5的组层次中的任意元数据所需的原始操作。
+* [Sfs](https://github.com/pitchpoint-solutions/sfs)：PitchPoint开发的传统少云对象存储服务器能够以极小的资源存储存储亿个大小的文件。
+* [JSch NIO](https://github.com/lucastheisen/jsch-nio)：JSch NIO尝试利用JSch SSH实现来实现NIO文件系统及其附带的一切。
 
 ## 音视频处理
 
@@ -11951,6 +12019,14 @@ permalink: /javalibs
 * [VisiCut](https://github.com/t-oster/VisiCut)：VisiCut是一个用户友好、独立于平台的工具，用于准备、保存作业并将其发送到激光切割机。
 * [jSensors](https://github.com/profesorfalken/jSensors)：jSensors是一个监控电脑所有硬件传感器的Java库。
 
+## 操作系统
+
+* [JOS](https://sourceforge.net/projects/jos/)：一个免费且开源的基于Java的操作系统。
+* [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
+* [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构，由埃尔朗根大学开发。
+* [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
+* [AugmentOS](https://github.com/AugmentOS-Community/AugmentOS)：适用于智能眼镜的开源操作系统。
+
 ## 运动规划
 
 * [OWL](https://github.com/idsc-frazzoli/owl)：Java中的运动规划库，由苏黎世联邦理工学院开源。
@@ -11961,14 +12037,6 @@ permalink: /javalibs
 * [PDDL4J](https://github.com/pellierd/pddl4j)：PDDL4J的目的是促进基于PDDL语言(规划域描述语言)的自动化规划Java工具的开发，格勒诺布尔计算机科学实验室开源。
 * [Neptus](https://github.com/LSTS/neptus)：Neptus是用于操作所有类型无人驾驶车辆的分布式指挥和控制基础设施，由波尔图大学开源。
 * [PLATINUm](https://github.com/pstlab/PLATINUm)：不确定情况下的时序规划和行动。
-
-## 操作系统
-
-* [JOS](https://sourceforge.net/projects/jos/)：一个免费且开源的基于Java的操作系统。
-* [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
-* [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构，由埃尔朗根大学开发。
-* [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
-* [AugmentOS](https://github.com/AugmentOS-Community/AugmentOS)：适用于智能眼镜的开源操作系统。
 
 ## 电力系统
 
@@ -11985,57 +12053,6 @@ permalink: /javalibs
 
 * [Strange](https://github.com/redfx-quantum/strange)：该项目定义了一个可用于创建量子程序的Java API。
 * [iQuantum](https://github.com/Cloudslab/iQuantum)：iQuantum是用于量子计算环境建模和仿真的工具包，由墨尔本大学开源。
-
-## 状态机
-
-* [Squirrel](https://github.com/hekailiang/squirrel)：Squirrel为Java提供了一个易于使用、类型安全且高度可扩展的状态机实现。
-* [Spring Statemachine](https://github.com/spring-projects/spring-statemachine)：Spring Statemachine项目提供了一个通用的基础设施来在Spring应用程序中使用状态机概念。
-* [Stateless4j](https://github.com/stateless4j/stateless4j)：轻量级Java状态机。
-* [StateMachine](https://github.com/Tinder/StateMachine)：Kotlin和Swift中的状态机库，由Tinder开源。
-* [EasyFlow](https://github.com/Beh01der/EasyFlow)：EasyFlow是一个简单且轻量级的Java有限状态机。
-* [KStateMachine](https://github.com/KStateMachine/kstatemachine)：KStateMachine是一个强大的Kotlin多平台库，具有清晰的DSL语法，用于创建由Kotlin Coroutines驱动的复杂状态机和状态图。
-* [Easy States](https://github.com/j-easy/easy-states)：Easy States是Java中事件驱动的确定性有限自动机实现。
-* [StatefulJ](https://github.com/statefulj/statefulj)：StatefulJ是一个轻量级、开源的Java事件驱动有限状态机(FSM)和一个完整的基于Spring Data的框架，可让你轻松定义状态机并将其集成到你的应用程序中。
-* [nFlow](https://github.com/NitorCreations/nflow)：nFlow是一种经过验证的用于编排业务流程的解决方案。
-* [Mensa](https://github.com/QSFT/Mensa)：Mensa是一种通用、灵活、增强且高效的模式匹配状态机的Java实现，由Dell开源。
-* [Winder](https://github.com/eBay/Winder)：Winder是一个基于Quartz的简单状态机，由eBay开源。
-* [State Machine](https://github.com/davidmoten/state-machine)：Java的有限状态机类生成器。
-* [Makina](https://github.com/clnhlzmn/makina)：Makina是一个分层状态机源到源转换器，它将状态机描述作为输入并生成这些状态机的C语言实现。
-* [JState](https://github.com/UnquietCode/JState)：Java中的高级状态机。
-* [State Machine Compiler](https://smc.sourceforge.net/)：SMC最大限度地利用了状态模式，允许你的对象处理意外事件、恢复并继续提供服务(而不是崩溃)的转换。
-* [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
-* [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
-* [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
-
-## 文件系统
-
-* [HDFS](https://github.com/apache/hadoop)：Hadoop软件库是一个框架，允许使用简单的编程模型跨计算机集群分布式处理大型数据集，由Yahoo开源。
-* [Hops](https://github.com/hopshadoop/hops)：Hops是Apache Hadoop的下一代发行版，具有可扩展、高可用和可定制的元数据。
-* [Jimfs](https://github.com/google/jimfs)：Jimfs是Java 8及更高版本的内存文件系统，实现了java.nio.file抽象文件系统API，由Google开源。
-* [Ruyuan](https://gitee.com/suzhou-mopdila-information/ruyuan-dfs)：本项目是使用Java开发的一个分布式海量小文件存储系统，功能包括文件上传、文件下载、文件存储等。
-* [XtreemFS](https://github.com/xtreemfs/xtreemfs)：XtreemFS是一个用于联合IT基础设施的分布式、可复制和容错的文件系统，由柏林自由大学开源。
-* [Memory File System](https://github.com/marschall/memoryfilesystem)：用于测试目的的JSR-203文件系统的内存实现。
-* [ADFS](https://github.com/taobao/ADFS)：ADFS是Hadoop的演进版本，提供高可用性、自动重启等特性，由阿里开源。
-* [TngouFS](https://gitee.com/397713572/tngouFS)：TngouFS是天狗网用于该网站的图片存储。
-* [JFileServer](https://github.com/FileSysOrg/jfileserver)：JFileServer是一个基于Java的文件服务器，目前支持SMB/CIFS、FTP/FTPS和NFS协议。
-* [Apache Commons VFS](https://github.com/apache/commons-vfs)：Commons VFS是一个虚拟文件系统库。
-* [FastDFS Client](https://github.com/happyfish100/fastdfs-client-java)：FastDFS Java客户端SDK。
-* [FastDFS Client](https://github.com/tobato/FastDFS_Client)：FastDFS的Java客户端。
-* [JNR FUSE](https://github.com/SerCeMan/jnr-fuse)：JNR FUSE是使用Java Native Runtime的Java中的FUSE实现。
-* [NFS4J](https://github.com/dCache/nfs4j)：NFS服务器版本3、4.0和4.1的纯Java实现，包括带有nfs4.1-files和flex-files布局类型的pNFS扩展。
-* [NFS Java Client](https://github.com/EMCECS/nfs-client-java)：该项目是一个NFS Java客户端，具有一些额外的抽象，允许扩展处理其他NFS版本(目前仅处理NFS v3)，由EMC开源。
-* [JavaFS](https://github.com/puniverse/javafs)：Java文件系统，由FUSE提供支持。
-* [ParallelGit](https://github.com/pimpcapital/ParallelGit)：适用于Git的高性能Java 7 NIO内存文件系统。
-* [Amazon S3 FileSystem NIO2](https://github.com/Upplication/Amazon-S3-FileSystem-NIO2)：适用于Java 7(NIO2)的Amazon AWS S3文件系统提供程序。
-* [FUSE Java](https://github.com/EtiennePerot/fuse-jna)：使用JNA的Java FUSE绑定。
-* [JSR-203 Hadoop](https://github.com/damiencarol/jsr203-hadoop)：Hadoop分布式文件系统的JSR 203实现。
-* [S3FS NIO](https://github.com/carlspring/s3fs-nio)：这是使用Java 8的JSR-203的Amazon AWS S3文件系统提供程序的实现。
-* [Hadoop COS](https://github.com/tencentyun/hadoop-cos)：Hadoop COS实现了以腾讯云COS作为底层文件系统运行上层计算任务的功能，支持使用Hadoop、Spark以及Tez等处理存储在腾讯云COS对象存储系统上的数据。
-* [Hadoop-20](https://github.com/facebookarchive/hadoop-20)：Facebook基于Hadoop 0.20-append的实时分布式FS。
-* [SDFS](https://github.com/opendedup/sdfs)：一种去重文件系统，可以将数据存储在对象存储或块存储中。
-* [N5](https://github.com/saalfeldlab/n5)：N5 API指定了存储大块n维张量以及类似于HDF5的组层次中的任意元数据所需的原始操作。
-* [Sfs](https://github.com/pitchpoint-solutions/sfs)：PitchPoint开发的传统少云对象存储服务器能够以极小的资源存储存储亿个大小的文件。
-* [JSch NIO](https://github.com/lucastheisen/jsch-nio)：JSch NIO尝试利用JSch SSH实现来实现NIO文件系统及其附带的一切。
 
 ## IPFS
 
@@ -12071,7 +12088,7 @@ permalink: /javalibs
 * [SpringReport](https://gitee.com/springreport/springreport)：SpringReport是一款企业级的报表系统，支持在线设计报表，并绑定动态数据源，无需写代码即可快速生成想要的报表。
 * [Clear Reports](https://www.inetsoftware.de/products/clear-reports)：Clear Reports是一种灵活且功能强大的报告解决方案，可用于多种不同用途。
 
-## 打包部署运行
+## 打包/部署/运行
 
 * [OneinStack](https://github.com/oneinstack/oneinstack)：OneinStack是一个PHP/Java部署工具。
 * [JReleaser](https://github.com/jreleaser/jreleaser)：JReleaser是一个用于Java和非Java项目的自动化发布工具。
@@ -12199,12 +12216,14 @@ permalink: /javalibs
 * [G3M](https://github.com/glob3mobile/g3m)：G3M是一个开源的3D地理可视化引擎，专注于高效渲染大规模地理空间数据(如地图、地形、卫星影像等)。
 * [OpenJUMP](https://github.com/openjump-gis/openjump)：OpenJUMP诞生于JUMP，JUMP是一个开源GIS，最初由Vividsolutions用Java开发，并由不列颠哥伦比亚省(加拿大)自然资源部资助。
 * [Maxent](https://github.com/mrmaxent/Maxent)：Maxent是一个独立的Java应用程序，用于对物种地理分布进行建模，由美国自然历史博物馆开源。
+* [McIDAS-V](https://github.com/mcidasv/mcidasv)：McIDAS-V是3D地球物理数据分析和可视化的免费开源软件，由威斯康星大学麦迪逊分校开发。
 
 #### 大地测量
 
 * [JAG3D](https://github.com/applied-geodesy/jag3d)：JAG3D是用于大地测量科学的最流行的开源最小二乘软件包之一，由斯坦拜斯转运中心开源。
 * [Geodesy](https://github.com/mgavaghan/geodesy)：这是实现Thaddeus Vincenty算法的Java源代码，用于解决正向和逆向大地测量问题。
 * [CTS](https://github.com/orbisgis/cts)：CTS是一个为使用众所周知的大地测量算法和参数集执行坐标变换而开发的库，由法国Lab-STICC实验室开源。
+* [GeographicLib](https://github.com/geographiclib/geographiclib-java)：这是一个用于解决地球椭球模型上的大地测量问题的库。
 
 ## 路由引擎
 
@@ -12305,6 +12324,7 @@ permalink: /javalibs
 * [Rebound](https://github.com/facebookarchive/rebound)：Rebound是一个模拟弹簧动力学的Java库，由Facebook开源。
 * [SICMUtils](https://github.com/sicmutils/sicmutils)：Scmutils系统的Clojure实现，用于Clojure和ClojureScript语言中的数学和物理研究。
 * [FreeHEP](https://java.freehep.org/)：FreeHEP库的目标是鼓励高能物理领域Java代码的共享和重用，由SLAC国家加速器实验室开源。
+* [NeqSim](https://github.com/equinor/neqsim)：NeqSim是一个用于估计流体特性和流程设计的Java库，由挪威科技大学开源。
 
 ## 无人机
 
@@ -12669,12 +12689,6 @@ permalink: /javalibs
 * [eJMask](https://github.com/eBay/ejmask)：eJMask是一个基于JVM的屏蔽库，它提供了一个易于使用的API来屏蔽Java应用程序中的敏感数据，由eBay开源。
 * [DeSensitization](https://github.com/allurx/desensitization)：Blur是一个Java库，用于屏蔽和混淆任何数据结构中的敏感数据。
 * [Data Mask](https://github.com/bancolombia/data-mask)：与Jackson一起使用的实用程序库，旨在通过使用额外的加密/解密进行屏蔽来保护敏感数据，由哥伦比亚银行开源。
-
-## N+1问题
-
-* [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
-* [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
-* [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
 
 ## 敏感词过滤
 
@@ -13174,12 +13188,6 @@ permalink: /javalibs
 * [Less4j](https://github.com/SomMeri/less4j)：Less4j将Less编译为常规CSS。
 * [CSS Selectors](https://github.com/chrsan/css-selectors)：W3C选择器规范的Java实现。
 
-## Cron解析
-
-* [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移cron以及获取人类可读的描述。
-* [Cron Parser](https://github.com/grahamar/cron-parser)：将cron表达式转换为人类可读字符串的Java库。
-* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
-
 ## 手机号解析
 
 * [LibPhoneNumber](https://github.com/google/libphonenumber)：Google的通用Java、C++和JavaScript库，用于解析、格式化和验证国际电话号码。
@@ -13477,8 +13485,6 @@ permalink: /javalibs
 
 ## 其他
 
-* [FizzBuzz Enterprise Edition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)：FizzBuzz是一款作为编程作业而广受欢迎的游戏，用于在工作面试期间淘汰非程序员。
-* [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [Gurux.DLMS](https://github.com/Gurux/gurux.dlms.java)：Gurux.DLMS库是一个高性能Java组件，可帮助你读取DLMS/COSEM兼容的电表、燃气表或水表。
 * [FlowGate](https://github.com/vmware/flowgate)：FlowGate是一个与供应商无关的开源项目，可帮助企业集成设施系统数据和IT数据，形成其运营的单一整体视图，由VMWare开源。
 * [ALARA](https://github.com/svalinn/ALARA)：ALARA的主要目的是计算整个核系统(包括裂变反应堆、聚变反应堆和加速器)中子辐射引起的诱导活化，由威斯康星大学麦迪逊分校开源。
@@ -13490,13 +13496,11 @@ permalink: /javalibs
 * [OpenWayback](https://github.com/iipc/openwayback)：OpenWayback是全球网络档案馆用来在用户浏览器中“回放”存档网站的关键软件，由国际互联网保护联盟开源。
 * [Alf.io](https://github.com/alfio-event/alf.io)：Alf.io是一款免费开源活动出席管理系统，专为关心客户隐私、安全和公平定价政策的活动组织者而开发。
 * [Alchemist](https://github.com/AlchemistSimulator/Alchemist)：Alchemist是一个用于普适性、聚合性和受自然启发的计算的模拟器。
-* [NeqSim](https://github.com/equinor/neqsim)：NeqSim是一个用于估计流体特性和流程设计的Java库，由挪威科技大学开源。
 * [AsTeRICS](https://github.com/asterics/AsTeRICS)：AsTeRICS是一个用于辅助技术的免费开源图形构建集。
 * [JIDT](https://github.com/jlizier/jidt)：JIDT提供了复杂系统中分布式计算的信息论测量的独立、开源代码Java实现。
 * [Metis](https://github.com/europeana/metis-framework)：Metis是数据发布框架，包括客户端应用程序和许多数据处理服务，由欧洲数位图书馆开源。
 * [Hello eBPF](https://github.com/parttimenerd/hello-ebpf)：允许直接用Java编写eBPF程序。
 * [MetarParser](https://github.com/mivek/MetarParser)：这个Java库提供了Metar和TAF解码器。
-* [XINCHECK](https://github.com/tianlian0/duplicate-check-sample)：文本查重SDK，可用于论文查重、标书查重、文档查重、作业查重、合同查重、防串标等场景，由芯锋科技公司开发。
 * [Nginx Java Parser](https://github.com/odiszapc/nginx-java-parser)：基于ANTLR4语法的Nginx配置解析器。
 * [ShrinkWrap Resolvers](https://github.com/shrinkwrap/resolver)：ShrinkWrap Resolvers是一个Java API，旨在简化从仓库系统获取工件的过程，由JBoss开源。
 * [Lorem](https://github.com/mdeanda/lorem)：一个非常有用的Java Lorem Ipsum生成器。
@@ -13504,6 +13508,7 @@ permalink: /javalibs
 * [Psychometrics](https://github.com/meyerjp3/psychometrics)：一个用于心理测量分析的Java库。
 * [Java ADS-B](https://github.com/openskynetwork/java-adsb)：这是Java的Mode S和ADS-B解码库。
 * [Kumo](https://github.com/kennycason/kumo)：Kumo的目标是用Java创建一个功能强大且用户友好的词云API。
+* [Amadeus Java](https://github.com/amadeus4dev/amadeus-java)：Amadeus为旅游行业提供了丰富的API。
 
 ## 教程系列
 
