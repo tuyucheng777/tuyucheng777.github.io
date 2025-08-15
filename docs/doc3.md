@@ -1209,12 +1209,10 @@
 * [RuneLite](https://github.com/runelite/runelite)：RuneLite是一个免费、开源的OldSchool RuneScape客户端。
 * [Chatty](https://github.com/chatty/chatty)：Chatty是一款用Java编写的Twitch桌面聊天客户端，具有许多Twitch特定功能。
 * [Moneydance](https://infinitekind.com/moneydance)：Moneydance是一款易于使用且功能齐全的个人理财应用程序。
-* [Zettelkasten](https://github.com/Zettelkasten-Team/Zettelkasten)：Zettelkasten是一款知识管理工具。
 * [Bits N Picas](https://github.com/kreativekorp/bitsnpicas)：Bits N Picas是一组用于创建和转换位图和表情符号字体的工具。
 * [Bad Peggy](https://www.malavida.com/en/soft/bad-peggy/)：Bad Peggy会分析你的文件夹以查找损坏的JPEG图像。
 * [JDemetra+](https://github.com/jdemetra/jdemetra-app)：JDemetra+是比利时国家银行(NBB)与德意志联邦银行和欧盟统计局根据欧洲统计系统(ESS)指南合作开发的季节性调整(SA)新工具。
 * [Archi](https://github.com/archimatetool/archi)：Archi是一款免费、开源、跨平台的工具和编辑器，用于创建ArchiMate模型。
-* [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [JLearnIt](https://www.jlearnit.com/)：JLearnIt是一款免费的多语言词典，按类别分类，帮助你循序渐进地学习其他语言的词汇。
 * [DocFetcher](https://github.com/docfetcher/DocFetcher)：DocFetcher是一个开源桌面搜索应用程序，它允许你搜索计算机上的文件内容。
 * [PIPE](https://github.com/sarahtattersall/PIPE)：平台独立的Petri网编辑器。
@@ -1260,7 +1258,6 @@
 * [JetBrains Fleet](https://www.jetbrains.com/fleet)：Fleet是JetBrains公司推出的一款下一代集成开发环境，使用Kotlin开发。
 * [MyEclipse](https://www.genuitec.com/products/myeclipse)：MyEclipse是一个基于Eclipse平台构建的专有Java IDE，由Genuitec软件公司提供。
 * [Spring Tools](https://github.com/spring-projects/spring-tools)：Spring官方出品的基于Eclipse的Java IDE。
-* [Processing](https://github.com/processing/processing)：Processing是一个开源的编程语言和开发环境，设计用于视觉艺术、创意编程和电子艺术领域的教学和创作，最初由麻省理工学院开发。
 * [Light Table](https://github.com/LightTable/LightTable)：Light Table是一款新一代代码编辑器，它能通过即时反馈将你与你的创作紧密联系起来。
 * [JDeveloper](https://www.oracle.com/application-development/technologies/jdeveloper.html)：Oracle JDeveloper是一个免费的集成开发环境，可简化基于Java的应用程序的开发。
 * [DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/)：DevEco Studio基于IntelliJ IDEA开源版本打造，为运行在HarmonyOS系统上的应用和元服务提供一站式的开发平台，由华为开发。
@@ -1288,10 +1285,15 @@
 * [CodeAssist](https://github.com/tyron12233/CodeAssist)：用于在Android上构建Android应用程序的实验性IDE。
 * [Cosmic IDE](https://github.com/Cosmic-Ide/Cosmic-IDE)：Cosmic是一款功能强大、丰富的IDE，适用于Android上的JVM开发。
 * [JCreator](https://jcreator.en.softonic.com/)：JCreator是一款专有软件的Java编辑器，由Xinox公司制作。
-* [PraxisLive](https://github.com/praxis-live/praxis-live)：PraxisLive是一种混合视觉实时编程Java IDE。
 * [JGRASP](https://www.jgrasp.org/)：JGRASP是一个轻量级开发环境，专门用于提供软件可视化的自动生成，以提高软件的可理解性，由奥本大学开源。
 * [Halcyon IDE](https://github.com/s4n7h0/Halcyon-IDE)：Halcyon IDE是第一个专为Nmap Script开发人员开发的IDE。
 * [Portugol Studio](https://github.com/UNIVALI-LITE/Portugol-Studio)：Portugol Studio是一个学习编程的环境，针对讲葡萄牙语的编程初学者，由UNVALI教育技术创新实验室开发。
+
+#### 可视化编程
+
+* [Processing](https://github.com/processing/processing)：Processing是一个开源的编程语言和开发环境，设计用于视觉艺术、创意编程和电子艺术领域的教学和创作，由麻省理工学院开源。
+* [Viskell](https://github.com/viskell/viskell)：Viskell是一个实验性的可视化编程环境，适用于类型化(类似Haskell)函数式编程语言，由特文特大学开源。
+* [PraxisLive](https://github.com/praxis-live/praxis-live)：PraxisLive是一种混合视觉实时编程Java IDE。
 
 #### 文本编辑器
 
@@ -1386,6 +1388,7 @@
 * [CompendiumNG](https://github.com/compendiumng/compendiumng)：CompendiumNG是一个功能强大的应用程序，可让你使用节点和链接结构创建广泛的地图，由英国开放大学开源。
 * [MindRaider](https://mindraider.sourceforge.net/)：MindRaider是一款个人笔记本和大纲编辑器。
 * [Mindolph](https://github.com/mindolph/Mindolph)：Mindolph是一款开源个人知识管理软件。
+* [Zettelkasten](https://github.com/Zettelkasten-Team/Zettelkasten)：Zettelkasten是一款知识管理工具。
 
 #### 音视频软件
 
@@ -1789,6 +1792,7 @@
 #### 游戏开发工具
 
 * [Live2D](https://www.live2d.com/)：Live2D是一种应用于电子游戏的绘图渲染技术，由日本Cybernoids公司开发。
+* [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [DisUnity](https://github.com/ata4/disunity)：用Java编写的Unity资源和资源包文件的实验性命令行工具集，主要用于提取。
 * [Alice](https://github.com/TheAliceProject/alice3)：Alice是一个基于块的创新编程环境，可以轻松创建动画、构建交互式叙述或以3D方式编写简单游戏，由CMU开源。
 

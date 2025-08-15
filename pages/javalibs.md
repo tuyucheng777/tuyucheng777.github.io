@@ -352,11 +352,14 @@ permalink: /javalibs
 * [字节码操作](#字节码操作)
 * [字节码工具库](#字节码工具库)
 * [图像处理](#图像处理)
-    * [水印](#水印)
+    * [图像元数据](#图像元数据)
+    * [图像比较](#图像比较)
+    * [PNG库](#PNG库)
     * [SVG库](#SVG库)
     * [TIFF库](#TIFF库)
     * [验证码](#验证码)
     * [二维码生成器](#二维码生成器)
+    * [水印](#水印)
 * [压缩库](#压缩库)
 * [爬虫框架](#爬虫框架)
 * [批处理框架](#批处理框架)
@@ -569,6 +572,7 @@ permalink: /javalibs
     * [JavaFX程序](#JavaFX程序)
     * [GUI程序](#GUI程序)
     * [IDE](#IDE)
+    * [可视化编程](#可视化编程)
     * [文本编辑器](#文本编辑器)
     * [在线编辑器](#在线编辑器)
     * [数学软件](#数学软件)
@@ -6672,7 +6676,6 @@ permalink: /javalibs
 
 * [Thumbnailator](https://github.com/coobird/thumbnailator)：Thumbnailator是一个Java缩略图生成库。
 * [Thumbnails4j](https://github.com/elastic/thumbnails4j)：使用JVM生成文件缩略图的项目，由Elastic开源。
-* [Pngtastic](https://github.com/depsypher/pngtastic)：Pngtastic是一个纯Java PNG图像优化和操作库。
 * [Aspose.Imaging](https://products.aspose.com/imaging/java/)：Aspose.Imaging是一个库，为你提供用于图像和照片处理的高级工具。
 * [Grid](https://github.com/guardian/grid)：Grid是卫报的图像管理系统，它提供了访问组织的媒体的通用且快速的体验，并以经济实惠的方式使用它来生成高质量的内容。
 * [Apache Commons Imaging](https://github.com/apache/commons-imaging)：Commons Imaging是一个纯Java图像库。
@@ -6686,15 +6689,12 @@ permalink: /javalibs
 * [JMagick](https://github.com/techblue/jmagick)：JMagick是ImageMagick的开源Java接口。
 * [Jrawio](https://github.com/tidalwave-it/jrawio-src)：Java Image I/O API的服务提供者，用来处理数码相机拍摄的RAW格式的图片，包括NEF、CRW、CR2、PEF、SRF、MRW。
 * [JJIL](https://github.com/litmanowicziv/jjil)：JJIL是一个Java图像处理库，它包括图像处理架构和60多个用于各种图像处理任务的例程。
-* [PNGJ](https://github.com/leonbloy/pngj)：PNGJ是一个纯Java库，用于高性能读写PNG图像。
 * [JDeli](https://www.idrsolutions.com/jdeli/)：JDeli是一个企业级Java图像库，可以轻松地在Java中读取、写入、转换、操作和处理HEIC和其他图像文件格式，这是IDRsolutions的商业产品。
-* [ICAFE](https://github.com/dragon66/icafe)：用于读取、写入、转换和操作图像和元数据的Java库。
 * [Image4j](https://github.com/imcdonagh/image4j)：Image4j库允许你以100%纯Java读取和写入某些图像格式。
 * [Pollexor](https://github.com/square/pollexor)：Thumbor图像服务的Java客户端，允许你使用流式的API以富有表现力的方式构建URI，由Square开源。
 * [JAI ImageIO](https://github.com/jai-imageio/jai-imageio-core)：Java高级图像I/O工具项目。
 * [LEADTOOLS](https://www.leadtools.com/sdk/java)：LEADTOOLS是一个Java图像处理库，提供了文档清理、医学图像增强、边缘检测、颜色转换和校正、降噪等功能。
 * [SimpleImage](https://github.com/alibaba/simpleimage)：SimpleImage是阿里开源的一个Java图片处理的类库，可以实现图片缩略、水印等处理。
-* [Image Comparison](https://github.com/romankh3/image-comparison)：Image Comparison可以比较2个相同大小的图像，并通过绘制矩形直观地显示差异。
 * [OptimizedImageEnhance](https://github.com/26hzhang/OptimizedImageEnhance)：该库包含一组由Java实现的图像/视频增强方法，用于解决一些常见任务，例如去雾、去噪、水下后向散射消除、低照度增强、特征化、平滑等。
 * [Scrimage](https://github.com/sksamuel/scrimage)：Scrimage是一个用于图像操作的不可变、函数式、高性能的JVM库。
 * [CV4j](https://github.com/imageprocessor/cv4j)：CV4j是用纯Java实现的高质量、实时的图像处理和机器学习库。
@@ -6712,21 +6712,30 @@ permalink: /javalibs
 * [Blurry](https://github.com/wasabeef/Blurry)：Blurry是一个简单的Android模糊库。
 * [Cantaloupe](https://github.com/cantaloupe-project/cantaloupe)：Cantaloupe是一个开源动态图像服务器，用于按需生成高分辨率源图像的衍生品。
 * [Open Imaging](https://github.com/DhyanB/Open-Imaging)：Open Imaging是用于图像创建和处理的工具和库。
-* [ImageIO-Ext](https://github.com/geosolutions-it/imageio-ext)：ImageIO-Ext是一个开源项目，为标准Oracle Java Image I/O项目提供扩展、修复和改进。
+* [ImageIO Ext](https://github.com/geosolutions-it/imageio-ext)：ImageIO Ext是一个开源项目，为标准Oracle Java Image I/O项目提供扩展、修复和改进。
 * [SCIFIO](https://github.com/scifio/scifio)：SCIFIO是一个可扩展的Java框架，用于读取和写入图像，特别是N维科学图像。
-* [Kim](https://github.com/Ashampoo/kim)：Kim是一个用于读取和写入图像元数据的Kotlin多平台库。
 * [Java Image Filters](http://www.jhlabs.com/ip/filters/index.html)：Java Image Filters是由Jhlabs开发的一组用来处理Java图像的类库，提供各种常用的图像处理效果，例如反转色、扭曲、水波纹、凹凸、黑白效果等等数十种效果。
 * [JAI EXT](https://github.com/geosolutions-it/jai-ext)：JAI EXT是一个开源项目，旨在扩展JAI API，由GeoSolutions开源。
 * [Animated GIF Library](https://github.com/rtyley/animated-gif-lib-for-java)：Java的动画GIF库。
 * [Color Thief](https://github.com/SvenWoltmann/color-thief-java)：从图像中抓取主色或代表性调色板。
 * [WebP ImageIO](https://github.com/sejda-pdf/webp-imageio)：适用于Google WebP图像格式的Java Image I/O读取器和写入器。
+
+#### 图像元数据
+
+* [Metadata Extractor](https://github.com/drewnoakes/metadata-extractor)：Metadata Extractor是一个用于从媒体文件中读取元数据的Java库。
+* [ICAFE](https://github.com/dragon66/icafe)：用于读取、写入、转换和操作图像和元数据的Java库。
+* [Kim](https://github.com/Ashampoo/kim)：Kim是一个用于读取和写入图像元数据的Kotlin多平台库。
+
+
+#### 图像比较
+
+* [Image Comparison](https://github.com/romankh3/image-comparison)：Image Comparison可以比较2个相同大小的图像，并通过绘制矩形直观地显示差异。
 * [Image Similarity](https://github.com/nivance/image-similarity)：计算图片之间的相似度。
 
-#### 水印
+#### PNG库
 
-* [AndroidWM](https://github.com/huangyz0918/AndroidWM)：一个支持隐写技术的Android图像水印库。
-* [OpenStego](https://github.com/syvaidya/openstego)：OpenStego是一款隐写术应用程序。
-* [RubberStamp](https://github.com/vinaygaba/RubberStamp)：RubberStamp是一个Android库，可让你轻松地为图像添加水印。
+* [Pngtastic](https://github.com/depsypher/pngtastic)：Pngtastic是一个纯Java PNG图像优化和操作库。
+* [PNGJ](https://github.com/leonbloy/pngj)：PNGJ是一个纯Java库，用于高性能读写PNG图像。
 
 #### SVG库
 
@@ -6780,6 +6789,12 @@ permalink: /javalibs
 * [EMV QRCode](https://github.com/mvallim/emv-qrcode)：基于Java的EMV二维码生成器和解析器(MPM、CPM)。
 * [Barcode Java](https://github.com/barnhill/barcode-java)：该库旨在为开发人员提供一个简单的类，供开发人员在需要从一串数据生成条形码图像时使用。
 * [SwissQRBill](https://github.com/manuelbl/SwissQRBill)：用于生成和解码瑞士二维码钞票的开源Java库。
+
+#### 水印
+
+* [AndroidWM](https://github.com/huangyz0918/AndroidWM)：一个支持隐写技术的Android图像水印库。
+* [OpenStego](https://github.com/syvaidya/openstego)：OpenStego是一款隐写术应用程序。
+* [RubberStamp](https://github.com/vinaygaba/RubberStamp)：RubberStamp是一个Android库，可让你轻松地为图像添加水印。
 
 ## 压缩库
 
@@ -10453,12 +10468,10 @@ permalink: /javalibs
 * [RuneLite](https://github.com/runelite/runelite)：RuneLite是一个免费、开源的OldSchool RuneScape客户端。
 * [Chatty](https://github.com/chatty/chatty)：Chatty是一款用Java编写的Twitch桌面聊天客户端，具有许多Twitch特定功能。
 * [Moneydance](https://infinitekind.com/moneydance)：Moneydance是一款易于使用且功能齐全的个人理财应用程序。
-* [Zettelkasten](https://github.com/Zettelkasten-Team/Zettelkasten)：Zettelkasten是一款知识管理工具。
 * [Bits N Picas](https://github.com/kreativekorp/bitsnpicas)：Bits N Picas是一组用于创建和转换位图和表情符号字体的工具。
 * [Bad Peggy](https://www.malavida.com/en/soft/bad-peggy/)：Bad Peggy会分析你的文件夹以查找损坏的JPEG图像。
 * [JDemetra+](https://github.com/jdemetra/jdemetra-app)：JDemetra+是比利时国家银行(NBB)与德意志联邦银行和欧盟统计局根据欧洲统计系统(ESS)指南合作开发的季节性调整(SA)新工具。
 * [Archi](https://github.com/archimatetool/archi)：Archi是一款免费、开源、跨平台的工具和编辑器，用于创建ArchiMate模型。
-* [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [JLearnIt](https://www.jlearnit.com/)：JLearnIt是一款免费的多语言词典，按类别分类，帮助你循序渐进地学习其他语言的词汇。
 * [DocFetcher](https://github.com/docfetcher/DocFetcher)：DocFetcher是一个开源桌面搜索应用程序，它允许你搜索计算机上的文件内容。
 * [PIPE](https://github.com/sarahtattersall/PIPE)：平台独立的Petri网编辑器。
@@ -10504,7 +10517,6 @@ permalink: /javalibs
 * [JetBrains Fleet](https://www.jetbrains.com/fleet)：Fleet是JetBrains公司推出的一款下一代集成开发环境，使用Kotlin开发。
 * [MyEclipse](https://www.genuitec.com/products/myeclipse)：MyEclipse是一个基于Eclipse平台构建的专有Java IDE，由Genuitec软件公司提供。
 * [Spring Tools](https://github.com/spring-projects/spring-tools)：Spring官方出品的基于Eclipse的Java IDE。
-* [Processing](https://github.com/processing/processing)：Processing是一个开源的编程语言和开发环境，设计用于视觉艺术、创意编程和电子艺术领域的教学和创作，最初由麻省理工学院开发。
 * [Light Table](https://github.com/LightTable/LightTable)：Light Table是一款新一代代码编辑器，它能通过即时反馈将你与你的创作紧密联系起来。
 * [JDeveloper](https://www.oracle.com/application-development/technologies/jdeveloper.html)：Oracle JDeveloper是一个免费的集成开发环境，可简化基于Java的应用程序的开发。
 * [DevEco Studio](https://developer.huawei.com/consumer/cn/deveco-studio/)：DevEco Studio基于IntelliJ IDEA开源版本打造，为运行在HarmonyOS系统上的应用和元服务提供一站式的开发平台，由华为开发。
@@ -10532,10 +10544,15 @@ permalink: /javalibs
 * [CodeAssist](https://github.com/tyron12233/CodeAssist)：用于在Android上构建Android应用程序的实验性IDE。
 * [Cosmic IDE](https://github.com/Cosmic-Ide/Cosmic-IDE)：Cosmic是一款功能强大、丰富的IDE，适用于Android上的JVM开发。
 * [JCreator](https://jcreator.en.softonic.com/)：JCreator是一款专有软件的Java编辑器，由Xinox公司制作。
-* [PraxisLive](https://github.com/praxis-live/praxis-live)：PraxisLive是一种混合视觉实时编程Java IDE。
 * [JGRASP](https://www.jgrasp.org/)：JGRASP是一个轻量级开发环境，专门用于提供软件可视化的自动生成，以提高软件的可理解性，由奥本大学开源。
 * [Halcyon IDE](https://github.com/s4n7h0/Halcyon-IDE)：Halcyon IDE是第一个专为Nmap Script开发人员开发的IDE。
 * [Portugol Studio](https://github.com/UNIVALI-LITE/Portugol-Studio)：Portugol Studio是一个学习编程的环境，针对讲葡萄牙语的编程初学者，由UNVALI教育技术创新实验室开发。
+
+#### 可视化编程
+
+* [Processing](https://github.com/processing/processing)：Processing是一个开源的编程语言和开发环境，设计用于视觉艺术、创意编程和电子艺术领域的教学和创作，由麻省理工学院开源。
+* [Viskell](https://github.com/viskell/viskell)：Viskell是一个实验性的可视化编程环境，适用于类型化(类似Haskell)函数式编程语言，由特文特大学开源。
+* [PraxisLive](https://github.com/praxis-live/praxis-live)：PraxisLive是一种混合视觉实时编程Java IDE。
 
 #### 文本编辑器
 
@@ -10630,6 +10647,7 @@ permalink: /javalibs
 * [CompendiumNG](https://github.com/compendiumng/compendiumng)：CompendiumNG是一个功能强大的应用程序，可让你使用节点和链接结构创建广泛的地图，由英国开放大学开源。
 * [MindRaider](https://mindraider.sourceforge.net/)：MindRaider是一款个人笔记本和大纲编辑器。
 * [Mindolph](https://github.com/mindolph/Mindolph)：Mindolph是一款开源个人知识管理软件。
+* [Zettelkasten](https://github.com/Zettelkasten-Team/Zettelkasten)：Zettelkasten是一款知识管理工具。
 
 #### 音视频软件
 
@@ -11033,6 +11051,7 @@ permalink: /javalibs
 #### 游戏开发工具
 
 * [Live2D](https://www.live2d.com/)：Live2D是一种应用于电子游戏的绘图渲染技术，由日本Cybernoids公司开发。
+* [Lizzie](https://github.com/featurecat/lizzie)：Lizzie是一个图形界面，允许用户使用Leela Zero实时分析游戏。
 * [DisUnity](https://github.com/ata4/disunity)：用Java编写的Unity资源和资源包文件的实验性命令行工具集，主要用于提取。
 * [Alice](https://github.com/TheAliceProject/alice3)：Alice是一个基于块的创新编程环境，可以轻松创建动画、构建交互式叙述或以3D方式编写简单游戏，由CMU开源。
 
