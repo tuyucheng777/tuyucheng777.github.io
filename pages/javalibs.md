@@ -825,6 +825,7 @@ permalink: /javalibs
     * [Spring Boot教程](#Spring教程)
     * [算法和数据结构教程](#算法和数据结构教程)
     * [软件工程教程](#软件工程教程)
+    * [Java安全教程](#Java安全教程)
     * [其他技术教程](#其他技术教程)
     * [秒杀系统](#秒杀系统)
     * [源码分析](#源码分析)
@@ -13744,7 +13745,6 @@ permalink: /javalibs
 * [On Java 8 Examples](https://github.com/BruceEckel/OnJava8-Examples)：《On Java 8》一书的代码示例。
 * [Java Practice](https://github.com/HelloWorld521/Java)：Java项目实战练习。
 * [Code Examples](https://github.com/thombergs/code-examples)：该仓库包含示例项目，展示如何使用不同的Java技术。
-* [Learn Java Bug](https://github.com/threedr3am/learnjavabug)：Java安全相关的漏洞和技术Demo。
 * [30 Seconds Of Java 8](https://github.com/hellokaton/30-seconds-of-java8)：你可以在30秒或更短时间内收集有用的Java 8代码片段。
 * [Note](https://github.com/scalad/Note)：常规Java工具、算法、加密、数据库、面试题、源代码分析、解决方案。
 * [Java Lambda Internals](https://github.com/CarpenterLee/JavaLambdaInternals)：深入理解Java函数式编程和Streams API。
@@ -13754,6 +13754,24 @@ permalink: /javalibs
 * [Java 8 Lambdas Exercises](https://github.com/RichardWarburton/java-8-lambdas-exercises)：该仓库包含Java 8 Lambdas书籍的支持材料。
 * [Six Finger](https://github.com/bin392328206/six-finger)：从Java基础、Java Web基础到常用的框架再到面试题、微服务、分布式、大数据都有完整的教程，几乎涵盖了Java必备的知识点。
 * [WhatsMars](https://github.com/javahongxi/whatsmars)：Java生态研究(Spring Boot + Redis + Dubbo + RocketMQ + ElasticSearch)。
+* [BestJavaer](https://github.com/crisxuan/bestJavaer)：这是一个成为更好的Java程序员的系列教程。
+* [Better Java](https://github.com/cxxr/better-java)：编写现代Java的资源。
+* [Java Bible](https://github.com/hellokaton/java-bible)：这里记录了一些技术摘要，以Java为主。
+* [Java Learning](https://github.com/Tyson0314/Java-learning)：Java相关知识总结，包括Java基础、MySQL、Spring Boot、Mybatis、Redis、RabbitMQ等等，面试必备。
+* [JavaNote](https://github.com/Seazean/JavaNote)：Java学习笔记，记录作者从编程入门到深入学习的所有知识。
+* [Java Blog](https://github.com/farmerjohngit/myblog)：有深度的Java技术博客。
+* [Tutorial](https://github.com/zhonghuasheng/Tutorial)：后端(Java/Golang)全栈知识架构体系总结。
+* [Java Tutorial For Beginners](https://github.com/in28minutes/java-tutorial-for-beginners)：Java初学者教程(含500个代码示例)。
+* [Java Notes](https://github.com/PansonPanson/Java-Notes)：计算机科学基础知识、Java开发、后端/服务端、面试相关。
+* [LearningSummary](https://github.com/yehongzhi/learningSummary)：涵盖大部分Java进阶需要掌握的知识。
+* [Java Best Practices](https://github.com/in28minutes/java-best-practices)：Java应用程序编码、设计和架构的最佳实践。
+* [JavaYouth](https://github.com/youthlql/JavaYouth)：主要是Java技术栈的文章。
+* [Java RoadMap](https://github.com/fuzhengwei/RoadMap)：Java后端开发技能路书。
+* [MindManager](https://github.com/xingchenpro/MindManager)：Java技术体系思维导图。
+* [JavaOk](https://github.com/xjjdog/javaok)：Java发展路线技术要点。
+* [JCFInternals](https://github.com/CarpenterLee/JCFInternals)：深入理解Java集合框架。
+* [Java Concurrency](https://github.com/CL0610/Java-concurrency)：Java并发知识点总结。
+* [Java Concurrency](https://github.com/code-review-checklists/java-concurrency)：Java并发知识总结。
 
 #### 大数据教程
 
@@ -13766,6 +13784,7 @@ permalink: /javalibs
 * [Learning Spark](https://github.com/databricks/learning-spark)：Learning Spark书中的示例。
 * [Spark Doc Zh](https://github.com/apachecn/spark-doc-zh)：Spark官方文档中文版。
 * [Coolplay Spark](https://github.com/lw-lin/CoolplaySpark)：Coolplay Spark包含Spark源代码解析、Spark类库、Spark代码等。
+* [Bigdata Growth](https://github.com/collabH/bigdata-growth)：大数据知识仓库，涉及数据仓库建模、实时计算、大数据、数据中台、系统设计、Java、算法等。
 
 #### Spring教程
 
@@ -13792,7 +13811,6 @@ permalink: /javalibs
 * [Spring Cloud Learning](https://github.com/macrozheng/springcloud-learning)：一套涵盖大部分核心组件使用的Spring Cloud教程，包括Spring Cloud Alibaba及分布式事务Seata，基于Spring Cloud Greenwich及Spring Boot 2.1.7。
 * [JavaEE Test](https://github.com/lenve/JavaEETest)：Spring、Spring MVC、MyBatis、Spring Boot案例。
 * [SSM](https://github.com/liyifeng1994/ssm)：手把手教你整合最优雅SSM框架：Spring MVC + Spring + MyBatis。
-* [Spring Boot Vulnerability Exploit](https://github.com/LandGrey/SpringBootVulExploit)：Spring Boot相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估check list。
 * [Spring Boot Projects](https://github.com/ZHENFENG13/spring-boot-projects)：该仓库中主要是Spring Boot的入门学习教程以及一些常用的Spring Boot实战项目教程。
 * [Spring Data Examples](https://github.com/spring-projects/spring-data-examples)：该仓库包含不同Spring Data模块的示例项目，以展示API以及如何使用模块提供的功能。
 * [Spring Boot Guide](https://github.com/CodingDocs/springboot-guide)：Spring Boot 2.0+从入门到实战。
@@ -13820,6 +13838,7 @@ permalink: /javalibs
 * [Spring Boot Vue.js](https://github.com/jonashackt/spring-boot-vuejs)：展示如何构建一个使用Vue.js提供GUI的Spring Boot应用程序的示例项目。
 * [Thinking In Spring Boot Samples](https://github.com/mercyblitz/thinking-in-spring-boot-samples)：《Spring Boot编程思想》示例工程。
 * [Staffjoy](https://github.com/spring2go/staffjoy)：微服务和云原生架构教学案例项目，基于Spring Boot和Kubernetes技术栈。
+* [Spring Boot Tutorial](https://github.com/timebusker/spring-boot)：Spring Boot项目实践总结。
 
 #### 算法和数据结构教程
 
@@ -13852,6 +13871,9 @@ permalink: /javalibs
 * [Algorithms](https://github.com/reneargento/algorithms-sedgewick-wayne)：《算法(第4版)》一书的练习题答案。
 * [DataMining Algorithm](https://github.com/linyiqun/DataMiningAlgorithm)：数据挖掘18大算法实现以及其他相关经典DM算法。
 * [HackerRank Solutions](https://github.com/RodneyShag/HackerRank_solutions)：317个HackerRank问题的有效解决方案。
+* [Leetcode](https://github.com/qiyuangong/leetcode)：Leetcode Python和Java解决方案。
+* [Leetcode](https://github.com/wind-liang/leetcode)：Leetcode详细通俗题解。
+* [Algorithm & Data Structure Notes](https://github.com/jainaman224/Algo_Ds_Notes)：用于学习和实现算法和数据结构的综合资源。
 
 #### 软件工程教程
 
@@ -13865,6 +13887,20 @@ permalink: /javalibs
 * [Head First Design Patterns](https://github.com/bethrobson/Head-First-Design-Patterns)：《Head First设计模式》一书代码。
 * [Buckpal](https://github.com/thombergs/buckpal)：这个仓库以六角形架构风格实现了一个小型Web应用程序。
 * [Three High Import](https://github.com/qiurunze123/threadandjuc)：高并发、高可靠、高性能导入系统-高并发多线程进阶。
+
+#### Java安全教程
+
+* [Spring Boot Vulnerability Exploit](https://github.com/LandGrey/SpringBootVulExploit)：Spring Boot相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估。
+* [Learn Java Bug](https://github.com/threedr3am/learnjavabug)：Java安全相关的漏洞和技术Demo。
+* [HackJava](https://github.com/HackJava/HackJava)：本项目是记录自己在学习研究Java安全过程中遇到的优秀资源，包括Java安全的多个细分领域，如Java漏洞分析和Java代码审计以及Java开发的应用程序组件协议甚至Java本身的安全问题等。
+* [JavaSec](https://github.com/Maskhe/javasec)：作者学习Java安全的一些总结，主要是安全审计相关。
+* [JavaThings](https://github.com/phith0n/JavaThings)：Java安全漫谈笔记相关内容。
+* [Hello Java Sec](https://github.com/j3ers3/Hello-Java-Sec)：Hello Java Security通过结合漏洞场景和安全编码，帮助安全和研发团队理解漏洞原理。
+* [SecGuide](https://github.com/Tencent/secguide)：面向开发人员梳理的代码安全指南，旨在梳理API层面的风险点并提供详实可行的安全编码方案。
+* [JavaWeb Sec](https://github.com/javaweb-sec/javaweb-sec)：这是一个不定期更新的免费开源的Java Web安全相关知识归纳总结、培训的项目。
+* [SecurityList](https://github.com/ax1sX/SecurityList)：Web安全和代码审计列表。
+* [Java Security Learning](https://github.com/Drun1baby/JavaSecurityLearning)：该项目的目的是学习Java安全的时候能够有一条比较清晰的学习路线。
+* [Java Sec Code](https://github.com/JoyChou93/java-sec-code)：Java Sec Code是一个非常强大且友好的学习Java漏洞代码的项目。
 
 #### 其他技术教程
 
@@ -13880,7 +13916,7 @@ permalink: /javalibs
 * [Netty Learning Example](https://github.com/sanshengshui/netty-learning-example)：Netty实践学习案例。
 * [Netty in Action](https://github.com/normanmaurer/netty-in-action)：该仓库包含《Netty in Action》一书所有章节的源代码。
 * [Netty Demos](https://github.com/waylau/netty-4-user-guide-demos)：《Netty 4.x用户指南》/《Netty原理解析与开发实战》文中用到的例子源码。
-* [MyBatis-Plus Samples](https://github.com/baomidou/mybatis-plus-samples)：MyBatis Plus示例代码。
+* [MyBatis Plus Samples](https://github.com/baomidou/mybatis-plus-samples)：MyBatis Plus示例代码。
 * [Kafka Streams Examples](https://github.com/confluentinc/kafka-streams-examples)：该项目包含演示如何使用Apache Kafka的Streams API实现实时应用程序和事件驱动的微服务的代码示例。
 * [MIT Deep Learning Book](https://github.com/janishar/mit-deep-learning-book-pdf)：麻省理工学院深度学习书籍PDF格式。
 * [Deeplearning4J Examples](https://github.com/deeplearning4j/deeplearning4j-examples)：Deeplearning4j示例(DL4J、DL4J Spark、DataVec)。
@@ -13906,6 +13942,7 @@ permalink: /javalibs
 * [Java Source Code Learning](https://github.com/coderbruis/JavaSourceCodeLearning)：Java流行框架源码分析，学习以及总结。
 * [Netty Learning](https://github.com/code4craft/netty-learning)：本系列文章是Netty的源码导读。
 * [JDK Source Code Analysis](https://github.com/seaswalker/jdk-sourcecode-analysis)：JDK源码阅读笔记。
+* [JavaWeb Project Source](https://github.com/coderzcr/JavaWeb-Project-Source-Share)：分享基于Servlet、SSH、SSM、SpringBoot、SpringCloud等流行技术实现的JavaWeb项目。
 
 #### 面试宝典
 
@@ -13923,3 +13960,17 @@ permalink: /javalibs
 * [Internet Architect](https://github.com/bjmashibing/InternetArchitect)：互联网架构师课程文档及源码。
 * [Java Notes](https://github.com/DreamCats/java-notes)：秋招经历、牛客面经问题按照频率总结、Java系列知识、数据库、分布式、微服务、前端、技术面试、每日文章等。
 * [System Design Interview](https://github.com/DreamOfTheRedChamber/system-design-interviews)：系统设计面试。
+* [Java Interview](https://github.com/gzc426/Java-Interview)：Java面试整理项目。
+* [Java Interview](https://github.com/enhorse/java-interview)：Java开发人员面试问题和答案。
+* [AlgoDeck](https://github.com/teivah/algodeck)：帮助你准备算法和数据结构以及系统设计面试。
+* [Bank Interview](https://github.com/sty945/bank_interview)：银行笔试面试经验分享及资料分享。
+* [Java Interview](https://github.com/xbox1994/Java-Interview)：经历BAT面试后总结的高级Java后台开发面试指南。
+* [JavaInterview](https://github.com/hello-java-maker/JavaInterview)：Java面试、Java后端技术学习指南。
+* [JavaHome](https://github.com/whx123/JavaHome)：一份超级详细的Java面试题。
+* [Java Interview Advanced](https://github.com/shishan100/Java-Interview-Advanced)：互联网Java进阶面试训练营。
+* [Java Interview Tutorial](https://github.com/Java-Edge/Java-Interview-Tutorial)：涵盖国际大厂Java/数据库/DDD/设计模式/微服务/中间件/AI大模型应用/区块链开发最佳实践。
+* [Java Interview](https://github.com/cosen1024/Java-Interview)：一份通向理想互联网公司的面试汇总，包括Java基础、Java并发、JVM、MySQL、Redis、Spring、MyBatis、Kafka、计算机操作系统、计算机网络、系统设计、分布式、Java项目实战等。
+* [EasyJob](https://github.com/chucheng92/EasyJob)：互联网求职面试题、知识点和面经整理。
+* [Java Interview](https://github.com/DuHouAn/Java)：本仓库是对Java的一些基础知识、数据库知识、以及框架知识进行收集、整理。
+* [JavaInterview](https://github.com/gsjqwyl/JavaInterview)：Java面试整理，涵盖基础、JVM、线程并发、框架、MySQL、微服务、Redis、中间件、数据结构与算法等。
+* [Java Notes](https://github.com/lvminghui/Java-Notes)：一份面向Java初学者和初级工程师的知识点总结和面试题解析，着重关注面试中最常见的知识点。
