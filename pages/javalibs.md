@@ -414,7 +414,6 @@ permalink: /javalibs
     * [文件预览](#文件预览)
 * [容器化工具](#容器化工具)
 * [DevOps](#DevOps)
-* [云服务](#云服务)
 * [性能分析](#性能分析)
   * [诊断工具](#诊断工具)
   * [Spring Boot仪表板](#Spring-Boot仪表板)
@@ -477,6 +476,11 @@ permalink: /javalibs
 * [支付](#支付)
 * [云服务SDK](#云服务SDK)
 * [云计算](#云计算)
+  * [SaaS平台](#SaaS平台)
+  * [PaaS平台](#PaaS平台)
+  * [IaaS平台](#IaaS平台)
+  * [仿真框架](#仿真框架)
+  * [边缘计算](#边缘计算)
 * [微信开发](#微信开发)
 * [推送SDK](#推送SDK)
 * [Webhook](#Webhook)
@@ -499,7 +503,6 @@ permalink: /javalibs
 * [Docker客户端](#Docker客户端)
 * [Consul客户端](#Consul客户端)
 * [Kubernetes客户端](#Kubernetes客户端)
-* [Etcd客户端](#Etcd客户端)
 * [S3客户端](#S3客户端)
 * [Web3](#Web3)
     * [区块链](#区块链)
@@ -669,6 +672,7 @@ permalink: /javalibs
     * [ElasticSearch库/工具](#ElasticSearch库工具)
     * [DynamoDB库/工具](#DynamoDB库工具)
     * [Neo4j库/工具](#Neo4j库工具)
+    * [Etcd库/工具](#Etcd库工具)
     * [Milvus库/工具](#Milvus库工具)
     * [Vault库/工具](#Vault库工具)
 * [对象存储](#对象存储)
@@ -1372,6 +1376,7 @@ permalink: /javalibs
 * [Dapr Java](https://github.com/dapr/java-sdk)：Dapr是Microsoft开源的一个可移植、事件驱动的运行时，用于跨云和边缘构建分布式应用程序。
 * [Nepxion Discovery](https://github.com/Nepxion/Discovery)：Nepxion Discovery是专注于企业级云原生微服务开源解决方案。
 * [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
+* [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [Eventuate Tram Core](https://github.com/eventuate-tram/eventuate-tram-core)：Eventuate Tram是一个解决微服务架构中固有的分布式数据管理问题的平台。
 * [TAC](https://github.com/alibaba/tac)：TAC是与Tangram配套的服务端解决方案，由阿里提供。
 * [QBit](https://github.com/advantageous/qbit)：QBit是一个用于构建微服务的响应式编程库。
@@ -2344,7 +2349,6 @@ permalink: /javalibs
 * [OpenTelemetry Java Instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)：该项目提供了一个Java代理JAR，可以附加到任何Java 8+应用程序，并动态注入字节码以从许多流行的库和框架捕获遥测数据。
 * [Servo](https://github.com/Netflix/servo)：Servo提供了一个简单的接口，用于在Java中公开和发布应用程序指标，由Netflix开源。
 * [Oculus](https://github.com/etsy/oculus)：Oculus是Etsy Kale系统的异常关联组件。
-* [Metrik](https://github.com/thoughtworks/metrik)：Metrik是一种自动化工具，可以从CD管道中提取数据并为交付团队分析四个关键指标趋势，由ThoughtWorks开发。
 * [CloudWatch Exporter](https://github.com/prometheus/cloudwatch_exporter)：适用于Amazon CloudWatch的Prometheus导出器。
 * [Java Metrics](https://github.com/runtimetools/javametrics)：Java Metrics为Java运行时提供性能监控工具，通过其内置仪表板直观地提供监控数据，由IBM开源。
 * [Metrics Spring](https://github.com/ryantenney/metrics-spring)：Metrics Spring将Dropwizard Metrics库与Spring集成，并提供XML和Java配置。
@@ -2463,6 +2467,7 @@ permalink: /javalibs
 * [Kardio](https://github.com/tmobile/kardio)：Kardio是一个简单的工具，可以配置为在任何端点上执行运行状况检查，由T-Mobile开源。
 * [MicroProfile Health](https://github.com/microprofile/microprofile-health)：MicroProfile Health用于从另一台机器(即Kubernetes服务控制器)探测计算节点的状态。
 * [SmallRye Health](https://github.com/smallrye/smallrye-health)：SmallRye Health是Eclipse MicroProfile Health的一个实现。
+* [Health Check](https://github.com/Netflix/runtime-health)：HealthCheck公开一个REST端点，用于外部监控，由Netflix开源。
 
 #### 混沌引擎
 
@@ -2606,6 +2611,7 @@ permalink: /javalibs
 * [Tempura](https://github.com/alibaba/cost-based-incremental-optimizer)：Tempura是一种基于成本的增量数据处理通用优化框架，由阿里开发。
 * [StreamSets](https://github.com/streamsets/datacollector-oss)：StreamSets Data Collector是一个企业级开源持续大数据采集平台。
 * [SSM](https://github.com/Intel-bigdata/SSM)：大数据智能存储管理，全面的冷热数据优化解决方案，由Intel开源。
+* [Myria](https://github.com/uwescience/myria)：Myria是华盛顿大学的分布式、无共享大数据管理系统和云服务。
 
 #### 数据目录
 
@@ -3869,7 +3875,7 @@ permalink: /javalibs
 
 #### 网络工具
 
-* [Tsunami](https://github.com/google/tsunami-security-scanner)：Tsunami是一款通用网络安全扫描器，具有可扩展的插件系统，可高置信度地检测高严重性漏洞，由Google开源。
+* [Nomulus](https://github.com/google/nomulus)：Nomulus是一种开源、可扩展、基于云的服务，用于运营顶级域名(TLD)，由Google开源。
 * [ONOS](https://github.com/opennetworkinglab/onos)：ONOS是一个开源SDN网络操作系统，主要面向服务提供商和企业骨干网，由Linux基金会开源。
 * [OpenVirteX](https://github.com/os-libera/OpenVirteX)：OVX是一个网络管理程序，可以在单个物理基础设施之上创建多个虚拟和可编程网络。
 * [Angry IP Scanner](https://github.com/angryip/ipscan)：Angry IP Scanner是适用于Windows、Linux和Mac的快速且友好的网络扫描器。
@@ -4587,7 +4593,7 @@ permalink: /javalibs
 * [Coroutines](https://github.com/offbynull/coroutines)：Coroutines是一个Java工具包，允许你用Java编写协程。
 * [Coroutines](https://github.com/esoco/coroutines)：该项目包含协程的纯Java实现。
 * [Tascalate JavaFlow](https://github.com/vsilaev/tascalate-javaflow)：该项目包含使用Continuation开发Java应用程序的库和工具。
-* [JavaCtrl](https://github.com/javactrl/javactrl)：这个库是使用字节码检测的JVM分隔Continuation的另一种实现。
+* [JavaCtrl](https://github.com/javactrl/javactrl)：JavaCtrl是使用字节码检测的JVM分隔Continuation的另一种实现。
 
 #### Async/Await
 
@@ -4886,6 +4892,7 @@ permalink: /javalibs
 * [Flowable](https://github.com/flowable/flowable-engine)：Flowable为开发人员、系统管理员和业务用户提供紧凑且高效的工作流程和BPM平台。
 * [jBPM](https://github.com/kiegroup/jbpm)：jBPM是一个用于构建业务应用程序以帮助自动化业务流程和决策的工具包，JBoss社区开源。
 * [jDMN](https://github.com/goldmansachs/jdmn)：jDMN为DMN中指定的决策模型提供执行引擎，这些决策可以解释或翻译为Java并在JVM上执行，由高盛银行开源。
+* [DBOS](https://github.com/dbos-inc)：DBOS提供轻量级、持久耐用且由Postgres支持的工作流。
 * [JDEasyFlow](https://github.com/JDEasyFlow/jd-easyflow)：JDEasyFlow是京东开源的一个通用流程编排组件，适用于服务编排、工作流、审计等，具有易用、灵活、易扩展的特点。
 * [ActiveMatrix BPM](https://docs.tibco.com/products/tibco-activematrix-bpm-4-3-0)：TIBCO ActiveMatrix BPM用于开发、部署、执行和管理以业务流程管理为中心的应用程序。
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
@@ -5935,6 +5942,7 @@ permalink: /javalibs
 * [SciGraph](https://github.com/SciGraph/SciGraph)：SciGraph旨在将本体和使用本体描述的数据表示为Neo4j图。
 * [OWLTools](https://github.com/owlcollab/owltools)：OWLTools是OWL API之上的便捷Java API。
 * [Slib](https://github.com/sharispe/slib)：Slib是一个致力于基于文本和/或本体处理的语义数据挖掘的Java库。
+* [OLGA](https://github.com/EcoStruxure/OLGA)：OLGA是一种通用工具，旨在加速开发人员采用标准W3C语义技术，由施耐德电气开源。
 * [OBOGraphs](https://github.com/geneontology/obographs)：该仓库包含用于本体交换的JSON/YAML格式规范，以及参考Java对象模型和OWL转换器。
 * [O'FAIRe](https://github.com/agroportal/fairness)：O'FAIRe是一种开源公平性评估方法和工具，适用于D2KAB和FooSIN项目中开发的本体、词汇和语义资源，由蒙彼利埃大学开源。
 * [OPPL 2](https://sourceforge.net/projects/oppl2/)：OPPL 2是OPPL(本体预处理语言)的第二个版本，它是一种旨在修改OWL本体的语言。
@@ -6320,6 +6328,7 @@ permalink: /javalibs
 * [IAM](https://iam.tf/)：简化身份认证和访问。
 * [WSO2 Identity Server](https://github.com/wso2/product-is)：WSO2 Identity Server是一种开源身份和访问管理解决方案，跨企业和云服务环境联合和管理身份。
 * [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM)：OpenAM是一种访问管理解决方案，包括身份验证、SSO、授权、联合、权利和Web服务安全，由ForegeRock公司发起。
+* [WrenIDM](https://github.com/WrenSecurity/wrenidm)：WrenIDM是一个由社区开发的身份管理系统，具有灵活的数据模型、丰富的扩展点以及JavaScript和Groovy等脚本支持。
 * [AuthzForce](https://github.com/authzforce/core)：AuthzForce项目提供了一个符合OASIS XACML标准v3.0的基于属性的访问控制(ABAC)框架，主要由授权策略引擎和RESTful授权服务器组成，由OW2开发。
 * [Ego](https://github.com/overture-stack/ego)：Ego是支持多个OpenID身份提供者的OAuth 2.0授权服务，由安大略癌症研究所开源。
 
@@ -6389,7 +6398,9 @@ permalink: /javalibs
 
 #### 安全工具
 
+* [Tsunami](https://github.com/google/tsunami-security-scanner)：Tsunami是一款通用网络安全扫描器，具有可扩展的插件系统，可高置信度地检测高严重性漏洞，由Google开源。
 * [PacBot](https://github.com/tmobile/pacbot)：PacBot是一个用于云持续合规性监控、合规性报告和安全自动化的平台，由T-Mobile开源。
+* [Paladin Cloud](https://github.com/PaladinCloud/CE)：Paladin Cloud是一个免费的开源云安全平台，致力于帮助你发现云安全中的盲点。
 * [APIKit](https://github.com/API-Security/APIKit)：APIKit可以主动/被动扫描发现应用泄露的API文档，并将API文档解析成BurpSuite中的数据包用于API安全测试，由APISecurity社区开发。
 * [TheHive](https://github.com/TheHive-Project/TheHive)：一个可扩展、开源且免费的安全事件响应平台。
 * [Ortelius](https://github.com/ortelius/ortelius)：Ortelius是一种专为解耦架构设计的开源持续安全智能解决方案。
@@ -7710,6 +7721,10 @@ permalink: /javalibs
 * [Terrakube](https://github.com/AzBuilder/terrakube)：Terrakube是一个开源协作平台，用于使用Terraform或OpenTofu将远程基础设施作为代码操作运行。
 * [Cattle](https://github.com/rancher/cattle)：Cattle是为Rancher提供支持的编排引擎，它的主要作用是元数据管理和外部系统的编排。
 * [Stargate](https://github.com/ppdaicorp/stargate)：Stargate是一个基于Kubernetes和Docker的应用发布平台，由信也科技开源。
+* [DomeOS](https://github.com/domeos/server)：DomeOS是搜狐北京研发中心打造的一款基于Docker的企业级应用编排运维管理系统。
+* [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个开源Docker容器管理系统，它将容器、应用程序、集群、镜像和注册表管理集成在一处。
+* [Dockerfly](https://gitee.com/helyho/DockerFly)：Dockerfly是基于Docker 1.12+开发的Docker管理工具。
+* [SimpleDocker](https://gitee.com/taoes_admin/SimpleDocker)：SimpleDocker是一个简单的Docker控制面板，可以让用户更方便、舒适的使用Docker，其界面简洁、操作便捷，功能强大，可以带来更好地运维体验。
 * [HyScale](https://github.com/hyscale/hyscale)：HyScale是基于K8s的以应用程序为中心的抽象框架。
 * [Styx](https://github.com/spotify/styx)：Styx是一项用于触发Docker容器定期调用的服务，由Spotify开源。
 * [Blox](https://github.com/blox/blox)：Blox提供针对在Amazon ECS上运行应用程序进行优化的开源调度程序，由Amazon开源。
@@ -7722,21 +7737,21 @@ permalink: /javalibs
 ## DevOps
 
 * [Ice](https://github.com/Teevity/ice)：Ice可以从使用情况和成本的角度鸟瞰庞大而复杂的云环境，由Netflix开源。
+* [Jpom](https://gitee.com/dromara/Jpom)：Jpom是一款原生Ops软件，由dromara社区开源。
 * [DHorse](https://github.com/512team/dhorse)：DHorse是一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能。
 * [MQCloud](https://github.com/sohutv/mqcloud)：RocketMQ企业级一站式服务平台，由搜狐开源。
 * [EazyBuilder](https://github.com/iSoftStoneGroup/EazyBuilder)：EazyBuilder是一套完整的云原生架构下的DevOps平台项目，由软通动力开源。
 * [OpsCloud4](https://github.com/ixrjog/opscloud4)：OpsCloud4是用于云上运维的工具，提供持续交付、多实例动态数据源、堡垒机等功能。
 * [SREWorks](https://github.com/alibaba/SREWorks)：SREWorks专注于以应用为中心的开发模式，提供一站式云原生数智化运维SaaS管理套件，由阿里开源。
 * [WGCLOUD](https://github.com/tianshiyeben/wgcloud)：WGCLOUD是Linux运维监控工具，支持系统硬件信息、内存、CPU、温度、磁盘空间及IO、硬盘smart、系统负载、网络流量等监控。
-* [MoSKito](https://github.com/anotheria/moskito)：MoSKito是一个开源系统，用于监控Java Web应用程序的性能和行为。
 * [Choerodon](https://gitee.com/choerodon/choerodon)：Choerodon数智化开发管理平台，提供体系化方法论和协作、测试、DevOps及容器工具，由甄知科技开源。
+* [Gaia](https://github.com/gaia-app/gaia)：Gaia是一个用于Terraform模块和自助服务基础设施的Terraform UI。
 * [Dubbo Admin](https://github.com/apache/dubbo-admin)：Dubbo Admin是为了更好地可视化Dubbo服务而设计的控制台，由阿里开发。
 * [Dubbokeeper](https://github.com/dubboclub/dubbokeeper)：Dubbokeeper是一个开源版本基于Spring MVC开发的社区版DubboAdmin。
 * [CloudExplorer Lite](https://github.com/CloudExplorer-Dev/CloudExplorer-Lite)：CloudExplorer Lite脱胎于飞致云创始软件产品CloudExplorer多云管理平台，支持对接纳管主流的公有云和私有云基础设施，提供开箱即用的云主机管理、云账单、运营分析和安全合规等基本功能。
 * [Yunyi](https://gitee.com/openeuler/yunyi)：云翼数据缓存中间件云原生管理平台通过将数据缓存中间件服务纳入管理，增加数据缓存产品的云服务能力，由华为开发。
 * [Kaelthas](https://github.com/tiklab-project/tiklab-kaelthas)：支持主机、网络、数据库、容器等各种监控，支持灵活多样的告警通知方式。
 * [Jianmu](https://gitee.com/jianmu-dev/jianmu)：建木是一个面向DevOps领域的极易扩展的开源无代码(图形化)/低代码(GitOps)工具。
-* [DomeOS](https://github.com/domeos/server)：DomeOS是搜狐北京研发中心打造的一款基于Docker的企业级应用编排运维管理系统。
 * [Pallet](https://github.com/pallet/pallet)：Pallet用于在云和虚拟机基础设施上配置和维护服务器，旨在解决跨各种云提供一致配置的运行镜像的问题。
 * [Orion Visor](https://gitee.com/dromara/orion-visor)：Orion Visor是一款高颜值、现代化的智能运维&轻量堡垒机平台，由dromara社区开源。
 * [Orion Ops](https://gitee.com/lijiahangmax/orion-ops)：一站式自动化运维及自动化部署平台。
@@ -7746,53 +7761,27 @@ permalink: /javalibs
 * [MSEC](https://github.com/Tencent/MSEC)：MSEC由腾讯QQ团队开源，它是一个后端Devops引擎，包括RPC、名称查找、负载均衡、监控、发布和容量管理。
 * [Phoenix](https://gitee.com/monitoring-platform/phoenix)：Phoenix是一个灵活可配置的开源监控平台，主要用于监控应用程序、服务器、Docker、数据库、网络、TCP端口和HTTP接口。
 * [Frostmourne](https://github.com/AutohomeCorp/frostmourne)：Frostmourne是汽车之家经销商技术部监控系统的开源版本，用于帮助监控几乎所有数据库数据(包括Elasticsearch、Prometheus、SkyWalking、MySQL等等)。
-* [Cubic](https://github.com/dromara/cubic)：Cubic一站式问题定位平台，分布式实例监控、线程栈监控、线程池监控、动态Arthas命令集、依赖分析等等，由dromara社区开源。
 * [Suricate](https://github.com/michelin/suricate)：Suricate是一款开源应用程序，它允许IT团队通过由可在电视上显示的小部件组成的仪表板来监控其环境，由米其林开源。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [Ovirt](https://github.com/oVirt/ovirt-engine)：Ovirt是一个开源的虚拟化管理平台，RedHat虚拟化管理平台RHEV的开源版本。
 * [CloudUnit](https://github.com/end-of-game/cloudunit)：CloudUnit是Treeptik开源的DevOps平台。
 * [OneOps](https://github.com/oneops/oneops)：OneOps是一个自动化运维开发的云管理平台，由沃尔玛赞助。
-* [Jpom](https://gitee.com/dromara/Jpom)：Jpom是一款原生Ops软件，由dromara社区开源。
-* [Nginx WebUI](https://gitee.com/cym1102/nginxWebUI)：Nginx WebUI是一款图形化管理Nginx配置的工具。
-* [Nginx Admin](https://github.com/jonatansalemes/nginx-admin)：Nginx Admin是一个开源的多平台Nginx软件管理器。
-* [Haven](https://github.com/codeabovelab/haven-platform)：Haven是一个开源Docker容器管理系统，它将容器、应用程序、集群、镜像和注册表管理集成在一处。
-* [Dockerfly](https://gitee.com/helyho/DockerFly)：Dockerfly是基于Docker 1.12+开发的Docker管理工具。
-* [SimpleDocker](https://gitee.com/taoes_admin/SimpleDocker)：SimpleDocker是一个简单的Docker控制面板，可以让用户更方便、舒适的使用Docker，其界面简洁、操作便捷，功能强大，可以带来更好地运维体验。
+* [Metrik](https://github.com/thoughtworks/metrik)：Metrik是一种自动化工具，可以从CD管道中提取数据并为交付团队分析四个关键指标趋势，由ThoughtWorks开发。
+* [Eclipse Xpanse](https://github.com/eclipse-xpanse/xpanse)：Xpanse是一个开源项目，允许在任何云服务提供商上轻松实施本机托管服务，由华为开源。
 * [Gitaction Board](https://github.com/otto-de/gitactionboard)：Github Actions的仪表板。
-* [HeartBeat](https://gitee.com/mkk/HeartBeat)：心跳检测各类应用服务器(如Tomcat、Jetty)，Web服务器(如Apache、Nginx)的Java Web应用程序。
 * [Bk Job](https://github.com/TencentBlueKing/bk-job)：蓝鲸作业平台是一套运维脚本管理系统，具备海量任务并发处理能力，腾讯开源。
 * [DQOps](https://github.com/dqops/dqo)：DQOps是一款DataOps友好的数据质量监控工具，具有可定制的数据质量检查和数据质量仪表板。
 * [Easy Manager Tool](https://gitee.com/aizuda/easy-manager-tool)：Easy Manager Tool集成各类工具的核心使用方法，打造集成化程度高且专业的开、测、维一体化管理工具，由爱组搭开源。
 * [RackShift](https://github.com/fit2cloud/rackshift)：RackShift是开源的裸金属服务器管理平台，功能覆盖裸金属服务器的发现、带外管理、RAID配置、固件更新、操作系统安装等，由飞致云开源。
 * [Hinemos](https://github.com/hinemos/hinemos)：Hinemos是一款开源集成系统管理软件，提供监控和作业管理(工作负载调度)功能，实现系统操作自动化，由NTT Data开源。
 * [NeatLogic](https://gitee.com/neat-logic/neatlogic-itom-all)：NeatLogic是一套渐进式ITOM平台，致力为不同类型、不同规模用户提供完整的ITOM解决方案。
-* [Apitally](https://apitally.io/spring-boot)：Apitally可帮助你了解API的使用方式，并在出现问题时提醒你，只需向你的项目添加两行代码即可。
+* [Apitally](https://apitally.io/spring-boot)：Apitally是一款简单的API监控和分析工具，提供直观的仪表板，包含实时指标、请求日志和警报。
 * [Lite Monitor](https://github.com/haueosc/lite-monitor)：Lite Monitor是一个快速、准确、轻量化的服务器监控系统，拥有秒级的监控粒度，支持历史数据查看便于拥有多平台服务器的用户集中管理，由河南工程学院开发。
 * [MirrorGate](https://github.com/BBVA/mirrorgate)：MirrorGate是一款控制台应用程序，旨在为团队提供与软件开发相关的所有不同领域的快速反馈，由西班牙外换银行开源。
 * [UEH](https://github.com/china-alert/ueh)：UEH可对各种监控工具产生的告警进行汇聚，统一处理、集中展示，并通知。
-
-## 云服务
-
-* [Nomulus](https://github.com/google/nomulus)：Nomulus是一种开源、可扩展、基于云的服务，用于运营顶级域名(TLD)，由Google开源。
-* [ZStack](https://github.com/zstackio/zstack)：ZStack是开源IaaS软件，旨在实现数据中心自动化，通过API管理计算、存储和网络资源，由云轴科技开源。
-* [Gaia](https://github.com/gaia-app/gaia)：Gaia是一个用于Terraform模块和自助服务基础设施的Terraform UI。
-* [AWS SaaS Boost](https://github.com/awslabs/aws-saas-boost)：AWS SaaS Boost为组织提供即用型核心软件元素，以便在云中成功运行SaaS工作负载，由Amazon开源。
-* [Compute Nest SaaS Boost](https://github.com/aliyun/alibabacloud-compute-nest-saas-boost)：计算巢SaaS Boost是由阿里云推出的一款开发工具和框架，旨在帮助(SaaS)开发者快速构建、部署、扩展和售卖SaaS应用程序。
-* [Wemirr Platform](https://gitee.com/battcn/wemirr-platform)：优秀、简单、漂亮的开源SaaS、多租户云平台架构。
-* [HZERO](https://gitee.com/open-hand/hzero)：HZERO是基于微服务架构开源免费的企业级PaaS平台，由上海汉得公司开发。
-* [J2PaaS](https://gitee.com/j2paas/j2paas-framework)：J2PaaS是一个集成开发平台，以参数驱动为核心，为开发者提供可视化、组件化、低代码、拖拽式在线敏捷开发平台，由吉鼎科技开源。
-* [Apache Stratos](https://github.com/apache/stratos)：Stratos包括多语言和环境支持，以及在多个IaaS运行时上运行的能力。
-* [Myria](https://github.com/uwescience/myria)：Myria是华盛顿大学的分布式、无共享大数据管理系统和云服务。
-* [Eclipse Jemo](https://github.com/eclipse/jemo)：Jemo旨在为基于JVM的语言提供真正的多云FaaS实现。
-* [Eclipse Dirigible](https://github.com/eclipse/dirigible)：Dirigible是一种高生产力PaaS，它提供了一个由预选执行引擎和内置Web开发工具组成的应用程序服务器，它也适合利用低代码/无代码技术来快速开发业务应用程序，由SAP开源。
-* [Eucalyptus](https://github.com/eucalyptus/eucalyptus)：Eucalyptus是用于构建与Amazon Web Services兼容的私有云和混合云的开源软件。
-* [Kalix](https://www.kalix.io/)：Kalix是一个PaaS平台，它抽象了事件驱动的微服务的复杂性，团队可以专注于构建应用程序背后的业务逻辑，由Lightbend开源。
-* [Paladin Cloud](https://github.com/PaladinCloud/CE)：Paladin Cloud是一个免费的开源云安全平台，致力于帮助你发现云安全中的盲点。
-* [Eclipse Winery](https://github.com/eclipse/winery)：Winery是一个基于Web的环境，用于以图形方式对TOSCA拓扑进行建模并计划管理这些拓扑。
-* [Alfresco](https://github.com/Alfresco/alfresco-community-repo)：Alfresco平台提供全面的云原生内容服务。
-* [XGVela](https://github.com/XGVela/XGVela)：XGVela是由中国移动主导发起的5G云原生PaaS平台开源项目。
-* [Poja](https://github.com/hei-school/poja)：Poja是一个完整的Java基础设施，由马达加斯加计算机科学高中开源。
-* [Eclipse Xpanse](https://github.com/eclipse-xpanse/xpanse)：Xpanse是一个开源项目，允许在任何云服务提供商上轻松实施本机托管服务。
+* [Nginx WebUI](https://gitee.com/cym1102/nginxWebUI)：Nginx WebUI是一款图形化管理Nginx配置的工具。
+* [Nginx Admin](https://github.com/jonatansalemes/nginx-admin)：Nginx Admin是一个开源的多平台Nginx软件管理器。
+* [HeartBeat](https://gitee.com/mkk/HeartBeat)：心跳检测各类应用服务器(如Tomcat、Jetty)，Web服务器(如Apache、Nginx)的Java Web应用程序。
 
 ## 性能分析
 
@@ -7802,6 +7791,7 @@ permalink: /javalibs
 * [jHiccup](https://github.com/giltene/jHiccup)：jHiccup提供平台中JVM暂停的日志和记录，由Azul开源。
 * [Spark](https://github.com/lucko/spark)：Spark是适用于Minecraft客户端、服务器和代理的性能分析器。
 * [KOOM](https://github.com/KwaiAppTeam/KOOM)：KOOM是快手推出的一款移动平台OOM杀手。
+* [Cubic](https://gitee.com/dromara/cubic)：Cubic一站式问题定位平台，分布式实例监控、线程栈监控、线程池监控、动态Arthas命令集、依赖分析等等，由dromara社区开源。
 * [XPocket](https://github.com/PerfMa/xpocket)：XPocket是PerfMa为终结性能问题而生的开源的插件容器。
 * [Takin](https://github.com/shulieTech/Takin)：Takin是一个基于Java的开源系统，旨在测量全链路的在线或测试环境性能测试，由数列科技开源。
 * [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)：LatencyUtils包含一些用于跟踪延迟的实用工具。
@@ -7816,6 +7806,7 @@ permalink: /javalibs
 * [PerfJ](https://github.com/coderplay/perfj)：PerfJ是Java程序的Linux Perf的包装器。
 * [Speed4j](https://github.com/jalkanen/speed4j)：Speed4j是一个非常简单且快速的Java性能分析库。
 * [Parfait](https://github.com/performancecopilot/parfait)：Parfait是一个Java性能监控库，能够提取指标并以多种方式提供它们。
+* [MoSKito](https://github.com/anotheria/moskito)：MoSKito是一个开源系统，用于监控Java Web应用程序的性能和行为。
 * [Cryostat](https://github.com/cryostatio/cryostat-legacy)：用于从云工作负载中生成、分析和检索JFR数据。
 * [Instrumental](https://www.expectedbehavior.com/products/instrumental/)：实时Java应用程序性能监控，具有免费开发帐户的商业服务。
 * [Jolokia](https://github.com/jolokia/jolokia)：Jolokia是一个JMX-HTTP桥接器，提供JSR-160连接器的替代方案。
@@ -8269,7 +8260,6 @@ permalink: /javalibs
 * [LAMP Cloud](https://github.com/dromara/lamp-cloud)：LAMP Cloud基于JDK 11、Spring Cloud、Spring Boot开发的微服务中后台快速开发平台，专注于多租户(SaaS架构)解决方案，由dromara社区开源。
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
 * [Jeddict](https://github.com/jeddict/jeddict-modeler)：Jakarta EE 10和MicroProfile应用程序生成器和建模器。
-* [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [NBCIO](https://gitee.com/nbacheng/nbcio-boot)：NBCIO亿事达企业管理平台。
 * [Openkoda](https://github.com/openkoda/openkoda)：即用型开发平台，可加速构建业务应用程序和内部工具的过程。
 * [MicroServices Platform](https://gitee.com/zlt2000/microservices-platform)：MicroServices Platform是基于Spring Boot 2.x、Spring Cloud和Spring Cloud Alibaba并采用前后端分离的企业级微服务多租户系统架构。
@@ -8518,6 +8508,7 @@ permalink: /javalibs
 * [HAPI FHIR](https://github.com/hapifhir/hapi-fhir)：HAPI FHIR是HL7 FHIR标准的完整实现，用于Java中的医疗保健互操作性。
 * [Mirth Connect](https://github.com/nextgenhealthcare/connect)：Mirth Connect是一个基于开源标准的医疗保健集成引擎，它通过接受传入的信息包并根据你提供的规则处理它们来实现两个系统之间的互操作性。
 * [HIS](https://github.com/ZainZhao/HIS)：HIS主要功能按照数据流量、流向及处理过程分为临床诊疗、药品管理、财务管理、患者管理。
+* [EHRServer](https://github.com/ppazos/cabolabs-ehrserver)：EHRServer是一个开源临床数据管理和共享平台，符合OpenEHR标准。
 * [Open Hospital](https://github.com/informatici/openhospital)：Open Hospital是一款免费的开源健康信息管理系统(HIMS)软件应用程序。
 * [Clinical Quality Language](https://github.com/cqframework/clinical_quality_language)：CQL是用于表达临床知识的HL7标准，可在广泛的临床领域中使用，包括临床决策支持(CDS)和临床质量测量(CQM)。
 * [HMIS](https://github.com/hmislk/hmis)：HMIS是一个医院信息管理系统，自2004年推出以来一直积极为40多家医疗机构提供服务。
@@ -8560,13 +8551,11 @@ permalink: /javalibs
 * [BugCatcher](https://github.com/youzan/bugCatcher)：BugCatcher是有赞开发的项目管理、测试用例管理、项目进度和质量监控工具。
 * [LibrePlan](https://github.com/LibrePlan/libreplan)：LibrePlan是一款用于项目管理、监控和控制的免费软件Web应用程序。
 * [ProjectForge](https://github.com/micromata/projectforge)：ProjectForge是一个基于Web的项目管理解决方案，包括时间跟踪、团队日历、甘特图、财务管理、问题管理、控制和管理工作分解结构(例如与JIRA一起作为问题管理系统)。
-* [Naikan](https://github.com/enofex/naikan)：Naikan是一款开源软件库存管理工具，适用于由CI/CD管道驱动的开发团队。
 * [TMS](https://gitee.com/xiweicheng/tms)：TMS是基于频道模式的团队沟通协作+轻量级任务看板，支持Markdown、富文本、在线表格和思维导图的团队博文wiki，i18n国际化翻译管理的响应式Web开源团队协作系统。
 * [Rapla](https://github.com/rapla/rapla)：Rapla是一个灵活的多用户资源和活动规划系统，它具有多个日历视图、冲突管理、完全可配置的资源和事件类型以及许多导入/导出功能。
 * [Kanass](https://github.com/tiklab-project/tiklab-kanass)：Kanass是专为项目管理而设计的应用软件，帮助项目管理者在有限的资源约束下，运用系统项目涉及的全部工作进行有效管理。
 * [OpenFastTrace](https://github.com/itsallcode/openfasttrace)：OpenFastTrace是一个需求跟踪套件，可以帮助你跟踪是否真正实现了规范中计划的所有内容。
 * [ProjectLibre](https://www.projectlibre.com/)：ProjectLibre是Microsoft Project的第一大替代品，ProjectLibre提供免费桌面和订阅云解决方案。
-* [PNC](https://github.com/project-ncl/pnc)：用于管理、执行和跟踪跨平台构建的系统。
 * [Plan](https://calligra.org/plan/)：Plan是一个项目管理应用程序，旨在管理具有多种资源的中等大型项目。
 * [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
 * [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
@@ -8645,6 +8634,7 @@ permalink: /javalibs
 * [Solo](https://github.com/88250/solo)：Solo是一款小而美的开源博客系统，专为程序员设计。
 * [Jease](https://jease.org/)：Jease是一个由Java驱动的开源CMS。
 * [Quanta](https://github.com/Clay-Ferguson/quantizr)：Quanta是一种新型内容管理平台，具有强大的功能。
+* [Alfresco](https://github.com/Alfresco/alfresco-community-repo)：Alfresco平台提供全面的云原生内容服务。
 * [SpringBlog](https://github.com/Raysmond/SpringBlog)：SpringBlog是一个用Spring Boot实现的非常简单且设计干净的博客系统。
 * [MyBlog](https://github.com/shuleisanshi/myblog)：MyBlog是采用SSM架构开发的个人博客。
 * [WallRide](https://github.com/tagbangers/wallride)：WallRide是一个多语言、易于定制的开源CMS。
@@ -9040,16 +9030,42 @@ permalink: /javalibs
 
 ## 云计算
 
+#### SaaS平台
+
+* [AWS SaaS Boost](https://github.com/awslabs/aws-saas-boost)：AWS SaaS Boost为组织提供即用型核心软件元素，以便在云中成功运行SaaS工作负载，由Amazon开源。
+* [Compute Nest SaaS Boost](https://github.com/aliyun/alibabacloud-compute-nest-saas-boost)：计算巢SaaS Boost是由阿里云推出的一款开发工具和框架，旨在帮助(SaaS)开发者快速构建、部署、扩展和售卖SaaS应用程序。
+* [Wemirr Platform](https://gitee.com/battcn/wemirr-platform)：优秀、简单、漂亮的开源SaaS、多租户云平台架构。
+
+#### PaaS平台
+
+* [HZERO](https://gitee.com/open-hand/hzero)：HZERO是基于微服务架构开源免费的企业级PaaS平台，由上海汉得公司开发。
+* [J2PaaS](https://gitee.com/j2paas/j2paas-framework)：J2PaaS是一个集成开发平台，以参数驱动为核心，为开发者提供可视化、组件化、低代码、拖拽式在线敏捷开发平台，由吉鼎科技开源。
+* [Eclipse Dirigible](https://github.com/eclipse/dirigible)：Dirigible是一种高生产力PaaS，它提供了一个由预选执行引擎和内置Web开发工具组成的应用程序服务器，它也适合利用低代码/无代码技术来快速开发业务应用程序，由SAP开源。
+* [Kalix](https://www.kalix.io/)：Kalix是一个PaaS平台，它抽象了事件驱动的微服务的复杂性，团队可以专注于构建应用程序背后的业务逻辑，由Lightbend开源。
+* [XGVela](https://github.com/XGVela/XGVela)：XGVela是由中国移动主导发起的5G云原生PaaS平台开源项目。
+* [Apache Stratos](https://github.com/apache/stratos)：Stratos包括多语言和环境支持，以及在多个IaaS运行时上运行的能力。
+
+#### IaaS平台
+
 * [Apache CloudStack](https://github.com/apache/cloudstack)：CloudStack是一款开源软件，旨在部署和管理大型虚拟机网络，是一种高可用性、高可扩展性的IaaS云计算平台，由Citrix开发。
+* [Nimbus](https://github.com/nimbusproject/nimbus)：Nimbus是用于科学的云计算软件，由芝加哥大学开源。
+* [ZStack](https://github.com/zstackio/zstack)：ZStack是开源IaaS软件，旨在实现数据中心自动化，通过API管理计算、存储和网络资源，由云轴科技开源。
+* [Eucalyptus](https://github.com/eucalyptus/eucalyptus)：Eucalyptus是用于构建与Amazon Web Services兼容的私有云和混合云的开源软件，由加州大学圣塔芭芭拉分校开源。
 * [OpenStack4j](https://github.com/openstack4j/openstack4j)：OpenStack4j是一个流式的OpenStack客户端，允许配置和控制OpenStack部署，华为开源。
 * [JOSS](https://github.com/javaswift/joss)：JOSS是OpenStack Storage组件REST接口的Java客户端。
+
+#### 仿真框架
+
 * [CloudSim](https://github.com/Cloudslab/cloudsim)：CloudSim是一个云计算基础设施和服务的建模和仿真框架，由墨尔本大学开源。
 * [PureEdgeSim](https://github.com/CharafeddineMechalikh/PureEdgeSim)：PureEdgeSim是用于云、边缘和雾计算环境性能评估的仿真框架。
 * [CloudSimPlus](https://github.com/cloudsimplus/cloudsimplus)：CloudSim Plus是一个现代、最新、功能齐全且文档齐全的Java 17模拟框架，它易于使用和扩展，支持对云计算基础设施和应用服务进行建模、模拟和实验。
-* [Eclipse ioFog](https://github.com/eclipse-iofog/Agent)：ioFog是一个开源的边缘计算平台，它提供了一套用于管理和编排边缘设备的工具和框架，由IBM开源。
 * [ColocationSim](https://github.com/pku-finelab/ColocationSim)：ColocationSim通过先进的模拟技术，解决了混合部署在线与离线作业在真实环境中测试所带来的高成本、高风险以及长周期问题，北京大学开源。
-* [Nimbus](https://github.com/nimbusproject/nimbus)：Nimbus是用于科学的云计算软件，由芝加哥大学开源。
 * [EdgeCloudSim](https://github.com/CagataySonmez/EdgeCloudSim)：EdgeCloudSim提供了一个专门针对边缘计算场景的模拟环境，可用于开展兼顾计算和网络资源的实验。
+
+#### 边缘计算
+
+* [Eclipse ioFog](https://github.com/eclipse-iofog/Agent)：ioFog是一个开源的边缘计算平台，它提供了一套用于管理和编排边缘设备的工具和框架，由IBM开源。
+* [iFogSim](https://github.com/Cloudslab/iFogSim)：iFogSim用于物联网、边缘计算和雾计算环境中资源管理技术的建模和仿真，由墨尔本大学开源。
 
 ## 微信开发
 
@@ -9219,14 +9235,6 @@ permalink: /javalibs
 * [YAKC](https://github.com/manusa/yakc)：YAKC是Kubernetes API的较低级别Java REST客户端。
 * [Amdatu Kubernetes](https://bitbucket.org/amdatulabs/amdatu-kubernetes/src/master/)：Amdatu Kubernetes是Kubernetes的客户端库。
 * [OpenShift Java](https://github.com/openshift/openshift-restclient-java)：基于Kubernetes的OpenShift版本3架构的Java REST客户端。
-
-## Etcd客户端
-
-* [JEtcd](https://github.com/etcd-io/jetcd)：JEtcd是etcd v3的官方Java客户端。
-* [Boon Etcd](https://github.com/boonproject/boon/tree/master/etcd)：Boon etcd是etcd的Java客户端。
-* [Etcd Java](https://github.com/IBM/etcd-java)：IBM开源的etcd v3 Java客户端库。
-* [JEtcd](https://github.com/justinsb/jetcd)：一个简单的Java etcd客户端库。
-* [Etcd4j](https://github.com/jurmous/etcd4j)：Etcd4j是etcd的客户端库。
 
 ## S3客户端
 
@@ -11963,6 +11971,14 @@ permalink: /javalibs
 * [Neo4j GraphQL](https://github.com/neo4j-graphql/neo4j-graphql)：这是Neo4j的GraphQL Endpoint扩展。
 * [Neo4j OGM](https://github.com/neo4j/neo4j-ogm)：Neo4j OGM是Neo4j的快速对象图映射库，针对利用Cypher的基于服务器的安装进行了优化。
 * [NeoTypes](https://github.com/neotypes/neotypes)：用于Neo4j的Scala轻量级、类型安全、异步驱动程序。
+
+#### Etcd库/工具
+
+* [JEtcd](https://github.com/etcd-io/jetcd)：JEtcd是etcd v3的官方Java客户端。
+* [Boon Etcd](https://github.com/boonproject/boon/tree/master/etcd)：Boon etcd是etcd的Java客户端。
+* [Etcd Java](https://github.com/IBM/etcd-java)：IBM开源的etcd v3 Java客户端库。
+* [JEtcd](https://github.com/justinsb/jetcd)：一个简单的Java etcd客户端库。
+* [Etcd4j](https://github.com/jurmous/etcd4j)：Etcd4j是etcd的客户端库。
 
 #### Milvus库/工具
 
