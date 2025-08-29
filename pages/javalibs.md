@@ -385,6 +385,9 @@ permalink: /javalibs
     * [二维码库](#二维码库)
     * [水印](#水印)
 * [压缩库](#压缩库)
+   * [数据压缩](#数据压缩)
+   * [文件压缩](#文件压缩)
+   * [图像压缩](#图像压缩)
 * [批处理框架](#批处理框架)
 * [接口文档](#接口文档)
 * [技术文档](#技术文档)
@@ -711,6 +714,7 @@ permalink: /javalibs
 * [随机数生成器](#随机数生成器)
 * [算法库](#算法库)
     * [字符串算法](#字符串算法)
+    * [文本排序](#文本排序)
     * [聚类算法](#聚类算法)
     * [图算法](#图算法)
     * [随机流算法](#随机流算法)
@@ -2092,10 +2096,10 @@ permalink: /javalibs
 
 ## 包管理器
 
+* [Apache Ivy](https://github.com/apache/ant-ivy)：Apache Ivy是一个用于管理项目依赖关系的工具。
 * [Nuts](https://github.com/thevpc/nuts)：Nuts是一个Java包管理器，可帮助以简单直接的方式发现、下载、组装和执行本地和远程工件(包)。
-* [JPM](https://github.com/codejive/java-jpm)：一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
+* [JPM](https://github.com/codejive/java-jpm)：JPM是一个简单的命令行工具，用于管理不使用Maven或Gradle等构建系统的Java项目的Maven依赖。
 * [Nix](https://github.com/fzakaria/mvn2nix)：Nix包管理器用于轻松打包Maven Java应用程序。
-* [JPM4j](https://github.com/jpm4j)：JPM是Java包管理器，可以在JPM的帮助下轻松安装应用程序和库。
 
 ## CI/CD
 
@@ -2229,11 +2233,11 @@ permalink: /javalibs
 * [Bosatsu](https://github.com/johnynek/bosatsu)：Bosatsu是一种简单、非图灵完备的语言，专为配置、查询和脚本编写而设计。
 * [Idris JVM](https://github.com/mmhelloworld/idris-jvm)：Idris 2是一种纯函数式编程语言，该项目提供针对JVM字节码的Idris 2编译器，以便Idris 2程序可以在JVM上运行。
 * [Redline Smalltalk](https://github.com/redline-smalltalk/redline-smalltalk)：Redline Smalltalk是JVM上的Smalltalk。
+* [Fuzion](https://github.com/tokiwa-software/fuzion)：Fuzion是一种注重简单性、安全性和正确性的语言。
 
 ## 云原生
 
 * [Linkerd](https://github.com/linkerd/linkerd)：Linkerd是一个提供弹性云端原生应用服务网格的开源项目，也是面向微服务的开源RPC代理。
-* [CloudEvents Java](https://github.com/cloudevents/sdk-java)：CloudEvents是一种以通用格式描述事件数据的规范，以提供跨服务、平台和系统的互操作性。
 * [Ballerina](https://github.com/ballerina-platform/ballerina-lang)：Ballerina是一种针对集成进行了优化的开源云原生编程语言，它由WSO2开发和支持。
 * [Buildpacks](https://buildpacks.io)：Buildpacks可以将应用程序源代码转换为可以在任何云上运行的镜像。
 * [Envoy Control](https://github.com/allegro/envoy-control)：Envoy Control是一个用于Service Mesh的生产就绪控制平面，基于与平台无关的Envoy Proxy数据平面，由Allegro开源。
@@ -3577,6 +3581,7 @@ permalink: /javalibs
 * [JLHTTP](https://github.com/curtcox/JLHTTP)：JLHTTP是HTTP服务器的开源实现。
 * [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
 * [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
+* [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
 
 #### 应用服务器
 
@@ -4032,6 +4037,7 @@ permalink: /javalibs
 * [LAMP Util](https://github.com/zuihou/lamp-util)：LAMP Util是一套兼顾Spring Boot和Spring Cloud项目的公共工具类。
 * [Honoka SDK](https://github.com/kosaka-bun/honoka-sdk)：Honoka SDK是一款包含了各式各样实用工具的Java与Kotlin工具包。
 * [Xpresso](https://github.com/WantedTechnologies/xpresso)：Xpresso在Java中实现了熟悉的Pythonic方法和编码范例。
+* [MicroSphere](https://github.com/microsphere-projects/microsphere-java)：MicroSphere是一个模块化的Java实用程序库，提供反射、类加载、集合、网络和注解处理等基础功能。
 
 ## Bean映射&复制
 
@@ -5194,6 +5200,7 @@ permalink: /javalibs
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
+* [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 
 #### 代理框架
 
@@ -7138,6 +7145,7 @@ permalink: /javalibs
 * [Vips FFM](https://github.com/lopcode/vips-ffm)：用于Java/JVM项目中图像处理的快速、安全、完整的libvips绑定。
 * [JVips](https://github.com/criteo/JVips)：JVips是使用JNI的libvips的Java包装器。
 * [Sand](https://github.com/Jomes/sand)：Sand是Android库，它使用JNI实现Sobel算子图像边缘检测。
+* [NightMonkeys](https://github.com/gotson/NightMonkeys)：ImageIO插件集合，新增对较新图像格式的支持。
 
 #### 图像元数据
 
@@ -7217,46 +7225,60 @@ permalink: /javalibs
 
 ## 压缩库
 
+这里列出了不同的数据压缩算法、存档文件操作库。
+
+#### 数据压缩
+
 * [Brotli](https://github.com/google/brotli)：Brotli是一种通用无损压缩算法，它结合使用LZ77算法的现代变体、霍夫曼编码和二阶上下文建模来压缩数据，其压缩率可与目前最好的通用压缩方法相媲美，由Google开源。
-* [Aspose.ZIP](https://products.aspose.com/zip/java/)：Aspose.ZIP是一个针对标准ZIP格式的灵活的文档压缩和档案操作API。
-* [CompressHelper](https://github.com/nanchen2251/CompressHelper)：文件、图片压缩工具类。
-* [AdvancedLuban](https://github.com/shaohui10086/AdvancedLuban)：AdvancedLuban是一个方便简单的Android图像压缩工具库。
+* [LZ4](https://github.com/lz4/lz4-java)：LZ4是无损压缩算法，提供每核大于500MB/s的压缩速度，可通过多核CPU进行扩展。
 * [Zstd](https://github.com/luben/zstd-jni)：Zstd是一种新的无损压缩算法，它可以为你的标准压缩需求提供良好的压缩比和速度。
-* [TurboJPEG](https://github.com/libjpeg-turbo/libjpeg-turbo/tree/main/java)：TurboJPEG是一个JPEG图像编解码器，它使用SIMD指令来加速x86、x86-64、Arm、PowerPC和MIPS系统上的基线JPEG压缩和解压缩，以及x86、x86-64和Arm系统上的渐进式JPEG压缩。
-* [Archive Patcher](https://github.com/google/archive-patcher)：Archive Patcher是一个开源项目，允许对zip存档进行节省空间的修补，由Google开源。
-* [Apache Commons Compress](https://github.com/apache/commons-compress)：Commons Compress定义了一个用于处理压缩和存档格式的API。
-* [LZF Compressor](https://github.com/ning/compress)：LZF Compressor是一个用于编码和解码LZF格式数据的Java库。
-* [JZlib](https://github.com/ymnk/jzlib)：JZlib是zlib在纯Java中的重新实现。
-* [HPACK](https://github.com/twitter/hpack)：HPACK库提供将header列表压缩为header块的支持，由Twitter开源。
-* [MiGz](https://github.com/linkedin/migz)：MiGz是一个支持多线程的使用GZIP格式的压缩库，由LinkedIn开发。
-* [JArchiveLib](https://github.com/thrau/jarchivelib)：JArchiveLib是一个简单的Java归档和压缩库，它在Apache Commons Compress之上提供了一个精简且易于使用的API层。
-* [ParallelGZIP](https://github.com/shevek/parallelgzip)：该库包含一个并行GZIP实现，它是标准java.util.zip类的高性能替代品。
-* [Snappy Java](https://github.com/xerial/snappy-java)：Snappy的Java移植版，Snappy是Google开发的快速C++压缩器/解压缩器。
-* [LZMA](https://github.com/jponge/lzma-java)：该库为在Java平台上运行的应用程序提供LZMA压缩。
-* [LZO](https://github.com/shevek/lzo-java)：liblzo2 LZO压缩算法的纯Java实现。
-* [LZ4](https://github.com/lz4/lz4-java)：用于Java的LZ4压缩库。
-* [Succinct](https://github.com/amplab/succinct)：Succinct是一个数据存储系统，支持直接查询压缩后的数据，由加州大学伯克利分校AMPLab开源。
-* [Compress](https://gitee.com/yu120/compress)：基于gzip、deflate、lz4、snappy、lzo等算法实现数据压缩，主要用于RPC通讯数据的压缩。
-* [Zip4j](https://github.com/srikanth-lingala/zip4j)：Zip4j是最全面的zip文件或流Java库。
-* [Kanzi](https://github.com/flanglet/kanzi)：Kanzi是一个用Java实现的现代、模块化、可扩展、高效的无损数据压缩器。
 * [JavaFastPFOR](https://github.com/lemire/JavaFastPFOR)：Java中的简单整数压缩库。
-* [ZT ZIP](https://github.com/zeroturnaround/zt-zip)：Java zip库，构建于java.util.zip包之上。
-* [ZIP Forge](https://github.com/helpermethod/zip-forge)：一个小型的、格式化程序友好的Java DSL，用于创建ZIP文件。
-* [ShrinkWrap](https://github.com/shrinkwrap/shrinkwrap)：ShrinkWrap是一个Java库，用于创建Java存档，例如JAR、WAR、EAR和RAR，由JBoss开源。
-* [AirCompressor](https://github.com/airlift/aircompressor)：该库包含用纯Java编写的Zstandard(Zstd)、LZ4、Snappy和LZO的实现，它们通常比原生库的JNI包装器快10-40%。
-* [Junrar](https://github.com/junrar/junrar)：纯Java解压缩库。
-* [LLJ-ZIP](https://github.com/Col-E/LL-Java-Zip)：LLJ-ZIP是一个用于可查找文件的zip格式读取器，可以容忍前导和尾随垃圾，并容忍针对前导垃圾调整内部偏移。
+* [LZF Compressor](https://github.com/ning/compress)：LZF Compressor是一个用于编码和解码LZF格式数据的Java库。
+* [HPACK](https://github.com/twitter/hpack)：HPACK库提供将header列表压缩为header块的支持，由Twitter开源。
+* [Snappy Java](https://github.com/xerial/snappy-java)：Snappy是Google开发的快速C++压缩器/解压缩器，这是Snappy的Java移植。
+* [LZMA](https://github.com/jponge/lzma-java)：该库为在Java平台上运行的应用程序提供LZMA压缩。
 * [Brotli4j](https://github.com/hyperxpro/Brotli4j)：Brotli4j为Java提供Brotli压缩和解压缩。
-* [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法，由米兰大学开发。
-* [Qat-Java](https://github.com/intel/qat-java)：Qat-Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
-* [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
+* [JBrotli](https://github.com/MeteoGroup/jbrotli)：Brotli的Java绑定。
+* [AirCompressor](https://github.com/airlift/aircompressor)：该库包含用纯Java编写的Zstandard(Zstd)、LZ4、Snappy和LZO的实现，它们通常比原生库的JNI包装器快10-40%。
+* [LZO](https://github.com/shevek/lzo-java)：LZO压缩算法的纯Java实现。
+* [MiGz](https://github.com/linkedin/migz)：MiGz是一个支持多线程的使用GZIP格式的压缩库，由LinkedIn开发。
+* [Compress](https://gitee.com/yu120/compress)：基于Gzip、Deflate、LZ4、Snappy、LZO等算法实现数据压缩，主要用于RPC通讯数据的压缩。
+* [Kanzi](https://github.com/flanglet/kanzi)：Kanzi是一个用Java实现的现代、模块化、可扩展、高效的无损数据压缩器。
 * [LibDeflate Java](https://github.com/astei/libdeflate-java)：该项目为libdeflate库提供了安全、高性能的JNI绑定。
-* [HtmlCompressor](https://github.com/hazendaz/htmlcompressor)：HtmlCompressor通过删除多余的空格、注释和其他不需要的字符来缩小给定的HTML或XML源，而不会破坏内容结构。
-* [7 Zip JBinding](https://github.com/borisbrodski/sevenzipjbinding)：7 Zip JBinding是7-Zip免费压缩/解压缩库的免费跨平台Java绑定。
-* [Zip4jvm](https://github.com/oleg-cherednik/zip4jvm)：用于处理Zip文件的Java库。
+* [Qat Java](https://github.com/intel/qat-java)：Qat Java库使用英特尔QuickAssist技术QATzip库提供加速压缩和解压缩。
 * [CafeUndZopfli](https://github.com/eustas/CafeUndZopfli)：CafeUndZopfli是一个用Java编写的压缩库。
 * [Atlassian Gzip Filter](https://bitbucket.org/atlassian/atlassian-gzipfilter)：Atlassian Gzip Filter通过使用Servlet过滤器透明地为你的Web应用程序添加gzip过滤功能。
-* [JBrotli](https://github.com/MeteoGroup/jbrotli)：Brotli的Java绑定。
+* [XZ Java](https://github.com/tukaani-project/xz-java)：XZ Java是纯Java中XZ数据压缩的完整实现。
+* [WebGraph](https://github.com/vigna/webgraph)：WebGraph是一个旨在研究网络图的图压缩框架，它利用现代压缩技术提供了管理非常大的图形的简单方法，由米兰大学开发。
+* [JVM Brotli](https://github.com/nixxcode/jvm-brotli)：适用于Brotli压缩格式的轻量级跨平台Java库。
+* [Simple DEFLATE Decompressor](https://github.com/nayuki/Simple-DEFLATE-decompressor)：该项目是DEFLATE压缩格式的清晰实现。
+
+#### 文件压缩
+
+* [Zip4j](https://github.com/srikanth-lingala/zip4j)：Zip4j是最全面的ZIP文件/流Java库。
+* [ZT ZIP](https://github.com/zeroturnaround/zt-zip)：Java ZIP库，构建于java.util.zip包之上。
+* [Apache Commons Compress](https://github.com/apache/commons-compress)：Commons Compress定义了一个用于处理压缩和存档格式的API。
+* [Aspose.ZIP](https://products.aspose.com/zip/java/)：Aspose.ZIP是一个针对标准ZIP格式的灵活的文档压缩和档案操作API。
+* [Zip4jvm](https://github.com/oleg-cherednik/zip4jvm)：Zip4jvm是用于处理Zip文件的Java库。
+* [ZIP Forge](https://github.com/helpermethod/zip-forge)：ZIP Forge是一个小型的、格式化程序友好的Java DSL，用于创建ZIP文件。
+* [LLJ-ZIP](https://github.com/Col-E/LL-Java-Zip)：LLJ-ZIP是一个用于可查找文件的ZIP格式读取器，可以容忍前导和尾随垃圾，并容忍针对前导垃圾调整内部偏移。
+* [Archive Patcher](https://github.com/google/archive-patcher)：Archive Patcher是一个开源项目，允许对ZIP存档进行节省空间的修补，由Google开源。
+* [ParallelGZIP](https://github.com/shevek/parallelgzip)：ParallelGZIP包含一个并行GZIP实现，它是标准java.util.zip类的高性能替代品。
+* [JZlib](https://github.com/ymnk/jzlib)：JZlib是zlib在纯Java中的重新实现。
+* [Junrar](https://github.com/junrar/junrar)：纯Java RAR库。
+* [JArchiveLib](https://github.com/thrau/jarchivelib)：JArchiveLib是一个简单的Java归档和压缩库，它在Apache Commons Compress之上提供了一个精简且易于使用的API层。
+* [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取Tar文件的简单方法。
+* [7 Zip JBinding](https://github.com/borisbrodski/sevenzipjbinding)：7 Zip JBinding是7-Zip免费压缩/解压缩库的免费跨平台Java绑定。
+* [ShrinkWrap](https://github.com/shrinkwrap/shrinkwrap)：ShrinkWrap是一个Java库，用于创建Java存档，例如JAR、WAR、EAR和RAR，由JBoss开源。
+
+#### 图像压缩
+
+* [Compressor](https://github.com/zetbaitsu/Compressor)：Compressor是一款轻量级且功能强大的Android图像压缩库。
+* [CompressHelper](https://github.com/nanchen2251/CompressHelper)：文件、图片压缩工具类。
+* [AdvancedLuban](https://github.com/shaohui10086/AdvancedLuban)：AdvancedLuban是一个方便简单的Android图像压缩工具库。
+* [SiliCompressor](https://github.com/Tourenathan-G5organisation/SiliCompressor)：SiliCompressor是一个功能强大、灵活且易于使用的Android视频和图像压缩库。
+* [TurboJPEG](https://github.com/libjpeg-turbo/libjpeg-turbo/tree/main/java)：TurboJPEG是一个JPEG图像编解码器，它使用SIMD指令来加速x86、x86-64、Arm、PowerPC和MIPS系统上的基线JPEG压缩和解压缩，以及x86、x86-64和Arm系统上的渐进式JPEG压缩。
+* [Compressor](https://github.com/Shouheng88/Compressor)：适用于Android的高级图像压缩库。
 
 ## 批处理框架
 
@@ -9235,6 +9257,7 @@ permalink: /javalibs
 * [Flower](https://github.com/PositiveTechnologies/flower)：Flower库是一组用于存储库、任务跟踪器和消息传递系统的通用协议，其中包括与Jira、TFS、GitLab、GitHub和Exchange等最常见协议的集成。
 * [Slack API](https://github.com/allbegray/slack-api)：Slack Web API、传入Webhook、Slackbot远程控制、RTM API的Java客户端。
 * [Slack Scala Client](https://github.com/slack-scala-client/slack-scala-client)：用于与Slack API和实时消息传递接口交互的Scala库。
+* [RoboSlack](https://github.com/palantir/roboslack)：RoboSlack是一个Java 8 API，它负责处理身份验证以及将消息作为传入的Webhook服务发送到Slack的各个方面，由Palantir开源。
 
 #### Reddit
 
@@ -10287,7 +10310,6 @@ permalink: /javalibs
 * [Glide Transformations](https://github.com/wasabeef/glide-transformations)：一个Android转换库，为Glide提供各种图像转换。
 * [Subsampling Scale Image View](https://github.com/davemorrissey/subsampling-scale-image-view)：专为Android打造的自定义图像视图，专为照片库设计，可显示巨幅图像(例如地图和建筑平面图)，且不会出现OutOfMemoryError错误。
 * [Android Image Cropper](https://github.com/ArthurHub/Android-Image-Cropper)：适用于Android的图像裁剪库，针对相机/图库进行了优化。
-* [Compressor](https://github.com/zetbaitsu/Compressor)：Compressor是一款轻量级且功能强大的Android图像压缩库。
 * [Ion](https://github.com/koush/ion)：Android异步网络和图像加载。
 * [MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)：适用于Android的实时滤镜相机和视频录制器以及具有美颜功能的图像编辑器。
 * [Android Crop](https://github.com/jdamcd/android-crop)：一个基于AOSP代码的Android库项目，提供简单的图像裁剪活动。
@@ -10695,6 +10717,7 @@ permalink: /javalibs
 * [CodenameOne](https://github.com/codenameone/CodenameOne)：Codename One是面向Java和Kotlin开发人员的移动优先跨平台环境。
 * [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
 * [MobileUI](https://mobileui.dev/)：MobileUI是第一个适用于iOS和Android的基于Java的原生UI框架。
+* [OpenJDK Mobile](https://github.com/openjdk/mobile)：Mobile的目标是专注于将JDK移植到iOS、Android和Windows等流行的移动平台。
 
 #### Swing
 
@@ -11207,6 +11230,7 @@ permalink: /javalibs
 * [Pure Writer](https://github.com/PureWriter/desktop)：Pure Writer是一个开源编辑器。
 * [Arachnophilia](https://arachnoid.com/arachnophilia/)：Arachnophilia是Paul Lutus用Java编写的源代码编辑器。
 * [RText](https://github.com/bobbylight/RText)：RText是一个用Java编写的程序员文本编辑器。
+* [Klonk](https://github.com/zaboople/klonk)：Klonk是一款简单但功能强大的文本编辑器，旨在提供流畅易用性和便捷性，而不是奇特的功能。
 
 #### 在线编辑器
 
@@ -12370,7 +12394,6 @@ permalink: /javalibs
 * [Unsafe Tool](https://github.com/alexkasko/unsafe-tools)：使用sun.misc.Unsafe处理堆外内存的工具。
 * [LLPL](https://github.com/pmem/llpl)：LLPL是一个Java库，提供对堆外持久性内存的访问，由Intel开源。
 * [Slice](https://github.com/airlift/slice)：Slice是一个用于高效处理Java字节数组的Java库。
-* [External Sortingin Java](https://github.com/lemire/externalsortinginjava)：External Sortingin Java使用多个核心和外部内存算法对非常大的文件进行排序。
 * [FastTuple](https://github.com/boundary/fasttuple)：FastTuple生成原始值的异构集合，并尽可能确保它们在内存中相邻排列。
 * [Chronicle Core](https://github.com/OpenHFT/Chronicle-Core)：Chronicle Core是一个先进的低级库，为开发人员提供了与操作系统交互、管理内存、处理资源等功能强大的工具。
 * [DataSketches Java Memory Component](https://github.com/apache/datasketches-memory)：Java的高性能本机内存访问库。
@@ -12446,6 +12469,12 @@ permalink: /javalibs
 * [Strman](https://github.com/shekhargulati/strman-java)：Java 8字符串操作库。
 * [Aho Corasick](https://github.com/robert-bor/aho-corasick)：用于高效字符串匹配的Aho-Corasick算法的Java实现。
 * [StringSearch](https://github.com/johannburkard/StringSearch)：Java中的高性能模式匹配算法。
+
+#### 文本排序
+
+* [Externalsortinginjava](https://github.com/lemire/externalsortinginjava)：Externalsortinginjava使用多个核心和外部内存算法对非常大的文件进行排序。
+* [Big Sorter](https://github.com/davidmoten/big-sorter)：通过将非常大的文件(或输入流)拆分为多个中间小排序文件并合并来对其进行排序。
+* [Java Merge Sort](https://github.com/cowtowncoder/java-merge-sort)：Java Merge Sort项目实现了基于磁盘的基本多路归并排序，并支持可配置的输入和输出格式(不仅仅是文本排序)。
 
 #### 聚类算法
 
@@ -12543,12 +12572,12 @@ permalink: /javalibs
 * [Facebook JNI](https://github.com/facebookincubator/fbjni)：Facebook JNI工具库旨在简化Java JNI的使用。
 * [JFFI](https://github.com/jnr/jffi)：libffi的Java绑定。
 * [JNIPP](https://github.com/mitchdowd/jnipp)：JNIPP是标准JNI的C++包装器，它旨在简化Java和C++代码集成过程中的一些繁琐步骤。
-* [GlueGen](https://github.com/sgothel/gluegen)：GlueGen是一个用于函数和数据结构声明的编译器，可在编译时离线生成Java和JNI C代码，并允许在Java应用程序中使用本机库。
 * [Native Platform](https://github.com/gradle/native-platform)：用于各种本机API的跨平台Java API的集合，由Gradle团队开源。
 * [Libcore Syscall](https://github.com/cinit/LibcoreSyscall)：Libcore Syscall是一个适用于Android的Java库，允许你直接从Java代码进行任何Linux系统调用。
 * [JNI HPP](https://github.com/mapbox/jni.hpp)：JNI HPP是一个现代的、类型安全的、仅标头的C++14 JNI包装器，其目的是使从C++调用Java或从Java调用C++变得方便而安全。
 * [JNI4Android](https://github.com/bilibili/jni4android)：从伪Java生成C包装器，由B站开源。
 * [JFA](https://github.com/0x4a616e/jfa)：JFA是一个用于访问Apple Foundation框架的纯Java库。
+* [JPassport](https://github.com/boulder-on/JPassport)：JPassport类似于JNA，但使用Foreign Linker API，而不是JNI。
 
 ## 互操作
 
@@ -12603,6 +12632,7 @@ permalink: /javalibs
 * [JNI4NET](https://github.com/jni4net/jni4net)：JVM和CLR之间的快速、面向对象、进程内桥梁。
 * [Java.Interop](https://github.com/dotnet/java-interop)：Java.Interop是JNI的绑定，可用于托管语言(如C#)和一组相关的代码生成器，以允许Java代码调用托管代码，由Microsoft开源。
 * [Bluebonnet](https://github.com/spaceflint7/bluebonnet)：这是基于JVM的.NET平台的部分实现，并与Android运行时兼容。
+* [JCOReflector](https://github.com/masesgroup/JCOReflector)：JCOReflector是一套全面的库和工具，可并行使用Java/JVM API和.NET。
 
 ## 操作系统信息
 
@@ -12901,7 +12931,6 @@ permalink: /javalibs
 * [DERT](https://github.com/nasa/DERT)：DERT是一款开源软件工具，用于探索NASA的3D数字地形模型。
 * [CCDD](https://github.com/nasa/CCDD)：CCDD是一款用于管理CFS和CFS应用程序的命令和遥测数据的软件工具，NASA开发。
 * [OpenRocket](https://github.com/openrocket/openrocket)：OpenRocket是一款免费、功能齐全的模型火箭模拟器，可让你在实际建造和飞行火箭之前设计和模拟火箭。
-* [Mars Simulation](https://github.com/mars-sim/mars-sim)：Mars Simulation是一个基于Java的开源项目，它模拟火星上最初定居者的任务操作和活动，其建模和模拟细节的保真度比大多数经典模拟游戏更高。
 * [SNAP Desktop](https://github.com/senbox-org/snap-desktop)：SNAP是欧洲航天局为光学和微波任务的科学开发而开发的三个工具箱的通用软件平台。
 * [JMARS](https://jmars.mars.asu.edu/)：JMARS是由亚利桑那州立大学火星太空飞行设施开发的地理空间信息系统，旨在为NASA科学家、仪器团队成员、各个年龄段的学生和公众提供任务规划和数据分析工具。
 * [EarthSci](https://github.com/GeoscienceAustralia/earthsci)：用于地球科学可视化的Eclipse RCP平台，基于NASA WorldWind Java SDK构建。
@@ -12979,7 +13008,6 @@ permalink: /javalibs
 * [Okio](https://github.com/square/okio)：Okio是一个补充java.io和java.nio的库，使你可以更轻松地访问、存储和处理数据，由Square开源。
 * [Plexus IO](https://github.com/codehaus-plexus/plexus-io)：Plexus IO是一组Plexus组件，设计用于I/O操作。
 * [Jaydio](https://github.com/smacke/jaydio)：Jaydio是一个Java库，可让程序员更好地控制文件I/O，部分方法是绕过操作系统缓冲区高速缓存。
-* [JTar](https://github.com/kamranzafar/jtar)：JTar是一个简单的Java Tar库，它提供了一种使用IO流创建和读取tar文件的简单方法。
 * [PerfIO](https://github.com/szeiger/perfio)：PerfIO为二进制和文本数据提供缓冲流式I/O抽象。
 * [Chronicle Bytes](https://github.com/OpenHFT/Chronicle-Bytes)：Chronicle Bytes的用途与Java的NIO ByteBuffer类似，但具有一些附加功能。
 * [Kdio](https://github.com/lexburner/kdio)：一个使用非常简单的Java Direct IO框架。
@@ -13598,6 +13626,7 @@ permalink: /javalibs
 * [Fedora](https://github.com/fcrepo/fcrepo)：Fedora是一个强大、模块化、开源存储库系统，用于管理和传播数字内容，它特别适合数字图书馆和档案馆的访问和保存。
 * [DROID](https://github.com/digital-preservation/droid)：DROID是英国国家档案馆开发的一款软件工具，用于自动批量识别文件格式。
 * [LoA](https://github.com/bottomless-archive-project/library-of-alexandria)：LoA是一个旨在从互联网收集和存档文献的项目。
+* [Kramerius](https://github.com/ceskaexpedice/kramerius)：Kramerius是一款数字图书馆开源软件解决方案，主要用于数字化图书馆藏书、专著和期刊，由捷克共和国科学院图书馆、捷克共和国国家图书馆等开源。
 
 ## 自动程序修复
 
