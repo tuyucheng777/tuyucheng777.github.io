@@ -210,6 +210,7 @@ permalink: /javalibs
 * [缓存库](#缓存库)
 * [集合库](#集合库)
 * [数组库](#数组库)
+* [泛型库](#泛型库)
 * [并发编程](#并发编程)
     * [响应式](#响应式)
     * [Future扩展](#Future扩展)
@@ -241,6 +242,7 @@ permalink: /javalibs
 * [编排引擎](#编排引擎)
 * [规则引擎](#规则引擎)
 * [状态机](#状态机)
+* [企业集成模式](#企业集成模式)
 * [API管理](#API管理)
 * [日期时间](#日期时间)
     * [日历库](#日历库)
@@ -268,7 +270,6 @@ permalink: /javalibs
     * [遗传算法](#遗传算法)
     * [约束编程](#约束编程)
     * [专家系统](#专家系统)
-    * [差分隐私](#差分隐私)
     * [计算机视觉](#计算机视觉)
     * [OCR](#OCR)
     * [人脸识别](#人脸识别)
@@ -343,6 +344,7 @@ permalink: /javalibs
     * [CORS](#CORS)
     * [ASN.1](#ASN1)
     * [证书颁发机构](#证书颁发机构)
+    * [数据匿名化](#数据匿名化)
     * [电子签名](#电子签名)
 * [模板引擎](#模板引擎)
 * [命令行开发](#命令行开发)
@@ -378,7 +380,7 @@ permalink: /javalibs
     * [SVG库](#SVG库)
     * [TIFF库](#TIFF库)
     * [验证码](#验证码)
-    * [二维码生成器](#二维码生成器)
+    * [二维码库](#二维码库)
     * [水印](#水印)
 * [压缩库](#压缩库)
 * [批处理框架](#批处理框架)
@@ -652,11 +654,13 @@ permalink: /javalibs
 * [汇编](#汇编)
 * [LLVM](#LLVM)
 * [PC模拟器](#PC模拟器)
+* [JavaME](#JavaME)
 * [编译器](#编译器)
   * [内存中编译器](#内存中编译器)
   * [AOT编译器](#AOT编译器)
   * [编译器插件](#编译器插件)
 * [语言服务器](#语言服务器)
+* [元编程](#元编程)
 * [数据库工具库](#数据库工具库)
     * [数据库驱动](#数据库驱动)
     * [数据库迁移](#数据库迁移)
@@ -710,6 +714,7 @@ permalink: /javalibs
     * [Simhash算法](#Simhash算法)
     * [LSH算法](#LSH算法)
     * [LDA算法](#LDA算法)
+    * [装箱算法](#装箱算法)
     * [实体链接](#实体链接)
     * [下采样](#下采样)
     * [噪声库](#噪声库)
@@ -769,13 +774,11 @@ permalink: /javalibs
 * [CalDAV](#CalDAV)
 * [WebDav](#WebDav)
 * [AirPlay](#AirPlay)
-* [元编程](#元编程)
 * [Unicode](#Unicode)
 * [表情库](#表情库)
 * [字体库](#字体库)
 * [语言库](#语言库)
 * [敏感词过滤](#敏感词过滤)
-* [泛型库](#泛型库)
 * [国际化](#国际化)
 * [翻译库](#翻译库)
 * [字幕库](#字幕库)
@@ -808,17 +811,14 @@ permalink: /javalibs
 * [类路径扫描](#类路径扫描)
 * [目录服务](#目录服务)
 * [行为分析](#行为分析)
-* [URL操作](#URL操作)
+* [URL库](#URL库)
 * [Expect库](#Expect库)
-* [JavaME](#JavaME)
 * [JavaCard](#JavaCard)
 * [Wikipedia](#Wikipedia)
 * [银行账号操作](#银行账号操作)
 * [用户代理解析](#用户代理解析)
 * [数字信号处理](#数字信号处理)
-* [企业集成模式](#企业集成模式)
 * [数字资产管理](#数字资产管理)
-* [数据匿名工具](#数据匿名工具)
 * [苹果推送通知](#苹果推送通知)
 * [自动程序修复](#自动程序修复)
 * [协议实现](#协议实现)
@@ -2754,7 +2754,6 @@ permalink: /javalibs
 * [Lithium](https://www.atlassian.com/blog/atlassian-engineering/lithium)：Lithium是Atlassian内部使用的ETL平台，旨在满足动态数据移动的要求。
 * [SETL](https://github.com/SETL-Framework/setl)：SETL是一个由Apache Spark提供支持的Scala ETL框架，可帮助你构建Spark ETL项目、模块化数据转换逻辑并加快开发速度。
 * [Envelope](https://github.com/cloudera-labs/envelope)：Envelope是Apache Spark的配置驱动框架，可以轻松开发基于Spark的数据处理管道，由Cloudera开发。
-* [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
 * [QStreaming](https://github.com/qiniu/QStreaming)：QStreaming是一个简化在Apache Spark上编写和执行ETL的框架，由七牛云开发。
 * [Hydrograph](https://github.com/BitwiseInc/Hydrograph)：Hydrograph是一款功能强大的ETL工具，允许开发人员使用简单的拖放界面创建复杂的图表。
 * [DataExpress](https://github.com/chop-dbhi/dataexpress)：DataExpress是一个简单、基于Scala的跨数据库ETL工具包，支持Postgres、MySql、Oracle、SQLServer和SQLite，由费城儿童医院开源。
@@ -2790,6 +2789,7 @@ permalink: /javalibs
 * [SpinalTap](https://github.com/airbnb/SpinalTap)：SpinalTap是一种通用的CDC服务，能够跨不同数据源低延迟地检测数据突变，并将其作为标准化事件传播给下游消费者，由Airbnb开源。
 * [ACDC](https://github.com/xdfdotcn/acdc)：ACDC是新东方集团架构部开源的数据平台产品。
 * [SyncLite](https://github.com/syncliteio/SyncLite)：SyncLite是一个开源、低代码、全面的关系数据整合平台，可帮助开发人员快速构建用于边缘、桌面和移动环境的数据密集型应用程序。
+* [PolarDB-X CDC](https://github.com/polardb/polardbx-cdc)：PolarDB-X CDC是PolarDB-X的核心组件，负责全局二进制日志的生成、发布和订阅，由阿里开源。
 
 #### 集群管理
 
@@ -2798,11 +2798,12 @@ permalink: /javalibs
 * [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
 * [Terracotta](https://github.com/Terracotta-OSS/terracotta-core)：Terracotta Server为Terracotta产品(例如Ehcache和TCStore)提供强大的分布式内存数据管理功能，是Terracotta集群的骨干。
 * [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
 * [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
 * [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
-* [Apache Airavata](https://airavata.apache.org/)：用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业和工作流程的软件框架。
-* [Fenzo](https://github.com/Netflix/Fenzo)：适用于Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
-* [Apache REEF](https://github.com/apache/reef)：用于为集群资源管理器(例如Hadoop YARN或Mesos)开发可移植应用程序的库。例如，Microsoft Azure流分析是基于REEF和Hadoop构建的。
+* [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
+* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
+* [Apache REEF](https://github.com/apache/reef)：REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库，由微软研究院开源。
 * [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
 * [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
 * [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
@@ -3561,7 +3562,7 @@ permalink: /javalibs
 * [Payara](https://github.com/payara/Payara)：Payara Platform Community Edition提供用于开发项目的开源服务器运行时以及容器化Jakarta EE和MicroProfile应用程序
 * [Eclipse Jetty](https://github.com/eclipse/jetty.project)：Jetty是一个轻量级、高度可扩展的基于Java的Web服务器和Servlet引擎。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Red5](https://github.com/Red5/red5-server)：Red5是一个用Java编写的开源Flash服务器。
 * [Microhttp](https://github.com/ebarlas/microhttp)：Microhttp是一种快速、可扩展、事件驱动、独立的Java Web服务器。
 * [Resin](https://caucho.com/products/resin)：Resin是Caucho公司的产品，它是一个非常流行的支持Servlet和JSP的服务器。
@@ -3595,7 +3596,7 @@ permalink: /javalibs
 * [WebObjects](https://wiki.wocommunity.org/xwiki/bin/view/WO/Home/)：WebObjects是一套集成的Java框架，用于快速开发可扩展、复杂的互联网和企业应用程序，最初由NeXT开发并由Apple维护。
 * [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
 * [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
-* [Apache Geronimo](https://github.com/apache/geronimo)：Apache基金会下开源的Java EE服务器。
+* [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
 * [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish)：GlassFish是由Eclipse基金会赞助的Jakarta EE兼容实现，由Oracle开源。
 * [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/)：Enterprise Application Server是一款云原生应用服务器，采用富士通专有技术增强Java的可靠性和可操作性，可在短时间内发布，并可用于企业用途。
@@ -4501,6 +4502,15 @@ permalink: /javalibs
 * [Viktor](https://github.com/JetBrains-Research/viktor)：Viktor使用Java Vector API在Kotlin中实现了NumPy Ndarray功能的受限子集，由JetBrains开源。
 * [JLargeArrays](https://gitlab.com/visnow.org/JLargeArrays)：JLargeArrays是一个纯Java的一维数组库，最多可以存储2的63次方个元素，由华沙大学开源。
 
+## 泛型库
+
+* [TypeTools](https://github.com/jhalterman/typetools)：一个简单、零依赖的类型处理库，支持Java 1.6+和Android。
+* [ClassMate](https://github.com/FasterXML/java-classmate)：ClassMate是一个零依赖Java库，用于准确内省类型信息，包括可靠解析类(“类型”)和成员(字段、方法和构造函数)的泛型类型声明。
+* [Generics Resolver](https://github.com/xvik/generics-resolver)：Java泛型运行时解析器。
+* [GeantyRef](https://github.com/leangen/geantyref)：Java中与泛型相关的反射的小型库。
+* [TypeBuilder](https://github.com/ikidou/TypeBuilder)：TypeBuilder是一个用于生成泛型的简易构建器。
+* [Reified](https://github.com/Auties00/Reified)：Reified是Java 11及更高版本的注解，受到Kotlin中的reified关键字的启发。
+
 ## 并发编程
 
 * [AsyncTool](https://gitee.com/jd-platform-opensource/asyncTool)：AsyncTool是解决任意的多线程并行、串行、阻塞、依赖、回调的并行框架，来自于京东主App后台。
@@ -4644,7 +4654,7 @@ permalink: /javalibs
 #### 并发数据结构
 
 * [Disruptor](https://github.com/LMAX-Exchange/disruptor)：Disruptor是一个高性能线程间消息传递库，由英国外汇交易公司LMAX开发。
-* [ExpiringMap](https://github.com/jhalterman/expiringmap)：一种高性能、低开销、零依赖、线程安全的ConcurrentMap实现，可让键值对过期。
+* [ExpiringMap](https://github.com/jhalterman/expiringmap)：ExpiringMap是一种高性能、低开销、零依赖、线程安全的ConcurrentMap实现，可让键值对过期。
 * [JCTools](https://github.com/JCTools/JCTools)：JCTools旨在提供JDK目前缺少的一些并发数据结构。
 * [ConcurrentLinkedHashMap](https://github.com/ben-manes/concurrentlinkedhashmap)：java.util.LinkedHashMap的高性能版本，用作软件缓存。
 * [ConcurrencyFreaks](https://github.com/pramalhe/ConcurrencyFreaks)：并发数据结构和同步机制的库。
@@ -5022,6 +5032,18 @@ permalink: /javalibs
 * [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming)：用于有限状态自动机构建和基于字典的形态词典的工具。
 * [TSM4j](https://github.com/weilueluo/tsm4j)：Java的类型化状态机。
 * [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton)：Java的有限状态自动机和正则表达式，由奥胡斯大学开源。
+
+## 企业集成模式
+
+* [Mule](https://github.com/mulesoft/mule)：Mule是一个轻量级集成平台，可让你在任何地方连接任何东西。
+* [Apache Camel](https://github.com/apache/camel)：Camel是一个开源集成框架，使你能够快速轻松地集成使用或生成数据的各种系统，由RedHat开源。
+* [Spring Integration](https://github.com/spring-projects/spring-integration)：Spring Integration提供了Spring编程模型的扩展，以支持众所周知的企业集成模式。
+* [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei)：WSO2 Enterprise Integrator是一个开源、快速、云原生且可扩展的集成解决方案，是WSO2集成敏捷平台的核心。
+* [Syndesis](https://github.com/syndesisio/syndesis)：Syndesis是一个灵活且可定制的开源平台，以服务形式提供核心集成功能，由Fuse Online开源。
+* [Metl](https://github.com/JumpMind/metl)：Metl是一个简单、基于Web的集成平台，允许多种不同类型的数据集成，包括消息传递、基于文件的ETL以及通过Web Service的远程过程调用。
+* [Frank!Framework](https://github.com/frankframework/frankframework)：Frank!Framework是一个易于使用的无状态集成框架，允许在不同系统之间修改和交换(事务)消息，由WeAreFrank开源。
+* [RACE](https://github.com/aegisql/conveyor)：RACE是一个可扩展的异步企业集成和创建型Java框架。
+* [Ikasan](https://github.com/ikasanEIP/ikasan)：开源企业集成平台。
 
 ## API管理
 
@@ -5497,11 +5519,6 @@ permalink: /javalibs
 * [D3web](https://github.com/denkbares)：D3web是一个开源推理引擎，用于开发、测试问题解决知识并将其应用于给定的问题情况，其中已经包含许多算法。
 * [EYE](https://github.com/eyereasoner/eye)：EYE是一个支持语义Web层并实现Notation3的推理引擎。
 * [Tweety](https://github.com/TweetyProjectTeam/TweetyProject)：Tweety是用于人工智能和知识表示的逻辑方面的Java框架的集合。
-
-#### 差分隐私
-
-* [PipelineDP4j](https://github.com/google/differential-privacy/tree/main/pipelinedp4j)：PipelineDP4j是适用于JVM的端到端差异隐私解决方案，支持各种分布式数据处理框架，由Google开源。
-* [ARX](https://github.com/arx-deidentifier/arx)：ARX是一款用于对敏感个人数据进行匿名化的综合开源软件，由德国慕尼黑工业大学开发。
 
 #### 计算机视觉
 
@@ -6390,6 +6407,7 @@ permalink: /javalibs
 * [Shaun](https://gitee.com/baomidou/shaun)：Shaun是基于pac4j-jwt的WEB安全组件。
 * [Message Security Layer](https://github.com/Netflix/msl)：MSL是一种可扩展且灵活的安全消息传递框架，可用于在两个或多个通信实体之间传输数据，由Netflix开源。
 * [Microsoft Authentication Library](https://github.com/AzureAD/microsoft-authentication-library-for-java)：MSAL4J使应用程序能够与Microsoft身份平台集成。
+* [PipelineDP4j](https://github.com/google/differential-privacy/tree/main/pipelinedp4j)：PipelineDP4j是适用于JVM的端到端差分隐私解决方案，支持各种分布式数据处理框架，由Google开源。
 * [KK Anti Reptile](https://gitee.com/kekingcn/kk-anti-reptile)：KK Anti Reptile是凯京科技研发的适用于基于Spring Boot开发的分布式系统反爬虫、防接口盗刷组件。
 * [SecurityBuilders](https://github.com/tersesystems/securitybuilder)：该库为java.security类实现了一组流式的API构建器，并提供了类型更安全、更直观的API来访问信任存储、密钥存储和密钥。
 * [Java Certificado](https://github.com/Samuel-Oliveira/Java_Certificado)：Java数字证书管理项目。
@@ -6644,6 +6662,17 @@ permalink: /javalibs
 * [XiPKI](https://github.com/xipki/xipki)：XiPKI是一个高度可扩展和高性能的开源PKI(CA和OCSP响应器)。
 * [EJBCA](https://github.com/Keyfactor/ejbca-ce)：开源公钥基础设施(PKI)和证书颁发机构(CA)软件。
 * [Dogtag PKI](https://github.com/dogtagpki/pki)：Dogtag证书系统是一个企业级开源证书颁发机构(CA)。
+
+#### 数据匿名化
+
+* [ARX](https://github.com/arx-deidentifier/arx)：ARX是一款用于对敏感个人数据进行匿名化的综合开源软件，由德国慕尼黑工业大学开发。
+* [DataDefender](https://github.com/armenak/DataDefender)：敏感数据管理，数据发现和匿名化工具包。
+* [Anonymouth](https://github.com/psal/anonymouth)：Anonymouth是一个基于Java的应用程序，旨在为用户提供开始对其编写的文档进行匿名化所需的工具和知识，由德雷塞尔大学开源。
+* [Anonimatron](https://github.com/realrolfje/anonimatron)：Anonimatron是一个免费、可扩展、开源数据匿名化工具。
+* [Rapiddweller Benerator](https://github.com/rapiddweller/rapiddweller-benerator-ce)：Benerator是一个功能强大的软件解决方案，用于开发、测试和培训目的的数据生成、混淆和迁移。
+* [Cinnamon](https://github.com/KI-AIM/Cinnamon)：Cinnamon是一个模块化应用程序，旨在为数据匿名化、合成和评估提供强大的功能，由德国联邦教育与研究部开发。
+* [Data Privacy Toolkit](https://github.com/IBM/data-privacy-toolkit)：Data Privacy Toolkit是一个用于数据类型识别、隐私风险评估、数据屏蔽和数据匿名化的工具包，以Java/Scala库和REST API的形式公开，由IBM开源。
+* [Jstylo](https://github.com/psal/jstylo)：JStylo是作者归属和作者匿名化框架，由德雷塞尔大学开源。
 
 #### 电子签名
 
@@ -7152,7 +7181,7 @@ permalink: /javalibs
 * [Captcha Plus](https://github.com/xingyuv/captcha-plus)：Captcha Plus行为验证码，包含滑动拼图、文字点选两种方式，UI支持弹出和嵌入两种方式。
 * [NanoCaptcha](https://github.com/logicsquad/nanocaptcha)：NanoCaptcha是一个用于生成图像和音频验证码的Java库。
 
-#### 二维码生成器
+#### 二维码库
 
 * [ZXing](https://github.com/zxing/zxing)：ZXing是一个用Java实现的开源、多格式1D/2D条形码图像处理库。
 * [QR Code Generator](https://github.com/nayuki/QR-Code-generator)：Java、TypeScript/JavaScript、Python、Rust、C++、C语言的高质量QR码生成器库。
@@ -7166,12 +7195,12 @@ permalink: /javalibs
 * [QRGen](https://github.com/kenglxn/QRGen)：基于ZXING构建的简单的Java二维码生成API。
 * [ZXingGenerator](https://github.com/vivian8725118/ZXingGenerator)：花式二维码生成库，提供了6种样式。
 * [Visual QR Code](https://gitee.com/boat824109722/visual-qr-code)：Visual QR Code可以创建出设置了虚拟背景图片的二维码。
-* [QRext4j](https://gitee.com/BYSRepo/qrext4j)：一个简单易用的二维码生成工具，可自定义二维码颜色和码眼样式。
+* [QRext4j](https://gitee.com/BYSRepo/qrext4j)：QRext4j是一个简单易用的二维码生成工具，可自定义二维码颜色和码眼样式。
 * [QRCode Kotlin](https://github.com/g0dkar/qrcode-kotlin)：QRCode Kotlin旨在提供一种简单、直接且可自定义的二维码创建方式，尤其是在后端。
-* [FiwanQRCode](https://gitee.com/frogchou/FiwanQRCode)：飞网开发的二维码生成工具。
+* [FiwanQRCode](https://gitee.com/frogchou/FiwanQRCode)：飞网QR二维码生成器，用户可以通过这个工具生成QR码。
 * [WeChatQRCode](https://github.com/jenly1314/WeChatQRCode)：WeChatQRCode是一个基于OpenCV开源的微信二维码引擎移植封装的二维码识别库。
 * [QRCode Generator](https://github.com/kazuhikoarase/qrcode-generator)：以JavaScript、Java等语言实现的QR码生成器。
-* [QRGenerator](https://github.com/androidmads/QRGenerator)：二维码生成器库。
+* [QRGenerator](https://github.com/androidmads/QRGenerator)：QR生成器库并将QR码保存为图像。
 * [QRCode Utils](https://github.com/binarywang/qrcode-utils)：二维码生成工具。
 * [Okapi Barcode](https://github.com/woo-j/OkapiBarcode)：Okapi Barcode是一款完全用Java编写的开源条形码生成器，支持50多种编码标准，包括所有ISO标准。
 * [EMV QRCode](https://github.com/mvallim/emv-qrcode)：基于Java的EMV二维码生成器和解析器(MPM、CPM)。
@@ -7882,7 +7911,7 @@ permalink: /javalibs
 * [GarbageCat](https://github.com/mgm3746/garbagecat)：GarbageCat是一个命令行工具，可解析Java GC日志记录并进行分析，以支持OpenJDK和Oracle JDK的JVM调整和故障排除。
 * [Heapothesys](https://github.com/corretto/heapothesys)：Heapothesys是由Amazon Corretto团队开发的JVM垃圾回收工作负载的集合。
 * [JITWatch](https://github.com/AdoptOpenJDK/jitwatch)：Java HotSpot JIT编译器的日志分析器/可视化器。
-* [Eclipse Jifa](https://github.com/eclipse/jifa)：Jifa是一款在线分析工具，支持分析Java堆转储、GC日志、线程转储以及JFR文件，由阿里开源。
+* [Eclipse Jifa](https://github.com/eclipse-jifa/jifa)：Jifa是一款在线分析工具，支持分析Java堆转储、GC日志、线程转储以及JFR文件，由阿里开源。
 * [JVM GC Logs Analyzer](https://github.com/krzysztofslusarski/jvm-gc-logs-analyzer)：该项目是一个Java虚拟机和GC日志分析器，它专用于JVM 11及更高版本。
 * [GCToolkit](https://github.com/microsoft/gctoolkit)：GCToolkit是一组用于分析HotSpot Java GC日志文件的库，由Microsoft开源。
 * [Gchisto](https://github.com/jewes/gchisto)：Hotspot JVM垃圾收集日志可视化工具。
@@ -7890,9 +7919,9 @@ permalink: /javalibs
 #### 堆转储
 
 * [HAHA](https://github.com/square/haha)：HAHA是一个用于自动分析Android堆转储的Java库，由Square开源。
-* [Heap Dump Tool](https://github.com/paypal/heap-dump-tool)：Heap Dump Tool可以捕获，更重要的是，可以清理Java堆转储中的敏感数据，由Paypal开源。
+* [Heap Dump Tool](https://github.com/paypal/heap-dump-tool)：Heap Dump Tool可以捕获、清理Java堆转储中的敏感数据，由Paypal开源。
 * [JDumpSpider](https://github.com/whwlsfb/JDumpSpider)：HeapDump敏感信息提取工具。
-* [Eclipse Memory Analyzer](https://git.eclipse.org/r/plugins/gitiles/mat/org.eclipse.mat)：Eclipse Memory Analyzer提供了一个通用工具包来分析Java堆转储。
+* [Eclipse Memory Analyzer](https://github.com/eclipse-mat/mat)：Eclipse Memory Analyzer提供了一个通用工具包来分析Java堆转储。
 * [TBJMap](https://github.com/alibaba/TBJMap)：基于可维护性Agent，对JMap做了增强，可以方便的输出JVM堆中，每一个分区的对象实例个数和大小的Histogram图，由淘宝开发。
 * [JDumpSpiderGUI](https://github.com/DeEpinGh0st/JDumpSpiderGUI)：JDumpSpiderGUI是一个用于Java堆转储文件分析的工具，支持命令行和JavaFX图形界面两种模式。
 
@@ -8232,6 +8261,8 @@ permalink: /javalibs
 * [SWC4j](https://github.com/caoccao/swc4j)：SWC4j是一款基于JVM的超高速JavaScript和TypeScript编译和打包工具。
 * [STJS](https://github.com/st-js/st-js)：STJS是一个开源的JavaScript代码生成器，它基于Java源码。
 * [J2ObjC](https://github.com/google/j2objc)：J2ObjC是Google的开源命令行工具，可将Java源代码转换为适用于iOS(iPhone/iPad)平台的Objective-C。
+* [Java2Script](https://github.com/java2script/java2script)：Java2Script提供了Eclipse Java到JavaScript的转译器(源到源编译器)以及Java运行时环境的近乎完整的JavaScript实现(包括AWT和Swing)。
+* [J2C](https://github.com/arnetheduck/j2c)：J2C将Java代码转换为可编译的C++(11)代码。
 
 ## 源代码浏览器
 
@@ -9332,6 +9363,7 @@ permalink: /javalibs
 * [GitBitEX](https://github.com/gitbitex/gitbitex-new)：GitBitEX是一个开源的加密货币交易所。
 * [Haveno](https://github.com/haveno-dex/haveno)：Haveno是一个开源平台，用于将Monero兑换为美元、欧元和英镑等法定货币或BTC、ETH和BCH等其他加密货币。
 * [Orko](https://github.com/gruelbox/orko)：Orko是一款自托管Web应用程序，它提供统一的仪表板来控制众多加密货币交易所。
+* [Ergo](https://github.com/ergoplatform/ergo)：Ergo是一种基于工作量证明的加密货币协议，旨在为新型货币、点对点交互、信任最小化的金融工具和衍生品提供安全的环境。
 * [Thunder](https://github.com/blockchain/thunder)：闪电网络P2P协议的钱包/节点实现。
 * [XDAGJ](https://github.com/XDagger/xdagj)：XDAGJ是XDAG在Java中的实现。
 * [Snowblossom](https://github.com/snowblossomcoin/snowblossom)：Snowblossom是一种简单的加密货币。
@@ -9454,7 +9486,7 @@ permalink: /javalibs
 #### 智能卡
 
 * [Eclipse Keypop](https://github.com/eclipse-keypop)：Keypop提供一套灵活的API来处理通用智能卡读卡器操作，同时还集成了针对特定卡技术(如Calypso标准)量身定制的专用API。
-* [JavaEMVReader](https://github.com/sasc999/javaemvreader)：一种与EMV智能卡通信并读取其数据的工具。
+* [JavaEMVReader](https://github.com/sasc999/javaemvreader)：用于读取和与EMV支付卡交互的Java库。
 * [Apdu4j](https://github.com/martinpaljak/apdu4j)：Apdu4j是一些命令行工具和有用的Java类库，用于通过JSR 268处理智能卡和智能卡读卡器。
 * [JNASmartCardIO](https://github.com/jnasmartcardio/jnasmartcardio)：javax.smartcardio API的重新实现，它允许你从Java内部与智能卡(在APDU级别)进行通信。
 * [JMultiCard](https://github.com/ctt-gob-es/jmulticard)：100% Java智能卡访问抽象层。
@@ -10879,6 +10911,7 @@ permalink: /javalibs
 * [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
 * [FranzXaver](https://github.com/afester/FranzXaver)：FranzXaver是一个JavaFX组件和工具库。
 * [FXSVGImage](https://github.com/hervegirod/fxsvgimage)：此库允许将SVG文件转换为JavaFX节点树或图像。
+* [JavaFXCalendar](https://github.com/poralcode/JavaFXCalendar)：JavaFX中的简单Material风格日历。
 
 #### JavaFX Dock库
 
@@ -10997,7 +11030,6 @@ permalink: /javalibs
 * [TRex Stateless GUI](https://github.com/cisco-system-traffic-generator/trex-stateless-gui)：TRex Stateless GUI应用程序为TRex提供图形用户界面，由Cisco开发。
 * [FakeImageDetection](https://github.com/afsalashyana/FakeImageDetection)：FakeImageDetection的目标是识别假图像(经过数字更改的图像)。
 * [Object Graph Visualizer](https://github.com/Nurtak/ObjectGraphVisualization)：Object Graph Visualizer是一个主要用于计算机科学课程的工具，旨在帮助新学生理解面向对象的范式和模式。
-  。
 * [Flow](https://github.com/eclab/flow)：Flow是一款完全模块化的多音色和复调加法软件合成器，由乔治梅森大学开源。
 * [Scenic View](https://github.com/JonathanGiles/scenic-view)：Scenic View是一个JavaFX应用程序，旨在让你轻松了解应用程序场景图的当前状态，并且还可以轻松操作场景图的属性，而无需继续编辑代码。
 * [Usagi](https://github.com/OHDSI/Usagi)：Usagi是一个帮助创建编码系统和词汇标准概念之间映射的应用程序，由OHDSI开源。
@@ -11671,6 +11703,7 @@ permalink: /javalibs
 
 * [EduMIPS64](https://github.com/EduMIPS64/edumips64)：EduMIPS64是一个用Java编写的免费跨平台可视化MIPS64 CPU模拟器，由卡塔尼亚大学开源。
 * [MARS](https://github.com/dpetersanderson/MARS)：MARS是一个轻量级交互式IDE，用于使用MIPS汇编语言进行编程，旨在与Patterson和Hennessy的计算机组织和设计一起用于教育级别，由密苏里州立大学。
+* [Simulizer](https://github.com/Simulizer/Simulizer)：Simulizer允许你编写汇编代码并在模拟和可视化的CPU上运行它。
 
 ## 汇编
 
@@ -11696,6 +11729,15 @@ permalink: /javalibs
 * [JPC](https://github.com/ianopolous/JPC)：JPC是一款快速的现代x86 PC模拟器，能够启动Windows直至Windows 95(以及安全模式下的Windows 98)和一些图形Linux，由牛津大学开源。
 * [MTMC](https://github.com/msu/mtmc)：MTMC是一台虚拟计算机，旨在以有趣和直观的方式展示数字计算的工作原理，由蒙大拿州立大学开源。
 * [Triton-64](https://github.com/LPC4/Triton-64)：完整的64位虚拟机实现，具有自定义CPU架构、汇编器、编译器和使用JavaFX用Java构建的开发环境。
+* [Bcomp](https://github.com/tune-it/bcomp)：Bcomp是ITMO大学一年级学生学习的简单计算机模型，由圣彼得堡国立信息技术、机械与光学研究型大学开源。
+
+## JavaME
+
+* [MicroEmu](https://code.google.com/archive/p/microemu/)：MicroEmu是Java ME的纯Java实现。
+* [J2ME-Loader](https://github.com/nikita36078/J2ME-Loader)：J2ME-Loader是适用于Android的J2ME模拟器，它支持大多数2D和3D游戏(包括Mascot Capsule 3D游戏)。
+* [SquirrelJME](https://github.com/SquirrelJME/SquirrelJME)：SquirrelJME是用于嵌入式和物联网设备的Java ME 8虚拟机，它的最终目标是与Java ME标准99.9%兼容。
+* [FreeJ2ME](https://github.com/hex007/freej2me)：包含Libretro、AWT和SDL2前端的免费J2ME模拟器。
+* [PluotSorbet](https://github.com/mozilla/pluotsorbet)：PluotSorbet是一个用JavaScript编写的兼容J2ME的虚拟机，由Mozilla开源。
 
 ## 编译器
 
@@ -11746,6 +11788,17 @@ permalink: /javalibs
 * [Build Server Protocol](https://github.com/build-server-protocol/build-server-protocol)：该项目致力于改进语言服务器/编辑器和构建工具之间的集成，由Scala中心和JetBrains领导。
 * [BSL Language Server](https://github.com/1c-syntax/bsl-language-server)：BSL语言服务器协议的实现。
 * [Meghanada Server](https://github.com/mopemope/meghanada-server)：适用于你的编辑器的Java IDE服务器，为你最喜欢的文本编辑器提供类似Java IDE的功能。
+
+## 元编程
+
+* [Eclipse Xtext](https://github.com/eclipse/xtext)：Xtext是一个用于开发编程语言和特定领域语言的框架。
+* [MPS](https://github.com/JetBrains/MPS)：JetBrains元编程系统。
+* [GenSym](https://github.com/Generative-Program-Analysis/GenSym)：GenSym是LLVM IR的高性能并行符号执行引擎。
+* [Rascal](https://github.com/usethesource/rascal)：Rascal是一个开源、基于Java的元编程库，由荷兰阿姆斯特丹自由大学的UseTheSource团队开发。
+* [Procyon](https://github.com/mstrobel/procyon)：Procyon是一套专注于代码生成和分析的Java元编程工具。
+* [JNI Bind](https://github.com/google/jni-bind)：JNI Bind是一个新的元编程库，为C++ => Java/Kotlin提供语法糖，Google开源。
+* [JBSE](https://github.com/pietrobraione/jbse)：JBSE是一个用于自动程序分析、验证和测试生成的符号Java虚拟机。
+* [Symbolic Java PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc)：此JPF扩展为Java字节码提供符号执行，由NASA开源。
 
 ## 数据库工具库
 
@@ -12330,7 +12383,6 @@ permalink: /javalibs
 * [MinHash](https://github.com/codelibs/minhash)：该库提供了用于b位MinHash算法的工具。
 * [Evo Inflector](https://github.com/atteo/evo-inflector)：Evo Inflector实现了英语复数化算法。
 * [ConsistentHash](https://github.com/Jaskey/ConsistentHash)：Java中的通用一致性哈希实现，支持虚拟节点和用户定义的哈希函数。
-* [3D Bin Container Packing](https://github.com/skjolber/3d-bin-container-packing)：最大区域拟合优先算法+暴力算法的变体。
 * [Min2phase](https://github.com/cs0x7f/min2phase)：Kociemba两阶段算法的优化实现。
 * [JWave](https://github.com/graetz23/JWave)：离散傅里叶变换、快速小波变换和小波包变换算法的Java实现。
 * [RendezvousHash](https://github.com/clohfink/RendezvousHash)：基于环的一致哈希的替代方案，这是Rendezvous(最高随机权重，HRW)哈希的快速线程安全实现。
@@ -12410,6 +12462,7 @@ permalink: /javalibs
 
 #### LSH算法
 
+* [Annoy](https://github.com/spotify/annoy-java)：Annoy是一种最近邻搜索算法，用于搜索空间中与给定查询点接近的点，由Spotify开源。
 * [Java LSH](https://github.com/tdebatty/java-LSH)：局部敏感哈希(LSH)的Java实现。
 * [TarsosLSH](https://github.com/JorenSix/TarsosLSH)：TarsosLSH是一个实现次线性最近邻搜索算法的Java库。
 * [ScANNS](https://github.com/LinkedInAttic/scanns)：ScANNS是Apache Spark的一个最近邻搜索库，最初由LinkedIn开发。
@@ -12419,6 +12472,13 @@ permalink: /javalibs
 * [LDA4j](https://github.com/hankcs/LDA4j)：LDA(潜在狄利克雷分配)的Java实现。
 * [JGibbLDA](https://jgibblda.sourceforge.net/)：JGibbLDA是隐性狄利克雷分配(LDA)的Java实现，使用吉布斯抽样技术进行参数估计和推理，由越南国立大学开源。
 * [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA)：这是基于流行的JGibbLDA包的Labeled LDA的Java实现。
+
+#### 装箱算法
+
+* [3D Bin Container Packing](https://github.com/skjolber/3d-bin-container-packing)：此库用于处理3D矩形装箱，它尝试将一组3D物品与一组3D容器中的一个或多个物品进行匹配。
+* [XFLP](https://github.com/hschneid/xflp)：XFLP是一个解决具有现实世界约束的3D卡车装载问题的求解器。
+* [2D Bin Packing](https://github.com/mses-bly/2D-Bin-Packing)：该项目旨在提供解决不规则(和规则)零件组二维装箱问题的基本功能。
+* [Dalsoo Bin Packing](https://github.com/whitegreen/Dalsoo-Bin-Packing)：Dalsoo Bin Packing是一个用于在矩形薄片中对二维不规则形状进行填充的Java库。
 
 #### 下采样
 
@@ -12629,6 +12689,7 @@ permalink: /javalibs
 * [Java IPFS HTTP Client](https://github.com/ipfs-shipyard/java-ipfs-http-client)：HTTP IPFS API的Java实现。
 * [Mahuta](https://github.com/Consensys/Mahuta)：Mahuta是一个用于聚合和整合应用程序在IPFS网络上存储的文件或文档的库。
 * [Nabu](https://github.com/Peergos/nabu)：IPFS的最小Java实现。
+* [IPFS Cloud](https://gitee.com/doobo/ipfs-cloud)：IPFS Cloud是一个基于IPFS的星际文件系统，也是分布式的WebSocket服务端。
 
 ## 报表引擎
 
@@ -13042,17 +13103,6 @@ permalink: /javalibs
 * [Open AirPlay](https://github.com/openairplay/open-airplay)：Apple的AirPlay协议的库集合。
 * [Java AirPlay Lib](https://github.com/serezhka/java-airplay-lib)：此库旨在轻松创建类似Apple TV的AirPlay2服务器。
 
-## 元编程
-
-* [Eclipse Xtext](https://github.com/eclipse/xtext)：Xtext是一个用于开发编程语言和特定领域语言的框架。
-* [MPS](https://github.com/JetBrains/MPS)：JetBrains元编程系统。
-* [GenSym](https://github.com/Generative-Program-Analysis/GenSym)：GenSym是LLVM IR的高性能并行符号执行引擎。
-* [Rascal](https://github.com/usethesource/rascal)：Rascal是一个开源、基于Java的元编程库，由荷兰阿姆斯特丹自由大学的UseTheSource团队开发。
-* [Procyon](https://github.com/mstrobel/procyon)：Procyon是一套专注于代码生成和分析的Java元编程工具。
-* [JNI Bind](https://github.com/google/jni-bind)：JNI Bind是一个新的元编程库，为C++ => Java/Kotlin提供语法糖，Google开源。
-* [JBSE](https://github.com/pietrobraione/jbse)：JBSE是一个用于自动程序分析、验证和测试生成的符号Java虚拟机。
-* [Symbolic Java PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc)：此JPF扩展为Java字节码提供符号执行，由NASA开源。
-
 ## Unicode
 
 * [AnyAscii](https://github.com/anyascii/anyascii)：AnyAscii为几乎所有Unicode字符提供纯ASCII替换字符串。
@@ -13100,15 +13150,6 @@ permalink: /javalibs
 * [Sensitive Words Filter](https://github.com/hooj0/sensitive-words-filter)：敏感词过滤项目，提供TTMP、DFA、DAT、Hash Bucket、Tire算法支持过滤。
 * [DzFilter](https://github.com/fanhua1994/DzFilter)：使用DFA算法实现的敏感词过滤。
 * [BadWordFiltering](https://github.com/VaneProject/bad-word-filtering)：此库可识别并处理脏话、粗俗语言及其他语言。
-
-## 泛型库
-
-* [TypeTools](https://github.com/jhalterman/typetools)：一个简单、零依赖的类型处理库，支持Java 1.6+和Android。
-* [ClassMate](https://github.com/FasterXML/java-classmate)：ClassMate是一个零依赖Java库，用于准确内省类型信息，包括可靠解析类(“类型”)和成员(字段、方法和构造函数)的泛型类型声明。
-* [Generics Resolver](https://github.com/xvik/generics-resolver)：Java泛型运行时解析器。
-* [GeantyRef](https://github.com/leangen/geantyref)：Java中与泛型相关的反射的小型库。
-* [TypeBuilder](https://github.com/ikidou/TypeBuilder)：TypeBuilder是一个用于生成泛型的简易构建器。
-* [Reified](https://github.com/Auties00/Reified)：Reified是Java 11及更高版本的注解，受到Kotlin中的reified关键字的启发。
 
 ## 国际化
 
@@ -13451,7 +13492,7 @@ permalink: /javalibs
 * [小象用户行为分析平台](https://gitee.com/xiaoxiangopen/analysis)：商用产品开源，包括用户埋点数据采集、用户标签分群和画像、智慧运营、营销等。
 * [ClkLog](https://gitee.com/clklog/clklog)：ClkLog是一款记录用户行为分析和画像的免费可商用开源软件，技术人员可快速搭建私有的应用系统。
 
-## URL操作
+## URL库
 
 * [Url Detector](https://github.com/linkedin/URL-Detector)：Url Detector是由LinkedIn安全团队创建的一个库，用于检测和提取长文本中的URL。
 * [Slugify](https://github.com/slugify/slugify)：用于生成语音URL的小型工具类库。
@@ -13474,14 +13515,6 @@ permalink: /javalibs
 * [Enchanter](https://bitbucket.org/mrdon/enchanter)：Enchanter是一个小型库，可以帮助你以类似于Expect的方式编写SSH会话脚本。
 * [Expect Java](https://github.com/ronniedong/Expect-for-Java)：Expect工具的纯Java实现。
 * [Expect4Java](https://github.com/iTransformers/expect4java)：Java的Expect语言实现，使用Java 8闭包。
-
-## JavaME
-
-* [MicroEmu](https://code.google.com/archive/p/microemu/)：MicroEmu是Java ME的纯Java实现。
-* [J2ME-Loader](https://github.com/nikita36078/J2ME-Loader)：J2ME-Loader是适用于Android的J2ME模拟器，它支持大多数2D和3D游戏(包括Mascot Capsule 3D游戏)。
-* [SquirrelJME](https://github.com/SquirrelJME/SquirrelJME)：SquirrelJME是用于嵌入式和物联网设备的Java ME 8虚拟机，它的最终目标是与Java ME标准99.9%兼容。
-* [FreeJ2ME](https://github.com/hex007/freej2me)：包含libretro、awt和sdl2前端的免费J2ME模拟器。
-* [PluotSorbet](https://github.com/mozilla/pluotsorbet)：PluotSorbet是一个用JavaScript编写的兼容J2ME的虚拟机，由Mozilla开源。
 
 ## JavaCard
 
@@ -13534,18 +13567,6 @@ permalink: /javalibs
 * [JRadio](https://github.com/dernasherbrezon/jradio)：用Java编写的软件无线电解码，这个项目的想法是从gnuradio获取块并用Java实现它们。
 * [SpinCAD Designer](https://github.com/HolyCityAudio/SpinCAD-Designer)：SpinCAD Designer是一个开源Java项目，允许为Spin FV-1音频DSP芯片创建补丁并进行音频模拟。
 
-## 企业集成模式
-
-* [Mule](https://github.com/mulesoft/mule)：Mule是一个轻量级集成平台，可让你在任何地方连接任何东西。
-* [Apache Camel](https://github.com/apache/camel)：Camel是一个开源集成框架，使你能够快速轻松地集成使用或生成数据的各种系统，由RedHat开源。
-* [Spring Integration](https://github.com/spring-projects/spring-integration)：Spring Integration提供了Spring编程模型的扩展，以支持众所周知的企业集成模式。
-* [WSO2 Enterprise Integrator](https://github.com/wso2/product-ei)：WSO2 Enterprise Integrator是一个开源、快速、云原生且可扩展的集成解决方案，是WSO2集成敏捷平台的核心。
-* [Syndesis](https://github.com/syndesisio/syndesis)：Syndesis是一个灵活且可定制的开源平台，以服务形式提供核心集成功能，由Fuse Online开源。
-* [Metl](https://github.com/JumpMind/metl)：Metl是一个简单、基于Web的集成平台，允许多种不同类型的数据集成，包括消息传递、基于文件的ETL以及通过Web Service的远程过程调用。
-* [Frank!Framework](https://github.com/frankframework/frankframework)：Frank!Framework是一个易于使用的无状态集成框架，允许在不同系统之间修改和交换(事务)消息，由WeAreFrank开源。
-* [RACE](https://github.com/aegisql/conveyor)：RACE是一个可扩展的异步企业集成和创建型Java框架。
-* [Ikasan](https://github.com/ikasanEIP/ikasan)：开源企业集成平台。
-
 ## 数字资产管理
 
 * [LOCKSS](https://github.com/lockss/lockss-daemon)：LOCKSS是LOCKSS计划开发和维护的成熟、垂直集成、开源、分布式数字保存系统，由斯坦福赞助。
@@ -13563,18 +13584,6 @@ permalink: /javalibs
 * [Fedora](https://github.com/fcrepo/fcrepo)：Fedora是一个强大、模块化、开源存储库系统，用于管理和传播数字内容，它特别适合数字图书馆和档案馆的访问和保存。
 * [DROID](https://github.com/digital-preservation/droid)：DROID是英国国家档案馆开发的一款软件工具，用于自动批量识别文件格式。
 * [LoA](https://github.com/bottomless-archive-project/library-of-alexandria)：LoA是一个旨在从互联网收集和存档文献的项目。
-
-## 数据匿名工具
-
-* [ARX](https://github.com/arx-deidentifier/arx)：ARX是一款用于对敏感个人数据进行匿名化的综合开源软件，由德国慕尼黑工业大学开发。
-* [DataDefender](https://github.com/armenak/DataDefender)：敏感数据管理：数据发现和匿名化工具包。
-* [Anonymouth](https://github.com/psal/anonymouth)：Anonymouth是一个基于Java的应用程序，旨在为用户提供开始对其编写的文档进行匿名化所需的工具和知识，由德雷塞尔大学开源。
-* [Anonymouse](https://github.com/CaravanaCloud/Anonymouse)：数据库匿名化工具。
-* [Anonimatron](https://github.com/realrolfje/anonimatron)：Anonimatron是一个免费、可扩展、开源数据匿名化工具。
-* [Rapiddweller Benerator](https://github.com/rapiddweller/rapiddweller-benerator-ce)：Rapiddweller Benerator是一个功能强大的软件解决方案，用于开发、测试和培训目的的数据生成、混淆和迁移。
-* [Cinnamon](https://github.com/KI-AIM/Cinnamon)：Cinnamon是一个模块化应用程序，旨在为数据匿名化、合成和评估提供强大的功能，由德国联邦教育与研究部开发。
-* [Data Privacy Toolkit](https://github.com/IBM/data-privacy-toolkit)：Data Privacy Toolkit是一个用于数据类型识别、隐私风险评估、数据屏蔽和数据匿名化的工具包，以Java/Scala库和REST API的形式公开，由IBM开源。
-* [Jstylo](https://github.com/psal/jstylo)：作者归属和作者匿名化框架，由德雷塞尔大学开源。
 
 ## 苹果推送通知
 
