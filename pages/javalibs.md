@@ -389,8 +389,8 @@ permalink: /javalibs
    * [图像压缩](#图像压缩)
 * [批处理框架](#批处理框架)
 * [接口文档](#接口文档)
-    * [模式优先](#模式优先)
-    * [代码优先](#代码优先)
+    * [规范优先](#规范优先)
+    * [接口优先](#接口优先)
     * [模式解析](#模式解析)
     * [模式比较](#模式比较)
     * [模式校验](#模式校验)
@@ -7300,7 +7300,7 @@ permalink: /javalibs
 * [Swagger Spring Boot Starter](https://github.com/battcn/swagger-spring-boot)：Swagger Spring Boot Starter是一款建立在Swagger基础之上的工具包，利用Spring Boot自动装配的特性，简化了传统Swagger的繁琐配置。
 * [Swagger Butler](https://github.com/dyc87112/swagger-butler)：Swagger Butler是一个基于Swagger与Zuul构建的API文档汇集工具。
 
-#### 模式优先
+#### 规范优先
 
 * [Swagger Codegen](https://github.com/swagger-api/swagger-codegen)：Swagger Codegen允许根据OpenAPI规范自动生成API客户端库(SDK生成)、服务器存根和文档。
 * [TypeSpec](https://github.com/microsoft/typespec)：TypeSpec是一种用于定义云服务API和形状的语言，由Microsoft开发。
@@ -7317,7 +7317,7 @@ permalink: /javalibs
 * [Swagger Codegen Maven Plugin](https://github.com/garethjevans/swagger-codegen-maven-plugin)：支持Swagger代码生成项目的Maven插件。
 * [Light Codegen](https://github.com/networknt/light-codegen)：基于Rocker的代码生成器，可以用作命令行实用程序或Web服务。
 
-#### 代码优先
+#### 接口优先
 
 * [Springfox](https://github.com/springfox/springfox)：Springfox库旨在自动生成使用Spring系列项目编写的JSON API的机器和人类可读规范。
 * [SpringDoc OpenAPI](https://github.com/springdoc/springdoc-openapi)：SpringDoc OpenAPI库有助于使用Spring Boot项目自动生成API文档。
