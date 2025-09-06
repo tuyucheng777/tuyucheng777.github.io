@@ -25,7 +25,6 @@ permalink: /javalibs
     * [Spring Cloud框架](#Spring-Cloud框架)
     * [DDD框架](#DDD框架)
     * [CQRS框架](#CQRS框架)
-    * [应用框架](#应用框架)
 * [数据库开发](#数据库开发)
     * [ORM框架](#ORM框架)
     * [JDBC框架](#JDBC框架)
@@ -910,6 +909,7 @@ permalink: /javalibs
 * [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。
 * [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
 * [FIT](https://github.com/ModelEngine-Group/fit-framework)：Java企业级AI开发框架，提供多语言函数引擎、流式编排引擎及Java生态的LangChain替代方案。
+* [JVx](https://doc.sibvisions.com/jvx/home)：JVx是一个全栈应用程序框架，用于为不同的技术(Swing、Vaadin、React等)创建具有单一来源的多层应用程序，由SIB Visions公司开源。
 * [Feat](https://gitee.com/smartboot/feat)：Feat是一个类似于Vert.x和Spring Boot的Java Web服务开发框架，专注于提供高性能、低资源消耗的解决方案。
 * [Rose](https://github.com/paoding-code/paoding-rose)：Rose是由人人网、糯米网、小米提供的，基于Servlet规范的Web框架。
 * [Lift](https://github.com/lift/framework)：Lift是一个强大、安全的Web框架。
@@ -1173,13 +1173,6 @@ permalink: /javalibs
 * [Wow](https://gitee.com/AhooWang/Wow)：Wow是一个基于领域驱动设计和事件溯源的现代响应式CQRS微服务开发框架。
 * [FactCast](https://github.com/factcast/factcast)：基于PostgreSQL的简单EventStore。
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
-
-#### 应用框架
-
-* [CloudApp](https://github.com/alibaba/cloudapp-framework)：CloudApp框架的目标是设计一个统一的SDK来封装云厂商的服务，由阿里开源。
-* [JVx](https://doc.sibvisions.com/jvx/home)：JVx是一个全栈应用程序框架，用于为不同的技术(Swing、Vaadin、React等)创建具有单一来源的多层应用程序，由SIB Visions公司开发。
-* [Demoiselle 3](https://github.com/demoiselle/framework)：Demoiselle框架实现了集成框架的概念，其目标是通过最大限度地减少选择和集成专业框架的时间来促进应用程序的构建，从而提高生产力并保证系统的可维护性。
-* [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
 
 ## 数据库开发
 
@@ -6716,6 +6709,7 @@ permalink: /javalibs
 * [Ayza](https://github.com/Hakky54/ayza)：Ayza是一个高级库，用于配置HTTP客户端通过SSL/TLS进行通信以进行单向身份验证或双向身份验证。
 * [OpenJSSE](https://github.com/openjsse/openjsse)：OpenJSSE是支持TLS 1.3的JSSE提供程序。
 * [TLS Attacker](https://github.com/tls-attacker/TLS-Attacker)：TLS Attacker是一个基于Java的TLS库分析框架。
+* [WolfSSL JNI](https://github.com/wolfSSL/wolfssljni)：该包为WolfSSL嵌入式SSL/TLS库提供Java支持，使应用程序能够支持高达当前TLS 1.3协议级别的SSL/TLS。
 
 #### CORS
 
@@ -8434,6 +8428,8 @@ permalink: /javalibs
 * [Mendmix](https://gitee.com/dromara/mendmix-cloud)：Mendmix是一站式分布式开发架构开源解决方案及云原生架构技术底座，由dromara社区开源。
 * [Jmix](https://github.com/jmix-framework/jmix)：Jmix是一组库和工具，用于加速Spring Boot以数据为中心的应用程序开发，由Haulmont开源。
 * [Seed4J](https://github.com/seed4j/seed4j)：Seed4J是一个用于快速生成、开发和部署现代Web应用程序和微服务架构的开发平台。
+* [Demoiselle](https://github.com/demoiselle/framework)：Demoiselle框架实现了集成框架的概念，其目标是通过最大限度地减少选择和集成专业框架的时间来促进应用程序的构建，从而提高生产力并保证系统的可维护性。
+* [Synapse](https://github.com/americanexpress/synapse)：Synapse是一组用于快速开发的轻量级基础框架模块，内置企业级成熟度和质量，由美国运通开源。
 * [Jeddict](https://github.com/jeddict/jeddict-modeler)：Jakarta EE 10和MicroProfile应用程序生成器和建模器。
 * [ApiBoot](https://gitee.com/minbox-projects/api-boot)：ApiBoot是接口服务的落地解决方案，提供了一系列开箱即用的组件，通过封装来简化主流第三方框架的集成。
 * [Ape Frame](https://gitee.com/classicChickenWings/ape-frame)：基于Spring Boot封装的轻量级开发框架。
@@ -11661,6 +11657,7 @@ permalink: /javalibs
 * [Mindolph](https://github.com/mindolph/Mindolph)：Mindolph是一款开源个人知识管理软件。
 * [Zettelkasten](https://github.com/Zettelkasten-Team/Zettelkasten)：Zettelkasten是一款知识管理工具。
 * [Hypernomicon](https://github.com/jasonwinning/hypernomicon)：Hypernomicon是一款面向研究人员的个人生产力/数据库应用程序，它将结构化笔记记录、思维导图、文件(如PDF)和文件夹管理以及参考文献管理整合到一个集成环境中。
+* [WiseMapping](https://github.com/wisemapping/wisemapping-open-source)：WiseMapping是一个基于Web的开源思维导图工具。
 
 #### 音视频软件
 
@@ -12898,6 +12895,7 @@ permalink: /javalibs
 * [LDA4j](https://github.com/hankcs/LDA4j)：LDA(潜在狄利克雷分配)的Java实现。
 * [JGibbLDA](https://jgibblda.sourceforge.net/)：JGibbLDA是隐性狄利克雷分配(LDA)的Java实现，使用吉布斯抽样技术进行参数估计和推理，由越南国立大学开源。
 * [JGibbLabeledLDA](https://github.com/myleott/JGibbLabeledLDA)：这是基于流行的JGibbLDA包的Labeled LDA的Java实现。
+* [DynamicExplorationGraph](https://github.com/Visual-Computing/DynamicExplorationGraph)：DEG是一种基于图的近似最近邻搜索(ANNS)算法，由柏林应用技术大学开源。
 
 #### 装箱算法
 
@@ -13234,6 +13232,7 @@ permalink: /javalibs
 * [Nunaliit](https://github.com/GCRC/nunaliit)：Nunaliit是一个用于创建交互式、数据驱动的网络地图集的系统，由卡尔顿大学地理信息学和制图研究中心(GCRC)的一个团队开发。
 * [Mago 3DTiler](https://github.com/Gaia3D/mago-3d-tiler)：Mago 3DTiler是一款OGC 3D Tiles工具，由Gaia3D开源。
 * [Reitti](https://github.com/dedicatedcode/reitti)：Reitti是一款全面的个人位置追踪和分析应用，可帮助你了解自己的活动模式和重要地点。
+* [Mapton](https://github.com/trixon/mapton)：Mapton是一款在桌面上运行的易于使用的地图应用程序。
 
 #### GIS GUI
 
@@ -13468,8 +13467,7 @@ permalink: /javalibs
 ## OData
 
 * [OData](https://github.com/RWS/odata)：这是基于OData标准的Tridion开放数据框架，完全用Java实现。
-* [Apache Olingo](https://github.com/apache/olingo-odata4)：Apache Olingo是一个围绕OData规范的Java库及扩展。
-* [OData Java](https://github.com/SAP-archive/cloud-odata-java)：OData Java是一个使开发人员能够实现OData生产者和OData消费者的库，由SAP开源。
+* [Apache Olingo](https://github.com/apache/olingo-odata4)：Apache Olingo是一个围绕OData规范的Java库及扩展，由SAP开源。
 
 ## 海关
 
