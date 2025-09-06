@@ -526,6 +526,7 @@ permalink: /javalibs
     * [区块链](#区块链)
     * [以太坊](#以太坊)
     * [比特币](#比特币)
+    * [交易所](#交易所)
     * [区块链SDK](#区块链SDK)
     * [智能合约](#智能合约)
 * [金融](#金融)
@@ -1066,7 +1067,6 @@ permalink: /javalibs
 * [Agrest](https://github.com/agrestio/agrest)：Agrest是一个灵活的模型驱动的REST数据服务框架，由ObjectStyle开源。
 * [Lambada Framework](https://github.com/cagataygurturk/lambadaframework)：Lambada Framework是一个实现JAX-RS API的REST框架，可让你以Serverless方式将应用程序部署到AWS Lambda和API Gateway。
 * [AceQL HTTP](https://github.com/kawansoft/aceql-http)：AceQL HTTP是一个类似REST的API库，允许你从任何支持HTTP的设备通过HTTP访问远程SQL数据库。
-* [Conjure Java Runtime](https://github.com/palantir/conjure-java-runtime)：该项目提供了一组固定的库，用于定义和创建RESTish/RPC服务器和客户端，基于Feign作为客户端，以Dropwizard/Jersey和JAX-RS服务定义作为服务器，由Palantir开源。
 * [Utterlyidle](https://github.com/bodar/utterlyidle)：另一个受JSR 311优点启发的Java REST库。
 
 #### WebService框架
@@ -1091,6 +1091,7 @@ permalink: /javalibs
 * [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
 * [tRPC](https://github.com/trpc-group/trpc-java)：tRPC Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
 * [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
+* [ScaleCube](https://github.com/scalecube/scalecube-services)：ScaleCube是一个通过提供可嵌入的微服务库来简化响应式和分布式应用程序开发的项目。
 * [ServiceTalk](https://github.com/apple/servicetalk)：ServiceTalk是一个JVM网络应用程序框架，具有针对特定协议(例如HTTP/1.x、HTTP/2.x等)定制的API，并支持多种编程范例，由Apple开源。
 * [RestExpress](https://github.com/RestExpress/RestExpress)：RestExpress是用于快速创建可扩展、无容器、RESTful微服务的极简Java框架，由Facebook开源。
 * [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
@@ -1151,6 +1152,7 @@ permalink: /javalibs
 * [Cheddar](https://github.com/travel-cloud/Cheddar)：Cheddar是一个Java框架，适用于AWS上的企业应用程序，使用DDD。
 * [ZenWave SDK](https://github.com/ZenWave360/zenwave-sdk)：ZenWave SDK是一个用于DDD和API优先的可配置且可扩展的工具包，可以从不同模型的组合生成代码。
 * [Nest](https://github.com/jovezhao/nest)：Nest是一个帮助开发人员快速实现基于DDD的技术框架。
+* [DDD4Java](https://github.com/fuinorg/ddd-4-java)：Java领域驱动设计(DDD)的基类。
 
 #### CQRS框架
 
@@ -1422,7 +1424,6 @@ permalink: /javalibs
 * [Prana](https://github.com/Netflix/Prana)：用于基于Netflix OSS的服务的Sidecar，由Netflix开源。
 * [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
 * [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
-* [Infinitic](https://github.com/infiniticio/infinitic)：Infinitic是一个基于Pulsar的框架，可大大简化异步分布式应用程序的构建。
 * [SIP Framework](https://github.com/IKOR-GmbH/sip-framework)：该框架能够使用微服务构建轻量级集成适配器，以实现系统的技术和非技术解耦，因此具有高度可扩展性。
 * [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
 * [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
@@ -1612,6 +1613,7 @@ permalink: /javalibs
 * [PlanOut4J](https://github.com/Glassdoor/planout4j)：Facebook PlanOut A/B测试系统的Java端口，具有附加功能。
 * [Izanami](https://github.com/MAIF/izanami)：Izanami是一款共享配置、功能翻转和A/B测试服务器，非常适合微服务架构实现。
 * [Apache Unomi](https://github.com/apache/unomi)：Unomi存储用户个人资料信息，主要用于为A/B测试和个性化提供后端服务器，由Jahia开源。
+* [Vamp](https://github.com/CircleCI-Archived/vamp)：Vamp是一款非常出色的微服务平台，核心功能包括平台无关的微服务DSL、轻松的A-B测试/金丝雀发布，以及一个深度可扩展的指标引擎。
 
 #### 验收测试
 
@@ -2286,7 +2288,7 @@ permalink: /javalibs
 * [Funktion](https://github.com/funktionio/funktion-connectors)：Funktion是一个基于Kubernetes的开源事件驱动的Lambda风格编程模型。
 * [Cloudstate](https://github.com/cloudstateio/cloudstate)：Cloudstate是一个开源协议和参考实现，探索有状态无服务器的想法，最初由Lightbend开发。
 * [Functions Framework Java](https://github.com/GoogleCloudPlatform/functions-framework-java)：用于编写可移植Java函数的开源FaaS框架，由Google Cloud Functions团队提供。
-* [SwimOS](https://github.com/swimos/swim)：SwimOS是一个全栈应用程序平台，用于构建有状态的Web服务、流API和实时UI。
+* [SwimOS](https://github.com/graphform/swim)：SwimOS是一个全栈应用程序平台，用于构建有状态的Web服务、流API和实时UI。
 * [FDK Java](https://github.com/fnproject/fdk-java)：Fn项目是一个开源的容器原生Serverless平台，你可以在任何云或本地运行，由Oracle开发。
 
 ## APM
@@ -2404,6 +2406,7 @@ permalink: /javalibs
 * [DigiRunner](https://github.com/TPIsoftwareOSPO/digiRunner-Open-Source)：DigiRunner是一个应用层API网关，可充当微服务架构中客户端与后端服务之间通信的中央枢纽。
 * [WAF](https://github.com/chengdedeng/waf)：WAF是使用Java开发的API Gateway，底层使用Netty。
 * [Membrane](https://github.com/membrane/api-gateway)：Membrane是用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关，由Predic8公司开源。
+* [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF团队开发，可以处理微服务之间的所有调用，无需服务定位器，并允许你在运行时动态更改配置。
 * [Okapi](https://github.com/folio-org/okapi)：Okapi是一个多租户API网关，由Open Library基金会开源。
 * [Janus](https://github.com/GrailStack/Janus)：Janus是Grail体系的一个组成模块，为各业务服务提供对外统一、高性能的HTTP网关。
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
@@ -2420,6 +2423,7 @@ permalink: /javalibs
 * [Pantheon](https://github.com/ProgrammerAnthony/Pantheon)：Pantheon是分布式微服务注册中心。
 * [Artemis](https://github.com/ctripcorp/artemis)：Artemis是携程框架部门SOA服务注册表，包含服务自注册自发现、实例变更实时推送、服务分组路由功能。
 * [Ranger](https://github.com/flipkart-incubator/ranger)：Ranger是一个基于Zookeeper构建的高级服务发现框架，由Flipkart开源。
+* [Vert.x Service Discovery](https://github.com/vert-x3/vertx-service-discovery)：Vert.x Service Discovery提供发现基础设施来注册和发现微服务应用程序公开的服务。
 
 ## 容错组件
 
@@ -4621,7 +4625,6 @@ permalink: /javalibs
 * [Netty Reactive Streams](https://github.com/playframework/netty-reactive-streams)：Netty的Reactive Streams实现。
 * [Reactive gRPC](https://github.com/salesforce/reactive-grpc)：Reactive gRPC是一套将gRPC与Reactive Streams编程库结合使用的库，由Salesforce开源。
 * [Reactive Wizard](https://github.com/FortnoxAB/reactive-wizard)：Reactive Wizard项目可以轻松构建利用Reactor和Netty强大功能的高性能且可扩展的Web应用程序，由Fortnox开源。
-* [ScaleCube](https://github.com/scalecube/scalecube-services)：ScaleCube是一个通过提供可嵌入的微服务库来简化响应式和分布式应用程序开发的项目。
 * [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Reactive Commons](https://github.com/reactive-commons/reactive-commons-java)：Reactive Commons的目的是提供一组针对不同模式和实践的抽象和实现，这些模式和实践构成了响应式微服务架构的基础，由哥伦比亚银行维护。
 * [Reakt](https://github.com/advantageous/reakt)：Reakt是Java的响应式接口。
@@ -4955,6 +4958,7 @@ permalink: /javalibs
 * [Piper](https://github.com/runabol/piper)：Piper是一个基于Spring Boot构建的开源分布式工作流引擎，设计非常简单。
 * [Maestro](https://github.com/lucidity-labs/maestro)：Maestro是一个简单但功能强大、持久的工作流库。
 * [ByteChef](https://github.com/bytechefhq/bytechef)：ByteChef是一个开源、低代码、可扩展的API集成和工作流自动化平台。
+* [Infinitic](https://github.com/infiniticio/infinitic)：Infinitic是一个开源框架，使应用程序团队能够构建、测试和发布可用于生产的工作流程，而无需配置或管理后端工具。
 * [Compileflow](https://github.com/alibaba/compileflow)：Compileflow是一个非常轻量级、高性能、可集成和可扩展的流程引擎，由阿里开源。
 * [Azkaban](https://github.com/azkaban/azkaban)：Azkaban是LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
 * [Apromore](https://github.com/apromore/ApromoreCore)：Apromore用于流程挖掘和预测流程分析，由墨尔本大学、塔尔图大学等开源。
@@ -5113,7 +5117,6 @@ permalink: /javalibs
 * [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一种灵活、轻量级且速度极快的开源解决方案，可帮助你的组织控制用户访问API的人员、时间和方式。
 * [Apicurio Studio](https://github.com/Apicurio/apicurio-studio)：Apicurio Studio项目是一个独立的API设计工具，可用于创建新的或编辑现有的API设计(使用OpenAPI或AsyncAPI规范)，由RedHat开源。
 * [APK](https://github.com/wso2/apk)：APK即Kubernetes API平台，这是一种尖端的API管理解决方案，旨在利用Kubernetes的强大功能来实现无缝且可扩展的部署，WSO2开源。
-* [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF OSS团队开发，可以处理微服务之间的所有调用，无需服务定位器，并允许你在运行时动态更改配置。
 * [RESTFiddle](https://github.com/AnujaK/restfiddle)：适用于团队的企业级API管理平台，RESTFiddle帮助你设计、开发、测试和发布API。
 
 ## 日期时间
@@ -8468,6 +8471,8 @@ permalink: /javalibs
 * [Selenium Maven Template](https://github.com/Ardesco/Selenium-Maven-Template)：适用于Selenium 4的Maven模板，包含最新的依赖项。
 * [BuildCLI](https://github.com/BuildCLI/BuildCLI)：BuildCLI是一个CLI工具，用于管理和自动化Java项目开发中的常见任务。
 * [Angular Spring Boot JWT Starter](https://github.com/bfwg/angular-spring-starter)：全栈入门套件，具有Angular 7、Spring Boot和无状态JWT身份验证。
+* [Micro Infra Spring](https://github.com/4finance/micro-infra-spring)：包含使用Spring配置设置的默认微服务基础设施的存储库。
+* [Spring Boot MicroService Best Practices](https://github.com/abhisheksr01/spring-boot-microservice-best-practices)：此仓库整合了构建基于Spring Boot的健壮微服务的最佳实践和基本集成，它以模板形式提供，允许开发人员根据自身需求添加或删除依赖项，轻松创建自己的微服务。
 
 #### 后台管理系统
 
@@ -8687,7 +8692,7 @@ permalink: /javalibs
 * [ShopJsp](http://www.shopjsp.com/)：B2B2C多用户商城系统。
 * [Mall](https://gitee.com/zscat/mall)：Mall项目是一套电商系统，包括前台商城系统及后台管理系统、小程序、H5，基于Spring Boot + MyBatis实现。
 * [三勾商城](https://www.jjjshop.net/single_java)：三勾Java商城基于Spring Boot、Element Plus、Uniapp打造的面向开发的小程序商城，方便二次开发或直接使用。
-* [B2B2B](https://www.shushangyun.com/p-b2b2b/)：数商云B2B2B电商平台交易系统是一款专注于B2B2B电商交易的综合解决方案，旨在帮助企业构建和管理B2B2B电商平台，实现供应链整合和交易便捷化
+* [B2B2B](https://www.shushangyun.com/p-b2b2b/)：数商云B2B2B电商平台交易系统是一款专注于B2B2B电商交易的综合解决方案，旨在帮助企业构建和管理B2B2B电商平台，实现供应链整合和交易便捷化。
 * [SHOP++](https://www.shopxx.net/)：SHOP++是基于Java EE技术的企业级电子商务平台系统。
 * [Javashop](https://www.enation.cn/)：Javashop支持全业务模式电商系统。
 * [LegendShop](https://legendshop.cn/)：基于Spring Boot 3.0、Spring Cloud、Vue/Uniapp的多模式商城系统。
@@ -9166,6 +9171,7 @@ permalink: /javalibs
 
 * [Broadleaf Commerce](https://github.com/BroadleafCommerce/BroadleafCommerce)：Broadleaf Commerce CE是一个完全用Java编写并利用Spring框架的电子商务框架。
 * [SAP Commerce](https://www.sap.com/products/crm/commerce-cloud.html)：SAP Commerce是一个使用Java、基于Spring MVC框架的电子商务平台。
+* [YAS](https://github.com/nashtech-garage/yas)：YAS是一个商店项目，旨在练习用Java构建典型的微服务应用程序。
 * [Ktor E-Commerce](https://github.com/piashcse/ktor-E-Commerce)：Ktor E-Commerce是一种高性能后端解决方案，专为使用Ktor构建的现代电子商务应用程序而设计。
 * [Q-Calculator](https://github.com/CyrilFeng/Q-calculator)：Stateless高性能优惠叠加计算框架。
 * [Shopizer](https://github.com/shopizer-ecommerce/shopizer)：Java开源电子商务软件。
@@ -9532,37 +9538,42 @@ permalink: /javalibs
 * [Bitcoinj](https://github.com/bitcoinj/bitcoinj)：Bitcoinj库是比特币协议的Java实现，它允许它维护钱包并发送/接收交易，而不需要Bitcoin Core的本地副本。
 * [Bisq](https://github.com/bisq-network/bisq)：Bisq是一种安全、私密且去中心化的方式，可以将比特币兑换成国家货币和其他数字资产。
 * [Eclair](https://github.com/ACINQ/eclair)：Eclair是闪电网络的Scala实现。
-* [XChange](https://github.com/knowm/XChange)：XChange是一个Java库，提供简单一致的API，用于与60多个比特币和其他加密货币交易所进行交互，为交易和访问市场数据提供一致的接口。
 * [Bitcoin Wallet](https://github.com/bitcoin-wallet/bitcoin-wallet)：适用于Android设备的比特币钱包应用程序。
-* [Coin Trader](https://github.com/timolson/cointrader)：Coin Trader是一个基于Java的加密货币交易后端。
-* [Bitget Open API V3 SDK](https://github.com/BitgetLimited/v3-bitget-api-sdk)：Bitget是世界领先的数字资产交易平台。
 * [Huobi Java SDK](https://github.com/HuobiRDCenter/huobi_Java)：火币Java SDK v3，可以使用此SDK查询所有市场数据、进行交易和管理你的账户。
-* [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)：Cassandre交易机器人框架允许你在多个加密货币交易所快速创建和执行交易策略。
-* [Crypto Exchange](https://github.com/jammy928/CoinExchange_CryptoExchange_Java)：基于Spring Cloud微服务开发，可用于数字货币交易所的搭建和二次开发。
 * [IRI](https://github.com/iotaledger/iri)：IRI是一款开源Java软件，可在IOTA主网和Devnet上运行。
 * [Bitcoin-S](https://github.com/bitcoin-s/bitcoin-s)：Bitcoin-S是一组针对JVM的松散耦合的加密货币库。
 * [Sparrow](https://github.com/sparrowwallet/sparrow)：Sparrow是一款现代桌面比特币钱包应用程序，支持大多数硬件钱包，并基于PSBT等通用标准构建，强调透明度和可用性。
 * [Drongo](https://github.com/sparrowwallet/drongo)：Drongo是一个Java比特币库，主要为支持Sparrow Wallet而构建。
 * [BitHub](https://github.com/signalapp/BitHub)：BitHub是一项服务，它会为每次向GitHub仓库提交的内容自动支付一定比例的比特币资金，由Open Whisper Systems开发。
-* [Bex](https://github.com/gazbert/bxbot)：Bex是一个用Java编写的简单比特币交易机器人。
 * [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner)：比特币OpenCL矿工。
-* [CoinExchange](https://gitee.com/cexchange/CoinExchange)：开源数字货币合约交易所，基于Java开发的比特币交易所、BTC交易所、ETH交易所、数字货币交易所、交易平台、撮合交易引擎。
 * [CoinGecko Java](https://github.com/Philipinho/CoinGecko-Java)：CoinGecko API的Java包装器。
-* [GitBitEX](https://github.com/gitbitex/gitbitex-new)：GitBitEX是一个开源的加密货币交易所。
-* [Haveno](https://github.com/haveno-dex/haveno)：Haveno是一个开源平台，用于将Monero兑换为美元、欧元和英镑等法定货币或BTC、ETH和BCH等其他加密货币。
-* [Orko](https://github.com/gruelbox/orko)：Orko是一款自托管Web应用程序，它提供统一的仪表板来控制众多加密货币交易所。
 * [Ergo](https://github.com/ergoplatform/ergo)：Ergo是一种基于工作量证明的加密货币协议，旨在为新型货币、点对点交互、信任最小化的金融工具和衍生品提供安全的环境。
 * [Thunder](https://github.com/blockchain/thunder)：闪电网络P2P协议的钱包/节点实现。
 * [XDAGJ](https://github.com/XDagger/xdagj)：XDAGJ是XDAG在Java中的实现。
 * [Snowblossom](https://github.com/snowblossomcoin/snowblossom)：Snowblossom是一种简单的加密货币。
-* [Arbitrader](https://github.com/agonyforge/arbitrader)：Arbitrader是一个在两个不同的加密货币交易所之间寻找交易机会并执行自动低风险交易的程序。
-* [BITISAN](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange)：BITISAN交易所支持多种数字资产的交易，涵盖加密货币、代币化资产以及其他数字化资产。
 * [MultiBit](https://github.com/Multibit-Legacy/multibit)：MultiBit是一个简化支付验证比特币桌面客户端。
-* [Reactive Crypto](https://github.com/namjug-kim/reactive-crypto)：用于加密货币交易的Kotlin/Java库。
 * [Phoenix](https://github.com/ACINQ/phoenix)：Phoenix是由ACINQ开发的比特币钱包，可让你通过闪电网络安全地发送和接收比特币。
 * [Lighthouse](https://github.com/vinumeris/lighthouse)：Lighthouse是一款去中心化的点对点众筹应用，它利用了比特币协议的智能合约功能。
-* [Bitrade](https://github.com/SevenEX/bitrade-parent)：七喜是一个基于ZTUO开源代码进行大量优化的数字货币交易系统。
 * [BOP Bitcoin Server](https://github.com/bitsofproof/supernode)：BOP Bitcoin Server是一个企业级的比特币协议实现。
+
+#### 交易所
+
+* [XChange](https://github.com/knowm/XChange)：XChange是一个Java库，提供简单一致的API，用于与60多个比特币和其他加密货币交易所进行交互，为交易和访问市场数据提供一致的接口。
+* [Crypto Exchange](https://github.com/jammy928/CoinExchange_CryptoExchange_Java)：基于Spring Cloud微服务开发，可用于数字货币交易所的搭建和二次开发。
+* [Coin Trader](https://github.com/timolson/cointrader)：Coin Trader是一个基于Java的加密货币交易后端。
+* [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)：Cassandre交易机器人框架允许你在多个加密货币交易所快速创建和执行交易策略。
+* [Bex](https://github.com/gazbert/bxbot)：Bex是一个用Java编写的简单比特币交易机器人。
+* [GitBitEX](https://github.com/gitbitex/gitbitex-new)：GitBitEX是一个开源的加密货币交易所。
+* [Haveno](https://github.com/haveno-dex/haveno)：Haveno是一个开源平台，用于将Monero兑换为美元、欧元和英镑等法定货币或BTC、ETH和BCH等其他加密货币。
+* [Orko](https://github.com/gruelbox/orko)：Orko是一款自托管Web应用程序，它提供统一的仪表板来控制众多加密货币交易所。
+* [OPEX](https://github.com/opexdev/core)：Core是OPEX项目基于Kotlin开发的加密货币交易和撮合引擎。
+* [BITISAN](https://github.com/bitisanop/CryptoExchange_TradingPlatform_CoinExchange)：BITISAN交易所支持多种数字资产的交易，涵盖加密货币、代币化资产以及其他数字化资产。
+* [Reactive Crypto](https://github.com/namjug-kim/reactive-crypto)：用于加密货币交易的Kotlin/Java库。
+* [Arbitrader](https://github.com/agonyforge/arbitrader)：Arbitrader是一个在两个不同的加密货币交易所之间寻找交易机会并执行自动低风险交易的程序。
+* [Bitget Open API V3 SDK](https://github.com/BitgetLimited/v3-bitget-api-sdk)：Bitget是世界领先的数字资产交易平台。
+* [CoinExchange](https://gitee.com/cexchange/CoinExchange)：开源数字货币合约交易所，基于Java开发的比特币交易所、BTC交易所、ETH交易所、数字货币交易所、交易平台、撮合交易引擎。
+* [Bitrade](https://github.com/SevenEX/bitrade-parent)：七喜是一个基于ZTUO开源代码进行大量优化的数字货币交易系统。
+* [TradeBot](https://github.com/markusaksli/TradeBot)：TradeBot是一款使用Binance API的加密货币交易机器人。
 
 #### 区块链SDK
 
@@ -10049,7 +10060,6 @@ permalink: /javalibs
 * [BotLibre](https://github.com/BotLibre/BotLibre)：适用于人工智能、聊天机器人、虚拟代理、社交媒体自动化和实时聊天自动化的开放平台。
 * [Repairnator](https://github.com/eclipse/repairnator)：Repairnator是Github上的一个软件机器人开源项目，特别用于自动化程序修复：构建失败修复、静态警告修复(SoraldBot)等。
 * [EDDI](https://github.com/labsai/EDDI)：E.D.D.I是一种中间件，用于连接和管理LLM API机器人。
-* [TradeBot](https://github.com/markusaksli/TradeBot)：使用Binance API的加密货币交易机器人。
 * [春松客服](https://github.com/cskefu/cskefu)：春松客服是开源的智能客服系统。
 * [Microsoft Bot Framework Java SDK](https://github.com/microsoft/botbuilder-java)：Microsoft Bot Framework提供了构建和连接智能机器人所需的功能，无论用户在哪里交谈，这些机器人都可以自然地交互，从文本/短信到Skype、Slack、Office 365邮件和其他流行服务。
 * [Mutters](https://github.com/rabidgremlin/Mutters)：构建机器人大脑的框架。
