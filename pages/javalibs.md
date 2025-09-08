@@ -820,6 +820,7 @@ permalink: /javalibs
   * [解析器组合器](#解析器组合器)
   * [源代码解析](#源代码解析)
   * [手机号解析](#手机号解析)
+  * [Cron解析](#Cron解析)
   * [Tree Sitter](#Tree-Sitter)
 * [形式验证](#形式验证)
 * [印章生成](#印章生成)
@@ -1060,7 +1061,6 @@ permalink: /javalibs
 * [Hammock](https://github.com/hammock-project/hammock)：Hammock是一个简单易用的框架，用于引导CDI、启动Web服务器并能够部署REST API。
 * [Apache Sling](https://sling.apache.org/)：Sling是一个基于可扩展内容树的RESTful Web应用程序框架，由Adobe维护。
 * [Apache Wink](https://wink.apache.org/)：Wink是一个简单而可靠的框架，用于构建RESTful Web服务。
-* [Rocket API](https://gitee.com/alenfive/rocket-api)：API敏捷开发框架，用于API接口功能的快速开发。
 * [Proteus](https://github.com/noboomu/proteus)：Proteus是一个极快的极简Java API服务器框架，构建于Undertow之上，用于开发后端应用程序和微服务。
 * [Confluent REST Utils](https://github.com/confluentinc/rest-utils)：Confluence REST Utils提供了一个小型框架和实用程序，用于使用Jersey、Jackson、Jetty和Hibernate Validator编写Java REST API。
 * [EverRest](https://github.com/codenvy/everrest)：EverRest是RESTful应用程序框架以及完整的JAX-RS实现。
@@ -1076,7 +1076,6 @@ permalink: /javalibs
 * [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
 * [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一款产品，专注于创建文档驱动的Web服务。
 * [SOAP WS](https://github.com/reficio/soap-ws)：SOAP WS是一个轻量级且易于使用的Java库，它包装了Spring WS并支持在纯XML级别处理SOAP。
-* [Membrane SOA Model](https://github.com/membrane/soa-model)：Membrane SOA Model是用于WSDL和XML Schema的开源工具包和Java API。
 * [WSC](https://github.com/forcedotcom/wsc)：WSC是一个使用流式解析器实现的高性能Web Service客户端堆栈，由Salesforce开源。
 
 #### 微服务框架
@@ -4833,9 +4832,6 @@ permalink: /javalibs
 * [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
 * [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
 * [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
-* [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移Cron以及获取人类可读的描述。
-* [Cron Parser](https://github.com/grahamar/cron-parser)：将Cron表达式转换为人类可读字符串的Java库。
-* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 
 ## 配置管理
 
@@ -7278,6 +7274,7 @@ permalink: /javalibs
 * [EMV QRCode](https://github.com/mvallim/emv-qrcode)：基于Java的EMV二维码生成器和解析器(MPM、CPM)。
 * [Barcode Java](https://github.com/barnhill/barcode-java)：该库旨在为开发人员提供一个简单的类，供开发人员在需要从一串数据生成条形码图像时使用。
 * [SwissQRBill](https://github.com/manuelbl/SwissQRBill)：用于生成和解码瑞士二维码钞票的开源Java库。
+* [Barcode Lib4J](https://github.com/vws-java/Barcode-Lib4J)：Barcode Lib4J是一个成熟且久经考验的Java库，用于绘制、打印和保存一维和二维条形码为矢量(PDF、EPS、SVG)和光栅图像(PNG、BMP、JPG)。
 
 #### 水印
 
@@ -8562,6 +8559,10 @@ permalink: /javalibs
 * [Albedo](https://github.com/somowhere/albedo)：Albedo是一个Java企业应用开源框架。
 * [Framework Admin](https://gitee.com/backflow/framework-admin)：极简封装的Java平台快速开发框架。
 * [SmallBoot](https://gitee.com/zhengqingya/smallboot)：SmallBoot是Vue、Spring Boot前后端分离的项目快速开发脚手架。
+* [VueAdmin](https://github.com/MarkerHub/VueAdmin)：基于Spring Boot、JWT、Vue的前后端分离后台管理系统。
+* [FrSimple](https://gitee.com/frsimple/frsimple-boot)：一个开箱即用的中后端解决方案。
+* [YF](https://gitee.com/fateyifei/yf)：YF后台管理系统，使用Spring Boot 3、Java 21、Vue 3和TypeScript开发。
+* [Naive Admin](https://www.naiveadmin.com/)：开箱即用的企业级前后端框架。
 
 #### 低代码
 
@@ -8580,6 +8581,7 @@ permalink: /javalibs
 * [Panshi](https://gitee.com/aizuda/panshi)：稳定可靠的Web开发框架，由爱组搭维护。
 * [Structr](https://github.com/structr/structr)：Structr是一个使用图数据库的集成低代码开发和运行时环境。
 * [DBAPI](https://gitee.com/freakchicken/db-api)：DBAPI是一个面向数仓开发人员的低代码工具，只需在页面上编写SQL，并配置好参数，就可以自动生成HTTP接口。
+* [Rocket API](https://gitee.com/alenfive/rocket-api)：API敏捷开发框架，用于API接口功能的快速开发。
 * [Citrus](https://github.com/Yiuman/citrus)：低代码快速开发脚手架，灵活、高效。
 * [TinyEngine](https://github.com/opentiny)：TinyEngine支持开发者定制低代码平台，实时在线构建低代码平台，并支持二次开发或集成低代码平台能力，由华为开发。
 * [Convertigo](https://github.com/convertigo/convertigo)：Convertigo是一个开源的低代码和无代码平台，用于移动和Web应用程序开发以及后端即服务。
@@ -9886,7 +9888,7 @@ permalink: /javalibs
 * [Modbus4j](https://github.com/MangoAutomation/modbus4j)：Modbus4j是由Infinite Automation和Serotonin用Java编写的Modbus协议的高性能且易于使用的实现。
 * [JLibModbus](https://github.com/kochedykov/jlibmodbus)：JLibModbus是Modbus协议的Java语言实现。
 * [J2mod](https://github.com/steveohara/j2mod)：J2mod是Jamod的一个分支，进行了大量的重构和代码修复。
-* [Jamod](https://jamod.sourceforge.net/)：Jamod是100% Java的Modbus实现。
+* [JaMod](https://github.com/openhab/jamod)：JaMod是100% Java编写的Modbus实现。
 * [Modbus](https://github.com/digitalpetri/modbus)：适用于Java 17+的Modbus TCP、Modbus RTU/TCP和Modbus RTU/串行的现代、高性能、易于使用的客户端和服务器实现。
 * [EasyModbus4j](https://github.com/zengfr/easymodbus4j)：EasyModbus4j是一个高性能和易用的Modbus协议的Java实现，基于Netty开发。
 * [Iot Modbus](https://gitee.com/flyoss/iot-modbus)：物联网通讯协议，基于Netty框架，支持COM(串口)和TCP协议，支持服务端和客户端两种模式。
@@ -13798,6 +13800,12 @@ permalink: /javalibs
 * [PhoneNumber Geo](https://github.com/EeeMt/phone-number-geo)：根据手机号确定手机号运营商即归属地，支持包括虚拟运营商的中国大陆手机号查询。
 * [PhoneNumber](https://github.com/xdtianyu/PhoneNumber)：一个获取号码归属地和其他信息(诈骗、骚扰等)的开源库。
 * [PhoneNumber Normalizer](https://github.com/telekom/phonenumber-normalizer)：使用PhoneNumber Normalizer库，你可以将电话号码标准化为E164格式和国家格式，同时考虑到德国号码计划的特定复杂性，由德国电信开源。
+
+#### Cron解析
+
+* [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移Cron以及获取人类可读的描述。
+* [Cron Parser](https://github.com/grahamar/cron-parser)：将Cron表达式转换为人类可读字符串的Java库。
+* [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 
 #### Tree Sitter
 
