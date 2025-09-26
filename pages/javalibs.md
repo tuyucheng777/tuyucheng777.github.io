@@ -468,6 +468,7 @@ permalink: /javalibs
     * [秒杀系统](#秒杀系统)
     * [医疗系统](#医疗系统)
     * [项目管理](#项目管理)
+    * [问题跟踪系统](#问题跟踪系统)
     * [QA系统](#QA系统)
     * [CMS系统](#CMS系统)
     * [论坛系统](#论坛系统)
@@ -1295,7 +1296,6 @@ permalink: /javalibs
 * [Cantor](https://github.com/salesforce/cantor)：Cantor是一个数据服务层，它为各种存储解决方案(例如MySQL和S3)之上的多种基本数据结构提供持久化，由Salesforce开源。
 * [AutoTable](https://gitee.com/dromara/auto-table)：根据Java实体，自动映射成数据库的表结构，由dromara社区开发。
 * [Apache Gora](https://github.com/apache/gora)：Gora框架提供内存数据模型和大数据持久化。
-* [Super SQL](https://gitee.com/guocjsh/supersql-open)：Super SQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
 * [MySQL Backup4j](https://github.com/SeunMatt/mysql-backup4j)：MySQL Backup4j是一个用于以编程方式导出MySQL数据库并将压缩转储发送到电子邮件、Amazon S3、Google Drive或任何其他选择的云存储的库。
 * [Ektorp](https://github.com/helun/Ektorp)：Ektorp是一个使用CouchDB作为存储引擎的持久层API。
 * [PgBulkInsert](https://github.com/PgBulkInsert/PgBulkInsert)：PgBulkInsert是一个使用二进制复制协议向PostgreSQL进行批量插入的Java库。
@@ -1565,6 +1565,7 @@ permalink: /javalibs
 * [Idris JVM](https://github.com/mmhelloworld/idris-jvm)：Idris 2是一种纯函数式编程语言，该项目提供针对JVM字节码的Idris 2编译器，以便Idris 2程序可以在JVM上运行。
 * [Redline Smalltalk](https://github.com/redline-smalltalk/redline-smalltalk)：Redline Smalltalk是JVM上的Smalltalk。
 * [Fuzion](https://github.com/tokiwa-software/fuzion)：Fuzion是一种注重简单性、安全性和正确性的语言。
+* [Snow](https://gitee.com/jcnc-org/snow)：Snow是一门面向AI时代的新型编程语言，灵感源自大模型的发展趋势。
 
 ## 云原生
 
@@ -2818,6 +2819,7 @@ permalink: /javalibs
 * [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)：OkGo基于HTTP协议，封装了OkHttp的网络请求框架。
 * [Wasp](https://github.com/orhanobut/wasp)：紧凑且易于使用的“一体化”Android网络解决方案。
 * [STTP](https://github.com/softwaremill/sttp)：STTP是SoftwareMill开源的库，它提供了一个干净的、程序员友好的API来描述HTTP请求以及如何处理响应。
+* [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Java和Android的异步套接字、HTTP(s)和WebSocket库；基于NIO，而不是线程。
 * [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
 * [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
@@ -3903,7 +3905,7 @@ permalink: /javalibs
 
 #### AI智能体
 
-* [JManus](https://github.com/alibaba/spring-ai-alibaba/tree/main/spring-ai-alibaba-jmanus)：Manus是用于构建通用AI代理的开源框架，JManus是Manus的Java实现，由阿里开源。
+* [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
@@ -5709,6 +5711,7 @@ permalink: /javalibs
 * [JSON Compare](https://github.com/fslev/json-compare)：用于比较JSON的Java库。
 * [JsonDiff](https://gitee.com/codeleep/json-diff)：一款高性能且功能强大的JSON差异发现工具。
 * [Hamcrest JSON](https://github.com/hertzsprung/hamcrest-json)：用于比较JSON文档的Hamcrest匹配器。
+* [JsonDiff](https://github.com/LianjiaTech/json-diff)：JsonDiff提供了对JSON通用的Diff能力，支持JSON字符串的深度比较、支持无序数组比较、内含多种算法模型满足对JSON比较时各种需求，由贝壳开源。
 
 ## 配置管理
 
@@ -8487,6 +8490,7 @@ permalink: /javalibs
 * [Spring Boot MicroService Best Practices](https://github.com/abhisheksr01/spring-boot-microservice-best-practices)：此仓库整合了构建基于Spring Boot的健壮微服务的最佳实践和基本集成，它以模板形式提供，允许开发人员根据自身需求添加或删除依赖项，轻松创建自己的微服务。
 * [Fust](https://github.com/zhihu/fust)：Fust是一个基于Spring Boot的快速开发框架，由知乎开源。
 * [Zebra](https://gitee.com/gszebra/zebra)：Zebra是国信证券的微服务框架。
+* [Zero Ecotope](https://gitee.com/zero-ws/zero-ecotope)：Zero Ecotope是一个基于Vert.x的中间件容器，它可以帮助软件开发人员在Vert.x中快速开发和实施。
 
 #### 后台管理系统
 
@@ -8768,26 +8772,18 @@ permalink: /javalibs
 
 #### 项目管理
 
-* [JIRA](https://www.atlassian.com/software/jira)：JIRA是一个Bug跟踪管理系统，为针对Bug管理、任务追踪和项目管理的商业性应用软件，由Atlassian开发。
-* [YouTrack](https://www.jetbrains.com/youtrack/)：YouTrack是JetBrains开发的专有、基于商业浏览器的错误跟踪器、问题跟踪系统和项目管理软件。
-* [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业Wiki，由Atlassian开发。
 * [Teambition](https://www.teambition.com/)：阿里旗下数字化协作平台，提供项目管理、任务协同等解决方案。
 * [MyCollab](https://github.com/MyCollab/mycollab)：MyCollab是免费的开源项目管理软件。
 * [GanttProject](https://github.com/bardsoftware/ganttproject)：GanttProject是一款免费的桌面项目管理应用程序，由BarD软件公司开源。
 * [Twproject](https://twproject.com/)：Twproject是一个灵活的基于Web的工作和项目管理平台，专为小型和大型团队打造。
 * [Wukong PM](https://github.com/WuKongOpenSource/Wukong_ProjectManagement)：基于Spring Cloud Alibaba微服务架构、Vue、ElementUI的前后端分离项目管理系统。
 * [Mone](https://github.com/XiaoMi/mone)：Mone是一个以微服务为核心的一站式企业协同研发平台，支持公有云、私有云、混合云等多种部署形态，由小米开源。
-* [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
-* [Yobi](https://github.com/yona-projects/yona)：Yobi是一个基于Web的项目托管软件，由Naver开源。
 * [Codes](https://gitee.com/xiaoming1q/icodes)：Codes是一个高效、简洁、轻量的一站式研发项目管理平台，由四川无限智达公司开源。
-* [唛盟XM](https://gitee.com/maimengcloud/xm-backend)：唛盟以研发管理为核心，涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环节，实现全过程、全方位的研发管理。
 * [IceScrum](https://github.com/icescrum/iceScrum)：IceScrum是一款Web应用，它使用Scrum的同时，也保留了协作工作空间的精髓。
 * [Atlas CMMS](https://github.com/Grashjs/cmms)：Atlas CMMS是一款功能强大的自托管维护管理系统，基于Docker架构，适用于Web和移动平台。
 * [Gerrit](https://github.com/GerritCodeReview/gerrit)：Gerrit是基于Git的项目的代码审查和项目管理工具，由Google开源。
 * [Kooteam](https://gitee.com/sinbo/kooteam)：Kooteam是一款轻量级的在线团队协作工具，提供各类文档工具、在线思维导图、在线流程图、项目管理、任务分发，知识库管理等工具。
-* [BugCatcher](https://github.com/youzan/bugCatcher)：BugCatcher是有赞开发的项目管理、测试用例管理、项目进度和质量监控工具。
 * [LibrePlan](https://github.com/LibrePlan/libreplan)：LibrePlan是一款用于项目管理、监控和控制的免费软件Web应用程序。
-* [ProjectForge](https://github.com/micromata/projectforge)：ProjectForge是一个基于Web的项目管理解决方案，包括时间跟踪、团队日历、甘特图、财务管理、问题管理、控制和管理工作分解结构(例如与JIRA一起作为问题管理系统)。
 * [Naikan](https://github.com/enofex/naikan)：Naikan是一款开源软件库存管理工具，适用于由CI/CD管道驱动的开发团队。
 * [TMS](https://gitee.com/xiweicheng/tms)：TMS是基于频道模式的团队沟通协作+轻量级任务看板，支持Markdown、富文本、在线表格和思维导图的团队博文wiki，i18n国际化翻译管理的响应式Web开源团队协作系统。
 * [Rapla](https://github.com/rapla/rapla)：Rapla是一个灵活的多用户资源和活动规划系统，它具有多个日历视图、冲突管理、完全可配置的资源和事件类型以及许多导入/导出功能。
@@ -8796,9 +8792,19 @@ permalink: /javalibs
 * [ProjectLibre](https://www.projectlibre.com/)：ProjectLibre是Microsoft Project的第一大替代品，ProjectLibre提供免费桌面和订阅云解决方案。
 * [Plan](https://calligra.org/plan/)：Plan是一个项目管理应用程序，旨在管理具有多种资源的中等大型项目。
 * [HeartBeat](https://github.com/thoughtworks/HeartBeat)：HeartBeat是一个用于跟踪项目交付指标的工具，可以帮助你更好地了解交付绩效，由ThoughtWorks开发。
-* [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
 * [BulletJournal](https://github.com/singerdmx/BulletJournal)：BulletJournal是一个开源平台，用于笔记本保存、账本管理、任务/项目管理和协调，擅长个人组织、日程安排、提醒、待办事项列表、笔记共享、多人账本和团队项目协作。
 * [GoGoScrum](https://github.com/gogoscrum/gogoscrum-rest-service)：GoGoScrum是一款轻量级的敏捷项目管理工具，专为高效的团队协作而设计。
+
+#### 问题跟踪系统
+
+* [JIRA](https://www.atlassian.com/software/jira)：JIRA是一个Bug跟踪管理系统，为针对Bug管理、任务追踪和项目管理的商业性应用软件，由Atlassian开发。
+* [YouTrack](https://www.jetbrains.com/youtrack/)：YouTrack是JetBrains开发的专有、基于商业浏览器的错误跟踪器、问题跟踪系统和项目管理软件。
+* [Lavagna](https://github.com/digitalfondue/lavagna)：Lavagna是一款小型且易于使用的问题/项目跟踪软件。
+* [Yobi](https://github.com/yona-projects/yona)：Yobi是一个基于Web的项目托管软件，由Naver开源。
+* [唛盟XM](https://gitee.com/maimengcloud/xm-backend)：唛盟以研发管理为核心，涵盖项目规划、需求管理、开发迭代、版本控制、缺陷跟踪、测试管理、工时管理、效能分析等环节，实现全过程、全方位的研发管理。
+* [Cat2Bug Platform](https://gitee.com/cat2bug/cat2bug-platform)：Cat2Bug Platform是一套永久免费开源的Bug管理平台，可以完全私有化部署。
+* [ProjectForge](https://github.com/micromata/projectforge)：ProjectForge是一个基于Web的项目管理解决方案，包括时间跟踪、团队日历、甘特图、财务管理、问题管理、控制和管理工作分解结构(例如与JIRA一起作为问题管理系统)。
+* [BugCatcher](https://github.com/youzan/bugCatcher)：BugCatcher是有赞开发的项目管理、测试用例管理、项目进度和质量监控工具。
 
 #### QA系统
 
@@ -9014,6 +9020,8 @@ permalink: /javalibs
 * [Art](https://gitee.com/fxzcloud/art)：Art是一个开源、一站式AI应用开发平台，其灵感来源于行业领先的Coze和Dify。
 * [Torch Yun](https://github.com/isxcode/torch-yun)：至数云是一款超轻量、企业级人工智能应用平台。
 * [JoySafety](https://github.com/jd-opensource/JoySafety)：JoySafety是京东开源的大模型安全框架。
+* [SuperSQL](https://gitee.com/guocjsh/supersql-open)：SuperSQL是一个基于国内外先进生成式大模型的Java框架，实现从自然语言文本到SQL查询的智能转换。
+* [DataAgent](https://github.com/spring-ai-alibaba/DataAgent)：DataAgent是一个基于Spring AI Alibaba的自然语言转SQL项目，能让你用自然语言直接查询数据库，不需要写复杂的SQL。
 
 #### OA系统
 
@@ -9113,6 +9121,7 @@ permalink: /javalibs
 #### 知识管理系统
 
 * [Logseq](https://github.com/logseq/logseq)：Logseq是一个知识管理和协作平台。
+* [Atlassian Confluence](https://www.atlassian.com/zh/software)：Confluence是一个专业的企业知识管理与协同软件，也可以用于构建企业Wiki，由Atlassian开发。
 * [JVS Knowledge](https://gitee.com/software-minister/jvs-knowledge-ui)：提供在线笔记、知识沉淀、在线产品手册、知识库、在线电子教程等功能。
 * [Zyplayer DOC](https://gitee.com/dromara/zyplayer-doc)：Zyplayer DOC是一款适合团队和个人使用的WIKI文档管理工具，同时还包含数据库文档、API接口文档，由dromara社区开源。
 * [WCP](https://gitee.com/macplus/WCP)：WCP是一套BS架构的开源知识管理系统、知识库系统，由太原扁舟科技开源。
@@ -9125,6 +9134,7 @@ permalink: /javalibs
 * [Hackpad](https://github.com/dropbox/hackpad)：Hackpad是一个基于Web的实时Wiki，基于开源EtherPad协作文档编辑器。
 * [InfoSphere](https://gitee.com/devlive-community/incubator-infosphere)：InfoSphere是一款面向企业和个人的开源Wiki系统，旨在提供简单而强大的知识管理解决方案，由Devlive社区开源。
 * [ModeShape](https://github.com/ModeShape/modeshape)：ModeShape是一种分布式、分层、事务性和一致的数据存储，支持查询、全文搜索、事件、版本控制、引用以及灵活的动态模式，由RedHat开源。
+* [Bella Knowledge](https://github.com/LianjiaTech/bella-knowledge)：Bella Knowledge是Bella体系内的知识管理中心，提供文件、数据集在内多类数据源的统一存储、管理能力，由贝壳开源。
 
 #### SCRM系统
 
@@ -9843,6 +9853,7 @@ permalink: /javalibs
 * [BudIot](https://gitee.com/budwk/budiot)：BudIot是一个开源、企业级的物联网平台，它集成了设备管理、协议解析、消息订阅、场景联动等一系列物联网核心能力。
 * [Frog Smart Agriculture](https://gitee.com/nealtsiao/frog-smart-agriculture)：青蛙智慧农业平台，支持物联网设备、农业设备对接。
 * [OPENIITA](https://gitee.com/open-iita/iotkitparent)：OPENIITA是铱塔智联旗下一个开源的物联网开源平台。
+* [NexIoT](https://gitee.com/NexIoT/Universal-IoT-Java)：NexIoT IoT是一款基于Java技术栈构建的零代码侵入企业级物联网平台，具备高内聚低耦合，零代码侵入。
 
 #### 智能家居
 
