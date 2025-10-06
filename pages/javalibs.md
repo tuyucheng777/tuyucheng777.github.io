@@ -707,6 +707,7 @@ permalink: /javalibs
     * [实体框架](#实体框架)
     * [游戏编辑器](#游戏编辑器)
     * [开源游戏](#开源游戏)
+    * [象棋引擎](#象棋引擎)
     * [游戏开发工具](#游戏开发工具)
     * [虚拟现实](#虚拟现实)
 * [JVM代理](#JVM代理)
@@ -1003,6 +1004,7 @@ permalink: /javalibs
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Tio Boot](https://gitee.com/ppnt/tio-boot)：Tio Boot是新一代Java Web开发框架，更快、更小、更简单。
 * [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
+* [WebDSL](https://github.com/webdsl/webdsl)：WebDSL是一种用于使用丰富数据模型对Web应用程序进行建模的DSL，由代尔夫特理工大学开源。
 
 #### RPC框架
 
@@ -2369,7 +2371,7 @@ permalink: /javalibs
 * [InfiniteGraph](http://www.objectivity.com/products/infinitegraph/)：InfiniteGraph是一个用Java和C++实现的分布式图数据库，这是Objectivity公司的产品。
 * [AnzoGraph](https://cambridgesemantics.com/anzograph/)：AnzoGraph是为在线分析和数据协调而构建的水平可扩展图数据库。
 * [Galaxybase](https://galaxybase.com/)：Galaxybase是浙江创邻科技公司研发的分布式图数据库产品。
-* [YouTrackDB](https://github.com/youtrackdb/youtrackdb)：YouTrackDB是一个面向对象的图数据库，支持文档、全文搜索、响应性和地理空间概念，由JetBrains开源。
+* [YouTrackDB](https://github.com/JetBrains/youtrackdb)：YouTrackDB是一个面向对象的图数据库，支持文档、全文搜索、响应性和地理空间概念，由JetBrains开源。
 * [BlazeGraph](https://github.com/blazegraph/database)：Blazegraph是一个超高性能图数据库，支持蓝图和RDF/SPARQL API。
 * [Gaffer](https://github.com/gchq/Gaffer)：Gaffer是一个图数据库框架，它允许存储在节点和边上包含丰富属性的非常大的图，由英国政府通讯总部开源。
 * [TypeDB](https://github.com/vaticle/typedb)：TypeDB是一个多态数据库，具有概念数据模型、强大的子类型系统、符号推理引擎和美观优雅的类型理论语言TypeQL，由Vaticle Ltd开发。
@@ -3809,6 +3811,7 @@ permalink: /javalibs
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
+* [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku旨在为你的组织和AI代理提供统一的访问、路由和资源管理功能。
 
 #### 代理框架
 
@@ -3818,6 +3821,7 @@ permalink: /javalibs
 * [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
+* [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
 
 #### 机器学习
 
@@ -4769,6 +4773,7 @@ permalink: /javalibs
 * [Maven Cucumber Reporting](https://github.com/damianszczepanik/maven-cucumber-reporting)：用于Cucumber报告的Maven Mojo。
 * [Cucable Maven Plugin](https://github.com/trivago/cucable-plugin)：Cucable是适用于Cucumber场景的Maven插件，可简化细粒度和高效的并行测试运行。
 * [Cucumber JVM Parallel Plugin](https://github.com/temyers/cucumber-jvm-parallel-plugin)：Maven插件帮助并行运行Cucumber功能。
+* [Cucumber Sandwich](https://github.com/damianszczepanik/cucumber-sandwich)：该项目可以动态生成漂亮的Cucumber HTML报告。
 
 #### 自动化框架
 
@@ -5014,6 +5019,7 @@ permalink: /javalibs
 #### ORM框架
 
 * [Hibernate](https://github.com/hibernate/hibernate-orm)：Hibernate是一个强大的Java ORM解决方案，可以轻松地为应用程序、库和框架开发持久层逻辑，由RedHat开源。
+* [Jakarta Data](https://github.com/jakartaee/data)：Jakarta Data规范提供了一个API，可以更轻松地访问各种数据库类型的数据。
 * [Spring Data JPA](https://github.com/spring-projects/spring-data-jpa)：Spring Data JPA是Spring Data系列的一部分，可以轻松实现基于JPA的Repository。
 * [Mybatis](https://github.com/mybatis/mybatis-3)：MyBatis是一流的持久层框架，支持自定义SQL、存储过程和高级映射。
 * [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
@@ -5296,6 +5302,7 @@ permalink: /javalibs
 * [JRedis](https://github.com/alphazero/jredis)：JRedis是Redis的Java客户端和连接器。
 * [Redis Protocol](https://github.com/spullara/redis-protocol)：RedisClient是Redis的Java客户端和服务端实现。
 * [Carmine](https://github.com/taoensso/carmine)：Carmine是Clojure的成熟Redis客户端，提供惯用的Clojure API，速度快、功能强大且易于使用。
+* [Vert.x Redis Client](https://github.com/vert-x3/vertx-redis-client)：Vert.x Redis客户端提供异步API来与Redis数据结构服务器交互。
 * [Jesque](https://github.com/gresrun/jesque)：Jesque是Resque在Java中的实现。
 * [JOhm](https://github.com/xetorthio/johm)：JOhm是一个速度超快的Java对象哈希映射库。
 * [RedisScala](https://github.com/etaty/rediscala)：RedisScala是具有非阻塞和异步I/O操作的Scala Redis客户端。
@@ -5561,6 +5568,7 @@ permalink: /javalibs
 * [Biscuit Java](https://github.com/biscuit-auth/biscuit-java)：Biscuit是一个开源、基于令牌的授权系统。
 * [OpenUnison](https://github.com/TremoloSecurity/OpenUnison)：OpenUnison是一个统一身份管理平台。
 * [Perun](https://github.com/CESNET/perun)：Perun是一个主要面向学术环境的身份和访问管理系统，由马萨里克大学开源。
+* [Grouper](https://github.com/Internet2/grouper)：Grouper是针对高校常见的高度分布式管理环境和异构信息技术环境而设计的企业级访问管理系统。
 
 #### 单点登录
 
@@ -5817,6 +5825,7 @@ permalink: /javalibs
 * [KyberJCE](https://github.com/fisherstevenk/kyberJCE)：Kyber后量子IND-CCA2 KEM的纯Java实现。
 * [Blake2b](https://github.com/alphazero/Blake2b)：Blake2b是BLAKE2b加密哈希函数的高性能Java实现。
 * [AES GCM SIV](https://github.com/line/aes-gcm-siv)：AES GCM SIV是一种经过认证的加密算法，旨在提供抗随机数滥用的能力，由Line开源。
+* [SecretsShare](https://github.com/timtiemens/secretshare)：《应用密码学》中描述的Shamir秘密共享算法的Java实现。
 
 #### 接口加密
 
@@ -5855,6 +5864,7 @@ permalink: /javalibs
 * [OpenJSSE](https://github.com/openjsse/openjsse)：OpenJSSE是支持TLS 1.3的JSSE提供程序。
 * [TLS Attacker](https://github.com/tls-attacker/TLS-Attacker)：TLS Attacker是一个基于Java的TLS库分析框架。
 * [WolfSSL JNI](https://github.com/wolfSSL/wolfssljni)：该包为WolfSSL嵌入式SSL/TLS库提供Java支持，使应用程序能够支持高达当前TLS 1.3协议级别的SSL/TLS。
+* [jSSLKeyLog](https://github.com/jsslkeylog/jsslkeylog)：Java代理库将SSL会话密钥记录到Wireshark的文件中。
 
 #### CORS
 
@@ -7393,6 +7403,7 @@ permalink: /javalibs
 * [Bytecode](https://github.com/airlift/bytecode)：Bytecode是一个用于生成JVM字节码的高级Java库。
 * [Serp](https://serp.sourceforge.net/)：Serp是一个用于操作Java字节码的开源框架。
 * [Gizmo](https://github.com/quarkusio/gizmo)：Gizmo旨在简化字节码生成，Quarkus大量使用它。
+* [ClassTransform](https://github.com/Lenni0451/ClassTransform)：ClassTransform是一个使用ASM的轻量级注入库。
 
 ## 字节码工具库
 
@@ -7478,6 +7489,7 @@ permalink: /javalibs
 * [Protector4J](https://protector4j.com)：保护Java代码免于反编译，这是VLINX公司的商业产品。
 * [qProtect](https://qtechnologies.dev/)：提供自定义转换器支持的Java混淆器。
 * [Class Obfuscator](https://github.com/4ra1n/class-obf)：Class Obf是一个Class文件混淆工具，支持方法名/字段名/参数名引用分析和重命名混淆方式。
+* [Java Humanify](https://github.com/Initial-One/Java-humanify)：使用LLM对Java代码进行反混淆。
 
 ## 逆向工程
 
@@ -8398,6 +8410,7 @@ permalink: /javalibs
 * [Microservice Monitoring](https://github.com/xeraa/microservice-monitoring)：监控分布式(微)服务的日志、指标、Ping和跟踪。
 * [Spring Tx Board](https://github.com/Mamun-Al-Babu-Shikder/spring-tx-board)：Spring Tx Board是一个轻量级、可自动配置的事务监控库，适用于基于Spring的应用程序。
 * [Spring Cloud Dashboard](https://github.com/VanRoy/spring-cloud-dashboard)：该应用程序提供了一个简单的GUI来管理Spring Cloud应用程序基础设施。
+* [Hofund](https://github.com/logchange/hofund)：Hofund是一套用于监控应用程序、连接并发现系统组件当前状态的工具集。
 
 #### GC日志分析
 
@@ -9281,6 +9294,7 @@ permalink: /javalibs
 * [Jease](https://jease.org/)：Jease是一个由Java驱动的开源CMS。
 * [Quanta](https://github.com/Clay-Ferguson/quantizr)：Quanta是一种新型内容管理平台，具有强大的功能。
 * [Alfresco](https://github.com/Alfresco/alfresco-community-repo)：Alfresco平台提供全面的云原生内容服务。
+* [ContentGrid](https://contentgrid.com/)：ContentGrid是一个开源的内容应用程序平台。
 * [WallRide](https://github.com/tagbangers/wallride)：WallRide是一个多语言、易于定制的开源CMS。
 * [Magnolia CMS](https://www.magnolia-cms.com/)：Magnolia是一个开源CMS，由总部位于瑞士巴塞尔的Magnolia开发。
 * [瀑布CMS](https://gitee.com/LinZhaoguan/pb-cms)：瀑布CMS采用Spring Boot、Shiro、MybatisPlus、Thymeleaf实现。
@@ -9608,6 +9622,7 @@ permalink: /javalibs
 * [ZOJ](https://github.com/licheng/zoj)：浙江大学在线评判，一款允许人们在线解决算法问题的在线评判工具。
 * [Judgels](https://github.com/ia-toki/judgels)：Judgels是一个现代编程竞赛系统。
 * [ZuiOJ](https://github.com/DaZuiZui/ZuiOJ)：基于Spring Boot、Spring Cloud、Vue的开源在线代码评委系统。
+* [D-OnlineJudge](https://github.com/Decade-qiu/D-OnlineJudge)：D-OnlineJudge是一个全栈在线编程平台，采用基于Spring Cloud的微服务架构和Vue 3前端。
 
 #### BaaS
 
@@ -10256,6 +10271,7 @@ permalink: /javalibs
 * [Apdu4j](https://github.com/martinpaljak/apdu4j)：Apdu4j是一些命令行工具和有用的Java类库，用于通过JSR 268处理智能卡和智能卡读卡器。
 * [JNASmartCardIO](https://github.com/jnasmartcardio/jnasmartcardio)：javax.smartcardio API的重新实现，它允许你从Java内部与智能卡(在APDU级别)进行通信。
 * [JMultiCard](https://github.com/ctt-gob-es/jmulticard)：100% Java智能卡访问抽象层。
+* [SmartCard IO](https://github.com/intarsys/smartcard-io)：该项目包含PC/SC包装器和智能卡抽象层。
 * [JFreesteel](https://github.com/grakic/jfreesteel)：JFreesteel是一个可重复使用的开源Java库，用于读取塞尔维亚电子身份证的公共数据。
 
 ## 物联网
@@ -10312,7 +10328,7 @@ permalink: /javalibs
 * [DeviceHive](https://github.com/devicehive/devicehive-java-server)：DeviceHive可以将任何联网设备变成物联网的一部分。
 * [Freedomotic](https://github.com/freedomotic/freedomotic)：Freedomotic是一个开源、灵活、安全的IoT应用程序框架，可用于构建和管理现代智能空间。
 * [OpenIita](https://gitee.com/open-iita/iotkit-parent)：铱塔智联开源平台是一个开源的物联网基础开发平台，提供了物联网及相关业务开发的常见基础功能，能帮助你快速搭建自己的物联网相关业务平台。
-* [Scada-LTS](https://github.com/SCADA-LTS/Scada-LTS)：Scada-LTS是一个基于Web的开源多平台解决方案，用于构建你自己的SCADA(监控和数据采集)系统。
+* [Scada LTS](https://github.com/SCADA-LTS/Scada-LTS)：Scada LTS是一个基于Web的开源多平台解决方案，用于构建你自己的SCADA(监控和数据采集)系统。
 * [Aura Tower](https://github.com/blumek/aura-tower)：Aura Tower是一个开源项目，旨在通过直观的仪表板控制和监控物联网设备。
 * [OpenIoT](https://github.com/OpenIotOrg/openiot)：OpenIoT为物联网构建一个新颖的开源平台，该平台包含一些独特的功能，例如能够按照基于云/实用程序的范式组合非平凡的物联网服务，由瑞士苏黎世联邦理工学院、希腊信息技术与通信研究所开源。
 * [KCloud Platform IoT](https://github.com/KouShenhai/KCloud-Platform-IoT)：KCloud Platform IoT是一个企业级微服务架构的IoT云平台。
@@ -10323,6 +10339,7 @@ permalink: /javalibs
 * [OPENIITA](https://gitee.com/open-iita/iotkitparent)：OPENIITA是铱塔智联旗下一个开源的物联网开源平台。
 * [NexIoT](https://gitee.com/NexIoT/Universal-IoT-Java)：NexIoT IoT是一款基于Java技术栈构建的零代码侵入企业级物联网平台，具备高内聚低耦合，零代码侵入。
 * [Beaver IoT](https://github.com/Milesight-IoT/beaver-iot)：Beaver IoT是一个开源平台，旨在快速直观地开发物联网应用程序。
+* [IOT Tree](https://github.com/bambooww/iot-tree)：IOT Tree是一套面向物联网接入、数据规范化、人机交互展示、调度控制和数据利用的服务软件系统。
 
 #### 智能家居
 
@@ -10330,6 +10347,7 @@ permalink: /javalibs
 * [Eclipse SmartHome](https://github.com/eclipse-archived/smarthome)：SmartHome旨在创建一个构建智能家居解决方案的框架，其重点是异构环境，即各种协议和标准集成。
 * [Amazon Echo Bridge](https://github.com/armzilla/amazon-echo-ha-bridge)：Amazon Echo Bridge允许你快速模拟Phillips Hue桥，从而能够将Amazon Echo无缝集成到各种家庭自动化系统中。
 * [Khome](https://github.com/dennisschroeder/khome)：Khome是一个用Kotlin编写的Home Assistant智能家居自动化库。
+* [SmartApplianceEnabler](https://github.com/camueller/SmartApplianceEnabler)：SmartApplianceEnabler可将普通的家用电器转变为智能的、可远程控制的家电，并使其能够参与家庭能源管理，尤其是与光伏太阳能发电相结合。
 
 #### 数字孪生
 
@@ -11711,6 +11729,7 @@ permalink: /javalibs
 * [Compositor](https://compositor.sourceforge.net/)：Compositor让你可以将应用程序的UI与代码分开描述。
 * [MDIUtilities](https://mdiutilities.sourceforge.io/)：MDIUtilities是一个提供各种实用程序类的Java库，主要用于Swing或JavaFX开发。
 * [Marathon](https://github.com/jalian-systems/marathonv5)：Marathon是一款用于录制、回放和重构使用Swing或FX组件开发的Java GUI程序测试用例的工具。
+* [Codion](https://github.com/codion-is/codion)：Codion是一个全栈Java富客户端桌面CRUD应用程序框架。
 
 #### Swing主题库
 
@@ -12204,6 +12223,7 @@ permalink: /javalibs
 * [JEditor](https://jeditor.sourceforge.io/)：jEditor是一款具有语法高亮功能的简单Java文本编辑器，旨在作为其他应用程序的库使用。
 * [Jext](https://github.com/romainguy/jext)：Jext是适用于Windows、Linux和macOS的源代码编辑器。
 * [λiquid](https://github.com/mogenslund/liquid)：Clojure文本编辑器，用于编辑Clojure代码和Markdown代码。
+* [Clopad](https://github.com/fredoverflow/clopad)：Clopad是一款极简的Clojure代码编辑器。
 * [JNotepad](https://gitee.com/jcnc-org/JNotepad)：JNotepad是一款简约而强大的跨平台文本编辑器，旨在提供用户友好的界面和丰富的功能以及插件化使用。
 * [Pure Writer](https://github.com/PureWriter/desktop)：Pure Writer是一个开源编辑器。
 * [Arachnophilia](https://arachnoid.com/arachnophilia/)：Arachnophilia是Paul Lutus用Java编写的源代码编辑器。
@@ -12212,6 +12232,7 @@ permalink: /javalibs
 * [JMarkPad](https://github.com/mayuso/JMarkPad)：JMarkPad是一个简约的文本编辑器，可以实时预览你的Markdown文本。
 * [KeenWrite](https://gitlab.com/DaveJarvis/KeenWrite)：KeenWrite是一个免费的、开源的、跨平台的桌面Markdown编辑器，可以生成排版精美的PDF。
 * [JTaccuino](https://github.com/jtaccuino/jtaccuino)：JTaccuino是一款基于JavaFX的笔记本应用程序，面向Java开发人员。
+* [BinEd](https://github.com/exbin/bined)：用Java编写的二进制数据编辑器。
 
 #### 在线编辑器
 
@@ -12689,6 +12710,13 @@ permalink: /javalibs
 * [Pixel Dungeon](https://github.com/watabou/pixel-dungeon)：Pixel Dungeon是一款传统的Roguelike游戏，具有像素艺术图形和简单的界面，适用于Android、iOS、Windows、Mac和Linux。
 * [ByteLegend](https://github.com/ByteLegend/ByteLegend)：ByteLegend是一款免费、开源的MMORPG游戏，你可以在其中获得现实世界的高薪编程技能。
 * [OpenKeeper](https://github.com/tonihele/OpenKeeper)：OpenKeeper是地下城守护者II游戏和引擎的开源重制版。
+
+#### 象棋引擎
+
+* [BlackWidow](https://github.com/amir650/BlackWidow-Chess)：BlackWidow是一个跨平台的象棋引擎。
+* [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：支持UCI和UCCI协议引擎的象棋界面程序，具有加载引擎、对弈、分析、连线、开局库等功能。
+* [JFXChess](https://github.com/asdfjkl/jfxchess)：JFXChess是一个跨平台的国际象棋图形用户界面。
+* [Bagatur](https://github.com/bagaturchess/Bagatur)：Bagatur是世界上最强大的Java国际象棋引擎之一。
 
 #### 游戏开发工具
 
@@ -14226,7 +14254,7 @@ permalink: /javalibs
 * [Rest.Vertx](https://github.com/zandero/rest.vertx)：适用于Vert.x Vertical的JAX-RS风格注解处理器。
 * [Domino Jackson](https://github.com/DominoKit/domino-jackson)：Domino Jackson是一个基于注解处理器的JSON映射器。
 * [Gson Path](https://github.com/LachlanMcKee/gsonpath)：一个注解处理器库，在编译时生成Gson类型适配器，也使用基本的JsonPath功能。
-* [Sundrio](https://github.com/sundrio/sundrio)：一系列基于APT的代码生成工具，包括高级生成器生成器、DSL生成器、Velocity转换器等。
+* [Sundrio](https://github.com/sundrio/sundrio)：Sundrio提供了一种抽象的Java代码表示方法，允许你在不受上下文限制的情况下表示、操作和生成代码。
 * [APTK](https://github.com/toolisticon/aptk)：APTK可帮助你以更有效的方式构建注解处理器的工具包。
 * [ADT4J](https://github.com/sviperll/adt4j)：该库为Java实现了代数数据类型。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
