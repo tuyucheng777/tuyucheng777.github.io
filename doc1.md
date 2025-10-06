@@ -670,6 +670,7 @@
   * [文本编辑器](docs/doc2.md#文本编辑器)
   * [在线编辑器](docs/doc2.md#在线编辑器)
   * [数学软件](docs/doc2.md#数学软件)
+  * [仿真软件](docs/doc2.md#仿真软件)
   * [UML工具](docs/doc2.md#UML工具)
   * [数电](docs/doc2.md#数电)
   * [数控](docs/doc2.md#数控)
@@ -4248,6 +4249,7 @@
 * [DataSpread](https://github.com/dataspread/dataspread-web)：DataSpread是一个电子表格-数据库混合系统，包含电子表格前端和数据库后端，由伊利诺伊大学和加州大学伯克利分校开源。
 * [Kandy](https://github.com/Kotlin/kandy)：Kandy是Kotlin的一个开源绘图库，它提供了用于创建图形的强大而灵活的DSL，并利用了各种流行的引擎，由JetBrains开源。
 * [Kravis](https://github.com/holgerbrandl/kravis)：Kravis实现一种语法，使用一组标准化的动词来创建各种各样的图表。
+* [ERDDAP](https://github.com/ERDDAP/erddap)：ERDDAP是一款科学数据服务器，它为用户提供了一种简单、一致的方式，可以下载常见文件格式的网格化和表格化科学数据集子集，并制作图表和地图，由美国国家海洋和大气管理局开源。
 
 #### 数据可视化
 
