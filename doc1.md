@@ -1033,6 +1033,7 @@
 * [HARPC](https://github.com/baifendian/harpc)：HARPC是基于Thrift的跨语言、高可用的RPC框架，由百分点科技开源。
 * [Phantom](https://github.com/flipkart-incubator/phantom)：Phantom是一个用于访问分布式服务的高性能代理，是一个支持不同传输和协议的RPC系统，由Flipkart开源。
 * [Remotely](https://github.com/Verizon/remotely)：Remotely是一个优雅、合理、纯函数式的远程系统，由Verizon开发。
+* [Jenkins Remoting](https://github.com/jenkinsci/remoting)：Jenkins Remoting是一个库和可执行Java档案，它实现了Jenkins中的通信层。
 
 #### JSF框架
 
@@ -2163,6 +2164,7 @@
 * [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
 * [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
+* [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
 * [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
 * [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
 * [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
@@ -2730,7 +2732,6 @@
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
 * [HBC](https://github.com/twitter/hbc)：HBC是用于使用Twitter标准Streaming API的Java HTTP客户端，由Twitter开源。
-* [FusionAuth HTTPClient](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
@@ -2776,6 +2777,8 @@
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Rupy](https://github.com/tinspin/rupy)：Rupy是一款节能、安全、高性能的HTTP应用服务器。
 * [Jigsaw](https://www.w3.org/Jigsaw/)：Jigsaw是W3C领先的Web服务器平台，它基于Java实现的先进架构，提供了HTTP 1.1的示例实现以及各种其他功能。
+* [Java HTTP](https://github.com/FusionAuth/java-http)：Java HTTP是一个轻量级、开源、零依赖的Java HTTP服务器。
+* [HttpServer](https://github.com/robaho/httpserver)：JDK com.sun.net.httpserver.HttpServer规范的零依赖实现，具有一些显著的增强功能。
 * [Reactor Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
 * [Nettosphere](https://github.com/Atmosphere/nettosphere)：Nettosphere是由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
 * [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
@@ -2821,6 +2824,7 @@
 * [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
 * [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
 * [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
+* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
 * [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
 * [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范， 产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
 * [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
@@ -3932,6 +3936,7 @@
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
 * [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
+* [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 
 #### 分词器
 

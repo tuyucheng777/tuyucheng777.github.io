@@ -1042,6 +1042,7 @@ permalink: /javalibs
 * [HARPC](https://github.com/baifendian/harpc)：HARPC是基于Thrift的跨语言、高可用的RPC框架，由百分点科技开源。
 * [Phantom](https://github.com/flipkart-incubator/phantom)：Phantom是一个用于访问分布式服务的高性能代理，是一个支持不同传输和协议的RPC系统，由Flipkart开源。
 * [Remotely](https://github.com/Verizon/remotely)：Remotely是一个优雅、合理、纯函数式的远程系统，由Verizon开发。
+* [Jenkins Remoting](https://github.com/jenkinsci/remoting)：Jenkins Remoting是一个库和可执行Java档案，它实现了Jenkins中的通信层。
 
 #### JSF框架
 
@@ -2172,6 +2173,7 @@ permalink: /javalibs
 * [CMAK](https://github.com/yahoo/CMAK)：CMAK是用于管理Kafka集群的工具，由Yahoo开源。
 * [Kafka UI](https://github.com/provectus/kafka-ui)：用于管理Kafka集群的多功能、快速且轻量级的Web UI。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
+* [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
 * [KafkaUI Lite](https://gitee.com/freakchicken/kafka-ui-lite)：非常好用的Kafka UI客户端工具，同时支持Zookeeper、Redis。
 * [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
 * [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
@@ -2739,7 +2741,6 @@ permalink: /javalibs
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
 * [HBC](https://github.com/twitter/hbc)：HBC是用于使用Twitter标准Streaming API的Java HTTP客户端，由Twitter开源。
-* [FusionAuth HTTPClient](https://github.com/FusionAuth/java-http)：完全用纯Java编写的全功能、独立、高性能HTTP服务器和客户端。
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
@@ -2785,6 +2786,8 @@ permalink: /javalibs
 * [ZFoo](https://github.com/zfoo-project/zfoo)：ZFoo是一个极快的企业服务器框架，可用于RPC、游戏服务器、Web服务器。
 * [Rupy](https://github.com/tinspin/rupy)：Rupy是一款节能、安全、高性能的HTTP应用服务器。
 * [Jigsaw](https://www.w3.org/Jigsaw/)：Jigsaw是W3C领先的Web服务器平台，它基于Java实现的先进架构，提供了HTTP 1.1的示例实现以及各种其他功能。
+* [Java HTTP](https://github.com/FusionAuth/java-http)：Java HTTP是一个轻量级、开源、零依赖的Java HTTP服务器。
+* [HttpServer](https://github.com/robaho/httpserver)：JDK com.sun.net.httpserver.HttpServer规范的零依赖实现，具有一些显著的增强功能。
 * [Reactor Netty](https://github.com/reactor/reactor-netty)：Reactor Netty提供基于Netty框架的非阻塞和背压就绪的TCP/HTTP/UDP/QUIC客户端和服务器。
 * [Nettosphere](https://github.com/Atmosphere/nettosphere)：Nettosphere是由Atmosphere和Netty提供支持的Java WebSocket和HTTP服务器。
 * [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd)：NanoHTTPD是一个轻量级HTTP服务器，设计用于嵌入其他应用程序。
@@ -2830,6 +2833,7 @@ permalink: /javalibs
 * [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
 * [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
 * [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
+* [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
 * [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
 * [Xigema Application Server](http://www.vsettan.com.cn/7752.html)：XigemaAS是企业级应用服务器产品，完全符合Java EE 7规范， 产品架构基于OSGi内核，高模块化、高动态性、强扩展性、轻量且配置简单，为企业应用提供稳定、高效、安全的运行引擎和支撑平台，这是华胜信泰的产品。
 * [Thunisoft Application Server](https://www.thunisoft.cn/col81/index)：Thunisoft是华宇自主研发的企业级中间件产品，符合Jakarta EE标准的轻量级服务器。
@@ -3941,6 +3945,7 @@ permalink: /javalibs
 * [FastText](https://github.com/ivanhk/fastText_java)：Facebook FastText的Java移植。
 * [Jpostal](https://github.com/openvenues/jpostal)：Jpostal是libpostal的Java绑定，用于快速国际街道地址解析/规范化。
 * [BerkeleyLM](https://github.com/adampauls/berkeleylm)：用于在内存中估算、存储大型N-Gram语言模型并高效访问它们，由伯克利开源。
+* [BlackLab](https://github.com/instituutnederlandsetaal/BlackLab)：BlackLab是一个基于Apache Lucene构建的语料库检索引擎，由荷兰语言研究所开源。
 
 #### 分词器
 
@@ -5018,6 +5023,7 @@ permalink: /javalibs
 * [Dgraph4j](https://github.com/dgraph-io/dgraph4j)：Java 1.8及更高版本的Dgraph客户端的最小实现。
 * [Nebula Java](https://github.com/vesoft-inc/nebula-java)：Nebula Graph的Java客户端和数据导入器。
 * [Meilisearch Java](https://github.com/meilisearch/meilisearch-java)：Meilisearch是一个开源搜索引擎。
+* [ArangoDB Java Driver](https://github.com/arangodb/arangodb-java-driver)：官方ArangoDB Java驱动程序。
 
 #### ORM框架
 
@@ -8580,6 +8586,7 @@ permalink: /javalibs
 * [Hackday Conventions Java](https://github.com/naver/hackday-conventions-java)：Naver使用的Java开发风格指南。
 * [JavaRanch Style Guide](https://coderanch.com/wiki/718799/Style)：Oracle编码风格的替代方案。
 * [GVSU Java Coding Style](https://www.gvsu.edu/computing/java-coding-style-guide-37.htm)：大峡谷州立大学的Java编码规范。
+* [Databricks Scala Guide](https://github.com/databricks/scala-style-guide)：Databricks Scala编码风格指南。
 * [CMU Java Code Style](https://www.cs.cmu.edu/~rdriley/121/resources/styleguide/)：CMU 15-121源代码编码标准的完整定义。
 * [Chromium Java Style Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/java/java.md)：Chromium Java编码风格指南。
 * [CIS Java Style Guide]()：CIS 120 Java风格指南。
@@ -10169,6 +10176,7 @@ permalink: /javalibs
 * [Open Banking Gateway](https://github.com/adorsys/open-banking-gateway)：提供RESTful API、工具、适配器和连接器，用于透明访问开放银行API(适用于支持PSD2和XS2A以及HBCI/FinTS的银行)。
 * [Open Banking](https://github.com/wso2/financial-open-banking)：WSO2开放银行加速器是一系列技术的集合，可提高开放银行合规性的速度并降低其复杂性。
 * [JBanking](https://github.com/marcwrobel/jbanking)：JBanking是一个帮助开发银行功能的实用程序库，专注但不限于欧洲银行业。
+* [BankingPortal API](https://github.com/abhi9720/BankingPortal-API)：使用Spring Boot和Spring Security的银行门户REST API。
 
 #### 量化交易
 
@@ -10301,6 +10309,7 @@ permalink: /javalibs
 * [Eclipse AAS4J](https://github.com/eclipse-aas4j/aas4j)：AAS4J实现了Asset Administration Shell(AAS)的规范，例如基于AAS规范的元模型、子模型、序列化和反序列化模块、验证器和转换库。
 * [GRASSMARLIN](https://github.com/nsacyber/GRASSMARLIN)：GRASSMARLIN提供工业控制系统以及监控和数据采集(SCADA)网络的IP网络态势感知，以支持网络安全，由美国国家安全局网络安全局开源。
 * [Apache Edgent](https://github.com/apache/incubator-retired-edgent)：Edgent是一种适用于边缘设备的开源编程模型和运行时，使你能够分析设备上的数据和事件。
+* [Eclipse sensiNact](https://eclipse-sensinact.readthedocs.io/en/latest/index.html)：Eclipse sensiNact是一个专注于物联网的横向平台，尤其适用于各种智慧城市和智能家居应用。
 
 #### 物联网平台
 
@@ -12311,6 +12320,7 @@ permalink: /javalibs
 
 * [iBioSim](https://github.com/MyersResearchGroup/iBioSim)：iBioSim是一款计算机辅助设计(CAD)工具，旨在对基因回路进行建模、分析和设计，由科罗拉多大学博尔德分校开发。
 * [CaDoodle](https://github.com/CommonWealthRobotics/CaDoodle)：CaDoodle是一款适用于Linux、Windows、Mac和ChromeOS的本地拖放式CAD应用程序。
+* [ORIPA](https://github.com/oripa/oripa)：ORIPA是一款专门用于设计折纸折痕图案的绘图软件。
 * [Archimedes](https://github.com/ArchimedesCAD/Archimedes)：Archimedes是一款免费开源CAD软件。
 
 #### 办公软件
