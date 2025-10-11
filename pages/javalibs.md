@@ -1624,6 +1624,7 @@ permalink: /javalibs
 * [Token Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
 * [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
 * [Kanaloa](https://github.com/iheartradio/kanaloa)：Kanaloa是一个库，通过提供背压、断路器、负载均衡等功能来提高反向代理服务的弹性。
+* [Distributed Rate Limiter](https://github.com/uppnrise/distributed-rate-limiter)：高性能、Redis支持的令牌桶速率限制器服务，带有REST API。
 
 #### 重试
 
@@ -2148,7 +2149,6 @@ permalink: /javalibs
 * [Apache Qpid](https://github.com/apache/qpid)：Qpid是一个功能强大的开源消息代理，由摩根大通开源。
 * [Axon Server](https://github.com/AxonIQ/axon-server-se)：Axon Server是Axon定制的可扩展且高度可用的事件存储和消息传递系统。
 * [MemQ](https://github.com/pinterest/memq)：MemQ是高效、可扩展的云原生PubSub系统，由Pinterest开源。
-* [LCM](https://github.com/lcm-proj/lcm)：LCM是一组用于消息传递和数据编组的库和工具，针对高带宽和低延迟至关重要的实时系统，由MIT开源。
 * [CMB](https://github.com/Comcast/cmb)：CMB是一款高可用性、水平可扩展的队列和通知服务，兼容AWS SQS和SNS，由Comcast开源。
 * [Ytk-Mp4j](https://github.com/kanyun-inc/ytk-mp4j)：Ytk-Mp4j是一个快速、用户友好、跨平台、多进程、多线程的集体消息传递Java库，用于分布式机器学习，由看云控股技术团队开源。
 * [FolkMQ](https://gitee.com/noear/folkmq)：FolkMQ内存型消息中间件，支持快照持久化和Broker集群模式。
@@ -2177,6 +2177,7 @@ permalink: /javalibs
 
 * [Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue)：Chronicle Queue是一个适用于高性能应用程序的持久低延迟消息传递框架，由Chronicle软件公司开源。
 * [Aeron](https://github.com/real-logic/Aeron)：Aeron是一个开源高性能消息传输机制(单向)，支持高效可靠的UDP单播、UDP多播和IPC消息传输，由Adaptive公司开源。
+* [LCM](https://github.com/lcm-proj/lcm)：LCM是一组用于消息传递和数据编组的库和工具，针对高带宽和低延迟至关重要的实时系统，由MIT开源。
 * [DeFiBus](https://github.com/WeBankFinTech/DeFiBus)：DeFiBus是基于开源消息中间件打造的安全可控的分布式金融级消息总线，由微众开源。
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
@@ -3080,6 +3081,7 @@ permalink: /javalibs
 * [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
 * [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
 * [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
+* [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
 
 #### IO_Uring
 
@@ -3869,6 +3871,7 @@ permalink: /javalibs
 * [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
 * [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
 * [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
+* [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由清华大学开源的新一代多智能体应用开发框架。
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
 * [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
@@ -4464,6 +4467,7 @@ permalink: /javalibs
 * [Wisdom](https://github.com/wisdom-projects/rest-client)：Wisdom可以自动化测试REST API并生成精美的测试报告，同时基于测试过的历史数据，可以生成精美的REST API文档。
 * [Milkman](https://github.com/warmuuh/milkman)：Postman的可扩展替代方案，用于制作各种请求，不仅适用于gRPC，还适用于HTTP、SQL等。
 * [CATS](https://github.com/Endava/cats)：CATS是一个REST API模糊器和OpenAPI端点的负面测试工具，由Endava开源。
+* [Dochia](https://github.com/dochia-dev/dochia-cli)：Dochia会自动生成并执行负面测试和边界测试，让你专注于创造性地解决问题。
 * [Everest](https://github.com/RohitAwate/Everest)：Everest是一个用JavaFX编写的REST API测试客户端。
 * [ACTS](https://github.com/sofastack/sofa-acts)：ACTS是一个基于数据模型驱动的白盒测试框架，由蚂蚁开源。
 * [RESTClient](https://github.com/wiztools/rest-client)：RESTClient是一个用于测试RESTful Web服务的Java应用程序，它可用于测试各种HTTP通信。
@@ -4925,6 +4929,7 @@ permalink: /javalibs
 * [Ride](https://github.com/adobe/ride)：Ride是一个与服务无关、模块化、可扩展的Java REST API自动化框架，由Adobe开源。
 * [Boyka Framework](https://github.com/BoykaFramework/boyka-framework)：测试自动化框架，可在任何平台上自动化任何应用程序。
 * [Gepard](https://github.com/epam/Gepard)：Gepard是一个基于JUnit的测试自动化框架，由EPAM开源。
+* [Autest](https://gitee.com/pyqone/autest)：Autest是一个测试辅助工具集，包括UI自动化工具、测试用例生成工具、接口测试工具以及数据生成和数据处理工具等。
 * [TestZeus](https://github.com/TestZeus/TestZeus)：TestZeus是专为Salesforce构建的开源自动化框架。
 * [UI Automation](https://github.com/mmarquee/ui-automation)：UI Automation是一个用于自动化(通过MS UIAutomation库)基于Win32、WPF和其他Windows应用程序的富客户端应用程序的框架。
 * [FastAutoTest](https://github.com/y-grey/FastAutoTest)：FastAutoTest是一个基于Appium的快速自动化框架。
@@ -5507,7 +5512,7 @@ permalink: /javalibs
 * [RIOT](https://github.com/redis/riot)：RIOT是一个命令行实用程序，旨在帮助你将数据输入和输出Redis。
 * [RedisDesktopManagerFX](https://github.com/tanhuang2016/RedisDesktopManagerFX)：这是一个基于Jedis，使用JavaFX开发的Redis GUI工具。
 * [RedisLettuceClient](https://gitee.com/tyanzhe/RedisLettuceClient)：RedisLettuceClient是一款基于Java Swing的跨平台的Redis桌面管理工具，支持单机、集群模式连接。
-* [RedisFX](https://github.com/tanhuang2016/RedisFX)：使用JavaFX开发的Redis GUI工具。
+* [RedisFX](https://github.com/tanhuang2016/RedisFX)：RedisFX是一个轻量级、现代主题的Redis GUI工具，使用JavaFX开发。
 
 #### MongoDB库/工具
 
@@ -5968,6 +5973,7 @@ permalink: /javalibs
 * [JHash](https://github.com/amdelamar/jhash)：Java中的密码哈希实用程序，支持PBKDF2 hmac SHA1/SHA256/SHA512、BCRYPT和SCRYPT，它会自动加盐，并具有Pepper选项。
 * [RandPassGenerator](https://github.com/nsacyber/RandPassGenerator)：RandPassGenerator是一个简单的命令行实用程序，用于生成随机密码、密码短语和原始密钥，由美国国家安全局网络安全局开源。
 * [Aerogear OTP Java](https://github.com/aerogear-attic/aerogear-otp-java)：根据RFC 4226生成一次性密码的Java库。
+* [JSS](https://github.com/dogtagpki/jss)：NSS是一组库，旨在支持跨平台开发启用安全性的客户端和服务器应用程序。
 
 #### 加密算法
 
@@ -6969,7 +6975,7 @@ permalink: /javalibs
 * [Apache ManifoldCF](https://github.com/apache/manifoldcf)：ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
 * [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，它提供了一些简单的网络爬虫接口，由合肥工业大学开源。
 * [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：XXL-Crawler是一个分布式爬虫框架。
-* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：方便使用Java操控Chrome或Chromium的库，Puppeteer的Java实现。
+* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：Jvppeteer通过DevTools and WebDriver-bidi控制Chrome或Firefox。
 * [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
 * [Spiderman](https://gitee.com/l-weiwei/spiderman)：Spiderman是一个垂直领域的爬虫，可用于抓取特定目标网页的内容，并且解析为所需要的业务数据，整个过程追求无需任何编码就能实现。
 * [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：MongooCrawler是一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
@@ -7106,6 +7112,7 @@ permalink: /javalibs
 * [Nirmata Workflow](https://github.com/nirmata/workflow)：Nirmata Workflow是一个基于Java ZooKeeper和Curator的库，支持分布式任务工作流。
 * [Neuro4j](https://github.com/eternita/workflow)：Neuro4j是一款轻量级的Java工作流引擎，基于Eclipse开发环境。
 * [CIB Seven](https://github.com/cibseven/cibseven)：CIB Seven是一个灵活的工作流和流程自动化框架。
+* [Kikwiflow](https://github.com/atoxfy/kikwiflow)：Kikwiflow是一个从零开始构建的流程编排引擎，旨在解决传统平台的长期痛点。
 
 ## 编排引擎
 
@@ -10561,6 +10568,7 @@ permalink: /javalibs
 * [HiveMQ Edge](https://github.com/hivemq/hivemq-edge)：HiveMQ Edge是一个MQTT网关，可实现OT设备和IT系统之间的互操作性。
 * [IBoot](https://gitee.com/iteaj/iboot)：IBoot是基于Java 1.8、Spring Boot 2.7、Netty等框架开发的物联网网关。
 * [IOTGate](https://gitee.com/willbeahero/IOTGate)：Java版基于Netty的物联网高并发智能网关。
+* [Gateway4Java](https://github.com/ganweisoft/Gateway4Java)：Gateway是一个高性能、集中式的各种设备插件通信和调度模块。
 
 #### MQTT
 
@@ -12733,6 +12741,8 @@ permalink: /javalibs
 * [Minestom](https://github.com/Minestom/Minestom)：Minestom是一个开源库，开发人员可以使用它创建自己的Minecraft服务器软件，而无需Mojang的任何代码。
 * [Dynmap](https://github.com/webbukkit/dynmap)：Dynmap是类似Google地图的Minecraft服务器地图，可以在浏览器中查看。
 * [Fabric](https://github.com/FabricMC/fabric)：Fabric API是Fabric模块必备钩子和互操作机制的库。
+* [SeedcrackerX](https://github.com/19MisterX98/SeedcrackerX)：SeedcrackerX是一个用于破解我的世界Java版游戏世界种子的模组。
+* [McMMO](https://github.com/mcMMO-Dev/mcMMO)：McMMO的目标是采用核心Minecraft游戏机制并将其扩展为广泛而优质的RPG体验。
 * [Glowstone](https://github.com/GlowstoneMC/Glowstone)：Glowstone是一款轻量级、从零开始的开源Minecraft服务器，支持为Bukkit API及其主要分支Spigot和Paper编写的插件。
 * [CatServer](https://github.com/Luohuayu/CatServer)：CatServer是一个高性能的Forge、Bukkit、Spigot服务端核心。
 * [LuckPerms](https://github.com/LuckPerms/LuckPerms)：LuckPerms是一款适用于Minecraft服务器的权限插件，它允许服务器管理员通过创建群组和分配权限来控制玩家可以使用的功能。
@@ -13212,6 +13222,7 @@ permalink: /javalibs
 
 * [Metadata Extractor](https://github.com/drewnoakes/metadata-extractor)：Metadata Extractor是一个用于从媒体文件中读取元数据的Java库。
 * [Vlcj](https://github.com/caprica/vlcj)：VLC媒体播放器的Java框架。
+* [VLC Android](https://code.videolan.org/videolan/vlc-android/)：这是VLC的官方Android端口。
 * [MCAV](https://github.com/PulseBeat02/mcav)：MCAV是一个非常强大的Java多媒体库和插件，是EzMediaCore2的后继者。
 * [MediathekView](https://github.com/mediathekview/MediathekView)：MediathekView程序会搜索各公共广播公司的媒体库，并下载或播放内容。
 * [GStreamer 1.x Java Core](https://github.com/gstreamer-java/gst1-java-core)：这是GStreamer 1.x的一组Java绑定，GStreamer是一个用C语言编写的开源、基于管道的多媒体框架。
@@ -13713,7 +13724,7 @@ permalink: /javalibs
 * [JNode](https://github.com/jnode/jnode)：JNode是一个开源项目以创建一个Java平台的操作系统。
 * [JX](https://github.com/mczero80/jx)：JX是一个Java操作系统，专注于灵活和健壮的操作系统架构，由埃尔朗根大学开发。
 * [JavaOS](https://zh.wikipedia.org/zh-cn/JavaOS)：JavaOS是一套操作系统，以JVM与一些基础软件组件所构成，由SUN公司开发。
-* [AugmentOS](https://github.com/AugmentOS-Community/AugmentOS)：适用于智能眼镜的开源操作系统。
+* [MentraOS](https://github.com/Mentra-Community/MentraOS)：智能眼镜的开源操作系统。
 
 ## 运动规划
 
@@ -15106,6 +15117,7 @@ permalink: /javalibs
 * [Flink Learning](https://github.com/zhisheng17/flink-learning)：含Flink入门、概念、原理、实战、性能调优、源码解析等内容。
 * [Flink Recommand System Demo](https://github.com/will-che/flink-recommandSystem-demo)：基于Flink实现的商品实时推荐系统。
 * [DB Tutorial](https://github.com/dunwu/db-tutorial)：DB Tutorial是一个数据库教程。
+* [Kafka For Beginners](https://github.com/conduktor/kafka-beginners-course)：这是Conduktor的Kafka初学者课程的配套仓库。
 * [Movie Recommend](https://github.com/LuckyZXL2016/Movie_Recommend)：基于Spark的电影推荐系统，包含爬虫项目、Web网站、后台管理系统以及Spark推荐系统。
 * [BigData Guide](https://github.com/MoRan1607/BigDataGuide)：大数据学习指南，从零开始学习大数据开发，包含大数据学习各个阶段资汇总。
 * [Learning Spark](https://github.com/databricks/learning-spark)：Learning Spark书中的示例。
