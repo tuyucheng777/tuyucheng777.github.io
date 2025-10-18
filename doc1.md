@@ -163,9 +163,9 @@
   * [LLM框架](#LLM框架)
   * [LLM客户端](#LLM客户端)
   * [推理引擎](#推理引擎)
+  * [代理框架](#代理框架)
   * [AI智能体](#AI智能体)
   * [LLMOps](#LLMOps)
-  * [代理框架](#代理框架)
   * [机器学习](#机器学习)
   * [自然语言处理](#自然语言处理)
   * [分词器](#分词器)
@@ -669,6 +669,7 @@
   * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
   * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
   * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
+  * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
   * [JavaFX程序](docs/doc2.md#JavaFX程序)
@@ -695,6 +696,7 @@
   * [下载器](docs/doc2.md#下载器)
   * [MQTT客户端](docs/doc2.md#MQTT客户端)
   * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
+  * [字幕软件](docs/doc2.md#字幕软件)
 * [游戏开发](docs/doc2.md#游戏开发)
   * [游戏引擎](docs/doc2.md#游戏引擎)
   * [Minecraft](docs/doc2.md#Minecraft)
@@ -2055,7 +2057,7 @@
 * [Surus](https://github.com/Netflix/Surus)：Pig和Hive中的分析工具集合，Netflix开源。
 * [Compass](https://github.com/cubefs/compass)：Compass是一个大数据任务诊断平台，由OPPO大数据团队开发。
 * [Inviso](https://github.com/Netflix/inviso)：Inviso是一个轻量级工具，提供搜索Hadoop作业、可视化性能和查看集群利用率的功能，由Netflix开源。
-* [DataSophon](https://github.com/datavane/datasophon)：DataSophon是新一代云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台，由Datavane大数据组织开源。
+* [DataSophon](https://github.com/iflytek/datasophon)：DataSophon是新一代云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台，由科大讯飞开源。
 * [DCMonitor](https://github.com/shunfei/DCMonitor)：DCMonitor是一个简单、轻量级的数据中心监控器，目前包含Zookeeper、Kafka和Druid，由舜飞开源。
 * [Apache Eagle](https://github.com/apache/eagle)：Eagle是一种开源分析解决方案，用于在大数据平台上立即识别安全和性能问题，由eBay开源。
 * [Flink Streaming Platform Web](https://github.com/zhp8341/flink-streaming-platform-web)：Flink Streaming Platform Web是基于Flink封装的一个可视化、轻量级的Flink Web客户端系统。
@@ -2272,6 +2274,7 @@
 * [Oracle Bedrock](https://github.com/coherence-community/oracle-bedrock)：Oracle Bedrock提供了一个通用Java框架，用于开发、编排和测试高度并发的分布式应用程序。
 * [Apache Fluo](https://github.com/apache/fluo)：Fluo是一个分布式处理系统，允许用户对大型数据集进行增量更新，由美国国家安全局开源。
 * [Fallout](https://github.com/datastax/fallout)：Fallout是一种用于运行本地或大规模远程分布式正确性、验证和性能测试的工具，由DataStax开源。
+* [Narya](https://github.com/threerings/narya)：Narya提供了一个用于构建实时分布式系统的框架，重点支持多人在线游戏。
 
 #### 分布式锁
 
@@ -2636,6 +2639,7 @@
 
 * [EXistDB](https://github.com/eXist-db/exist)：EXistDB是一个高性能开源原生XML数据库，完全围绕XML技术构建的NoSQL文档数据库和应用程序平台。
 * [BaseX](https://github.com/BaseXdb/basex)：BaseX是一款功能强大、性能卓越的XML数据库引擎，同时也是一款高度兼容的XQuery处理器，全面支持W3C更新和全文扩展。
+* [Elemental](https://github.com/evolvedbinary/elemental)：Elemental是一个专为处理文档而设计的NoSQL数据库。
 
 #### Datalog数据库
 
@@ -3038,6 +3042,7 @@
 * [DNS Java](https://github.com/spotify/dns-java)：这个小型DNS包装器库提供了一些与SRV查找相关的有用功能，由Spotify开源。
 * [DNS Cheater](https://gitee.com/matrixy/dns-cheater)：Java实现的DNS服务器，可通过Web管理界面随意设置灵活的解析规则。
 * [VinylDNS](https://github.com/vinyldns/vinyldns)：VinylDNS是一个与供应商无关的前端平台，用于实现自助式DNS并简化DNS操作，由Comcast开发。
+* [JDNSS](https://github.com/drsjb80/JDNSS)：JDNSS是一个仅权威、支持DNSSEC/TLS/DoH的Java叶DNS服务器。
 
 #### HTTP代理
 
@@ -3061,6 +3066,7 @@
 * [WK Proxy](https://github.com/catas-w/WK-Proxy)：WK Proxy是一款用于HTTP代理和数据包捕获的开源桌面工具，可在Windows和macOS平台上使用。
 * [ProxyChecker](https://github.com/faiqsohail/ProxyChecker)：一款易于使用的开源多线程代理检查器。
 * [Tarmoqchi](https://github.com/floss-uz-community/tarmoqchi)：HTTP隧道工具。
+* [OJP](https://github.com/Open-J-Proxy/ojp)：JDBC驱动程序和第7层代理服务器将应用程序与关系型数据库连接管理分离。
 
 #### 内网穿透
 
@@ -3281,6 +3287,8 @@
 * [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java bean复制实用程序，具有强大的功能和高性能。
 * [ShapeShift](https://github.com/krud-dev/shapeshift)：ShapeShift是用于智能对象映射和对象之间转换的Kotlin/Java库。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
+* [BeanKnife](https://github.com/vipcxj/beanknife)：BeanKnife是用于自动生成DTO的注解处理器库。
+* [DTOGen](https://github.com/manoelcampos/dtogen)：DTOGen是一个Java 21+库，它使用注解从给定的模型类/记录自动生成DTO记录。
 
 ## IoC
 
@@ -3778,6 +3786,7 @@
 * [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
 * [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源。
 * [JSoar](https://github.com/soartech/jsoar)：Soar认知架构的纯Java实现，由密歇根大学人工智能实验室开源。
+* [CST](https://github.com/CST-Group/cst)：CST Toolkit是一个基于Java的工具包，用于构建认知架构，由坎皮纳斯大学开源。
 * [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
 
 #### LLM框架
@@ -3836,13 +3845,25 @@
 * [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
 * [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
 
+#### 代理框架
+
+* [Embabel](https://github.com/embabel/embabel-agent)：Embabel是一个在JVM上编写代理流的框架，它将LLM触发的交互与代码和领域模型无缝融合。
+* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
+* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
+* [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
+* [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
+* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
+* [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
+
 #### AI智能体
 
 * [JoyAgent JDGenie](https://github.com/jd-opensource/joyagent-jdgenie)：JoyAgent JDGenie是端到端的多Agent产品，对于输入的查询或者任务，可以直接回答或者解决，由京东开源。
+* [Astron](https://github.com/iflytek/astron-agent)：星辰Agent是一款面向AI开发者与中小企业的企业级Agent开发平台，由科大讯飞开源。
 * [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
+* [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
 * [SparkX](https://gitee.com/shop-sparker/spark-x)：SparkX是Spring Boot 3、PgSQL、Vue 3开发，采用大语言模型和编排的AI智能体开发平台。
 * [AgentX](https://github.com/lucky-aeon/AgentX)：AgentX是一个基于大模型和多能力平台的智能Agent构建平台。
 * [Innospots](https://gitee.com/innospots/innospots)：Innospots是一款开箱即用的开源企业数字化智能决策解决方案。
@@ -3855,17 +3876,6 @@
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 * [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku旨在为你的组织和AI代理提供统一的访问、路由和资源管理功能。
-
-#### 代理框架
-
-* [Embabel](https://github.com/embabel/embabel-agent)：Embabel是一个在JVM上编写代理流的框架，它将LLM触发的交互与代码和领域模型无缝融合。
-* [Koog](https://github.com/JetBrains/koog)：Koog是一个基于Kotlin的框架，旨在完全使用惯用的Kotlin语言构建和运行AI代理，由JetBrains开源。
-* [ADK Java](https://github.com/google/adk-java)：ADK是一个灵活的模块化框架，用于开发和部署AI代理，由Google开发。
-* [Agentic ADK](https://github.com/AIDC-AI/Agentic-ADK)：Agentic ADK是阿里巴巴国际站AI事业部推出的Agent应用开发框架，基于Google ADK和Ali LangEngine。
-* [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由清华大学开源的新一代多智能体应用开发框架。
-* [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
-* [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
-* [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
 
 #### 机器学习
 
@@ -4246,7 +4256,6 @@
 * [Ocular](https://github.com/tberg12/ocular)：Ocular是一款先进的历史OCR系统。
 * [KanjiTomo OCR](https://github.com/sakarika/kanjitomo-ocr)：KanjiTomo OCR是一个用于从图像中识别日语字符的Java库。
 * [MathOCR](https://github.com/chungkwong/MathOCR)：MathOCR是一个用Java语言编写的印刷体科技文档识别系统。
-* [Caption OCR Tool](https://github.com/sum1re/caption_ocr_tool)：视频硬字幕提取工具。
 * [NewOCR](https://github.com/MSPaintIDE/NewOCR)：NewOCR是一款用Java制作的OCR，无需使用机器学习。
 
 #### 人脸识别
