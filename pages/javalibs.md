@@ -1617,7 +1617,7 @@ permalink: /javalibs
 * [RateLimiter4j](https://github.com/wangzheng0822/ratelimiter4j)：RateLimiter4j是一个高度容错、低延迟、高性能的限流开发库/框架，提供了对HTTP接口的访问限流功能。
 * [Concurrency Limits](https://github.com/Netflix/concurrency-limits)：Concurrency Limits实现并集成了从TCP拥塞控制到自动检测服务并发限制概念，可以以最佳延迟实现最佳吞吐量，由Netflix开源。
 * [Amazon Route53 Infima](https://github.com/awslabs/route53-infima)：Amazon Route53 Infima是一个使用Amazon Route 53管理服务级故障隔离的库。
-* [RateLimitJ](https://github.com/mokies/ratelimitj)：RateLimitJ是用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器，该项目不再活跃。
+* [RateLimitJ](https://github.com/mokies/ratelimitj)：RateLimitJ是用于速率限制的Java库，提供可扩展的存储和应用程序框架适配器。
 * [SDS](https://github.com/didi/sds)：SDS是一个基于Java开发的简单、易用、高性能的服务降级系统，支持限流、熔断和降级等功能，由滴滴开源。
 * [Akali](https://gitee.com/dromara/Akali)：Akali是一个轻量级本地化热点检测/降级框架，适用于大流量场景，可轻松解决业务中超高流量的并发查询等场景，由dromara社区开源。
 * [Spillway](https://github.com/coveooss/spillway)：Spillway可在公共API的软件级别添加分布式节流，由Coveo开源。
@@ -8154,6 +8154,17 @@ permalink: /javalibs
 * [Excel Boot](https://github.com/programmeres/excel-boot)：Excel Boot是一款Excel导入导出解决方案组成的轻量级开源组件。
 * [MemPOI](https://github.com/firegloves/MemPOI)：使用POI简化从数据库导出到Excel文件的库。
 * [Excel Plus](https://github.com/hellokaton/excel-plus)：提高Excel操作库的生产力。
+* [Spark Excel](https://github.com/nightscape/spark-excel)：使用Apache Spark、Spark SQL和DataFrames查询Excel文件的库。
+* [Excel Spring Boot Starter](https://github.com/pig-mesh/excel-spring-boot-starter)：Excel Spring Boot Starter是一个基于FastExcel实现的Spring Boot Starter，用于简化Excel的读写操作。
+* [SQLiteToExcel](https://github.com/li-yu/SQLiteToExcel)：SQLiteToExcel库集成了Apache POI和一些基本的数据库查询操作，使得SQLite和Excel之间的转换更加容易。
+* [EasyExcel Encapsulation](https://github.com/HowieYuan/easyexcel-encapsulation)：EasyExcel的方法封装，快速、简单地处理Excel。
+* [J-Excel](https://github.com/hyberbin/J-Excel)：万能的Excel导入导出工具。
+* [Zouzhiy Excel](https://github.com/zouzhiy/zouzhiy-excel)：Zouzhiy Excel是一款Excel导入导出的轻量级工具。
+* [ZzExcelCreator](https://github.com/zhouzhuo810/ZzExcelCreator)：Excel表格生成工具。
+* [Spoiwo](https://github.com/norbert-radyk/spoiwo)：Spoiwo是一个用于在Scala中生成函数式电子表格的开源库。
+* [SQLite2XL](https://github.com/androidmads/SQLite2XL)：这是一个轻量级库，用于将SQLite数据库转换为Excel并将Excel转换为SQLite。
+* [Excel Download](https://github.com/lannstark/excel-download)：通用Excel模块，可简单、快速地实现Excel下载。
+* [EasyDataBaseExport](https://github.com/Zhuoyuan1/EasyDataBaseExport)：EasyDataBaseExport是一款数据库表结构导出工具，支持MySQL、Oracle、Sqlserver、PostgreSQL、达梦、虚谷、DB2等数据库，同时支持Excel、Word、Markdown、Html、PDF文档导出。
 
 #### CSV库
 
@@ -12188,6 +12199,7 @@ permalink: /javalibs
 * [FranzXaver](https://github.com/afester/FranzXaver)：FranzXaver是一个JavaFX组件和工具库。
 * [FXSVGImage](https://github.com/hervegirod/fxsvgimage)：此库允许将SVG文件转换为JavaFX节点树或图像。
 * [JavaFXCalendar](https://github.com/poralcode/JavaFXCalendar)：JavaFX中的简单Material风格日历。
+* [Techsenger TabPanePro](https://github.com/techsenger/tabpanepro)：Techsenger TabPanePro是一个轻量级的JavaFX库，它通过自定义控制区域、自定义选项卡形状、带边缘滚动的选项卡拖放、选项卡滚动条等实用功能扩展了标准TabPane。
 
 #### JavaFX Dock库
 
@@ -13084,6 +13096,7 @@ permalink: /javalibs
 * [Triton-64](https://github.com/LPC4/Triton-64)：完整的64位虚拟机实现，具有自定义CPU架构、汇编器、编译器和使用JavaFX用Java构建的开发环境。
 * [Bcomp](https://github.com/tune-it/bcomp)：Bcomp是ITMO大学一年级学生学习的简单计算机模型，由圣彼得堡国立信息技术、机械与光学研究型大学开源。
 * [z390](https://github.com/z390development/z390)：z390大型机汇编程序模拟器和运行时引擎。
+* [JC64](https://github.com/ice00/jc64)：JC64是一款使用Java语言尝试100%模拟C64的模拟器。
 
 ## JavaME
 
