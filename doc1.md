@@ -7,15 +7,15 @@
 ## 目录
 
 * [开发框架](#开发框架)
-  * [Web框架](#Web框架)
-  * [RPC框架](#RPC框架)
-  * [JSF框架](#JSF框架)
-  * [REST框架](#REST框架)
-  * [WebService框架](#WebService框架)
-  * [微服务框架](#微服务框架)
-  * [Spring Cloud框架](#Spring-Cloud框架)
-  * [DDD框架](#DDD框架)
-  * [CQRS框架](#CQRS框架)
+    * [Web框架](#Web框架)
+    * [RPC框架](#RPC框架)
+    * [JSF框架](#JSF框架)
+    * [REST框架](#REST框架)
+    * [WebService框架](#WebService框架)
+    * [微服务框架](#微服务框架)
+    * [Spring Cloud框架](#Spring-Cloud框架)
+    * [DDD框架](#DDD框架)
+    * [CQRS框架](#CQRS框架)
 * [微服务库](#微服务库)
 * [微服务治理](#微服务治理)
 * [REST错误处理](#REST错误处理)
@@ -33,35 +33,35 @@
 * [API网关](#API网关)
 * [服务发现](#服务发现)
 * [容错组件](#容错组件)
-  * [限流/降级](#限流降级)
-  * [重试](#重试)
-  * [负载均衡](#负载均衡)
-  * [健康检查](#健康检查)
-  * [混沌引擎](#混沌引擎)
-  * [优雅停机](#优雅停机)
+    * [限流/降级](#限流降级)
+    * [重试](#重试)
+    * [负载均衡](#负载均衡)
+    * [健康检查](#健康检查)
+    * [混沌引擎](#混沌引擎)
+    * [优雅停机](#优雅停机)
 * [大数据](#大数据)
-  * [大数据框架](#大数据框架)
-  * [大数据工具](#大数据工具)
-  * [大数据组件](#大数据组件)
-  * [数据目录](#数据目录)
-  * [数据治理](#数据治理)
-  * [查询引擎](#查询引擎)
-  * [存储格式](#存储格式)
-  * [存储系统](#存储系统)
-  * [流处理平台](#流处理平台)
-  * [ETL工具](#ETL工具)
-  * [CDC组件](#CDC组件)
-  * [连接器](#连接器)
-  * [集群管理](#集群管理)
-  * [调度系统](#调度系统)
-  * [执行引擎](#执行引擎)
-  * [OLAP引擎](#OLAP引擎)
-  * [CEP引擎](#CEP引擎)
-  * [监控工具](#监控工具)
-  * [Notebook](#Notebook)
-  * [数据湖框架](#数据湖框架)
-  * [数据Shuffle](#数据Shuffle)
-  * [时序数据分析](#时序数据分析)
+    * [大数据框架](#大数据框架)
+    * [大数据工具](#大数据工具)
+    * [大数据组件](#大数据组件)
+    * [数据目录](#数据目录)
+    * [数据治理](#数据治理)
+    * [查询引擎](#查询引擎)
+    * [存储格式](#存储格式)
+    * [存储系统](#存储系统)
+    * [流处理平台](#流处理平台)
+    * [ETL工具](#ETL工具)
+    * [CDC组件](#CDC组件)
+    * [连接器](#连接器)
+    * [集群管理](#集群管理)
+    * [调度系统](#调度系统)
+    * [执行引擎](#执行引擎)
+    * [OLAP引擎](#OLAP引擎)
+    * [CEP引擎](#CEP引擎)
+    * [监控工具](#监控工具)
+    * [Notebook](#Notebook)
+    * [数据湖框架](#数据湖框架)
+    * [数据Shuffle](#数据Shuffle)
+    * [时序数据分析](#时序数据分析)
 * [进程间通信](#进程间通信)
     * [消息中间件](#消息中间件)
     * [事件总线](#事件总线)
@@ -70,126 +70,128 @@
     * [消息队列客户端](#消息队列客户端)
     * [Kafka](#Kafka)
 * [分布式开发](#分布式开发)
-  * [分布式锁](#分布式锁)
-  * [分布式ID](#分布式ID)
-  * [Session集群](#Session集群)
-  * [Raft算法](#Raft算法)
-  * [Paxos算法](#Paxos算法)
-  * [Gossip算法](#Gossip算法)
+    * [分布式锁](#分布式锁)
+    * [分布式ID](#分布式ID)
+    * [Session集群](#Session集群)
+    * [Raft算法](#Raft算法)
+    * [Paxos算法](#Paxos算法)
+    * [Gossip算法](#Gossip算法)
 * [数据库](#数据库)
-  * [搜索引擎](#搜索引擎)
-  * [图数据库](#图数据库)
-  * [RDF数据库](#RDF数据库)
-  * [键值存储](#键值存储)
-  * [数据网格](#数据网格)
-  * [时序数据库](#时序数据库)
-  * [嵌入式数据库](#嵌入式数据库)
-  * [关系型数据库](#关系型数据库)
-  * [NoSQL数据库](#NoSQL数据库)
-  * [OLAP数据库](#OLAP数据库)
-  * [向量数据库](#向量数据库)
-  * [对象数据库](#对象数据库)
-  * [XML数据库](#XML数据库)
-  * [Datalog数据库](#Datalog数据库)
-  * [OLTP数据库](#OLTP数据库)
-  * [其他数据库](#其他数据库)
+    * [搜索引擎](#搜索引擎)
+    * [图数据库](#图数据库)
+    * [RDF数据库](#RDF数据库)
+    * [键值存储](#键值存储)
+    * [数据网格](#数据网格)
+    * [时序数据库](#时序数据库)
+    * [嵌入式数据库](#嵌入式数据库)
+    * [关系型数据库](#关系型数据库)
+    * [NoSQL数据库](#NoSQL数据库)
+    * [OLAP数据库](#OLAP数据库)
+    * [向量数据库](#向量数据库)
+    * [对象数据库](#对象数据库)
+    * [XML数据库](#XML数据库)
+    * [Datalog数据库](#Datalog数据库)
+    * [OLTP数据库](#OLTP数据库)
+    * [其他数据库](#其他数据库)
 * [数据库中间件](#数据库中间件)
     * [数据同步](#数据同步)
     * [分库分表](#分库分表)
     * [Binlog](#Binlog)
     * [灾难备份](#灾难备份)
 * [网络编程](#网络编程)
-  * [HTTP客户端](#HTTP客户端)
-  * [HTTP路由](#HTTP路由)
-  * [Web服务器](#Web服务器)
-  * [应用服务器](#应用服务器)
-  * [WebSocket](#WebSocket)
-  * [FTP服务器](#FTP服务器)
-  * [NIO框架](#NIO框架)
-  * [网络库](#网络库)
-  * [Socket](#Socket)
-  * [TCP/UDP库](#TCPUDP库)
-  * [Pcap](#Pcap)
-  * [SSH库](#SSH库)
-  * [DNS库](#DNS库)
-  * [HTTP代理](#HTTP代理)
-  * [内网穿透](#内网穿透)
-  * [IO_Uring](#IO_Uring)
-  * [网络监控](#网络监控)
-  * [网络工具](#网络工具)
-  * [端口转发](#端口转发)
-  * [P2P](#P2P)
-  * [SDN](#SDN)
-  * [SMB](#SMB)
-  * [KCP](#KCP)
-  * [QUIC](#QUIC)
-  * [SNMP](#SNMP)
-  * [SOCKS](#SOCKS)
-  * [Radius](#Radius)
-  * [以太网](#以太网)
-  * [IP库](#IP库)
+    * [HTTP客户端](#HTTP客户端)
+    * [HTTP路由](#HTTP路由)
+    * [Web服务器](#Web服务器)
+    * [应用服务器](#应用服务器)
+    * [WebSocket](#WebSocket)
+    * [FTP服务器](#FTP服务器)
+    * [NIO框架](#NIO框架)
+    * [网络库](#网络库)
+    * [Socket](#Socket)
+    * [TCP/UDP库](#TCPUDP库)
+    * [Pcap](#Pcap)
+    * [SSH库](#SSH库)
+    * [DNS库](#DNS库)
+    * [HTTP代理](#HTTP代理)
+    * [内网穿透](#内网穿透)
+    * [IO_Uring](#IO_Uring)
+    * [网络监控](#网络监控)
+    * [网络工具](#网络工具)
+    * [端口转发](#端口转发)
+    * [P2P](#P2P)
+    * [SDN](#SDN)
+    * [SMB](#SMB)
+    * [KCP](#KCP)
+    * [QUIC](#QUIC)
+    * [SNMP](#SNMP)
+    * [SOCKS](#SOCKS)
+    * [Radius](#Radius)
+    * [以太网](#以太网)
+    * [IP库](#IP库)
 * [工具库](#工具库)
 * [Bean映射&复制](#Bean映射复制)
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [日志库](#日志库)
-  * [日志采集](#日志采集)
-  * [请求/响应记录](#请求响应记录)
-  * [日志追踪](#日志追踪)
-  * [日志分析](#日志分析)
-  * [Logback Appender](#Logback-Appender)
-  * [结构化日志](#结构化日志)
+    * [日志采集](#日志采集)
+    * [请求/响应记录](#请求响应记录)
+    * [日志追踪](#日志追踪)
+    * [日志分析](#日志分析)
+    * [Logback Appender](#Logback-Appender)
+    * [结构化日志](#结构化日志)
 * [缓存库](#缓存库)
-  * [本地缓存](#本地缓存)
-  * [分布式缓存](#分布式缓存)
-  * [缓存管理器](#缓存管理器)
+    * [本地缓存](#本地缓存)
+    * [分布式缓存](#分布式缓存)
+    * [缓存管理器](#缓存管理器)
 * [批处理框架](#批处理框架)
 * [并发编程](#并发编程)
-  * [响应式](#响应式)
-  * [Future扩展](#Future扩展)
-  * [协程库](#协程库)
-  * [Async/Await](#AsyncAwait)
-  * [并行编排](#并行编排)
-  * [线程库](#线程库)
-  * [Channel](#Channel)
-  * [线程池](#线程池)
-  * [Actor库](#Actor库)
-  * [ThreadLocal](#ThreadLocal)
-  * [并发数据结构](#并发数据结构)
-  * [竞争检测](#竞争检测)
+    * [响应式](#响应式)
+    * [Future扩展](#Future扩展)
+    * [协程库](#协程库)
+    * [Async/Await](#AsyncAwait)
+    * [并行编排](#并行编排)
+    * [线程库](#线程库)
+    * [Channel](#Channel)
+    * [线程池](#线程池)
+    * [Actor库](#Actor库)
+    * [ThreadLocal](#ThreadLocal)
+    * [并发数据结构](#并发数据结构)
+    * [竞争检测](#竞争检测)
 * [任务调度](#任务调度)
 * [功能切换](#功能切换)
 * [人工智能](#人工智能)
-  * [LLM框架](#LLM框架)
-  * [LLM客户端](#LLM客户端)
-  * [推理引擎](#推理引擎)
-  * [代理框架](#代理框架)
-  * [AI智能体](#AI智能体)
-  * [LLMOps](#LLMOps)
-  * [机器学习](#机器学习)
-  * [自然语言处理](#自然语言处理)
-  * [分词器](#分词器)
-  * [深度学习](#深度学习)
-  * [模型训练](#模型训练)
-  * [强化学习](#强化学习)
-  * [贝叶斯推理](#贝叶斯推理)
-  * [因果推理](#因果推理)
-  * [语义解析](#语义解析)
-  * [实体链接](#实体链接)
-  * [信息提取](#信息提取)
-  * [联邦学习](#联邦学习)
-  * [推荐系统](#推荐系统)
-  * [遗传算法](#遗传算法)
-  * [专家系统](#专家系统)
-  * [约束编程](#约束编程)
-  * [异常检测](#异常检测)
-  * [逻辑编程](#逻辑编程)
-  * [元启发式框架](#元启发式框架)
-  * [计算机视觉](#计算机视觉)
-  * [OCR](#OCR)
-  * [人脸识别](#人脸识别)
-  * [语音识别](#语音识别)
-  * [语音合成](#语音合成)
+    * [LLM框架](#LLM框架)
+    * [LLM客户端](#LLM客户端)
+    * [推理引擎](#推理引擎)
+    * [MCP](#MCP)
+    * [代理框架](#代理框架)
+    * [AI智能体](#AI智能体)
+    * [LLMOps](#LLMOps)
+    * [AI Assistant](#AI-Assistant)
+    * [机器学习](#机器学习)
+    * [自然语言处理](#自然语言处理)
+    * [分词器](#分词器)
+    * [深度学习](#深度学习)
+    * [模型训练](#模型训练)
+    * [强化学习](#强化学习)
+    * [贝叶斯推理](#贝叶斯推理)
+    * [因果推理](#因果推理)
+    * [语义解析](#语义解析)
+    * [实体链接](#实体链接)
+    * [信息提取](#信息提取)
+    * [联邦学习](#联邦学习)
+    * [推荐系统](#推荐系统)
+    * [遗传算法](#遗传算法)
+    * [专家系统](#专家系统)
+    * [约束编程](#约束编程)
+    * [异常检测](#异常检测)
+    * [逻辑编程](#逻辑编程)
+    * [元启发式框架](#元启发式框架)
+    * [计算机视觉](#计算机视觉)
+    * [OCR](#OCR)
+    * [人脸识别](#人脸识别)
+    * [语音识别](#语音识别)
+    * [语音合成](#语音合成)
 * [数据科学](#数据科学)
     * [数据可视化](#数据可视化)
     * [数据挖掘](#数据挖掘)
@@ -197,77 +199,77 @@
     * [实体解析](#实体解析)
     * [Dataframe](#Dataframe)
 * [测试](docs/doc2.md#测试)
-  * [单元测试](docs/doc2.md#单元测试)
-  * [集成测试](docs/doc2.md#集成测试)
-  * [接口测试](docs/doc2.md#接口测试)
-  * [端到端测试](docs/doc2.md#端到端测试)
-  * [功能测试](docs/doc2.md#功能测试)
-  * [突变测试](docs/doc2.md#突变测试)
-  * [模糊测试](docs/doc2.md#模糊测试)
-  * [性能测试](docs/doc2.md#性能测试)
-  * [基准测试](docs/doc2.md#基准测试)
-  * [属性测试](docs/doc2.md#属性测试)
-  * [验收测试](docs/doc2.md#验收测试)
-  * [回归测试](docs/doc2.md#回归测试)
-  * [A/B测试](docs/doc2.md#AB测试)
-  * [流量回放](docs/doc2.md#流量回放)
-  * [契约测试](docs/doc2.md#契约测试)
-  * [渗透测试](docs/doc2.md#渗透测试)
-  * [快照测试](docs/doc2.md#快照测试)
-  * [断言库](docs/doc2.md#断言库)
-  * [Mock框架](docs/doc2.md#Mock框架)
-  * [接口Mock](docs/doc2.md#接口Mock)
-  * [Mock库](docs/doc2.md#Mock库)
-  * [数据Mock](docs/doc2.md#数据Mock)
-  * [BDD框架](docs/doc2.md#BDD框架)
-  * [测试生成器](docs/doc2.md#测试生成器)
-  * [参数化测试](docs/doc2.md#参数化测试)
-  * [Selenium库](docs/doc2.md#Selenium库)
-  * [Cucumber库](docs/doc2.md#Cucumber库)
-  * [自动化框架](docs/doc2.md#自动化框架)
-  * [自动化工具](docs/doc2.md#自动化工具)
-  * [QA自动化](docs/doc2.md#QA自动化)
-  * [测试报告](docs/doc2.md#测试报告)
-  * [多线程测试](docs/doc2.md#多线程测试)
-  * [POJO测试](docs/doc2.md#POJO测试)
-  * [日志测试](docs/doc2.md#日志测试)
-  * [JUnit扩展](docs/doc2.md#JUnit扩展)
-  * [测试运行器](docs/doc2.md#测试运行器)
-  * [大数据测试](docs/doc2.md#大数据测试)
-  * [其他测试库](docs/doc2.md#其他测试库)
-  * [Spring测试](docs/doc2.md#Spring测试)
-  * [测试套件](docs/doc2.md#测试套件)
-  * [测试模板](docs/doc2.md#测试模板)
-  * [测试异味](docs/doc2.md#测试异味)
-  * [代码覆盖率](docs/doc2#代码覆盖率)
+    * [单元测试](docs/doc2.md#单元测试)
+    * [集成测试](docs/doc2.md#集成测试)
+    * [接口测试](docs/doc2.md#接口测试)
+    * [端到端测试](docs/doc2.md#端到端测试)
+    * [功能测试](docs/doc2.md#功能测试)
+    * [突变测试](docs/doc2.md#突变测试)
+    * [模糊测试](docs/doc2.md#模糊测试)
+    * [性能测试](docs/doc2.md#性能测试)
+    * [基准测试](docs/doc2.md#基准测试)
+    * [属性测试](docs/doc2.md#属性测试)
+    * [验收测试](docs/doc2.md#验收测试)
+    * [回归测试](docs/doc2.md#回归测试)
+    * [A/B测试](docs/doc2.md#AB测试)
+    * [流量回放](docs/doc2.md#流量回放)
+    * [契约测试](docs/doc2.md#契约测试)
+    * [渗透测试](docs/doc2.md#渗透测试)
+    * [快照测试](docs/doc2.md#快照测试)
+    * [断言库](docs/doc2.md#断言库)
+    * [Mock框架](docs/doc2.md#Mock框架)
+    * [接口Mock](docs/doc2.md#接口Mock)
+    * [Mock库](docs/doc2.md#Mock库)
+    * [数据Mock](docs/doc2.md#数据Mock)
+    * [BDD框架](docs/doc2.md#BDD框架)
+    * [测试生成器](docs/doc2.md#测试生成器)
+    * [参数化测试](docs/doc2.md#参数化测试)
+    * [Selenium库](docs/doc2.md#Selenium库)
+    * [Cucumber库](docs/doc2.md#Cucumber库)
+    * [自动化框架](docs/doc2.md#自动化框架)
+    * [自动化工具](docs/doc2.md#自动化工具)
+    * [QA自动化](docs/doc2.md#QA自动化)
+    * [测试报告](docs/doc2.md#测试报告)
+    * [多线程测试](docs/doc2.md#多线程测试)
+    * [POJO测试](docs/doc2.md#POJO测试)
+    * [日志测试](docs/doc2.md#日志测试)
+    * [JUnit扩展](docs/doc2.md#JUnit扩展)
+    * [测试运行器](docs/doc2.md#测试运行器)
+    * [大数据测试](docs/doc2.md#大数据测试)
+    * [其他测试库](docs/doc2.md#其他测试库)
+    * [Spring测试](docs/doc2.md#Spring测试)
+    * [测试套件](docs/doc2.md#测试套件)
+    * [测试模板](docs/doc2.md#测试模板)
+    * [测试异味](docs/doc2.md#测试异味)
+    * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
-  * [数据库驱动](docs/doc2.md#数据库驱动)
-  * [ORM框架](docs/doc2.md#ORM框架)
-  * [JDBC框架](docs/doc2.md#JDBC框架)
-  * [持久层库](docs/doc2.md#持久层库)
-  * [NoSQL库](docs/doc2.md#NoSQL库)
-  * [事务](docs/doc2.md#事务)
-  * [Mybatis库](docs/doc2.md#Mybatis库)
-  * [Hibernate库](docs/doc2.md#Hibernate库)
-  * [JPA库](docs/doc2.md#JPA库)
-  * [数据库连接池](docs/doc2.md#数据库连接池)
-  * [数据库迁移](docs/doc2.md#数据库迁移)
-  * [数据源增强](docs/doc2.md#数据源增强)
-  * [数据库工具](docs/doc2.md#数据库工具)
-  * [存储过程](docs/doc2.md#存储过程)
-  * [N+1检测](docs/doc2.md#N1检测)
-  * [Redis库/工具](docs/doc2.md#Redis库工具)
-  * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
-  * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
-  * [Memcached库/工具](docs/doc2.md#Memcached库工具)
-  * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
-  * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
-  * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
-  * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
-  * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
-  * [Etcd库/工具](docs/doc2.md#Etcd库工具)
-  * [Milvus库/工具](docs/doc2.md#Milvus库工具)
-  * [Vault库/工具](docs/doc2.md#Vault库工具)
+    * [数据库驱动](docs/doc2.md#数据库驱动)
+    * [ORM框架](docs/doc2.md#ORM框架)
+    * [JDBC框架](docs/doc2.md#JDBC框架)
+    * [持久层库](docs/doc2.md#持久层库)
+    * [NoSQL库](docs/doc2.md#NoSQL库)
+    * [事务](docs/doc2.md#事务)
+    * [Mybatis库](docs/doc2.md#Mybatis库)
+    * [Hibernate库](docs/doc2.md#Hibernate库)
+    * [JPA库](docs/doc2.md#JPA库)
+    * [数据库连接池](docs/doc2.md#数据库连接池)
+    * [数据库迁移](docs/doc2.md#数据库迁移)
+    * [数据源增强](docs/doc2.md#数据源增强)
+    * [数据库工具](docs/doc2.md#数据库工具)
+    * [存储过程](docs/doc2.md#存储过程)
+    * [N+1检测](docs/doc2.md#N1检测)
+    * [Redis库/工具](docs/doc2.md#Redis库工具)
+    * [MongoDB库/工具](docs/doc2.md#MongoDB库工具)
+    * [Cassandra库/工具](docs/doc2.md#Cassandra库工具)
+    * [Memcached库/工具](docs/doc2.md#Memcached库工具)
+    * [Zookeeper库/工具](docs/doc2.md#Zookeeper库工具)
+    * [ClickHouse库/工具](docs/doc2.md#ClickHouse库工具)
+    * [ElasticSearch库/工具](docs/doc2.md#ElasticSearch库工具)
+    * [DynamoDB库/工具](docs/doc2.md#DynamoDB库工具)
+    * [Neo4j库/工具](docs/doc2.md#Neo4j库工具)
+    * [Etcd库/工具](docs/doc2.md#Etcd库工具)
+    * [Milvus库/工具](docs/doc2.md#Milvus库工具)
+    * [Vault库/工具](docs/doc2.md#Vault库工具)
 * [安全](docs/doc2.md#安全)
     * [安全框架](docs/doc2.md#安全框架)
     * [JWT库](docs/doc2.md#JWT库)
@@ -298,6 +300,7 @@
 * [序列化](docs/doc2.md#序列化)
     * [Protocol Buffer](docs/doc2.md#Protocol-Buffer)
     * [CBOR](docs/doc2.md#CBOR)
+    * [TOON](docs/doc2.md#TOON)
 * [JSON库](docs/doc2.md#JSON库)
     * [JSON Schema](docs/doc2.md#JSON-Schema)
     * [JsonPath](docs/doc2.md#JsonPath)
@@ -314,15 +317,15 @@
     * [ENV库](docs/doc2.md#ENV库)
     * [Toml库](docs/doc2.md#Toml库)
 * [GraphQL](docs/doc2.md#GraphQL)
-  * [GraphQL Spring](docs/doc2.md#GraphQL-Spring)
-  * [模式优先](docs/doc2.md#模式优先)
-  * [代码优先](docs/doc2.md#代码优先)
-  * [GraphQL库](docs/doc2.md#GraphQL库)
-  * [执行策略](docs/doc2.md#执行策略)
-  * [GraphQL标量](docs/doc2.md#GraphQL标量)
+    * [GraphQL Spring](docs/doc2.md#GraphQL-Spring)
+    * [模式优先](docs/doc2.md#模式优先)
+    * [代码优先](docs/doc2.md#代码优先)
+    * [GraphQL库](docs/doc2.md#GraphQL库)
+    * [执行策略](docs/doc2.md#执行策略)
+    * [GraphQL标量](docs/doc2.md#GraphQL标量)
 * [日期时间](docs/doc2.md#日期时间)
-  * [日历库](docs/doc2.md#日历库)
-  * [日期/时间解析器](docs/doc2.md#日期时间解析器)
+    * [日历库](docs/doc2.md#日历库)
+    * [日期/时间解析器](docs/doc2.md#日期时间解析器)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [机器人开发](docs/doc2.md#机器人开发)
@@ -355,10 +358,10 @@
 * [化学库](docs/doc2.md#化学库)
 * [心理测量学](docs/doc2.md#心理测量学)
 * [网络爬虫](docs/doc2.md#网络爬虫)
-  * [爬虫库](docs/doc2.md#爬虫库)
-  * [HTML提取](docs/doc2.md#HTML提取)
-  * [爬虫平台](docs/doc2.md#爬虫平台)
-  * [Youtube爬取](docs/doc2.md#Youtube爬取)
+    * [爬虫库](docs/doc2.md#爬虫库)
+    * [HTML提取](docs/doc2.md#HTML提取)
+    * [爬虫平台](docs/doc2.md#爬虫平台)
+    * [Youtube爬取](docs/doc2.md#Youtube爬取)
 * [工作流](docs/doc2.md#工作流)
 * [编排引擎](docs/doc2.md#编排引擎)
 * [规则引擎](docs/doc2.md#规则引擎)
@@ -384,13 +387,13 @@
 * [数组库](docs/doc2.md#数组库)
 * [泛型库](docs/doc2.md#泛型库)
 * [函数式编程](docs/doc2.md#函数式编程)
-  * [函数式异常处理](docs/doc2.md#函数式异常处理)
-  * [Stream工具库](docs/doc2.md#Stream工具库)
-  * [Lambda扩展](docs/doc2.md#Lambda扩展)
-  * [LINQ](docs/doc2.md#LINQ)
-  * [模式匹配](docs/doc2.md#模式匹配)
-  * [尾调用](docs/doc2.md#尾调用)
-  * [定理证明](docs/doc2.md#定理证明)
+    * [函数式异常处理](docs/doc2.md#函数式异常处理)
+    * [Stream工具库](docs/doc2.md#Stream工具库)
+    * [Lambda扩展](docs/doc2.md#Lambda扩展)
+    * [LINQ](docs/doc2.md#LINQ)
+    * [模式匹配](docs/doc2.md#模式匹配)
+    * [尾调用](docs/doc2.md#尾调用)
+    * [定理证明](docs/doc2.md#定理证明)
 * [字节码操作](docs/doc2.md#字节码操作)
 * [字节码工具库](docs/doc2.md#字节码工具库)
 * [反编译](docs/doc2.md#反编译)
@@ -405,6 +408,7 @@
     * [TIFF库](docs/doc2.md#TIFF库)
     * [验证码](docs/doc2.md#验证码)
     * [二维码库](docs/doc2.md#二维码库)
+    * [条形码库](docs/doc2.md#条形码库)
     * [水印](docs/doc2.md#水印)
 * [压缩库](docs/doc2.md#压缩库)
     * [数据压缩](docs/doc2.md#数据压缩)
@@ -423,31 +427,31 @@
 * [技术文档](docs/doc2.md#技术文档)
 * [Javadoc](docs/doc2.md#Javadoc)
 * [文件操作](docs/doc2.md#文件操作)
-  * [PDF库](docs/doc2.md#PDF库)
-  * [Excel库](docs/doc2.md#Excel库)
-  * [CSV库](docs/doc2.md#CSV库)
-  * [Word库](docs/doc2.md#Word库)
-  * [PPT库](docs/doc2.md#PPT库)
-  * [ODS库](docs/doc2.md#ODS库)
-  * [DBF库](docs/doc2.md#DBF库)
-  * [Office库](docs/doc2.md#Office库)
-  * [XML库](docs/doc2.md#XML库)
-  * [HTML库](docs/doc2.md#HTML库)
-  * [RTF库](docs/doc2.md#RTF库)
-  * [EPUB库](docs/doc2.md#EPUB库)
-  * [Outlook库](docs/doc2.md#Outlook库)
-  * [License库](docs/doc2.md#License库)
-  * [Markdown库](docs/doc2.md#Markdown库)
-  * [EditorConfig库](docs/doc2.md#EditorConfig库)
-  * [EDI库](docs/doc2.md#EDI库)
-  * [OBJ库](docs/doc2.md#OBJ库)
-  * [OFD库](docs/doc2.md#OFD库)
-  * [文件库](docs/doc2.md#文件库)
-  * [文件转换](docs/doc2.md#文件转换)
-  * [Mime解析](docs/doc2.md#Mime解析)
-  * [文件上传](docs/doc2.md#文件上传)
-  * [文件比较](docs/doc2.md#文件比较)
-  * [文件预览](docs/doc2.md#文件预览)
+    * [PDF库](docs/doc2.md#PDF库)
+    * [Excel库](docs/doc2.md#Excel库)
+    * [CSV库](docs/doc2.md#CSV库)
+    * [Word库](docs/doc2.md#Word库)
+    * [PPT库](docs/doc2.md#PPT库)
+    * [ODS库](docs/doc2.md#ODS库)
+    * [DBF库](docs/doc2.md#DBF库)
+    * [Office库](docs/doc2.md#Office库)
+    * [XML库](docs/doc2.md#XML库)
+    * [HTML库](docs/doc2.md#HTML库)
+    * [RTF库](docs/doc2.md#RTF库)
+    * [EPUB库](docs/doc2.md#EPUB库)
+    * [Outlook库](docs/doc2.md#Outlook库)
+    * [License库](docs/doc2.md#License库)
+    * [Markdown库](docs/doc2.md#Markdown库)
+    * [EditorConfig库](docs/doc2.md#EditorConfig库)
+    * [EDI库](docs/doc2.md#EDI库)
+    * [OBJ库](docs/doc2.md#OBJ库)
+    * [OFD库](docs/doc2.md#OFD库)
+    * [文件库](docs/doc2.md#文件库)
+    * [文件转换](docs/doc2.md#文件转换)
+    * [Mime解析](docs/doc2.md#Mime解析)
+    * [文件上传](docs/doc2.md#文件上传)
+    * [文件比较](docs/doc2.md#文件比较)
+    * [文件预览](docs/doc2.md#文件预览)
 * [容器化工具](docs/doc2.md#容器化工具)
 * [DevOps](docs/doc2.md#DevOps)
 * [性能分析&调优](docs/doc2.md#性能分析调优)
@@ -482,51 +486,51 @@
 * [源代码转换](docs/doc2.md#源代码转换)
 * [源代码浏览器](docs/doc2.md#源代码浏览器)
 * [企业软件开发](docs/doc2.md#企业软件开发)
-  * [项目模板](docs/doc2.md#项目模板)
-  * [后台管理系统](docs/doc2.md#后台管理系统)
-  * [低代码](docs/doc2.md#低代码)
-  * [权限管理系统](docs/doc2.md#权限管理系统)
-  * [商城系统](docs/doc2.md#商城系统)
-  * [秒杀系统](docs/doc2.md#秒杀系统)
-  * [医疗系统](docs/doc2.md#医疗系统)
-  * [项目管理](docs/doc2.md#项目管理)
-  * [即时通讯](docs/doc2.md#即时通讯)
-  * [问题跟踪系统](docs/doc2.md#问题跟踪系统)
-  * [QA系统](docs/doc2.md#QA系统)
-  * [CMS系统](docs/doc2.md#CMS系统)
-  * [博客系统](docs/doc2.md#博客系统)
-  * [论坛系统](docs/doc2.md#论坛系统)
-  * [ERP系统](docs/doc2.md#ERP系统)
-  * [CRM系统](docs/doc2.md#CRM系统)
-  * [HRM系统](docs/doc2.md#HRM系统)
-  * [AI系统](docs/doc2.md#AI系统)
-  * [OA系统](docs/doc2.md#OA系统)
-  * [DMS系统](docs/doc2.md#DMS系统)
-  * [WMS系统](docs/doc2.md#WMS系统)
-  * [MES系统](docs/doc2.md#MES系统)
-  * [PMS系统](docs/doc2.md#PMS系统)
-  * [PLM系统](docs/doc2.md#PLM系统)
-  * [EMS系统](docs/doc2.md#EMS系统)
-  * [云盘系统](docs/doc2.md#云盘系统)
-  * [充电桩系统](docs/doc2.md#充电桩系统)
-  * [数据中台](docs/doc2.md#数据中台)
-  * [知识管理系统](docs/doc2.md#知识管理系统)
-  * [SCRM系统](docs/doc2.md#SCRM系统)
-  * [门户框架](docs/doc2.md#门户框架)
-  * [教育软件](docs/doc2.md#教育软件)
-  * [评测系统](docs/doc2.md#评测系统)
-  * [BaaS](docs/doc2.md#BaaS)
-  * [Data API](docs/doc2.md#Data-API)
-  * [插件框架](docs/doc2.md#插件框架)
-  * [POS](docs/doc2.md#POS)
-  * [业务](docs/doc2.md#业务)
-  * [电商](docs/doc2.md#电商)
+    * [项目模板](docs/doc2.md#项目模板)
+    * [后台管理系统](docs/doc2.md#后台管理系统)
+    * [低代码](docs/doc2.md#低代码)
+    * [权限管理系统](docs/doc2.md#权限管理系统)
+    * [商城系统](docs/doc2.md#商城系统)
+    * [秒杀系统](docs/doc2.md#秒杀系统)
+    * [医疗系统](docs/doc2.md#医疗系统)
+    * [项目管理](docs/doc2.md#项目管理)
+    * [即时通讯](docs/doc2.md#即时通讯)
+    * [问题跟踪系统](docs/doc2.md#问题跟踪系统)
+    * [QA系统](docs/doc2.md#QA系统)
+    * [CMS系统](docs/doc2.md#CMS系统)
+    * [博客系统](docs/doc2.md#博客系统)
+    * [论坛系统](docs/doc2.md#论坛系统)
+    * [ERP系统](docs/doc2.md#ERP系统)
+    * [CRM系统](docs/doc2.md#CRM系统)
+    * [HRM系统](docs/doc2.md#HRM系统)
+    * [AI系统](docs/doc2.md#AI系统)
+    * [OA系统](docs/doc2.md#OA系统)
+    * [DMS系统](docs/doc2.md#DMS系统)
+    * [WMS系统](docs/doc2.md#WMS系统)
+    * [MES系统](docs/doc2.md#MES系统)
+    * [PMS系统](docs/doc2.md#PMS系统)
+    * [PLM系统](docs/doc2.md#PLM系统)
+    * [EMS系统](docs/doc2.md#EMS系统)
+    * [云盘系统](docs/doc2.md#云盘系统)
+    * [充电桩系统](docs/doc2.md#充电桩系统)
+    * [数据中台](docs/doc2.md#数据中台)
+    * [知识管理系统](docs/doc2.md#知识管理系统)
+    * [SCRM系统](docs/doc2.md#SCRM系统)
+    * [门户框架](docs/doc2.md#门户框架)
+    * [教育软件](docs/doc2.md#教育软件)
+    * [评测系统](docs/doc2.md#评测系统)
+    * [BaaS](docs/doc2.md#BaaS)
+    * [Data API](docs/doc2.md#Data-API)
+    * [插件框架](docs/doc2.md#插件框架)
+    * [POS](docs/doc2.md#POS)
+    * [业务](docs/doc2.md#业务)
+    * [电商](docs/doc2.md#电商)
 * [支付](docs/doc2.md#支付)
-  * [微信支付](docs/doc2.md#微信支付)
-  * [支付宝](docs/doc2.md#支付宝)
-  * [支付平台](docs/doc2.md#支付平台)
-  * [支付网关](docs/doc2.md#支付网关)
-  * [银行卡/信用卡](docs/doc2.md#银行卡信用卡)
+    * [微信支付](docs/doc2.md#微信支付)
+    * [支付宝](docs/doc2.md#支付宝)
+    * [支付平台](docs/doc2.md#支付平台)
+    * [支付网关](docs/doc2.md#支付网关)
+    * [银行卡/信用卡](docs/doc2.md#银行卡信用卡)
 * [云计算](docs/doc2.md#云计算)
     * [SaaS平台](docs/doc2.md#SaaS平台)
     * [PaaS平台](docs/doc2.md#PaaS平台)
@@ -540,32 +544,32 @@
 * [APN](docs/doc2.md#APN)
 * [Webhook](docs/doc2.md#Webhook)
 * [API&客户端](docs/doc2.md#API客户端)
-  * [Twitter](docs/doc2.md#Twitter)
-  * [Facebook](docs/doc2.md#Facebook)
-  * [Instagram](docs/doc2.md#Instagram)
-  * [Telegram](docs/doc2.md#Telegram)
-  * [Whatsapp](docs/doc2.md#Whatsapp)
-  * [Slack](docs/doc2.md#Slack)
-  * [Reddit](docs/doc2.md#Reddit)
-  * [TikTok](docs/doc2.md#TikTok)
-  * [Spotify](docs/doc2.md#Spotify)
-  * [Notion](docs/doc2.md#Notion)
-  * [JIRA](docs/doc2.md#JIRA)
-  * [Jenkins](docs/doc2.md#Jenkins)
-  * [Riot](docs/doc2.md#Riot)
-  * [TheMovieDb](docs/doc2.md#TheMovieDb)
-  * [TeamSpeak](docs/doc2.md#TeamSpeak)
-  * [Mastodon](docs/doc2.md#Mastodon)
+    * [Twitter](docs/doc2.md#Twitter)
+    * [Facebook](docs/doc2.md#Facebook)
+    * [Instagram](docs/doc2.md#Instagram)
+    * [Telegram](docs/doc2.md#Telegram)
+    * [Whatsapp](docs/doc2.md#Whatsapp)
+    * [Slack](docs/doc2.md#Slack)
+    * [Reddit](docs/doc2.md#Reddit)
+    * [TikTok](docs/doc2.md#TikTok)
+    * [Spotify](docs/doc2.md#Spotify)
+    * [Notion](docs/doc2.md#Notion)
+    * [JIRA](docs/doc2.md#JIRA)
+    * [Jenkins](docs/doc2.md#Jenkins)
+    * [Riot](docs/doc2.md#Riot)
+    * [TheMovieDb](docs/doc2.md#TheMovieDb)
+    * [TeamSpeak](docs/doc2.md#TeamSpeak)
+    * [Mastodon](docs/doc2.md#Mastodon)
 * [Docker客户端](docs/doc2.md#Docker客户端)
 * [Consul客户端](docs/doc2.md#Consul客户端)
 * [Kubernetes客户端](docs/doc2.md#Kubernetes客户端)
 * [Web3](docs/doc2.md#Web3)
-  * [区块链](docs/doc2.md#区块链)
-  * [以太坊](docs/doc2.md#以太坊)
-  * [比特币](docs/doc2.md#比特币)
-  * [交易所](docs/doc2.md#交易所)
-  * [区块链SDK](docs/doc2.md#区块链SDK)
-  * [智能合约](docs/doc2.md#智能合约)
+    * [区块链](docs/doc2.md#区块链)
+    * [以太坊](docs/doc2.md#以太坊)
+    * [比特币](docs/doc2.md#比特币)
+    * [交易所](docs/doc2.md#交易所)
+    * [区块链SDK](docs/doc2.md#区块链SDK)
+    * [智能合约](docs/doc2.md#智能合约)
 * [金融](docs/doc2.md#金融)
     * [银行API](docs/doc2.md#银行API)
     * [量化交易](docs/doc2.md#量化交易)
@@ -603,115 +607,115 @@
 * [幂等处理](docs/doc2.md#幂等处理)
 * [数据字典](docs/doc2.md#数据字典)
 * [Bot](docs/doc2.md#Bot)
-  * [Discord机器人](docs/doc2.md#Discord机器人)
-  * [Telegram机器人](docs/doc2.md#Telegram机器人)
-  * [Facebook机器人](docs/doc2.md#Facebook机器人)
-  * [QQ机器人](docs/doc2.md#QQ机器人)
-  * [微信机器人](docs/doc2.md#微信机器人)
+    * [Discord机器人](docs/doc2.md#Discord机器人)
+    * [Telegram机器人](docs/doc2.md#Telegram机器人)
+    * [Facebook机器人](docs/doc2.md#Facebook机器人)
+    * [QQ机器人](docs/doc2.md#QQ机器人)
+    * [微信机器人](docs/doc2.md#微信机器人)
 * [Android开发](docs/doc2.md#Android开发)
-  * [Android框架](docs/doc2.md#Android框架)
-  * [Android测试库](docs/doc2.md#Android测试库)
-  * [Android UI库](docs/doc2.md#Android-UI库)
-  * [ActionBar小部件](docs/doc2.md#ActionBar小部件)
-  * [Activity小部件](docs/doc2.md#Activity小部件)
-  * [Adapter](docs/doc2.md#Adapter)
-  * [Android图表库](docs/doc2.md#Android图表库)
-  * [Android日历库](docs/doc2.md#Android日历库)
-  * [Android布局库](docs/doc2.md#Android布局库)
-  * [Android富文本组件](docs/doc2.md#Android富文本组件)
-  * [Android下拉刷新](docs/doc2.md#Android下拉刷新)
-  * [Android项目模板](docs/doc2.md#Android项目模板)
-  * [Android图像库](docs/doc2.md#Android图像库)
-  * [Android ImageView](docs/doc2.md#Android-ImageView)
-  * [Android选择器](docs/doc2.md#Android选择器)
-  * [Android图片/视频选择器](docs/doc2.md#Android图片视频选择器)
-  * [Android颜色选择器](docs/doc2.md#Android颜色选择器)
-  * [Android日期/时间选择器](docs/doc2.md#Android日期时间选择器)
-  * [Android文件/目录选择器](docs/doc2.md#Android文件目录选择器)
-  * [Android国家选择器](docs/doc2.md#Android国家选择器)
-  * [Android城市选择器](docs/doc2.md#Android城市选择器)
-  * [Android位置选择器](docs/doc2.md#Android位置选择器)
-  * [Android数字选择器](docs/doc2.md#Android数字选择器)
-  * [Android滚动选择器](docs/doc2.md#Android滚动选择器)
-  * [Android联系人选择器](docs/doc2.md#Android联系人选择器)
-  * [Android更新库](docs/doc2.md#Android更新库)
-  * [Android热修复](docs/doc2.md#Android热修复)
-  * [Android运行时权限](docs/doc2.md#Android运行时权限)
-  * [Android下载库](docs/doc2.md#Android下载库)
-  * [Android评分库](docs/doc2.md#Android评分库)
-  * [Android路由框架](docs/doc2.md#Android路由框架)
-  * [Android导航库](docs/doc2.md#Android导航库)
-  * [Android抽屉库](docs/doc2.md#Android抽屉库)
-  * [Android动画库](docs/doc2.md#Android动画库)
-  * [Android插件框架](docs/doc2.md#Android插件框架)
-  * [Android WebView](docs/doc2.md#Android-WebView)
-  * [Android加载库](docs/doc2.md#Android加载库)
-  * [Android换肤框架](docs/doc2.md#Android换肤框架)
+    * [Android框架](docs/doc2.md#Android框架)
+    * [Android测试库](docs/doc2.md#Android测试库)
+    * [Android UI库](docs/doc2.md#Android-UI库)
+    * [ActionBar小部件](docs/doc2.md#ActionBar小部件)
+    * [Activity小部件](docs/doc2.md#Activity小部件)
+    * [Adapter](docs/doc2.md#Adapter)
+    * [Android图表库](docs/doc2.md#Android图表库)
+    * [Android日历库](docs/doc2.md#Android日历库)
+    * [Android布局库](docs/doc2.md#Android布局库)
+    * [Android富文本组件](docs/doc2.md#Android富文本组件)
+    * [Android下拉刷新](docs/doc2.md#Android下拉刷新)
+    * [Android项目模板](docs/doc2.md#Android项目模板)
+    * [Android图像库](docs/doc2.md#Android图像库)
+    * [Android ImageView](docs/doc2.md#Android-ImageView)
+    * [Android选择器](docs/doc2.md#Android选择器)
+    * [Android图片/视频选择器](docs/doc2.md#Android图片视频选择器)
+    * [Android颜色选择器](docs/doc2.md#Android颜色选择器)
+    * [Android日期/时间选择器](docs/doc2.md#Android日期时间选择器)
+    * [Android文件/目录选择器](docs/doc2.md#Android文件目录选择器)
+    * [Android国家选择器](docs/doc2.md#Android国家选择器)
+    * [Android城市选择器](docs/doc2.md#Android城市选择器)
+    * [Android位置选择器](docs/doc2.md#Android位置选择器)
+    * [Android数字选择器](docs/doc2.md#Android数字选择器)
+    * [Android滚动选择器](docs/doc2.md#Android滚动选择器)
+    * [Android联系人选择器](docs/doc2.md#Android联系人选择器)
+    * [Android更新库](docs/doc2.md#Android更新库)
+    * [Android热修复](docs/doc2.md#Android热修复)
+    * [Android运行时权限](docs/doc2.md#Android运行时权限)
+    * [Android下载库](docs/doc2.md#Android下载库)
+    * [Android评分库](docs/doc2.md#Android评分库)
+    * [Android路由框架](docs/doc2.md#Android路由框架)
+    * [Android导航库](docs/doc2.md#Android导航库)
+    * [Android抽屉库](docs/doc2.md#Android抽屉库)
+    * [Android动画库](docs/doc2.md#Android动画库)
+    * [Android插件框架](docs/doc2.md#Android插件框架)
+    * [Android WebView](docs/doc2.md#Android-WebView)
+    * [Android加载库](docs/doc2.md#Android加载库)
+    * [Android换肤框架](docs/doc2.md#Android换肤框架)
 * [GUI开发/程序](docs/doc2.md#GUI开发程序)
-  * [GUI框架](docs/doc2.md#GUI框架)
-  * [移动开发框架](docs/doc2.md#移动开发框架)
-  * [Swing](docs/doc2.md#Swing)
-  * [Swing主题库](docs/doc2.md#Swing主题库)
-  * [Swing UI库](docs/doc2.md#Swing-UI库)
-  * [Swing组件库](docs/doc2.md#Swing组件库)
-  * [Swing Dock库](docs/doc2.md#Swing-Dock库)
-  * [Swing布局库](docs/doc2.md#Swing布局库)
-  * [Swing选择器](docs/doc2.md#Swing选择器)
-  * [Swing图表库](docs/doc2.md#Swing图表库)
-  * [Swing测试库](docs/doc2.md#Swing测试库)
-  * [JavaFX](docs/doc2.md#JavaFX)
-  * [JavaFX主题库](docs/doc2.md#JavaFX主题库)
-  * [JavaFX样式库](docs/doc2.md#JavaFX样式库)
-  * [JavaFX组件库](docs/doc2.md#JavaFX组件库)
-  * [JavaFX Dock库](docs/doc2.md#JavaFX-Dock库)
-  * [JavaFX图表库](docs/doc2.md#JavaFX图表库)
-  * [JavaFX图标库](docs/doc2.md#JavaFX图标库)
-  * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
-  * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
-  * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
-  * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
-  * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
-  * [浏览器](docs/doc2.md#浏览器)
-  * [JavaFX程序](docs/doc2.md#JavaFX程序)
-  * [GUI程序](docs/doc2.md#GUI程序)
-  * [IDE](docs/doc2.md#IDE)
-  * [可视化编程](docs/doc2.md#可视化编程)
-  * [文本编辑器](docs/doc2.md#文本编辑器)
-  * [在线编辑器](docs/doc2.md#在线编辑器)
-  * [数学软件](docs/doc2.md#数学软件)
-  * [仿真软件](docs/doc2.md#仿真软件)
-  * [UML工具](docs/doc2.md#UML工具)
-  * [数电](docs/doc2.md#数电)
-  * [数控](docs/doc2.md#数控)
-  * [CAD](docs/doc2.md#CAD)
-  * [办公软件](docs/doc2.md#办公软件)
-  * [思维导图](docs/doc2.md#思维导图)
-  * [音视频软件](docs/doc2.md#音视频软件)
-  * [数据库软件](docs/doc2.md#数据库软件)
-  * [数据库建模](docs/doc2.md#数据库建模)
-  * [远程连接](docs/doc2.md#远程连接)
-  * [终端模拟器](docs/doc2.md#终端模拟器)
-  * [远程桌面控制](docs/doc2.md#远程桌面控制)
-  * [Git客户端](docs/doc2.md#Git客户端)
-  * [下载器](docs/doc2.md#下载器)
-  * [MQTT客户端](docs/doc2.md#MQTT客户端)
-  * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
-  * [字幕软件](docs/doc2.md#字幕软件)
+    * [GUI框架](docs/doc2.md#GUI框架)
+    * [移动开发框架](docs/doc2.md#移动开发框架)
+    * [Swing](docs/doc2.md#Swing)
+    * [Swing主题库](docs/doc2.md#Swing主题库)
+    * [Swing UI库](docs/doc2.md#Swing-UI库)
+    * [Swing组件库](docs/doc2.md#Swing组件库)
+    * [Swing Dock库](docs/doc2.md#Swing-Dock库)
+    * [Swing布局库](docs/doc2.md#Swing布局库)
+    * [Swing选择器](docs/doc2.md#Swing选择器)
+    * [Swing图表库](docs/doc2.md#Swing图表库)
+    * [Swing测试库](docs/doc2.md#Swing测试库)
+    * [JavaFX](docs/doc2.md#JavaFX)
+    * [JavaFX主题库](docs/doc2.md#JavaFX主题库)
+    * [JavaFX样式库](docs/doc2.md#JavaFX样式库)
+    * [JavaFX组件库](docs/doc2.md#JavaFX组件库)
+    * [JavaFX Dock库](docs/doc2.md#JavaFX-Dock库)
+    * [JavaFX图表库](docs/doc2.md#JavaFX图表库)
+    * [JavaFX图标库](docs/doc2.md#JavaFX图标库)
+    * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
+    * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
+    * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
+    * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
+    * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
+    * [浏览器](docs/doc2.md#浏览器)
+    * [JavaFX程序](docs/doc2.md#JavaFX程序)
+    * [GUI程序](docs/doc2.md#GUI程序)
+    * [IDE](docs/doc2.md#IDE)
+    * [可视化编程](docs/doc2.md#可视化编程)
+    * [文本编辑器](docs/doc2.md#文本编辑器)
+    * [在线编辑器](docs/doc2.md#在线编辑器)
+    * [数学软件](docs/doc2.md#数学软件)
+    * [仿真软件](docs/doc2.md#仿真软件)
+    * [UML工具](docs/doc2.md#UML工具)
+    * [数电](docs/doc2.md#数电)
+    * [数控](docs/doc2.md#数控)
+    * [CAD](docs/doc2.md#CAD)
+    * [办公软件](docs/doc2.md#办公软件)
+    * [思维导图](docs/doc2.md#思维导图)
+    * [音视频软件](docs/doc2.md#音视频软件)
+    * [数据库软件](docs/doc2.md#数据库软件)
+    * [数据库建模](docs/doc2.md#数据库建模)
+    * [远程连接](docs/doc2.md#远程连接)
+    * [终端模拟器](docs/doc2.md#终端模拟器)
+    * [远程桌面控制](docs/doc2.md#远程桌面控制)
+    * [Git客户端](docs/doc2.md#Git客户端)
+    * [下载器](docs/doc2.md#下载器)
+    * [MQTT客户端](docs/doc2.md#MQTT客户端)
+    * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
+    * [字幕软件](docs/doc2.md#字幕软件)
 * [游戏开发](docs/doc2.md#游戏开发)
-  * [游戏引擎](docs/doc2.md#游戏引擎)
-  * [Minecraft](docs/doc2.md#Minecraft)
-  * [游戏服务器](docs/doc2.md#游戏服务器)
-  * [游戏模拟器](docs/doc2.md#游戏模拟器)
-  * [2D/3D渲染](docs/doc2.md#2D3D渲染)
-  * [游戏开发库](docs/doc2.md#游戏开发库)
-  * [碰撞检测](docs/doc2.md#碰撞检测)
-  * [寻路算法](docs/doc2.md#寻路算法)
-  * [实体框架](docs/doc2.md#实体框架)
-  * [游戏编辑器](docs/doc2.md#游戏编辑器)
-  * [开源游戏](docs/doc2.md#开源游戏)
-  * [象棋引擎](docs/doc2.md#象棋引擎)
-  * [游戏开发工具](docs/doc2.md#游戏开发工具)
-  * [虚拟现实](docs/doc2.md#虚拟现实)
+    * [游戏引擎](docs/doc2.md#游戏引擎)
+    * [Minecraft](docs/doc2.md#Minecraft)
+    * [游戏服务器](docs/doc2.md#游戏服务器)
+    * [游戏模拟器](docs/doc2.md#游戏模拟器)
+    * [2D/3D渲染](docs/doc2.md#2D3D渲染)
+    * [游戏开发库](docs/doc2.md#游戏开发库)
+    * [碰撞检测](docs/doc2.md#碰撞检测)
+    * [寻路算法](docs/doc2.md#寻路算法)
+    * [实体框架](docs/doc2.md#实体框架)
+    * [游戏编辑器](docs/doc2.md#游戏编辑器)
+    * [开源游戏](docs/doc2.md#开源游戏)
+    * [象棋引擎](docs/doc2.md#象棋引擎)
+    * [游戏开发工具](docs/doc2.md#游戏开发工具)
+    * [虚拟现实](docs/doc2.md#虚拟现实)
 * [JVM代理](docs/doc2.md#JVM代理)
 * [热加载](docs/doc2.md#热加载)
 * [类加载](docs/doc2.md#类加载)
@@ -739,33 +743,33 @@
     * [音频编解码器](docs/doc2.md#音频编解码器)
     * [媒体服务器](docs/doc2.md#媒体服务器)
 * [数据结构](docs/doc2.md#数据结构)
-  * [树](docs/doc2.md#树)
-  * [堆](docs/doc2.md#堆)
-  * [图](docs/doc2.md#图)
-  * [BitSet](docs/doc2.md#BitSet)
-  * [队列](docs/doc2.md#队列)
-  * [Map](docs/doc2.md#Map)
-  * [List](docs/doc2.md#List)
-  * [CRDT](docs/doc2.md#CRDT)
-  * [布隆过滤器](docs/doc2.md#布隆过滤器)
-  * [布谷鸟过滤器](docs/doc2.md#布谷鸟过滤器)
+    * [树](docs/doc2.md#树)
+    * [堆](docs/doc2.md#堆)
+    * [图](docs/doc2.md#图)
+    * [BitSet](docs/doc2.md#BitSet)
+    * [队列](docs/doc2.md#队列)
+    * [Map](docs/doc2.md#Map)
+    * [List](docs/doc2.md#List)
+    * [CRDT](docs/doc2.md#CRDT)
+    * [布隆过滤器](docs/doc2.md#布隆过滤器)
+    * [布谷鸟过滤器](docs/doc2.md#布谷鸟过滤器)
 * [基本类型](docs/doc2.md#基本类型)
 * [堆外内存库](docs/doc2.md#堆外内存库)
 * [结构体](docs/doc2.md#结构体)
 * [随机数生成器](docs/doc2.md#随机数生成器)
 * [算法库](docs/doc2.md#算法库)
-  * [字符串算法](docs/doc2.md#字符串算法)
-  * [文本排序](docs/doc2.md#文本排序)
-  * [聚类算法](docs/doc2.md#聚类算法)
-  * [图算法](docs/doc2.md#图算法)
-  * [随机流算法](docs/doc2.md#随机流算法)
-  * [HyperLogLog算法](docs/doc2.md#HyperLogLog算法)
-  * [Simhash算法](docs/doc2.md#Simhash算法)
-  * [LSH算法](docs/doc2.md#LSH算法)
-  * [LDA算法](docs/doc2.md#LDA算法)
-  * [装箱算法](docs/doc2.md#装箱算法)
-  * [下采样](docs/doc2.md#下采样)
-  * [噪声库](docs/doc2.md#噪声库)
+    * [字符串算法](docs/doc2.md#字符串算法)
+    * [文本排序](docs/doc2.md#文本排序)
+    * [聚类算法](docs/doc2.md#聚类算法)
+    * [图算法](docs/doc2.md#图算法)
+    * [随机流算法](docs/doc2.md#随机流算法)
+    * [HyperLogLog算法](docs/doc2.md#HyperLogLog算法)
+    * [Simhash算法](docs/doc2.md#Simhash算法)
+    * [LSH算法](docs/doc2.md#LSH算法)
+    * [LDA算法](docs/doc2.md#LDA算法)
+    * [装箱算法](docs/doc2.md#装箱算法)
+    * [下采样](docs/doc2.md#下采样)
+    * [噪声库](docs/doc2.md#噪声库)
 * [原生开发](docs/doc2.md#原生开发)
 * [互操作](docs/doc2.md#互操作)
     * [Python](docs/doc2.md#Python)
@@ -869,10 +873,10 @@
 * [编解码](docs/doc2.md#编解码)
 * [打印机](docs/doc2.md#打印机)
 * [Web开发](docs/doc2.md#Web开发)
-  * [WebAssembly](docs/doc2.md#WebAssembly)
-  * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
-  * [GWT库](docs/doc2.md#GWT库)
-  * [CSS库](docs/doc2.md#CSS库)
+    * [WebAssembly](docs/doc2.md#WebAssembly)
+    * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
+    * [GWT库](docs/doc2.md#GWT库)
+    * [CSS库](docs/doc2.md#CSS库)
 * [对象图导航](docs/doc2.md#对象图导航)
 * [超媒体类型](docs/doc2.md#超媒体类型)
 * [术语服务器](docs/doc2.md#术语服务器)
@@ -881,15 +885,15 @@
 * [Intellij插件](docs/doc2.md#Intellij插件)
 * [其他](docs/doc2.md#其他)
 * [教程系列](docs/doc2.md#教程系列)
-  * [Java教程](docs/doc2.md#Java教程)
-  * [大数据教程](docs/doc2.md#大数据教程)
-  * [Spring Boot教程](docs/doc2.md#Spring教程)
-  * [算法和数据结构教程](docs/doc2.md#算法和数据结构教程)
-  * [软件工程教程](docs/doc2.md#软件工程教程)
-  * [Java安全教程](docs/doc2.md#Java安全教程)
-  * [其他技术教程](docs/doc2.md#其他技术教程)
-  * [源码分析](docs/doc2.md#源码分析)
-  * [面试宝典](docs/doc2.md#面试宝典)
+    * [Java教程](docs/doc2.md#Java教程)
+    * [大数据教程](docs/doc2.md#大数据教程)
+    * [Spring Boot教程](docs/doc2.md#Spring教程)
+    * [算法和数据结构教程](docs/doc2.md#算法和数据结构教程)
+    * [软件工程教程](docs/doc2.md#软件工程教程)
+    * [Java安全教程](docs/doc2.md#Java安全教程)
+    * [其他技术教程](docs/doc2.md#其他技术教程)
+    * [源码分析](docs/doc2.md#源码分析)
+    * [面试宝典](docs/doc2.md#面试宝典)
 
 ## 开发框架
 
@@ -999,6 +1003,8 @@
 * [HServer](https://gitee.com/HServer/HServer)：HServer是基于Netty开发的一个功能强大、资源丰富、开发灵活、轻量级、低入侵、高并发的新型Web开发框架。
 * [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
 * [YMP](https://gitee.com/suninformation/ymate-platform-v2)：YMP是一个非常简单、易用的轻量级Java应用开发框架，涵盖AOP、IoC、Web、ORM、Validation、Plugin、Serv、Cache等特性。
+* [Efw](https://github.com/efwGrp/efw4.X)：EFW采用以目标为导向的方法，使用Ajax和服务器端JavaScript构建高速Web系统，由Escco开源。
+* [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [Sumk](https://github.com/youtongluan/sumk)：Sumk的定位是为互联网公司提供一个快速开发、接口交互(RPC和HTTP)、数据缓存、读写分离、负载均衡、故障转移的框架。
 * [TinyStruct](https://github.com/tinystruct/tinystruct)：TinyStruct是一个轻量级Java应用框架，设计用于构建从命令行工具到Web应用的各种应用程序。
 * [Seasar2](https://github.com/seasarorg/seasar2)：Seasar2是一个为提高Java开发效率而开发的框架。
@@ -1007,6 +1013,8 @@
 * [Tio Boot](https://gitee.com/ppnt/tio-boot)：Tio Boot是新一代Java Web开发框架，更快、更小、更简单。
 * [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
 * [WebDSL](https://github.com/webdsl/webdsl)：WebDSL是一种用于使用丰富数据模型对Web应用程序进行建模的DSL，由代尔夫特理工大学开源。
+* [Unify Framework](https://github.com/flowcentraltechnologies/unify-framework)：Unify Framework是一个基于服务器端组件的框架，用于在Java中开发Web应用程序。
+* [Server Components](https://github.com/vadimv/server-components)：Server Components是一个Java Web服务器端渲染(SSR)框架，用于构建具有最少依赖的响应式UI。
 
 #### RPC框架
 
@@ -1170,6 +1178,7 @@
 * [ContextMapper](https://github.com/ContextMapper/context-mapper-dsl)：ContextMapper是一个开源工具，提供基于DDD模式的领域特定语言，用于上下文映射和服务分解。
 * [Aggregate Persistence](https://gitee.com/thoughtworks/aggregate-persistence)：Aggregate Persistence旨在提供一种轻量级聚合持久化方案，帮助开发者真正从业务出发设计领域模型，由ThoughtWorks开源。
 * [DDDLib](https://github.com/dayatang/dddlib)：DDDLib是一个领域驱动设计类库。
+* [Akka DDD](https://github.com/pawelkaczor/akka-ddd)：Akka DDD是在Akka平台之上构建遵循DDD/CQRS/ES架构的分布式服务的框架。
 * [EzDDD](https://gitlab.com/TeddyChen/ezddd)：EzDDD是一个Java库，用于实现DDD、CQRS和清洁架构(CA)等战术设计模式。
 * [DDD Base](https://github.com/linux-china/ddd-base)：Java领域驱动设计基础包。
 * [Aggregate Framework](https://github.com/changmingxie/aggregate-framework)：Aggregate Framework是一款基于DDD和CQRS思想开发的领域驱动框架。
@@ -1197,6 +1206,7 @@
 * [Wow](https://gitee.com/AhooWang/Wow)：Wow是一个基于领域驱动设计和事件溯源的现代响应式CQRS微服务开发框架。
 * [FactCast](https://github.com/factcast/factcast)：基于PostgreSQL的简单EventStore。
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
+* [Kestrel](https://github.com/cultureamp/kestrel)：Kestrel是用于在Kotlin中构建事件溯源、CQRS应用程序的框架。
 
 ## 微服务库
 
@@ -1221,6 +1231,7 @@
 * [SIP Framework](https://github.com/IKOR-GmbH/sip-framework)：该框架能够使用微服务构建轻量级集成适配器，以实现系统的技术和非技术解耦，因此具有高度可扩展性。
 * [Mats3](https://github.com/centiservice/mats3)：Mats3是一个Java库，可促进异步、无状态、多阶段、基于消息的服务的开发。
 * [Mercury](https://github.com/Accenture/mercury)：Mercury是一个用于事件驱动编程的软件开发工具包，由Accenture开源。
+* [Fluxzero](https://github.com/fluxzero-io/fluxzero-sdk-java)：Fluxzero是一个云运行时，用于构建后端，而无需基础设施开销。
 
 ## 微服务治理
 
@@ -1256,6 +1267,7 @@
 * [Apache Maven](https://github.com/apache/maven)：Maven是一个软件项目管理和理解工具。
 * [Gradle](https://github.com/gradle/gradle)：Gradle是一个构建工具，专注于构建自动化并支持多语言开发。
 * [Bazel](https://github.com/bazelbuild/bazel)：Bazel是一个快速、多语言且可扩展的构建系统，由Google开发。
+* [Apache Mvnd](https://github.com/apache/maven-mvnd)：Mvnd是Maven团队借鉴了Gradle和Takari后衍生出的更快的构建工具。
 * [SBT](https://github.com/sbt/sbt)：SBT是一个适用于Scala、Java的构建工具。
 * [Leiningen](https://github.com/technomancy/leiningen)：Leiningen是一种构建自动化和依赖管理工具，用于以Clojure编程语言编写的软件项目的简单配置。
 * [Apache Ant](https://github.com/apache/ant)：Ant是一个基于Java的构建工具。
@@ -1264,7 +1276,7 @@
 * [Pants](https://github.com/pantsbuild/pants)：Pants是一个快速、可扩展、用户友好的构建系统，适用于各种规模的代码库，由Twitter开源。
 * [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
 * [1JPM](https://github.com/Osiris-Team/1JPM)：1JPM是一种Maven/Gradle替代方案，但有所不同，它本身是一个Java文件，你应该编辑该文件来配置你的项目。
-* [Apache Maven Daemon](https://github.com/apache/maven-mvnd)：Mvnd是Maven团队借鉴了Gradle和Takari后衍生出的更快的构建工具。
+* [Bloop](https://github.com/scalacenter/bloop)：Bloop是一个构建服务器和CLI工具，可从任何编辑器或构建工具快速编译、测试和运行Scala。
 * [Boot](https://github.com/boot-clj/boot)：Boot是一个Clojure构建框架和临时Clojure脚本评估器。
 * [JeKa](https://github.com/jeka-dev/jeka)：JeKa是一个Java构建工具，用于直接从源代码构建或执行Java应用程序和脚本，由OW2开发。
 * [BLD](https://github.com/rife2/bld)：BLD是一个新的构建系统，允许你用纯Java编写构建逻辑。
@@ -1562,13 +1574,16 @@
 * [VX API Gateway](https://gitee.com/mirren/VX-API-Gateway)：VX API Gateway是基于Vert.x开发的一个全异步、高性能、可扩展、轻量级的API网关。
 * [SIA Gateway](https://github.com/siaorg/sia-gateway)：SIA Gateway是基于Spring Cloud微服务生态体系下开发的一个分布式微服务网关系统，宜信开源。
 * [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一个灵活且快速的开源API网关。
+* [Zilla](https://github.com/aklivity/zilla)：Zilla是一个轻量级但功能丰富的代理，对HTTP、SSE、gRPC、MQTT和Kafka协议提供一流的支持。
 * [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、开源且以开发人员为中心的API网关代理，由WSO2开源。
 * [Heimdall](https://github.com/getheimdall/heimdall)：Heimdall是由Conductor Tecnologia SA开发的开源项目，旨在提供API编排解决方案。
 * [DigiRunner](https://github.com/TPIsoftwareOSPO/digiRunner-Open-Source)：DigiRunner是一个应用层API网关，可充当微服务架构中客户端与后端服务之间通信的中央枢纽。
 * [WAF](https://github.com/chengdedeng/waf)：WAF是使用Java开发的API Gateway，底层使用Netty。
 * [Membrane](https://github.com/membrane/api-gateway)：Membrane是用Java编写的REST、OpenAPI、GraphQL和SOAP的API网关，由Predic8公司开源。
+* [API Premium Gateway](https://github.com/Feynix2004/API-Premium-Gateway)：API Premium Gateway是一个轻量级的Java服务，旨在为你的分布式系统和应用提供强大的API高可用与智能调度能力。
 * [Otoroshi](https://github.com/MAIF/otoroshi)：Otoroshi是一个轻量级API管理层，由MAIF团队开发，可以处理微服务之间的所有调用，无需服务定位器，并允许你在运行时动态更改配置。
 * [Okapi](https://github.com/folio-org/okapi)：Okapi是一个多租户API网关，由Open Library基金会开源。
+* [CAPI](https://github.com/surisoft-io/capi)：由Apache Camel动态路由驱动的轻API网关/负载均衡器。
 * [Janus](https://github.com/GrailStack/Janus)：Janus是Grail体系的一个组成模块，为各业务服务提供对外统一、高性能的HTTP网关。
 * [Kaazing Gateway](https://github.com/kaazing/gateway)：Kaazing Gateway是一个网络网关，旨在为基于Web的实时协议提升提供单一接入点，支持负载均衡、集群和安全管理。
 * [API ML](https://github.com/zowe/api-layer)：API ML为大型机服务REST API提供单一访问点。
@@ -1871,6 +1886,7 @@
 * [Cloudflow](https://github.com/lightbend/cloudflow)：Cloudflow使用户能够在Kubernetes上快速开发、编排和操作分布式流应用程序，由Lightbend开源。
 * [Table Computing](https://github.com/alibaba/table-computing)：Table Computing是一个分布式轻量级、高性能、低延迟的流式处理和数据分析框架，由阿里开发。
 * [Dagger](https://github.com/raystack/dagger)：Dagger是一个易于使用、通过代码进行配置的云原生框架，构建在Flink之上，用于实时流数据的状态处理。
+* [S4](https://github.com/s4/core)：S4是一个通用、分布式、可扩展、部分容错、可插拔的平台，它允许程序员轻松开发用于处理连续无界数据流的应用程序，由Yahoo开源。
 
 #### ETL工具
 
@@ -2165,6 +2181,7 @@
 * [IPC EventBus](https://github.com/Terracotta-OSS/ipc-eventbus)：IPC EventBus为JVM内和JVM外通信提供了一个简单的EventBus API。
 * [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
+* [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 
 #### 消息总线
 
@@ -2180,6 +2197,7 @@
 * [Spring Cloud Bus](https://github.com/spring-cloud/spring-cloud-bus)：Spring Cloud Bus是一种轻量级的消息代理，用于集成和传输微服务之间的消息。
 * [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)：LiveEventBus是一款Android消息总线，基于LiveData，具有生命周期感知能力，支持Sticky、AndroidX、款进程。
 * [Varadhi](https://github.com/flipkart-incubator/varadhi)：Varadhi是具有REST接口的消息总线实现，由Flipkart开源。
+* [Namastack](https://github.com/namastack/namastack-outbox)：Spring Boot的发件箱实现。
 * [Low Level Design](https://github.com/InterviewReady/Low-Level-Design)：常见数据结构的低级设计，包括事件总线。
 * [Flux Capacitor](https://github.com/flux-capacitor-io/flux-capacitor-client)：该仓库包含Flux Capacitor服务的官方Java客户端。
 
@@ -2248,8 +2266,7 @@
 * [Kafka REST Proxy](https://github.com/confluentinc/kafka-rest)：Kafka REST Proxy为Kafka集群提供RESTful接口，它可以轻松地生成和消费数据、查看集群状态以及执行管理操作，而无需使用本机Kafka协议或客户端，由Confluent开源。
 * [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
 * [DoctorK](https://github.com/pinterest/DoctorK)：DoctorK是一个用于Kafka集群自动修复和工作负载均衡的服务，由Pinterest开源。
-* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例。
-* [Zilla](https://github.com/aklivity/zilla)：Zilla将Kafka抽象为Web应用程序、物联网客户端和微服务。
+* [Kroxylicious](https://github.com/kroxylicious/kroxylicious)：Kroxylicious是Kafka协议代理，可解决加密、多租户和模式验证等用例
 * [Chaperone](https://github.com/uber-archive/chaperone)：Chaperone作为Kafka审计系统，监控数据流的完整性和延迟，由Uber开源。
 * [Azkarra Streams](https://github.com/streamthoughts/azkarra-streams)：Azkarra Streams是一个轻量级Java框架，可以轻松开发和操作Kafka Streams应用程序。
 * [Kafka Helmsman](https://github.com/teslamotors/kafka-helmsman)：Kafka Helmsman是一个专注于自动化Kafka部署的工具，由特斯拉开源。
@@ -2311,6 +2328,8 @@
 * [CosId](https://gitee.com/AhooWang/CosId)：CosId旨在提供通用、灵活、高性能的分布式ID生成器。
 * [Cantor](https://github.com/ManbangGroup/cantor)：Cantor是一个全局序列生成器服务，具有分布式、无状态、高可用性，由满帮集团开源。
 * [Java Snowflake](https://github.com/callicoder/java-snowflake)：基于雪花算法的分布式ID生成器。
+* [SnowFlake](https://github.com/beyondfengyu/SnowFlake)：Twitter的雪花算法SnowFlake，使用Java语言实现。
+* [Snowflake](https://github.com/downgoon/snowflake)：Twitter Snowflake的Java版本，一种用于大规模生成唯一ID号的Web服务，并具有一些简单的保证。
 * [TSID Creator](https://github.com/f4b6a3/tsid-creator)：TSID Creator是用于生成TSID的Java库。
 * [KSUID](https://github.com/ksuid/ksuid)：KSUID是一种生成全局唯一ID的方法，类似于RFC 4122 UUID。
 * [Butterfly](https://github.com/simonalong/Butterfly)：Butterfly是一个超高性能的发号器框架。
@@ -2703,6 +2722,7 @@
 * [DatalinkX](https://gitee.com/atuptown/datalinkx)：基于Flink的异构数据源同步。
 * [ReAir](https://github.com/airbnb/reair)：ReAir是一套易于使用的工具，用于在Hive数据仓库之间复制表和分区，由Airbnb开源。
 * [Bireme](https://github.com/HashDataInc/bireme)：Bireme是Greenplum/HashData数据仓库的增量同步工具，目前支持MySQL、PostgreSQL和MongoDB数据源。
+* [LinkUp](https://gitee.com/wei_fu_wan/link-up)：LinkUp是一款开箱即用的数据同步工具，深度集成Apache SeaTunnel，提供从自动建表、任务调度到日志监控的全链路能力，界面直观，非技术人员也能轻松上手。
 
 #### 分库分表
 
@@ -2784,7 +2804,6 @@
 * [REST Commander](https://github.com/eBay/restcommander)：REST Commander是一个快速并行异步HTTP/REST/SOAP客户端即服务，用于监视和管理数以万计的Web服务器，由eBay开源。
 * [Avaje HttpClient](https://github.com/avaje/avaje-http)：JDK 11 HttpClient的轻量级包装器。
 * [Jcabi HTTP](https://github.com/jcabi/jcabi-http)：Jcabi HTTP是流式的Java HTTP客户端。
-* [HBC](https://github.com/twitter/hbc)：HBC是用于使用Twitter标准Streaming API的Java HTTP客户端，由Twitter开源。
 * [Parallec](https://github.com/eBay/parallec)：Parallec是一个基于Akka的快速并行异步HTTP(S)/SSH/TCP/UDP/Ping客户端Java库，由eBay开源。
 * [OkHttps](https://gitee.com/troyzhxu/okhttps)：OkHttps是对OkHttp3轻量封装的框架，包括异步预处理器，特色的标签，灵活的上传下载进度监听与过程控制功能。
 * [RXHttp](https://github.com/liujingxing/rxhttp)：适用于Android的类型安全HTTP客户端，基于OkHttp。
@@ -2850,6 +2869,8 @@
 * [TJWS](https://tjws.sourceforge.net/)：TJWS是作为Servlet容器构建的，其中HTTPD Servlet提供标准Web服务器功能。
 * [Aeromock](https://github.com/ca-archived/aeromock)：Aeromock是一个从模板文件和数据文件生成HTML的应用服务器。
 * [SimpleWebServer](https://github.com/94fzb/simplewebserver)：SimpleWebServer是一款使用Java基于NIO编写的超轻量级开源Web应用服务器。
+* [Magician](https://github.com/JMagician/Magician)：Magician是一个基于Netty的小型HTTP服务包，它使启动HTTP服务变得非常容易，并且还支持WebSocket。
+* [Flupke](https://github.com/ptrd/flupke)：Flupke是一个100%纯Java HTTP3实现，运行在Kwik之上。
 
 #### 应用服务器
 
@@ -2992,6 +3013,7 @@
 * [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
 * [AIO Socket](https://gitee.com/starboot/aio-socket)：AIO Socket是Java AIO通讯内核，采用了内存池、线程池、对象池、缓存池以及插件化增添模块等思想进行设计。
 * [IPC Socket](https://github.com/sbt/ipcsocket)：IPC Socket是使用java.net.ServerSocket和java.net.Socket作为API的进程间通信的Java包装器。
+* [Socket](https://github.com/areong/Socket)：线程Java套接字服务器和客户端。
 
 #### TCP/UDP库
 
@@ -3077,8 +3099,11 @@
 * [Venomous Sting](https://gitee.com/haojiangbo/venomous_sting)：基于Netty实现的高性能内网穿透，支持所有TCP上层协议的转发。
 * [MagpieBridge](https://gitee.com/jiucheng_org/magpiebridge)：使用Java基于AIO/NIO实现的内网穿透工具。
 * [Joggle](https://github.com/joggle-cn/joggle)：Joggle是基于Ngrok二开的开源内网穿透项目，多节点、私有部署、云服务。
+* [LightTunnel](https://gitee.com/tuuzed/LightTunnel)：内网穿透工具，支持TCP、HTTP、HTTPS穿透。
 * [Ngrok Spring Boot Starter](https://github.com/kilmajster/ngrok-spring-boot-starter)：Spring Boot集成Ngrok变得简单。
 * [HP](https://gitee.com/HServer/hp)：内网穿透轻量版，支持HTTP、HTTPS、TCP、UDP，支持云端动态控制穿透配置。
+* [Java Ngrok](https://github.com/alexdlaird/java-ngrok)：Java Ngrok是一个Ngrok包装器，用于管理自己的二进制文件，通过方便的Java提供应用程序接口。
+* [NeoLink](https://github.com/NeoLinkProxy/NeoLink)：NeoLink是一个轻量级的内网穿透客户端，用于将本地TCP、UDP服务暴露给公网NeoServer。
 
 #### IO_Uring
 
@@ -3126,6 +3151,7 @@
 * [Nightweb](https://github.com/oakes/Nightweb)：Nightweb是一款适用于Android设备和PC的应用，可帮助你连接到匿名的点对点社交网络。
 * [Xeres](https://github.com/zapek/Xeres)：Xeres是一款朋友之间、去中心化且安全的通信和共享应用程序。
 * [Hive2Hive](https://github.com/Hive2Hive/Hive2Hive)：Hive2Hive是一个用Java编写的开源库，用于安全、分布式、基于P2P的文件同步和共享。
+* [Near](https://github.com/adroitandroid/Near)：Near是适用于Android的P2P库，用于使用UDP在本地网络上进行发现，并使用TCP套接字进行传输。
 
 #### SDN
 
@@ -3262,6 +3288,9 @@
 * [MicroSphere](https://github.com/microsphere-projects/microsphere-java)：MicroSphere是一个模块化的Java实用程序库，提供反射、类加载、集合、网络和注解处理等基础功能。
 * [LibCommon](https://github.com/saki4510t/libcommon)：LibCommon包含一些通用的Java、Android开发工具类。
 * [Skrstop Components](https://github.com/skrstop/skrstop-components)：基于Spring Boot的常用功能封装，包括通用响应、通用异常、数据库、Redis、远程存储、常用自定义注解、多数据源等。
+* [Legacy Lands Libaray](https://github.com/LegacyLands/legacy-lands-library)：Legacy Lands Libaray为现代Minecraft插件开发提供了必要的工具和实用程序。
+* [Abacus Common](https://github.com/landawn/abacus-common)：Abacus Common是一个通用的Java编程库，它提供了一组丰富的实用程序、数据结构和函数API。
+* [OstermillerUtils](https://ostermiller.org/utils/)：OstermillerUtils是一组开源的Java实用程序。
 
 ## Bean映射&复制
 
@@ -3284,6 +3313,7 @@
 * [Mappie](https://github.com/Mr-Mappie/mappie)：Mappie是一款Kotlin多平台编译器插件，它可以生成代码来简化对象映射代码的开发。
 * [Crane4j](https://github.com/opengoofy/crane4j)：一个简单易用的数据映射框架，通过简单的注解配置快速根据外键/编码值填充相关字段，支持字典、枚举、方法等多种数据源。
 * [Cloning](https://github.com/kostaskougios/cloning)：Cloning是一个小型开源Java库，可深度克隆对象。
+* [Konvert](https://github.com/mcarleio/konvert)：Konvert是一个使用KSP的映射代码生成器。
 * [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java bean复制实用程序，具有强大的功能和高性能。
 * [ShapeShift](https://github.com/krud-dev/shapeshift)：ShapeShift是用于智能对象映射和对象之间转换的Kotlin/Java库。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
@@ -3327,6 +3357,14 @@
 * [JayWire](https://github.com/vanillasource/jaywire)：JayWire是一个非常小、轻量级的Java 8依赖注入框架。
 * [Mini Spring](https://github.com/DerekYRC/mini-spring)：Mini Spring是简化版的Spring框架，能帮助你快速熟悉Spring源码和掌握Spring的核心原理。
 * [Tiny Spring](https://github.com/code4craft/tiny-spring)：Tiny Spring是为了学习Spring的而开发的，可以认为是一个Spring的精简版。
+* [Metro](https://github.com/ZacSweers/metro)：适用于Kotlin的多平台编译时依赖注入框架。
+* [Ulfberht](https://github.com/afollestad/ulfberht)：Ulfberht是一个小而强大且固执己见的DI库。
+* [Yatagan](https://github.com/yandex/yatagan)：Yatagan是一个基于Google的Dagger2 API的快速依赖注入框架，由Yandex开源。
+* [Whetstone](https://github.com/deliveryhero/whetstone)：Whetstone提供了一种将Dagger和Anvil合并到Android应用程序中的简化方法。
+* [Kapsule](https://github.com/gouline/kapsule)：Kotlin的极简依赖注入库。
+* [PopKorn](https://github.com/corbella83/PopKorn)：PopKorn是一款简单、功能强大且轻量级的Kotlin多平台依赖注入器。
+* [Injekt](https://github.com/IVIanuu/injekt)：Kotlin的下一代依赖注入库。
+* [Magnet](https://github.com/sergejsha/magnet)：Magnet是一个简洁、基于作用域树的依赖注入库，专为高度模块化的Android应用程序而设计。
 * [OfficeFloor](https://github.com/officefloor/OfficeFloor)：OfficeFloor是一个IoC库，可以通过一流的程序构建应用程序。
 * [Inverno](https://github.com/inverno-io/inverno-core)：Inverno项目为Java平台提供了控制反转和依赖注入框架，所有内容都在编译期间静态验证和完成。
 * [JBoss MSC](https://github.com/jboss-msc/jboss-msc)：JBoss MSC是Java的轻量级高并发依赖注入容器。
@@ -3395,7 +3433,9 @@
 * [LogEvents](https://github.com/jhannes/logevents)：LogEvents是一个小型日志记录框架，构建在SLF4J之上。
 * [Scribe](https://github.com/outr/scribe)：Scribe从零开始构建，旨在在Scala、Scala.js和Scala Native中提供快速高效的日志记录。
 * [Woof](https://github.com/LEGO/woof)：一个纯粹的Scala 3日志库，没有运行时反射，由乐高开源。
+* [Log4k](https://github.com/smyrgeorge/log4k)：适用于Kotlin多平台的全面日志记录和跟踪解决方案。
 * [Stream Log](https://github.com/GetStream/stream-log)：Stream Log是Kotlin Multiplatform的轻量级且可扩展的记录器库。
+* [Kermit](https://github.com/touchlab/Kermit)：Touchlab的Kermit是一个Kotlin多平台集中式日志记录实用程序。
 
 #### 日志采集
 
@@ -3411,6 +3451,7 @@
 * [Singer](https://github.com/pinterest/singer)：Singer是一个高性能日志代理，用于将日志上传到Kafka，由Pinterest开源。
 * [Puree](https://github.com/cookpad/puree-android)：Puree是一个日志收集器，由Cookpad开源。
 * [Fluency](https://github.com/komamitsu/fluency)：Fluentd和Fluent Bit(以及AWS S3和Treasure Data)的高吞吐量数据提取记录器。
+* [Log4a](https://github.com/pqpo/Log4a)：Log4a是一个基于Mmap、高性能、高可用的Android日志收集框架。
 
 #### 请求/响应记录
 
@@ -3418,6 +3459,7 @@
 * [Spring Boot Logging](https://github.com/piomin/spring-boot-logging)：用于记录Spring Boot应用程序的HTTP请求/响应以及与Elastic Stack集成的库。
 * [Logging Interceptor](https://github.com/ihsanbal/LoggingInterceptor)：Logging Interceptor是一个OkHttp拦截器，具有漂亮的请求和响应记录器，以及Mock支持。
 * [Repose](https://github.com/rackerlabs/repose)：Repose为API处理任务提供解决方案，例如身份验证、速率限制、API验证、HTTP请求日志记录等等。
+* [OkLog](https://github.com/simonpercic/OkLog)：OkHttp的网络日志记录拦截器。
 
 #### 日志追踪
 
@@ -3503,6 +3545,8 @@
 * [CarbonJ](https://github.com/salesforce/carbonj)：CarbonJ是Carbon Cache和Carbon Relay的直接替代品，它在设计时考虑了高性能读写吞吐量，由Salesforce开源。
 * [RubiX](https://github.com/qubole/rubix)：RubiX是一个可供大数据引擎使用的轻量级数据缓存框架。
 * [IgDiskCache](https://github.com/facebookarchive/ig-disk-cache)：IgDiskCache是一个容错的Android磁盘缓存库，由Instagram开源。
+* [Fuse](https://github.com/kittinunf/Fuse)：适用于Android的简单通用LRU缓存。
+* [Kotlin Cacheable](https://github.com/mori-atsushi/kotlin-cacheable)：Kotlin Cacheable是适用于Kotlin Multiplatform的基于注解的缓存库。
 
 #### 分布式缓存
 
@@ -3768,26 +3812,15 @@
 ## 人工智能
 
 * [Artemis](https://github.com/ls1intum/Artemis)：Artemis通过对编程练习、测验、建模任务等的即时、个人反馈，将交互式学习带入生活，由慕尼黑工业大学开源。
-* [Lucida](https://github.com/claritylab/lucida)：Lucida是一款基于语音和视觉的智能个人助理，灵感来自Sirius。
-* [SUSI.AI Server](https://github.com/fossasia/susi_server)：SUSI.AI是一款智能开源个人助理，由FOSSASIA组织开源。
-* [Alexa Skills Kit Java SDK](https://github.com/alexa/alexa-skills-kit-sdk-for-java)：Alexa是Amazon基于云的语音服务，可在亚马逊和第三方设备制造商的数亿台设备上使用。
-* [GDX AI](https://github.com/libgdx/gdx-ai)：GDX AI是一个高性能框架，提供游戏行业使用的一些最常见的AI技术。
 * [AIMA Java](https://github.com/aimacode/aima-java)：Russell和Norvig的《人工智能-一种现代的方法》中算法的Java实现。
-* [Alan AI](https://github.com/alan-ai/alan-sdk-android)：适用于Android的对话式AI SDK，可通过操作实现文本和语音对话。
 * [EdgeChains](https://github.com/arakoodev/EdgeChains)：EdgeChains.js是一种用于生产友好的生成式AI的语法。
 * [CrowdOS](https://github.com/crowdosNWPU/CrowdOS)：CrowdOS是一个适用于众包和移动众包感知的通用操作系统，可以同时处理多种类型的众包问题，由西北工业大学开发。
-* [Hbox](https://github.com/Qihoo360/hbox)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
 * [Malmo](https://github.com/microsoft/malmo)：Malmo是一个建立在Minecraft之上的人工智能实验和研究平台，由Microsoft开源。
 * [XEF](https://github.com/xebia-functional/xef)：XEF是一站式库，以LLM、图像生成等形式将现代AI的力量带入你的应用程序或服务，由Xebia开源。
 * [AI Descartes](https://github.com/IBM/AI-Descartes)：IBM开发的用于加速基本定律符号发现的开源包。
 * [Baidu AIP SDK](https://github.com/Baidu-AIP/java-sdk)：百度AI开放平台Java SDK。
 * [Xtreme1](https://github.com/xtreme1-io/xtreme1)：Xtreme1是一款用于多模态数据训练的一体化数据标记和注释平台，支持3D LiDAR点云、图像和LLM。
-* [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
-* [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
 * [jAER](https://github.com/SensorsINI/jaer)：用于地址事件表示(AER)神经形态处理的Java工具，由苏黎世联邦理工学院开源。
-* [JSoar](https://github.com/soartech/jsoar)：Soar认知架构的纯Java实现，由密歇根大学人工智能实验室开源。
-* [CST](https://github.com/CST-Group/cst)：CST Toolkit是一个基于Java的工具包，用于构建认知架构，由坎皮纳斯大学开源。
-* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
 
 #### LLM框架
 
@@ -3816,6 +3849,7 @@
 * [ChatGPT Java](https://github.com/Grt1228/chatgpt-java)：ChatGPT的Java客户端。
 * [ChatGPT Java](https://github.com/arctisio/chatgpt-java)：使用逆向工程API的OpenAI ChatGPT的轻量级Java库。
 * [ChatGPT Java](https://gitee.com/grt1228/chatgpt-java)：ChatGPT的Java客户端，OpenAI官方API的Java版SDK。
+* [RunAnywhere SDK](https://github.com/RunanywhereAI/runanywhere-sdks)：隐私优先的设备上AI SDK，可将强大的语言模型直接引入你的iOS和Android应用程序。
 * [OpenAI Java SDK](https://gitee.com/devlive-community/openai-java-sdk)：为Java开发人员提供方便易用的SDK来与OpenAI模型的API进行交互。
 * [ChatGPT Spring Boot](https://github.com/linux-china/chatgpt-spring-boot-starter)：Spring Boot ChatGPT Starter，具有ChatGPT聊天和功能支持。
 * [ChatGPT Spring Boot](https://github.com/flashvayne/chatgpt-spring-boot-starter)：基于OpenAI官方API的Spring Boot Starter。
@@ -3827,15 +3861,14 @@
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：用于使用IBM Watson服务的Java SDK。
 * [ZhiPu SDK](https://github.com/MetaGLM/zhipuai-sdk-java-v4)：智谱开放平台大模型接口Java SDK。
 * [DeepSeek4j](https://github.com/pig-mesh/deepseek4j)：DeepSeek4j是一个用于快速集成DeepSeek AI能力的Spring Boot Starter。
-* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：适用于MCP服务器和客户端的官方Java SDK，由VMware开发。
 * [A2A Java](https://github.com/a2aproject/a2a-java)：A2A Java提供了A2A协议的Java服务器实现，由RedHat开发。
 * [Google Gen AI Java SDK](https://github.com/googleapis/java-genai)：Gemini Developer API和Vertex AI API的Java惯用SDK。
 * [Anthropic Java API](https://github.com/anthropics/anthropic-sdk-java)：Anthropic Java SDK提供了从用Java编写的应用程序方便访问Anthropic REST API的功能。
 * [Qianfan SDK](https://github.com/baidubce/bce-qianfan-sdk)：百度千帆大模型平台SDK。
-* [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
 * [AI DIAL](https://github.com/epam/ai-dial-core)：AI DIAL为不同的聊天补全和嵌入模型、助手和应用程序提供统一的API。
 * [AI4j](https://github.com/LnYo-Cly/ai4j)：用于快速接入AI大模型应用的Java SDK。
 * [AI Java](https://github.com/mainpropath/AI-java)：AI Java旨在简化与各大模型API的交互。
+* [Intelligent Java](https://github.com/intelligentnode/IntelliJava)：IntelliJava是使用Java与最新语言模型和深度学习框架集成的终极工具。
 
 #### 推理引擎
 
@@ -3844,6 +3877,15 @@
 * [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
 * [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
 * [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
+* [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
+* [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
+* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
+
+#### MCP
+
+* [MCP Java SDK](https://github.com/modelcontextprotocol/java-sdk)：适用于MCP服务器和客户端的官方Java SDK，由VMware开源。
+* [Wren Engine](https://github.com/Canner/wren-engine)：Wren Engine被设计为独立的语义引擎，你可以轻松地使用任何AI代理实现它，可以将其用作语义层的通用语义。
+* [OneMCP](https://github.com/Gentoro-OneMCP/onemcp)：OneMCP是一个开源运行时，使AI代理可以轻松准确高效地使用你的API。
 
 #### 代理框架
 
@@ -3854,6 +3896,10 @@
 * [Tools4AI](https://github.com/vishalmysore/Tools4AI)：Tools4AI是100%基于Java的Agentic框架，可用于构建基于Java的AI代理，以便与企业Java应用程序集成。
 * [Arc](https://github.com/eclipse-lmos/arc)：Arc项目的目标是利用Kotlin DSL的强大功能来定义一种针对构建LLM驱动的AI代理解决方案而优化的语言，由德国电信股份公司开源。
 * [Apache Flink Agents](https://github.com/apache/flink-agents)：Apache Flink Agents是一个基于Apache Flink的Agentic AI框架。
+* [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
+* [AgC](https://github.com/masaic-ai-platform/AgC)：AgC是为Open Agentic Compute提供支持的开放核心期刊平台，Open Agentic Compute是一种新的计算基质，专为大规模部署、运行和编排AI代理而构建。
+* [Coral Server](https://github.com/Coral-Protocol/coral-server)：Coral协议的实现，充当MCP服务器，为代理提供相互通信的工具。
+* [Agent O Rama](https://github.com/redplanetlabs/agent-o-rama)：Agent O Rama是一个端到端的LLM代理平台，用于构建、跟踪、测试和监控代理，具有集成存储和一键部署功能。
 
 #### AI智能体
 
@@ -3861,6 +3907,7 @@
 * [Astron](https://github.com/iflytek/astron-agent)：星辰Agent是一款面向AI开发者与中小企业的企业级Agent开发平台，由科大讯飞开源。
 * [JManus](https://github.com/spring-ai-alibaba/JManus)：JManus是一个高确定性的无代码Agent开发框架，由阿里开源。
 * [Coze Java](https://github.com/coze-dev/coze-java)：Coze API SDK Java是一款功能强大的工具，旨在将Coze的开放API无缝集成到你的项目中。
+* [Dify Java Client](https://github.com/imfangs/dify-java-client)：Dify Java Client是一个用于与Dify平台进行交互的Java客户端库。
 * [Tinyflow](https://gitee.com/tinyflow-ai/tinyflow)：Tinyflow是一个轻量的AI智能体流程编排解决方案。
 * [Eclipse LMOS](https://github.com/eclipse-lmos)：LMOS是一个开源、自主、与供应商无关的平台，用于在云端或本地构建和运行企业级多智能体系统，由德国电信股份公司开源。
 * [AgentScope](https://github.com/agentscope-ai/agentscope-java)：AgentScope是一个由阿里开源的新一代多智能体应用开发框架。
@@ -3876,6 +3923,16 @@
 * [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 * [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku旨在为你的组织和AI代理提供统一的访问、路由和资源管理功能。
+
+#### AI Assistant
+
+* [Lucida](https://github.com/claritylab/lucida)：Lucida是一款基于语音和视觉的智能个人助理，由密歇根大学开源。
+* [SUSI.AI Server](https://github.com/fossasia/susi_server)：SUSI.AI是一款智能开源个人助理，由FOSSASIA组织开源。
+* [ECA](https://github.com/editor-code-assistant/eca)：编辑器代码助手，与编辑器无关的AI配对编程能力。
+* [Brokk](https://github.com/BrokkAi/brokk)：Brokk是一个能够从语义上理解代码而非仅仅将其理解为文本块的代码助手。
+* [Claudine](https://github.com/xemantic/claudine)：Claudine是一个AI助手。
+* [PVA](https://github.com/Cyborgscode/Personal-Voice-Assistent)：PVA是一个开源的Linux/Unix语音辅助软件。
+* [IBM Watsonx Assistant Toolkit](https://github.com/watson-developer-cloud/assistant-toolkit)：IBM Watsonx Assistant Toolkit旨在帮助使用IBM Watsonx助手的开发者和数据科学家构建、部署和维护更高效的AI解决方案，以实现业务需求。
 
 #### 机器学习
 
@@ -3919,6 +3976,7 @@
 * [JGAAP](https://github.com/evllabs/JGAAP)：JGAAP是一种允许非专家使用尖端机器学习技术解决文本归因问题的工具，由杜肯大学开源。
 * [Encog](https://github.com/jeffheaton/encog-java-core)：Encog是一个纯Java机器学习框架，用于支持遗传编程、NEAT/HyperNEAT和其他神经网络技术。
 * [Neuroph](https://github.com/neuroph/neuroph)：Neuroph是一个开源Java神经网络框架和神经网络开发环境。
+* [Astminer](https://github.com/JetBrains-Research/astminer)：用于挖掘基于路径的代码表示的库，由JetBrains开源。
 * [SimpleDNN](https://github.com/KotlinNLP/SimpleDNN)：SimpleDNN是一个用Kotlin编写的机器学习轻量级开源库，旨在支持自然语言处理任务中的相关神经网络架构。
 * [Apache PredictionIO](https://github.com/apache/predictionio)：PredictionIO是一个面向开发人员、数据科学家和最终用户的开源机器学习框架。
 * [Voyager](https://github.com/spotify/voyager)：Voyager是一个适用于Python和Java的近似最近邻搜索库，注重易用性、简单性和可部署性，由Spotify开源。
@@ -4032,6 +4090,7 @@
 * [EasyAI](https://gitee.com/dromara/easyAi)：EasyAI是一个原生Java人工智能算法框架，由dormara社区开源。
 * [Deep Java Library](https://github.com/deepjavalibrary/djl)：DJL是一个开源、高级、与引擎无关的深度学习Java框架，由AWS开源。
 * [BigDL](https://github.com/intel-analytics/BigDL-2.x)：BigDL是一个使用INT4/FP4/INT8/FP8在Intel XPU上运行LLM的库，延迟非常低，由Intel开源。
+* [Hbox](https://github.com/Qihoo360/hbox)：Hbox是一个结合大数据和人工智能的便捷高效的调度平台，支持多种机器学习、深度学习框架，由360开源。
 * [KotlinDL](https://github.com/Kotlin/kotlindl)：KotlinDL是一个用Kotlin编写的高级深度学习API，由JetBrains开源。
 * [Apache MXNet](https://mxnet.apache.org/versions/1.9.1/api/java)：Apache MXNet是一个兼顾效率和灵活性的深度学习框架，由AWS开源。
 * [TonY](https://github.com/tony-framework/TonY)：TonY是一个在Hadoop上本地运行深度学习作业的框架，由LinkedIn开源。
@@ -4276,6 +4335,7 @@
 * [Live Transcribe](https://github.com/google/live-transcribe-speech-engine)：Live Transcribe是一款Android应用，可为失聪或听力障碍人士提供实时字幕，包含与Google Cloud Speech API进行通信的客户端库，由Google开源。
 * [Sphinx-4](https://github.com/cmusphinx/sphinx4)：Sphinx-4是一款先进、独立于说话人的连续语音识别系统，由CMU开发。
 * [JARVIS Speech API](https://github.com/lkuza2/java-speech-api)：JARVIS Speech API的设计简洁高效，使用Google开发的语音引擎来提供部分API功能。
+* [Alexa Skills Kit Java SDK](https://github.com/alexa/alexa-skills-kit-sdk-for-java)：Alexa是Amazon基于云的语音服务，可在亚马逊和第三方设备制造商的数亿台设备上使用。
 * [OpenDial](https://github.com/plison/opendial)：OpenDial是一个基于Java、领域无关的工具包，用于开发语音对话系统，由奥斯陆大学开源。
 * [Recognito](https://github.com/amaurycrickx/recognito)：Java中的文本独立说话人识别。
 * [ElevateAI Java SDK](https://github.com/NICEElevateAI/ElevateAIJavaSDK)：ElevateAI提供了用于语音转文本、语音交互的行为分析和情感分析的API。
@@ -4289,6 +4349,7 @@
 * [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用 Edge API。
 * [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
+* [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
 
 ## 数据科学
 
@@ -4391,6 +4452,7 @@
 * [JDFrame](https://github.com/burukeYou/JDFrame)：JDFrame是一个Java DataFrame的实现。
 * [Joinery](https://github.com/cardillo/joinery)：Java的DataFrame。
 * [DFLib](https://github.com/dflib/dflib)：DFLib是通用DataFrame数据结构的轻量级纯Java实现，由ObjectStyle开源。
+* [Scala Polars](https://github.com/chitralverma/scala-polars)：Scala Polars将极其高速的Polars DataFrame库带入Scala和Java项目。
 * [DataFrame EC](https://github.com/vmzakharov/dataframe-ec)：基于Eclipse Collections框架的表格数据结构。
 * [Poppy](https://github.com/tenmax/poppy)：Poppy是Java的Dataframe库，它提供常见的SQL操作来在Java中处理数据，由TenMax开源。
 * [Geni](https://github.com/zero-one-group/geni)：Geni是一个在Apache Spark上运行的Clojure Dataframe库。
