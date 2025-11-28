@@ -484,7 +484,10 @@ permalink: /javalibs
     * [铁路图生成器](#铁路图生成器)
     * [DDD框架](#DDD框架)
     * [CQRS框架](#CQRS框架)
-    * [设计模式](#设计模式)
+* [设计模式](#设计模式)
+    * [构建器模式](#构建器模式)
+    * [代理模式](#代理模式)
+    * [责任链模式](#责任链模式)
     * [中介器](#中介器)
 * [审计框架](#审计框架)
 * [原型工具](#原型工具)
@@ -872,7 +875,6 @@ permalink: /javalibs
 * [印章生成](#印章生成)
 * [代码生成器](#代码生成器)
 * [注解处理器](#注解处理器)
-    * [构建器模式](#构建器模式)
     * [访问器模式](#访问器模式)
     * [不可变模式](#不可变模式)
     * [配置对象模式](#配置对象模式)
@@ -1606,6 +1608,7 @@ permalink: /javalibs
 * [Spillway](https://github.com/coveooss/spillway)：Spillway可在公共API的软件级别添加分布式节流，由Coveo开源。
 * [SnowJena](https://github.com/onblog/SnowJena)：SnowJena是基于令牌桶算法实现的分布式无锁限流框架，支持动态配置规则，支持可视化监控，开箱即用。
 * [FastBreak](https://github.com/Nike-Inc/fastbreak)：FastBreak是一个简单的Java 8原生断路器，支持异步Future、阻塞和回调/手动模式，由Nike开源。
+* [Duct Tape](https://github.com/rnorth/duct-tape)：Duct Tape是一个小型的Java 8库，提供对调用外部API的代码容错支持， 不可靠的组件，包括可能故障、超时或结果不一致的组件。
 * [Token Bucket](https://github.com/bbeck/token-bucket)：该库提供了令牌桶算法的实现。
 * [RateLimiter Spring Boot Starter](https://github.com/taptap/ratelimiter-spring-boot-starter)：基于Redis的偏业务应用的分布式限流组件，目前支持时间窗口、令牌桶两种限流算法，由Taptap开源。
 * [Kanaloa](https://github.com/iheartradio/kanaloa)：Kanaloa是一个库，通过提供背压、断路器、负载均衡等功能来提高反向代理服务的弹性。
@@ -2164,6 +2167,7 @@ permalink: /javalibs
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
 * [Deezpatch](https://github.com/joel-jeremy/deezpatch)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
+* [Minibus](https://github.com/jneat/minibus)：Java应用实例的简单事件总线。
 
 #### 消息总线
 
@@ -2220,6 +2224,7 @@ permalink: /javalibs
 * [uReplicator](https://github.com/uber/uReplicator)：uReplicator提供了高性能、可扩展、稳定的Kafka复制解决方案，由Uber开源。
 * [AKHQ](https://github.com/tchiotludo/akhq)：用于Kafka的Kafka GUI，可以管理主题、主题数据、消费者组、模式注册表、连接等等。
 * [Kouncil](https://github.com/Consdata/kouncil)：Kouncil让你可以使用现代Web界面监控和管理Apache Kafka集群。
+* [Liiklus](https://github.com/bsideup/liiklus)：Liiklus是基于RSocket/gRPC的事件系统网关，防止那些认为Kafka过于低级的人。
 * [Offset Explorer](https://www.kafkatool.com/index.html)：Offset Explorer是一个用于管理和使用Apache Kafka集群的GUI应用程序。
 * [Confluent Platform](https://www.confluent.io/en-gb/product/confluent-platform/gui-driven-management-and-monitoring/)：Confluent Platform提供直观的GUI来管理和监控Apache Kafka，由Confluent开发。
 * [Kpow](https://factorhouse.io/kpow/)：Kpow是Apache Kafka的监控和管理工具。
@@ -2579,6 +2584,7 @@ permalink: /javalibs
 * [VanillaDB](https://github.com/vanilladb/vanillacore)：VanillaCore是一个单节点、多线程关系数据库引擎，部分支持SQL-92标准，并通过JDBC、嵌入或(基于Java的)存储过程提供连接。
 * [SkinnerDB](https://github.com/cornelldbgroup/skinnerdb)：SkinnerDB是一个用于数据分析的关系型数据库管理系统，由康奈尔数据库小组开发。
 * [CreatorDB](https://github.com/CreatorsStack/CreatorDB)：CreatorDB是一个DBMS数据库管理系统，包含存储、算子、优化、事务、索引等。
+* [Interference](https://github.com/interference-project/interference)： Interference是一个简单的Java框架，它允许你在Java应用程序中启动分布式数据库和复杂的事件处理服务，并使用类似JPA的接口和注解进行结构映射和数据操作。
 
 #### NoSQL数据库
 
@@ -3436,6 +3442,7 @@ permalink: /javalibs
 * [Puree](https://github.com/cookpad/puree-android)：Puree是一个日志收集器，由Cookpad开源。
 * [Fluency](https://github.com/komamitsu/fluency)：Fluentd和Fluent Bit(以及AWS S3和Treasure Data)的高吞吐量数据提取记录器。
 * [Log4a](https://github.com/pqpo/Log4a)：Log4a是一个基于Mmap、高性能、高可用的Android日志收集框架。
+* [LogWise](https://github.com/ds-horizon/logwise)：Logwise是一款轻量级、开源解决方案，旨在让日志管理更简洁、更快捷、更适合开发者，由Dream11开源。
 
 #### 请求/响应记录
 
@@ -3605,13 +3612,11 @@ permalink: /javalibs
 * [AutoDispose](https://github.com/uber/AutoDispose)：AutoDispose是一个RxJava 2+工具，用于通过处置/取消自动将RxJava流的执行绑定到提供的作用域，由Uber开源。
 * [Electric](https://github.com/hyperfiddle/electric)：Electric是一种响应式和网络感知的Clojure/Script DSL，它在编程语言层完全抽象客户端/服务器状态同步，以便在动态Web应用程序中实现跨越前端/后端边界的强大组合。
 * [Reaktive](https://github.com/badoo/Reaktive)：Reactive Extensions的Kotlin多平台实现。
-* [RSocket JVM](https://github.com/jauntsdn/rsocket-jvm)：RSocket JVM在JVM上提供非常快速的类gRPC和兼容gRPC的服务，并通过多种网络传输提供丰富的流模型。
-* [Sqlbrite](https://github.com/square/sqlbrite)：围绕SupportSQLiteOpenHelper和ContentResolver的轻量级包装器，它向查询引入了响应式流语义，由Square开源。
-* [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
+* [Sodium](https://github.com/SodiumFRP/sodium)：面向多种语言的函数式响应式编程库。
+* [Scala.Rx](https://github.com/lihaoyi/scala.rx)：Scala.Rx是Scala的变更传播库。
+* [Reagent](https://github.com/JakeWharton/Reagent)：未来响应式库的实验。
 * [RxNetty](https://github.com/ReactiveX/RxNetty)：RxNetty是Netty的Rx适配器。
 * [Netty Reactive Streams](https://github.com/playframework/netty-reactive-streams)：Netty的Reactive Streams实现。
-* [Reactive gRPC](https://github.com/salesforce/reactive-grpc)：Reactive gRPC是一套将gRPC与Reactive Streams编程库结合使用的库，由Salesforce开源。
-* [Reactive Wizard](https://github.com/FortnoxAB/reactive-wizard)：Reactive Wizard项目可以轻松构建利用Reactor和Netty强大功能的高性能且可扩展的Web应用程序，由Fortnox开源。
 * [CohereFlux](https://github.com/pellse/cohereflux)：CohereFlux是一个响应式、函数式、类型安全和无状态的数据聚合框架，用于查询和合并来自多个数据源/服务的数据。
 * [Reactive Commons](https://github.com/reactive-commons/reactive-commons-java)：Reactive Commons的目的是提供一组针对不同模式和实践的抽象和实现，这些模式和实践构成了响应式微服务架构的基础，由哥伦比亚银行维护。
 * [Reakt](https://github.com/advantageous/reakt)：Reakt是Java的响应式接口。
@@ -5341,6 +5346,8 @@ permalink: /javalibs
 * [SquiDB](https://github.com/yahoo/squidb)：SquiDB是适用于Android和iOS的跨平台SQLite数据库层，旨在尽可能轻松地使用SQLite数据库，由Yahoo开源。
 * [Lightblue](https://github.com/lightblue-platform/lightblue-core)：Lightblue是基于文档的数据访问层框架，由RedHat开源。
 * [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
+* [SQL Brite](https://github.com/square/sqlbrite)：一个轻量级的SQLiteOpenHelper包装器，为SQL作引入了响应式流语义，由Square开源。
+* [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
 * [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准(JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1)的Java数据持久化框架。
 * [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 * [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
@@ -5797,7 +5804,7 @@ permalink: /javalibs
 * [Athenz](https://github.com/AthenZ/athenz)：Athenz是一个开源平台，用于动态基础设施中基于X.509证书的服务身份验证和细粒度访问控制，由Yahoo开源。
 * [Akto](https://github.com/akto-api-security/akto)：Akto是一个即时开源API安全平台。
 * [MOSIP](https://www.mosip.io/#1)：MOSIP是一款开源软件，可供政府或国际组织作为核心构建基础数字身份系统，由班加罗尔国际信息技术学院开发。
-* [Guardian](https://github.com/dream-sports-labs/guardian)：Guardian是一款专为现代应用程序设计的强大开源身份验证和授权解决方案，由Dream11开源。
+* [Guardian](https://github.com/ds-horizon/guardian)：Guardian是一款专为现代应用程序设计的强大开源身份验证和授权解决方案，由Dream11开源。
 * [MidPoint](https://github.com/Evolveum/midpoint)：MidPoint是一个综合性身份治理和管理(IGA)平台。
 * [OpenIDM](https://www.forgerock.com)：OpenIDM是一个用Java编程语言编写的身份管理系统。
 * [Mujina](https://github.com/OpenConext/Mujina)：Mujina是一个SAML2身份和服务提供商(IdP&SP)。
@@ -7208,6 +7215,7 @@ permalink: /javalibs
 * [Kikwiflow](https://github.com/atoxfy/kikwiflow)：Kikwiflow是一个从零开始构建的流程编排引擎，旨在解决传统平台的长期痛点。
 * [Serverless Workflow](https://github.com/serverlessworkflow/sdk-java)：Serverless Workflow是一个开源、供应商中立且社区驱动的项目，它通过其高级DSL重新定义了工作流创建。
 * [Quarkus Flow](https://github.com/quarkiverse/quarkus-flow)：Quarkus Flow是一款轻量级、低依赖性、生产级工作流引擎，基于CNCF Serverless Workflow规范构建。
+* [Fluxnova](https://github.com/finos/fluxnova-bpm-platform)：Fluxnova是一个灵活的工作流程和流程自动化框架，由金融科技开源基金会FINOS开源。
 
 ## 编排引擎
 
@@ -7503,6 +7511,7 @@ permalink: /javalibs
 #### ASCII艺术
 
 * [Jansi](https://github.com/fusesource/jansi)：Jansi是一个小型Java库，允许使用ANSI转义序列来格式化控制台输出，甚至可以在Windows上运行。
+* [DITAA](https://github.com/stathissideris/ditaa)：DITAA是一个小型命令行工具，可以将使用ASCII艺术绘制的图，转换为合适的位图图形。
 * [Mordant](https://github.com/ajalt/mordant)：Mordant是一个多平台库，用于在终端中渲染样式文本。
 * [Java ASCII Render](https://github.com/indvd00m/java-ascii-render)：纯Java的ASCII渲染器，没有外部依赖，支持图形基元/元素、图层、上下文、画布。
 * [ConsoleUI](https://github.com/awegmann/consoleui)：微型Java库，可在基于ANSI控制台的终端上启用简单的UI元素。
@@ -7517,6 +7526,7 @@ permalink: /javalibs
 * [Tree Printer](https://github.com/davidsusu/tree-printer)：用于在命令行中可视化树结构的简单Java库。
 * [PrettyPrintTree](https://github.com/AharonSambol/PrettyPrintTreeJava)：该包允许你以可读的方式打印树数据结构。
 * [Chalk](https://github.com/tomas-langer/chalk)：Chalk专注于Java中的跨平台标准输出着色。
+* [ASCII Graphs](https://github.com/mdr/ascii-graphs)：一个用于图的ASCII艺术图库，它支持解析现有图解和将图渲染成ASCII图。
 
 #### 文本表
 
@@ -7657,6 +7667,11 @@ permalink: /javalibs
 #### 函数式异常处理
 
 * [Throwing Function](https://github.com/pivovarit/throwing-function)：支持受检异常的Java 8函数接口+适配器。
+* [Kotlin Result](https://github.com/michaelbull/kotlin-result)：一个多平台的结果单子，用于建模成功或失败。
+* [Result4j](https://github.com/sviperll/result4j)：Result4j提供了类似于Rust中的Result类型的Result类，允许返回成功结果或返回某种错误。
+* [Fluent Result](https://github.com/gorandalum/fluent-result)：一个Java结果库，帮助你摆脱异常，实现更流式的编码风格。
+* [Result](https://github.com/leakyabstractions/result)：Result的目的是为可能成功或失败的操作结果提供类型安全的封装，而不是抛出异常。
+* [Fugue](https://bitbucket.org/atlassian/fugue)：Fugue提供补充Google Guava库的函数结构，包括Option、Either、Pair和其他类似有用的类，由Atlassian开源。
 * [NoException](https://github.com/robertvazan/noexception)：NoException是Java异常处理程序的函数式编程库。
 * [Try](https://github.com/lambdista/try)：Java的Try-Success-Failure Scala API的实现。
 * [Unchecked](https://github.com/rogerkeays/unchecked)：Unchecked允许你将Java的受检异常视为非受检异常。
@@ -7665,9 +7680,6 @@ permalink: /javalibs
 * [Either](https://github.com/jbock-java/either)：Java的函数式错误处理库。
 * [Catch Exception](https://github.com/Codearte/catch-exception)：Catch Exception库在单行代码中捕获异常，并使它们可用于进一步分析。
 * [Maybe](https://github.com/JoseLion/maybe)：Maybe是一个类似于java.util.Optional的单子包装器，但意图不同。
-* [Result](https://github.com/leakyabstractions/result)：Result的目的是为可能成功或失败的操作结果提供类型安全的封装，而不是抛出异常。
-* [Fluent Result](https://github.com/gorandalum/fluent-result)：一个Java结果库，帮助你摆脱异常，实现更流式的编码风格。
-* [Fugue](https://bitbucket.org/atlassian/fugue)：Fugue提供补充Google Guava库的函数结构，包括Option、Either、Pair和其他类似有用的类，由Atlassian开源。
 * [Dichotomy](https://github.com/xyzsd/dichotomy)：Java的Result、Either、Try和Maybe类型的单子类型。
 * [Either.Java](https://github.com/spencerwi/Either.java)：Java的“Either a b”的右偏实现，使用Java 8进行映射/折叠和类型推断。
 * [Ambivalence](https://github.com/poetix/ambivalence)：Java 8的Either类型。
@@ -9106,13 +9118,31 @@ permalink: /javalibs
 * [Spine Event Engine](https://github.com/SpineEventEngine/core-java)：Spine Event Engine是一个Java框架，用于构建事件源和CQRS应用程序。
 * [Kestrel](https://github.com/cultureamp/kestrel)：Kestrel是用于在Kotlin中构建事件溯源、CQRS应用程序的框架。
 
-#### 设计模式
+## 设计模式
 
-* [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
+#### 构建器模式
+
+* [RecordBuilder](https://github.com/Randgalt/record-builder)：RecordBuilder是用于Java记录的记录构建器。
+* [FreeBuilder](https://github.com/inferred/FreeBuilder)：FreeBuilder可以自动生成Java的构建器模式，由Google开源。
+* [PojoBuilder](https://github.com/mkarneim/pojobuilder)：PojoBuilder是一个符合Java 6的注解处理器，可为POJO生成流式的构建器类。
+* [Jilt](https://github.com/skinny85/jilt)：Jilt是一个Java注解处理器，用于自动生成实现构建器设计模式的类。
+* [CallBuilder](https://github.com/google/CallBuilder)：CallBuilder是一个Java代码生成器，可以使创建构建器类变得容易，由Google开源。
+* [AutoMatter](https://github.com/danielnorberg/auto-matter)：AutoMatter用于从定义为最小接口的值类型具体化值类和构建器。
+* [Kotlin Builder](https://github.com/ThinkingLogic/kotlin-builder-annotation)：Kotlin与Java互操作的构建器注解，为Java客户端提供一种简洁的Kotlin对象构建方式。
+* [Bob](https://github.com/jonas-grgt/bob)：Bob是Lombok @Builder注解的轻量级替代品。
+* [Pojo Builder](https://github.com/jenzz/Java-PojoBuilder)：使用注解处理的构建器模式的Java代码生成器。
+
+#### 代理模式
+
 * [Apache Commons Proxy](https://github.com/apache/commons-proxy)：用于动态代理的Java库。
 * [AutoProxy](https://github.com/OleksandrKucherenko/autoproxy)：在接口/抽象类之上生成代理类，允许拦截调用。
 * [Dynamic Proxy](https://github.com/neoremind/dynamic-proxy)：Dynamic Proxy是用于Java生成代理对象的有用库。
+
+#### 责任链模式
+
+* [Apache Commons Chain](https://github.com/apache/commons-chain)：GoF责任链模式的实现。
 * [Pie](https://github.com/feiniaojin/pie)：Pie是一个可快速上手的责任链框架。
+* [Auto Pipeline](https://github.com/foldright/auto-pipeline)：Auto Pipeline是一个源代码生成器，可以自动生成组件的管道。
 
 #### 中介器
 
@@ -11121,6 +11151,7 @@ permalink: /javalibs
 * [gRPC Java Contrib](https://github.com/salesforce/grpc-java-contrib)：grpc-java库的有用扩展。
 * [Sisyphus](https://github.com/ButterCam/sisyphus)：Sisyphus是一个基于Spring Boot与Kotlin构建的gRPC服务框架。
 * [Akka gRPC](https://github.com/akka/akka-grpc)：支持在Akka Streams之上构建流式gRPC服务器和客户端。
+* [Reactive gRPC](https://github.com/salesforce/reactive-grpc)：Reactive gRPC是一套将gRPC与Reactive Streams编程库结合使用的库，由Salesforce开源。
 
 ## 对象池
 
@@ -14889,7 +14920,6 @@ permalink: /javalibs
 * [Parceler](https://github.com/johncarl81/parceler)：Parceler是一个代码生成库，可生成Android Parcelable样板源代码。
 * [PaperParcel](https://github.com/grandstaish/paperparcel)：PaperParcel可以自动生成Java和Kotlin的Parcelable实现。
 * [JCodeModel](https://github.com/phax/jcodemodel)：Java代码生成库。
-* [Auto Pipeline](https://github.com/foldright/auto-pipeline)：Auto Pipeline是一个源代码生成器，可以自动生成组件的管道。
 * [TableGo](https://gitee.com/vipbooks/TableGo)：TableGo是基于数据库的代码自动生成工具。
 
 ## 注解处理器
@@ -14906,18 +14936,6 @@ permalink: /javalibs
 * [ADT4J](https://github.com/sviperll/adt4j)：该库为Java实现了代数数据类型。
 * [Incap](https://github.com/tbroyer/gradle-incap-helper)：用于构建增量注解处理器的辅助库和注解处理器。
 * [Better Strings](https://github.com/antkorwin/better-strings)：Better Strings是用于Java字符串插值的插件。
-
-#### 构建器模式
-
-* [RecordBuilder](https://github.com/Randgalt/record-builder)：RecordBuilder是用于Java记录的记录构建器。
-* [FreeBuilder](https://github.com/inferred/FreeBuilder)：FreeBuilder可以自动生成Java的构建器模式，由Google开源。
-* [PojoBuilder](https://github.com/mkarneim/pojobuilder)：PojoBuilder是一个符合Java 6的注解处理器，可为POJO生成流式的构建器类。
-* [Jilt](https://github.com/skinny85/jilt)：Jilt是一个Java注解处理器，用于自动生成实现构建器设计模式的类。
-* [CallBuilder](https://github.com/google/CallBuilder)：CallBuilder是一个Java代码生成器，可以使创建构建器类变得容易，由Google开源。
-* [AutoMatter](https://github.com/danielnorberg/auto-matter)：AutoMatter用于从定义为最小接口的值类型具体化值类和构建器。
-* [Kotlin Builder](https://github.com/ThinkingLogic/kotlin-builder-annotation)：Kotlin与Java互操作的构建器注解，为Java客户端提供一种简洁的Kotlin对象构建方式。
-* [Bob](https://github.com/jonas-grgt/bob)：Bob是Lombok @Builder注解的轻量级替代品。
-* [Pojo Builder](https://github.com/jenzz/Java-PojoBuilder)：使用注解处理的构建器模式的Java代码生成器。
 
 #### 访问器模式
 
