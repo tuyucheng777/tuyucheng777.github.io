@@ -841,6 +841,7 @@ permalink: /javalibs
 * [量子计算](#量子计算)
 * [IPFS](#IPFS)
 * [地理空间](#地理空间)
+    * [OpenStreetMap](#OpenStreetMap)
     * [坐标库](#坐标库)
     * [经纬度库](#经纬度库)
     * [GeoJson](#GeoJson)
@@ -1202,6 +1203,7 @@ permalink: /javalibs
 * [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
 * [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
 * [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Nano](https://github.com/NanoNative/nano)：Nano是一种轻量级方法，它使开发人员能够以极小的代码量，使用函数式、流式、链式调用、简洁的现代Java语言编写微服务。
 * [KivaKit](https://github.com/Telenav/kivakit)：KivaKit是一套用于日常开发的集成Java迷你框架，由Telenav开源。
 * [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
 * [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
@@ -1580,6 +1582,7 @@ permalink: /javalibs
 * [Dropwizard Metrics](https://github.com/dropwizard/metrics)：Metrics提供了强大的工具包，可用于测量生产环境中关键组件的行为，由Yammer开源。
 * [Prometheus Java](https://github.com/prometheus/client_java)：适用于JVM应用程序的Prometheus检测库。
 * [OpenTelemetry Java Instrumentation](https://github.com/open-telemetry/opentelemetry-java-instrumentation)：该项目提供了一个Java代理JAR，可以附加到任何Java 8+应用程序，并动态注入字节码以从许多流行的库和框架捕获遥测数据。
+* [Eclipse Microprofile Metrics](https://github.com/microprofile/microprofile-metrics)：Microprofile Metrics旨在为Microprofile服务器提供一种统一的方式，将监控数据导出到管理代理，并提供一个统一的Java API。
 * [Servo](https://github.com/Netflix/servo)：Servo提供了一个简单的接口，用于在Java中公开和发布应用程序指标，由Netflix开源。
 * [Micrometer](https://github.com/micrometer-metrics/micrometer)：Micrometer为最流行的可观察性系统提供了一个门面，允许你在不锁定供应商的情况下检测基于JVM的应用程序代码，由VMware开源。
 * [Oculus](https://github.com/etsy/oculus)：Oculus是Etsy Kale系统的异常关联组件。
@@ -1611,6 +1614,7 @@ permalink: /javalibs
 * [Metrics](https://github.com/MinXie1209/metrics)：Metrics是一个暴露应用指标的平台，提供业务无侵入方式对生产级Java服务应用进行指标的监控和暴露。
 * [Illuminati](https://github.com/LeeKyoungIl/illuminati)：Illuminati是一个收集应用中所有数据的平台，并通过Kibana或其他工具实时显示数据。
 * [Kafka Metrics](https://github.com/amient/kafka-metrics)：Kafka Metrics是一个用于实时聚合大型分布式系统指标的系统。
+* [JMXFetch](https://github.com/DataDog/jmxfetch)：JMXFetch是一个新工具，用于从JMX服务器收集指标，以便将其发送到Datadog。
 
 ## API网关
 
@@ -2290,7 +2294,7 @@ permalink: /javalibs
 * [FastCast](https://github.com/RuedigerMoeller/fast-cast)：FastCast是一个高速无代理消息传递库，涵盖从简单的共享内存到大型LAN集群应用程序的Java进程间通信。
 * [Channel](https://github.com/liangjingkanji/Channel)：EventBus特性的事件总线框架。
 * [Eventbus](https://github.com/likavn/eventbus)：Eventbus是基于Spring Boot Starter的分布式业务消息分发总线组件(发布/订阅模式)，支持延时消息。
-* [Deezpatch](https://github.com/joel-jeremy/deezpatch)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
+* [Deezpatch](https://github.com/joel-jeremy/emissary)：Deezpatch是一个简单快速的库，用于将请求和事件分派到相应的处理程序。
 * [Minibus](https://github.com/jneat/minibus)：Java应用实例的简单事件总线。
 * [Evas](https://github.com/sellmair/evas)：Kotlin的现代高性能小型EventBus。
 * [Nepxion EventBus](https://github.com/Nepxion/EventBus)：Nepxion EventBus是一款基于Google Guava通用事件派发机制的事件总线组件。
@@ -4056,6 +4060,8 @@ permalink: /javalibs
 * [Epic](https://github.com/dlwh/epic)：Epic是Scala的一个结构化预测框架。
 * [TimeNLP](https://github.com/shinyke/Time-NLP)：中文语句中的时间语义识别。
 * [TACIT](https://github.com/USC-CSSL/TACIT)：TACIT是一款文本的开源分析、抓取和解释工具，由南加州大学开源。
+* [ApexNLP](https://github.com/6thsolution/ApexNLP)：ApexNLP是一个确定性的基于规则的系统，旨在识别和规范化不同格式的事件表达式。
+* [HebMorph](https://github.com/synhershko/HebMorph)：HebMorph是一个开源项目，旨在使各种信息检索软件库能够正确检索希伯来语，同时保持良好的召回率、精确率和相关性。
 
 #### 分词器
 
@@ -5204,6 +5210,7 @@ permalink: /javalibs
 * [Docker Maven Chrome](https://github.com/markhobson/docker-maven-chrome)：用于Java自动化UI测试的Docker镜像。
 * [Kdriver](https://github.com/cdpdriver/kdriver)：Kdriver是一个极快、协程优先、无法检测的Kotlin网页抓取/浏览器自动化库。
 * [OperaPrestoDriver](https://github.com/operasoftware/operaprestodriver)：OperaPrestoDriver是由Opera和志愿者开发的、由厂商支持的WebDriver实现，它能够对基于Presto的Opera产品进行程序化自动化。
+* [JSErrorCollector](https://github.com/mguillem/JSErrorCollector)：本项目允许在使用WebDriver运行测试时捕获JavaScript错误。
 
 #### Cucumber库
 
@@ -6444,6 +6451,7 @@ permalink: /javalibs
 * [Chlorine Finder](https://github.com/dataApps/chlorine-finder)：Chlorine Finder是一个用于检测文本中敏感元素的开源库。
 * [Rpamis Security](https://github.com/rpamis/rpamis-security)：Rpamis Security项目是一个基于Mybatis插件开发的安全组件，旨在提供更优于市面上组件的脱敏、加解密落库等企业数据安全解决方案。
 * [Desensitized](https://github.com/DannyHoo/desensitized)：基于自定义注解实现日志字段脱敏。
+* [Sensitive Spring Boot Starter](https://github.com/lzhpo/sensitive-spring-boot-starter)：一款强大的数据脱敏插件，支持多种脱敏策略。
 
 #### 零知识证明
 
@@ -8053,28 +8061,29 @@ permalink: /javalibs
 * [JLine](https://github.com/jline/jline3)：JLine是一个用于处理控制台输入的Java库。
 * [Kotlinx CLI](https://github.com/Kotlin/kotlinx-cli)：通用命令行解析器的纯Kotlin实现，由JetBrains开发。
 * [Lamp](https://github.com/Revxrsal/Lamp)：Lamp是一个多功能且强大的命令框架，专为现代Java和Kotlin应用设计。
+* [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
 * [Kotlin Inquirer](https://github.com/kotlin-inquirer/kotlin-inquirer)：受Inquirer.js启发编写的常见交互式命令行用户界面集合。
 * [W2J CLI](https://github.com/frost373/w2j-cli)：Java Web命令行框架，帮助你轻松构建命令行Java Web系统。
 * [Clamshell Cli](https://github.com/vladimirvivien/clamshell-cli)：Clamshell Cli是一个用Java构建基于控制台的命令行应用程序的框架。
 * [Kotter](https://github.com/varabyte/kotter)：Kotter旨在成为一个相对精简、声明式且符合Kotlin语法的API，提供实用的功能，助你轻松编写赏心悦目的控制台应用程序。
-* [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [Clique](https://github.com/kusoroadeolu/Clique)：Clique是无依赖迷你CLI框架，旨在美化Java中的CLI应用程序。
 * [MyCMD](https://github.com/Drive-for-Java/MyCMD)：MyCMD是一个完全自定义的命令提示符，用Java实现。
 
 #### TUI
 
+* [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面，与C库curses非常相似，但具有更多功能。
 * [Jexer](https://gitlab.com/AutumnMeowMeow/jexer)：该库实现了一个基于文本的窗口系统。
+* [Text-IO](https://github.com/beryx/text-io)：Text-IO是一个用于创建Java控制台应用程序的库，它可用于需要读取用户交互式输入的应用程序。
 * [TUI Scala](https://github.com/oyvindberg/tui-scala)：TUI Scala是用于构建富终端用户界面和仪表盘的Scala库。
 * [Casciian](https://github.com/crramirez/casciian)：Java文本用户界面库。
 * [Text UI](https://github.com/alibaba/text-ui)：阿里开源的文本用户界面库。
-* [TamboUI](https://github.com/tamboui/tamboui)：一个用于构建现代终端用户界面的Java库。
+* [TamboUI](https://github.com/tamboui/tamboui)：TamboUI将Rust的ratatui或Go的bubbletea等项目中的TUI范式引入到Java生态系统中。
 * [TUI4J](https://github.com/WilliamAGH/tui4j)：TUI4J是一个受Bubble Tea启发的Java TUI框架。
 
 #### 命令行参数解析
 
 * [JCommander](https://github.com/cbeust/jcommander)：JCommander是一个非常小的Java框架，可以轻松解析命令行参数。
 * [Args4j](https://github.com/kohsuke/args4j)：Args4j是一个小型Java类库，可以轻松解析CUI应用程序中的命令行选项/参数。
-* [Aesh](https://github.com/aeshell/aesh)：Aesh是一个用于处理控制台输入的Java库。
 * [JArgs](https://github.com/purcell/jargs)：JArgs是一个命令行参数解析库。
 * [Cloud](https://github.com/Incendo/cloud)：Cloud是一个通用Java命令调度程序和框架，它允许程序员定义命令链，然后从用户提供的字符串输入中解析和调用这些命令链，以执行预定义的操作。
 * [JOpt Simple](https://github.com/jopt-simple/jopt-simple)：JOpt Simple是一个用于解析命令行选项的Java库。
@@ -8809,6 +8818,7 @@ permalink: /javalibs
 * [Swagger Akka HTTP](https://github.com/swagger-akka-http/swagger-akka-http)：Swagger Akka HTTP为Akka-Http API带来了Swagger支持。
 * [Swagger Gradle Plugin](https://github.com/gigaSproule/swagger-gradle-plugin)：支持JAX-RS和Spring MVC来生成Swagger文档的Gradle构建插件。
 * [Wirespec](https://github.com/flock-community/wirespec)：Wirespec是一款现代化的工具，它通过简化API的设计、文档编写和实现流程来增强软件开发。
+* [JAPI](https://github.com/dounine/japi)：用于生成美观的API Java文档。
 
 #### 模式解析
 
@@ -10034,6 +10044,8 @@ permalink: /javalibs
 * [WebFluxTemplate](https://github.com/TransEmpiric/webFluxTemplate)：带有可用的Spring Security、WebSocket、REST、Web MVC以及JWT身份验证的Spring Webflux模板应用程序。
 * [AdminStore](https://gitee.com/cng1985/adminstore)：一个简单的项目初始化模板，集成Shiro、Spring、Hibernate、Spring MVC、Ehcache、Bootstrap。
 * [Skeleton Spring Boot Web Services](https://github.com/leanstacks/skeleton-ws-spring-boot)：这是一个为Spring Boot RESTful Web Services应用设计的项目骨架。
+* [Spring WebApp Template](https://github.com/making/spring-webapp-template)：这是一个使用Spring框架的Web应用程序模板项目。
+* [Maven Archetype Plugin](https://github.com/apache/maven-archetype)：Archetype是一个Maven项目模板工具包。
 
 #### 脚手架
 
@@ -10408,6 +10420,8 @@ permalink: /javalibs
 * [E-Medical System](https://github.com/soumyadip007/E-Medical-System-Web-Project-Using-Spring-Boot-Security-JPA-Rest-Thymeleaf-HQL)：使用Spring Boot开发的电子医疗系统Web项目。
 * [Open Healthcare Codegen Tool Framework](https://github.com/wso2/open-healthcare-codegen-tool-framework)：Open Healthcare Codegen Tool Framework包含一些常用实用程序和接口，用于实现针对常见医疗协议(FHIR、HL7v2)的工具，由WSO2开源。
 * [OpenClinica](https://github.com/OpenClinica/OpenClinica)：OpenClinica是一款开源的电子数据采集(EDC)和临床数据管理(CDM)软件，用于智能且安全地优化临床试验工作流程。
+* [HL7 To FHIR Converter](https://github.com/LinuxForHealth/hl7v2-fhir-converter)：LinuxForHealth HL7 To FHIR Converter是一个基于Java的库，它能够以声明式和基于配置的方式将HL7v2消息转换为FHIR资源。
+* [OpenLMIS](https://github.com/OpenLMIS/open-lmis)：OpenLMIS(开放物流管理信息系统)是一款面向中低收入国家的医疗用品分销管理共享开源软件解决方案。
 
 #### 项目管理
 
@@ -10973,6 +10987,7 @@ permalink: /javalibs
 * [E-Commerce](https://github.com/foysal-mahmud/E-BookShop----Spring-boot)：完整电子商务项目，使用Spring、Hibernate、Bootstrap和MySQL完成。
 * [Spring Boot eshopOnContainers](https://github.com/harshaghanta/springboot-eshopOnContainers)：基于Spring Boot的eshopOnContainers项目实现。
 * [Ecommerce](https://github.com/webtutsplus/ecommerce-backend)：电子商务后端API。
+* [WooCommerce API Java](https://github.com/calatonsystems/wc-api-java)：WooCommerce REST API的Java封装库。
 
 ## 支付
 
@@ -11156,6 +11171,7 @@ permalink: /javalibs
 * [Exception Notify](https://github.com/GuangYiDing/exception-notify)：Exception Notify是一个Spring Boot Starter组件，用于捕获Spring Boot应用中未处理的异常，并通过钉钉、飞书或企业微信实时告警通知。
 * [Quick Alarm](https://github.com/liuyueyi/quick-alarm)：通用报警框架，支持报警方式自定义。
 * [Exception Notice Spring Boot Starter](https://github.com/kongchong/exception-notice-spring-boot-starter)：一个针对异常信息通知的Spring Boot Starter。
+* [Alarm](https://github.com/Junety-C/alarm)：Alarm是一个基于Spring Boot的告警项目。
 
 ## APN
 
@@ -11186,6 +11202,7 @@ permalink: /javalibs
 * [Ozone](https://github.com/christiandeange/ozone)：Bluesky的Kotlin多平台绑定。
 * [Evernote SDK Java](https://github.com/Evernote/evernote-sdk-java)：该SDK包含用于从Java应用调用Evernote Cloud API的包装代码。
 * [Bilibili API](https://github.com/czp3009/bilibili-api)：该项目提供Bilibili API的JVM调用。
+* [Tieba API](https://github.com/libsgh/tieba-api)：封装了百度贴吧的基本操作，登录、签到、回帖等。
 * [Music Utils](https://github.com/1015770492/yumbo-music-utils)：QQ音乐、网易云音乐工具包，调用工具类快捷得到返回的JSON数据。
 * [Cloud Foundry Java Client](https://github.com/cloudfoundry/cf-java-client)：CF Java Client项目是一个用于与Cloud Foundry实例交互的Java语言绑定。
 * [DigitalOcean API Java](https://github.com/jeevatkm/digitalocean-api-java)：Java中的DigitalOcean API客户端。
@@ -11849,6 +11866,7 @@ permalink: /javalibs
 * [JTT1078 Video Server](https://gitee.com/matrixy/jtt1078-video-server)：基于JT/T 1078协议实现的视频转播服务器。
 * [Spring Boot Starter JT808](https://gitee.com/zhoyq/spring-boot-starter-jt808)：交通标准808协议解析二次开发包。
 * [SmartCar Java SDK](https://github.com/smartcar/java-sdk)：SmartCar API允许你使用HTTP请求读取车辆数据(位置、里程表)并向车辆发送命令(锁定、解锁)。
+* [GeoNetworking](https://github.com/alexvoronov/geonetworking)：ETSI ITS G5 GeoNetworking协议栈。
 
 #### 车载诊断
 
@@ -12121,6 +12139,7 @@ permalink: /javalibs
 * [Telegram](https://github.com/bot4s/telegram)：Telegram Bot API的简单、可扩展、强类型包装器。
 * [Telegram Bot](https://github.com/vendelieu/telegram-bot)：带有方便的Kotlin DSL的Telegram Bot API包装器。
 * [JTelegramBot](https://github.com/Eng-Fouad/JTelegramBot)：JTelegramBot是一个Java库，它使用构建器设计模式对Telegram Bot API进行了封装，使其更简单易用。
+* [Kt Telegram Bot](https://github.com/elbekD/kt-telegram-bot)：用于Kotlin语言的Telegram Bot库。
 
 #### Facebook机器人
 
@@ -13218,7 +13237,6 @@ permalink: /javalibs
 
 #### Swing
 
-* [Lanterna](https://github.com/mabe02/lanterna)：Lanterna是一个Java库，允许你在纯文本环境中编写简单的半图形用户界面，与C库curses非常相似，但具有更多功能。
 * [JFormDesigner](https://www.formdev.com/)：JFormDesigner是一款专业的Java Swing用户界面GUI设计器。
 * [Radiance](https://github.com/kirill-grouchnikov/radiance)：Radiance是一个库集合，用于基于Ephemeral设计系统编写现代、优雅且快速的Swing应用程序。
 * [JxCapture](https://teamdev.com/jxcapture/)：JxCapture是一种跨平台、能Java应用程序提供综合屏幕抓取API的库程序。
@@ -13353,6 +13371,7 @@ permalink: /javalibs
 * [Simple Graphics](https://github.com/academia-de-codigo/simple-graphics)：带有鼠标和键盘事件的简易图形库。
 * [JIDE Gantt Chart](https://www.jidesoft.com/products/gantt.htm)：JIDE Gantt Chart是一个纯粹的Java Swing库，使你可以在Swing应用中创建甘特图成为可能。
 * [JIDE Charts](https://www.jidesoft.com/products/charts.htm)：JIDE Charts是一个强大且灵活的图表软件。
+* [ChartX](https://github.com/apokalypsix/chartx)：适用于Java Swing应用程序的高性能GPU加速图表库。
 
 #### Swing测试库
 
@@ -14710,6 +14729,7 @@ permalink: /javalibs
 #### 呼叫中心
 
 * [ESL Client](https://github.com/esl-client/esl-client)：ESL Client是FreeSWITCH项目中基于Java的事件套接字库。
+* [ARI4Java](https://github.com/ari4java/ari4java)：适用于Java的Asterisk REST接口绑定。
 * [FreeSWITCH ESL ALL](https://github.com/zhouhailin/freeswitch-externals)：FreeSWITCH额外项目。
 * [Contact Center](https://github.com/caoliang1918/contact-center)：智能电话外呼系统。
 * [Asterisk Java](https://github.com/asterisk-java/asterisk-java)：Asterisk Java包含一组Java类，使你能够轻松构建与Asterisk PBX服务器交互的Java应用程序。
@@ -15245,6 +15265,11 @@ permalink: /javalibs
 * [Compass](https://github.com/jordond/compass)：Compass是一个Kotlin多平台库定位工具包。
 * [PostGIS](https://github.com/postgis/postgis-java)：PostGIS的Java绑定及其他Java相关项目。
 
+#### OpenStreetMap
+
+* [Overpasser](https://github.com/zsoltk/overpasser)：通过查询Overpass API实现与OpenStreetMap数据的流式Java接口。
+* [OSMAPI](https://github.com/westnordost/osmapi)：OSMAPI是OSM API 0.6的客户端。
+
 #### 坐标库
 
 * [Proj4J](https://github.com/locationtech/proj4j)：Proj4J是一个用于在不同地理空间坐标参考系之间转换坐标的Java库，这是一个Eclipse基金会项目。
@@ -15648,6 +15673,7 @@ permalink: /javalibs
 * [JEmoji](https://github.com/felldo/JEmoji)：JEmoji是一个轻量级且快速的Java表情符号库，包含来自unicode联盟的所有表情符号的完整列表。
 * [EmojiReader](https://github.com/YvesCheung/EmojiReader)：EmojiReader是一个能在字符串中识别出Emoji的简单工具。
 * [Lightbend Emoji](https://github.com/lightbend-labs/lightbend-emoji)：Lightbend Emoji是Java的Unicode处理的包装器。
+* [EmojiCodeSheet](https://github.com/shanraisshan/EmojiCodeSheet)：Emoji Code Sheet是一套以编程语言代码形式呈现的表情符号集合。
 
 ## 字体库
 
@@ -16349,7 +16375,6 @@ permalink: /javalibs
 * [Maven Shade Plugin](https://github.com/apache/maven-shade-plugin)：该插件提供了将工件打包在uber-jar中的功能，包括其依赖项，并遮蔽(即重命名)某些依赖项的包。
 * [Maven Enforcer Plugin](https://github.com/apache/maven-enforcer)：Enforcer插件提供了控制某些环境约束的目标，例如Maven版本、JDK版本和操作系统系列，以及更多内置规则和用户创建的规则。
 * [JasperReports Maven Plugin](https://github.com/alexnederlof/Jasper-report-maven-plugin)：这个Maven插件会将JasperReport报告文件编译到target目录。
-* [Maven Archetype Plugin](https://github.com/apache/maven-archetype)：Archetype是一个Maven项目模板工具包。
 * [Takari Maven Plugin](https://github.com/takari/takari-maven-plugin)：用于安装Maven Wrapper的Maven插件。
 * [Really Executable Jars Maven Plugin](https://github.com/brianm/really-executable-jars-maven-plugin)：用于制作chmod +x jar文件的Maven插件。
 * [Multi Module Maven Release Plugin](https://github.com/danielflower/multi-module-maven-release-plugin)：一个快速的Maven发布插件，不添加额外的提交，并且可以很好地与单个或多个模块配合使用。
