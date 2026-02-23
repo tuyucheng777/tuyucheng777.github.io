@@ -125,7 +125,7 @@ permalink: /javalibs
     * [Socket.IO](#SocketIO)
     * [Socket](#Socket)
     * [TCP/UDP库](#TCPUDP库)
-    * [即时通讯](#即时通讯)
+    * [IM](#IM)
     * [Pcap](#Pcap)
     * [SSH库](#SSH库)
     * [DNS库](#DNS库)
@@ -560,6 +560,7 @@ permalink: /javalibs
     * [后台管理系统](#后台管理系统)
     * [低代码](#低代码)
     * [权限管理系统](#权限管理系统)
+    * [即时通讯系统](#即时通讯系统)
     * [电商系统](#电商系统)
     * [销售点系统](#销售点系统)
     * [秒杀系统](#秒杀系统)
@@ -3172,6 +3173,7 @@ Kafka生态管理系统、运维平台。
 * [JNR UnixSocket](https://github.com/jnr/jnr-unixsocket)：Java的本机I/O访问。
 * [Epoll](https://github.com/wizzardo/epoll)：基于事件的套接字服务器，使用epoll。
 * [JNanomsg](https://github.com/niwinz/jnanomsg)：用于Nanomsg的Clojure和Java绑定。
+* [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
 * [Hxy Socket](https://github.com/a805748009/hxy-socket)：基于Spring Boot和Netty的Socket通信框架。
 * [AndroidSocket](https://github.com/itsMelo/AndroidSocket)：Android上一套完整的Socket解决方案。
 * [XAndroidSocket](https://github.com/Blankeer/XAndroidSocket)：Socket封装，支持TCP/UDP客户端和服务端，支持自定义粘包处理、验证处理、解析处理。
@@ -3196,68 +3198,31 @@ Kafka生态管理系统、运维平台。
 * [Dragonite](https://github.com/dragonite-network/dragonite-java)：Dragonite是一种基于UDP的可靠应用级数据传输协议，针对有损和不稳定的网络进行了高度优化。
 * [JBoss Remoting](https://github.com/jboss-remoting/jboss-remoting)：JBoss Remoting的目的是提供一个用于通过网络进行对称和非对称通信的通用框架，由RedHat开发。
 
-#### 即时通讯
+#### IM
 
 * [Jitsi](https://github.com/jitsi/jitsi)：Jitsi Desktop是一款免费的开源音频/视频和聊天通信器，支持SIP、XMPP/Jabber、IRC等协议和许多其他有用的功能。
 * [Signal Server](https://github.com/signalapp/Signal-Server)：Signal是一款开源、端到端加密的通讯应用程序，可用于发送文本、语音、图片和视频等多种形式的消息，由Open Whisper Systems开发。
-* [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云聊天拥有全球接入、一对一聊天、群聊、消息推送、档案和关系链托管、账户认证等一整套解决方案。
 * [CIM](https://github.com/crossoverJie/cim)：CIM是一款面向开发者的IM系统，同时提供了一些组件帮助开发者构建一款属于自己可水平扩展的IM。
 * [Google Cloud Messaging](https://github.com/google/gcm)：Google Cloud Messaging是一种服务，允许开发人员将数据从服务器发送到用户的设备，并从同一连接上的设备接收消息。
-* [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
-* [V-IM](https://gitee.com/alyouge/V-IM)：V-IM是基于JS的超轻量级聊天软件，服务端使用Spring Boot。
-* [Briar](https://github.com/briar/briar)：Briar是一款专为活动家、记者以及任何需要安全、便捷、强大的沟通方式的人士设计的即时通讯应用。
-* [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
-* [Face2Face](https://github.com/a2888409/face2face)：基于Netty的异步非阻塞实时聊天(IM)服务器。
 * [Tigase Server](https://github.com/tigase/tigase-server)：Tigase XMPP Server是用Java编写的高度优化、高度模块化且非常灵活的XMPP/Jabber服务器。
-* [MallChat](https://github.com/zongzibinbin/MallChat)：抹茶聊天是一个IM项目，通过Netty实现和前端的WebSocket连接。
 * [Actor Platform](https://github.com/actorapp/actor-platform)：Actor是一个即时通讯平台。
-* [PushTalk](https://github.com/good-life/PushTalk)：PushTalk是一个基于极光推送的Android手机聊天系统。
 * [NettyChat](https://github.com/FreddyChen/NettyChat)：基于Netty、TCP、Protobuf实现的Android IM库。
-* [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
 * [InChat](https://github.com/AwakenCN/InChat)：InChat是一个轻量级、高效、分布式的异步通信框架，支持聊天和物联网。
 * [Smack](https://github.com/igniterealtime/Smack)：Smack是一个开源、高度模块化、易于使用的XMPP客户端库，用Java编写，适用于兼容Java SE的JVM和Android。
 * [J-IM](https://gitee.com/xchao/j-im)：J-IM是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
-* [Bytedesk](https://github.com/Bytedesk/bytedesk)：企业即时通讯解决方案，具有人工智能实时聊天、电子邮件支持、全渠道客户服务和团队即时通讯功能。
 * [Openfire](https://github.com/igniterealtime/Openfire)：Openfire是一个即时通信和群聊服务器，它是使用Java编写的XMPP服务器。
 * [CIM](https://gitee.com/farsunset/cim)：CIM是一套完善的消息推送框架，可应用于信令推送，即时聊天，移动设备指令推送等领域。
-* [IM](https://github.com/yuanrw/IM)：IM是一个轻量级的即时通讯服务器。
 * [MobileIMSDK](https://github.com/JackJiang2011/MobileIMSDK)：MobileIMSDK是一个原创多端IM通信层框架，轻量级、高度提炼，支持UDP、TCP、WebSocket三种协议。
-* [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
 * [CometD](https://github.com/cometd/cometd)：CometD是用于网络消息传递的可扩展Comet(服务器推送)实现。
 * [iCometClient4j](https://github.com/kyleduo/iCometClient4j)：iComet服务器的客户端，适用于Java/Android平台。
-* [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
-* [Spark](https://github.com/igniterealtime/Spark)：Spark是一款针对企业和组织进行优化的开源跨平台IM客户端。
 * [Gifsockets](https://github.com/videlalvaro/gifsockets)：使用Gif动画作为传输的实时通信库。
 * [RongCloud Server SDK](https://github.com/rongcloud/server-sdk-java)：Java版融云即时通讯服务器SDK。
 * [SONA](https://github.com/BixinTech/sona)：SONA是一个由比心语音技术团队开发，用于快速搭建语音房产品的全端解决方案，支撑了比心聊天室、直播、游戏房等业务。
 * [Tencent Cloud IM Server SDK](https://github.com/doocs/qcloud-im-server-sdk-java)：腾讯云IM服务端SDK Java版。
-* [Xiaper](https://github.com/xiaper/xiaper)：Xiaper是一款开源企业IM解决方案。
-* [盒子IM](https://gitee.com/bluexsx/box-im)：盒子IM是一个仿微信实现的网页版聊天软件，不依赖任何第三方收费组件。
-* [HuLa Server](https://github.com/HuLaSpark/HuLa-Server)：HuLa Server是一款基于Spring Boot 3、Netty、MyBatis Plus和RocketMQ构建的即时通讯系统服务端。
-* [Linyu](https://github.com/DWHengr/linyu-server)：林语是基于Tauri开发的桌面聊天软件，前端框架使用React，后端框架使用Spring Boot进行开发。
-* [IM WhaleShark](https://github.com/BanTanger/im-whale-shark)：IM WhaleShark是基于Netty实现的高性能分布式IM即时通讯系统。
-* [微聊](https://gitee.com/lakaola/im-platform)：聊天IM、实时音视频通话等功能。
-* [AQChat](https://gitee.com/howcode/aq-chat-server)：AQChat是一个已接入AI的极速、便捷的匿名在线即时AI聊天室。
-* [OUYUNC IM](https://gitee.com/etxync/ouyunc-im)：偶云客IM是一款开源免费基于Netty的即时通讯框架。
-* [SubtleChat](https://github.com/JustCoding-Hai/subtlechat)：微言是基于前后端分离，采用Spring Boot、Vue框架开发的网页版聊天室。
-* [AnyChat](https://github.com/dianbaer/anychat)：AnyChat是一个极简纯净的WebSocket聊天插件，支持对接任何身份系统，嵌入方只需提供三个API即可进行实时通讯。
-* [MuChat](https://gitee.com/pisces-hub/muchat)：MuChat是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
-* [Chat UniApp](https://gitee.com/lakaola/chat-api)：聊天IM，精仿微信，支持单聊、群聊、朋友圈、摇一摇、附近的人、收藏、扫码、机器人、文字、图片、名片、实时音视频通话等功能。
-* [Lucky](https://github.com/Luckly-XYZ/Lucky-cloud)：Lucky是一个基于Spring Boot 3、Spring Cloud Alibaba构建的高性能、高可用的即时通讯服务端系统。
 * [OrdinaryRoad Live Chat Client](https://github.com/OrdinaryRoad-Project/ordinaryroad-live-chat-client)：一个基于Netty的通用直播间弹幕客户端。
-* [灯塔APS](https://gitee.com/lighthouse-aps/im)：灯塔APS高级生产计划排程是一款基于有限资源进行合理排产实现精准计划的排产类工业软件。
-* [FastIM](https://github.com/zhangyaoo/fastim)：基于Netty高可用分布式即时通讯系统。
-* [Live Chat Engine](https://github.com/edolganov/live-chat-engine)：开源系统，用于在任何网站上与访客进行实时聊天。
 * [WebQQ](https://github.com/iqq-team/webqq-core)：一个基于WebQQ协议开发的库，你可以基于这个库让你的程序集成QQ相关的功能。
-* [Chatterbox](https://github.com/gmingchen/chatterbox)：Chatterbox是一个即时聊天系统。
-* [OnChat](https://github.com/onch-at/onchat)：OnChat是一个简单、美观、移动优先的即时消息渐进式Web应用程序。
 * [ChatBox](https://github.com/felizdevida/chat-box)：ChatBox是一个仿微信实现的网页版聊天软件。
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
-* [LeoIM](https://github.com/lining90567/leo-im-server)：LeoIM是基于Java、Netty、Vue、Element-UI开发的轻量级IM。
-* [DevSphere](https://github.com/shutu-hub/devSphere)：DevSphere是一个基于Spring Boot构建的高性能实时聊天系统。
-* [FastBeeIM](https://github.com/Art0white/FastBeeIM)：提供给开发者快速实现IM服务端、客户端的能力。
-* [KingIM](https://github.com/jkxqj/KingIM)：KingIM是基于Netty的性能强悍的实时通讯系统。
-* [Ocean](https://gitee.com/dempe/ocean)：基于MQTT协议、Netty通讯组件实现的IM。
 
 #### Pcap
 
@@ -3432,9 +3397,10 @@ Kafka生态管理系统、运维平台。
 
 #### KCP
 
-* [Java KCP](https://gitee.com/344453111/java-Kcp)：基于Netty实现的可靠UDP网络库(kcp算法)，包含fec实现。
+* [Java KCP](https://github.com/l42111996/java-Kcp)：基于Netty实现的可靠UDP网络库(kcp算法)，包含fec实现。
 * [KCP Netty](https://github.com/szhnet/kcp-netty)：基于Netty的KCP的Java实现。
 * [JKCP](https://github.com/beykery/jkcp)：JKCP直接构建于UDP之上并提供方便的编程接口，只需要继承相关的类即可。
+* [KCP Java](https://github.com/hkspirt/kcp-java)：KCP的Java版本。
 
 #### QUIC
 
@@ -4412,6 +4378,7 @@ Kafka生态管理系统、运维平台。
 * [BambooBSC](https://github.com/billchen198318/bamboobsc)：BambooBSC是一个开源的平衡计分卡商业智能系统。
 * [Tahopen](https://github.com/tahopen/tahopen-platform)：Tahopen是一个强大的开源商业分析平台，由Pentaho分支而来。
 * [StyleBI](https://github.com/inetsoft-technology/stylebi)：StyleBI是一款云原生、资源占用极低的商业智能Web应用，由数据转换管道和可视化微服务驱动。
+* [Visualis](https://gitee.com/WeBank/Visualis)：Visualis是一个基于宜信的开源项目Davinci开发的数据可视化BI工具，由微众银行开发。
 
 #### 电子表格
 
@@ -6995,7 +6962,6 @@ Kafka生态管理系统、运维平台。
 * [JsonTemplate](https://github.com/json-template/JsonTemplate)：一个生成JSON字符串的Java工具。
 * [xJsonKit](https://gitee.com/troyzhxu/xjsonkit)：xJsonKit是一个超轻量级JSON/JSONB/XML/YAML解析门面API。
 * [Tethys](https://github.com/tethys-json/tethys)：Tethys是用于Scala的无AST JSON库。
-* [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 * [JSON Repair](https://github.com/HAibiiin/json-repair)：JSON Repair是一个Java库，用于修复由大语言模型在不同应用层生成的异常JSON。
 * [ZIO Json](https://github.com/zio/zio-json)：ZIO Json是一个快速且安全的JSON库。
 * [Forge](https://github.com/kittinunf/Forge)：Forge是一个JSON库，帮助你以函数式方式将Kotlin类与JSON互相映射。
@@ -7003,6 +6969,7 @@ Kafka生态管理系统、运维平台。
 * [MJson](https://github.com/bolerio/mjson)：MJson是一个极其轻量级的Java JSON库，拥有非常简洁的API。
 * [OkJSON](https://gitee.com/calvinwilliams/okjson)：OkJSON是用Java编写的JSON处理器。
 * [Json4Bean](https://gitee.com/angryid/json4bean)：Json4Bean是一个JSON序列化库。
+* [Json Util](https://gitee.com/yidasanqian/json-util)：Json Util工具类整合了Jackson、Gson和Fastjson库并统一API。
 
 #### JSON Schema
 
@@ -7038,6 +7005,7 @@ Kafka生态管理系统、运维平台。
 * [JMESPath Java](https://github.com/burtcorp/jmespath-java)：这是JMESPath的Java实现。
 * [Vert.x JsonPath](https://github.com/NoEnv/vertx-jsonpath)：Vert.x JsonPath是使用Vert.x的JsonObject和JsonArray对JsonPath的一个非常基本的实现。
 * [JSLT](https://github.com/schibsted/jslt)：JSLT是一种完整的JSON查询和转换语言。
+* [JsonPathKt](https://github.com/eygraber/JsonPathKt)：Kotlin Multiplatform中更轻量级、更高效的JsonPath实现。
 
 #### JSON Patch
 
@@ -7354,6 +7322,7 @@ Kafka生态管理系统、运维平台。
 * [MASON](https://github.com/eclab/mason)：MASON是一个基于Java的快速代理模拟库核心，旨在成为大型定制Java模拟的基础，并为许多轻量级模拟需求提供足够的功能，由乔治梅森大学开源。
 * [MAPF](https://github.com/J-morag/MAPF)：几种MAPF算法的Java实现。
 * [Seriously Common Lib](https://github.com/Team488/SeriouslyCommonLib)：Seriously Common Lib是一套针对FRC团队在使用WPILib和Java时遇到的机器人问题的常见解决方案集合。
+* [NextFTC](https://github.com/NextFTC/NextFTC)：NextFTC包含一系列旨在简化FTC编程的库。
 
 #### 运动规划与路径生成
 
@@ -8219,6 +8188,7 @@ Kafka生态管理系统、运维平台。
 * [Spring ViewComponent](https://github.com/tschuehly/spring-view-component)：使用Spring创建服务器端ViewComponent的库。
 * [Squarespace Template](https://github.com/Squarespace/template-compiler)：Squarespace Template是Squarespace网站构建平台的核心模板编译引擎。
 * [Inflectible](https://github.com/gvlasov/inflectible)：Inflectible是一款灵活的模板引擎，支持词形变化。
+* [Flamewing](https://github.com/pazvanti/Flamewing)：Flamewing是一个适用于Spring和Spring Boot的现代模板引擎。
 
 ## 批处理框架
 
@@ -9612,6 +9582,7 @@ Kafka生态管理系统、运维平台。
 * [FastUpload](https://sourceforge.net/projects/fastupload/)：该组件基于RFC1867，它使用高性能的字节搜索算法来解析提交的请求，然后将数据保存到文件系统中。
 * [Upload Parser](https://github.com/Elopteryx/upload-parser)：Upload Parser是一个用于Servlet和Web应用程序的文件上传库。
 * [NIO Multipart](https://github.com/synchronoss/nio-multipart)：NIO Multipart项目包含一个轻量级通用Java库，用于以非阻塞方式处理Multipart请求和响应，并具有可配置但恒定的内存占用。
+* [Fileex](https://gitee.com/gaojunjie03/fileex)：Fileex是一款基于Netty、WebSocket实现的大文件分块上传断点续传处理器。
 
 #### 文件比较
 
@@ -10844,6 +10815,64 @@ Kafka生态管理系统、运维平台。
 * [Fisher](https://github.com/fxllong/fisher)：Fisher是基于Spring Cloud Alibaba、Oauth2、Vue的后台权限管理框架。
 * [Spring Admin Vue](https://github.com/thousmile/spring-admin-vue)：Spring Boot Security JWT Vue.js管理员权限管理模板集成。
 
+#### 即时通讯系统
+
+* [TIMSDK](https://github.com/TencentCloud/TIMSDK)：腾讯云聊天拥有全球接入、一对一聊天、群聊、消息推送、档案和关系链托管、账户认证等一整套解决方案。
+* [野火IM](https://github.com/wildfirechat/im-server)：野火IM是专业级的即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
+* [V-IM](https://gitee.com/alyouge/V-IM)：V-IM是基于JS的超轻量级聊天软件，服务端使用Spring Boot。
+* [Briar](https://github.com/briar/briar)：Briar是一款专为活动家、记者以及任何需要安全、便捷、强大的沟通方式的人士设计的即时通讯应用。
+* [FshareIM](https://github.com/fsharechat)：FshareIM是一个技术自主可控即时IM通讯系统，适于私有化部署。
+* [Face2Face](https://github.com/a2888409/face2face)：基于Netty的异步非阻塞实时聊天(IM)服务器。
+* [MallChat](https://github.com/zongzibinbin/MallChat)：抹茶聊天是一个IM项目，通过Netty实现和前端的WebSocket连接。
+* [PushTalk](https://github.com/good-life/PushTalk)：PushTalk是一个基于极光推送的Android手机聊天系统。
+* [Turms](https://github.com/turms-im/turms)：Turms是全球最先进的开源即时通讯引擎，支持100K~10M并发用户。
+* [Bytedesk](https://github.com/Bytedesk/bytedesk)：企业即时通讯解决方案，具有人工智能实时聊天、电子邮件支持、全渠道客户服务和团队即时通讯功能。
+* [IM](https://github.com/yuanrw/IM)：IM是一个轻量级的即时通讯服务器。
+* [OIM](https://gitee.com/oimchat/oim-fx)：OIM是一套即时通讯的聊天系统，可以用于公司内网、外网通讯、客服系统等。
+* [QIQIIM](https://gitee.com/qiqiim/qiqiim-server)：QIQIIM提供简单快捷的IM方案，可用于公司内网、外网通讯，客服系统等。
+* [Spark](https://github.com/igniterealtime/Spark)：Spark是一款针对企业和组织进行优化的开源跨平台IM客户端。
+* [Xiaper](https://github.com/xiaper/xiaper)：Xiaper是一款开源企业IM解决方案。
+* [盒子IM](https://gitee.com/bluexsx/box-im)：盒子IM是一个仿微信实现的网页版聊天软件，不依赖任何第三方收费组件。
+* [HuLa Server](https://github.com/HuLaSpark/HuLa-Server)：HuLa Server是一款基于Spring Boot 3、Netty、MyBatis Plus和RocketMQ构建的即时通讯系统服务端。
+* [Linyu](https://github.com/DWHengr/linyu-server)：林语是基于Tauri开发的桌面聊天软件，前端框架使用React，后端框架使用Spring Boot进行开发。
+* [IM WhaleShark](https://github.com/BanTanger/im-whale-shark)：IM WhaleShark是基于Netty实现的高性能分布式IM即时通讯系统。
+* [微聊](https://gitee.com/lakaola/im-platform)：聊天IM、实时音视频通话等功能。
+* [AQChat](https://gitee.com/howcode/aq-chat-server)：AQChat是一个已接入AI的极速、便捷的匿名在线即时AI聊天室。
+* [OUYUNC IM](https://gitee.com/etxync/ouyunc-im)：偶云客IM是一款开源免费基于Netty的即时通讯框架。
+* [SubtleChat](https://github.com/JustCoding-Hai/subtlechat)：微言是基于前后端分离，采用Spring Boot、Vue框架开发的网页版聊天室。
+* [AnyChat](https://github.com/dianbaer/anychat)：AnyChat是一个极简纯净的WebSocket聊天插件，支持对接任何身份系统，嵌入方只需提供三个API即可进行实时通讯。
+* [MuChat](https://gitee.com/pisces-hub/muchat)：MuChat是用Java语言开发的轻量、高性能、单机支持几十万至百万在线用户IM。
+* [Chat UniApp](https://gitee.com/lakaola/chat-api)：聊天IM，精仿微信，支持单聊、群聊、朋友圈、摇一摇、附近的人、收藏、扫码、机器人、文字、图片、名片、实时音视频通话等功能。
+* [Lucky](https://github.com/Luckly-XYZ/Lucky-cloud)：Lucky是一个基于Spring Boot 3、Spring Cloud Alibaba构建的高性能、高可用的即时通讯服务端系统。
+* [FastIM](https://github.com/zhangyaoo/fastim)：基于Netty高可用分布式即时通讯系统。
+* [Live Chat Engine](https://github.com/edolganov/live-chat-engine)：开源系统，用于在任何网站上与访客进行实时聊天。
+* [Chatterbox](https://github.com/gmingchen/chatterbox)：Chatterbox是一个即时聊天系统。
+* [OnChat](https://github.com/onch-at/onchat)：OnChat是一个简单、美观、移动优先的即时消息渐进式Web应用程序。
+* [LeoIM](https://github.com/lining90567/leo-im-server)：LeoIM是基于Java、Netty、Vue、Element-UI开发的轻量级IM。
+* [DevSphere](https://github.com/shutu-hub/devSphere)：DevSphere是一个基于Spring Boot构建的高性能实时聊天系统。
+* [FastBeeIM](https://github.com/Art0white/FastBeeIM)：提供给开发者快速实现IM服务端、客户端的能力。
+* [KingIM](https://github.com/jkxqj/KingIM)：KingIM是基于Netty的性能强悍的实时通讯系统。
+* [Ocean](https://gitee.com/dempe/ocean)：基于MQTT协议、Netty通讯组件实现的IM。
+* [灯塔APS](https://gitee.com/lighthouse-aps/im)：灯塔APS高级生产计划排程是一款基于有限资源进行合理排产实现精准计划的排产类工业软件。
+* [CloudTalk](https://gitee.com/pwsns/cloudtalk)：CloudTalk是专注于企业云布署的即时通讯IM系统。
+* [HiChat](https://gitee.com/gaojunjie03/springboot-hichat)：HiChat是基于Vue、Spring Cloud微服务前后端分离的移动Web聊天室。
+* [SimpleCrayIM](https://gitee.com/crazymaker/SimpleCrayIM)：单体IM聊天程序。
+* [Houge](https://gitee.com/kk70/houge)：Houge是一款开源免费的实时消息推送服务。
+* [CookIM](https://gitee.com/cookeem/CookIM)：CookIM是一个基于Akka的分布式WebSocket聊天程序。
+* [Cy ChatRoom](https://gitee.com/leiyuxi/cy-chat-room)：基于Netty、WebSocket的在线聊天室。
+* [MDP IM](https://gitee.com/maimengcloud/mdp-im-backend)：唛盟IM涵盖消息发布、消息订阅、消息存储、群聊、私聊、公告推送、群组管理、群员管理、禁言、朋友圈等一站式即时通讯解决方案。
+* [YUE-IM](https://gitee.com/yueyakk/yue-im)：YUE-IM是使用Java开发，基于Netty、Akka实现的即时通讯服务。
+* [Xy.Platform](https://gitee.com/475660/xyTalk-pc)：Xy.Platform是一个高性能、可扩展的企业通信和协作平台。
+* [Echo IM](https://gitee.com/brother-one/echo-im)：Echo IM是一个生产级即时通讯系统。
+* [FanXin](https://github.com/huangfangyi/FanXin)：IM服务器端、API服务器、客户端。
+* [LuliChat](https://github.com/EggsBlue/LuliChat)：LuliChat是一个Nutz为后台支撑、T-IO为通讯支持、LayIM为前台UI交互的纯国产框架开发的即时通讯项目。
+* [LayIM](https://github.com/scalad/LayIM)：基于HTML5 WebSocket的一款IM即时通讯软件。
+* [Jelly](https://github.com/Yohann-Codes/Jelly)：Jelly是一款基于Netty4.x开发的TCP长连接即时通讯服务器端程序，并且提供了Java客户端API。
+* [EasyChat](https://github.com/yetel/EasyChatServer)：EasyChatServer是一个简单的聊天IM软件后端程序，采用Spring Boot、Netty框架。
+* [NoneIM](https://github.com/defineYIDA/NoneIM)：None-IM是一款分布式可横向扩展的IM系统。
+* [CsjIM](https://github.com/kingston-csj/im)：仿QQ即时通讯系统服务端。
+* [BootPush](https://github.com/bootsrc/bootpush)：即时消息推送服务。
+
 #### 电商系统
 
 * [Broadleaf Commerce](https://github.com/BroadleafCommerce/BroadleafCommerce)：Broadleaf Commerce CE是一个完全用Java编写并利用Spring框架的电子商务框架。
@@ -11224,6 +11253,7 @@ Kafka生态管理系统、运维平台。
 * [MB](https://gitee.com/jishuzhai/MB)：MB是基于JFinal开发的多人博客或者社区网站。
 * [FzqBlog](https://gitee.com/asmysoul/FzqBlog)：FzqBlog博客，使用Spring、SpringMVC、Mybatis、Quartz、Freemarker开发。
 * [Ezone](https://gitee.com/coodyer/ezone)：Ezone是一个开源博客。
+* [Sharon](https://gitee.com/qinxuewu/blog-sharon)：一款简单微信小程序个人博客，后端基于Spring Boot实现。
 * [Art Blog](https://gitee.com/luotf/Art_Blog)：基于Spring、SpringMVC、Mybatis架构的开源博客。
 * [AutuBlog](https://gitee.com/wenhaofan/AutuBlog)：AntuBlog是一款使用基于JFinal开发的轻量级Java博客系统。
 
