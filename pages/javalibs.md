@@ -585,7 +585,6 @@ permalink: /javalibs
     * [PLM系统](#PLM系统)
     * [EMS系统](#EMS系统)
     * [云盘系统](#云盘系统)
-    * [充电桩系统](#充电桩系统)
     * [数据中台](#数据中台)
     * [知识管理系统](#知识管理系统)
     * [SCRM系统](#SCRM系统)
@@ -667,6 +666,7 @@ permalink: /javalibs
     * [物联网网关](#物联网网关)
     * [MQTT服务器](#MQTT服务器)
     * [MQTT客户端](#MQTT客户端)
+    * [充电桩](#充电桩)
     * [电力系统](#电力系统)
     * [环境监测](#环境监测)
     * [车联网](#车联网)
@@ -4004,7 +4004,7 @@ Kafka生态管理系统、运维平台。
 * [Gin](https://github.com/gintool/gin)：Gin是一种基因改良(GI)工具。
 * [JCLEC](https://sourceforge.net/projects/jclec)：JCLEC是一个用Java开发的通用进化计算框架，由科尔多瓦大学开源。
 * [EasyOpt](http://www.iescm.com/easyopt/)：EasyOpt这是一个轻量级的Java库，提供了遗传算法、粒子群优化等常用启发式优化算法的实现，适用于快速原型设计和教学。
-* [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa)：Chips-n-Salsa是一个可定制、可混合、迭代、并行、随机和自适应本地搜索算法的Java库。
+* [Chips N Salsa](https://github.com/cicirello/Chips-n-Salsa)：Chips N Salsa是一个可定制、可混合、迭代、并行、随机和自适应本地搜索算法的Java库。
 * [NSGA-II](https://github.com/onclave/NSGA-II)：NSGA-II的Java实现。
 
 #### 聚类算法
@@ -5434,6 +5434,7 @@ Kafka生态管理系统、运维平台。
 * [Kover](https://github.com/Kotlin/kotlinx-kover)：Kover是一组用于收集为JVM和Android平台编译的Kotlin代码的测试覆盖率的解决方案，由JetBrains开发。
 * [Clover](https://bitbucket.org/atlassian/clover)：Atlassian开源的Java和Groovy代码覆盖率工具。
 * [Cobertura](https://github.com/cobertura/cobertura)：Cobertura是一个免费的Java代码覆盖率报告工具。
+* [SCoverage](https://github.com/scoverage/scalac-scoverage-plugin)：SCoverage是一款免费的Scala代码覆盖率工具，提供语句覆盖率和分支覆盖率。
 * [JSCover](https://github.com/tntim96/JSCover)：JSCover是一个易于使用的JavaScript代码覆盖率测量工具。
 * [EMMA](https://emma.sourceforge.net/)：EMMA是一个用于测量和报告Java代码覆盖率的开源工具包。
 * [Cloverage](https://github.com/cloverage/cloverage)：Clojure测试覆盖率工具。
@@ -7069,7 +7070,7 @@ Kafka生态管理系统、运维平台。
 * [Constretto](https://github.com/constretto/constretto-core)：Constretto是Java应用程序的配置管理框架。
 * [Apron](https://github.com/poiu-de/apron)：Apron是一个用于读写Java .properties文件的小型库。
 * [Spring Boot Dynamic Config](https://github.com/Code2Life/spring-boot-dynamic-config)：一个注解实现Spring Boot应用的动态配置，配置热重载最简洁的方案。
-* [Configured](https://github.com/CarmJos/configured)：Configured是一个简单、易于使用的通用解决方案，用于管理、加载、读取、 以及更新配置文件。
+* [Configured](https://github.com/CarmJos/configured)：Configured是一个简单、易于使用的通用解决方案，用于管理、加载、读取以及更新配置文件。
 * [SConfig](https://github.com/ekrich/sconfig)：支持Scala、Java、Scala.js和Scala Native的HOCON配置库。
 * [Simple YAML](https://github.com/Carleslc/Simple-YAML)：Simple YAML是一个设计用于为你的程序、工具和插件创建配置文件的库。
 * [Okaeri Configs](https://github.com/OkaeriPoland/okaeri-configs)：Okaeri Configs是一个强大、轻量级的Java配置库。
@@ -7998,6 +7999,7 @@ Kafka生态管理系统、运维平台。
 * [Fluxnova](https://github.com/finos/fluxnova-bpm-platform)：Fluxnova是一个灵活的工作流程和流程自动化框架，由金融科技开源基金会FINOS开源。
 * [Effektif](https://github.com/effektif/effektif)：Effektif开源流程引擎。
 * [OsBPM](https://gitee.com/openEA/osbpm)：OsBPM是独立的流程引擎，开箱即用。
+* [OrqueIO](https://github.com/OrqueIO/OrqueIO)：OrqueIO是一个灵活的工作流和流程自动化框架。
 
 ## 编排引擎
 
@@ -11482,19 +11484,6 @@ Kafka生态管理系统、运维平台。
 * [Free FS](https://gitee.com/xddcode/free-fs)：Free FS是基于Spring Boot 3、MyBatis Flex、MySQL、Sa-Token、LayUI等搭配阿里云Oss、Minio、七牛云等各种云存储实现的云存储管理系统。
 * [Network Drive](https://github.com/risesoft-y9/Network-Drive)：网络硬盘是通过存储、分类、检索、分享、协作、下发、回收、展示等方式管理文档、文件、图片、音频、视频等资料的工具，由北京有生博大软件开发。
 
-#### 充电桩系统
-
-* [SteVe](https://github.com/steve-community/steve)：SteVe提供充电桩管理、用户数据以及用于用户身份验证的RFID卡等基本功能，由亚琛工业大学开发。
-* [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
-* [OCPP](https://github.com/ShellRechargeSolutionsEU/ocpp)：OCPP是欧洲最大的电动汽车充电站运营商之一NewMotion开发和使用的OCPP的实现。
-* [Caifeng](https://github.com/981011512/--)：新能源充电桩系统，停车场小程序。
-* [HUIZHI ChargeOS Cloud](https://github.com/roinli/HUIZHI-ChargeOS-cloud)：慧知开源充电桩平台是一款全开源可商用的系统。
-* [Orise Charge Cloud](https://github.com/NaTieJun/orise-charge-cloud)：充电桩开源云平台，由悠码科技开发。
-* [JChargePointProtocol](https://gitee.com/san-bing/JChargePointProtocol)：一个高性能、分布式、支持海量并发量的充电桩Java服务端。
-* [YunCharging](https://github.com/yuncitys/YunCharging)：YunCharge是一套用于二轮电单车和四轮充电桩充电领域的运营和计费系统，由深圳云创智城科技公司开发。
-* [100Charge](https://gitee.com/ustcyc/100charge)：100Charge是基于若依的开源充电运营平台。
-* [EIoT](https://gitee.com/hdzc/e-iot)：简单，高性能，基于Vert.x实现多种充电协议。
-
 #### 数据中台
 
 * [LarkMidTable](https://gitee.com/LarkMidTable/LarkMidTable)：LarkMidTable是一站式开源的数据中台，实现元数据管理，数据仓库开发，数据质量管理，数据的可视化，实现高效赋能数据前台并提供数据服务的产品。
@@ -12508,6 +12497,20 @@ Kafka生态管理系统、运维平台。
 * [JMSToolBox](https://github.com/jmstoolbox/jmstoolbox)：JMSToolBox是一个通用JMS客户端，能够以一致的方式与市场上数量最多的队列管理器/队列提供程序进行交互。
 * [MqttInsight](https://github.com/ptma/mqtt-insight)：MqttInsight是一款开源跨平台MQTT桌面客户端。
 * [MQTT Spy](https://github.com/eclipse-paho/paho.mqtt-spy)：MQTT Spy是一款开源桌面和命令行实用程序，旨在帮助你监控MQTT主题上的活动。
+
+#### 充电桩
+
+* [SteVe](https://github.com/steve-community/steve)：SteVe提供充电桩管理、用户数据以及用于用户身份验证的RFID卡等基本功能，由亚琛工业大学开发。
+* [Java OCA OCPP](https://github.com/ChargeTimeEU/Java-OCA-OCPP)：OCA定义的开放充电点协议(OCPP)的开源客户端和服务器库。
+* [OCPP](https://github.com/ShellRechargeSolutionsEU/ocpp)：OCPP是欧洲最大的电动汽车充电站运营商之一NewMotion开发和使用的OCPP的实现。
+* [Caifeng](https://github.com/981011512/--)：新能源充电桩系统，停车场小程序。
+* [HUIZHI ChargeOS Cloud](https://github.com/roinli/HUIZHI-ChargeOS-cloud)：慧知开源充电桩平台是一款全开源可商用的系统。
+* [Orise Charge Cloud](https://github.com/NaTieJun/orise-charge-cloud)：充电桩开源云平台，由悠码科技开发。
+* [JChargePointProtocol](https://gitee.com/san-bing/JChargePointProtocol)：一个高性能、分布式、支持海量并发量的充电桩Java服务端。
+* [YunCharging](https://github.com/yuncitys/YunCharging)：YunCharge是一套用于二轮电单车和四轮充电桩充电领域的运营和计费系统，由深圳云创智城科技公司开发。
+* [100Charge](https://gitee.com/ustcyc/100charge)：100Charge是基于若依的开源充电运营平台。
+* [EIoT](https://gitee.com/hdzc/e-iot)：简单，高性能，基于Vert.x实现多种充电协议。
+* [OCPP Toolkit](https://github.com/IZIVIA/ocpp-toolkit)：OCPP Toolkit旨在提供一个Kotlin库来执行OCPP操作。
 
 #### 电力系统
 
