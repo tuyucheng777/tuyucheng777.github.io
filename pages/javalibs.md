@@ -155,6 +155,7 @@ permalink: /javalibs
     * [MCP](#MCP)
     * [代理框架](#代理框架)
     * [AI智能体](#AI智能体)
+    * [AI网关](#AI网关)
     * [终端助手](#终端助手)
     * [NL2SQL](#NL2SQL)
     * [LLMOps](#LLMOps)
@@ -3743,6 +3744,11 @@ Kafka生态管理系统、运维平台。
 * [PaiAgent](https://github.com/itwanger/PaiAgent)：PaiAgent是一个企业级的AI工作流可视化编排平台，让AI能力的组合和调度变得简单高效。
 * [Lynx AI](https://gitee.com/lynx-ai/lynx-ai)：Lynx AI是一个功能强大的企业级AI智能体管理平台，提供从智能体创建、知识库管理、工作流编排到自然语言数据分析的完整AI解决方案。
 
+#### AI网关
+
+* [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
+* [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
+
 #### 终端助手
 
 * [Jimi](https://github.com/Leavesfly/Jimi)：Jimi是一个功能强大的AI驱动的命令行智能代理系统。
@@ -3757,11 +3763,10 @@ Kafka生态管理系统、运维平台。
 #### LLMOps
 
 * [Opik](https://github.com/comet-ml/opik)：Opik是一个用于评估、测试和监控LLM应用程序的开源平台，由Comet开源。
+* [Langfuse Java](https://github.com/langfuse/langfuse-java)：Langfuse API的自动生成的Java客户端。
 * [Freeplay](https://freeplay.ai/)：Freeplay让产品团队能够为客户试验、测试、监控和优化AI功能，它是一个为整个团队管理端到端LLM产品开发生命周期的工具。
 * [Starwhale](https://github.com/star-whale/starwhale)：Starwhale是一个MLOps/LLMOps平台，可让你的模型创建、评估和发布变得更加轻松，由星鲸科技开源。
-* [Bella OpenAPI](https://github.com/LianjiaTech/bella-openapi)：Bella OpenAPI是一个提供了丰富的AI调用能力的API网关，由贝壳开源。
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
-* [Wanaku](https://github.com/wanaku-ai/wanaku)：Wanaku是一款面向AI应用的路由器，采用MCP提供支持。
 * [Surogate Studio](https://github.com/invergent-ai/surogate-studio)：Surogate Studio是一个企业级LLMOps平台，旨在加速生成式AI应用的开发和部署。
 
 #### AI Assistant
@@ -6537,6 +6542,7 @@ Kafka生态管理系统、运维平台。
 * [AES GCM SIV](https://github.com/line/aes-gcm-siv)：AES GCM SIV是一种经过认证的加密算法，旨在提供抗随机数滥用的能力，由Line开源。
 * [SecretsShare](https://github.com/timtiemens/secretshare)：《应用密码学》中描述的Shamir秘密共享算法的Java实现。
 * [JMacaroons](https://github.com/nitram509/jmacaroons)：Macaroons的纯Java实现。
+* [HKDF](https://github.com/patrickfav/hkdf)：这是一个独立的Java 7实现，实现了基于HMAC的密钥派生函数(HKDF)。
 
 #### 接口加密
 
@@ -7140,6 +7146,7 @@ Kafka生态管理系统、运维平台。
 * [Json SKema](https://github.com/erosb/json-sKema)：Json SKema是一个用于JVM的Json Schema验证器库。
 * [Vert.x JSON Schema](https://github.com/eclipse-vertx/vertx-json-schema)：Vert.x Json Schema为Json Schema规范提供了可扩展且异步的实现。
 * [Scala JSON Schema](https://github.com/andyglow/scala-jsonschema)：Scala JSON Schema的目标是使JSON Schema的生成方式与所有流行的JSON读写库一致。
+* [JSON Schema Core](https://github.com/java-json-tools/json-schema-core)：JSON Schema Validator和其他处理器的核心支持架构。
 
 #### JsonPath
 
@@ -10164,6 +10171,7 @@ Kafka生态管理系统、运维平台。
 * [TBJMap](https://github.com/alibaba/TBJMap)：基于可维护性Agent，对JMap做了增强，可以方便的输出JVM堆中，每一个分区的对象实例个数和大小的Histogram图，由淘宝开发。
 * [JDumpSpiderGUI](https://github.com/DeEpinGh0st/JDumpSpiderGUI)：JDumpSpiderGUI是一个用于Java堆转储文件分析的工具，支持命令行和JavaFX图形界面两种模式。
 * [HPROF Tools](https://github.com/badoo/hprof-tools)：用于反混淆内存转储文件的工具。
+* [HeapLib](https://github.com/aragozin/heaplib)：HeapLib是一个用于分析JVM堆转储的工具/库。
 
 #### 线程转储
 
@@ -10755,6 +10763,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Template](https://github.com/LinkinStars/springBootTemplate)：Spring Boot项目模版。
 * [Jakarta EE kickoff App](https://github.com/javaeekickoff/java-ee-kickoff-app)：用于启动新的Jakarta EE或Java EE Web应用程序的基本项目模板。
 * [Spring Boot Best Practice](https://github.com/tomoyane/springboot-bestpractice)：Spring Boot最佳实践架构模板。
+* [Quarkus DDD Boilerplate](https://github.com/dolap-tech/quarkus-ddd-boilerplate)：Quarkus领域驱动设计样板，使用多模块结构和Gradle。
 
 #### 脚手架
 
@@ -11444,6 +11453,7 @@ Kafka生态管理系统、运维平台。
 * [OpooPress](https://github.com/opoo/opoopress)：OpooPress框架是一个完全灵活、完全可扩展的基于Java的静态站点生成器。
 * [Apache Roller](https://github.com/apache/roller)：Roller是一个基于Java、功能齐全的多用户和群组博客服务器，适用于大大小小的博客网站。
 * [ThriveX](https://github.com/LiuYuYang01/ThriveX-Server)：ThriveX是一个高颜值、全开源、永不收费的现代化博客管理系统。
+* [FeiTwnd](https://github.com/FeiTwnd/FeiTwnd-Website)：一套基于Spring Boot 3、Vue 3的个人网站全栈解决方案，包含博客、后台管理、个人主页、在线简历四个子站点和一个统一后端服务。
 * [Tale Blog](https://github.com/otale/tale)：Tale是使用轻量级的MVC框架Blade进行开发的简洁美观的Java博客系统。
 * [Shoka](https://gitee.com/wu_shengdong/blog)：基于Spring Boot、Vue 3开发的前后端分离博客。
 * [JBlog](https://github.com/kingschan1204/jblog)：一个使用Spring/MVC、Hibernate、Hibernate Search、MySQL、Bootstrap、Freemarker实现的多用户博客系统。
@@ -11515,6 +11525,7 @@ Kafka生态管理系统、运维平台。
 * [Master Blog](https://gitee.com/manster1231/master-blog)：基于Spring Boot、Thymeleaf开发的个人博客项目。
 * [Beau](https://gitee.com/ringcode/beau)：Beau是一款基于Java开发的轻量级博客、个人建站平台。
 * [MyBlogWebSite](https://github.com/Mretron/MyBlogWebSite)：基于Spring Boot的精美个人博客网站。
+* [Spring Blog](https://github.com/tangredtea/Spring-Blog)：基于Spring Boot、MyBatis的智能化个人博客系统。
 
 #### 论坛系统
 
@@ -12031,6 +12042,7 @@ Kafka生态管理系统、运维平台。
 * [Capillary](https://github.com/google/capillary)：Capillary是一个库，用于简化从基于Java的应用服务器向Android客户端发送端到端加密推送消息的过程，由Google开源。
 * [JPush API Java](https://github.com/jpush/jpush-api-java-client)：这是JPush REST API的Java版本封装开发包，由极光推送官方提供。
 * [个推PUSH Java SDK](https://github.com/GetuiLaboratory/getui-pushapi-java-client-v2)：个推官方提供的推送服务端SDK，基于全新的REST API V2接口。
+* [Web Push Java](https://github.com/web-push-libs/webpush-java)：一个适用于Java 8的Web Push库。支持有效载荷和VAPID。
 * [WxPusher](https://github.com/wxpusher/wxpusher-sdk-java)：WxPusher是一个轻量级企业消息推送平台，旨在提供企业内部沟通和协作的便捷解决方案。
 * [Deliver](https://gitee.com/OS-Zero/deliver)：Deliver是一个面向企业的全面消息推送平台，旨在提供企业内部沟通和协作的便捷解决方案。
 * [Message Gateway](https://github.com/openMF/message-gateway)：Message Gateway是Fineract提供商的推送消息服务，可以轻松地通过短信和电子邮件推送通知。
@@ -15576,6 +15588,7 @@ Kafka生态管理系统、运维平台。
 * [Symon](https://github.com/sethm/symon)：Symon是基于MOS Technologies 6502微处理器及其兼容系统的通用模拟器。
 * [Neptune](https://github.com/LPC4/Neptune-32)：Neptune是一款定制的32位CPU模拟器，集成了汇编器和汇编语言。
 * [Nand2Tetris](https://github.com/itoshkov/nand2tetris-emu)：Nand2Tetris软件套件允许使用Java实现新型芯片。
+* [MSPSim](https://github.com/contiki-ng/mspsim)：MSPSim是一款基于Java的指令级仿真器，用于仿真MSP430系列微处理器以及部分传感器网络平台。
 
 ## MIPS
 
@@ -15976,6 +15989,7 @@ Kafka生态管理系统、运维平台。
 * [NetflixGraph](https://github.com/Netflix/netflix-graph)：NetflixGraph是一种紧凑的内存数据结构，用于表示有向图数据，由Netflix开源。
 * [JGraLab](https://github.com/jgralab/jgralab)：JGraLab是一个Java图形库，实现了所谓的TGraphs：类型化、属性化、有序和有向图，由科布伦茨兰道大学开源。
 * [Traverser](https://github.com/intuit/Traverser)：Traverser是一个Java库，可帮助软件工程师实现数据结构的高级迭代，由Intuit开发。
+* [Simple Graphs](https://github.com/earlygrey/simple-graphs)：Simple Graphs是一个Java库，包含基本的图数据结构和算法。
 
 #### BitSet
 
@@ -17209,6 +17223,7 @@ Kafka生态管理系统、运维平台。
 * [JCodeModel](https://github.com/phax/jcodemodel)：Java代码生成库。
 * [TableGo](https://gitee.com/vipbooks/TableGo)：TableGo是基于数据库的代码自动生成工具。
 * [Picocog](https://github.com/ainslec/picocog)：Picocog是一个小型库，用于以编程方式格式化文本(缩进和占位符)，以便生成源代码。
+* [JDeparser](https://github.com/jdeparser/jdeparser2)：JDeparser是一个Java源代码生成库。
 
 ## 注解处理器
 
