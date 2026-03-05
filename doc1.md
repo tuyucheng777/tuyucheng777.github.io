@@ -1589,6 +1589,8 @@
 * [Bus Limiter](https://github.com/818000/bus/tree/main/bus-limiter)：Bus Limiter是一款轻量级、局部化的热点检测和性能下降框架，专为高流量场景而设计。
 * [QPS Helper](https://github.com/wujiuye/qps-helper)：通用的QPS、TPS统计工具包。
 * [Guardian](https://github.com/BigGG-Guardian/guardian)：轻量级Spring Boot API请求层防护框架。
+* [SYJ ReteLimit](https://github.com/shiyujun/syj-ratelimit)：无侵入的应用级网关限流框架。
+* [Shield ReteLimiter](https://github.com/TaXueWWL/shield-ratelimter)：基于Redis的分布式限流工具包。
 
 #### 重试
 
@@ -2259,6 +2261,7 @@
 * [Spring AMQP](https://github.com/spring-projects/spring-amqp)：Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。
 * [ReliableRMQ](https://github.com/levy-tech-spark/ReliableRMQ)：ReliableRMQ是一个Spring Boot框架，用于使用RabbitMQ的可靠消息传递实现分布式事务。
 * [Embedded RabbitMQ](https://github.com/AlejandroRivera/embedded-rabbitmq)：一个用于将RabbitMQ用作嵌入式服务的JVM库。
+* [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
 * [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
 * [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
 * [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
@@ -2883,7 +2886,7 @@ Kafka生态管理系统、运维平台。
 * [Fuel](https://github.com/kittinunf/fuel)：由Kotlinx Coroutines支持的最简单的Kotlin HTTP网络库。
 * [Retrofit](https://github.com/square/retrofit)：Retrofit是适用于Android和JVM的类型安全HTTP客户端，由Square开源。
 * [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)：AsyncHttpClient库允许Java应用程序轻松执行HTTP请求并异步处理HTTP响应。
-* [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：本库是一款基于RxJava2、Retrofit2实现简单易用的网络请求框架。
+* [RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)：RxEasyHttp是一款基于RxJava 2、Retrofit 2实现简单易用的网络请求框架。
 * [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)：基于Apache HttpClient库的Android异步、基于回调的HTTP客户端。
 * [Google HTTP Java Client](https://github.com/googleapis/google-http-java-client)：Google HTTP Client由Google开源，是一个灵活、高效且功能强大的Java库，用于通过HTTP访问网络上的任何资源。
 * [Google API Java Client](https://github.com/googleapis/google-api-java-client)：Google API Java Client是一个灵活、高效且功能强大的Java客户端库，用于访问网络上任何基于HTTP的API。
@@ -3157,6 +3160,7 @@ Kafka生态管理系统、运维平台。
 * [Netty REST](https://github.com/buremba/netty-rest)：Netty REST是一个基于Netty的高性能HTTP和WebSocket服务器实现。
 * [Vert.x STOMP](https://github.com/vert-x3/vertx-stomp)：STOMP客户端/服务器实现。
 * [JFinal WebSocket](https://gitee.com/xxssyyyyssxx/jfinal-websocket)：JFinal架构下开发WebSocket。
+* [WebSocket Resources](https://github.com/signalapp/WebSocket-Resources)：一个Dropwizard库，允许你通过WebSocket使用Jersey风格的资源。
 
 #### Socket.IO
 
@@ -4116,6 +4120,7 @@ Kafka生态管理系统、运维平台。
 * [Myanmar Tools](https://github.com/google/myanmar-tools)：该项目包括用于处理缅甸使用的字体编码的工具，目前支持广泛的Zawgyi-One字体编码，由Google开源。
 * [Jakaroma](https://github.com/nicolas-raoul/jakaroma)：Java汉字/等到罗马字转换器。
 * [JCorrector](https://github.com/jiangnanboy/jcorrector)：JCorrector中文文本纠错工具。
+* [Jaconv](https://github.com/kazuhikoarase/jaconv)：日文字体转换库。
 
 #### 词嵌入
 
