@@ -2181,6 +2181,7 @@
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
 * [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
 * [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
+* [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
 
 #### IPC
 
@@ -2237,6 +2238,7 @@
 * [DietrichEvents2](https://github.com/florianreuth/DietrichEvents2)：DietrichEvents2是世界上速度最快的Java事件系统之一。
 * [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
 * [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
+* [SmartEventBus](https://github.com/JeremyLiao/SmartEventBus)：SmartEventBus是一个Android平台的消息总线框架。
 
 #### 消息总线
 
@@ -2459,6 +2461,7 @@ Kafka生态管理系统、运维平台。
 * [Jetty Session Redis](https://github.com/ovea-deprecated/jetty-session-redis)：使用Redis进行Jetty会话集群。
 * [Amazon DynamoDB Session Manager](https://github.com/amazon-archives/aws-dynamodb-session-tomcat)：基于Amazon DynamoDB的Apache Tomcat会话存储。
 * [Tomcat Session Manager](https://github.com/vmware-archive/session-managers)：Tomcat Session Manager的实现，将数据持久化到Redis中，由VMware开源。
+* [Uncode Session](https://gitee.com/uncode/uncode-session)：Uncode Session是一个非常小巧的集群Session共享组件。
 
 #### Raft算法
 
@@ -3555,6 +3558,7 @@ Kafka生态管理系统、运维平台。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
 * [BeanKnife](https://github.com/vipcxj/beanknife)：BeanKnife是用于自动生成DTO的注解处理器库。
 * [DTOGen](https://github.com/manoelcampos/dtogen)：DTOGen是一个Java 21+库，它使用注解从给定的模型类/记录自动生成DTO记录。
+* [Bean Query](https://github.com/Jimmy-Shi/bean-query)：Bean Query复用Apache Commons BeanUtils、Apache Commons Collections、Hamcrest来简化对Bean的排序、过滤和转换。
 
 ## IoC
 

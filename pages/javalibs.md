@@ -2190,6 +2190,7 @@ permalink: /javalibs
 * [QDB](https://github.com/qdb-io/qdb-server)：QDB是一个支持重播的持久性消息队列。
 * [Luxun](https://github.com/bulldog2011/luxun)：Luxun是一款高吞吐量、分布式发布/订阅消息系统。
 * [ReactMQ](https://github.com/adamw/reactmq)：响应式消息队列。
+* [Uncode MQ](https://gitee.com/uncode/uncode-mq)：Uncode MQ是基于Netty的轻量级Java消息中间件。
 
 #### IPC
 
@@ -2246,6 +2247,7 @@ permalink: /javalibs
 * [DietrichEvents2](https://github.com/florianreuth/DietrichEvents2)：DietrichEvents2是世界上速度最快的Java事件系统之一。
 * [Event Library](https://github.com/SmushyTaco/Event-Library)：一个轻量级、借助反射机制但由LambdaMetafactory加速的Kotlin和JVM事件总线。
 * [SSE-EventBus](https://github.com/ralscha/sse-eventbus)：EventBus库，用于使用SSE将事件从Spring应用程序发送到Web浏览器。
+* [SmartEventBus](https://github.com/JeremyLiao/SmartEventBus)：SmartEventBus是一个Android平台的消息总线框架。
 
 #### 消息总线
 
@@ -2468,6 +2470,7 @@ Kafka生态管理系统、运维平台。
 * [Jetty Session Redis](https://github.com/ovea-deprecated/jetty-session-redis)：使用Redis进行Jetty会话集群。
 * [Amazon DynamoDB Session Manager](https://github.com/amazon-archives/aws-dynamodb-session-tomcat)：基于Amazon DynamoDB的Apache Tomcat会话存储。
 * [Tomcat Session Manager](https://github.com/vmware-archive/session-managers)：Tomcat Session Manager的实现，将数据持久化到Redis中，由VMware开源。
+* [Uncode Session](https://gitee.com/uncode/uncode-session)：Uncode Session是一个非常小巧的集群Session共享组件。
 
 #### Raft算法
 
@@ -3564,6 +3567,7 @@ Kafka生态管理系统、运维平台。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
 * [BeanKnife](https://github.com/vipcxj/beanknife)：BeanKnife是用于自动生成DTO的注解处理器库。
 * [DTOGen](https://github.com/manoelcampos/dtogen)：DTOGen是一个Java 21+库，它使用注解从给定的模型类/记录自动生成DTO记录。
+* [Bean Query](https://github.com/Jimmy-Shi/bean-query)：Bean Query复用Apache Commons BeanUtils、Apache Commons Collections、Hamcrest来简化对Bean的排序、过滤和转换。
 
 ## IoC
 
@@ -4714,6 +4718,7 @@ Kafka生态管理系统、运维平台。
 * [Cajun](https://github.com/CajunSystems/cajun)：Cajun是一个轻量级的Java Actor系统，它让并发编程变得简单安全。
 * [RequirementsAsCode](https://github.com/bertilmuth/requirementsascode)：RequirementsAsCode是一个基于Java的行为驱动服务开发框架。
 * [Actor4j](https://github.com/relvaner/actor4j-core)：Actor4j的目标是提升消息传递的性能。
+* [Actor4k](https://github.com/smyrgeorge/actor4k)：Actor4k是一个用Kotlin和协程编写的小型Actor系统。
 
 #### ThreadLocal
 
@@ -5631,7 +5636,7 @@ Kafka生态管理系统、运维平台。
 * [VeasionDB](https://github.com/veasion/veasion-db)：VeasionDB是一个轻量级持久层ORM框架。
 * [Squeryl](https://github.com/squeryl/squeryl)：Squeryl是一个Scala DSL，用于与数据库通信，内容繁琐最少，类型安全最大化。
 * [FastSQL](https://github.com/fast-sql/FastSQL)：FastSQL是一个基于Spring JDBC的简单ORM框架。
-* [Wood](https://gitee.com/noear/wood)：微型ORM框架，无依赖。
+* [Weed3](https://github.com/noear/weed3)：Weed3微型ORM框架。
 * [SansOrm](https://github.com/brettwooldridge/SansOrm)：SansOrm是无ORM的Java到SQL/SQL到Java对象映射库。
 * [Requery](https://github.com/requery/requery)：Requery是一个轻量级但功能强大的对象映射和SQL生成器，适用于Java/Kotlin/Android，支持RxJava和Java 8。
 * [DataNucleus](https://github.com/datanucleus/datanucleus-core)：DataNucleus是一个兼容各种标准(JDO1、JDO2、JDO2.1、JDO2.2、JDO2.3、和JPA1)的Java数据持久化框架。
@@ -6785,6 +6790,8 @@ Kafka生态管理系统、运维平台。
 * [Utils](https://github.com/zijie1024/utils)：Java通用开发工具集。
 * [Scala Commons](https://github.com/AVSystem/scala-commons)：AVSystem的Scala公共库。
 * [BKCommonLib](https://github.com/bergerhealer/BKCommonLib)：BKCommonLib是一个Paper/Spigot/Bukkit服务器插件和库，包含大量工具、API、框架和性能关键代码。
+* [FastDep](https://github.com/louislivi/fastdep)：FastDep是一个快速集成依赖的框架，集成了一些常用公共的依赖。
+* [Protools](https://github.com/SeanDragon/protools)：Protools包含HTTP、安全、日期等工具类。
 
 ## 缓存库
 
@@ -6833,6 +6840,7 @@ Kafka生态管理系统、运维平台。
 * [CacheManage](https://github.com/ronghao/CacheManage)：Android缓存管理器，分为内存缓存和文件缓存两种。
 * [LruCache](https://github.com/hotchemi/LruCache)：LruCache是一个微型、线程安全的内存缓存实现，使用LRU策略。
 * [AceCache](https://github.com/wxiaoqi/ace-cache)：AceCache是基于Spring Boot的注解缓存。
+* [RxCache](https://github.com/z-chu/RxCache)：RxCache是一个专用于RxJava、解决Android中对任何Observable发出的结果做缓存处理的框架。
 
 #### 分布式缓存
 
@@ -6849,6 +6857,7 @@ Kafka生态管理系统、运维平台。
 * [Memcarrot](https://github.com/carrotdata/memcarrot)：Memcarrot是一款与Memcached协议完全兼容的缓存服务器。
 * [RainbowCache](https://github.com/gshjd/RainbowCache)：RainbowCache是一套缓存注解，内置利用Redis完成的并发锁。
 * [Simple Spring Memcached](https://github.com/ragnor/simple-spring-memcached)：Simple Spring Memcached是一个即插即用的库，可通过注解在Spring Bean中启用Memcached缓存。
+* [Uncode Cache](https://gitee.com/uncode/uncode-cache)：Uncode Cache是基于Redis和Ehcache的二级缓存组件。
 
 #### 数据网格
 
@@ -8049,6 +8058,7 @@ Kafka生态管理系统、运维平台。
 * [EHRbase](https://github.com/ehrbase/ehrbase)：EHRbase是一个OpenEHR临床数据存储库，为可互操作的临床应用程序提供基于标准的后端，由德国布伦瑞克工业大学及汉诺威医学院联合开发。
 * [DP3T](https://github.com/DP-3T/dp3t-sdk-backend)：DP3T项目是一个用于COVID-19近距离追踪的开放协议，利用移动设备上的低功耗蓝牙功能，确保个人数据和计算完全保留在个人手机上。
 * [Synthea](https://github.com/synthetichealth/synthea)：Synthea是一款合成患者群体模拟器，目标是以各种格式输出合成的、真实的(但不是真实的)患者数据和相关的健康记录。
+* [PumpX2](https://github.com/jwoglom/pumpX2)：为Tandem t:slim X2和Mobi胰岛素泵提供逆向工程蓝牙协议的API库。
 
 ## 化学库
 
@@ -8316,6 +8326,7 @@ Kafka生态管理系统、运维平台。
 * [YARE](https://github.com/SabreOSS/yare)：YARE是一个用Java编写的规则引擎。
 * [Naga](https://github.com/threatgrid/naga)：Naga是一个在图数据库上执行规则的库。
 * [Hades](https://github.com/ZhongFuCheng3y/hades)：轻量级Java规则引擎。
+* [Rulii](https://github.com/algox/rulii)：Rulii是一个轻量级、零依赖的Java库，用于定义和执行业务规则。
 * [Rule Engine](https://github.com/jetlinks/rule-engine)：基于流程的流式规则引擎。
 * [Rulette](https://github.com/kislayverma/Rulette)：Rulette是一个轻量级、与领域无关的规则建模、存储和评估引擎。
 * [Dyna Guard](https://gitee.com/vd3/dyna-guard)：Dyna Guard是一个基于Java的动态校验框架。
@@ -8550,6 +8561,7 @@ Kafka生态管理系统、运维平台。
 * [Chronos](https://github.com/aolarchive/chronos)：用于后端系统的类似Cron的任务，由AOL开源。
 * [Niubi Job](https://github.com/xiaolongzuo/niubi-job)：Niubi Job是一个具备高可用特性的专门针对定时任务的任务调度框架。
 * [Redis Scheduler](https://github.com/davidmarquis/redis-scheduler)：Redis Scheduler是一个使用Redis的分布式调度器的Java实现。
+* [Uncode Schedule](https://gitee.com/uncode/uncode-schedule)：Uncode Schedule是基于Zookeeper、Quartz/Spring Task的分布式任务调度组件。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：Cron4j是Java平台的调度程序，与UNIX Cron守护程序非常相似。
 * [Bus Cron](https://github.com/818000/bus/tree/main/bus-cron)：Bus Cron是一个基于Cron表达式的轻量级、高性能的定时任务框架。
 * [Hutool Cron](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-cron)：Hutool Cron提供类Crontab表达式的定时任务。
@@ -8606,6 +8618,7 @@ Kafka生态管理系统、运维平台。
 * [Kotter](https://github.com/varabyte/kotter)：Kotter旨在成为一个相对精简、声明式且符合Kotlin语法的API，提供实用的功能，助你轻松编写赏心悦目的控制台应用程序。
 * [Clique](https://github.com/kusoroadeolu/Clique)：Clique是无依赖迷你CLI框架，旨在美化Java中的CLI应用程序。
 * [MyCMD](https://github.com/Drive-for-Java/MyCMD)：MyCMD是一个完全自定义的命令提示符，用Java实现。
+* [Crest](https://github.com/tomitribe/crest)：仿照JAX-RS风格的命令行API。
 
 #### TUI
 
@@ -10996,6 +11009,8 @@ Kafka生态管理系统、运维平台。
 * [Pearl](https://gitee.com/gemteam/pearl)：Pearl企业快速开发框架，后端技术基于Spring Boot 2.2、Spring JPA、Spring Security。
 * [MintLeaf](https://gitee.com/mintleaf/mintleaf-fast)：MintLeaf Fast是一个基于Spring Boot 2.0开发、轻量级、前后端分离的Java快速开发平台。
 * [Treasure](https://gitee.com/dingwen-gitee/treasure)：Treasure是一个Java技术生态项目，涵盖了单体、微服务、DDD等架构实践。
+* [Uncode Spring Cloud](https://gitee.com/uncode/uncode-springcloud)：Uncode Spring Cloud是基于Spring Cloud的微服务开发脚手架，用于快速构建中大型系统的基础框架。
+* [Framework](https://github.com/ww20081120/framework)：Java企业级底层框架，提供日志、缓存、DB访问、消息中间件、规则引擎、流程引擎、分布式事务便捷使用方法。
 
 #### 后台管理系统
 
