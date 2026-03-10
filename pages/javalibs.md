@@ -422,6 +422,11 @@ permalink: /javalibs
 * [批处理框架](#批处理框架)
 * [语法高亮](#语法高亮)
 * [任务调度](#任务调度)
+    * [分布式调度](#分布式调度)
+    * [嵌入式调度](#嵌入式调度)
+    * [作业队列](#作业队列)
+    * [Cron解析](#Cron解析)
+    * [任务监控](#任务监控)
 * [企业集成模式](#企业集成模式)
 * [SMT求解器](#SMT求解器)
 * [命令行开发](#命令行开发)
@@ -2937,7 +2942,7 @@ Kafka生态管理系统、运维平台。
 * [Http4s](https://github.com/http4s/http4s)：Http4s是一个极简且符合Scala规范的HTTP服务接口。
 * [Ktorfit](https://github.com/Foso/Ktorfit)：Ktorfit是一个适用于Kotlin多平台的HTTP客户端/Kotlin符号处理器，使用受Retrofit启发的KSP和Ktor客户端。
 * [Scalaj HTTP](https://github.com/scalaj/scalaj-http)：HttpURLConnection的简单Scala封装库。
-* [AndroidAsync](https://github.com/koush/AndroidAsync)：适用于Java和Android的异步套接字、HTTP(s)和WebSocket库；基于NIO，而不是线程。
+* [AndroidAsync](https://github.com/koush/AndroidAsync)：AndroidAsync是适用于Android的异步套接字、HTTP(s)客户端/服务器和WebSocket库，基于NIO而不是线程。
 * [Chuck](https://github.com/jgilfelt/chuck)：Chuck是一个简单的应用内HTTP检查器，适用于Android OkHttp客户端。
 * [NoHttp](https://github.com/yanzhenjie/NoHttp)：NoHttp是一个Android实现的HTTP标准协议框架，支持多种缓存模式，底层可动态切换OkHttp、URLConnection。
 * [Volley](https://github.com/google/volley)：Volley是一个HTTP库，它使Android应用程序的网络变得更容易，Google开源。
@@ -3184,7 +3189,12 @@ Kafka生态管理系统、运维平台。
 * [Autobahn](https://github.com/crossbario/autobahn-java)：Autobahn是适用于Android和Java 8的Java中的WebSocket和WAMP。
 * [Jawampa](https://github.com/Matthias247/jawampa)：Jawampa是一个为Java提供对Web应用程序消息传递协议(WAMP)支持的库。
 * [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus)：Tyrus是开源JSR 356-WebSocket参考实现的Java API，可轻松开发WebSocket应用程序。
-* [Babl WebSocket Server](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
+* [Spray WebSocket](https://github.com/dcaoyuan/spray-websocket)：Spray的WebSocket支持。
+* [Netty WebSocket Spring Boot](https://github.com/niezhiliang/netty-websocket-spring-boot)：基于Netty实现的WebSocket消息推送。
+* [WsManager](https://github.com/Rabtman/WsManager)：WsManager是一个简化OkHttp Websocket使用的库。
+* [SwaggerSocket](https://github.com/swagger-api/swagger-socket)：SwaggerSocket协议允许任何现有的REST资源在WebSocket协议之上执行。
+* [Hookup](https://github.com/backchatio/hookup)：Hookup是一个基于Akka构建的可靠的Netty WebSocket服务器。
+* [Babl](https://github.com/babl-ws/babl)：Babl是一款高性能、可扩展的WebSocket服务器，专为低延迟应用程序而设计。
 * [Socket.x](https://github.com/obsidiandynamics/socketx)：Socket.x是一个用于构建高性能、分布式WebSocket应用程序的库。
 * [WebSocketDemo](https://github.com/0xZhangKe/WebSocketDemo)：用于简化WebSocket在Android平台使用的封装方法。
 * [RxWebSocket](https://github.com/dhhAndroid/RxWebSocket)：RxWebSocket是一个基于Okhttp和RxJava封装的WebSocket客户端。
@@ -3764,6 +3774,7 @@ Kafka生态管理系统、运维平台。
 * [Veadk Java](https://github.com/volcengine/veadk-java)：VeADK是由火山引擎推出的为Agent智能体的应用构建提供开发、部署、观测、评测等全流程云原生解决方案。
 * [ACP Kotlin SDK](https://github.com/agentclientprotocol/kotlin-sdk)：ACP规范了AI代理与客户端交换消息、协商能力和文件传输的方式。
 * [Mem4j](https://github.com/LangMem/mem4j)：Mem4j是一个Java库，为AI代理和应用程序提供长期记忆功能。
+* [AgentScope Runtime Java](https://github.com/agentscope-ai/agentscope-runtime-java)：AgentScope Runtime是用于代理部署和工具沙箱的运行时框架。
 
 #### AI智能体
 
@@ -6806,6 +6817,7 @@ Kafka生态管理系统、运维平台。
 * [RxCache](https://github.com/VictorAlbertos/RxCache)：RxCache是一个适用于Android和Java的响应式缓存库，可将你的缓存需求转化为接口。
 * [Cache2K](https://github.com/cache2k/cache2k)：Cache2K是一个内存中高性能Java缓存库。
 * [Store](https://github.com/nytimes/Store)：Store是用于异步数据加载和缓存的Java库，由纽约时报开源。
+* [Store](https://github.com/MobileNativeFoundation/Store)：Store是一款基于Kotlin的多平台数据处理解决方案。
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
 * [J2Cache](https://gitee.com/ld/J2Cache)：J2Cache是OSChina目前正在使用的二级缓存框架。
 * [Bus Cache](https://github.com/818000/bus/tree/main/bus-cache)：Bus Cache是一个企业级缓存框架，它提供统一的缓存抽象，支持多种存储实现。
@@ -7319,6 +7331,7 @@ Kafka生态管理系统、运维平台。
 * [JCommon Config](https://github.com/facebookarchive/jcommon/tree/master/config)：JCommon Config是Facebook提供的配置库。
 * [Jodd Props](https://props.jodd.org/)：Jodd Props是功能强大的Java properties，它包含了JDK所缺失的一切，UTF-8支持、宏、节、配置文件、完全可配置等等。
 * [Knobs](https://github.com/Verizon/knobs)：Knobs是一个Scala配置库。
+* [Spring Cloud Config AWS KMS](https://github.com/zalando/spring-cloud-config-aws-kms)：Zalando Cloud AWS是Spring Cloud AWS的一个补充，它简化了在Spring和Spring Boot应用程序中使用AWS托管服务的过程。
 
 #### 分布式配置
 
@@ -7529,6 +7542,7 @@ Kafka生态管理系统、运维平台。
 * [Holiday Calculator](https://github.com/itsallcode/holiday-calculator)：用于计算公共假期日期的Java库。
 * [Holidays](https://github.com/t2v/holidays)：Scala日本节日计算库。
 * [IceWorkday](https://github.com/iceenongli/iceworkday)：IceWorkday工作日算法。
+* [NoCommons](https://github.com/bekkopen/NoCommons)：NoCommons库是一组用于验证、生成和操作挪威及挪威公民专属域名的辅助类。
 
 ## MATLAB
 
@@ -8216,6 +8230,7 @@ Kafka生态管理系统、运维平台。
 * [Compileflow](https://github.com/alibaba/compileflow)：Compileflow是一个非常轻量级、高性能、可集成和可扩展的流程引擎，由阿里开源。
 * [Temporal Java SDK](https://github.com/temporalio/sdk-java)：Temporal提供了一个开源的持久执行平台，抽象化了构建可扩展、可靠分布式系统的复杂性，由Uber开源。
 * [Azkaban](https://github.com/azkaban/azkaban)：Azkaban是LinkedIn创建的批处理工作流作业调度程序，用于运行Hadoop作业。
+* [Job Dispatcher](https://gitee.com/daye_daye/job-dispatcher)：国产的基于事件的流程编排和调度引擎。
 * [Apromore](https://github.com/apromore/ApromoreCore)：Apromore用于流程挖掘和预测流程分析，由墨尔本大学、塔尔图大学等开源。
 * [Turbo](https://github.com/didi/turbo)：Turbo是一款轻量级流程引擎服务框架，可作为底层服务支持各类流程设计、低代码设计、工作流、服务编排等场景，由滴滴开源。
 * [Amazon SWF](https://aws.amazon.com/swf)：Amazon SWF可帮助开发人员构建、运行和扩展具有并行或连续步骤的后台作业。
@@ -8509,66 +8524,80 @@ Kafka生态管理系统、运维平台。
 
 ## 任务调度
 
+#### 分布式调度
+
 * [XXL-JOB](https://github.com/xuxueli/xxl-job)：XXL-JOB是一个分布式任务调度平台，其核心设计目标是开发迅速、学习简单、轻量级、易扩展。
-* [Quartz](https://github.com/quartz-scheduler/quartz)：Quartz是一个功能丰富的开源任务调度库，几乎可以集成在任何Java应用程序中，由Terracotta公司开源。
 * [Apache ElasticJob](https://github.com/apache/shardingsphere-elasticjob)：ElasticJob是一个轻量级、去中心化的解决方案，提供分布式任务分片服务，由当当网开源。
 * [PowerJob](https://github.com/PowerJob/PowerJob)：PowerJob是全新一代分布式任务调度与计算框架。
-* [Spring Scheduler](https://docs.spring.io/spring-framework/reference/integration/scheduling.html)：Spring框架通过TaskExecutor和TaskScheduler接口提供了异步执行和任务调度的抽象。
-* [JobRunr](https://github.com/jobrunr/jobrunr)：JobRunr提供了一个统一的编程模型，以可靠的方式处理后台任务。
 * [SchedulerX](https://www.aliyun.com/aliware/schedulerx)：SchedulerX是阿里自研的分布式任务调度平台，支持Cron定时、一次性任务、工作流任务编排、分布式跑批，具有高可用、可视化、低延时等能力。
 * [DisJob](https://github.com/dromara/disjob)：DisJob是一款分布式的任务调度及分布式计算框架，由dromara社区开源。
-* [Dynein](https://github.com/airbnb/dynein)：Dynein是Airbnb的开源分布式延迟作业排队系统。
 * [Saturn](https://github.com/vipshop/Saturn)：Saturn是唯品会打造的一个提供分布式、容错、高可用的作业调度服务的平台。
-* [Dyno Queues](https://github.com/Netflix/dyno-queues)：Dyno Queues在Dynomite之上提供了基于Java的队列配方，由Netflix开源。
-* [DB Scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
 * [OpenJob](https://github.com/open-job/openjob)：Openjob是一个分布式高性能任务调度框架，支持多个cronjob、延迟任务、工作流，轻量级分布式计算，无限水平扩展，具有高扩展性和容错能力。
 * [PlumeJob](https://gitee.com/plumeorg/plumejob)：PlumeJob是一个去中心化的分布式调度系统，集成简单易用，由Plume组织开源。
 * [TBSchedule](https://github.com/nmyphp/tbschedule)：TBSchedule是一个由阿里开源的支持分布式的调度框架。
-* [Sundial](https://github.com/knowm/Sundial)：Sundial是一个轻量级的Java任务调度框架。
-* [Kob](https://github.com/LianjiaTech/kob)：Kob是中心化的作业调度系统，定义了任务调度模型，实现了任务调度的统一管理和监控，由贝壳开源。
-* [Wisp](https://github.com/Coreoz/Wisp)：Wisp是一个用于管理重复性Java作业执行的库。
-* [Android Job](https://github.com/Evernote/android-job)：用于在后台处理作业的Android库，由Evernote开源。
-* [FlowJob](https://github.com/limbo-world/flowjob)：FlowJob主要用于搭建统一的任务调度平台，方便各个业务方进行接入使用。
-* [BatchMan](https://github.com/flipkart-incubator/batchman)：BatchMan是一个Android库实现，负责根据客户端完成的配置对事件进行批处理，并将批处理返回给客户端，由Flipkart开源。
-* [Android Priority Job Queue](https://github.com/yigit/android-priority-jobqueue)：Priority Job Queue是专门为Android编写的作业队列的实现，可轻松安排在后台运行的作业，从而提高用户体验和应用程序稳定性。
-* [Firebase JobDispatcher](https://github.com/googlearchive/firebase-jobdispatcher-android)：Firebase JobDispatcher是一个用于在Android应用中调度后台作业的库，由Google开发。
-* [Legends](https://github.com/tongbanjie/legends)：Legends是Java开发的一个任务调度框架，可以远程执行一次性或重复性的Job，查看任务的执行状态以及任务结果，由铜板街开源。
-* [Job Dispatcher](https://gitee.com/daye_daye/job-dispatcher)：国产的基于事件的流程编排和调度引擎。
-* [Snail Job](https://gitee.com/aizuda/snail-job)：Snail Job是一个功能强大的分布式重试和任务调度平台，为支持提高分布式业务系统一致性和分布式任务调度而设计，由爱组搭开源。
 * [SIA-TASK](https://github.com/siaorg/sia-task)：SIA-TASK是任务调度的一体式解决方案，简单易用，由宜信开源。
-* [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
-* [BigBen](https://github.com/walmartlabs/bigben)：BigBen是一个基于Cassandra和Hazelcast的通用、多租户、基于时间的事件调度程序和Cron调度框架，由沃尔玛开源。
 * [Antares](https://github.com/ihaolin/antares)：分布式任务调度平台。
 * [Light Task Scheduler](https://github.com/ltsopensource/light-task-scheduler)：LTS主要用于解决分布式任务调度问题，支持实时任务、定时任务和Cron任务。
-* [Atlassian Scheduler](https://bitbucket.org/atlassian/atlassian-scheduler)：Atlassian Scheduler库是用于在Atlassian应用程序中创建调度任务的API。
 * [CronMan](https://github.com/smmdwa/CronMan)：CronMan是一款轻量级的分布式任务调度系统。
+* [Jobs](https://gitee.com/baomidou/jobs)：baomidou社区开源的分布式任务调度组件。
 * [Chronus](https://github.com/360digitech/chronus)：Chronus是360数科技术团队基于阿里开源项目TBSchedule重写的分布式调度。
 * [Earth Frost](https://gitee.com/justlive1/earth-frost)：Earth Frost是一个轻量级分布式任务调度框架。
-* [Cardiologist](https://github.com/kevincianfarini/cardiologist)：使用kotlinx-datetime和kotlinx-coroutines构建作业调度。
-* [Schedulix](https://github.com/schedulix/schedulix)：Schedulix是一个开源企业作业调度系统。
 * [Hodor](https://github.com/dromara/hodor)：Hodor是一个专注于任务调度以及任务编排的一站式分布式任务调度系统，由dromara社区开源。
-* [TASKANA](https://github.com/Taskana/taskana)：TASKANA是一个任务管理组件开源库，它可以嵌入到你的应用程序中，也可以在适当的情况下独立运行。
-* [JQM](https://github.com/enioka-Haute-Couture/jqm)：JQM是一个任务队列管理器。
-* [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
-* [TinyTask](https://github.com/inaka/TinyTask)：一个用于创建异步后台任务的小型Android库，由Inaka开发。
-* [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
-* [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
-* [Persistasaurus](https://github.com/gunnarmorling/persistasaurus)：Persistasaurus是一个基于SQLite的极简Java持久化执行库。
-* [Quartz Manager](https://github.com/fabioformosa/quartz-manager)：Quartz Manager是一个Java库，你可以导入Spring Web应用中，用于运行定时作业、启动和停止它们并获取作业结果。
-* [Vert.x Kue](https://github.com/sczyh30/vertx-kue)：Vert.x Kue是一个由Vert.x开发并由Redis支持的优先任务队列。
-* [JobX](https://github.com/datavane/jobx)：JobX是一个功能完善真正通用的Linux定时任务调度系统，由Datavane大数据组织开源。
-* [TwTasks](https://github.com/transferwise/tw-tasks-executor)：TwTasks是一个能够以分布式方式执行任意异步代码并提供完全一致性保证的框架。
-* [Chronos](https://github.com/aolarchive/chronos)：用于后端系统的类似Cron的任务，由AOL开源。
+* [Uncode Schedule](https://gitee.com/uncode/uncode-schedule)：Uncode Schedule是基于Zookeeper、Quartz/Spring Task的分布式任务调度组件。
+* [Snail Job](https://gitee.com/aizuda/snail-job)：Snail Job是一个功能强大的分布式重试和任务调度平台，为支持提高分布式业务系统一致性和分布式任务调度而设计，由爱组搭开源。
 * [Niubi Job](https://github.com/xiaolongzuo/niubi-job)：Niubi Job是一个具备高可用特性的专门针对定时任务的任务调度框架。
 * [Redis Scheduler](https://github.com/davidmarquis/redis-scheduler)：Redis Scheduler是一个使用Redis的分布式调度器的Java实现。
-* [Uncode Schedule](https://gitee.com/uncode/uncode-schedule)：Uncode Schedule是基于Zookeeper、Quartz/Spring Task的分布式任务调度组件。
+* [JobX](https://github.com/datavane/jobx)：JobX是一个功能完善真正通用的Linux定时任务调度系统，由Datavane大数据组织开源。
+* [BigBen](https://github.com/walmartlabs/bigben)：BigBen是一个基于Cassandra和Hazelcast的通用、多租户、基于时间的事件调度程序和Cron调度框架，由沃尔玛开源。
+* [FlowJob](https://github.com/limbo-world/flowjob)：FlowJob主要用于搭建统一的任务调度平台，方便各个业务方进行接入使用。
+* [Schedulix](https://github.com/schedulix/schedulix)：Schedulix是一个开源企业作业调度系统。
+
+#### 嵌入式调度
+
+* [Quartz](https://github.com/quartz-scheduler/quartz)：Quartz是一个功能丰富的开源任务调度库，几乎可以集成在任何Java应用程序中，由Terracotta公司开源。
+* [Spring Scheduler](https://docs.spring.io/spring-framework/reference/integration/scheduling.html)：Spring框架通过TaskExecutor和TaskScheduler接口提供了异步执行和任务调度的抽象。
+* [JobRunr](https://github.com/jobrunr/jobrunr)：JobRunr提供了一个统一的编程模型，以可靠的方式处理后台任务。
+* [DB Scheduler](https://github.com/kagkarlsson/db-scheduler)：适用于Java的持久集群友好调度程序。
+* [Android Job](https://github.com/Evernote/android-job)：用于在后台处理作业的Android库，由Evernote开源。
+* [Sundial](https://github.com/knowm/Sundial)：Sundial是一个轻量级的Java任务调度框架。
+* [Wisp](https://github.com/Coreoz/Wisp)：Wisp是一个用于管理重复性Java作业执行的库。
+* [Hashed Wheel Timer](https://github.com/ifesdjeen/hashed-wheel-timer)：与ScheduledExecutorService兼容的高性能计时器/调度程序库。
 * [Cron4j](http://www.sauronsoftware.it/projects/cron4j/)：Cron4j是Java平台的调度程序，与UNIX Cron守护程序非常相似。
 * [Bus Cron](https://github.com/818000/bus/tree/main/bus-cron)：Bus Cron是一个基于Cron表达式的轻量级、高性能的定时任务框架。
 * [Hutool Cron](https://github.com/chinabugotech/hutool/tree/v5-master/hutool-cron)：Hutool Cron提供类Crontab表达式的定时任务。
+* [Database Queue](https://github.com/yoomoney/db-queue)：该库在Java和数据库之上提供了工作队列实现，由YooMoney开源。
+* [Atlassian Scheduler](https://bitbucket.org/atlassian/atlassian-scheduler)：Atlassian Scheduler库是用于在Atlassian应用程序中创建调度任务的API。
+* [Persistasaurus](https://github.com/gunnarmorling/persistasaurus)：Persistasaurus是一个基于SQLite的极简Java持久化执行库。
+* [Firebase JobDispatcher](https://github.com/googlearchive/firebase-jobdispatcher-android)：Firebase JobDispatcher是一个用于在Android应用中调度后台作业的库，由Google开发。
+* [BatchMan](https://github.com/flipkart-incubator/batchman)：BatchMan是一个Android库实现，负责根据客户端完成的配置对事件进行批处理，并将批处理返回给客户端，由Flipkart开源。
+* [Legends](https://github.com/tongbanjie/legends)：Legends是Java开发的一个任务调度框架，可以远程执行一次性或重复性的Job，查看任务的执行状态以及任务结果，由铜板街开源。
+* [Cardiologist](https://github.com/kevincianfarini/cardiologist)：使用kotlinx-datetime和kotlinx-coroutines构建作业调度。
+* [TinyTask](https://github.com/inaka/TinyTask)：TinyTask是一个用于创建异步后台任务的小型Android库，由Inaka开发。
+* [NanoTasks](https://github.com/inaka/TinyTask)：NanoTasks是一种极其轻量级的在Android后台执行代码的方式。
+* [LogiCommon](https://github.com/didi/LogiCommon)：LogiCommon包含认证、鉴权、管理、任务调度通用功能组件，由滴滴开源。
+
+#### 作业队列
+
+* [Dynein](https://github.com/airbnb/dynein)：Dynein是Airbnb的开源分布式延迟作业排队系统。
+* [Dyno Queues](https://github.com/Netflix/dyno-queues)：Dyno Queues在Dynomite之上提供了基于Java的队列配方，由Netflix开源。
+* [Vert.x Kue](https://github.com/sczyh30/vertx-kue)：Vert.x Kue是一个由Vert.x开发并由Redis支持的优先任务队列。
+* [JQM](https://github.com/enioka-Haute-Couture/jqm)：JQM是一个任务队列管理器。
+* [TwTasks](https://github.com/transferwise/tw-tasks-executor)：TwTasks是一个能够以分布式方式执行任意异步代码并提供完全一致性保证的框架。
+* [Android Priority Job Queue](https://github.com/yigit/android-priority-jobqueue)：Priority Job Queue是专门为Android编写的作业队列的实现，可轻松安排在后台运行的作业，从而提高用户体验和应用程序稳定性。
+
+#### Cron解析
+
 * [Cron Utils](https://github.com/jmrozanec/cron-utils)：CronUtils是一个Java库，用于定义、解析、验证、迁移Cron以及获取人类可读的描述。
 * [Cron Parser](https://github.com/grahamar/cron-parser)：将Cron表达式转换为人类可读字符串的Java库。
 * [Nlp2cron](https://gitee.com/huoyo/nlp2cron)：Nlp2cron是一个将自然语言转换为Cron表达式的工具包。
 * [Cron](https://github.com/frode-carlsen/cron)：Cron表达式解析器和评估器。
+
+#### 任务监控
+
+* [Kob](https://github.com/LianjiaTech/kob)：Kob是中心化的作业调度系统，定义了任务调度模型，实现了任务调度的统一管理和监控，由贝壳开源。
+* [Quartz Manager](https://github.com/fabioformosa/quartz-manager)：Quartz Manager是一个Java库，你可以导入Spring Web应用中，用于运行定时作业、启动和停止它们并获取作业结果。
+* [TASKANA](https://github.com/Taskana/taskana)：TASKANA是一个任务管理组件开源库，它可以嵌入到你的应用程序中，也可以在适当的情况下独立运行。
+* [Chronos](https://github.com/aolarchive/chronos)：用于后端系统的类似Cron的任务，由AOL开源。
 
 ## 企业集成模式
 
@@ -9365,6 +9394,8 @@ Kafka生态管理系统、运维平台。
 * [Reflect](https://github.com/Lenni0451/Reflect)：一个反射库，其中包含一些有用的方法来绕过Java中的反射限制。
 * [Paramo](https://proxetta.jodd.org/paramo/paramo)：Paramo是一个小型工具，它可以在运行时从字节码调试信息中提取方法或构造函数参数名称。
 * [Inspekt](https://github.com/rnett/inspekt)：Kotlin的编译时多平台反射。
+* [Narcissus](https://github.com/toolfactory/narcissus)：Narcissus是一个通过JNI API绕过Java所有安全机制、可见性检查和封装措施的库。
+* [JVM Driver](https://github.com/toolfactory/jvm-driver)：JVM Driver允许与JVM进行深度交互而没有任何限制。
 
 ## 注解库
 
@@ -9428,7 +9459,6 @@ Kafka生态管理系统、运维平台。
 * [OpenAPI Maven Plugin](https://github.com/kbuntrock/openapi-maven-plugin)：OpenAPI Maven Plugin分析REST控制器Java类并生成相应的OpenAPI 3.0.3文档，它支持Spring MVC、Javax RS和Jakarta RS注解。
 * [JSONDoc](https://github.com/fabiomaffioletti/jsondoc)：JSONDoc是一个Java库，可用于构建RESTful服务的文档。
 * [Swagger Play](https://github.com/swagger-api/swagger-play)：这是一个在Play框架控制器中支持Swagger注解的模块。
-* [Swagger Socket](https://github.com/swagger-api/swagger-socket)：Swagger Socket协议允许在WebSocket协议之上执行任何现有的REST资源。
 * [Swagger Dubbo](https://github.com/Sayi/swagger-dubbo)：Dubbo的Swagger服务文档。
 * [Swagger Akka HTTP](https://github.com/swagger-akka-http/swagger-akka-http)：Swagger Akka HTTP为Akka-Http API带来了Swagger支持。
 * [Swagger Gradle Plugin](https://github.com/gigaSproule/swagger-gradle-plugin)：支持JAX-RS和Spring MVC来生成Swagger文档的Gradle构建插件。
@@ -10180,13 +10210,14 @@ Kafka生态管理系统、运维平台。
 * [New Relic](https://newrelic.com/)：New Relic是一个很强大的服务器性能监控工具。
 * [Glowroot](https://github.com/glowroot/glowroot)：Glowroot是一个易于使用，开销极低的Java APM。
 * [Fiery](https://github.com/weiboad/fiery)：Fiery是用于PHP的APM工具，由微博开源。
+* [Digma](https://github.com/digma-ai/digma)：Digma是一个持续反馈平台，使可观察性与开发相关。
 * [OzHera](https://github.com/XiaoMi/ozhera)：OzHera是云原生时代的应用可观察平台，由小米中国区研发效率团队开源。
 * [EasyAgent](https://github.com/megaease/easeagent)：EasyAgent是一个轻量级开放的云原生Java Agent及APM系统，MegaEase开源。
 * [inspectIT](https://github.com/inspectIT/inspectIT)：ispectIT是领先的开源APM工具，用于监视和分析Java(EE)软件应用程序。
 * [Lightrun](https://lightrun.com/)：Lightrun是一个面向开发人员的可观察性工具。
 * [Kieker](https://github.com/kieker-monitoring/kieker)：Kieker提供动态分析功能，即监控和分析软件系统的运行时行为，从而实现应用程序性能监控和架构发现，由斯图加特大学和基尔大学开源。
 * [BeeAPM](https://github.com/hao117/bee-apm)：BeeAPM是一个分布式跟踪和应用性能监控系统。
-* [Digma](https://github.com/digma-ai/digma)：Digma是一个持续反馈平台，使可观察性与开发相关。
+* [Moneat](https://github.com/moneat-io/moneat)：Moneat是一个与Sentry兼容的可观测性平台，用于错误监控、事件管理、正常运行时间跟踪和结构化日志记录。
 * [UAVStack](https://github.com/uavorg/uavstack)：UAVStack是智能化服务技术栈，是研发运维一体化的解决方案。
 * [JavaAgent](https://github.com/dingjs/javaagent)：JavaAgent是一个简单优雅的Java Agent，利用Java自带的Instrument特性、Javassist字节码编辑技术，实现了无侵入的方法级性能监控。
 
@@ -10964,6 +10995,7 @@ Kafka生态管理系统、运维平台。
 * [Spring Initializr TUI](https://github.com/danvega/spring-initializr-tui)：一个用于搭建Spring Boot项目的交互式终端界面。
 * [MicroService Scaffold](https://github.com/jackson-zb/microservice-scaffold)：基于Spring Cloud搭建的微服务脚手架。
 * [AirPower4J](https://github.com/AirPowerTeam/AirPower4J)：AirPower4J是一个基于Java 17、Spring Boot 3.x、JPA、MySQL的后端开发脚手架。
+* [Maker](https://gitee.com/ldh123/maker)：Maker是一个强大的代码生成器，能够生成当前流程的多个开发框架，通过JavaFX制作的UI界面，直接生成可以运行的前后端代码。
 
 #### 快速开发框架
 
@@ -15428,6 +15460,7 @@ Kafka生态管理系统、运维平台。
 * [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
 * [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
 * [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
+* [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
 * [JForGame](https://github.com/kingston-csj/jforgame)：JForGame是一个用Java编写的轻量级高性能手游服务端框架，包含游戏服、跨服、匹配服、后台管理系统等模块。
 * [Mmorpg](https://github.com/kingston-csj/mmorpg)：Mmorpg是一个用Java编写的分布式高性能mmorpg手游服务端框架。
 * [GameServer4j](https://github.com/jzyong/GameServer4j)：分布式Java游戏服务器，包括登录、网关、游戏演示。
@@ -15901,6 +15934,7 @@ Kafka生态管理系统、运维平台。
 
 * [Java-OO](https://github.com/amelentev/java-oo)：Java-OO是Java编译器和IDE的模块化扩展，用于支持运算符重载(类似Scala)。
 * [Manifold](https://github.com/manifold-systems/manifold)：Manifold是一个Java编译器插件，其功能包括元编程、属性、扩展方法、运算符重载、模板、预处理器等。
+* [KSP](https://github.com/google/ksp)：KSP是一个API，可用于开发轻量级编译器插件，由Google开源。
 * [Deptitive](https://github.com/moditect/deptective)：Deptitive是javac的一个插件，它根据允许的依赖的描述来验证项目包之间的依赖关系，并在检测到任何无意的依赖关系时使编译失败。
 * [Turbine](https://github.com/google/turbine)：Turbine是Java的标头编译器，Google开发。
 
@@ -16134,6 +16168,7 @@ Kafka生态管理系统、运维平台。
 * [Airsonic](https://github.com/airsonic/airsonic)：Airsonic是一款免费的基于Web的媒体服务器，可让你随时随地访问音乐。
 * [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer)：Universal Media Server是兼容DLNA的UPnP媒体服务器，它能够在大多数现代设备之间共享视频、音频和图像。
 * [Stream M](https://github.com/vbence/stream-m)：Stream M旨在成为一个开源解决方案，使用HTML5视频标签和Google的WebM或流行的H.264视频格式将实时视频直接流式传输到Web浏览器中。
+* [Komga](https://github.com/gotson/komga)：Komga是一个媒体服务器，可用于存储你的漫画、漫画书、蓝光光碟、杂志和电子书。
 * [LiveBox](https://github.com/parzulpan/livebox)：LiveBox是一个跨平台的网络媒体聚合应用，支持直播视频、高清电视和广播电台的在线观看或收听。
 * [EasyMedia](https://gitee.com/52jian/EasyMedia)：Spring Boot、Netty实现的HTTP-FLV、WebSocket-FLV流媒体服务。
 * [PS3 Media Server](https://github.com/ps3mediaserver/ps3mediaserver)：PS3 Media Server是一个跨平台的DLNA兼容UPnP媒体服务器。
@@ -16998,12 +17033,6 @@ Kafka生态管理系统、运维平台。
 * [RSSOwl](https://github.com/rssowl/RSSOwl)：RSS Owl是一款功能强大的应用程序，可以以舒适的方式组织、搜索和阅读你的RSS、RDF和Atom新闻提要。
 * [RSS Reader](https://github.com/w3stling/rssreader)：RSS Reader是一个用于读取RSS和Atom提要的简单Java库。
 * [RSS Parser](https://github.com/prof18/RSS-Parser)：RSS Parser是一个用于解析RSS和Atom提要的Kotlin多平台库，支持Android、iOS和JVM。
-* [ROME](https://github.com/rometools/rome)：ROME是一个用于RSS和Atom提要的Java框架。
-* [Huntly](https://github.com/lcomplete/huntly)：Huntly是一个信息管理工具，它不仅可以自托管，也可以通过客户端在本地运行。
-* [CommaFeed](https://github.com/Athou/commafeed)：受Google Reader启发而开发的自托管RSS阅读器，基于Dropwizard和React/TypeScript。
-* [Android RSS](https://github.com/ahorn/android-rss)：用于解析RSS 2.0提要的轻量级Android库。
-* [Sismics Reader](https://github.com/sismics/reader)：Reader是一个开源的、基于Web的聚合器，通过Web Feeds(RSS、Atom)提供内容。
-* [RSSOwl](https://github.com/rssowl/RSSOwl)：RSS Owl是一款功能强大的应用程序，可以以舒适的方式组织、搜索和阅读你的RSS、RDF和Atom新闻提要。
 * [ANI RSS](https://github.com/wushuo894/ani-rss)：基于RSS自动追番、订阅、下载。
 * [Android RSS Reader Library](https://github.com/matshofman/Android-RSS-Reader-Library)：RSS读取器库，用于从网络获取RSS提要并将其解析为可操作的对象。
 * [ParseRSS](https://github.com/muhrifqii/ParseRSS)：ParseRSS是一个用于Android平台RSS解析的库。
@@ -17426,6 +17455,7 @@ Kafka生态管理系统、运维平台。
 * [Joda Beans](https://github.com/JodaOrg/joda-beans)：Joda Beans提供了一个小型框架，用于向Java添加属性。
 * [Burningwave](https://github.com/burningwave/core)：Burningwave Core是一个先进、免费的开源Java框架构建库，它可用于扫描类路径、在运行时生成类、促进反射的使用、扫描文件系统、执行字符串化的源代码、并行迭代集合或数组、并行执行任务等等。
 * [JavaPoet](https://github.com/square/javapoet)：JavaPoet是一个用于生成源文件的Java API，由Square开源。
+* [KotlinPoet](https://github.com/square/kotlinpoet)：KotlinPoet是一个用于生成.kt源文件的Kotlin和Java API，由Square开源。
 * [SwiftPoet](https://github.com/outfoxx/swiftpoet)：SwiftPoet是一个用于生成.swift源文件的Kotlin和Java API。
 * [Java::Geci](https://github.com/verhas/javageci)：Java::Geci是一个用于生成Java代码的库。
 * [Wsilk](https://github.com/wuba/wsilk)：Wsilk是一个辅助开发人员的代码生成框架，由58同城开源。
