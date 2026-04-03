@@ -8025,7 +8025,6 @@ permalink: /javalibs
 * [JSci](https://jsci.sourceforge.net/)：JSci是一组免费的Java包，目的是以最自然的方式概括科学方法/原理，由杜伦大学开源。
 * [JavaPlex](https://github.com/appliedtopology/javaplex)：JavaPlex库实现了计算和应用拓扑中的持久同源性和相关技术，由斯坦福大学开源。
 * [Kotlin Math](https://github.com/romainguy/kotlin-math)：一套Kotlin API，旨在简化图形数学运算的编写。
-
 * [Ryu](https://github.com/ulfjack/ryu)：该项目包含使用最短、固定%f和科学%e格式将IEEE-754浮点数转换为十进制字符串的例程。
 * [JavaCPP MKL](https://github.com/bytedeco/javacpp-presets/tree/master/mkl)：MKL是由英特尔开发的高度优化、广泛线程化的数学函数库。
 * [Hacktoberfest Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
@@ -9580,8 +9579,8 @@ permalink: /javalibs
 * [Imagez](https://github.com/mikera/imagez)：Clojure的图像处理库。
 * [Marvin](https://github.com/gabrielarchanjo/marvin-framework)：Marvin图像处理框架提供实时处理图像和视频的功能。
 * [Picasso](https://github.com/square/picasso)：Picasso是一个强大的Android图像下载和缓存库，由Square开源。
-* [Bus Image](https://github.com/818000/bus/tree/main/bus-image)：Bus Image是一个企业级医学影像和DICOM处理框架，专为医疗保健应用而设计。
 * [EasyImage](https://github.com/aviyehuda/EasyImage)：EasyImage可让你执行所有基本图像操作-转换、裁剪、调整大小、旋转、翻转等。
+* [Bus Image](https://github.com/818000/bus/tree/main/bus-image)：Bus Image是一个企业级医学影像和DICOM处理框架，专为医疗保健应用而设计。
 * [JMagick](https://github.com/techblue/jmagick)：JMagick是ImageMagick的开源Java接口。
 * [Jrawio](https://github.com/tidalwave-it/jrawio-src)：Java Image I/O API的服务提供者，用来处理数码相机拍摄的RAW格式的图片，包括NEF、CRW、CR2、PEF、SRF、MRW。
 * [JJIL](https://github.com/litmanowicziv/jjil)：JJIL是一个Java图像处理库，它包括图像处理架构和60多个用于各种图像处理任务的例程。
@@ -16361,7 +16360,7 @@ Kafka生态管理系统、运维平台。
 * [GLM](https://github.com/kotlin-graphics/glm)：GLM是OpenGL Mathematics的Kotlin端口。
 * [Clojure2D](https://github.com/Clojure2D/clojure2d)：Clojure2D是一个支持生成式编码或故障艺术的库。
 * [OverrunGL](https://github.com/Over-Run/overrungl)：Overrun Game Library是一个用Java 24实现的高性能库，它支持跨平台访问一组C库绑定，提供各种有用的实用程序。
-  * [Three Kt](https://github.com/markaren/three.kt)：流行的Three.js 3D库的Kotlin/JVM端口。
+* [Three Kt](https://github.com/markaren/three.kt)：流行的Three.js 3D库的Kotlin/JVM端口。
 * [Korender](https://github.com/zakgof/korender)：Kotlin基于OpenGL/OpenGL ES/WebGL的多平台3D图形渲染引擎。
 * [Matplot3D](https://github.com/tanling8334/Matplot3D-for-Java)：Matplot3D旨在为Java开发者提供类似于Python中Matplotlib的三维绘图功能。
 * [JGLM](https://github.com/jroyalty/jglm)：OpenGL Mathematics C++库(GLM)的概念性移植。

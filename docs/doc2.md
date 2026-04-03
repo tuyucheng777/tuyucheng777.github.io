@@ -1168,7 +1168,6 @@
 * [SQL Brite](https://github.com/square/sqlbrite)：一个轻量级的SQLiteOpenHelper包装器，为SQL作引入了响应式流语义，由Square开源。
 * [StorIO](https://github.com/pushtorefresh/storio)：SQLiteDatabase和ContentResolver的响应式API。
 * [Apache MetaModel](https://metamodel.apache.org/)：Metamodel是一个用于处理结构化数据的Java库，它提供了强大的元数据驱动的数据访问API，支持多种数据源，如关系数据库、CSV文件等。
-* [Apache EmpireDB](https://github.com/apache/empire-db)：EmpireDB是一个轻量级的关系型数据库访问库，用于处理所有关系型数据的存储、操作、检索和建模方面。
 * [Japedo](https://www.logitags.com/japedo/)：Japedo是一个用于生成Java应用程序完整持久层文档的工具。
 * [Objectify](https://github.com/objectify/objectify)：Objectify是专门为Google Cloud Datastore设计的Java数据访问API。
 * [PulseDB](https://github.com/feedzai/pdb)：PulseDB是一个用Java编写的数据库映射软件库，它提供对各种数据库实现的透明访问和操作，由Feedzai开源。
@@ -1319,6 +1318,7 @@
 * [Specification With Projection](https://github.com/pramoth/specification-with-projection)：支持使用Spring Data JPA JpaSpecificationExecutor.findAll(Specification, Pageable)的投影。
 * [Java Dynamic Query](https://github.com/tdilber/spring-data-dynamic-query)：该项目旨在为Spring Data JPA、Spring Data MongoDB和Spring Data Elasticsearch提供强大且统一的动态查询创建功能。
 * [QLRM](https://github.com/martinellich/qlrm)：在JPA中，原生SQL查询没有构造函数表达式，QLRM弥补了这一空白。
+* [NestedJ](https://github.com/eXsio/nestedj)：NestedJ是一个Java库，它提供Spring Data类型的Repository，用于使用嵌套集模型管理读取优化的有序树。
 * [Joiner](https://github.com/encircled/Joiner)：Joiner是一个Java库，支持创建类型安全的JPA查询。
 * [QueryFilterJPA](https://github.com/acoboh/query-filter-jpa)：QueryFilterJPA让你能够以最少的设置创建功能强大的动态过滤器。
 
@@ -1947,6 +1947,7 @@
 * [ReARM](https://github.com/relizaio/rearm)：ReARM是一款xBOM管理系统，可帮助组织在各种监管框架内保持合规性。
 * [Standard BOM](https://github.com/siemens/standard-bom-java)：一个用于创建和使用标准BOM格式SBOM的Java库，由西门子开源。
 * [JBOM](https://github.com/eclipse-jbom/jbom)：JBOM为本地和远程Java应用生成运行时和静态SBOM。
+* [Spdx Java](https://github.com/spdx/spdx-java-library)：Spdx Java是一个Java库，它实现了SPDX的Java对象模型，并提供了有用的辅助函数。
 
 #### 漏洞工具
 
@@ -2536,6 +2537,7 @@
 * [RxCache](https://github.com/VictorAlbertos/RxCache)：RxCache是一个适用于Android和Java的响应式缓存库，可将你的缓存需求转化为接口。
 * [Cache2K](https://github.com/cache2k/cache2k)：Cache2K是一个内存中高性能Java缓存库。
 * [Store](https://github.com/nytimes/Store)：Store是用于异步数据加载和缓存的Java库，由纽约时报开源。
+* [Store](https://github.com/MobileNativeFoundation/Store)：Store是一款基于Kotlin的多平台数据处理解决方案。
 * [MicroStream](https://github.com/microstream-one/microstream)：MicroStream是一个突破性的Java原生对象图持久层，专为需要轻量级高性能持久层的微服务和Serverless函数而构建。
 * [J2Cache](https://gitee.com/ld/J2Cache)：J2Cache是OSChina目前正在使用的二级缓存框架。
 * [Bus Cache](https://github.com/818000/bus/tree/main/bus-cache)：Bus Cache是一个企业级缓存框架，它提供统一的缓存抽象，支持多种存储实现。
@@ -9285,6 +9287,9 @@ Kafka生态管理系统、运维平台。
 * [JArduino](https://github.com/SINTEF-9012/JArduino)：JArduino是一个Java API和Arduino固件，允许使用Java对Arduino开发板进行编程。
 * [JOP](https://github.com/jop-devel/jop)：JOP是一种面向嵌入式实时系统的Java处理器。
 * [LPAd SM-DP+ Connector](https://github.com/Truphone/LPAd_SM-DPPlus_Connector)：本项目提供了SGP22本地配置文件助手(LPAd)的实现。
+* [Mixly](https://gitee.com/mixlyplus/Mixly)：Mixly是一款面向初学者、硬件编程爱好者的图形化编程工具。
+* [PixelController](https://github.com/neophob/PixelController)：LED点阵控制软件，支持多种硬件。
+* [Stream Pi Client](https://github.com/stream-pi/client)：免费、开源、模块化、跨平台且可编程的宏键盘。
 * [BD-J Linux SDK](https://github.com/john-tornblom/bdj-sdk)：这是一套用于简化在GNU/Linux系统上构建BD-J ISO镜像的工具集。
 
 #### 串口
@@ -11837,7 +11842,6 @@ Kafka生态管理系统、运维平台。
 * [Jolt JNI](https://github.com/stephengold/jolt-jni)：Jolt JNI项目为Jolt Physics和V-HACD库提供JVM绑定，以促进使用Java和Kotlin等JVM语言进行物理模拟。
 * [JBump](https://github.com/implicit-invocation/jbump)：JBump是Bump.Lua的Java端口，它是一个2D AABB碰撞检测和响应库。
 * [PhysX JNI](https://github.com/fabmax/physx-jni)：Nvidia PhysX的Java JNI绑定。
-* [JavaCPP LiquidFun](https://github.com/bytedeco/javacpp-presets/tree/master/liquidfun)：LiquidFun是一款用于游戏的2D物理引擎。
 
 #### 噪声库
 
@@ -12954,7 +12958,6 @@ Kafka生态管理系统、运维平台。
 ## 地理空间
 
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，它提供符合标准的方法来操作地理空间数据，例如实现地理信息系统(GIS)，由英国利兹大学开源。
-* [Gisgraphy](https://github.com/gisgraphy/gisgraphy)：Gisgraphy提供正向和反向地理编码、地理定位和车辆跟踪Web服务。
 * [Apache SIS](https://github.com/apache/sis)：SIS是一个用于开发地理空间应用程序的Java语言库。
 * [GeoTrellis](https://github.com/locationtech/geotrellis)：GeoTrellis是一个Scala库和框架，提供用于读取、写入和操作地理空间栅格和矢量数据的API。
 * [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个开源Java库，旨在简化空间数据的处理过程。
@@ -13972,6 +13975,7 @@ Kafka生态管理系统、运维平台。
 * [CheerpJ](https://github.com/leaningtech/cheerpj-meta)：CheerpJ是一个基于WebAssembly的浏览器JVM。
 * [Chicory](https://github.com/dylibso/chicory)：Chicory是JVM原生WebAssembly运行时，它允许你以零本机依赖或JNI运行WebAssembly程序。
 * [Wasmer](https://github.com/wasmerio/wasmer-java)：基于Wasmer的完整且成熟的Java WebAssembly运行时。
+* [Extism Java SDK](https://github.com/extism/java-sdk)：Extism Java Host SDK使Java程序能够嵌入和运行WebAssembly插件。
 
 #### JavaScript引擎
 
