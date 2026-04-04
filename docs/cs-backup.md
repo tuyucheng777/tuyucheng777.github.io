@@ -1875,6 +1875,22 @@
 * [Norm.net](https://github.com/vb-consulting/Norm.net)：Norm.net是一款创新且高性能的数据库访问工具，适用于.NET Standard 2.1及更高版本。
 * [Glass.Mapper](https://github.com/mikeedwards83/Glass.Mapper)：Glass映射框架的第5版，适用于Sitecore的最佳ORM。
 * [DbExtensions](https://github.com/maxtoroq/DbExtensions)：DbExtensions是一个数据访问框架，重点关注查询组合、粒度和代码美观。
+* [Dos.ORM](https://github.com/itdos/Dos.ORM)：Dos.ORM是一个上手简单、轻量级、高性能的ORM。
+* [EntityWorker.Core](https://github.com/AlenToma/EntityWorker.Core)：EntityWorker是一个ORM，它使.NET开发人员能够使用对象处理关系数据。
+* [MicroLite](https://github.com/MicroLite-ORM/MicroLite)：MicroLite是一个.NET 4.5库，为Microsoft .NET框架提供了一个小型轻量级ORM。
+* [SimpleStack.Orm](https://github.com/SimpleStack/simplestack.orm)：SimpleStack.Orm是基于优秀的Dapper项目构建的一个层，它能够根据Lambda表达式生成SQL查询。
+* [Restful.Data](https://github.com/linli8/Restful)：Restful.Data是一套通用的轻量级数据持久层组件。
+* [DbEntry](https://github.com/Lifeng-Liang/DbEntry)：DbEntry.Net是一个轻量级、高性能的.NET Core 2.0 ORM组件。
+* [Dashing](https://github.com/AbstractLeap/dashing)：Dashing是一个基于Dapper构建的简单易用的迷你ORM。
+* [Catnap](https://github.com/timscott/catnap)：Catnap是一个适用于.NET的轻量级ORM框架。
+* [CodexMicroORM](https://github.com/codexguy/CodexMicroORM)：CodexMicroORM是Entity Framework等ORM框架的替代方案，它能以最小的代价为现有的CLR对象提供数据库映射。
+* [DbConnector](https://github.com/SavantBuffer/DbConnector)：DbConnector是一个面向.NET的高性能ORM库。
+* [Moranbernate](https://github.com/shopyourway/moranbernate)：Moranbernate是一个轻量级、高性能、高吞吐量的.NET应用程序ORM，它允许大规模应用程序进行简单而强大的数据访问。
+* [ALinq](https://github.com/ansiboy/ALinq)：ALinq是一个支持Linq的ORM。
+* [CoolStorage](https://github.com/viciproject/coolstorage)：CoolStorage是一个跨平台的.NET ORM库。
+* [SqlBatis](https://github.com/soul-soft/SqlBatis)：一款高性能的微型ORM，支持SQL Server、MySQL、SQLite等。
+* [Mono.Data.Sqlite.Orm](https://github.com/mattleibow/Mono.Data.Sqlite.Orm)：Mono.Data.Sqlite.Orm是一个开源库，允许.NET和Mono应用程序将数据存储在SQLite 3数据库中。
+* [Breezy](https://github.com/Ludovicdln/Breezy)：Breezy是一个轻量级的对象关系映射库。
 
 ## 持久层库
 
@@ -4509,6 +4525,7 @@
 * [GString](https://github.com/vexe/gstring)：C#的无GC字符串。
 * [FixedStrings](https://github.com/xoofx/FixedStrings)：FixedStrings提供了一种基于值类型的固定字符串实现，无需分配内存。
 * [StringBuilder](https://github.com/linkdotnet/StringBuilder)：一个用于.NET的快速且低内存分配的StringBuilder。
+* [Ben.StringIntern](https://github.com/benaadams/Ben.StringIntern)：字符串缓存，用于合并重复字符串。
 
 ## 锁
 
@@ -5822,6 +5839,34 @@
 * [Hazelcast .NET](https://github.com/hazelcast/hazelcast-csharp-client)：Hazelcast .NET将Hazelcast高性能内存计算平台的全部功能带入了Microsoft .NET生态系统。
 * [CacheOutput](https://github.com/filipw/Strathweb.CacheOutput)：CacheOutput会负责服务器端缓存，并为你设置合适的客户端(响应)头。
 * [HttpCacheHeaders](https://github.com/KevinDockx/HttpCacheHeaders)：ASP.NET Core中间件，用于向响应添加HttpCache头，并实现缓存过期和验证模型。
+* [ASP.NET Caching](https://github.com/aspnet/Caching)：用于内存缓存和分布式缓存的库。
+* [ASP.NET MVC Cache](https://github.com/moonpyk/mvcdonutcaching)：ASP.NET MVC缓存扩展，为ASP.NET MVC 3及更高版本引入了缓存功能。
+* [Rezoom](https://github.com/rspeele/Rezoom)：Rezoom是一个旨在减少处理跨越延迟边界的数据所带来的痛苦的库。
+* [FluidCaching](https://github.com/dennisdoomen/FluidCaching)：支持Async/Await的多线程.NET高性能最近最少使用缓存。
+* [Cashew](https://github.com/joakimskoog/Cashew)：Cashew是一个.NET库，它通过一个简洁优雅且功能强大的API，使用HttpClient轻松缓存响应。
+* [Community.Microsoft.Extensions.Caching.PostgreSQL](https://github.com/leonibr/community-extensions-cache-postgres)：Community.Microsoft.Extensions.Caching.PostgreSQL是一个强大且可扩展的分布式缓存实现，适用于使用PostgreSQL 11+作为底层数据存储的ASP.NET Core应用程序。
+* [Redis MemoLock](https://github.com/kristoff-it/redis-memolock)：MemoLock是一种基于Promise的分布式缓存机制。
+* [CacheR](https://github.com/davidfowl/CacheR)：基于SignalR实现的分布式缓存。
+* [Unicache](https://github.com/mattak/Unicache)：Unity3D缓存管理系统。
+* [Microsoft.Extensions.Caching.Postgres](https://github.com/Azure/Microsoft.Extensions.Caching.Postgres)：使用PostgreSQL为.NET应用程序实现分布式缓存。
+* [Microsoft.Extensions.Caching.Cosmos](https://github.com/Azure/Microsoft.Extensions.Caching.Cosmos)：使用Azure Cosmos DB实现的分布式缓存。
+* [Caching](https://github.com/sixeyed/caching)：C#框架库，用于封装.NET缓存访问，包括MemoryCache、AppFabric Cache、Memcached和磁盘缓存。
+* [AddressablesMaster](https://github.com/inc8877/AddressablesMaster)：使用同步、异步、协程、生命周期管理可寻址对象，以及使用结果缓存管理系统。
+* [Yakari](https://github.com/efaruk/yakari)：Yakari是一个内存缓存分发器。
+* [StackRedis.L1](https://github.com/johnnycardy/StackRedis.L1)：.NET StackExchange.Redis库的内存L1缓存。
+* [Nancy.LightningCache](https://github.com/creamdog/Nancy.LightningCache)：为Nancy启用异步缓存。
+* [Tavis.HttpCache](https://github.com/tavis-software/Tavis.HttpCache)：HttpClient的私有HTTP缓存处理程序。
+* [FastCache](https://github.com/sj-distributor/FastCache)：快速、并发、内存驱逐、支持大缓存。
+* [Polly.Caching.Memory](https://github.com/App-vNext/Polly.Caching.MemoryCache)：用于Polly缓存策略的MemoryCache插件。
+* [MongoDbCache](https://github.com/outmatic/MongoDbCache)：基于MongoDB的分布式缓存实现。
+* [Caching](https://github.com/jchristn/Caching)：适用于.NET的高性能、线程安全的缓存库，具有FIFO和LRU淘汰策略、自动过期、持久化支持和全面的事件通知。
+* [AgFx](https://github.com/shawnburke/AgFx)：适用于Windows Phone和Silverlight应用程序的数据缓存库。
+* [TinyCache](https://github.com/TinyStuff/TinyCache)：用于离线和缓存长时间运行进程的工具。
+* [CacheSleeve](https://github.com/jdehlin/CacheSleeve)：CacheSleeve让你可以轻松地为ASP.NET项目添加二级分布式内存缓存。
+* [LinqCache](https://github.com/osjoberg/LinqCache)：LinqCache是一个简单而强大的LINQ查询缓存框架。
+* [EasyCache](https://github.com/furkandeveloper/EasyCache)：该库包含多个用于.NET的缓存提供程序。
+* [DoubleCache](https://github.com/AurumAS/DoubleCache)：一种使用Redis结合内存缓存的缓存实现方案。
+* [Memcached](https://github.com/aliexpressru/memcached)：一个高性能的客户端库，用于管理多个Memcached实例，针对可扩展性和可靠性进行了优化。
 
 ## 分布式锁
 
