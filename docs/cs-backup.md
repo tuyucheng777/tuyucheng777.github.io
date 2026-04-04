@@ -784,6 +784,7 @@
 * [Kong.Net](https://github.com/lianggx/Kong.Net)：Kong的.NET Core客户端。
 * [DShop.Api](https://github.com/devmentors/DNC-DShop.Api)：DShop.Api为DShop解决方案提供API网关。
 * [GrpcJsonTranscoder](https://github.com/thangchung/GrpcJsonTranscoder)：这是一个过滤器，允许RESTful JSON API客户端通过HTTP向.NET Web API发送请求，并将请求代理到下游的gRPC服务。
+* [Carp.Gateway](https://github.com/d4ilys/Carp.Gateway)：Carp.Gateway是.NET生态下的网关。
 
 ## 注册中心
 
@@ -6832,6 +6833,7 @@
 * [YamlDotNet](https://github.com/aaubry/YamlDotNet)：YamlDotNet是用于.NET运行时的YAML库。
 * [VYaml](https://github.com/hadashiA/VYaml)：VYaml是纯C# YAML 1.2实现，速度超快，内存占用低，专注于.NET和Unity。
 * [SharpYaml](https://github.com/xoofx/SharpYaml)：SharpYaml是一个.NET库，它为.NET对象提供YAML解析器和序列化引擎，与CoreCLR兼容。
+* [Magic Chunks](https://github.com/magic-chunks/magic-chunks-dotnetcore)：Magic Chunks允许你转换JSON、XML和YAML文件。
 
 ## TOML
 

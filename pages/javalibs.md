@@ -1580,6 +1580,7 @@ permalink: /javalibs
 * [Gravitee](https://github.com/gravitee-io/gravitee-api-management)：Gravitee是一个灵活且快速的开源API网关。
 * [Zilla](https://github.com/aklivity/zilla)：Zilla是一个轻量级但功能丰富的代理，对HTTP、SSE、gRPC、MQTT和Kafka协议提供一流的支持。
 * [Apiman](https://github.com/apiman/apiman)：Apiman是一个灵活的开源API管理平台，由RedHat开源。
+* [GovWay](https://github.com/link-it/govway)：GovWay是一个开源API网关，专为满足公共管理的需求而设计，由Link.it开源。
 * [Haafiz](https://github.com/ProgrammerAnthony/Haafiz)：Haafiz是基于Netty，Disruptor，Etcd等技术开发的开源网关。
 * [Amplify](https://docs.axway.com/)：Amplify是一个API网关、门户。
 * [Choreo Connect](https://github.com/wso2/product-microgateway)：Choreo Connect是一个云原生、以开发人员为中心的API网关代理，由WSO2开源。
@@ -1602,6 +1603,11 @@ permalink: /javalibs
 * [Moon Gateway](https://github.com/longcoding/moon-api-gateway)：基于Spring Boot 2.1、Servlet 4和Jetty 9客户端的异步API网关。
 * [ShipGate](https://github.com/2YSP/ship-gate)：ShipGate是一个基于Spring Web Flux和Netty开发的高性能响应式的API网关。
 * [Waterwall](https://github.com/DevLink-Tech-Academy/waterwall-api-gateway)：Waterwall是一个生产级API网关平台，用于发布、保护和监控API。
+* [Amazon API Gateway Importer](https://github.com/amazon-archives/aws-apigateway-importer)：Amazon API Gateway Importer允许你从Swagger或RAML API表示形式创建或更新Amazon API Gateway API。
+* [API Gateway](https://github.com/Sukidal/api-gateway)：生产级别的高性能、高并发的入口网关系统。
+* [Dubbo Gateway](https://github.com/smallbeanteng/dubbo-gateway)：Dubbo高性能网关，提供了HTTP协议到Dubbo协议的转换。
+* [Kong Java Client](https://github.com/vaibhav-sinha/kong-java-client)：Kong API网关配置的Java客户端。
+* [Kong Client](https://github.com/taofen8/kong-client)：Kong Client是一个用于Kong的Java SDK，由淘粉吧开源。
 
 ## 服务发现
 
@@ -5760,6 +5766,7 @@ permalink: /javalibs
 * [Uni Pagination](https://github.com/taoganio/uni-pagination)：Uni Pagination是一个基于Java的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。
 * [DTT](https://github.com/julxxy/dtt-spring-boot-parent)：DTT是一个面向对象的Java框架，使开发者能够通过注解驱动的开发，基于领域模型自动创建数据库表。
 * [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
+* [jDialects](https://gitee.com/drinkjava2/jdialects)：jDialects支持多达80多种数据库方言的DDL创建、实体源码生成、分页、函数变换、类型变换及主要的JPA注解解析功能。
 
 #### 查询构建器
 
@@ -6367,6 +6374,7 @@ permalink: /javalibs
 * [ScribeJava](https://github.com/scribejava/scribejava)：适用于Java的简单OAuth库。
 * [Google OAuth Client](https://github.com/googleapis/google-oauth-java-client)：由Google编写的一个功能强大且易于使用的Java库，适用于OAuth 1.0和OAuth 2.0授权标准。
 * [JOAuth](https://github.com/twitter/joauth)：使用OAuth验证HTTP请求的Java库，由Twitter开源。
+* [Heimdall](https://github.com/trivago/Heimdall.droid)：Heimdall是一款专为易用性和高度灵活性而设计的OAuth 2.0客户端，由Trivago开源。
 * [Authing Java SDK](https://github.com/Authing/authing-java-sdk)：Authing可以快速实现任何Web、App和企业软件的身份认证和用户管理，由北京蒸汽记忆科技公司开发。
 * [OAuth2 Essentials](https://github.com/dmfs/oauth2-essentials)：基于Http Client Essentials的OAuth2客户端实现。
 * [Tokens](https://github.com/zalando/tokens)：Tokens是一个用于验证和存储OAuth 2.0服务访问令牌的Java库，它具有弹性、可配置且经过生产测试，并且适用于所有JVM语言，由Zalando开源。
@@ -7197,6 +7205,7 @@ permalink: /javalibs
 * [TongRDS](https://www.tongtech.com/pctype/37.html)：TongRDS是一款高性能多并发分布式数据缓存中间件，这是东方通的商业产品。
 * [ECFileCache](https://github.com/XiaoMi/ECFileCache)：ECFileCache是一个分布式文件缓存，基于纠删编码，使用Redis进行存储，由小米开发。
 * [XXL-Cache](https://github.com/xuxueli/xxl-cache)：XXL-Cache是一个分布式缓存管理平台，其核心设计目标是让分布式缓存的接入和管理的更加的简洁和高效。
+* [Shiro Redis](https://github.com/CodePlato3721/shiro-redis)：Shiro Redis提供一个可供Shiro使用的Redis缓存实现。
 * [Layering Cache](https://github.com/xiaolyuh/layering-cache)：Layering Cache是一个支持分布式环境的多级缓存框架，主要解决在高并发下数据快速读取的问题。
 * [L2Cache](https://github.com/ck-jesse/l2cache)：L2Cache是一个基于内存、Redis、Spring Cache实现的满足高并发场景下的分布式二级缓存框架。
 * [BlazingCache](https://github.com/diennea/blazingcache)：BlazingCache是分布式Java应用程序的快速缓存。
@@ -7788,6 +7797,7 @@ permalink: /javalibs
 * [Configrity](https://github.com/paradigmatic/Configrity)：Configrity是一个适用于Scala 2.10或更高版本的配置库。
 * [Configs](https://github.com/kxbmap/configs)：Configs是Typesafe Config的Scala包装器。
 * [Salt NetAPI Client](https://github.com/SUSE/salt-netapi-client)：Salt API的Java绑定。
+* [CDN](https://github.com/dzikoysk/cdn)：CDN是一个简单快速的JVM应用配置库，支持CDN格式，并基于增强型JSON for Humans标准。
 
 #### 分布式配置
 
@@ -11639,6 +11649,7 @@ Kafka生态管理系统、运维平台。
 * [AdminStore](https://gitee.com/cng1985/adminstore)：一个简单的项目初始化模板，集成Shiro、Spring、Hibernate、Spring MVC、Ehcache、Bootstrap。
 * [Skeleton Spring Boot Web Services](https://github.com/leanstacks/skeleton-ws-spring-boot)：这是一个为Spring Boot RESTful Web Services应用设计的项目骨架。
 * [Spring WebApp Template](https://github.com/making/spring-webapp-template)：这是一个使用Spring框架的Web应用程序模板项目。
+* [Spring Boot Based Microservices](https://github.com/Nasruddin/spring-boot-based-microservices)：一个模块化、生产级的微服务参考项目。
 * [Maven Archetype Plugin](https://github.com/apache/maven-archetype)：Archetype是一个Maven项目模板工具包。
 * [Spring Boot Maven Angular Starter](https://github.com/shekhargulati/spring-boot-maven-angular-starter)：这是一个基于Spring Boot和Angular的多模块Maven入门应用，默认配置良好。
 * [Spring Boot Start Current](https://github.com/yujunhao8831/spring-boot-start-current)：Spring Boot脚手架。
@@ -11701,6 +11712,7 @@ Kafka生态管理系统、运维平台。
 * [Micro Infra Spring](https://github.com/4finance/micro-infra-spring)：包含使用Spring配置设置的默认微服务基础设施的存储库。
 * [Zero Ecotope](https://gitee.com/zero-ws/zero-ecotope)：Zero Ecotope是一个基于Vert.x的中间件容器，它可以帮助软件开发人员在Vert.x中快速开发和实施。
 * [Twitter Bootstrap Scaffolding](https://github.com/robfletcher/twitter-bootstrap-scaffolding)：Twitter Bootstrap支持的Grails脚手架模板。
+* [Sophia Scaffolding](https://github.com/SophiaLeo/sophia_scaffolding)：Spring Cloud、OAuth2、Spring Security、Redis、JWT、Zuul、Nacos实现的微服务统一认证授权后端脚手架。
 * [Taming Thymeleaf CLI](https://github.com/wimdeblauwe/ttcli)：该项目的目标是提供一个命令行工具，帮助设置使用JTE或Thymeleaf作为模板引擎。
 * [Spring Boot Scaffold](https://github.com/netodevel/cli-spring-boot-scaffold)：用于生成Spring Boot项目的CRUD和配置的命令行。
 * [Kor](https://github.com/Sefford/kor)：Kor是一个Clean Architecture实现的框架。
@@ -11725,6 +11737,7 @@ Kafka生态管理系统、运维平台。
 * [Tropical Fish](https://github.com/gnanquanmama/tropical-fish)：务实风格的Java EE开发脚手架。
 * [Sculptor Boot](https://github.com/cdk8s/sculptor-boot-generator)：Sculptor Boot生成器体系核心。
 * [Spring Cloud YES](https://github.com/eacdy/spring-cloud-yes)：Spring Cloud YES是一个构建在Spring Cloud基础上用于快速开发的脚手架。
+* [JetfireCloud](https://github.com/jorrellz/JetfireCloud)：基于Spring Cloud的微服务开发脚手架。
 
 #### 快速开发框架
 
@@ -13067,6 +13080,7 @@ Kafka生态管理系统、运维平台。
 * [JavaAPNS JDK16](https://github.com/fernandospr/javapns-jdk16)：适用于Java的Apple推送通知服务提供程序。
 * [AeroGear UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server)：AeroGear UnifiedPush Server允许向不同的移动平台发送推送通知。
 * [Pushiko](https://github.com/bloomberg/pushiko)：Pushiko是一个JVM库，用于通过APNs和FCM发送推送通知，由彭博社开源。
+* [Pushsphere](https://github.com/line/pushsphere)：Pushsphere是一个用于Kotlin的开源推送通知客户端库和网关服务器，由Line开源。
 
 #### 异常通知
 
@@ -15348,7 +15362,7 @@ Kafka生态管理系统、运维平台。
 
 * [Swing](https://docs.oracle.com/en/java/javase/21/docs/api/java.desktop/javax/swing/package-summary.html)：Swing提供一组轻量级组件，可以在所有平台上以相同的方式工作。
 * [JavaFX](https://github.com/openjdk/jfx)：JavaFX是一个开源的客户端应用程序平台，适用于基于Java SE的桌面、移动和嵌入式系统，Oracle开源。
-* [Jetpack Compose](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
+* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
 * [Eclipse SWT](https://github.com/eclipse-platform/eclipse.platform.swt)：SWT是一个用于Java的开源小部件工具包，由IBM开源。
 * [HumbleUI](https://github.com/HumbleUI/HumbleUI)：Humble UI是一个基于Clojure的桌面UI框架。
 * [TotalCross](https://github.com/TotalCross/totalcross)：TotalCross是一款帮助跨平台应用程序开发的工具包。
@@ -15367,10 +15381,11 @@ Kafka生态管理系统、运维平台。
 * [Apache Pivot](https://github.com/apache/pivot)：Pivot是一个用Java构建丰富互联网应用程序的平台，其中WTK工具包是它的图形组件，由VMware开源。
 * [LWJGUI](https://github.com/orange451/LWJGUI)：一个基于LWJGL3的JavaFX替代方案，用于在Java中创建用户界面。
 * [Java-GI](https://github.com/jwharm/java-gi)：Java-GI是一个用于为Java生成GObject-Introspection绑定的工具。
+* [Jux Toolkit](https://github.com/xdsswar/jux-toolkit)：Jux Toolkit是基于Java 25的桌面框架，通过Panama FFI实现原生Webview。
 
 #### 移动开发框架
 
-* [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform)：Compose Multiplatform是一个声明式框架，用于使用Kotlin跨多个平台共享UI，由JetBrains开发。
+* [Jetpack Compose](https://developer.android.com/jetpack/compose)：Jetpack Compose是Android官方推荐的用于构建原生UI的现代化工具包，由Google开发。
 * [CodenameOne](https://github.com/codenameone/CodenameOne)：Codename One是面向Java和Kotlin开发人员的移动优先跨平台环境。
 * [Gluon Mobile](https://gluonhq.com/products/mobile/)：Gluon Mobile将JavaFX带到iOS和Android平台，使开发者能够使用同一套代码库编写桌面和移动应用程序。
 * [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
@@ -18493,6 +18508,7 @@ Kafka生态管理系统、运维平台。
 * [INFOMAS ASL](https://github.com/rmuller/infomas-asl)：INFOMAS ASL可用于扫描类路径以查找带注解的类、方法或实例变量。
 * [Class Scanner](https://gitee.com/centchen/class-scanner)：Class Scanner为一个Java类扫描器，用于获取指定包下的Class类，同时可根据指定注解进行过滤。
 * [JHades](https://github.com/jhades/jhades)：JHades是一个Java类路径故障排除工具。
+* [ClazzSearcher](https://github.com/luelueking/ClazzSearcher)：ClazzSearcher是一款使用Yaml定义搜索规则来搜索Class的工具。
 
 ## 行为分析
 
