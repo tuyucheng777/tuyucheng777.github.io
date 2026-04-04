@@ -1153,6 +1153,10 @@ permalink: /javalibs
 * [Geisha](https://github.com/RitterHou/Geisha)：微型Java MVC框架。
 * [Circumflex](https://github.com/inca/circumflex)：Circumflex是一个轻量级的基于Scala的Web应用程序框架和ORM。
 * [LastaFlute](https://github.com/lastaflute/lastaflute)：LastaFlute是使用DBFlute和Java 8构建的LeAn Startup类型安全Web框架，由Seasar基金会开源。
+* [BlueEyes](https://github.com/jdegoes/blueeyes)：BlueEyes是一个轻量级的异步Web框架，适用于Scala编程语言。
+* [Kilua](https://github.com/rjaros/kilua)：Kilua允许你使用Kotlin语言构建现代Web应用程序。
+* [Spincast](https://github.com/spincast/spincast-framework)：Spincast是一个高度灵活且开源的Java Web框架，基于Guice。
+* [Cettia](https://github.com/cettia/cettia-java-server)：Cettia是一个功能齐全的Java实时Web应用程序框架。
 
 #### REST框架
 
@@ -1194,6 +1198,7 @@ permalink: /javalibs
 * [ICERest](https://github.com/T-baby/ICERest)：ICEREST是一个非常轻量级的RESTful路由框架。
 * [Naptime](https://github.com/coursera/naptime)：Naptime可以帮助服务器端开发者构建规范、符合RESTful原则、可复用的API。
 * [Kovert](https://github.com/kohesive/kovert)：Kovert是一个简单的REST框架。
+* [Kottpd](https://github.com/gimlet2/kottpd)：Kottpd是一个用纯Kotlin编写的轻量级REST框架，没有任何外部依赖。
 
 #### MVC框架
 
@@ -1205,6 +1210,7 @@ permalink: /javalibs
 * [BBoss](https://github.com/bbossgroups/bboss)：BBoss是一个Java EE框架，包括AOP/IoC、MVC、持久层、RPC等。
 * [Mapper](https://github.com/JetBrains/mapper)：JetBrains Mapper MVC框架。
 * [YangMVC](https://gitee.com/yangtf/YangMVC)：YangMVC是一个现代化的Java Web框架，采用约定优于配置的设计理念，让Web开发变得简单高效。
+* [Apache Shale](https://shale.apache.org/)：Shale是一个现代化的Web应用框架，其底层基于JavaServer Faces。
 * [ServiceFramework](https://github.com/allwefantasy/ServiceFramework)：ServiceFramework是一个敏捷、快速、富领域模型的Java MVC框架。
 * [Doodle](https://github.com/zzzzbw/doodle)：Doodle是一个简易的Java MVC框架，它提供了类似于Spring的Bean容器、IoC、AOP、MVC等功能。
 * [Nettice](https://github.com/cyfonly/nettice)：基于Netty HTTP协议栈的轻量级MVC组件。
@@ -1212,6 +1218,8 @@ permalink: /javalibs
 * [Stapler](https://github.com/jenkinsci/stapler)：Stapler Web框架，由Jenkins组织开源。
 * [Prime MVC](https://github.com/prime-framework/prime-mvc)：Prime MVC是一个用Java构建的高性能MVC框架，由Inversoft公司开源。
 * [Induction](http://inductionframework.org/)：Induction是一个功能强大、高性能的Java MVC Web应用框架。
+* [Netmc](https://gitee.com/yezhihao/netmc)：基于Netty实现MVC开发模式的框架。
+* [Micro](https://github.com/florinpatrascu/micro)：Micro是一个模块化的MVC框架，用于快速Web开发。
 
 #### JSF框架
 
@@ -1238,6 +1246,7 @@ permalink: /javalibs
 * [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
 * [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
 * [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
+* [Apache Click](https://click.apache.org/)：Apache Click是一个现代化的JEE Web应用框架，提供自然流畅的富客户端编程模型。
 * [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
 * [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
 * [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
@@ -1251,6 +1260,7 @@ permalink: /javalibs
 * [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
 * [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
 * [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
+* [FireWeb](https://fireweb.sourceforge.io/index.html)：Java单页应用程序框架。
 
 #### SSR框架
 
@@ -5208,7 +5218,6 @@ permalink: /javalibs
 * [Tiger](https://github.com/gematik/app-Tiger)：Tiger是一个用于接口驱动的BDD黑盒测试的框架。
 * [BDD For All](https://github.com/Accenture/bdd-for-all)：灵活且易用的库，使你的BDD团队能够轻松协作，同时推动自动化、透明度和报告，由Accenture开源。
 * [Jnario](https://github.com/sebastianbenz/Jnario)：Jnario是一个用于为Java编写可执行规范的框架。
-* [Kensa](https://github.com/kensa-dev/kensa)：Kensa是一个现代化的Kotlin和Java BDD测试框架。
 
 #### 测试生成器
 
@@ -11682,6 +11691,9 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot DDD](https://github.com/sandokandias/spring-boot-ddd)：Spring Boot与领域驱动设计。
 * [Mobile Backend Starter Java](https://github.com/googlearchive/solutions-mobile-backend-starter-java)：此应用程序使用Google Cloud Endpoints、App Engine和Java实现了Mobile Backend Starter。
 * [PofEAA REIWA](https://github.com/kawasima/pofeaa-reiwa)：这是Martin Fowler的《企业应用架构模式》中模式的现代Java实现，并针对当代开发实践进行了更新。
+* [Spring Maven Project Framework](https://github.com/ykameshrao/spring-hibernate-springdata-springmvc-maven-project-framework)：本项目提供了示例Hibernate实体、Spring Data实体和Akka Actor，以及类似作业、模型、存储库、服务和控制器类。
+* [Spring Clean Architecture](https://github.com/coi-gov-pl/spring-clean-architecture)：这是一个采用Clean Architecture架构，并使用Spring Framework实现的Web应用程序示例。
+* [Spring Boot MyBatis](https://github.com/ShawnyXiao/SpringBoot-MyBatis)：一个基于Spring Boot、MyBatis和Spring Security OAuth的REST后端框架。
 
 #### 脚手架
 
@@ -11804,6 +11816,7 @@ Kafka生态管理系统、运维平台。
 * [Industry App Framework](https://github.com/cosmoplat-dev/industry-app-framework)：本服务致力于构建一套便捷的工业互联网开发基础设施。
 * [DXA Java Web Application](https://github.com/RWS/dxa-web-application-java)：DXA是RWS Tridion Sites 10.x、10、9.x和RWS Web 8的参考实现，旨在帮助你快速创建、设计和发布基于RWS Tridion/Web的网站。
 * [Joice](https://github.com/huhuics/joice)：Joice是使用Spring框架开发的分布式系统架构。
+* [JfinalBlade](https://gitee.com/ikkong/JfinalBlade)：JFinalBlade是基于多个优秀的开源项目高度整合封装而成的快速开发平台。
 
 #### 后台管理系统
 
