@@ -545,6 +545,8 @@
 * [Play MockWS](https://github.com/leanovate/play-mockws)：Play MockWS是一款适用于Play Framework的Mock WS客户端。
 * [V-Mock](https://gitee.com/vtDev/v-mock)：V-Mock是一个小巧的接口响应Mock系统。
 * [Mock Web Server](https://github.com/fabric8io/mockwebserver)：Okhttp MockWebServer的扩展，它提供了一个DSL，使用起来更方便。
+* [LiveStub](https://github.com/softwaremill/livestub)：LiveStub是一个HTTP服务器存根，由SoftwareMill开源。
+* [AndroidStubServer](https://github.com/byoutline/AndroidStubServer)：AndroidStubServer是一个简单的HTTP服务器，可以轻松Mock API。
 
 #### Mock库
 
@@ -1649,6 +1651,7 @@
 * [Anserini](https://github.com/castorini/anserini)：Anserini是一个用于可重复信息检索研究的Lucene工具包，由滑铁卢大学开源。
 * [CouchDB Lucene](https://github.com/rnewson/couchdb-lucene)：启用Lucene对CouchDB文档进行全文搜索。
 * [SIREn](https://github.com/rdelbru/SIREn)：SIREn是一个Lucene/Solr扩展，用于高效的无模式半结构化全文搜索。
+* [Lucene Server](https://github.com/mikemccand/luceneserver)：Apache Lucene的高性能轻量级封装HTTP REST服务器。
 
 #### HBase库/工具
 
@@ -4645,6 +4648,10 @@
 * [Rop](https://github.com/ryenus/rop)：用Java编写的轻量级命令行参数解析器。
 * [Lanat](https://github.com/darvil82/lanat)：Lanat是Java 17的命令行参数解析器，具有易用性和高度可定制性。
 * [Barclay](https://github.com/broadinstitute/barclay)：Barclay是一组用于注释、解析、验证和生成命令行选项文档的类，由麻省理工学院和哈佛大学布罗德研究所开源。
+* [Sumac](https://github.com/quantifind/Sumac)：Sumac是一个命令行选项解析器和库。
+* [Drink](https://github.com/jonahseguin/drink)：Spigot插件的命令框架和参数解析器。
+* [Argyle](https://github.com/jfkelley/argyle)：Scala的命令行参数解析器。
+
 
 #### 命令调度
 
@@ -4676,6 +4683,9 @@
 * [Chalk](https://github.com/tomas-langer/chalk)：Chalk专注于Java中的跨平台标准输出着色。
 * [ASCII Graphs](https://github.com/mdr/ascii-graphs)：一个用于图的ASCII艺术图库，它支持解析现有图解和将图渲染成ASCII图。
 * [Banana](https://github.com/yihleego/banana)：Banana是一个用于Java的FIGlet实用程序，可生成各种字体的文本横幅。
+* [Figlet4s](https://github.com/ColOfAbRiX/figlet4s)：Figlet4s是一个用于创建ASCII艺术横幅的库。
+* [Ascii Hexagonal Grid Pretty Printer](https://github.com/cmelchior/asciihexgrid)：Ascii Hexagonal Grid Pretty Printer是一个基于Java的工具，可以将六边形网格输出到命令行。
+* [Tree Printer](https://github.com/billvanyo-zz/tree_printer)：一个用于将二叉树打印为ASCII文本的Java类。
 
 #### 文本打印
 
@@ -4697,6 +4707,12 @@
 * [ASCII Tables](https://github.com/freva/ascii-table)：使用Java轻松创建和自定义简单的ASCII表。
 * [Java Text Tables](https://github.com/iNamik/java_text_tables)：Java中的文本表库。
 * [Mini Table](https://github.com/blinkfox/mini-table)：一个轻量级、零依赖的Java ASCII表格生成库。
+* [Table](https://github.com/cldwalker/table)：该库可以显示自动适应终端的ASCII表格，并能处理大多数数据结构。
+* [Doric](https://github.com/joegallo/doric)：Doric是一个用于从Clojure数据渲染出漂亮的Emacs风格表格的库。
+* [DBTablePrinter](https://github.com/htorun/dbtableprinter)：DBTablePrinter是一个Java实用工具类，用于将给定数据库表中的行打印到标准输出。
+* [Java Console Table Builder](https://github.com/thousandlemons/Java-Console-Table-Builder)：这个库可以轻松构建时尚的类似Excel的表格，并且可以将所有格式保留并打印成单个字符串。
+* [KFormat](https://github.com/marcelmay/kformat)：KFormat是一个轻量级的Kotlin库，用于格式化文本输出，例如在结构化表格中打印值。
+* [Tabl](https://github.com/justone/tabl)：在终端中根据数据创建表格。
 
 #### 进度条
 
@@ -6047,6 +6063,25 @@
 * [Titus](https://github.com/Netflix/titus-control-plane)：Titus是Netflix容器管理平台，用于管理容器并提供与基础设施生态系统的集成。
 * [Admiral](https://github.com/vmware-archive/admiral)：Admiral是一款高度可扩展且极具重量级的容器管理平台，用于部署和管理基于容器的应用，由VMware开源。
 * [DC/OS Commons](https://github.com/d2iq-archive/dcos-commons)：DC/OS SDK是一套工具、库和文档的集合，用于轻松地将Kafka、Cassandra、HDFS、Spark和TensorFlow等技术与DC/OS集成。
+
+## 集群管理
+
+* [Apache Aurora](https://github.com/apache/aurora)：Aurora是一个用于长期运行服务和Cron作业的Mesos框架，由Twitter开源。
+* [Chronos](https://github.com/mesos/chronos)：Chronos是Cron的替代品，它是一个分布式容错调度程序，运行在Mesos之上，可用于作业编排。
+* [Sparrow](https://github.com/radlab/sparrow)：Sparrow是一个高吞吐量、低延迟、容错的分布式集群调度器，由加州大学伯克利分校开源。
+* [Singularity](https://github.com/HubSpot/Singularity)：Singularity是一种API和Web应用程序，用于运行和调度Mesos任务，包括长时间运行的进程、计划作业和一次性任务。
+* [OPENI](https://github.com/open-intelligence/OpenI-Octopus)：OPENI是一个集群管理工具和资源调度平台，最初由微软研究院、微软搜索技术中心、北京大学、西安交通大学、浙江大学和中国科学技术大学联合设计和开发。
+* [Rapid](https://github.com/lalithsuresh/rapid)：Rapid是一种分布式成员服务，它允许一组进程轻松形成集群，并在成员资格发生变化时接收通知。
+* [Norbert](https://github.com/rhavyn/norbert)：Norbert是一个提供简单集群管理和集群感知客户端/服务器网络API的库，由Linkedin开源。
+* [Apache Helix](https://github.com/apache/helix)：Helix是一个通用集群管理框架，用于自动管理节点集群上托管的分区、复制和分布式资源，由LinkedIn开源。
+* [Apache Airavata](https://airavata.apache.org/)：Airavata是一个软件框架，用于在分布式计算资源(包括本地集群、超级计算机、国家电网、学术和商业云)上执行和管理计算作业，由印第安纳大学开源。
+* [Fenzo](https://github.com/Netflix/Fenzo)：Fenzo是Apache Mesos框架的调度程序Java库，支持调度优化插件并促进集群自动扩展，由Netflix开源。
+* [Apache REEF](https://github.com/apache/reef)：REEF是一个用于为集群资源管理器(例如Apache Hadoop YARN或Apache Mesos)开发可移植应用程序的库，由微软研究院开源。
+* [Orion](https://github.com/pinterest/orion)：Orion是一个适用于有状态分布式系统的通用可插拔管理和自动化平台，由Pinterest开源。
+* [Apache Myriad](https://github.com/apache/incubator-myriad)：Myriad是一个Mesos框架，旨在扩展Mesos上的YARN集群，由eBay、MapR和Mesosphere开源。
+* [Declarative Cluster Management](https://github.com/vmware/declarative-cluster-management)：DCM使程序员能够使用高级声明性语言(SQL)构建调度程序和集群管理器，由VMware开源。
+* [Marathon](https://github.com/mesosphere/marathon)：Marathon是经过生产验证的用于容器编排的Mesos框架，由Mesosphere开源。
+* [Metronome](https://github.com/dcos/metronome)：Metronome是一个用于定时任务的Apache Mesos框架。
 
 ## DevOps
 
@@ -8085,7 +8120,6 @@ Kafka生态管理系统、运维平台。
 * [AEAI CRM](https://gitee.com/agileai/aeaicrm)：AEAI CRM包括一些核心的客户关系管理业务功能。
 * [CordysCRM](https://github.com/1Panel-dev/CordysCRM)：Cordys CRM是飞致云出品的中国首个开源AI CRM，集信息化、数字化和智能化于一体。
 * [JinBooks](https://github.com/jinbooks/jinbooks)：JinBooks是功能齐全的财务记账系统，告别Excel手工记账。
-* [AI CRM](https://github.com/WuKongOpenSource/AI_CRM)：智能对话式客户关系管理系统。
 * [Zendesk Java Client](https://github.com/cloudbees-oss/zendesk-java-client)：这是一个用Java编写的Zendesk客户端实现。
 * [Salesforce REST API Connector](https://github.com/jesperfj/force-rest-api)：Salesforce REST API Connector是一个用于访问Salesforce平台REST API的Java客户端库。
 
@@ -9134,6 +9168,10 @@ Kafka生态管理系统、运维平台。
 * [j8583](https://bitbucket.org/chochos/j8583)：j8583是ISO8583协议的Java实现。
 * [Adelbs ISO8583](https://github.com/adelbs/ISO8583)：这是一个用于测试ISO8583协议的GUI工具，同时也是一个Java库。
 * [ISO8583 Java](https://github.com/vikrantlabde/iso8583-Java)：ISO 8583消息打包和解包库。
+* [Simple8583](https://github.com/magicjoey/Simple8583)：简易ISO8583框架。
+* [Java8583](https://github.com/Ajsgn/Java8583)：基于Java语言实现的iso8583协议框架包。
+* [jBSBE](https://github.com/keyhan/jBSBE)：jBSBE是一个基于j8583的库。
+* [ISO8583 JSON XML](https://github.com/kamshory/ISO8583-JSON-XML)：该库用于将消息从一种格式转换为另一种格式，支持的格式包括ISO 8583、JSON和XML。
 
 #### 金融信息交换
 
@@ -11866,7 +11904,7 @@ Kafka生态管理系统、运维平台。
 * [Lila](https://github.com/lichess-org/lila)：Lila是一款免费的在线国际象棋游戏服务器，专注于实时游戏玩法和易用性。
 * [NettyGameServer](https://github.com/jwpttcg66/NettyGameServer)：NettyGameServer是基于Netty 4.X实现的手机游戏分布式服务器，支持TCP、UDP、HTTP、WebSocket链接。
 * [JetServer](https://github.com/menacher/java-game-server)：JetServer是一个基于高速NIO套接字的多人Java游戏服务器，使用Netty和Jetlang编写。
-* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式java游戏服务器。
+* [Game Server](https://github.com/jzyong/game-server)：Game Server是一个基于棋牌、MMORPG游戏的分布式Java游戏服务器。
 * [AiJ](https://gitee.com/xiyoufang/aij)：AiJ是一套完整的房间类游戏解决方案，支持无限水平扩展来满足更大的人数承载，并且提供了良好的调试接口。
 * [Summer](https://github.com/SwingFrog/Summer)：Summer是一个轻量级、一站式的Java游戏服务器框架，也可用于开发简单的Web服务。
 * [JgServer](https://gitee.com/lizhaoandroid/JgServer)：JgServer是基于Netty、Spring、Mybatis和Redis等框架开发的服务端容器。
@@ -12615,6 +12653,7 @@ Kafka生态管理系统、运维平台。
 * [Pili Streaming Java SDK](https://github.com/pili-engineering/pili-sdk-java)：Pili Streaming Cloud服务器端Java库。
 * [TurnServer](https://github.com/jitsi/turnserver)：开源TURN服务器实现。
 * [Jellyfin Kotlin SDK](https://github.com/jellyfin/jellyfin-sdk-kotlin)：Jellyfin Kotlin SDK 实现了Jellyfin API，方便用户轻松访问服务器。
+* [RTSP WebSocket Server](https://github.com/xingshuangs/rtsp-websocket-server)：RTSP WebSocket Server用于获取视频流，然后在Web中呈现。
 
 #### 呼叫中心
 

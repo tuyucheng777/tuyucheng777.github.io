@@ -77,7 +77,6 @@
 * [数据科学](#数据科学)
 * [低代码](#低代码)
 * [压缩库](#压缩库)
-* [控制台](#控制台)
 * [Shell](#Shell)
 * [电商](#电商)
 * [POS系统](#POS系统)
@@ -125,12 +124,11 @@
 * [Serverless](#Serverless)
 * [中介者](#中介者)
 * [服务总线](#服务总线)
-* [RabbitMQ](#RabbitMQ)
+* [消息队列客户端](#消息队列客户端)
 * [消息总线](#消息总线)
 * [事件总线](#事件总线)
 * [进程间通信](#进程间通信)
 * [循环缓冲区](#循环缓冲区)
-* [Kafka](#Kafka)
 * [对象映射](#对象映射)
 * [项目模板](#项目模板)
 * [后台管理系统](#后台管理系统)
@@ -204,7 +202,11 @@
 * [架构框架](#架构框架)
 * [责任链模式](#责任链模式)
 * [规范框架](#规范框架)
-* [命令行解析器](#命令行解析器)
+* [CLI框架](#CLI框架)
+* [命令行参数解析](#命令行参数解析)
+* [控制台](#控制台)
+* [文本表](#文本表)
+* [ASCII艺术](#ASCII艺术)
 * [命令框架](#命令框架)
 * [二维码/条形码](#二维码条形码)
 * [验证码](#验证码)
@@ -851,11 +853,16 @@
 * [EvHttp Sharp](https://github.com/kekekeks/evhttp-sharp)：基于libevent2的C# HTTP服务器。
 * [.NET Serve](https://github.com/natemcmaster/dotnet-serve)：一个简单的命令行HTTP服务器。
 * [Tus.NET](https://github.com/tusdotnet/tusdotnet)：Tus.NET是Tus协议的.NET服务器实现。
-* [HttpServer](https://github.com/qinyuanpei/HttpServer)：
+* [HttpServer](https://github.com/qinyuanpei/HttpServer)：一个使用C#编写的简易Web服务器。
 * [SimpleHTTP](https://github.com/dajuric/simple-http)：基于HttpListener的简单、可移植的.NET HTTP服务器。
 * [SimpleW](https://github.com/stratdev3/SimpleW)：SimpleW是一个基于.NET Core的Web服务器库。
 * [AServer](https://github.com/kklldog/AServer)：AServer是基于ASP.NET Core Kestrel封装的一个超迷你HTTP服务器。
 * [LiveReloadServer](https://github.com/RickStrahl/LiveReloadServer)：一个自包含、本地、跨平台的静态文件Web服务器，基于.NET，具有自动实时重载、Markdown渲染和基础Razor页面支持。
+* [UnityHTTPServer](https://github.com/sableangle/UnityHTTPServer)：UnityHTTPServer是一个简单的C# HTTP服务器实现。
+* [Firefly](https://github.com/FireflyServer/firefly)：.NET HTTP服务器。
+* [UniWebServer](https://github.com/simonwittber/uniwebserver)：用于Unity3D的嵌入式HTTP服务器。
+* [RESTful Unity](https://github.com/stenosis/RESTful-Unity)：RESTful Unity旨在为Unity3D提供一个简单的RESTful HTTP服务器。
+* [Ceen.Httpd](https://github.com/kenkendk/ceenhttpd)：Ceen.Httpd是一个用C#编写的轻量级、符合HTTP规范的Web服务器。
 
 ## HTTP客户端
 
@@ -1573,39 +1580,6 @@
 * [CompressedStaticFiles](https://github.com/AnderssonPeter/CompressedStaticFiles)：ASP.NET Core中间件，用于向浏览器发送压缩的静态文件，而无需按需压缩，同时还支持在浏览器表示支持时发送更高级的图像格式。
 * [Snappier](https://github.com/brantburnett/Snappier)：Snappier是Google Snappy压缩算法的纯C#移植版。
 * [Microsoft.AspNet.WebApi.MessageHandlers.Compression](https://github.com/azzlack/Microsoft.AspNet.WebApi.MessageHandlers.Compression)：适用于ASP.Net WebAPI的即插即用模块，可启用GZip和Deflate支持。
-
-## 控制台
-
-* [Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)：用于为Windows、Mac和Linux/Unix构建丰富控制台应用程序的首要工具包。
-* [Spectre.Console](https://github.com/spectreconsole/spectre.console)：一个.NET库，可以更轻松地创建漂亮的跨平台控制台应用程序。
-* [ConsoleGUI](https://github.com/TomaszRewak/C-sharp-console-gui-framework)：ConsoleGUI是一个简单的布局驱动的.NET框架，用于创建基于控制台的GUI应用程序。
-* [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar)：在控制台应用程序中可视化进度。
-* [Cocona](https://github.com/mayuki/Cocona)：.NET Core控制台应用程序的微框架。
-* [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
-* [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
-* [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables)：在控制台应用程序C#中打印出格式良好的表格。
-* [Colorful.Console](https://github.com/tomakita/Colorful.Console)：Colorful.Console是一个C#库，它封装了System.Console类，提供增强的样式功能。
-* [Crayon](https://github.com/riezebosch/crayon)：一个简单的小型库，用于使用ANSI转义码在内联字符串中为控制台输出着色。
-* [EasyConsole](https://github.com/splttingatms/EasyConsole)：EasyConsole是一个库，用于帮助开发者更轻松地为.NET控制台应用程序构建简单的菜单界面。
-* [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)：一个用于在控制台应用程序中打印格式精美表格的C#库。
-* [CsConsoleFormat](https://github.com/Athari/CsConsoleFormat)：.NET C#库，用于控制台输出的高级格式化。
-* [Konsole](https://github.com/goblinfactory/konsole)：低仪式感、用于编写控制台应用程序、实用工具和试验项目的流式DSL。
-* [ConsoleDraw](https://github.com/Haydend/ConsoleDraw)：C#控制台GUI图形库。
-* [Windows Terminal Quake](https://github.com/flyingpie/windows-terminal-quake)：为几乎任何应用程序启用Quake风格的下拉菜单。
-* [FluentConsole](https://github.com/ashmind/FluentConsole)：一个旨在简化彩色控制台输出的流式API。
-* [Kurukuru](https://github.com/mayuki/Kurukuru)：适用于.NET平台的终端旋转器库。
-* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的ncurses终端控件库绑定。
-* [Command .NET](https://github.com/bilal-fazlani/commanddotnet)：一个用于构建现代CLI应用的框架。
-* [PrettyPrompt](https://github.com/waf/PrettyPrompt)：一款跨平台的命令行提示符，提供语法高亮、自动补全、历史记录等功能。
-* [Typin](https://github.com/adambajguz/Typin)：Typin是一个易于使用、受ASP.NET Core启发的框架，用于构建交互式命令行应用程序和命令行工具。
-* [CLRCLI](https://github.com/PhonicUK/CLRCLI)：CLRCLI是一个事件驱动的窗口系统，它使用线条艺术界面供命令行应用程序使用。
-* [Kokuban](https://github.com/Cysharp/Kokuban)：Kokuban简化了.NET应用程序终端中的字符串样式设置。
-* [BetterConsoleTables](https://github.com/douglasg14b/BetterConsoleTables)：更快、更可上色、更可配置且更稳健的C#控制台应用程序控制台颜色与表格。
-* [.NET Curses](https://github.com/MV10/dotnet-curses)：这是一个易于使用、完全跨平台的.NET封装，用于Unix NCurses终端库。
-* [Tababular](https://github.com/rebus-org/Tababular)：一个简单的.NET等宽文本表格格式化库，适用于.NET 4.5和.NET Standard 1.6。
-* [Figgle](https://github.com/drewnoakes/figgle)：.NET的ASCII横幅生成器。
-* [PhiOS](https://github.com/pblca/PhiOS)：Unity的ASCII渲染引擎。
-* [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI)：XenoAtom.Terminal.UI是一个用于.NET的现代、响应式保留模式终端UI框架。
 
 ## Shell
 
@@ -2351,17 +2325,25 @@
 * [Zebus](https://github.com/Abc-Arbitrage/Zebus)：Zebus是一种轻量级的点对点服务总线，在构建时考虑了CQRS原则。
 * [Shuttle.Esb](https://github.com/Shuttle/Shuttle.Esb)：高度可扩展的服务总线实现。
 
-## RabbitMQ
+## 消息队列客户端
 
 * [EasyNetQ](https://github.com/EasyNetQ/EasyNetQ)：适用于RabbitMQ的.NET API。
 * [RabbitMQ .NET Client](https://github.com/rabbitmq/rabbitmq-dotnet-client)：适用于.NET Standard 2.0+和.NET 4.6.2+的RabbitMQ .NET客户端。
 * [Unity3D.Amqp](https://github.com/meverett/Unity3D.Amqp)：支持RabbitMQ的Unity 3D的AMQP客户端库。
 * [EasyNetQ.Management.Client](https://github.com/EasyNetQ/EasyNetQ.Management.Client)：EasyNetQ.Management.Client是一个用于RabbitMQ管理API的.NET客户端。
+* [RawRabbit](https://github.com/pardahlman/RawRabbit)：RawRabbit是一个用于通过RabbitMQ进行通信的现代.NET框架。
+* [NsqSharp](https://github.com/judwhite/NsqSharp)：NSQ的.NET客户端库。
+* [AlterNats](https://github.com/Cysharp/AlterNats)：一款适用于.NET的高性能NATS客户端。
+* [DotPulsar](https://github.com/apache/pulsar-dotpulsar)：Apache Pulsar的官方.NET客户端库。
+* [NewLife.RocketMQ](https://github.com/NewLifeX/NewLife.RocketMQ)：纯托管轻量级RocketMQ客户端。
+* [KafkaFlow](https://github.com/Farfetch/kafkaflow)：KafkaFlow的设计宗旨是以简单易维护的方式在Apache Kafka之上构建.NET应用程序。
+* [Streamiz](https://github.com/LGouellec/streamiz)：Streamiz Kafka .NET是一个用于Apache Kafka的.NET流处理库。
+* [Kafka.NET](https://github.com/Jroland/kafka-net)：用于Apache Kafka的原生C#客户端。
+* [Confluent Kafka .NET](https://github.com/confluentinc/confluent-kafka-dotnet)：Confluent Kafka .NET是Confluent为Apache Kafka和Confluent平台提供的.NET客户端。
 
 ## 消息总线
 
 * [MessagePipe](https://github.com/Cysharp/MessagePipe)：MessagePipe是一个高性能的内存/分布式消息传递管道，适用于.NET和Unity。
-* [RawRabbit](https://github.com/pardahlman/RawRabbit)：RawRabbit是一个用于通过RabbitMQ进行通信的现代.NET框架。
 * [Silverback](https://github.com/BEagle1984/silverback)：Silverback是用于.NET Core的简单但功能丰富的消息总线。
 * [SlimMessageBus](https://github.com/zarusz/SlimMessageBus)：SlimMessageBus是适用于.NET的轻量级、灵活且可扩展的消息传递框架，支持多种消息代理，包括Kafka、RabbitMQ、Azure EventHubs、MQTT、Redis Pub/Sub等。
 * [TinyIpc](https://github.com/steamcore/TinyIpc)：TinyIpc是一个轻量级、无服务器的.NET进程间广播消息总线。
@@ -2377,7 +2359,6 @@
 * [GrpcDotNetNamedPipes](https://github.com/cyanfish/grpc-dotnet-namedpipes)：C#/.NET中gRPC的命名管道传输。
 * [DotNetMQ](https://github.com/hikalkan/dotnetmq)：DotNetMQ是一个开源消息代理。
 * [NetMQ](https://github.com/zeromq/netmq)：NetMQ是轻量级消息库ZeroMQ的100%原生C#端口。
-* [NsqSharp](https://github.com/judwhite/NsqSharp)：NSQ的.NET客户端库。
 * [Service Fabric Pub/Sub](https://github.com/SoCreate/service-fabric-pub-sub)：Service Fabric发布/订阅服务。
 * [Pubbie](https://github.com/davidfowl/Pubbie)：Pubbie是一个基于Bedrock.Framework的高性能易失性发布/订阅实现。
 * [MessageKit](https://github.com/prime31/MessageKit)：MessageKit是一个解耦的消息发送系统，旨在替代SendMessage及其变体。
@@ -2389,12 +2370,9 @@
 * [NATS .NET](https://github.com/nats-io/nats.net.v1)：一个用于NATS消息系统的C# .NET客户端。
 * [AMQP.Net Lite](https://github.com/Azure/amqpnetlite)：AMQP.Net Lite是一个适用于.Net Framework、.Net Core、Windows Runtime平台、.Net Micro Framework、.NET nanoFramework和Mono的轻量级AMQP 1.0库。
 * [Azure AMQP](https://github.com/Azure/azure-amqp)：Microsoft Azure AMQP C#实现。
-* [AlterNats](https://github.com/Cysharp/AlterNats)：一款适用于.NET的高性能NATS客户端。
 * [NNanomsg](https://github.com/mhowlett/NNanomsg)：NNanomsg是nanomsg的.NET绑定。
-* [DotPulsar](https://github.com/apache/pulsar-dotpulsar)：Apache Pulsar的官方.NET客户端库。
 * [CLRZMQ](https://github.com/zeromq/clrzmq)：该项目旨在为CLR项目提供ZeroMQ API的全部功能。
 * [AWS Message .NET](https://github.com/aws/aws-dotnet-messaging)：一个AWS原生框架，可简化使用AWS服务(例如SQS、SNS和EventBridge)的.NET消息处理应用程序的开发。
-* [NewLife.RocketMQ](https://github.com/NewLifeX/NewLife.RocketMQ)：纯托管轻量级RocketMQ客户端。
 * [RestBus](https://github.com/tenor/RestBus)：RestBus是一个高性能的RabbitMQ库，它可以让你通过RabbitMQ消费ASP.NET Core、Web API和ServiceStack的服务端点。
 * [Azure Service Bus .NET](https://github.com/Azure/azure-service-bus-dotnet)：Azure Service Bus允许你构建利用异步消息传递模式的应用程序，通过高度可靠的服务在生产者和消费者之间中介消息。
 * [Postal.NET](https://github.com/rjperes/Postal.NET)：Postal.NET是一个用于编写解耦应用程序的.NET Standard库。
@@ -2465,13 +2443,6 @@
 * [Slice.NET](https://github.com/joeduffy/slice.net)：一个简单的C#类型，用于处理连续缓冲区。
 * [BufferQueue](https://github.com/eventhorizon-cli/BufferQueue)：BufferQueue是一个用.NET编写的高性能缓冲队列实现。
 * [Cyotek.Collections.Generic.CircularBuffer](https://github.com/cyotek/Cyotek.Collections.Generic.CircularBuffer)：CircularBuffer是一种使用单个固定大小缓冲区的数据结构。
-
-## Kafka
-
-* [KafkaFlow](https://github.com/Farfetch/kafkaflow)：KafkaFlow的设计宗旨是以简单易维护的方式在Apache Kafka之上构建.NET应用程序。
-* [Streamiz](https://github.com/LGouellec/streamiz)：Streamiz Kafka .NET是一个用于Apache Kafka的.NET流处理库。
-* [Kafka.NET](https://github.com/Jroland/kafka-net)：用于Apache Kafka的原生C#客户端。
-* [Confluent Kafka .NET](https://github.com/confluentinc/confluent-kafka-dotnet)：Confluent Kafka .NET是Confluent为Apache Kafka和Confluent平台提供的.NET客户端。
 
 ## 对象映射
 
@@ -3890,30 +3861,81 @@
 * [NSpecifications](https://github.com/miholler/NSpecifications)：.NET规范模式。
 * [SpecificationPattern](https://github.com/vkhorikov/SpecificationPattern)：C#中的规范模式实现。
 
-## 命令行解析器
+## CLI框架
+
+* [CliFx](https://github.com/Tyrrrz/CliFx)：CliFx是一个简单易用但功能强大的构建命令行应用程序的框架。
+* [Cathode](https://github.com/vezel-dev/cathode)：Cathode是一个用于编写基于终端的应用程序的工具包。
+* [Sharprompt](https://github.com/shibayan/Sharprompt)：基于命令行的交互式C#应用程序框架。
+* [ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework)：ConsoleAppFramework是一个零依赖、零开销、零反射、零分配、AOT安全的命令行框架，由C#源生成器驱动。
+* [TimeWarp Nuru](https://github.com/TimeWarpEngineering/timewarp-nuru)：.NET的基于路由的CLI框架，将Web风格的路由引入命令行应用程序。
+
+## 命令行参数解析
 
 * [Command Line](https://github.com/commandlineparser/commandline)：最佳的C#命令行解析器，为.NET提供标准化的*nix getopt风格。
 * [Command Line API](https://github.com/dotnet/command-line-api)：命令行解析、调用和呈现终端输出。
 * [CommandLineUtils](https://github.com/natemcmaster/CommandLineUtils)：该项目可帮助你使用.NET创建命令行应用程序。
-* [CliFx](https://github.com/Tyrrrz/CliFx)：CliFx是一个简单易用但功能强大的构建命令行应用程序的框架。
-* [Sharprompt](https://github.com/shibayan/Sharprompt)：基于命令行的交互式C#应用程序框架。
 * [Fluent Command Line Parser](https://github.com/fclp/fluent-command-line-parser)：一个简单、强类型的.NET C#命令行解析器库，使用流式易于使用的接口。
 * [PowerArgs](https://github.com/adamabdelhamed/PowerArgs)：终极.NET Standard命令行参数解析器。
 * [EntryPoint](https://github.com/Nick-Lucas/EntryPoint)：适用于所有现代.NET平台的可组合CLI参数解析器。
 * [Docopt.NET](https://github.com/docopt/docopt.net)：Docopt.NET是一个命令行参数解析器。
 * [Oakton](https://github.com/JasperFx/oakton)：.NET中命令行工具的解析和实用工具。
 * [CLAP](https://github.com/adrianaisemberg/CLAP)：一款强大的.NET命令行解析器。
-* [CliWrap](https://github.com/Tyrrrz/CliWrap)：CliWrap是一个用于与外部命令行界面交互的库。
 * [DotMake.CommandLine](https://github.com/dotmake-build/command-line)：DotMake.CommandLine是一个库，它通过属性为System.CommandLine提供声明式语法，从而实现轻松、快速、强类型的使用。
 * [Args](https://github.com/little-sharps/args)：一个.NET库，旨在允许将命令行参数绑定到POCO对象。
-* [ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework)：ConsoleAppFramework是一个零依赖、零开销、零反射、零分配、AOT安全的命令行框架，由C#源生成器驱动；
-* [TimeWarp Nuru](https://github.com/TimeWarpEngineering/timewarp-nuru)：.NET的基于路由的CLI框架，将Web风格的路由引入命令行应用程序。
 * [CliCommandLineParser](https://github.com/dotnet/CliCommandLineParser)：.NET Core命令行工具的第二代解析器。
-* [Cathode](https://github.com/vezel-dev/cathode)：Cathode是一个用于编写基于终端的应用程序的工具包。
 * [Utility.CommandLine.Arguments](https://github.com/jpdillingham/Utility.CommandLine.Arguments)：一个C# .NET类库，包含用于解析控制台应用程序命令行参数的工具。
-* [Algs4Net](https://github.com/nguyenqthai/Algs4Net)：Algs4Net是algs4j的.NET库移植版。
 * [CommandLineParser](https://github.com/j-maly/CommandLineParser)：CommandLineParser库允许你轻松定义强类型命令行参数，允许自动解析命令行参数并将值映射到对象的属性。
 * [CLIPR](https://github.com/nemec/clipr)：.Net 3.5和.Net Core的命令行界面解析器。
+* [Spectre.Console.Cli](https://github.com/spectreconsole/spectre.console.cli)：Spectre.Console.Cli是一个用于解析命令行参数的现代化库。
+* [NClap](https://github.com/reubeno/NClap)：NClap是一个用于解析命令行参数和构建交互式命令Shell的.NET库。
+* [NFlags](https://github.com/bartoszgolek/NFlags)：简单而强大的库，可轻松解析命令行参数。
+* [UnityCommandLineParser](https://github.com/Voltstro-Studios/UnityCommandLineParser)：Unity的命令行解析器。
+* [FluentArgs](https://github.com/kutoga/FluentArgs)：FluentArgs是一个易于使用的库，提供命令行参数解析功能。
+* [Ookii.CommandLine](https://github.com/SvenGroot/Ookii.CommandLine)：Ookii.CommandLine是一个功能强大、灵活且高度可定制的.NET应用程序命令行参数解析库。
+* [CommandLineReader.cs](https://github.com/EpixCode/CommandLineCustomArguments)：CommandLineReader.cs提供了访问通过命令行发送的自定义参数的功能。
+* [NConsole](https://github.com/RicoSuter/NConsole)：NConsole是一个.NET库，用于解析命令行参数并执行命令。
+
+## 控制台
+
+* [Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)：用于为Windows、Mac和Linux/Unix构建丰富控制台应用程序的首要工具包。
+* [Spectre.Console](https://github.com/spectreconsole/spectre.console)：一个.NET库，可以更轻松地创建漂亮的跨平台控制台应用程序。
+* [ConsoleGUI](https://github.com/TomaszRewak/C-sharp-console-gui-framework)：ConsoleGUI是一个简单的布局驱动的.NET框架，用于创建基于控制台的GUI应用程序。
+* [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar)：在控制台应用程序中可视化进度。
+* [Cocona](https://github.com/mayuki/Cocona)：.NET Core控制台应用程序的微框架。
+* [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
+* [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
+* [EasyConsole](https://github.com/splttingatms/EasyConsole)：EasyConsole是一个库，用于帮助开发者更轻松地为.NET控制台应用程序构建简单的菜单界面。
+* [Konsole](https://github.com/goblinfactory/konsole)：低仪式感、用于编写控制台应用程序、实用工具和试验项目的流式DSL。
+* [ConsoleDraw](https://github.com/Haydend/ConsoleDraw)：C#控制台GUI图形库。
+* [Windows Terminal Quake](https://github.com/flyingpie/windows-terminal-quake)：为几乎任何应用程序启用Quake风格的下拉菜单。
+* [FluentConsole](https://github.com/ashmind/FluentConsole)：一个旨在简化彩色控制台输出的流式API。
+* [Kurukuru](https://github.com/mayuki/Kurukuru)：适用于.NET平台的终端旋转器库。
+* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的ncurses终端控件库绑定。
+* [Command .NET](https://github.com/bilal-fazlani/commanddotnet)：一个用于构建现代CLI应用的框架。
+* [PrettyPrompt](https://github.com/waf/PrettyPrompt)：一款跨平台的命令行提示符，提供语法高亮、自动补全、历史记录等功能。
+* [Typin](https://github.com/adambajguz/Typin)：Typin是一个易于使用、受ASP.NET Core启发的框架，用于构建交互式命令行应用程序和命令行工具。
+* [CLRCLI](https://github.com/PhonicUK/CLRCLI)：CLRCLI是一个事件驱动的窗口系统，它使用线条艺术界面供命令行应用程序使用。
+* [.NET Curses](https://github.com/MV10/dotnet-curses)：这是一个易于使用、完全跨平台的.NET封装，用于Unix NCurses终端库。
+* [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI)：XenoAtom.Terminal.UI是一个用于.NET的现代、响应式保留模式终端UI框架。
+
+## 文本表
+
+* [ConsoleTables](https://github.com/khalidabuhakmeh/ConsoleTables)：在控制台应用程序C#中打印出格式良好的表格。
+* [ConsoleTableExt](https://github.com/minhhungit/ConsoleTableExt)：一个用于在控制台应用程序中打印格式精美表格的C#库。
+* [BetterConsoleTables](https://github.com/douglasg14b/BetterConsoleTables)：更快、更可上色、更可配置且更稳健的C#控制台应用程序控制台颜色与表格。
+* [Tababular](https://github.com/rebus-org/Tababular)：一个简单的.NET等宽文本表格格式化库，适用于.NET 4.5和.NET Standard 1.6。
+* [Contabs](https://github.com/tdwright/contabs)：适用于控制台应用程序的简洁而灵活的表格。
+
+## ASCII艺术
+
+* [Colorful.Console](https://github.com/tomakita/Colorful.Console)：Colorful.Console是一个C#库，它封装了System.Console类，提供增强的样式功能。
+* [Crayon](https://github.com/riezebosch/crayon)：一个简单的小型库，用于使用ANSI转义码在内联字符串中为控制台输出着色。
+* [CsConsoleFormat](https://github.com/Athari/CsConsoleFormat)：.NET C#库，用于控制台输出的高级格式化。
+* [Kokuban](https://github.com/Cysharp/Kokuban)：Kokuban简化了.NET应用程序终端中的字符串样式设置。
+* [Figgle](https://github.com/drewnoakes/figgle)：.NET的ASCII横幅生成器。
+* [PhiOS](https://github.com/pblca/PhiOS)：Unity的ASCII渲染引擎。
+* [AnyConsole](https://github.com/replaysMike/AnyConsole)：一个C#库，可以让你更好地处理经典的ASCII控制台显示效果。
+* [SunshineConsole](https://github.com/derrickcreamer/SunshineConsole)：用于简单ASCII输出/输入的C#库。
 
 ## 命令框架
 
@@ -4729,6 +4751,8 @@
 * [FlashCap](https://github.com/kekyo/FlashCap)：.NET/.NET Core和.NET Framework上的独立视频帧捕获库。
 * [OpenH264Lib.NET](https://github.com/secile/OpenH264Lib.NET)：思科OpenH264封装库，适用于.NET框架。
 * [SharpRTSPtoWebRTC](https://github.com/jimm98y/SharpRTSPtoWebRTC)：这是一个用C#实现的RTSP到WebRTC网关，允许你将来自各种来源的RTSP流传输到Web浏览器。
+* [VideoServer](https://github.com/maxakuru/VideoServer)：使用C#开发，并采用RTP和RTSP协议的多线程视频流服务器。
+* [SharpRealTimeStreaming](https://github.com/jimm98y/SharpRealTimeStreaming)：简单的RTSP服务器和客户端。
 
 ## 视频通讯
 
@@ -5998,6 +6022,7 @@
 * [Shiny](https://github.com/shinyorg/shiny)：Shiny是一个跨平台框架，旨在让使用设备服务和后台进程变得简单、可测试且一致，同时以结构化的方式将依赖注入和日志记录等功能引入到你的代码中。
 * [CMD](https://github.com/manojlds/cmd)：一个用于以更简单的方式运行外部程序/命令的C#库。
 * [RunProcessAsTask](https://github.com/jamesmanning/RunProcessAsTask)：围绕System.Diagnostics.Process的简单封装，将其作为System.Threading.Tasks.Task暴露。
+* [CliWrap](https://github.com/Tyrrrz/CliWrap)：CliWrap是一个用于与外部命令行界面交互的库。
 
 ## 序列化
 
@@ -6485,6 +6510,7 @@
 * [Fake JSON Server](https://github.com/ttu/dotnet-fake-json-server)：Fake JSON Server是一种假REST API，可以用作原型制作的后端，或作为CRUD后端的模板。
 * [Dev Proxy](https://github.com/dotnet/dev-proxy)：Dev Proxy是一款API模拟器，可帮助你轻松地对应用程序进行超出正常流程的测试。
 * [HttPlaceholder](https://github.com/dukeofharen/httplaceholder)：一个非常灵活的跨平台HTTP存根应用。
+* [Mock4Net](https://github.com/alexvictoor/mock4net)：Mock4Net是一个基于.NET的小型Mock HTTP服务器。
 
 #### 数据Mock
 
@@ -7097,6 +7123,7 @@
 * [DiffPlex](https://github.com/mmanela/diffplex)：DiffPlex是一个用于生成文本差异的C#库。
 * [Sudoku](https://github.com/kyoyama-kazusa/Sudoku)：一款使用暴力破解和逻辑技巧处理数独的SDK。
 * [CardinalityEstimation](https://github.com/saguiitay/CardinalityEstimation)：基于HyperLogLog的集合基数估计库。
+* [Algs4Net](https://github.com/nguyenqthai/Algs4Net)：Algs4Net是algs4j的.NET库移植版。
 
 ## 字符串算法
 
