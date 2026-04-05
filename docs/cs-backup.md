@@ -729,6 +729,30 @@
 * [TinyIoC](https://github.com/grumpydev/TinyIoC)：一个易于使用、无烦恼的控制反转容器，适用于小型项目、库以及初学者。
 * [Splat](https://github.com/reactiveui/splat)：Splat提供了一种简单的服务定位实现，针对桌面和移动应用进行了优化，同时仍然保持一定的灵活性。
 * [AutoDI](https://github.com/Keboo/AutoDI)：AutoDI既是一个依赖注入容器，也是一个用于简化依赖注入DI工作的框架。
+* [Svelto.IoC](https://github.com/sebas77/-Deprecated-Svelto.IoC)：Unity的轻量级控制反转容器。
+* [Singularity](https://github.com/Rick-van-Dam/Singularity)：适用于高性能应用的超高速IOC容器。
+* [Dynamo.IoC](https://github.com/MartinF/Dynamo.IoC)：Dynamo.IoC是一个轻量级控制反转容器。
+* [ZeroIoC](https://github.com/byme8/ZeroIoC)：ZeroIoC的主要目标是为Xamarin、Unity和原生AOT等AOT平台提供IoC。
+* [DotNurseInjector](https://github.com/enisn/DotNurseInjector)：简单、轻量级且实用的.NET依赖注入器。
+* [CatLib](https://github.com/CatLib/CatLib)：CatLib是一个专为Unity3D开发的服务提供器框架。
+* [Injectio](https://github.com/loresoft/Injectio)：用于帮助在依赖注入ServiceCollection中注册带有属性标记的服务的源生成器。
+* [Source Inject](https://github.com/giggio/sourceinject)：这是一个使用Roslyn的C#源代码生成器，允许你在编译时生成依赖注入。
+* [Godot.DependencyInjection](https://github.com/Filip-Drabinski/Fluentish.Godot.DependencyInjection)：Godot.DependencyInjection是一个轻量级且易于使用的依赖注入框架，专为Godot游戏引擎设计。
+* [Giraffe.GoodRead](https://github.com/Zaid-Ajaj/Giraffe.GoodRead)：Giraffe中实用的依赖注入。
+* [ManualDi](https://github.com/PereViader/ManualDi)：ManualDi是一个快速且可扩展的C#依赖注入库。
+* [Factory](https://github.com/Real-Serious-Games/Factory)：易于使用的C#工厂/IOC容器，用于对象创建和依赖注入。
+* [Saneject](https://github.com/alexanderlarsen/Saneject)：Saneject介于手动配置引用和完整的运行时依赖注入容器之间。
+* [BInject](https://github.com/sergeysychov/behaviour_inject)：一款高性能、轻量级且易于使用的Unity3D依赖注入工具。
+* [QuickInject](https://github.com/microsoft/QuickInject)：QuickInject是一个带有特定规范的依赖注入容器。
+* [USyrup](https://github.com/Jeffan207/usyrup)：USyrup是一个专为Unity游戏引擎设计的依赖注入框架。
+* [Stiletto](https://github.com/benjamin-bader/stiletto)：一个用于.NET和Mono的C#快速依赖注入器。
+* [Unity DI Framework](https://github.com/Delt06/di-framework)：一个用于向组件注入依赖项的Unity框架。
+* [Buttr](https://github.com/Crumpet-Labs/Buttr)：一个用纯C#编写的轻量级依赖注入框架，目前支持Unity 6及更高版本。
+* [Quickwire](https://github.com/Flavien/quickwire)：.NET的基于属性的依赖注入。
+* [NLBInjecto](https://github.com/nurlanvalizada/NLBInjecto)：NlbInjecto是一个自定义、轻量级、可扩展、可测试的.NET应用程序依赖注入容器。
+* [CryoDI](https://github.com/Cryofortress/CryoDI)：简单易用的Unity3D依赖注入容器。
+* [Tarject](https://github.com/tariksavas/tarject)：Tarject是一个专为Unity开发的依赖注入框架。
+* [BindlessDI](https://github.com/natpuncher/bindlessdi)：一个轻量级的Unity依赖注入框架。
 
 ## AOP
 
@@ -2336,6 +2360,7 @@
 
 ## 消息总线
 
+* [MessagePipe](https://github.com/Cysharp/MessagePipe)：MessagePipe是一个高性能的内存/分布式消息传递管道，适用于.NET和Unity。
 * [RawRabbit](https://github.com/pardahlman/RawRabbit)：RawRabbit是一个用于通过RabbitMQ进行通信的现代.NET框架。
 * [Silverback](https://github.com/BEagle1984/silverback)：Silverback是用于.NET Core的简单但功能丰富的消息总线。
 * [SlimMessageBus](https://github.com/zarusz/SlimMessageBus)：SlimMessageBus是适用于.NET的轻量级、灵活且可扩展的消息传递框架，支持多种消息代理，包括Kafka、RabbitMQ、Azure EventHubs、MQTT、Redis Pub/Sub等。
@@ -2374,6 +2399,27 @@
 * [Azure Service Bus .NET](https://github.com/Azure/azure-service-bus-dotnet)：Azure Service Bus允许你构建利用异步消息传递模式的应用程序，通过高度可靠的服务在生产者和消费者之间中介消息。
 * [Postal.NET](https://github.com/rjperes/Postal.NET)：Postal.NET是一个用于编写解耦应用程序的.NET Standard库。
 * [GreenPipes](https://github.com/phatboyg/GreenPipes)：GreenPipes是任务并行库的中间件库。
+* [Fabrik.SimpleBus](https://github.com/benfoster/Fabrik.SimpleBus)：Fabrik.SimpleBus是一个用C#编写的简单进程内消息总线。
+* [JustSaying](https://github.com/justeattakeaway/JustSaying)：一个用于在SNS上发布和使用事件/消息的实用库。
+* [KLab Message Buses](https://github.com/KLab/klab-messagebuses-unity)：Unity的消息总线库。
+* [ZMQPubSub](https://github.com/hotgazpacho/zmqPubSub)：ZMQPubSub是一个基于ZeroMQ的.NET消息总线实现。
+* [Mongo Queue](https://github.com/CaptainCodeman/mongo-queue)：使用MongoDB的简单服务总线/消息队列。
+* [Burrow.NET](https://github.com/vantheshark/Burrow.NET)：Burrow.NET是一个基于EasyNetQ理念创建的简单库。
+* [Npgmq](https://github.com/brianpursley/Npgmq)：用于Postgres消息队列的.NET客户端。
+* [Disque.Net](https://github.com/bugthesystem/Disque.Net)：用于Disque分布式内存消息代理的.NET库。
+* [EasyRedisMQ](https://github.com/jkruer01/EasyRedisMQ)：EasyRedisMQ是一个基于Redis构建的轻量级消息队列系统。
+* [Namotion.Messaging](https://github.com/RicoSuter/Namotion.Messaging)：Namotion.Messaging .NET库为消息代理、事件队列和数据摄取服务提供抽象和实现。
+* [Signals](https://github.com/yankooliveira/signals)：一个类型安全、轻量级的Unity消息传递库。
+* [ZeroMessenger](https://github.com/annulusgames/ZeroMessenger)：适用于.NET和Unity的零分配、速度极快的内存消息传递库。
+* [UniTaskPubSub](https://github.com/hadashiA/UniTaskPubSub)：基于UniTask IUniTaskAsyncEnumerable的发布/订阅消息传递机制。
+* [AsyncMonolith](https://github.com/Timmoth/AsyncMonolith)：AsyncMonolith是一个轻量级库，可在.NET应用程序中实现简单、持久和异步消息传递。
+* [Sachiel](https://github.com/RainwayApp/sachiel-net)：Sachiel是一个基于Google Protocol Buffers构建的消息传递框架。
+* [UEvent](https://github.com/ls9512/UEvent)：UEvent是一个通用的消息事件组件，可用于Unity和原生.NET环境。
+* [Zerio](https://github.com/Abc-Arbitrage/Zerio)：Zerio是一个小型实验项目，旨在提供一个基于Windows注册I/O(RIO)的非常基础的TCP客户端/服务器消息传递API。
+* [Maomi.MQ](https://github.com/whuanle/Maomi.MQ)：Maomi.MQ是一个消息通信模型项目，目前仅支持RabbitMQ。
+* [Learning.EventStore](https://github.com/learningcom/Learning.EventStore)：Learning.EventStore是一个基于CQRSLite的CQRS、事件溯源和消息传递框架。
+* [MongoDB.Messaging](https://github.com/loresoft/MongoDB.Messaging)：MongoDB Messaging是一个基于MongoDB数据存储的轻量级队列发布/订阅处理库。
+* [KnightBus](https://github.com/BookBeat/knightbus)：KnightBus是一个快速、轻量级且可扩展的消息传递框架，支持多种活动消息传输方式。
 
 ## 事件总线
 
@@ -2383,6 +2429,18 @@
 * [EventBus](https://github.com/sheng-jie/EventBus)：C#事件总线实现。
 * [WeakEvent](https://github.com/thomaslevesque/WeakEvent)：该库提供了一个通用的弱事件源，可用于发布事件而不影响订阅者的生命周期。
 * [PubSub .Net](https://github.com/upta/pubsub)：一个极其轻量、易用的.NET发布/订阅库。
+* [GenericEventBus](https://github.com/PeturDarri/GenericEventBus)：这是一个用C#编写的Unity同步事件总线，它使用严格类型的事件和泛型来减少运行时开销。
+* [BasicEventBus](https://github.com/pointcache/BasicEventBus)：Unity的基础事件总线。
+* [JKang.EventBus](https://github.com/jacqueskang/EventBus)：.NET Core事件总线实现支持。
+* [EventBus](https://github.com/songdongsheng/EventBus)：适用于.NET的简单事件总线库。
+* [UnityEventBus](https://github.com/NullTale/UnityEventBus)：通用Unity事件系统。
+* [EventBus](https://github.com/tinglesoftware/eventbus)：适用于 NET的简单多传输事件总线。
+* [MessageSilo](https://github.com/MessageSilo/MessageSilo)：一款利用人工智能技术修复或丰富消息的工具，可简化事件驱动系统的集成。
+* [UniEventSystem](https://github.com/Bian-Sh/UniEventSystem)：UniEventSystem是一个通用的Unity事件总线。
+* [MQTTnet.EventBus](https://github.com/Revalcon/MQTTnet.EventBus)：MQTTnet实现事件总线。
+* [CodeWF.EventBus](https://github.com/dotnet9/CodeWF.EventBus)：CodeWF.EventBus可以轻松实现CQRS模式，并通过清晰、简洁的接口进行事件订阅与发布。
+* [EventBus](https://github.com/FeiniuBus/EventBus)：EventBus是一个.NET Standard库，用于在SOA、微服务等分布式架构系统中实现最终一致性。
+* [EventBetter](https://github.com/gwiazdorrr/EventBetter)：一个Unity发布/订阅/消息/事件系统。
 
 ## 进程间通信
 
@@ -2398,6 +2456,7 @@
 * [Campus.Ipc](https://github.com/dotnet-campus/dotnetCampus.Ipc)：本机内多进程通讯库。
 * [H.Pipes](https://github.com/HavenDV/H.Pipes)：一个简单易用、强类型、异步的.NET命名管道包装器。
 * [IpcServiceFramework](https://github.com/jacqueskang/IpcServiceFramework)：一个基于.NET Core 3.1的轻量级框架，用于高效的进程间通信。
+* [XDMessaging](https://github.com/TheCodeKing/XDMessaging.Net)：XDMessaging库为.NET应用程序提供了一种易于使用、无需配置的进程间通信解决方案。
 
 ## 循环缓冲区
 
@@ -5717,7 +5776,7 @@
 * [StackExchange.Redis.Extensions](https://github.com/imperugo/StackExchange.Redis.Extensions)：StackExchange.Redis.Extensions是一个扩展StackExchange.Redis的库，为常见应用程序提供所需的一系列功能。
 * [FreeRedis](https://github.com/2881099/FreeRedis)：FreeRedis是一个基于.NET的Redis客户端。
 * [Redis OM .NET](https://github.com/redis/redis-om-dotnet)：Redis OM .NET使你能够轻松地在.NET应用程序中对Redis数据进行建模。
-* [NewLife.Redis](https://github.com/NewLifeX/NewLife.Redis)：NewLife.Redis是新生命团队打造的 高性能/高吞吐/易集成的Redis客户端。
+* [NewLife.Redis](https://github.com/NewLifeX/NewLife.Redis)：NewLife.Redis是新生命团队打造的高性能/高吞吐/易集成的Redis客户端。
 * [NRedisStack](https://github.com/redis/NRedisStack)：.NET Redis客户端。
 * [BeetleX.Redis](https://github.com/beetlex-io/BeetleX.Redis)：一款高性能的异步/非阻塞Redis客户端组件，适用于.NET Core。
 * [RedisAdminUI](https://github.com/ServiceStackApps/RedisAdminUI)：Redis React是一个简单易用的用户界面，用于浏览Redis服务器中的数据。
