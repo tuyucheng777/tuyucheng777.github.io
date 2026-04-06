@@ -21,6 +21,7 @@
 * [GraphQL](#GraphQL)
 * [API网关](#API网关)
 * [注册中心](#注册中心)
+* [Consul](#Consul)
 * [负载均衡](#负载均衡)
 * [API版本控制](#API版本控制)
 * [Web服务器](#Web服务器)
@@ -81,6 +82,7 @@
 * [电商](#电商)
 * [POS系统](#POS系统)
 * [数学库](#数学库)
+* [矩阵](#矩阵)
 * [绘图库](#绘图库)
 * [图形库](#图形库)
 * [FBX](#FBX)
@@ -193,6 +195,7 @@
 * [Shopify](#Shopify)
 * [Notion](#Notion)
 * [Twitch](#Twitch)
+* [TheMovieDb](#TheMovieDb)
 * [Bot](#Bot)
 * [QQ机器人](#QQ机器人)
 * [Python](#Python)
@@ -419,6 +422,7 @@
 * [Paseto](#Paseto)
 * [单点登录](#单点登录)
 * [加密库](#加密库)
+* [密码库](#密码库)
 * [ACME](#ACME)
 * [LDAP](#LDAP)
 * [数据脱敏](#数据脱敏)
@@ -503,6 +507,7 @@
 * [点云](#点云)
 * [URL库](#URL库)
 * [可视化编程](#可视化编程)
+* [AIS](#AIS)
 * [数据库](#数据库)
 * [数据库](#数据库)
 * [数据库](#数据库)
@@ -823,13 +828,16 @@
 ## 注册中心
 
 * [Discovery](https://github.com/SteeltoeOSS/Discovery)：用于服务发现和注册的.NET客户端。
-* [Consul.NET](https://github.com/PlayFab/consuldotnet)：Consul.NET是Go Consul API的.NET移植版。
-* [ConsulHelper](https://github.com/Seedin/ConsulHelper)：.NET微服务基础框架，已支持.NET Core，具备服务发现、健康检查、服务分级、配置、版本控制及RPC高可用代理功能。
 * [Nacos C#](https://github.com/nacos-group/nacos-sdk-csharp)：Nacos C# SDK。
 * [RedNb.Nacos](https://github.com/yinghongzhen/RedNb.Nacos)：RedNb.Nacos是一个功能完整的现代化.NET Nacos客户端SDK。
 * [Stardust](https://github.com/NewLifeX/Stardust)：分布式服务平台，提供平台管理、星尘代理、节点管理、注册中心、配置中心、发布中心、监控中心、星尘网关等子系统。
+
+## Consul
+
+* [Consul.NET](https://github.com/PlayFab/consuldotnet)：Consul.NET是Go Consul API的.NET移植版。
 * [Consul.NET](https://github.com/G-Research/consuldotnet)：Consul.NET是Go Consul API的.NET移植版本。
-* [Stardust](https://github.com/NewLifeX/Stardust)：分布式服务平台，提供平台管理、星尘代理、节点管理、注册中心、配置中心、发布中心、监控中心、星尘网关等子系统。
+* [NConsul](https://github.com/stulzq/NConsul)：Consul的.NET API。
+* [ConsulHelper](https://github.com/Seedin/ConsulHelper)：.NET微服务基础框架，已支持.NET Core，具备服务发现、健康检查、服务分级、配置、版本控制及RPC高可用代理功能。
 
 ## 负载均衡
 
@@ -1642,10 +1650,6 @@
 * [Mathfs](https://github.com/FreyaHolmer/Mathfs)：扩展Unity的数学功能。
 * [MathUtilities](https://github.com/zalo/MathUtilities)：一些巧妙的数学和物理技巧。
 * [Math.NET Numerics](https://github.com/mathnet/mathnet-numerics)：Math.NET Numerics是.NET和Mono的开源数值库。
-* [Meta.Numerics](https://github.com/dcwuser/metanumerics)：Meta.Numerics是.NET平台上用于高级数值计算的库。
-* [Computator.NET](https://github.com/PawelTroka/Computator.NET)：Computator.NET是一款独特的开源数值软件，快速易用，功能上可与其他软件媲美。
-* [MathSharp](https://github.com/john-h-k/MathSharp)：MathSharp是一个用C#编写的向量和矩阵库。
-* [LightweightMatrixCSharp](https://github.com/darkdragon-001/LightweightMatrixCSharp)：C#轻量级快速矩阵类。
 * [Mono.GameMath](https://github.com/mhutch/Mono.GameMath)：Mono.GameMath是一个旨在为游戏开发高性能数学库的项目。
 * [Combinatorics](https://github.com/eoincampbell/combinatorics)：适用于Microsoft .NET的组合数学库。
 * [Math3D](https://github.com/vimaec/Math3D)：Vim.Math3D是一个由VIM编写的便携、安全且高效的3D数学库，使用C#编写。
@@ -1666,6 +1670,15 @@
 * [CSharpMath](https://github.com/verybadcat/CSharpMath)：CSharpMath是对出色的iosMath LaTeX引擎的C#移植版。
 * [Symbolism](https://github.com/dharmatech/Symbolism)：在C#中实现代数表达式自动简化的库。
 * [BriefFiniteElement.Net](https://github.com/BriefFiniteElementNet/BriefFiniteElement.Net)：一个完全用C#编写的用于固体和结构静态和线性分析的有限元库。
+
+## 矩阵
+
+* [MathSharp](https://github.com/john-h-k/MathSharp)：MathSharp是一个用C#编写的向量和矩阵库。
+* [Computator.NET](https://github.com/PawelTroka/Computator.NET)：Computator.NET是一款独特的开源数值软件，快速易用，功能上可与其他软件媲美。
+* [Meta.Numerics](https://github.com/dcwuser/metanumerics)：Meta.Numerics是.NET平台上用于高级数值计算的库。
+* [LightweightMatrixCSharp](https://github.com/darkdragon-001/LightweightMatrixCSharp)：C#轻量级快速矩阵类。
+* [MatrixLibrary](https://github.com/YanjieHe/MatrixLibrary)：一个用C#编写的矩阵库。
+* [Mathd](https://github.com/Darkziyu/Mathd)：Unity结构体Vector、Quaternion和Matrix的double类型版本。
 
 ## 绘图库
 
@@ -3656,7 +3669,6 @@
 * [YouTrackSharp](https://github.com/JetBrains/YouTrackSharp)：用于访问YouTrack API的.NET库。
 * [WhatsApp Business Cloud API C#](https://github.com/gabrieldwight/Whatsapp-Business-Cloud-Api-Net)：一个由Meta托管的WhatsApp商业云API的封装器。
 * [Firebase Admin .NET SDK](https://github.com/firebase/firebase-admin-dotnet)：Firebase提供了开发应用、扩大用户群和赚钱所需的工具和基础设施。
-* [TMDbLib](https://github.com/jellyfin/TMDbLib)：一个几乎完整的TMDb API v3 .NET包装程序。
 * [Force Toolkit .NET](https://github.com/wadewegner/Force.com-Toolkit-for-NET)：.NET的Force.com工具包为.NET开发者提供了一种使用本地库与Lighting平台API交互的简便方法。
 * [WordPressPCL](https://github.com/wp-net/WordPressPCL)：这是一个可移植的库，用于在任何C#应用程序中使用WordPress REST API。
 * [Parse SDK .NET](https://github.com/parse-community/Parse-SDK-dotNET)：该库使你可以从.NET应用程序访问强大的Parse Server后端。
@@ -3778,6 +3790,11 @@
 
 * [StreamingClientLibrary](https://github.com/SaviorXTanren/StreamingClientLibrary)：用于Twitch、YouTube和其他流媒体服务的C#客户端库。
 * [TwitchCSharp](https://github.com/michidk/TwitchCSharp)：Twitch v3 REST API的C#封装。
+
+## TheMovieDb
+
+* [TMDbLib](https://github.com/jellyfin/TMDbLib)：一个几乎完整的TMDb API v3 .NET包装程序。
+* [TheMovieDbWrapper](https://github.com/nCubed/TheMovieDbWrapper)：TheMovieDbWrapper是一个C#封装器，用于TheMovieDb.org API。
 
 ## Bot
 
@@ -4620,6 +4637,8 @@
 * [FixedStrings](https://github.com/xoofx/FixedStrings)：FixedStrings提供了一种基于值类型的固定字符串实现，无需分配内存。
 * [StringBuilder](https://github.com/linkdotnet/StringBuilder)：一个用于.NET的快速且低内存分配的StringBuilder。
 * [Ben.StringIntern](https://github.com/benaadams/Ben.StringIntern)：字符串缓存，用于合并重复字符串。
+* [ZString](https://github.com/Cysharp/ZString)：.NET Core和Unity的零分配StringBuilder。
+* [Utf8StringInterpolation](https://github.com/Cysharp/Utf8StringInterpolation)：ZString的后继者，基于UTF-8的零分配高性能字符串插值和StringBuilder。
 
 ## 锁
 
@@ -4995,7 +5014,6 @@
 * [SparkplugNet](https://github.com/SeppPenner/SparkplugNet)：SparkplugNet是一个用于在.NET中使用Sparkplug工业物联网(IIoT)标准的库。
 * [Asv.Drones](https://github.com/asv-soft/asv-drones)：ArduPilot和PX4自动驾驶仪的地面控制站应用程序的开源实现。
 * [JT1078](https://github.com/SmallChi/JT1078)：JT1078协议、GB1078协议、道路运输车辆卫星定位系统，视频通讯协议。
-* [Ais.Net](https://github.com/ais-dotnet/Ais.Net)：.NET Standard高性能、零内存分配的AIS解码器，单核每秒可处理数百万条AIVDM/AIVDO语句。
 * [Virtual Radar Server](https://github.com/vradarserver/vrs)：一个能够将飞机位置绘制在地图上的.NET Web服务器。
 * [ARDrone.Net](https://github.com/shtejv/ARDrone-Control-.NET)：一款用于在Windows系统中操控Parrot AR无人机的应用程序。
 
@@ -5074,6 +5092,12 @@
 * [Devices](https://github.com/ganweisoft/Devices)：Devices原生支持Modbus和OPC UA。
 * [LLCOM](https://github.com/chenxuuu/llcom)：功能强大的串口工具。
 * [Modbus.Net](https://github.com/parallelbgls/Modbus.Net)：Modbus.Net是一个开源硬件通信平台。
+* [JccModbus](https://github.com/LessIsMoreInSZ/JccModbus)：Modbus池寄存器通信库。
+* [SharpModbus](https://github.com/samuelventura/SharpModbus)：C# Modbus工具。
+* [Modbus TCP](https://github.com/VictorBu/modbus-tcp)：使用DotNetty在C#中实现Modbus TCP客户端/服务器。
+* [Ping9719.IoT](https://github.com/ping9719/IoT)：工业互联网通讯库协议实现，包括主流协议ModBus、S7、CIP、MC、FINS等常用协议和PLC。
+* [Modbus](https://github.com/AndreasAmMueller/Modbus)：在.NET Standard 2.0上实现Modbus协议。
+* [Modbus](https://github.com/sontx/modbus)：C#对Modbus RTU和TCP的支持。
 
 ## PLC
 
@@ -6350,12 +6374,10 @@
 ## 安全库
 
 * [NWebsec](https://github.com/NWebsec/NWebsec)：NWebsec包含多个用于ASP.NET应用程序的安全库。
-* [Otp.NET](https://github.com/kspearrin/Otp.NET)：C#中的TOTP RFC 6238和HOTP RFC 4226实现。
 * [FIDO2 .NET Library](https://github.com/passwordless-lib/fido2-net-lib)：一个用于.NET的完全可用且经过实战测试的密码密钥库。
 * [Bouncy Castle C#](https://github.com/bcgit/bc-csharp)：Bouncy Castle加密库是一个针对.NET的加密算法和协议实现。
 * [CredentialManager](https://github.com/AdysTech/CredentialManager)：C#对CredWrite/CredRead函数的封装，用于在Windows凭据存储中存取数据。
 * [MediatR.Behaviors.Authorization](https://github.com/AustinDavies/MediatR.Behaviors.Authorization)：一个简单的请求授权包，允许你在请求处理器被调用之前构建和运行针对特定请求的授权要求。
-* [TwoStepsAuthenticator](https://github.com/glacasa/TwoStepsAuthenticator)：TOTP和HOTP的.NET实现。
 * [Masquerade](https://github.com/TonicAI/masquerade)：一个用于隐藏敏感数据集的Postgres代理。
 * [Kerberos.NET](https://github.com/dotnet/Kerberos.NET)：一个完全用托管代码构建的完整Kerberos库。
 * [Idunno.Authentication](https://github.com/blowdart/idunno.Authentication)：ASP.NET Core的各种认证机制集合。
@@ -6509,11 +6531,21 @@
 * [Noise](https://github.com/Metalnem/noise)：Noise协议的.NET实现。
 * [Simplex Noise](https://github.com/WardBenjamin/SimplexNoise)：C#单纯形噪声。
 * [Isopoh.Cryptography.Argon2](https://github.com/mheyman/Isopoh.Cryptography.Argon2)：Argon2的全托管.NET Core实现。
+* [Security.PasswordHasher](https://github.com/NetDevPack/Security.PasswordHasher)：适用于ASP.NET Core Identity的自定义密码哈希器。
 * [XXTEA .NET](https://github.com/xxtea/xxtea-dotnet)：XXTEA是一种快速且安全的加密算法。
 * [SendingEncryptedData](https://github.com/damienbod/SendingEncryptedData)：.NET Core加密库。
 * [Scrypt](https://github.com/viniciuschiele/Scrypt)：Scrypt密码哈希算法的.NET实现。
 * [Pkcs11Interop](https://github.com/Pkcs11Interop/Pkcs11Interop)：Pkcs11Interop是一个用C#编写的托管库，将PKCS#11 API的全部功能带入.NET环境。
 * [BCrypt.Net Core](https://github.com/neoKushan/BCrypt.Net-Core)：BCrypt.NET的.NET Core版本，具有一些功能和安全性增强。
+* [Geralt](https://github.com/samuel-lucas6/Geralt)：Geralt是一个基于libsodium的现代加密库。
+* [NaCl.Core](https://github.com/daviddesmet/NaCl.Core)：NaCl.Core是一个仅供.NET使用的托管加密库。
+* [NaCl.NET](https://github.com/somdoron/NaCl.net)：NaCl.NET密码库。
+
+## 密码库
+
+* [Otp.NET](https://github.com/kspearrin/Otp.NET)：C#中的TOTP RFC 6238和HOTP RFC 4226实现。
+* [TwoStepsAuthenticator](https://github.com/glacasa/TwoStepsAuthenticator)：TOTP和HOTP的.NET实现。
+* [Google Auth C#](https://github.com/LTruijens/google-auth-csharp)：这是一个用C#和WPF实现的Google Authenticator库。
 
 ## ACME
 
@@ -7220,7 +7252,6 @@
 ## 字符串算法
 
 * [FuzzySharp](https://github.com/JakeBayer/FuzzySharp)：Python FuzzyWuzzy算法的C# .NET模糊字符串匹配实现。
-* [ZString](https://github.com/Cysharp/ZString)：.NET Core和Unity的零分配StringBuilder。
 * [FuzzyStrings](https://github.com/tylerjensen/FuzzyStrings)：.NET模糊字符串算法集合。
 * [Wu/Manber](https://github.com/unruledboy/WuManber)：Wu/Manber是一种性能非常高的字符串/文本搜索/匹配算法。
 * [StringSimilarity.NET](https://github.com/feature23/StringSimilarity.NET)：Java String Similarity的.NET移植版。
@@ -7230,9 +7261,11 @@
 * [FluentStrings](https://github.com/MSayfullin/FluentStrings)：功能强大的工具集，适用于各种字符串转换，具有流式的接口。
 * [StringFormatter](https://github.com/MikePopoloski/StringFormatter)：一个用于.NET应用程序的零分配字符串格式化库。
 * [InterpolatedParser](https://github.com/AntonBergaker/InterpolatedParser)：InterpolatedParser是一个NuGet库，支持字符串插值，但方向相反。
-* [Utf8StringInterpolation](https://github.com/Cysharp/Utf8StringInterpolation)：ZString的后继者，基于UTF-8的零分配高性能字符串插值和StringBuilder。
 * [Fastenshtein](https://github.com/DanHarltey/Fastenshtein)：Fastenshtein是一个优化且完全单元测试的Levenshtein实现。
 * [Quickenshtein](https://github.com/Turnerj/Quickenshtein)：支持SIMD和线程，实现速度最快、内存效率最高的Levenshtein距离算法。
+* [Autypo](https://github.com/andrewjsaid/autypo)：Autypo是一款功能强大且对开发者友好的搜索引擎，支持自动补全、模糊匹配和短字符串查找。
+* [FuzzySharp](https://github.com/Raffinert/FuzzySharp)：C# .NET快速模糊字符串匹配实现。
+* [SentencesFuzzyComparison](https://github.com/denxc/SentencesFuzzyComparison)：对两个句子进行模糊比较。
 
 ## 哈希算法
 
@@ -7242,6 +7275,7 @@
 * [HashDepot](https://github.com/ssg/HashDepot)：用于xxHash、FNV、MurmurHash3和SipHash算法的.NET库。
 * [Hashing](https://github.com/hellzerg/hashing)：用于计算和比较多个文件哈希值的简单工具。
 * [Crc32.NET](https://github.com/force-net/Crc32.NET)：针对.NET和.NET Core的Crc32和Crc32C算法的优化和快速管理实现。
+* [MurmurHash.Net](https://github.com/odinmillion/MurmurHash.Net)：速度极快的MurmurHash3实现，无需堆内存分配。
 
 ## 数据结构
 
@@ -7636,6 +7670,10 @@
 * [Bonsai](https://github.com/bonsai-rx/bonsai)：Bonsai响应式系统可视化编程语言的编译器、IDE和标准库。
 * [vvvv.Kairos](https://github.com/natan-sinigaglia/vvvv.Kairos)：vvvv可视化编程环境中的数据控制和组合的完整框架。
 
+## AIS
+
+* [Ais.Net](https://github.com/ais-dotnet/Ais.Net)：.NET Standard高性能、零内存分配的AIS解码器，单核每秒可处理数百万条AIVDM/AIVDO语句。
+* [AisParser](https://github.com/yellowfeather/AisParser)：用于跟踪船舶和解码海事信息的自动识别系统C#解码器。
 
 * [AutoComplete](https://github.com/omerfarukz/autocomplete)：持久、简单、强大且可移植的自动补全库。
 * [GsSlicer](https://github.com/gradientspace/gsSlicer)：开源3D打印切片器，采用C#编写。
