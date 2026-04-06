@@ -43,7 +43,7 @@
   * [查询引擎](#查询引擎)
   * [存储格式](#存储格式)
   * [存储系统](#存储系统)
-  * [流处理平台](#流处理平台)
+  * [流处理](#流处理)
   * [ETL工具](#ETL工具)
   * [CDC组件](#CDC组件)
   * [连接器](#连接器)
@@ -330,12 +330,14 @@
   * [CBOR](docs/doc2.md#CBOR)
   * [TOON](docs/doc2.md#TOON)
   * [EDN](docs/doc2.md#EDN)
-* [JSON库](docs/doc2.md#JSON库)
+* [JSON](docs/doc2.md#JSON)
+  * [JSON库](docs/doc2.md#JSON库)
   * [JSON Schema](docs/doc2.md#JSON-Schema)
   * [JsonPath](docs/doc2.md#JsonPath)
   * [JSON JQ](docs/doc2.md#JSON-JQ)
   * [JSON Patch](docs/doc2.md#JSON-Patch)
   * [JSON-LD](docs/doc2.md#JSON-LD)
+  * [BSON](docs/doc2.md#BSON)
   * [JSON-RPC](docs/doc2.md#JSON-RPC)
   * [JSON API](docs/doc2.md#JSON-API)
   * [JSON比较](docs/doc2.md#JSON比较)
@@ -1877,8 +1879,6 @@
 * [Apache TsFile](https://github.com/apache/tsfile)：TsFile是一种专为时序数据设计的列式存储文件格式，支持高效压缩、读写高吞吐，并且兼容Spark、Flink等多种框架，由清华大学开源。
 * [IndexR](https://github.com/shunfei/indexr)：IndexR是HDFS上的超快速列式数据格式，专注于快速分析，既适用于海量静态(历史)数据，也适用于快速摄取实时数据，由舜飞开源。
 * [TrinityLake](https://github.com/trinitylake-io/trinitylake)：TrinityLake格式定义了Lakehouse中的对象，并提供了一种一致且高效的方式来访问和操作这些对象。
-* [Carpet](https://github.com/jerolba/parquet-carpet)：Java的Parquet序列化和反序列化库。
-* [Hardwood](https://github.com/hardwood-hq/hardwood)：Apache Parquet的最小依赖实现。
 
 #### 存储系统
 
@@ -1893,7 +1893,7 @@
 * [Block Storage](https://github.com/greglook/blocks)：该库为Clojure实现了内容寻址存储类型和协议。
 * [DFS Datastores](https://github.com/nathanmarz/dfs-datastores)：一种在分布式文件系统上存储记录的更简单、更强大的方法。
 
-#### 流处理平台
+#### 流处理
 
 * [Apache Flink](https://github.com/apache/flink)：Flink是一个开源流处理框架，具有强大的流处理和批处理能力，由柏林工业大学发起。
 * [Apache RocketMQ](https://github.com/apache/rocketmq)：RocketMQ是一个分布式消息和流媒体平台，具有低延迟、高性能和可靠性、万亿级容量和灵活的可扩展性，由阿里开源。
@@ -1947,6 +1947,7 @@
 * [Apache Apex Malhar](https://github.com/apache/apex-malhar)：Malhar包含一个开源的运算符和编解码器库，可用于Apache Apex平台，构建实时流处理应用程序。
 * [Vertigo](https://github.com/kuujo/vertigo)：Vertigo是一个基于Vert.x应用平台的持久化多语言事件处理框架。
 * [Swave](https://github.com/sirthias/swave)：Swave是一个用于Scala高性能流处理的实验性开源库。
+* [Data Artisans Streaming Ledger](https://github.com/dataArtisans/da-streamingledger)：Data Artisans Streaming Ledger是一个基于Apache Flink的库，用于处理跨多个共享状态/表的事件流，具有可序列化的ACID语义。
 
 #### ETL工具
 

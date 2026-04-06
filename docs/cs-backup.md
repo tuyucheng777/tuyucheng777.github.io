@@ -207,6 +207,7 @@
 * [控制台](#控制台)
 * [文本表](#文本表)
 * [ASCII艺术](#ASCII艺术)
+* [进度条](#进度条)
 * [命令框架](#命令框架)
 * [二维码/条形码](#二维码条形码)
 * [验证码](#验证码)
@@ -380,13 +381,19 @@
 * [缓存库](#缓存库)
 * [分布式锁](#分布式锁)
 * [地理空间](#地理空间)
+* [GeoJSON](#GeoJSON)
 * [地图渲染](#地图渲染)
 * [站点地图](#站点地图)
 * [大地测量](#大地测量)
 * [进程库](#进程库)
 * [序列化](#序列化)
+* [JSON](#JSON)
 * [JSON库](#JSON库)
 * [JSON Schema](#JSON-Schema)
+* [JSONPath](#JSONPath)
+* [JsonPatch](#JsonPatch)
+* [JSON-LD](#JSON-LD)
+* [BSON](#BSON)
 * [CBOR](#CBOR)
 * [编解码](#编解码)
 * [Raft](#Raft)
@@ -472,6 +479,7 @@
 * [字符串算法](#字符串算法)
 * [哈希算法](#哈希算法)
 * [数据结构](#数据结构)
+* [布隆过滤器](#布隆过滤器)
 * [表达式引擎](#表达式引擎)
 * [表达式解析器](#表达式解析器)
 * [数学表达式](#数学表达式)
@@ -3905,7 +3913,6 @@
 * [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
 * [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
 * [EasyConsole](https://github.com/splttingatms/EasyConsole)：EasyConsole是一个库，用于帮助开发者更轻松地为.NET控制台应用程序构建简单的菜单界面。
-* [Konsole](https://github.com/goblinfactory/konsole)：低仪式感、用于编写控制台应用程序、实用工具和试验项目的流式DSL。
 * [ConsoleDraw](https://github.com/Haydend/ConsoleDraw)：C#控制台GUI图形库。
 * [Windows Terminal Quake](https://github.com/flyingpie/windows-terminal-quake)：为几乎任何应用程序启用Quake风格的下拉菜单。
 * [FluentConsole](https://github.com/ashmind/FluentConsole)：一个旨在简化彩色控制台输出的流式API。
@@ -3936,6 +3943,11 @@
 * [PhiOS](https://github.com/pblca/PhiOS)：Unity的ASCII渲染引擎。
 * [AnyConsole](https://github.com/replaysMike/AnyConsole)：一个C#库，可以让你更好地处理经典的ASCII控制台显示效果。
 * [SunshineConsole](https://github.com/derrickcreamer/SunshineConsole)：用于简单ASCII输出/输入的C#库。
+
+## 进度条
+
+* [Konsole](https://github.com/goblinfactory/konsole)：低仪式感、用于编写控制台应用程序、实用工具和试验项目的流式DSL。
+* [ConsoleProgressBar](https://github.com/iluvadev/ConsoleProgressBar)：一个功能全面、易于使用的控制台应用程序进度条，用C#编写。
 
 ## 命令框架
 
@@ -5968,7 +5980,6 @@
 * [Geo](https://github.com/sibartlett/Geo)：Geo是一个专门为地理数据创建的空间库。
 * [CoordinateSharp](https://github.com/Tronald/CoordinateSharp)：CoordinateSharp是一个用C#编写的简单.NET库，旨在协助进行地理坐标转换、解析、格式化、磁力数据以及基于位置的天文计算，如日落、日出、月落、月出等。
 * [ProjNet](https://github.com/NetTopologySuite/ProjNet4GeoAPI)：Proj.NET可在地理坐标系之间执行点对点坐标转换，用于GIS或GPS等应用程序。
-* [GeoJSON.Net](https://github.com/GeoJSON-Net/GeoJSON.Net)：GeoJSON.Net是一个用于RFC 7946 GeoJSON格式的.NET库，它使用并提供Newtonsoft Json.NET转换器，用于GeoJSON数据的序列化和反序列化。
 * [GeoIP2 .NET](https://github.com/maxmind/GeoIP2-dotnet)：该库为GeoIP2和GeoLite2网络服务及数据库提供了API。
 * [GeoAPI](https://github.com/NetTopologySuite/GeoAPI)：GeoAPI项目提供了一个基于OGC/ISO标准的通用框架，旨在提高.NET GIS项目之间的互操作性。
 * [NetTopologySuite](https://github.com/NetTopologySuite/NetTopologySuite)：一款适用于.NET平台的快速可靠的.NET GIS解决方案。
@@ -5976,7 +5987,6 @@
 * [Geoportal Server](https://github.com/Esri/geoportal-server)：Geoportal Server是一个基于标准的开源产品，能够实现地理空间资源的发现和使用。
 * [GeoTimeZone](https://github.com/mattjohnsonpint/GeoTimeZone)：提供基于纬度和经度坐标的IANA时区标识符。
 * [ArcGIS Maps SDK .NET Toolkit](https://github.com/Esri/arcgis-maps-sdk-dotnet-toolkit)：.NET版ArcGIS地图SDK工具包包含控件和组件，可加速你使用.NET版ArcGIS地图SDK的开发。
-* [NetTopologySuite.IO.GeoJSON](https://github.com/NetTopologySuite/NetTopologySuite.IO.GeoJSON)：用于NTS的GeoJSON输入输出模块。
 * [Tile Map Service](https://github.com/apdevelop/tile-map-service)：.NET 8平台的瓦片服务器基础功能的简单轻量级实现。
 * [TiledCS](https://github.com/TheBoneJarmer/TiledCS)：TiledCS是一个用于加载Tiled地图和图块集的.NET库。
 * [MapDownloader](https://github.com/luxiaoxun/MapDownloader)：基于GMap.NET的地图下载器。
@@ -5994,6 +6004,16 @@
 * [Navtrack](https://github.com/navtrack/navtrack)：基于.NET和React的开源GPS追踪系统。
 * [Obj2Tiles](https://github.com/OpenDroneMap/Obj2Tiles)：Obj2Tiles是一款功能齐全的工具，可将OBJ文件转换为3D Tiles格式。
 * [GeoHash .NET](https://github.com/Postlagerkarte/geohash-dotnet)：一个易于使用、功能丰富的.NET地理哈希库。
+
+## GeoJSON
+
+* [GeoJSON.Net](https://github.com/GeoJSON-Net/GeoJSON.Net)：GeoJSON.Net是一个用于RFC 7946 GeoJSON格式的.NET库，它使用并提供Newtonsoft Json.NET转换器，用于GeoJSON数据的序列化和反序列化。
+* [NetTopologySuite.IO.GeoJSON](https://github.com/NetTopologySuite/NetTopologySuite.IO.GeoJSON)：用于NTS的GeoJSON输入输出模块。
+* [GeoJSON.Text](https://github.com/GeoJSON-Net/GeoJSON.Text)：GeoJSON.Text是一个.NET库，用于RFC 7946 GeoJSON格式，它使用并提供System.Text.Json转换器来序列化和反序列化GeoJSON数据。
+* [BAMCIS GeoJSON](https://github.com/bamcis-io/GeoJSON)：这是一个用.NET Core 2.0编写的GeoJSON实现。
+* [Unity GeoJSONObject](https://github.com/timokorkalainen/Unity-GeoJSONObject)：这是一个用C#编写的简单RFC 7946 GeoJSON解析器，适用于Unity 3D。
+* [Geo.Library](https://github.com/songjiahong/Geo.Library)：一个用于.NET的2D地理空间库。
+* [DotNetGeoJson](https://github.com/Terradue/DotNetGeoJson)：.NET的GeoJson库。
 
 ## 地图渲染
 
@@ -6038,7 +6058,6 @@
 * [FlatSharp](https://github.com/jamescourtney/FlatSharp)：快速、惯用的Flatbuffers C#实现。
 * [Ceras](https://github.com/rikimaru0345/Ceras)：Ceras是一个二进制序列化器。
 * [Wire](https://github.com/asynkron/Wire)：一个用于.NET框架的高性能多态序列化器。
-* [ObjectDumper](https://github.com/thomasgalliker/ObjectDumper)：ObjectDumper是一个工具，旨在将C#对象序列化为字符串，以便调试和日志记录。
 * [BinaryPack](https://github.com/Sergio0694/BinaryPack)：BinaryPack是一个二进制序列化库，但更快、更高效，并且能生成更小的文件。
 * [BinarySerializer](https://github.com/jefffhaynes/BinarySerializer)：BinarySerializer是一个.NET声明式序列化框架。
 * [Hyperion](https://github.com/akkadotnet/Hyperion)：一个用于.NET框架的高性能多态序列化器。
@@ -6046,7 +6065,6 @@
 * [Hagar](https://github.com/ReubenBond/Hagar)：快速、灵活且版本容忍的.NET序列化器。
 * [Serde.NET](https://github.com/serdedotnet/serde)：Serde.NET是Rust上流行的Serde序列化库的C#移植版。
 * [Nerdbank.MessagePack](https://github.com/AArnott/Nerdbank.MessagePack)：一个现代、快速且兼容NativeAOT的MessagePack序列化库。
-* [PlistCS](https://github.com/animetrics/PlistCS)：一个C#属性列表序列化库。
 * [Bssom.Net](https://github.com/1996v/Bssom.Net)：Bssom.Net是一种高性能的结构化二进制序列化器，采用BSSOM协议实现。
 * [MessagePack Unity3D](https://github.com/deniszykov/msgpack-unity3d)：Unity3D的MessagePack和JSON序列化器。
 * [FrozenObjects](https://github.com/microsoft/FrozenObjects)：FrozenObjects序列化和反序列化。
@@ -6058,8 +6076,23 @@
 * [ParquetSharp](https://github.com/G-Research/ParquetSharp)：ParquetSharp是一个跨平台的.NET库，用于读取和写入Apache Parquet文件。
 * [Pickle](https://github.com/irmen/pickle)：Java和.NET对Python pickle序列化协议的实现。
 * [SerializerFoundation](https://github.com/Cysharp/SerializerFoundation)：用于C#的高性能序列化基础设施。
+* [FsPickler](https://github.com/mbraceproject/FsPickler)：FsPickler是一个序列化库，用于简化.NET对象的分发。
+* [HyperSerializer](https://github.com/adam-dot-cohen/HyperSerializer)：适用于.NET的最快、内存效率最高的二进制序列化器。
+* [Binaron.Serializer](https://github.com/zachsaw/Binaron.Serializer)：一款速度极快的现代编程语言序列化器，采用开源二进制对象表示法格式。
+* [StructPacker](https://github.com/RudolfKurkaMs/StructPacker)：StructPacker是一个二进制序列化器，它会自动生成C#序列化代码，以实现最佳的运行时性能和效率。
+* [Serialization](https://github.com/chickensoft-games/Serialization)：兼容System.Text.Json的源代码生成器，自动支持派生类型和多态序列化。
+* [GroBuf](https://github.com/skbkontur/GroBuf)：GroBuf是一个适用于.NET的快速二进制序列化器。
+* [Salar.Bois](https://github.com/salarcode/Bois)：Salar.Bois是.NET Standard、.NET和.NET Framework中最紧凑、速度极快的二进制序列化器。
+* [BinaryFormatter](https://github.com/BayatGames/BinaryFormatter)：BinaryFormatter是一个快速、轻量级的二进制序列化/反序列化库，适用于Unity项目。
+* [Migrant](https://github.com/antmicro/Migrant)：Migrant是一个用于.NET和Mono项目的序列化框架。
+* [FreecraftCore.Serializer](https://github.com/FreecraftCore/FreecraftCore.Serializer)：FreecraftCore.Serializer是一个基于属性/元数据的二进制序列化库。
+* [FlatBuffers .NET](https://github.com/evolutional/flatbuffers-net)：该库提供了一些实用程序，可以使用.NET开发人员熟悉的惯用法和API与Google FlatBuffers进行交互。
+* [SaveManager](https://github.com/ewersp/SaveManager)：一个简单而强大的二进制序列化器。
+* [Easy Serializer Unity](https://github.com/antonholmquist/easy-serializer-unity)：该项目旨在尽可能简化Unity中的对象序列化，同时支持所有平台。
+* [AnySerializer](https://github.com/replaysMike/AnySerializer)：一个C#二进制序列化库，可以快速轻松地序列化任何对象。
+* [MessageShark](https://github.com/rpgmaker/MessageShark)：MessageShark是Protobuf .NET的替代二进制序列化器。
 
-## JSON库
+## JSON
 
 * [Json.NET](https://github.com/JamesNK/Newtonsoft.Json)：Json.NET是一个流行的高性能.NET JSON框架。
 * [Utf8Json](https://github.com/neuecc/Utf8Json)：适用于C#的快速JSON序列化器。
@@ -6070,44 +6103,86 @@
 * [SimpleJSON](https://github.com/Bunny83/SimpleJSON)：C#中的简单JSON解析器。
 * [Swifter.Json](https://github.com/Dogwei/Swifter.Json)：.NET平台上功能强大、易于使用且速度最快的JSON序列化器和反序列化器。
 * [SimdJsonSharp](https://github.com/EgorBo/SimdJsonSharp)：SimdJson的C#版本。
-* [Schema.NET](https://github.com/RehanSaeed/Schema.NET)：
+* [Schema.NET](https://github.com/RehanSaeed/Schema.NET)：Schema.org对象被转换为强类型的C# POCO类，以便在.NET中使用。
 * [FastJSON](https://github.com/mgholam/fastJSON)：最小、最快的多态JSON序列化器。
 * [SpanJson](https://github.com/Tornhoof/SpanJson)：SpanJson是.NET Core 6.0+的JSON序列化器。
-* [JsonSubTypes](https://github.com/manuc66/JsonSubTypes)：JsonSubTypes是.NET上的一种区分JSON子类型转换器实现。
-* [JSONDiffPatch.NET](https://github.com/wbish/jsondiffpatch.net)：JSON对象差异与可逆补丁。
 * [JsonFx](https://github.com/jsonfx/jsonfx)：.NET的JSON序列化框架。
 * [JSON](https://github.com/zanders3/json)：一个非常简单的C# JSON解析器。
 * [JSONObject](https://github.com/mtschoen/JSONObject)：Unity的JSONObject类库。
 * [CatJson](https://github.com/CatImmortal/CatJson)：为Unity开发者量身打造的Json库，内置ILRuntime支持。
 * [NetJSON](https://github.com/rpgmaker/NetJSON)：高速的.NET JSON库。
-* [](https://github.com/linked-data-dotnet/json-ld.net)：
-* [LitJson4Unity](https://github.com/XINCGer/LitJson4Unity)：
+* [LitJson4Unity](https://github.com/XINCGer/LitJson4Unity)：适用于Unity的改进型LitJson库。
 * [Manatee.Json](https://github.com/gregsdennis/Manatee.Json)：Manatee.Json的主要目标是让开发者能够简单直观地使用JSON。
-* [JUST.NET](https://github.com/WorkMaze/JUST.net)：
-* [](https://github.com/ThiagoBarradas/jsonmasking)：
-* [](https://github.com/KevinDockx/JsonPatch)：
-* [](https://github.com/dahomey-technologies/Dahomey.Json)：
-* [FastJsonParser](https://github.com/ysharplanguage/FastJsonParser)：
-* [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema)：
+* [JUST.NET](https://github.com/WorkMaze/JUST.net)：JSON简单转换库。
+* [FastJsonParser](https://github.com/ysharplanguage/FastJsonParser)：这是一个极简且快速的JSON解析器/反序列化器，适用于完整的.NET框架。
 * [KoobooJson](https://github.com/Kooboo/Json)：KoobooJson是一款体积小巧没有任何依赖且性能表现强劲的Json工具。
-* [](https://github.com/microsoft/jschema)：
-* [SystemTextJsonPatch](https://github.com/Havunen/SystemTextJsonPatch)：
-* [](https://github.com/weichch/system-text-json-jsondiffpatch)：
-* [](https://github.com/microsoft/json-document-transforms)：
-* [JsonPatch](https://github.com/myquay/JsonPatch)：
-* [](https://github.com/vla/BloomFilter.NetCore)：
-* [](https://github.com/joeyrobert/bloomfilter)：
 * [JsonSrcGen](https://github.com/trampster/JsonSrcGen)：使用.NET 5 C#源生成器的JSON库。
-* [JmesPath.Net](https://github.com/jdevillard/JmesPath.Net)：一个完全符合JMESPath规范的.NET Core实现。
 * [SimpleJson](https://github.com/facebook-csharp-sdk/simple-json)：适用于.NET 2.0/SL4/WP7/Windows Store应用/可移植类库和PowerShell的小型快速JSON库。
 * [StackOnlyJsonParser](https://github.com/TomaszRewak/C-sharp-stack-only-json-parser)：StackOnlyJsonParser将System.Text.Json库与C# 9代码生成器结合起来，实现快速且对GC友好的JSON反序列化。
-* [Morcatko.AspNetCore.JsonMergePatch](https://github.com/Morcatko/Morcatko.AspNetCore.JsonMergePatch)：ASP.NET Core的JsonMergePatch支持。
 * [TinyJSON](https://github.com/pbhogan/TinyJSON)：TinyJSON是一个面向C#的简单JSON库，旨在易于使用。
+* [JsonApiNet](https://github.com/l8nite/JsonApiNet)：一个易于使用、可扩展的C#库，用于处理JSON API文档。
+* [TinyJSON](https://github.com/libla/TinyJSON)：C# JSON解析器和序列化器。
+* [JsonToJsonMapper](https://github.com/microsoft/JsonToJsonMapper)：JsonToJsonMapper用于处理JSON格式的信息交换，它能够将JSON数据从一种模式转换为另一种模式。
+* [LightJson](https://github.com/MarcosLopezC/LightJson)：一个极简的JSON库，旨在轻松地对JSON消息进行编码和解码。
+* [Biser.NET](https://github.com/hhblaze/Biser)：用于.NET的跨平台二进制和JSON序列化器。
+* [ZeroDepJson](https://github.com/smourier/ZeroDepJson)：一个零依赖的.NET JSON序列化器/反序列化器。
+* [SimpleJSON](https://github.com/HenrikPoulsen/SimpleJSON)：C# JSON读取器/写入器。
+* [DynamicJson](https://github.com/neuecc/DynamicJson)：C# 4.0的动态JSON结构。
+* [MXTires.Microdata](https://github.com/idenys/MXTires.Microdata)：MXTires.Microdata是一个框架，用于将schema.org对象类型与.NET类对应起来，并转换为JSON格式。
+* [NiceJson](https://github.com/AngelQuirogaM/NiceJson)：NiceJson是一个简单的C# JSON库。
+* [FastBinaryJSON](https://github.com/mgholam/fastBinaryJSON)：基于FastJSON的二进制JSON序列化器。
+* [CsharpJson](https://github.com/NingShenTian/CsharpJson)：C#编写的通用Json数据解析库。
+* [JsonFormatter](https://github.com/BayatGames/JsonFormatter)：JsonFormatter是一个快速、轻量级的Json序列化/反序列化库，适用于Unity项目。
+* [Json.NetMF](https://github.com/nanoframework/Json.NetMF)：适用于NanoFramework和.NET Micro Framework的JSON序列化器和反序列化器库。
+* [Jolt.Net](https://github.com/blushingpenguin/Jolt.Net)：这是一个用C#编写的JSON到JSON转换库。
+
+## JSON库
+
+* [JsonSubTypes](https://github.com/manuc66/JsonSubTypes)：JsonSubTypes是.NET上的一种区分JSON子类型转换器实现。
+* [Json Masking](https://github.com/ThiagoBarradas/jsonmasking)：替换JSON中的字段，替换成其他值，无需关心属性是否属于深层对象。
+* [Dahomey.Json](https://github.com/dahomey-technologies/Dahomey.Json)：该库的主要目的是为官方的.NET命名空间System.Text.Json添加缺失的功能。
+* [JSON Document Transfoms](https://github.com/microsoft/json-document-transforms)：JSON文档转换库。
+* [JmesPath.Net](https://github.com/jdevillard/JmesPath.Net)：一个完全符合JMESPath规范的.NET Core实现。
+* [JSON.HPack](https://github.com/WebReflection/json.hpack)：JSON同构集合打包器。
+* [jSwan](https://github.com/andrewheumann/jSwan)：Grasshopper 3D的JSON序列化/反序列化。
+* [Quibble](https://github.com/nrkno/Quibble)：Quibble是一个用于.NET的JSON差异比较工具。
+* [JsonFlatten](https://github.com/GFoley83/JsonFlatten)：用于将JSON.NET JObject扁平化或反扁平化为IDictionary的扩展方法。
+* [JsonDiffer.Netstandard](https://github.com/aminm-net/JsonDiffer.Netstandard)：一个轻量级的实用工具，用于比较JSON对象。
 
 ## JSON Schema
 
 * [NJsonSchema](https://github.com/RicoSuter/NJsonSchema)：NJsonSchema是一个.NET库，用于读取、生成和验证JSON Schema草案v4+模式。
 * [Newtonsoft.Json.Schema](https://github.com/JamesNK/Newtonsoft.Json.Schema)：Json.NET Schema是一个功能强大、完整且易于使用的.NET JSON Schema框架。
+* [Lateapexearlyspeed.JsonSchema](https://github.com/lateapexearlyspeed/Lateapexearlyspeed.JsonSchema)：适用于.NET的简单高性能JSON Schema实现。
+* [JSchema](https://github.com/microsoft/jschema)：一套用于处理JSON Schema Draft 4的.NET组件。
+* [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema)：用于JSON模式验证和序列化的构建时代码生成。
+
+## JSONPath
+
+* [JSONPath](https://github.com/atifaziz/JSONPath)：JSONPath的C#实现。
+* [JsonDocumentPath](https://github.com/azambrano/JsonDocumentPath)：JsonDocumentPath是一个类库，用于使用单行表达式从JSON中提取值。
+
+## JsonPatch
+
+* [JSONDiffPatch.NET](https://github.com/wbish/jsondiffpatch.net)：JSON对象差异与可逆补丁。
+* [JsonPatch](https://github.com/KevinDockx/JsonPatch)：JSON Patch RFC 6902 .NET实现。
+* [SystemTextJson.JsonDiffPatch](https://github.com/weichch/system-text-json-jsondiffpatch)：高性能、低分配的JSON对象差异和补丁扩展，适用于System.Text.Json。
+* [SystemTextJsonPatch](https://github.com/Havunen/SystemTextJsonPatch)：SystemTextJsonPatch是一个基于System.Text.Json的.NET版JSON Patch RFC 6902实现。
+* [JsonPatch](https://github.com/myquay/JsonPatch)：JsonPatch是一个简单的库，它为.NET 6 ASP.NET Core Minimal Web API添加了JSON Patch支持。
+* [JsonPatch](https://github.com/aspnet/JsonPatch)：JSON PATCH库。
+* [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net)：JsonCons.Net库补充了System.Text.Json命名空间，支持JSON Pointer、JSON Patch、JSON Merge Patch、JSONPath和JMESPath。
+* [Morcatko.AspNetCore.JsonMergePatch](https://github.com/Morcatko/Morcatko.AspNetCore.JsonMergePatch)：ASP.NET Core的JsonMergePatch支持。
+
+## JSON-LD
+
+* [JSON-LD.NET](https://github.com/linked-data-dotnet/json-ld.net)：该库是C#中JSON-LD规范的实现。
+* [JsonLD.Entities](https://github.com/wikibus/JsonLD.Entities)：JsonLD.Entities是一个用于在JSON-LD中序列化和反序列化POCO的小型库。
+
+## BSON
+
+* [Json.NET BSON](https://github.com/JamesNK/Newtonsoft.Json.Bson)：Json.NET BSON为Json.NET添加了对BSON读写的支持。
+* [Kernys.Bson](https://github.com/kernys/Kernys.Bson)：适用于C#的简单BSON编码器和解码器。
+* [Metsys.Bson](https://github.com/karlseguin/Metsys.Bson)：Metsys.Bson是一个用于序列化和反序列化BSON的.NET库。
 
 ## CBOR
 
@@ -6901,6 +6976,8 @@
 * [SGMLReader](https://github.com/MindTouch/SGMLReader)：SgmlReader是一个功能强大的C# .NET库，用于使用XmlReader API解析HTML/SGML文件。
 * [LtGt](https://github.com/Tyrrrz/LtGt)：LtGt是一个用于处理HTML的极简库。
 * [HTML Diff](https://github.com/Rohland/htmldiff.net)：一个用于比较两个HTML文件/代码片段并使用简单的HTML突出显示差异的库。
+* [Dcsoup](https://github.com/matarillo/dcsoup)：Dcsoup是一个用于处理真实世界HTML的.NET库。
+* [HtmlParserSharp](https://github.com/Boddlnagg/HtmlParserSharp)：Validator.nu HTML解析器的手动C#移植版本。
 
 ## XML
 
@@ -6912,6 +6989,18 @@
 * [XmlParser](https://github.com/KirillOsenkov/XmlParser)：一个受Roslyn启发的全保真XML解析器，无任何依赖项，并提供一个简单的Visual Studio XML语言服务。
 * [U8XmlParser](https://github.com/ikorin24/U8XmlParser)：高性能、线程安全且兼容IL2CPP的C# XML解析器。
 * [.NET XDT](https://github.com/nil4/dotnet-transform-xdt)：用于将XML文档转换应用于例如.NET配置文件或任何其他XML结构内容的工具和库。
+* [StackXML](https://github.com/ZingBallyhoo/StackXML)：基于栈的零分配XML序列化器和反序列化器。
+* [XDT](https://github.com/dotnet/xdt)：XDT是微软的XML文档转换库。
+* [HtmlMonkey](https://github.com/SoftCircuits/HtmlMonkey)：HtmlMonkey是一个用C#编写的轻量级HTML/XML解析器。
+* [XmlFacade](https://github.com/StoyanShopov/XmlFacade)：简化XML的序列化和反序列化。
+* [Bender](https://github.com/mikeobrien/Bender)：.NET的XML和JSON序列化器。
+* [DocXml](https://github.com/loxsmoke/DocXml)：C# XML读取阅读器。
+* [DynamicBuilder](https://github.com/mmonteleone/DynamicBuilder)：一个易于使用的C# 4 XML构建API。
+* [XmlDiffLib](https://github.com/BrutalSimplicity/XmlDiffLib)：用于查找两个XML文件之间差异的库。
+* [XmlToDynamic](https://github.com/jonathanconway/XmlToDynamic)：XmlToDynamic将你的XML对象转换为嵌套对象的层次结构，以便可以更轻松地获取值和属性。
+* [XmlToObjectParser](https://github.com/tucaz/XmlToObjectParser)：一个用C# 4.0实现的简单动态库，用于处理XML结构。
+* [UdonXML](https://github.com/Foorack/UdonXML)：UdonXML是一个用Udon编写、专为VRChat设计的XML解析器。
+* [PlistCS](https://github.com/animetrics/PlistCS)：一个C#属性列表序列化库。
 
 ## YAML
 
@@ -6926,11 +7015,14 @@
 * [Tomlet](https://github.com/SamboyCoding/Tomlet)：一个用于.NET的TOML库。
 * [Tommy](https://github.com/dezhidki/Tommy)：Tommy是一个用于C#的单文件TOML读取和写入工具。
 * [Nett](https://github.com/paiden/Nett)：Nett是一个用于在.NET中读取和写入TOML文件的库。
+* [CsToml](https://github.com/prozolic/CsToml)：CsToml是一个快速、低内存占用的.NET TOML解析器/序列化器。
+* [TOML.NET](https://github.com/rossipedia/toml-net)：用于TOML语言的基本C#解析器。
 
 ## TOON
 
 * [TOON .NET](https://github.com/toon-format/toon-dotnet)：社区驱动的TOON .NET实现。
 * [ToonEncoder](https://github.com/Cysharp/ToonEncoder)：.NET的高性能TOON编码器。
+* [ToonSharp](https://github.com/0xZunia/ToonSharp)：一个高性能的.NET 9库，用于序列化和反序列化TOON格式的数据。
 
 ## EDI
 
@@ -7365,6 +7457,11 @@
 * [Glimpse](https://github.com/Glimpse/Glimpse)：面向Web的开源诊断平台。
 * [Dnlib](https://github.com/0xd4d/dnlib)：.NET模块/程序集读取器/写入器库。
 
+## 布隆过滤器
+
+* [BloomFilter.NetCore](https://github.com/vla/BloomFilter.NetCore)：一个高性能、功能齐全的.NET Bloom过滤器库，支持内存和分布式Redis后端。
+* [BloomFilter.NET](https://github.com/joeyrobert/bloomfilter)：BloomFilter.NET是布隆过滤器的一种实现。
+
 ## 表达式引擎
 
 * [StringToExpression](https://github.com/codecutout/StringToExpression)：StringToExpression允许你创建接收字符串并输出.NET表达式的方法。
@@ -7584,3 +7681,4 @@
 * [SharpLink](https://github.com/usdAG/SharpLink)：在PowerShell中从低权限用户帐户创建文件系统符号链接。
 * [Manifold](https://github.com/Garume/Manifold)：Manifold是一个.NET基础，用于一次定义操作并通过CLI和MCP界面暴露它。
 * [BurstTrace](https://github.com/Elfinik/burst-trace)：适用于Unity Mono/DOTS、Burst和Jobs的高性能零分配堆栈跟踪记录器。
+* [ObjectDumper](https://github.com/thomasgalliker/ObjectDumper)：ObjectDumper是一个工具，旨在将C#对象序列化为字符串，以便调试和日志记录。
