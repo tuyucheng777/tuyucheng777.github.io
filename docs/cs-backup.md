@@ -137,6 +137,7 @@
 * [快速开发框架](#快速开发框架)
 * [权限管理系统](#权限管理系统)
 * [代码生成器](#代码生成器)
+* [构建器模式](#构建器模式)
 * [CMS系统](#CMS系统)
 * [项目管理](#项目管理)
 * [社交网络](#社交网络)
@@ -2705,12 +2706,9 @@
 * [ImmutableObjectGraph](https://github.com/AArnott/ImmutableObjectGraph)：该项目提供代码生成功能，使编写不可变对象变得更加容易。
 * [WebApiClientGen](https://github.com/zijianhuang/webapiclientgen)：强类型客户端API生成器可以从ASP.NET Web API和.NET Core Web API生成C#.NET和TypeScript编写的强类型客户端API，支持jQuery和Angular 2+。
 * [Scripty](https://github.com/daveaglick/Scripty)：用于让你使用Roslyn驱动的C#脚本进行代码生成的工具。
-* [M31.FluentAPI](https://github.com/m31coding/M31.FluentAPI)：轻松为你的C#类生成流式构建器。
-* [FluentBuilder](https://github.com/StefH/FluentBuilder)：使用源生成为指定模型或DTO创建FluentBuilder的项目。
 * [ServiceScan.SourceGenerator](https://github.com/Dreamescaper/ServiceScan.SourceGenerator)：Microsoft.Extensions.DependencyInjection的程序集扫描源生成器。
 * [T4MVC](https://github.com/T4MVC/T4MVC)：T4MVC是一个用于ASP.NET MVC应用程序的T4模板，它创建强类型辅助函数，从而在许多地方消除了字面字符串的使用。
 * [CodegenCS](https://github.com/Drizin/CodegenCS)：CodegenCS是一个代码生成工具包，其中的模板是用纯C#编写的。
-* [Data Builder Generator](https://github.com/dasMulli/data-builder-generator)：允许为你的模型类生成数据构建器模式。
 * [Geco](https://github.com/iQuarc/Geco)：基于控制台项目的简单代码生成器，运行于.Net Core并使用C#插值字符串。
 * [C2CS](https://github.com/bottlenoselabs/c2cs)：C到C#库绑定代码生成器。
 * [Testura.Code](https://github.com/Testura/Testura.Code)：Testura.Code是Roslyn API的包装器，用于生成、保存和编译C#代码。
@@ -2722,6 +2720,14 @@
 * [StructureOfArraysGenerator](https://github.com/Cysharp/StructureOfArraysGenerator)：数组结构源生成器，用于为.NET和Unity中的高性能代码创建CPU缓存和SIMD友好型数据结构。
 * [AutoRegisterInject](https://github.com/patrickklaeren/AutoRegisterInject)：AutoRegisterInject是一个C#源生成器，它会自动为带有属性标记的类型创建Microsoft.Extensions.DependencyInjection注册。
 * [Thinktecture.Runtime.Extensions](https://github.com/PawelGerr/Thinktecture.Runtime.Extensions)：该库提供一些接口、类、Roslyn源生成器、Roslyn分析器和Roslyn CodeFixes，用于实现智能枚举、值对象和判别联合。
+
+## 构建器模式
+
+* [M31.FluentAPI](https://github.com/m31coding/M31.FluentAPI)：轻松为你的C#类生成流式构建器。
+* [Data Builder Generator](https://github.com/dasMulli/data-builder-generator)：允许为你的模型类生成数据构建器模式。
+* [FluentBuilder](https://github.com/StefH/FluentBuilder)：使用源生成为指定模型或DTO创建FluentBuilder的项目。
+* [BuilderGenerator](https://github.com/MelGrubb/BuilderGenerator)：这是一个.NET源代码生成器，旨在为你的项目添加构建器。
+* [Builder Pattern Generator](https://github.com/macsux/builder-pattern-generator)：.NET构建器模式源代码生成器。
 
 ## CMS系统
 
@@ -5279,6 +5285,10 @@
 * [Fare](https://github.com/moodmosaic/Fare)：Fare是成熟的Java库dk.brics.automaton的.NET移植版。
 * [RegExtract](https://github.com/sblom/RegExtract)：快速而又简洁的惯用C#行解析器，可将文本提取为实用数据类型。
 * [Nodexr](https://github.com/Jcparkyn/nodexr)：Nodexr是一个基于节点的正则表达式编辑器，使用C#和Blazor编写。
+* [SRM](https://github.com/AutomataDotNet/srm)：SRM是一款高性能正则表达式匹配引擎，具有可预测的性能特征。
+* [RegexBuilder](https://github.com/YuriyGuts/regex-builder)：这是一个.NET库，用于以人类可读的方式声明正则表达式，无需记住正则表达式语法。
+* [Regextra](https://github.com/amageed/Regextra)：Regextra是一个小型库，旨在解决那些可以通过正则表达式轻松解决的问题。
+* [Gigantor](https://github.com/imagibee/Gigantor)：提升正则表达式搜索/替换性能，包括支持巨型文件和流。
 
 ## 手机号解析
 
