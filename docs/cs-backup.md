@@ -221,6 +221,7 @@
 * [DLL注入](#DLL注入)
 * [程序集](#程序集)
 * [任务调度](#任务调度)
+* [Cron](#Cron)
 * [配置管理](#配置管理)
 * [规则引擎](#规则引擎)
 * [CEP引擎](#CEP引擎)
@@ -908,6 +909,18 @@
 * [Curl2CSharp](https://github.com/olsh/curl-to-csharp)：这个ASP.NET Core应用可以将Curl命令转换为C#代码。
 * [HttpClientToCurlGenerator](https://github.com/amingolmahalle/HttpClientToCurlGenerator)：直接从你的.NET HttpClient或HttpRequestMessage生成Curl命令，非常适合调试、记录和共享HTTP请求。
 * [DotNetCore.SKIT.FlurlHttpClient](https://github.com/fudiwei/DotNetCore.SKIT.FlurlHttpClient)：SKIT.FlurlHttpClient系列开发工具包的公共组件，为开发者提供使用体验一致、可跨平台的第三方API .NET SDK。
+* [HttpClientFactory](https://github.com/yuzd/HttpClientFactory)：适用于.NET Core和.NET Framework的安全HttpClient。
+* [FluentRest](https://github.com/loresoft/FluentRest)：轻量级的HttpClient流式封装，使REST调用更简单。
+* [HttpClientGoodies.NET](https://github.com/jeffijoe/httpclientgoodies.net)：一套适用于.NET HttpClient的实用工具。
+* [Httwrap](https://github.com/bugthesystem/Httwrap)：通用、简单但实用的.NET和Xamarin/Mono的HttpClient封装。
+* [HttpClient](https://github.com/ClaytonIndustries/HttpClient)：Http Client是一个插件，使在Unity游戏中进行HTTP/HTTPS REST调用变得容易。
+* [Nightingale](https://github.com/jenius-apps/nightingale-core)：Nightingale是一个REST客户端应用程序，它允许你发送HTTP请求并查看它们的响应。
+* [Ramone](https://github.com/JornWildt/Ramone)：一个用于调用HTTP/REST服务的C#客户端框架。
+* [AgileHttp](https://github.com/kklldog/AgileHttp)：一个敏捷的HTTP客户端。
+* [NClient](https://github.com/nclient/NClient)：NClient是一个自动、类型安全的.NET HTTP客户端，可以使用带注解的接口调用Web API方法。
+* [Unity URLClient](https://github.com/imkira/unity-urlclient)：Unity URLClient是一个用于通过HTTP/HTTPS下载文件的Unity 3D插件。
+* [HttpClients](https://github.com/beetlex-io/HttpClients)：适用于.NET Standard 2.0的BeetleX HTTP和WebSocket客户端。
+* [SimpleHTTP](https://github.com/satanas/unity-simple-http)：SimpleHTTP是Unity的一个非常简单的HTTP客户端。
 
 ## Socket
 
@@ -1022,6 +1035,13 @@
 * [FtpServer](https://github.com/FubarDevelopment/FtpServer)：用.NET编写的可移植FTP服务器。
 * [CoreFTP](https://github.com/sparkeh9/CoreFTP)：CoreFTP是一个用纯C#编写的简单.NET FTP库。
 * [MyFTP](https://github.com/luandersonn/MyFTP)：一个简单、快速、轻量且漂亮的FTP客户端。
+* [Sharp FTP Server](https://github.com/rickbassham/sharp-ftp-server)：用C#编写的异步FTP服务器。
+* [DURANGO FTP](https://github.com/Dantes-Dungeon/DURANGO-FTP)：这是一个为Xbox One打造的FTP服务器应用。
+* [SuperSocket.FtpServer](https://github.com/SuperSocket/SuperSocket.FtpServer)：用C#编写的异步FTP服务器。
+* [MetroFtpClient](https://github.com/steve600/MetroFtpClient)：基于PrismMahAppsSample和标准.NET类FtpWebRequest/FtpWebResponse的FTP客户端。
+* [FtpServer](https://github.com/taoyouh/FtpServer)：一个用于.NET Core的FTP服务器程序，以及其可自定义的.NET Standard核心库。
+* [Arx One FTP](https://github.com/ArxOne/FTP)：一个简单的FTP/FTPS/FTPES客户端。
+* [FlagFtp](https://github.com/flagbug/FlagFtp)：FlagFtp是一个适用于.NET的FTP库，支持各种操作，例如获取文件列表、从/向文件写入和读取、获取文件和目录信息等。
 
 ## DNS
 
@@ -1189,6 +1209,7 @@
 * [NaiveSharp](https://github.com/KevinSHIT/NaiveSharp)：一个NaiveProxy Windows客户端。
 * [WebApiProxy](https://github.com/RestCode/WebApiProxy)：该项目包含一个服务器端扩展，用于提供服务元数据的代理端点。
 * [AspNetCore.SpaYarp](https://github.com/berhir/AspNetCore.SpaYarp)：在.NET 6中针对新的ASP.NET Core SPA模板的一种替代方法，它使用YARP作为代理，将请求转发到SPA开发服务器。
+* [Shadowsocks.Net](https://github.com/HMBSbige/Shadowsocks.Net)：SOCKS5、HTTP、管道和Shadowsocks。
 
 ## KCP
 
@@ -1259,6 +1280,15 @@
 * [Camunda.Api.Client](https://github.com/jlucansky/Camunda.Api.Client)：适用于.NET平台的Camunda REST API客户端。
 * [Elsa Studio](https://github.com/elsa-workflows/elsa-studio)：Elsa Studio是一个模块化、可扩展的应用框架，使用MudBlazor构建，用于管理Elsa工作流及相关实体。
 * [BPMN View](https://github.com/bzinchenko/bpmnview)：一个简单的免费工具，用于查看和打印流行BPMN格式的业务流程图。
+* [Objectflow](https://github.com/tkellogg/objectflow)：Objectflow是一个框架，使用流式的语法在C#中声明式创建工作流。
+* [NActivity](https://github.com/zhangzihan/nactivity)：Java Activity移植。
+* [Serverless Workflow](https://github.com/serverlessworkflow/sdk-net)：Serverless Workflow是一个开源、供应商中立且社区驱动的项目，它通过其高级DSL重新定义了工作流创建。
+* [FlowSynx](https://github.com/flowsynx/flowsynx)：FlowSynx是一个用于可组合微工作流的确定性编排器，能够在任何环境中实现可复现、版本控制和可审计的自动化。
+* [QuineFlows](https://github.com/zvrba/QuineFlows)：用于安全文件复制、监控文件夹和定义有向无环图工作流的C#库。
+* [Plumber](https://github.com/nathanwoulfe/Plumber)：Plumber为Umbraco增加了大量有用的零散功能，以允许对发布/取消发布操作进行多阶段工作流审批。
+* [REstate](https://github.com/psibr/REstate)：REstate是一个可移植的状态流系统。
+* [NetWorkflow](https://github.com/Tmarndt1/NetWorkflow)：NetWorkflow是一个轻量级的C# .NET工作流库。
+* [BPMTK](https://github.com/caifl/bpmtk)：BPMTK是开源的业务流程平台，符合BPMN 2.0业务流程语言规范。
 
 ## 人工智能
 
@@ -1932,6 +1962,7 @@
 * [SQLiteHelper](https://github.com/adriancs2/SQLiteHelper.net)：SQLiteHelper旨在简化C#中SQLite的使用。
 * [YeSQL.NET](https://github.com/ose-net/yesql.net)：YeSQL.NET是一个类库，用于从.sql文件加载SQL语句，而不是在C#源文件中编写SQL代码。
 * [PostgreSQLCopyHelper](https://github.com/PostgreSQLCopyHelper/PostgreSQLCopyHelper)：PostgreSQLCopyHelper是一个用于高效批量插入PostgreSQL数据库的库。
+* [DeclarativeSql](https://github.com/xin9le/DeclarativeSql)：该库提供基于属性的表映射和简单的数据库访问。
 
 ## 查询构建器
 
@@ -2102,6 +2133,26 @@
 * [DevelDB](https://github.com/deveel/deveeldb)：DevelDB是一个完整、可嵌入的SQL-99关系数据库管理系统，适用于.NET/Mono框架。
 * [JSON Flat File Data Store](https://github.com/ttu/json-flatfile-datastore)：一款轻量级、基于JSON的数据存储解决方案，非常适合需要简单文件存储的小型应用和原型。
 * [BinaryRage](https://github.com/mchidk/BinaryRage)：超高速.NET键值存储。
+* [StringDB](https://github.com/monoclex/StringDB)：StringDB是一个键/值对存储，提供友好的API，以尽可能少地使用RAM和空间。
+* [STSdb4](https://github.com/STSSoft/STSdb4)：STSdb 4.0是一个具有创新索引算法的NoSQL键值存储开源数据库。
+* [DataTanker](https://github.com/VictorScherbakov/DataTanker)：.NET的嵌入式持久化键值存储。
+* [DryDB](https://github.com/hadashiA/DryDB)：DryDB是一个只读的嵌入式B树键/值数据库，用纯C#实现。
+* [Fast Persistent Dictionary](https://github.com/jgric2/Fast-Persistent-Dictionary)：Fast Persistent Dictionary是在C#中实现持久字典的一种方式。
+* [SharpDB](https://github.com/Polyhaze/SharpDB)：SharpDB是基于C#的高性能键值NoSQL数据库，支持ACID事务。
+* [SimpleStorage](https://github.com/zauberzeug/SimpleStorage)：简单的跨平台键/值存储。
+* [Shielded.Gossip](https://github.com/jbakic/Shielded.Gossip)：Shielded.Gossip是一个用于.NET Standard的分布式键/值存储库，支持最终一致性和强一致性事务。
+* [VestPocket](https://github.com/pocketsol/VestPocket)：Vest Pocket是一个单文件持久化查找库，包含在一个纯.NET 8.0库中。
+* [LiteGraph](https://github.com/litegraphdb/litegraph)：LiteGraph是一个属性图数据库，支持图关系、标签、元数据、数据和向量。
+* [HyperVectorDB](https://github.com/deatos/HyperVectorDB)：HyperVectorDB是一个用C#构建的本地向量数据库，支持各种距离/相似度度量。
+* [CogniPy](https://github.com/cognitum-octopus/cognipy)：内存图数据库和知识图谱，带自然语言接口，兼容Pandas。
+* [HexaDb](https://github.com/angshuman/hexadb)：HexaDb是一个基于三元组的图数据存储，创建在RocksDb存储之上。
+* [Stellar.FastDB](https://github.com/stonstad/Stellar.FastDB)：Stellar.FastDB是一个用于C#的非常快速的文档存储，其速度大约比类似产品快100倍。
+* [BLite](https://github.com/EntglDb/BLite)：BLite是一个嵌入式、符合ACID的面向文档的数据库，从零开始构建，以实现最大性能和零分配。
+* [NosDB](https://github.com/Alachisoft/NosDB)：NosDB是一个100%原生.NET开源NoSQL数据库。
+* [Sterling Database](https://github.com/JeremyLikness/sterling-net-core)：Sterling开源NoSQL数据库.NET版本移植。
+* [BlazorDB](https://github.com/chanan/BlazorDB)：.NET Blazor浏览器框架的数据库。
+* [SharpFileDB](https://github.com/bitzhuwei/SharpFileDB)：SharpFileDB是一个纯C#的无SQL的支持CRUD的小型文件数据库。
+* [MarcelloDB](https://github.com/markmeeus/MarcelloDB)：MarcelloDB是一个嵌入式NoSQL对象数据库。
 
 ## 事件存储
 
@@ -2486,6 +2537,11 @@
 * [HyperMapper](https://github.com/neuecc/HyperMapper)：AutoMapper的替代方案，基于最快的序列化器技术构建的超快速对象到对象映射器。
 * [ArtificialCast](https://github.com/Zorokee/ArtificialCast)：ArtificialCast是一个轻量级、类型安全的类型转换工具，由大语言模型驱动。
 * [MapTo](https://github.com/mrtaikandi/MapTo)：基于约定的对象到对象映射器，使用Roslyn源生成器。
+* [MagicMapper](https://github.com/NET-Sorcery/MagicMapper)：.NET中基于约定的对象到对象映射器。
+* [NextGenMapper](https://github.com/DedAnton/NextGenMapper)：速度极快、重量级的极简主义对象映射器，可即时生成。
+* [Artnix.MapperFramework](https://github.com/arttonoyan/Mapper)：.NET Core 2.0中的约定对象到对象或DataReader到对象映射器。
+* [UltraMapper](https://github.com/maurosampietro/UltraMapper)：UltraMapper是一个.NET映射器。
+* [PropMapper](https://github.com/jitbit/PropMapper)：.NET的属性映射器。
 
 ## 对象池
 
@@ -2503,6 +2559,10 @@
 * [IdleBus](https://github.com/2881099/IdleBus)：IdleBus空闲对象管理容器，有效组织对象重复利用，自动创建、销毁，解决实例过多且长时间占用的问题。
 * [SafeObjectPool](https://github.com/2881099/SafeObjectPool)：对象池容器化管理一批对象，重复使用从而提升性能。
 * [CloneExtensions](https://github.com/MarcinJuraszek/CloneExtensions)：克隆扩展方法库。
+* [XPool](https://github.com/mackysoft/XPool)：XPool是一个用于Unity的对象池库。
+* [Unity Pooler](https://github.com/GalvanicGames/unity-pooler)：用于GameObjects和普通C#类的对象池。
+* [QuickPool](https://github.com/densylkin/QuickPool)：适用于Unity游戏引擎的简单对象池工具包。
+* [Simple Prefab Pool](https://github.com/TarasOsiris/unity3d-prefab-pool)：Unity3D简单预制件对象池。
 
 ## 项目模板
 
@@ -4086,23 +4146,45 @@
 * [NCronJob](https://github.com/NCronJob-Dev/NCronJob)：构建于.NET中IHostedService之上的作业调度程序。
 * [CronScheduler.AspNetCore](https://github.com/kdcllc/CronScheduler.AspNetCore)：适用于ASP.NET Core和.NET Core的强大Cron作业调度程序。
 * [Chroniton](https://github.com/leosperry/Chroniton)：用于按计划运行任务的库。
-* [BlazingQuartz](https://github.com/wilchn/BlazingQuartz)：BlazingQuartz是一个易于使用的Blazor Web UI，用于管理Quartz.NET计划程序作业。
 * [Scheduler.NET](https://github.com/zlzforever/Scheduler.NET)：Scheduler.NET是一个分布式调度系统，它支持HTTP回调作业和客户端管理作业。
 * [ScheduleMasterCore](https://github.com/hey-hoho/ScheduleMasterCore)：ScheduleMaster是一个开源的分布式任务调度系统，它基于.NET Core 3.1平台构建，支持跨平台多节点部署运行。
 * [Gofer.NET](https://github.com/brthor/Gofer.NET)：用于.NET Core的分布式后台任务/作业的简单C# API。
 * [Quartzmin](https://github.com/jlucansky/Quartzmin)：Quartzmin是一款功能强大、易于使用的Web管理工具，可用于Quartz.NET。
-* [CronNET](https://github.com/kevincolyar/CronNET)：CronNET是一个简单的C#库，用于根据Cron计划运行任务。
-* [NCrontab](https://github.com/atifaziz/NCrontab)：NCrontab是一个针对.NET Standard 1.0的库，促进Crontab表达式的解析。
 * [DotNetWorkQueue](https://github.com/blehnen/DotNetWorkQueue)：一个用于.NET的工作队列，支持SQL Server、SQLite、Redis和PostgreSQL后端。
-* [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor)：一个将Cron表达式转换为可读描述的.NET库。
 * [Cronos](https://github.com/HangfireIO/Cronos)：Cronos是一个用于解析Cron表达式和计算下一个发生时间的.NET库。
 * [DotXxlJob](https://github.com/xuanye/DotXxlJob)：XXL-JOB的.NET Core执行器实现。
 * [BusyBee](https://github.com/mikasjp/BusyBee)：BusyBee是一个高性能的.NET后台处理库，基于原生通道构建。
 * [HashedWheelTimer](https://github.com/wangjia184/HashedWheelTimer)：在C#中实现的HashedWheelTimer。
 * [Durable Task .NET](https://github.com/microsoft/durabletask-dotnet)：Durable Task .NET SDK是一个独立的.NET库，用于实现持久任务的编排、活动和实体。
-* [CronCraft](https://github.com/teesofttech/CronCraft)：CronCraft是一个轻量级、对开发者友好的.NET SDK，它将Cron表达式转换为人类可读的字符串。
 * [RecurrentTasks](https://github.com/justdmitry/RecurrentTasks)：这个轻量级库允许你在ASP.NET应用程序中按指定的时间间隔运行简单的后台任务。
 * [Milvaion](https://github.com/Milvasoft/milvaion)：Milvaion是一个分布式作业调度系统，它将调度器与工作节点分离，通过Redis和RabbitMQ连接。
+* [CronNET](https://github.com/kevincolyar/CronNET)：CronNET是一个简单的C#库，用于根据Cron计划运行任务。
+* [NaturalCron](https://github.com/hugoj0s3/NaturalCron)：NaturalCron是一个适用于.NET的人类可读的调度引擎。
+* [EasyCronJob](https://github.com/furkandeveloper/EasyCronJob)：EasyCronJob为你的应用程序在IHostedService上提供简单的定时任务。
+* [Pilgaard.BackgroundJobs](https://github.com/NielsPilgaard/Pilgaard.BackgroundJobs)：一个用于以可扩展和高性能的方式运行后台作业的.NET库。
+* [Sgbj.Cron.CronTimer](https://github.com/sgbj/crontimer)：类似于PeriodicTimer，但用于定时任务。
+* [Occurify](https://github.com/Occurify/Occurify)：一个功能强大且直观的.NET库，用于定义、筛选、转换和调度即时和周期性时间线。
+* [NCron](https://github.com/schourode/ncron)：.NET调度框架。
+* [Web Scheduler](https://github.com/web-scheduler/web-scheduler)：Web Scheduler是一个高可用性、分布式任务调度系统，允许用户调度一次性或周期性任务。
+* [XXL Job .NET](https://github.com/yuniansheng/xxl-job-dotnet)：为XXL Job提供一个.NET版本的任务执行器。
+* [Fantasma](https://github.com/patriksvensson/fantasma)：Fantasma是一个极简主义、有自己独特风格的ASP.NET Core作业调度库。
+* [TaskScheduler](https://github.com/shehryarkn/TaskScheduler)：这是一个非常简单的C#任务调度器，无需任何库。
+* [DNTScheduler.Core](https://github.com/VahidN/DNTScheduler.Core)：DNTScheduler.Core是一个轻量级的ASP.NET Core后台任务运行器和调度器。
+* [Revalee](https://github.com/SageAnalytic/Revalee)：Revalee可以简化Web应用程序的工作流程，尤其是在正常处理Web请求之后需要执行事件时。
+* [Tempus](https://github.com/Workshell/tempus)：这是一个用于调度和执行作业的类库，类似于Hangfire或Quartz，但API接口和功能集更简单。
+* [Swarm](https://github.com/zlzforever/Swarm)：Swarm是一个基于Quartz的分布式调度作业框架。
+* [TaskScheduler](https://github.com/umaranis/TaskScheduler)：TaskScheduler是一个简单高效的C# .NET库，它能够按照指定的日期和时间运行给定的任务。
+* [King.Service](https://github.com/jefking/King.Service)：.NET任务调度库。
+* [Akka.Persistence.Reminders](https://github.com/object/Akka.Persistence.Reminders)：一个专为长时间运行任务设计的Akka.NET调度器。
+* [Blue Collar](https://github.com/ChadBurggraf/blue-collar)：Blue Collar是一个用于在.NET应用程序中创建、管理和执行后台工作的系统。
+
+## Cron
+
+* [NCrontab](https://github.com/atifaziz/NCrontab)：NCrontab是一个针对.NET Standard 1.0的库，促进Crontab表达式的解析。
+* [Cron Expression Descriptor](https://github.com/bradymholt/cron-expression-descriptor)：一个将Cron表达式转换为可读描述的.NET库。
+* [CronCraft](https://github.com/teesofttech/CronCraft)：CronCraft是一个轻量级、对开发者友好的.NET SDK，它将Cron表达式转换为人类可读的字符串。
+* [TimeCrontab](https://github.com/monksoul/TimeCrontab)：.NET全能Cron表达式解析库，支持Cron所有特性。
+* [NCrontab Advanced](https://github.com/jcoutch/NCrontab-Advanced)：.NET的Cron字符串解析器。
 
 ## 配置管理
 
@@ -6309,6 +6391,12 @@
 * [OpenScraping C#](https://github.com/microsoft/openscraping-lib-csharp)：将非结构化的HTML页面转换为结构化数据。
 * [CloudflareSolverRe](https://github.com/RyuzakiH/CloudflareSolverRe)：Cloudflare Javascript和reCaptcha挑战的解决/绕过.NET Standard库。
 * [CloudFlareUtilities](https://github.com/elcattivo/CloudFlareUtilities)：一个使用委托处理程序绕过Cloudflare的反DDoS措施的.NET Standard库。
+* [WebCrawler](https://github.com/Misterhex/WebCrawler)：这是一个简单的网络爬虫，它使用响应式扩展、Async/Await和Polly将爬取的链接作为IObservable返回。
+* [SkyScraper](https://github.com/JonCanning/SkyScraper)：一个使用Async/Await和响应式扩展的异步网络爬虫/网页抓取器。
+* [HttpCodeLib](https://github.com/msdn5/HttpCodeLib)：C#功能强大且易于使用的HTTP爬虫框架。
+* [Harvest](https://github.com/pinscript/Harvest)：Harvest是一个用于网页爬虫的多线程C#库。
+* [SpiderX](https://github.com/LeaFrock/SpiderX)：一个基于.NET Core的简单网络爬虫开发框架。
+* [CocoCrawler](https://github.com/Marcel0024/CocoCrawler)：CocoCrawler是一个易于使用的C#网络爬虫、数据抓取和解析器。
 
 ## 短链
 
@@ -6891,6 +6979,29 @@
 * [ExcelLibrary](https://github.com/gustafl/ExcelLibrary)：这是一个小型的C#库，用于简化在Open XML文件格式中读取和写入Excel工作簿。
 * [ExcelProvider](https://github.com/fsprojects/ExcelProvider)：该库是为.NET平台实现的只读Excel类型提供程序。
 * [FsExcel](https://github.com/misterspeedy/FsExcel)：FsExcel是一个可以使用非常简单的代码生成Excel电子表格的库。
+* [ConfigExcel](https://github.com/yukuyoulei/ConfigExcel)：Excel导出成C#类并填充数据，省去序列化和反序列化的消耗。
+* [Excel.IO](https://github.com/OfficeDev/Excel-IO)：这个项目的目标是简化Excel工作簿的读写，使开发者只需传递一个对象集合即可写入工作簿。
+* [Excelsior](https://github.com/SimonCropp/Excelsior)：Excelsior是一个Excel表格生成库，具有独特的数据驱动方法。
+* [EPPlus.Core.Extensions](https://github.com/eraydin/EPPlus.Core.Extensions)：EPPlus包的扩展库，用于轻松生成和操作Excel文件。
+* [ExcelCake](https://github.com/winstonwxj/ExcelCake)：基于EPPlus开发的Excel通用导入导出类库。
+* [EPPlus.DataExtractor](https://github.com/ipvalverde/EPPlus.DataExtractor)：这是一个简单的EPPlus扩展，可以更容易地从电子表格中提取POCO。
+* [DocTransform](https://github.com/xihan123/DocTransform)：DocTransform是一款高效的Excel到Word数据映射应用程序，使用C#开发。
+* [PicoXLSX](https://github.com/rabanti-github/PicoXLSX)：PicoXLSX是一个用C#编写的小型.NET库，用于以简单且本地的方式创建XLSX格式的Microsoft Excel文件。
+* [ExcelExport](https://github.com/fingers10/ExcelExport)：用于在ASP.NET Core中生成Excel/CSV报表的简单类。
+* [ExcelPatternTool](https://github.com/jevonsflash/ExcelPatternTool)：Excel表格-数据库互导工具。
+* [SwiftExcel](https://github.com/RomanPavelko/SwiftExcel)：轻量级、极其快速且内存高效的Excel输出库，适用于.NET和.NET Core应用程序。
+* [ExcelReportGenerator](https://github.com/traf72/excel-report-generator)：这个库允许你通过使用面板和模板标记Excel工作表来将数据渲染到Microsoft Excel。
+* [ExcelExporter](https://github.com/SLaks/ExcelExporter)：ExcelExport是一个简单、流式的API，用于将数据导出到Excel电子表格。
+* [ArrayToExcel](https://github.com/mustaddon/ArrayToExcel)：从数组创建Excel。
+* [Excel2Object](https://github.com/chsword/Excel2Object)：Excel与.NET对象互相转换。
+* [Bumblebee](https://github.com/ksobon/Bumblebee)：Bumblebee是Dynamo的一个Excel互操作工具。
+* [ExcelToHtml](https://github.com/kotynia/ExcelToHtml)：Excel到HTML库和控制台应用程序。
+* [ExcelKit](https://github.com/AdvanceOpen/ExcelKit.Sample)：.NET下简单易用的百万级数据导出到Excel。
+* [NPOI Template](https://github.com/wilson6/NPOI-Template)：NPOI Template根据NPOI模版去生成复杂的Excel表格。
+* [TianCheng.Excel](https://github.com/chengkkll/TianCheng.Excel)：EPPlus封装，实现可以按对象读写Excel。
+* [ExcelToEnumerable](https://github.com/ChrisHodges/ExcelToEnumerable)：一个用于将Excel表格映射到对象列表的高性能库。
+* [Excel2JSON](https://github.com/tidys/excel2Json)：Excel转换JSON工具。
+* [EasyOffice](https://github.com/Nokecy/EasyOffice)：一个用于轻松操作Excel和Word的.NET库。
 
 ## CSV
 
@@ -6992,6 +7103,37 @@
 * [DanfeSharp](https://github.com/SilverCard/DanfeSharp)：DanfeSharp是一个C#库，它允许生成PDF格式的DANFE。
 * [MiniPdf](https://github.com/mini-software/MiniPdf)：一个极简、轻量化的.NET库，用于将Office文件转换为PDF。
 * [BulkPDF](https://github.com/Tadelsucht/BulkPDF)：BulkPDF是一款免费且易于使用的开源软件，它可以自动将不同的值填写到现有的PDF表单中。
+* [Api2Pdf.NET](https://github.com/Api2Pdf/api2pdf.dotnet)：Api2Pdf.com是一个强大的REST API，用于在.NET应用程序中生成文档、文件转换和自动化内容提取。
+* [Report.NET](https://github.com/ritchiecarroll/Report.NET)：Report.NET类库用于生成精确的PDF文档。
+* [PDFEncrypt](https://github.com/ryangriggs/PDFEncrypt)：PDFEncrypt是一个免费的开源Windows应用程序，用于快速轻松地加密PDF文件。
+* [Melville.PDF](https://github.com/DrJohnMelville/Pdf)：Melville.PDF让PDF文档可以在.NET应用中免费显示。
+* [PdfiumLight](https://github.com/marcpabst/PdfiumLight)：一个用于在.NET应用中使用Google的Pdfium渲染PDF的轻量级C#库。
+* [Docx4j.NET](https://github.com/plutext/docx4j.NET)：.NET的Docx4j绑定。
+* [PdfFileWriter](https://github.com/Uzi-Granot/PdfFileWriter)：PdfFileWriter类库允许你直接从.NET应用程序创建PDF文件。
+* [LibreOfficeLibrary](https://github.com/DigDes/LibreOfficeLibrary)：用于使用LibreOffice处理文档的库。
+* [HtmlToPDFCore](https://github.com/carloscds/HtmlToPDFCore)：将HTML转换为PDF。
+* [DtronixPdf](https://github.com/Dtronix/DtronixPdf)：DtronixPdf是一个.NET 8.0库，用于通过PDFium库处理PDF的交互。
+* [PDFSharp](https://github.com/Didstopia/PDFSharp)：一个用于读取、写入和编辑PDF文件的.NET Standard 2.0库。
+* [ACadSharp.Pdf](https://github.com/DomCR/ACadSharp.Pdf)：用于从ACadSharp读取的DWG和DXF文件生成PDF文件的库。
+* [XiaoFeng.Ofd](https://github.com/zhuovi/XiaoFeng.Ofd)：OFD读写处理库，支持文档的生成、文档编辑、数字签名、文档合并、文档拆分、文档转换至PDF、文档查询等功能。
+* [PdfPig.Rendering.Skia](https://github.com/BobLd/PdfPig.Rendering.Skia)：跨平台库，用于使用SkiaSharp通过PdfPig将PDF文档渲染为图像，或将PDF页面中包含的图像提取为SkiaSharp图像。
+* [PdfReader](https://github.com/ComponentFactory/PdfReader)：在C#中快速加载和解析PDF格式。
+* [iText PDF OCR](https://github.com/itext/itext-pdfocr-dotnet)：PDF OCR是iText的一个附加组件，用于识别和提取扫描文档和图像中的文本。
+* [PdfDocumentParser](https://github.com/SergiyStoyan/PdfDocumentParser)：PdfDocumentParser是一个用于构建PDF解析器的.NET工具集。
+* [PDF To Image](https://github.com/chen0040/cs-pdf-to-image)：一个基于.NET 4.0的x86简单库，用于将PDF转换为.NET的图像。
+* [QuestPdfUtil](https://github.com/adamfoneil/QuestPdfUtil)：一个用于QuestPDF的轻量级HTML转PDF转换库。
+* [iDiTect C#.NET Converter Tool](https://github.com/iditectweb/converter)：独立的.NET转换库，无需Adobe Acrobat组件或Microsoft Office Interop程序集，可在.NET框架中转换PDF、DOCX、XLSX、HTML、图像、CSV、RTF、TXT。
+* [PdfFileWriter.NET](https://github.com/jeske/PdfFileWriter.NET)：PdfFileWriter.NET是一个用于写入PDF文件的C#库。
+* [Camelot Sharp](https://github.com/BobLd/camelot-sharp)：一个用于从PDF中提取表格数据的C#库。
+* [ExtractTablesFromPdf](https://github.com/bubibubi/ExtractTablesFromPdf)：从PDF中提取表格。
+* [Asyprint.Wrapped](https://github.com/berthertogen/weasyprint.wrapped)：Asyprint库的封装器，允许你将HTML打印成PDF文件。
+* [XpsToPdf](https://github.com/XpsToPdf/XpsToPdf)：一个用于将XPS转换为PDF的单一软件包。
+* [PdfTextract](https://github.com/DavidS/PdfTextract)：一个用于从PDF中提取文本的小型工具类。
+* [DocxToPdf](https://github.com/LINALIN1979/DocxToPdf)：用于在没有Office的情况下将.docx转换为.pdf的C#库。
+* [PDFSharp](https://github.com/DnevnikRu/PDFSharp)：.NET用于处理PDF的库。
+* [PdfToImage](https://github.com/doxakis/PdfToImage)：在C#中将PDF转换为JPG。
+* [Hocr](https://github.com/FairfieldTekLLC/Hocr)：用于将PDF文件转换为可搜索PDF文件的C#库。
+* [Pdflexer](https://github.com/pdflexer/pdflexer)：Pdflexer是一个PDF解析库。
 
 ## PPT
 
