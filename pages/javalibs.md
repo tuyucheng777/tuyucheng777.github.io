@@ -2598,6 +2598,7 @@ permalink: /javalibs
 * [CRJDT](https://github.com/fthomas/crjdt)：Scala中的无冲突复制JSON数据类型(CRDT)。
 * [Synk](https://github.com/CharlieTap/synk)：一个适用于离线优先应用的Kotlin多平台CRDT库。
 * [Akka Data Replication](https://github.com/patriknw/akka-data-replication)：Akka集群中CRDT的复制。
+* [Automerge Java](https://github.com/automerge/automerge-java)：Automerge是一种无冲突复制数据类型，它允许在不同设备上同时进行的更改自动合并，而无需任何中央服务器。
 
 ## 数据库
 
@@ -2649,6 +2650,10 @@ permalink: /javalibs
 * [Regain](https://regain.sourceforge.net/)：Regain是一款类似于Google等网络搜索引擎的搜索引擎。
 * [SimpleTextSearch](https://github.com/bradforj287/SimpleTextSearch)：这是一个轻量级且易于使用的Java全文搜索实现。
 * [WikiSe](https://github.com/arpitbbhayani/WikiSe)：WikiSe是一个完全用Java编写，并基于维基百科XML转储数据的维基百科搜索引擎。
+* [FTServer](https://github.com/iboxdb/ftserver)：Java全文搜索引擎服务器，轻量级可嵌入。
+* [Scalex](https://github.com/ornicar/scalex)：Scalex是类似Hoogle的Scala库文档搜索引擎。
+* [Flasma](https://github.com/sionic-ai/flasma)：利用GPU和动态布局实现高性能向量搜索引擎，精度无损失。
+* [Indexer4j](https://github.com/haeungun/indexer4j)：Indexer4j是一个简单的Java全文索引和搜索库。
 
 #### 图数据库
 
@@ -8221,6 +8226,7 @@ permalink: /javalibs
 
 #### JSON API
 
+* [Katharsis](https://github.com/katharsis-project/katharsis-framework)：Katharsis实现了JSON API标准，引入了一致的REST接口定义，可以通过统一的机制轻松地与其他系统集成。
 * [JSONAPI Converter](https://github.com/jasminb/jsonapi-converter)：JSONAPI Converter是一个提供使用JSON API规范与服务集成的方法的库。
 * [Scala JSONAPI](https://github.com/scala-jsonapi/scala-jsonapi)：Scala JSONAPI是一个Scala库，旨在帮助你轻松便捷地根据JSONAPI规范生成JSON输出。
 * [Moshi JSON-API](https://github.com/kamikat/moshi-jsonapi)：Moshi的JSON API规范v1.0的Java实现。
@@ -9405,7 +9411,6 @@ permalink: /javalibs
 * [JRuleEngine](https://jruleengine.sourceforge.net/)：JRuleEngine是一个Java规则引擎，基于JSR 94，版本1.1。
 * [URule](https://github.com/youseries/urule)：URule是一款基于RETE算法的纯Java规则引擎，提供规则集、决策表、决策树、评分卡、规则流等各种规则表现工具及基于网页的可视化设计器。
 * [Together](http://rongtek.com/col.jsp?id=115)：你可以通过Together规则引擎构建你的决策模型并将其打包成可独立运行的迷你jar包，快速部署到需要的任何IT环境中。
-* [DataFrames](https://github.com/databrickslabs/dataframe-rules-engine)：用于自定义数据框/数据集验证的可扩展规则引擎。
 * [JVS Rules](https://gitee.com/software-minister/jvs-rules)：本项目是基于JVS逻辑引擎构建的规则引擎。
 * [YARE](https://github.com/SabreOSS/yare)：YARE是一个用Java编写的规则引擎。
 * [Naga](https://github.com/threatgrid/naga)：Naga是一个在图数据库上执行规则的库。
@@ -9423,6 +9428,16 @@ permalink: /javalibs
 * [Reguloj](https://github.com/metio/reguloj)：Reguloj是一个小巧轻便的Java规则引擎。
 * [DTRules](https://github.com/dtrules/dtrules)：DTRules是一个可用于生产的规则引擎，它允许业务分析师和策略专家使用Excel电子表格中的决策表，结合人类可读的DSL来定义复杂的业务逻辑。
 * [Rules](https://github.com/maxant/rules)：Ant的简单规则引擎，适用于Java、Java 8、Scala和Node.js。
+* [GRule](https://github.com/dyingbleed/g-rule)：GRule是一个使用Java语言编写的轻量级规则引擎，支持使用Groovy脚本语言进行扩展。
+* [Rule](https://github.com/roirrow/rule)：基于QLExpress的规则引擎。
+* [RuleEngine](https://github.com/Rameshkatiyar/rules-engine)：一个通用的简单规则引擎实现。
+* [Rabo Rules](https://github.com/Rabobank-Archive/rule-engine)：Rabo Rules是一个用Scala编写的前向链接规则引擎。
+* [Grules](https://github.com/zhaber/grules)：Grules是一个用于数据预处理的规则引擎。
+* [Nics Easy Rules](https://github.com/selwynshen/nics-easy-rules)：Nics Easy Rules是基于Easy Rules改进开发的一个简单的规则引擎工具。
+* [Rulewerk](https://github.com/knowsys/rulewerk)：Rulewerk是一个基于VLog规则引擎的Java库。
+* [JRule](https://github.com/seaside1/jrule)：OpenHAB Java规则引擎。
+* [Jare](https://github.com/uwegeercken/jare)：Java业务规则引擎。
+* [Hammurabi](https://github.com/mariofusco/hammurabi)：Hammurabi是一个用Scala编写的规则引擎。
 
 ## 决策引擎
 
@@ -9599,6 +9614,7 @@ permalink: /javalibs
 * [Febit Wit](https://gitee.com/zqq90/webit-script)：这是一个模板引擎，完全用Java编写，支持Java 8+。
 * [Mustache.Clj](https://github.com/shenfeng/mustache.clj)：Mustache.Clj是Clojure中Mustache模板系统的实现。
 * [KTM](https://github.com/L-Briand/KTM)：一个纯Kotlin实现的Mustache多平台版本。
+* [Star Template](https://github.com/hstar9527/star-template)：一个轻量级的Java模板引擎。
 
 ## 批处理框架
 
@@ -19880,9 +19896,9 @@ Kafka生态管理系统、运维平台。
 
 ## 超媒体类型
 
+* [Spring Data REST](https://github.com/spring-projects/spring-data-rest)：Spring Data REST是Spring Data项目的一部分，使得在Spring Data Repository之上构建超媒体驱动的REST Web服务变得容易。
 * [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)：Spring HATEOAS提供了一些API，以便在与Spring配合使用时轻松创建遵循HATEOAS原则的REST表示。
 * [Hate](https://github.com/blackdoor/hate)：根据HAL规范构建超媒体友好的对象。
-* [Katharsis](https://github.com/katharsis-project/katharsis-framework)：Katharsis实现了JSON API标准，引入了一致的REST接口定义，可以通过统一的机制轻松地与其他系统集成。
 * [Spring HATEOAS JSON API](https://github.com/toedter/spring-hateoas-jsonapi)：这是与Spring HATEOAS集成的媒体类型application/vnd.api+json(JSON:API)的实现。
 * [Edison HAL](https://github.com/otto-de/edison-hal)：使用Jackson生成和使用REST资源的application/hal+json表示的库。
 

@@ -2085,6 +2085,9 @@
 * [Arrow ADBC](https://github.com/apache/arrow-adbc)：ADBC是一个API标准，用于C、Go和Java中的数据库访问库，它使用Arrow来处理结果集和查询参数。
 * [DbfDataReader](https://github.com/yellowfeather/DbfDataReader)：DbfDataReader是一个小型、快速的.NET Core库，用于读取dBase、xBase、Clipper和FoxPro数据库文件。
 * [MyCounch](https://github.com/danielwertheim/mycouch)：.NET的异步CouchDB客户端。
+* [Meilisearch .NET](https://github.com/meilisearch/meilisearch-dotnet)：Meilisearch .NET是面向C#开发人员的Meilisearch API客户端。
+* [SolrNet](https://github.com/SolrNet/SolrNet)：SolrNet是一个适用于.NET的Apache Solr和SolrCloud客户端。
+* [Lucene.Net.Linq](https://github.com/chriseldredge/Lucene.Net.Linq)：Lucene.Net.Linq是一个.NET库，它使LINQ查询能够在Lucene.Net索引上原生运行。
 
 ## EF Core扩展
 
@@ -2209,17 +2212,16 @@
 * [Resin](https://github.com/kreeben/resin)：Resin是一个向量空间搜索引擎、向量数据库和任意类型键值存储系统。
 * [Masuit.LuceneEFCore.SearchEngine](https://github.com/ldqk/Masuit.LuceneEFCore.SearchEngine)：基于Entity Framework Core和Lucene.NET实现的全文检索搜索引擎。
 * [HOOT](https://github.com/mgholam/hOOt)：最小的全文搜索引擎。
-* [Meilisearch .NET](https://github.com/meilisearch/meilisearch-dotnet)：Meilisearch .NET是面向C#开发人员的Meilisearch API客户端。
-* [SolrNet](https://github.com/SolrNet/SolrNet)：SolrNet是一个适用于.NET的Apache Solr和SolrCloud客户端。
 * [Examine](https://github.com/Shazwazza/Examine)：Examine让你可以轻松索引和搜索数据，并封装了Lucene.Net索引/搜索引擎。
 * [Vektonn](https://github.com/vektonn/vektonn)：Vektonn是一个高性能、经过实战验证的kNN向量搜索引擎，适用于你的数据科学应用。
 * [Infidex](https://github.com/lofcz/Infidex)：Infidex是一个基于模式识别的搜索引擎。
 * [Artado Search](https://github.com/Artado-Project/artadosearch)：Artado Search是一款功能全面且高度可定制的搜索引擎。
 * [LIFTI](https://github.com/mikegoatly/lifti)：一款轻量级的.NET全文索引器。
-* [Lucene.Net.Linq](https://github.com/chriseldredge/Lucene.Net.Linq)：Lucene.Net.Linq是一个.NET库，它使LINQ查询能够在Lucene.Net索引上原生运行。
 * [FTServer CS](https://github.com/iboxdb/ftserver-cs)：.NET全文搜索引擎服务器，轻量可嵌入，由iBoxDB提供支持。
 * [SearchExtensions](https://github.com/ninjanye/SearchExtensions)：SearchExtensions是一个包含IQueryable和IEnumerable扩展方法的库，用于执行搜索操作。
 * [ZoneTree.FullTextSearch](https://github.com/koculu/ZoneTree.FullTextSearch)：ZoneTree.FullTextSearch是一个开源库，用于使用ZoneTree存储引擎实现全文搜索引擎。
+* [Coresearch](https://github.com/pilotpirxie/coresearch)：用于构建搜索引擎的.NET Core跨平台、内存式全文搜索库。
+* [Corax](https://github.com/ayende/Corax)：搜索引擎库。
 
 ## Elastic Search
 
@@ -2266,7 +2268,6 @@
 * [Tx](https://github.com/microsoft/Tx)：Tx允许你直接对原始事件源执行语言集成查询。
 * [DataflowEx](https://github.com/gridsum/DataflowEx)：Gridsum.DataflowEx是一个高级数据流框架，在Microsoft TPL Dataflow库基础上重新设计，考虑了面向对象编程。
 * [Spreads](https://github.com/Spreads/Spreads)：Spreads.Core包含多项高性能功能，缓冲池、优化的二进制/插值搜索、集合、线程工具等。
-* [SimpleRules](https://github.com/karthik25/SimpleRules)：SimpleRules.NET是一个规则引擎。
 
 ## CEP引擎
 
@@ -4290,6 +4291,11 @@
 * [MicroRuleEngine](https://github.com/runxc1/MicroRuleEngine)：MicroRuleEngine是一个单文件规则引擎。
 * [NxBRE](https://github.com/ddossot/NxBRE)：NxBRE是用于.NET平台的轻量级业务规则引擎。
 * [DMN Engine](https://github.com/adamecr/Common.DMN.Engine)：DMN Engine是一个规则引擎，允许执行和评估DMN模型中定义的决策。
+* [SimpleRules](https://github.com/karthik25/SimpleRules)：SimpleRules.NET是一个规则引擎。
+* [Wonka](https://github.com/Nethereum/Wonka)：Wonka是一个业务规则引擎。
+* [Odoyule](https://github.com/drusellers/Odoyule)：基于RETE算法的.NET规则引擎。
+* [BusinessRulesEngine](https://github.com/usinesoft/BusinessRulesEngine)：适用于.NET应用程序的业务规则引擎。
+* [RuleEngine](https://github.com/gsoulavy/RuleEngine)：这是一个使用动态LINQ的基础规则引擎。
 
 ## CEP引擎
 
