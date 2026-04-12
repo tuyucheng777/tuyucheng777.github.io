@@ -7343,7 +7343,7 @@ permalink: /javalibs
 * [BeanUtils](https://github.com/yangtu222/BeanUtils)：BeanUtils库是一个Java Bean复制实用程序，具有强大的功能和高性能。
 * [ShapeShift](https://github.com/krud-dev/shapeshift)：ShapeShift是用于智能对象映射和对象之间转换的Kotlin/Java库。
 * [EasyMapper](https://github.com/neoremind/easy-mapper)：EasyMapper是一个简单、轻量级、高性能的Java bean映射框架，百度开源。
-* [KotlinDeepCopy](https://github.com/bennyhuo/KotlinDeepCopy)：Kotlin数据类的DeepCopy扩展
+* [KotlinDeepCopy](https://github.com/bennyhuo/KotlinDeepCopy)：Kotlin数据类的DeepCopy扩展。
 * [BeanKnife](https://github.com/vipcxj/beanknife)：BeanKnife是用于自动生成DTO的注解处理器库。
 * [DTOGen](https://github.com/manoelcampos/dtogen)：DTOGen是一个Java 21+库，它使用注解从给定的模型类/记录自动生成DTO记录。
 * [Bean Query](https://github.com/Jimmy-Shi/bean-query)：Bean Query复用Apache Commons BeanUtils、Apache Commons Collections、Hamcrest来简化对Bean的排序、过滤和转换。

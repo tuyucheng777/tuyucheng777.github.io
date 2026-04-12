@@ -557,6 +557,7 @@
 * [AndroidStubServer](https://github.com/byoutline/AndroidStubServer)：AndroidStubServer是一个简单的HTTP服务器，可以轻松Mock API。
 * [Fixd](https://github.com/lantunes/fixd)：Fixd是一个用于测试Web客户端的HTTP服务器测试工具。
 * [Faker](https://github.com/dotronglong/faker)：用Java构建的Mock API服务器。
+
 #### Mock库
 
 * [Floci](https://github.com/hectorvent/floci)：Floci是一款快速、免费且开源的本地AWS服务模拟器，专为需要在开发和CI中使用可靠的AWS服务而无需成本、复杂性或供应商锁定的开发人员而构建。
@@ -4458,7 +4459,7 @@
 * [Norconex Importer](https://github.com/Norconex/importer)：Norconex Importer是一个Java库和命令行应用程序，旨在解析和提取计算机文件中的内容，并将其转换为纯文本格式，支持各种格式(HTML、PDF、Word等)。
 * [XTractor](https://github.com/mohaps/xtractor)：XTractor是一个用Java编写的网页文本提取算法。
 * [MeaningfulWeb](https://github.com/javasoze/meaningfulweb)：网页内容提取器。
-* [HTMLP](https://gitee.com/scrapy4j/htmlp)：HTML页面内容中属性的自动解析工具，自动提取文章标题、正文、作者、发布时间、来源、原始来源。
+* [HTMLP](https://gitee.com/scrapy4j/htmlp)：HTML页面内容中属性的自动解析工具，自动提取文章标题、正文、作者、发布时间、来源。
 
 #### 爬虫系统
 
