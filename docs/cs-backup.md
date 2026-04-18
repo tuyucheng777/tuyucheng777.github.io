@@ -1375,6 +1375,7 @@
 ## OpenAI客户端
 
 * [Semantic Kernel](https://github.com/microsoft/semantic-kernel)：Semantic Kernel是一款模型无关的SDK，赋能开发者构建、编排和部署AI代理和多代理系统。
+* [GitHub Copilot CLI SDKs](https://github.com/github/copilot-sdk)：用于将GitHub Copilot Agent集成到应用程序和服务中的多平台SDK。
 * [Betalgo.OpenAI](https://github.com/betalgo/openai)：用于访问OpenAI的API的.NET库，作为社区库提供。
 * [OpenAI .NET](https://github.com/openai/openai-dotnet)：OpenAI .NET库提供了从.NET应用程序方便地访问OpenAI REST API。
 * [OpenAI API .NET](https://github.com/OkGoDoIt/OpenAI-API-dotnet)：用于访问OpenAI GPT-3 API的非官方C#/.NET SDK。

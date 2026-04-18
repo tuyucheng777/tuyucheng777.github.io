@@ -1640,6 +1640,7 @@
 * [Captain](https://github.com/pyloque/captain)：Captain是另一个基于Redis的服务发现实现。
 * [DDSL](https://github.com/mbknor/ddsl)：DDSL是动态分布式服务定位器。
 * [Snoop](https://github.com/ivargrimstad/snoop)：SnoopEE是一个基于Java EE的微服务的实验性注册和发现服务。
+* [Cereebro](https://github.com/cereebro/cereebro)：Cereebro的目标是自动记录分布式系统中组件之间的关系。
 
 ## 容错组件
 

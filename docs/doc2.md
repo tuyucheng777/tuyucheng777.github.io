@@ -4542,6 +4542,7 @@
 * [Pikachu](https://gitee.com/ironzheng/pikachu)：Java注解方式的爬虫框架。
 * [WebFetch](https://gitee.com/hexleowang/WebFetch)：无依赖极简网络爬虫组件，能在移动设备上运行的微型爬虫。
 * [Sman](https://gitee.com/slkb/Sman)：Sman是一个轻量级的Web网络多线程爬虫框架，无需配置即可完成一个自定义的网络爬虫。
+* [ScreenSlicer](https://github.com/hollingsworthd/ScreenSlicer)：ScreenSlicer是一款网页爬虫工具。
 
 #### HTML提取
 
@@ -6741,6 +6742,7 @@
 * [DownBit](https://github.com/niumoo/down-bit)：一个Java实现的多线程、断点续传下载器。
 * [FastDownload](https://gitee.com/silently9527/fast-download)：Java实现的多线程下载器，可突破下载限速。
 * [OkDownloader](https://github.com/ydxlt/okdownloader)：一个基于OkHttp的Java和Android下载器库。
+* [M3U8Dowload](https://github.com/qq494257084/m3u8Download)：Java下载M3U8视频，解密并合并TS。
 
 ### 文件比较
 
@@ -7403,6 +7405,7 @@ Kafka生态管理系统、运维平台。
 * [SWAT](https://github.com/SWAT-project/SWAT)：SWAT是一个用于Java应用程序的动态符号执行引擎。
 * [CodeRadar](https://github.com/adessoSE/coderadar)：Coderadar是一款持续的源代码分析工具。
 * [Hopper](https://github.com/cuplv/hopper)：Hopper是一款面向JVM语言的目标导向型静态分析工具，由科罗拉多大学博尔德分校开源。
+* [Naturalize](https://github.com/mast-group/naturalize)：Naturalize是一个与语言无关的框架，用于从代码库中学习编码约定，然后利用这些信息来建议更好的标识符名称和代码格式更改，由爱丁堡大学开源。
 
 #### 空安全
 
@@ -8259,6 +8262,7 @@ Kafka生态管理系统、运维平台。
 * [Madao](https://github.com/GuoGuang/madao_service)：一个基于Spring Cloud全家桶的微服务架构，可用于快速学习微服务架构或企业环境开发。
 * [Kitty](https://github.com/yinjihuan/kitty)：Spring Cloud、Spring Cloud Alibaba基础框架，内置了Cat监控。
 * [Lamp](https://github.com/zuihou/lamp-boot)：Lamp Boot是基于JDK21、JDK17、JDK11、JDK8、Spring Boot的前后分离的快速开发平台。
+* [Hihsoft SSO](https://github.com/ossbar/sso)：Hihsoft SSO是一个轻量级、性能良好、快速开发的大众化的业务基础平台。
 
 #### 后台管理系统
 
@@ -8981,6 +8985,7 @@ Kafka生态管理系统、运维平台。
 * [SSM Blog](https://github.com/YuKongEr/blog)：基于SSM框架的个人博客开发。
 * [Blog](https://github.com/rawchen/blog)：基于Spring Boot、Vue前后端分离博客系统。
 * [Kitty](https://github.com/yinjihuan/kitty-cloud)：Spring Cloud架构搭建的开源社区技术网站。
+* [Skill6](https://github.com/skill6/skill6-website-backend)：基于Spring Boot、Spring MVC、Mybatis、Docker、ELK、Redis、Vue.js、Node.js等技术实现的技术分享交流网站。
 * [Pebble](https://github.com/pebbleblog/pebble)：Pebble是一款开源的博客应用程序。
 
 #### 论坛系统
@@ -13767,6 +13772,7 @@ Kafka生态管理系统、运维平台。
 * [LibSDL4J](https://github.com/libsdl4j/libsdl4j)：LibSDL4J是SDL2 API到Java的映射。
 * [SimpleRtmp](https://github.com/faucamp/SimpleRtmp)：SimpleRtmp是一个用于构建RTMP客户端应用程序的Java库。
 * [SMPTE2022Lib](https://github.com/davidfischer-ch/smpte2022lib)：用C、Python、Java编写的优化型跨平台SMPTE 2022-1 FEC库。
+* [LibBluray](https://github.com/ShiftMediaProject/libbluray)：LibBluray是一个专为媒体播放器播放蓝光光盘而设计的开源库。
 
 #### 视频通讯
 
@@ -15363,6 +15369,7 @@ Kafka生态管理系统、运维平台。
 * [Ballerina URL](https://github.com/ballerina-platform/module-ballerina-url)：Ballerina URL提供URL编码/解码功能。
 * [URL Builder](https://github.com/palominolabs/url-builder)：使用构建器式API创建正确编码的URL。
 * [URI](https://github.com/chRyNaN/uri)：一个用于统一资源标识符(URI)的Kotlin多平台实用程序库。
+* [Routd](https://github.com/lantunes/routd)：Routd是一个简洁易用的Java URL路由库。
 
 ## Expect库
 
@@ -15832,6 +15839,8 @@ Kafka生态管理系统、运维平台。
 * [Gradle CPD Plugin](https://github.com/aaschmid/gradle-cpd-plugin)：Gradle插件，使用PMD CPD查找重复代码。
 * [Dokkatoo](https://github.com/adamko-dev/dokkatoo)：Dokkatoo是一个Gradle插件，可以为你的Kotlin/Java项目生成易于使用的参考文档。
 * [JVM Dependency Conflict Resolution Plugin](https://github.com/gradlex-org/jvm-dependency-conflict-resolution)：用于改进依赖冲突检测和解决的Gradle插件。
+* [VerCraft](https://github.com/orchestr7/vercraft)：VerCraft是一个插件，它根据检出的提交计算SemVer格式的当前版本，并将其应用于构建工具和发布插件。
+* [Gradle Semantic Build Versioning](https://github.com/vivin/gradle-semantic-build-versioning)：这是一个Gradle插件，为构建版本提供语义化版本控制支持。
 
 ## Intellij插件
 
