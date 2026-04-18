@@ -89,6 +89,7 @@
 * [GPU](#GPU)
 * [几何学](#几何学)
 * [MCP](#MCP)
+* [A2A](#A2A)
 * [模板引擎](#模板引擎)
 * [LINQ](#LINQ)
 * [表达式树](#表达式树)
@@ -1363,6 +1364,8 @@
 * [Memorizer](https://github.com/petabridge/memorizer)：Memorizer是一款基于.NET的服务，它允许AI代理使用向量嵌入来存储、检索和搜索记忆。
 * [GraphRag.Net](https://github.com/shuyu-labs/GraphRag.Net)：参考GraphRag的.NET简单实现。
 * [LlmTornado](https://github.com/lofcz/LlmTornado)：LLM Tornado是一个与.NET供应商无关的SDK，赋能开发者构建、编排和部署AI代理和工作流。
+* [MemNet](https://github.com/yangzhongke/MemNet)：MemNet是一个面向.NET开发人员的LLM应用程序的自改进记忆层。
+* [SemanticSlicer](https://github.com/drittich/SemanticSlicer)：SemanticSlicer是一个轻量级的C#应用程序，它递归地将文本分割成有意义的块，同时保留语义边界，非常适合用于生成嵌入。
 
 ## AI网关
 
@@ -1396,7 +1399,6 @@
 * [OpenAI](https://github.com/tryAGI/OpenAI)：基于官方OpenAI OpenAPI规范的C# SDK。
 * [Anthropic C# SDK](https://github.com/anthropics/anthropic-sdk-csharp)：Anthropic C# SDK为用C#编写的应用程序提供了对Anthropic REST API的便捷访问。
 * [Claudia](https://github.com/Cysharp/Claudia)：非官方的Anthropic Claude API .NET客户端。
-* [A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet)：用于A2A协议的C#/.NET SDK。
 * [DeepSeek .NET](https://github.com/niltor/DeepSeekSDK-NET)：专门为.NET开发者提供的DeepSeek API SDK。
 * [Ollama](https://github.com/tryAGI/Ollama)：.NET的Ollama SDK。
 * [Google GenerativeAI](https://github.com/gunpal5/Google_GenerativeAI)：基于REST API的非官方C# .NET Google GenerativeAI SDK。
@@ -1434,6 +1436,9 @@
 * [NcnnDotNet](https://github.com/takuya-takeuchi/NcnnDotNet)：用C++和C#编写的Ncnn封装程序，支持Windows、macOS、Linux、iOS和Android平台。
 * [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET)：StableDiffusion.cpp的C#封装。
 * [MicroGPT.cs](https://github.com/milanm/AutoGrad-Engine)：一个完整的GPT语言模型，使用纯C#编写，无任何依赖。
+* [DotLLM](https://github.com/kkokosa/dotLLM)：DotLLM是一个为.NET量身打造的底层LLM推理引擎。
+* [Llm.cs](https://github.com/nietras/Llm.cs)：LLM.c的C#移植。
+* [LLM.CS](https://github.com/azret/llm.cs)：LLM训练的C#实现。
 
 ## 代理框架
 
@@ -1850,6 +1855,12 @@
 * [MCPSharp](https://github.com/afrise/MCPSharp)：MCPSharp是一个.NET库，可帮助你构建MCP服务器和客户端。
 * [Windows MCP.Net](https://github.com/shuyu-labs/Windows-MCP.Net)：一个基于.NET的Windows桌面自动化MCP服务器，为AI助手提供与Windows桌面环境交互的能力。
 * [SharpToolsMCP](https://github.com/kooshi/SharpToolsMCP)：SharpTools是一项强大的服务，旨在赋予AI代理理解、分析和修改C#代码库的高级能力。
+
+## A2A
+
+* [A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet)：用于A2A协议的C#/.NET SDK。
+* [A2A .NET](https://github.com/neuroglia-io/a2a-net)：A2A是一个轻量级、可扩展的协议和框架，用于使用JSON-RPC 2.0在自主代理之间协调任务和交换结构化内容。
+* [A2Adotnet](https://github.com/azixaka/a2adotnet)：A2A协议的C#/.NET实现。
 
 ## 模板引擎
 
@@ -2722,6 +2733,8 @@
 * [NetPro](https://github.com/LeonKou/NetPro)：NetpPro基于增强的启动功能开发，旨在实现高效的启动管理。
 * [API Template](https://github.com/threenine/api-template)：API Template提供了一份规范化的实现指南，帮助开发者利用流行的领先.NET框架工具和实用程序，从而快速、高效地开发安全、稳定且具有弹性的REST API。
 * [Templify](https://github.com/endjin/Templify)：Templify允许你将一个解决方案模板化成可重用的包，然后将该包重新部署为一个新的解决方案。
+* [Blazor Contacts](https://github.com/bradwellsb/blazor-contacts)：一个用于OData API、IdentityServer4认证和服务器端Blazor的项目模板。
+* [TemplateBackend](https://github.com/engindemirog/TemplateBackend)：后端项目模板。
 
 ## 后台管理系统
 
@@ -4955,6 +4968,7 @@
 * [SharpOSC](https://github.com/ValdemarOrn/SharpOSC)：SharpOSC是一个小型库，旨在简化与Open Sound Control的交互。
 * [CoreAudio](https://github.com/morphx666/CoreAudio)：.NET的Windows CoreAudio封装器。
 * [Strix Music](https://github.com/Arlodotexe/strix-music)：Strix Music App是一款能够适应你需求的音乐播放器。
+* [FlacLibSharp](https://github.com/AaronLenoir/flaclibsharp)：一个用于读取和写入FLAC元数据的.NET库。
 
 ## 视频库
 
@@ -5462,6 +5476,8 @@
 * [RecordParser](https://github.com/leandromoh/RecordParser)：RecordParser是一款基于表达式树的解析器，它借助Span类型，帮助你编写高性能且零内存分配的可维护解析器。
 * [Grok .NET](https://github.com/Marusyk/grok.net)：跨平台.NET Grok实现。
 * [Irony](https://github.com/IronyProject/Irony)：Irony是一个用于在.NET平台上实现多种语言的开发工具包。
+* [ParsecSharp](https://github.com/acple/ParsecSharp)：用于C#的更快的单子解析器组合库。
+* [Parseq](https://github.com/takahisa/parseq)：Parseq是一个为C#编写的单子解析器组合器库，它可以解析上下文相关的、无限前瞻的语法。
 
 ## 正则表达式
 
@@ -5631,6 +5647,9 @@
 * [Node.net](https://github.com/dnewcome/Node.net)：基于.NET运行时环境，用JavaScript实现的Node.js。
 * [Node.cs](https://github.com/headsling/Node.cs)：C#实现的Node.js，兼具C#的所有优点和性能。
 * [Okojo](https://github.com/akeit0/okojo)：Okojo是一个实验性的低分配托管JavaScript引擎，适用于.NET。
+* [VroomJS](https://github.com/fogzot/vroomjs)：VroomJS是.NET CLR与V8 Javascript引擎之间的桥梁，它使用P/Invoke和一个精简的C层来避免使用MS Managed C编译器重新编译V8 C。
+* [ChakraCore.NET](https://github.com/JohnMasen/ChakraCore.NET)：用于Chakra引擎的.NET托管库。
+* [JSPool](https://github.com/Daniel15/JSPool)：JSPool以可扩展且高性能的方式促进了JavaScript脚本在.NET应用程序中的轻松集成。
 
 ## CSS引擎
 
@@ -6464,11 +6483,26 @@
 * [RT.Comb](https://github.com/richardtallent/RT.Comb)：在C#中为MSSQL或PostgreSql创建顺序GUID。
 * [Hashids](https://github.com/ullmark/hashids.net)：一个小型.NET包，用于从数字生成类似YouTube的ID。
 * [AspNetCore.Hashids](https://github.com/Xabaril/AspNetCore.Hashids)：用于ASP.NET Core API的不可预测ID库。
+* [RustFlakes](https://github.com/peschkaj/rustflakes)：.NET的有序ID生成服务，它能感知生成器，因此非常适合分布式ID生成。
+* [SnowMaker](https://github.com/tathamoddie/SnowMaker)：一个用于Azure环境的高性能分布式唯一ID生成器。
+* [Funcular.IdGenerators](https://github.com/piranout/Funcular.IdGenerators)：一个跨进程线程安全的C#工具，用于创建有序、可人类阅读、大小写不敏感、部分随机的Base36标识符。
+* [Architect.Identities](https://github.com/TheArchitectDev/Architect.Identities)：用于分布式应用程序的可靠唯一ID生成。
+* [UUID v7](https://github.com/stevesimmons/uuid7-csharp)：C#的UUIDv7实现。
+* [Uuids](https://github.com/vanbukin/Uuids)：根据RFC4122的Uuid实现。
+* [SequentialGuid](https://github.com/buvinghausen/SequentialGuid)：SequentialGuid生成符合RFC 9562、带有嵌入时间戳的UUID。
+* [UUID](https://github.com/Taiizor/UUID)：UUID是一个面向.NET生态系统的现代高效唯一标识符生成器。
+* [DeterministicGuids](https://github.com/MarkCiliaVincenti/DeterministicGuids)：一个小型、注重分配、线程安全的.NET工具，用于基于名称生成确定性UUID。
+* [Ulid](https://github.com/ByteAether/Ulid)：一个高性能、完全兼容的.NET ULID实现，遵循官方ULID规范。
 
 ## 随机生成器
 
 * [C# Weighted Item Randomizer](https://github.com/BlueRaja/Weighted-Item-Randomizer-for-C-Sharp)：用于在C#中随机选择加权项的库。
 * [DotNetRandomNameGenerator](https://github.com/m4bwav/DotNetRandomNameGenerator)：根据公开的美国人口普查数据生成随机的人名和地名。
+* [NRandom](https://github.com/nuskey8/NRandom)：NRandom是一个为.NET和Unity提供伪随机数生成功能的库。
+* [LucidRandom](https://github.com/annulusgames/LucidRandom)：用于Unity的增强型随机数生成器。
+* [RandN](https://github.com/ociaw/RandN)：RandN是一个用于生成随机数的.NET库。
+* [Craft](https://github.com/ianhorswill/Craft)：Craft是一种浮点约束求解器，旨在用于游戏，特别是用于程序化内容生成。
+* [PcgRandom](https://github.com/bgrainger/PcgRandom)：PcgRandom是PCG家族随机数生成器的.NET实现。
 
 ## 报表引擎
 
@@ -6772,6 +6806,8 @@
 * [Geralt](https://github.com/samuel-lucas6/Geralt)：Geralt是一个基于libsodium的现代加密库。
 * [NaCl.Core](https://github.com/daviddesmet/NaCl.Core)：NaCl.Core是一个仅供.NET使用的托管加密库。
 * [NaCl.NET](https://github.com/somdoron/NaCl.net)：NaCl.NET密码库。
+* [ECDSA .NET](https://github.com/starkbank/ecdsa-dotnet)：这是一个纯C#实现的椭圆曲线数字签名算法(ECDSA)。
+* [Lucinda](https://github.com/Taiizor/Lucinda)：一个高性能的.NET端到端加密库，支持Signal协议。
 
 ## 密码库
 
@@ -6850,6 +6886,10 @@
 * [Dev Proxy](https://github.com/dotnet/dev-proxy)：Dev Proxy是一款API模拟器，可帮助你轻松地对应用程序进行超出正常流程的测试。
 * [HttPlaceholder](https://github.com/dukeofharen/httplaceholder)：一个非常灵活的跨平台HTTP存根应用。
 * [Mock4Net](https://github.com/alexvictoor/mock4net)：Mock4Net是一个基于.NET的小型Mock HTTP服务器。
+* [MyTested.HttpServer](https://github.com/ivaylokenov/MyTested.HttpServer)：MyTested.HttpServer是一个单元测试库，它提供了一个简单易用的接口来测试远程HTTP服务器。
+* [REST Mock Core](https://github.com/benyblack/rest-mock-core)：一个简单的HTTP服务器，可用作测试项目中的Mock服务器，用于测试基于.NET的项目。
+* [KestrelMock](https://github.com/JasonRowe/KestrelMock)：用于测试的.NET HTTP Mock服务器。
+* [JustFakeIt](https://github.com/justeat/JustFakeIt)：JustFakeIt是一个可Mock的HTTP服务器。
 
 #### 数据Mock
 
@@ -7943,6 +7983,10 @@
 * [Ude](https://github.com/errepi/ude)：Ude是Mozilla通用字符集检测器的C#移植版。
 * [UTF Unknown](https://github.com/CharsetDetector/UTF-unknown)：检测文件、流和其他字节的字符集。
 * [Unicode.net](https://github.com/neosmart/unicode.net)：Unicode.net是一个易于使用的用于.NET的Unicode文本处理库。
+* [NetUnicodeInfo](https://github.com/hexawyz/NetUnicodeInfo)：Unicode字符检查器和库，为.NET客户端提供Unicode数据的子集。
+* [GraphemeSplitter](https://github.com/ufcpp/GraphemeSplitter)：Unicode字形簇分割算法的C#实现。
+* [ICU4N](https://github.com/NightOwl888/ICU4N)：ICU4N是一套.NET库，为软件应用程序提供Unicode和全球化支持。
+* [Unicode Hax](https://github.com/cweb/unicode-hax)：一个用于辅助安全测试支持Unicode的应用程序的库。
 
 ## 表情库
 
