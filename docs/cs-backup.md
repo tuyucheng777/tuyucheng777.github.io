@@ -6067,6 +6067,14 @@
 * [Echo Process](https://github.com/louthy/echo-process)：C#的Actor库，包含支持对Redis持久化的额外模块，以及JS集成。
 * [Newbe.Claptrap](https://github.com/newbe36524/Newbe.Claptrap)：这是一个以响应式设计、事件溯源和Actor模式为基本理论的框架。
 * [Dotsero](https://github.com/VaughnVernon/Dotsero)：类似Akka的.NET Actor模型工具包。
+* [Akka.Interfaced](https://github.com/SaladLab/Akka.Interfaced)：Akka.Interfaced为Akka.NET中的Actor提供了一种类型安全且声明式的通信方式。
+* [Aevatar](https://github.com/aevatarAI/aevatar-framework)：基于Microsoft Orleans构建的分布式Actor框架，用于构建可扩展的事件溯源应用程序。
+* [ArnoldSimulator](https://github.com/GoodAI/ArnoldSimulator)：一种可扩展的Actor模型框架，用于开发具有动态拓扑结构的AI系统。
+* [EventNext](https://github.com/beetlex-io/EventNext)：EventNext是.NET Core的逻辑接口设计Actor组件。
+* [CloudActors](https://github.com/devlooped/CloudActors)：一个具有鲜明观点、简化且统一的云原生Actor库。
+* [XOOM .NET Actor](https://github.com/vlingo-net/xoom-net-actors)：使用C#和其他.NET语言实现响应式并发和弹性的类型安全Actor模型工具包。
+* [Stacks](https://github.com/Ravadre/Stacks)：Stacks是一个小型网络和Actor库。
+* [Remact.NET](https://github.com/steforster/Remact.Net)：Remact.NET简化了.NET语言中远程Actor的开发。
 
 ## MongoDB
 
