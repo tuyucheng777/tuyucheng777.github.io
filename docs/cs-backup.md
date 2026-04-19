@@ -197,6 +197,7 @@
 * [Shopify](#Shopify)
 * [Notion](#Notion)
 * [Twitch](#Twitch)
+* [Bluesky](#Bluesky)
 * [TheMovieDb](#TheMovieDb)
 * [Bot](#Bot)
 * [QQ机器人](#QQ机器人)
@@ -278,6 +279,7 @@
 * [锁](#锁)
 * [图像处理](#图像处理)
 * [PNG](#PNG)
+* [WebP](#WebP)
 * [SVG](#SVG)
 * [词云](#词云)
 * [头像库](#头像库)
@@ -1013,6 +1015,8 @@
 * [UnitySocketIO WebSocketSharp](https://github.com/kaistseo/UnitySocketIO-WebSocketSharp)：UnitySocketIO，使用WebSocket Sharp而不是WebSocket4Net。
 * [Socket.IO Client](https://github.com/LadislavBohm/socket.io-client-core)：高性能的C# Socket.IO客户端。
 * [SocketIo.Core](https://github.com/Beffyman/SocketIo.Core)：适用于.NET Core的Socket.IO。
+* [Unity Socket.IO](https://github.com/KyleDulce/Unity-Socketio)：本项目旨在为Unity游戏引擎中的WebGL项目提供Socket.IO支持。
+* [Socket.IO C# Emitter](https://github.com/ziyasal-archive/socket.io-csharp-emitter)：Socket.IO Emitter的C#实现。
 
 ## TCP
 
@@ -1036,6 +1040,7 @@
 * [KingNetwork](https://github.com/MUN1Z/KingNetwork)：KingNetwork是一个开源库，旨在通过TCP、UDP、WebSocket和RUDP套接字促进客户端和服务器的创建与通信。
 * [Jawbone.Sockets](https://github.com/ObviousPiranha/Jawbone.Sockets)：游戏引擎的UDP和TCP套接字库。
 * [AsyncTcpClient](https://github.com/ygoe/AsyncTcpClient)：.NET Standard的TcpClient和TcpListener的异步变体。
+* [Unity Netcode.IO](https://github.com/GlaireDaggers/Unity-Netcode.IO)：一个轻量级且易于使用的插件，使Unity游戏能够利用Netcode.IO协议进行安全的UDP通信。
 
 ## FTP
 
@@ -2562,6 +2567,8 @@
 * [H.Pipes](https://github.com/HavenDV/H.Pipes)：一个简单易用、强类型、异步的.NET命名管道包装器。
 * [IpcServiceFramework](https://github.com/jacqueskang/IpcServiceFramework)：一个基于.NET Core 3.1的轻量级框架，用于高效的进程间通信。
 * [XDMessaging](https://github.com/TheCodeKing/XDMessaging.Net)：XDMessaging库为.NET应用程序提供了一种易于使用、无需配置的进程间通信解决方案。
+* [Unity Named Pipes](https://github.com/Lachee/unity-named-pipes)：Unity3D的原生命名管道封装器。
+* [H.Ipc](https://github.com/HavenDV/H.Ipc)：用于进程间通信的C#源代码生成器库。
 
 ## 循环缓冲区
 
@@ -2933,7 +2940,6 @@
 * [Socioboard Core](https://github.com/socioboard/socioboard-core)：Socioboard Core是一个开源的社交媒体管理、分析和报告平台。
 * [NNostr](https://github.com/Kukks/NNostr)：用C#编写的Nostr中继和客户端。
 * [Twitter Clone](https://github.com/fluentstack/twitter-clone)：一个使用.NET 8 Web API、Golang和Next.js 13构建的Twitter克隆。
-* [FishyFlip](https://github.com/drasticactions/FishyFlip)：FishyFlip是一个针对.NET的ATProtocol实现。
 * [NOVA](https://github.com/hcmlab/nova)：NOVA是一款用于标注和分析社交互动行为的工具。
 
 ## 问答系统
@@ -3938,6 +3944,12 @@
 * [StreamingClientLibrary](https://github.com/SaviorXTanren/StreamingClientLibrary)：用于Twitch、YouTube和其他流媒体服务的C#客户端库。
 * [TwitchCSharp](https://github.com/michidk/TwitchCSharp)：Twitch v3 REST API的C#封装。
 
+## Bluesky
+
+* [FishyFlip](https://github.com/drasticactions/FishyFlip)：FishyFlip是一个针对.NET的ATProtocol实现。
+* [Idunno.Bluesky](https://github.com/blowdart/idunno.Bluesky)：一个用于Bluesky社交网络的.NET类库。
+* [X.Bluesky](https://github.com/a-gubskiy/X.Bluesky)：X.Bluesky是一个.NET库，旨在让开发人员能够轻松地向去中心化社交网络Bluesky发布消息。
+
 ## TheMovieDb
 
 * [TMDbLib](https://github.com/jellyfin/TMDbLib)：一个几乎完整的TMDb API v3 .NET包装程序。
@@ -4878,7 +4890,6 @@
 * [MipFlooding](https://github.com/secarri/MipFlooding)：这是《战神》中使用的“mipflooding”算法的C#和Python实现。
 * [FloodSpill](https://github.com/azsdaja/FloodSpill-CSharp)：用C#实现的洪水填充算法。
 * [SharpIco](https://github.com/star-plan/sharp-ico)：SharpIco是一个纯C#实现的轻量级图标生成工具。
-* [WebP Wrapper](https://github.com/JosePineiro/WebP-wrapper)：C#中的libwebp封装。
 * [LibTiff.NET](https://github.com/BitMiracle/libtiff.net)：LibTiff库的.NET版本。
 * [Structure.Sketching](https://github.com/JaCraig/Structure.Sketching)：Structure.Sketching是一个用于.NET Core和.NET 4.6的图像处理库。
 * [Image Processing Library](https://github.com/LazoVelko/Image-Processing-Library)：用于处理和操作图像的库，包括边缘检测、颜色通道交换、浮雕、锐化、阈值处理等功能。
@@ -4886,11 +4897,16 @@
 * [CSharpImageLibrary](https://github.com/KFreon/CSharpImageLibrary)：完全用C#编写的图像处理库。
 * [MediaFileProcessor](https://github.com/askatmaster/MediaFileProcessor)：用于处理各种文件(视频、照片、文档、图像)的C#库。
 * [ImageResizer.AspNetCore](https://github.com/keyone2693/ImageResizer.AspNetCore)：ImageResizer允许实时图像处理。
-* [LibWebP.NET](https://github.com/frankodoom/libwebp.net)：这是一个异步的.NET库，用于将图像编码为Google的WebP格式。
 
 ## PNG
 
 * [BigGustave](https://github.com/EliotJones/BigGustave)：在完全托管的C#中打开、读取和创建PNG图像。
+* [PngCs](https://github.com/leonbloy/pngcs)：PngCs是一个用于读取/写入PNG图像的C#库。
+
+## WebP
+
+* [WebP Wrapper](https://github.com/JosePineiro/WebP-wrapper)：C#中的libwebp封装。
+* [LibWebP.NET](https://github.com/frankodoom/libwebp.net)：这是一个异步的.NET库，用于将图像编码为Google的WebP格式。
 
 ## SVG
 
