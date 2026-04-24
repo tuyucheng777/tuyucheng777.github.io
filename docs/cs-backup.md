@@ -649,6 +649,11 @@
 * [.NET Core Pal Cloud Framework](https://github.com/netcorepal/netcorepal-cloud-framework)：一个基于ASP.NET Core实现的领域驱动设计落地战术框架。
 * [NCommon](https://github.com/riteshrao/ncommon)：NCommon是一个轻量级框架，它为使用领域驱动设计方法的应用程序提供了常用设计模式的实现。
 * [Stove](https://github.com/stoveproject/Stove)：Stove是一个应用框架，它封装并抽象了你的需求，使其易于使用。
+* [CoreDDD](https://github.com/xhafan/coreddd)：一套开源的.NET库，帮助进行DDD和CQRS。
+* [EApp](https://github.com/TwoMaKing/EApp)：EApp是一款基于Microsoft .NET的面向领域驱动的轻量级应用程序开发框架, 遵循DDD和CQRS的设计思想。
+* [NDomain](https://github.com/mfelicio/NDomain)：NDomain是一个可扩展、快速、强大的框架，帮助你使用领域驱动设计、事件溯源和CQRS架构构建健壮且可扩展的.NET应用程序。
+* [Cnblogs.Architecture](https://github.com/cnblogs/Architecture)：Cnblogs.Architecture是一系列用于快速构建DDD、CQRS微服务的Nuget包。
+* [ENode](https://github.com/coffeewar/enode-master)：ENode是一个开源的应用开发框架，为开发人员提供了一套完整的基于DDD、CQRS、ES、EDA架构风格的解决方案。
 
 ## CQRS框架
 
@@ -781,6 +786,12 @@
 * [CryoDI](https://github.com/Cryofortress/CryoDI)：简单易用的Unity3D依赖注入容器。
 * [Tarject](https://github.com/tariksavas/tarject)：Tarject是一个专为Unity开发的依赖注入框架。
 * [BindlessDI](https://github.com/natpuncher/bindlessdi)：一个轻量级的Unity依赖注入框架。
+* [DpdtInject](https://github.com/lsoft/DpdtInject)：Dpdt是一个基于C#源生成器的编译时通用依赖注入容器。
+* [Bindicate](https://github.com/Tim-Maes/Bindicate)：.NET的自动装配库。
+* [UWP Dependency Injection](https://github.com/vladhrapov/injectify)：Injectify是一个有用的工具，用于在DI框架和UWP应用之间构建稳健、可靠的桥梁。
+* [Simplify](https://github.com/i4004/Simplify)：Simplify是一套为你的应用程序提供基础设施的.NET库，支持依赖注入和Mock。
+* [ThunderboltIoc](https://github.com/AlyElhaddad/ThunderboltIoc)：.NET最早、没有反射的IoC框架之一。
+* [IoCContainer](https://github.com/DevTeam/IoCContainer)：用于.NET的简单、强大且快速的控制反转容器。
 
 ## AOP
 
@@ -1478,6 +1489,7 @@
 * [VADER](https://github.com/codingupastorm/vadersharp)：VADER是一款基于词典和规则的情感分析工具，专门用于分析社交媒体中表达的情感。
 * [Paper Checking System](https://github.com/tianlian0/paper_checking_system)：基于C#和C++开发的文本查重/论文查重系统。
 * [Nevod](https://github.com/nezaboodka/nevod)：Nevod是一种基于模式的文本搜索语言和技术。
+* [SimpleNetNlp](https://github.com/yakivyusin/SimpleNetNlp)：SimpleNetNlp是一个简单、基于C#的Stanford CoreNLP包装器，它基于Stanford.NLP.NET。
 
 ## 分词器
 
@@ -1492,6 +1504,8 @@
 * [NPinyin](https://github.com/2881099/NPinyin)：拼音汉字转换.NET Core版本。
 * [TinyPinyin.Net](https://github.com/hstarorg/TinyPinyin.Net)：适用于.NET平台的快速、低内存占用的汉字转拼音库。
 * [ToolGood.Words.Pinyin](https://github.com/toolgood/ToolGood.Words.Pinyin)：一款高性能拼音字母转化类。
+* [Pinyin4net](https://github.com/YangKuang/pinyin4net)：Pinyin4net是一个.NET库，支持中文字符与拼音系统之间的转换。
+* [Pinyin4NET](https://gitee.com/hyjiacan/Pinyin4Net)：.NET环境下使用的拼音/汉字互转库。
 
 ## 拼写检查
 
@@ -1794,6 +1808,9 @@
 * [SharpVk](https://github.com/FacticiusVir/SharpVk)：Vulkan API和SPIR-V的C#绑定。
 * [SharpVulkan](https://github.com/jwollen/SharpVulkan)：用于Vulkan图形API的C#绑定，Xenko游戏引擎使用。
 * [Vk.NET](https://github.com/jpbruyere/vk.net)：.NET的自动生成低级Vulkan绑定。
+* [TerraFX.Interop.Vulkan](https://github.com/terrafx/terrafx.interop.vulkan)：Vulkan的互操作绑定。
+* [XenoAtom.Graphics](https://github.com/XenoAtom/XenoAtom.Graphics)：XenoAtom.Graphics是一个由Vulkan提供支持的.NET低级图形库。
+* [Vulkan API](https://github.com/exomia/vulkan-api)：Vulkan API包含提供对Vulkan API的低级别和跨平台访问的.NET绑定。
 * [THREE](https://github.com/hjoykim/THREE)：Three.js的C#版本，Three.js是一个非常强大、简单且实用的OpenGL图形库。
 * [SharpDX](https://github.com/sharpdx/SharpDX)：SharpDX是一个开源项目，为所有Windows平台上的.NET提供完整的DirectX API，支持开发高性能游戏、2D和3D图形渲染以及实时音效应用。
 * [Vrmac](https://github.com/Const-me/Vrmac)：Vrmac是一个跨平台的.NET图形库。
@@ -1818,6 +1835,13 @@
 * [SharpGLTF](https://github.com/vpenades/SharpGLTF)：.NET Standard的glTF读取器和写入器。
 * [RichTextKit](https://github.com/toptensoftware/RichTextKit)：RichTextKit是一个用于SkiaSharp的富文本布局、测量和渲染库。
 * [MSAGL](https://github.com/microsoft/automatic-graph-layout)：MSAGL是一个用于图形布局和查看的.NET库和工具。
+* [Blotch3D](https://github.com/Blotch3D/Blotch3D)：一个高级的3D类库，只需几行C#代码即可为你提供实时3D图形。
+* [XenoAtom.Graphics](https://github.com/XenoAtom/XenoAtom.Graphics)：XenoAtom.Graphics是一个由Vulkan提供支持的.NET低级图形库。
+* [Prowl.Quill](https://github.com/ProwlEngine/Prowl.Quill)：一个简单但高性能的硬件加速矢量图形库，适用于Prowl游戏引擎生态系统。
+* [Bearded.Graphics](https://github.com/beardgame/graphics)：这是一个基于OpenTK的C# OpenGL图形库。
+* [Geometry](https://github.com/Aptacode/Geometry)：用于Blazor的高性能.NET 7图形库。
+* [BasicRender](https://github.com/igtampe/BasicRender)：BasicRender是一个图形库，可以轻松在控制台屏幕上显示图形。
+* [KGy SOFT Drawing](https://github.com/koszeggy/KGySoft.Drawing)：KGy SOFT Drawing是一个用于高级图像、图标和图形处理的库。
 
 ## FBX
 
@@ -2147,7 +2171,6 @@
 * [DAFT](https://github.com/NetSPI/DAFT)：DAFT是一个用C#编写、灵感来源于PowerUpSQL的数据库审计与评估工具包。
 * [AuditLogging](https://github.com/skoruba/AuditLogging)：支持EntityFramework Core的.NET Core简易审计日志。
 * [ChangeTracking](https://github.com/joelweiss/ChangeTracking)：跟踪POCO对象和集合中的更改。
-* [AnyDiff](https://github.com/replaysMike/AnyDiff)：一个C#差异库，可以比较两个对象的差异并返回差异列表。
 * [Trackable Entities](https://github.com/TrackableEntities/trackable-entities)：Trackable Entities是一组NuGet包和Visual Studio扩展，它们可以在服务边界跨越时实现变更跟踪。
 * [Tracker Enabled DbContext](https://github.com/bilal-fazlani/tracker-enabled-dbcontext)：Tracker Enabled DbContext让你可以在数据库中实现完整的审计功能。
 
@@ -2158,6 +2181,7 @@
 * [ObjectsComparer](https://github.com/ValeraT1982/ObjectsComparer)：C#框架提供了比较复杂对象的机制，允许为特定属性和类型重写比较规则。
 * [AutoCompare](https://github.com/StevenGilligan/AutoCompare)：AutoCompare是一个简单的库，旨在轻松比较两个相同类型的对象，以生成已修改属性的列表。
 * [DeepEqual](https://github.com/jamesfoster/DeepEqual)：DeepEqual是一个可扩展的深度相等比较库。
+* [AnyDiff](https://github.com/replaysMike/AnyDiff)：一个C#差异库，可以比较两个对象的差异并返回差异列表。
 
 ## 数据库
 
@@ -2927,6 +2951,25 @@
 * [FunnelWeb](https://github.com/funnelweblog/FunnelWeb)：FunnelWeb是一个开源博客引擎。
 * [Contentful.NET](https://github.com/contentful/contentful.net)：用于Contentful内容交付和管理API的.NET库。
 * [Survey Solutions](https://github.com/surveysolutions/surveysolutions)：Survey Solutions是由世界银行开发的一种调查管理和数据收集系统。
+* [ContentManagementSystem](https://github.com/megurte/ContentManagementSystem)：一个为Unity项目设计的模块化轻量级内容管理系统。
+* [PortalCMS](https://github.com/tommcclean/PortalCMS)：PortalCMS是一个免费且开源的开发者框架，使用C# MVC构建，具有强大的集成页面构建器，支持内联编辑、拖放和内容管理。
+* [Caf.CMS](https://github.com/crazyants/Caf.CMS)：Caf.CMS是一个免费的、 开源，功能全面的CMS。
+* [ThunderED](https://github.com/panthernet/ThunderED)：EVE在线社区管理系统。
+* [MarkSite](https://github.com/madskristensen/MarkSite)：一个使用ASP.NET编写的Markdown驱动的内容管理系统。
+* [Shree RAM CMS](https://github.com/yogyogi/ASP.NET-Core-CMS)：这是一个使用ASP.NET Core框架开发的开源内容管理系统。
+* [DragonFly](https://github.com/usercode/DragonFly)：开源ASP.NET Core内容管理系统。
+* [CorMon](https://github.com/hamed-shirbandi/CorMon)：基于ASP.NET Core和MongoDB的免费开源内容管理系统。
+* [FlexDotnetCMS](https://github.com/MacdonaldRobinson/FlexDotnetCMS)：一个功能强大、灵活、易于使用且功能齐全的ASP .NET内容管理系统。
+* [LeadCMS](https://github.com/LeadCMS/leadcms.core)：OnlineSale是一个轻量级、可扩展的无头CMS，使用.NET 8编写。
+* [MIIS](https://github.com/jmalarcon/MIIS)：一个基于Markdown文件的IIS和Azure CMS。
+* [CarrotCakeCMS](https://github.com/ninianne98/CarrotCakeCMS-MVC)：一个基于模板的ASP.NET MVC 5内容管理系统。
+* [Bloggers CMS](https://github.com/it-beard/bloggers-cms)：Bloggers CMS是专门为博主需求开发的内容管理系统。
+* [BlogSystem](https://github.com/NikolayIT/nikolay.it)：一个用ASP.NET Core 3.1编写并用于运行的简单博客系统。
+* [AcBlog](https://github.com/StardustDL/acblog)：一个开源的可扩展静态和动态博客系统。
+* [Downr](https://github.com/bradygaster-zz/downr)：Downr是一个非常简单的博客引擎。
+* [Subtext](https://github.com/haacked/Subtext)：这是一个用于ASP.NET 4的博客引擎。
+* [WeBlog](https://github.com/WeTeam/WeBlog)：一个用于Sitecore的博客模块。
+* [RazorPub](https://github.com/RazorAnt/RazorPub)：一个简单但功能强大的基于Markdown的博客引擎。
 
 ## 项目管理
 
@@ -4039,6 +4082,8 @@
 ## 责任链模式
 
 * [PipelineNet](https://github.com/ipvalverde/PipelineNet)：PipelineNet是一个微型框架，帮助你实现管道和责任链模式。
+* [Flo](https://github.com/benfoster/Flo)：Flo是一个轻量级的库，用于组合责任链管道。
+* [Tamarack](https://github.com/mikevalenty/tamarack)：Tamarack是一个用于在.NET中实现责任链模式的微框架。
 
 ## 规范框架
 
@@ -4156,6 +4201,10 @@
 * [2Captcha C#](https://github.com/2captcha/2captcha-csharp)：C#库，用于轻松集成2captcha验证码破解服务的API。
 * [CaptchaSharp](https://github.com/openbullet/CaptchaSharp)：一个实现了最常用验证码解决服务API的.NET库。
 * [Captcha Recognizer](https://github.com/microfisher/Captcha-Recognizer)：基于C#.NET异步图形验证码识别组件。
+* [Edi.Captcha.AspNetCore](https://github.com/EdiWang/Edi.Captcha.AspNetCore)：验证码模块。
+* [NCaptcha](https://github.com/ElderJames/NCaptcha)：NCaptcha是在.NET Core中的组件化验证码集成方案，基于.NET Standard 2.0并且易于扩展。
+* [Blazor Captcha](https://github.com/tossnet/Blazor-Captcha)：为Blazor Server或WebAssembly应用程序生成验证码图像。
+* [MvcCaptchaLib](https://github.com/leon737/MvcCaptchaLib)：符合ASP.NET MVC规范的验证码生成库。
 
 ## 邮件库
 
@@ -5547,6 +5596,18 @@
 * [State.cs](https://github.com/steelbreeze/state.cs)：.NET的可执行有限状态机。
 * [NState](https://github.com/benaston/NState)：.NET的状态机。
 * [BigMachines](https://github.com/archi-Doc/BigMachines)：BigMachines是用于.NET的状态机库。
+* [Fluid State Machine](https://github.com/ashblue/fluid-state-machine)：Fluid State Machine是一个面向在纯代码中创建状态机的Unity插件。
+* [FiniteStateMachine](https://github.com/UnterrainerInformatik/FiniteStateMachine)：这个项目是一个有限状态机，设计用于在游戏中使用。
+* [Unity FSM](https://github.com/WooshiiDev/Unity-FSM)：一个强大的轻量级有限状态机，用于Unity。
+* [GoDotNet](https://github.com/chickensoft-games/GoDotNet)：
+* [LiteFSM](https://github.com/redbluegames/unity-lite-fsm)：LiteFSM是一个用C#编写的轻量级有限状态机框架。
+* [TinyStateMachine](https://github.com/MhmmdAb/TinyStateMachine)：Tiny State Machine是一个为.NET框架编写的轻量级有限状态机库，采用C#编写。
+* [SUSMachine](https://github.com/JamesYFC/SUSMachine)：一个具有快速、简单且易于使用API的状态机实现。
+* [StateMachineToolkit](https://github.com/OmerMor/StateMachineToolkit)：一个通用的状态机框架，支持主动/被动机器、暴露事件和丰富的异常处理。
+* [UniFsm](https://github.com/notargs/UniFsm)：UniFsm是一个用于Unity的简单状态机库。
+* [StateTransition](https://github.com/ozontech/state-transition)：StateTransition是一个简单但非常实用的.NET库，用于配置状态机。
+* [MinimalFSM](https://github.com/bzgeb/MinimalFSM)：Unity中使用的C#最小有限状态机。
+* [Unity StateMachines](https://github.com/kevincastejon/Unity-StateMachines)：该包提供用于FSM(有限状态机)和HFSM(层次有限状态机)模式的抽象类。
 
 ## 语义版本控制
 
@@ -5611,6 +5672,7 @@
 * [SharpSCCM](https://github.com/Mayyhem/SharpSCCM)：SharpSCCM是一个后渗透工具，旨在利用Microsoft终端配置管理器进行横向移动和凭证收集，而无需访问SCCM管理控制台GUI。
 * [InterceptSuite](https://github.com/InterceptSuite/InterceptSuite)：物联网设备、厚客户端和实时应用的中间人代理。
 * [zBang](https://github.com/cyberark/zBang)：zBang是一款特殊的风险评估工具，可以检测扫描网络中潜在的特权账户威胁。
+
 ## 功能标志
 
 * [ViVe](https://github.com/thebookisclosed/ViVe)：ViVe是一个C#库，你可以使用它来制作自己的程序，与Windows 10及更新版本中的A/B功能实验机制进行交互。
@@ -5622,6 +5684,9 @@
 * [Unleash .NET](https://github.com/Unleash/unleash-dotnet-sdk)：Unleash是一个私密、安全且可扩展的功能管理平台。
 * [OpenFeature .NET SDK](https://github.com/open-feature/dotnet-sdk)：OpenFeature是一个开放规范，提供供应商无关、社区驱动的功能开关API，可与你喜欢的功能开关管理工具或内部解决方案配合使用。
 * [NFeature](https://github.com/benaston/NFeature)：一个简单的功能配置系统。
+* [FeatureBits](https://github.com/microsoft/featurebits)：FeatureBits是一个功能切换系统，用于支持多个平台的持续交付。
+* [Moggles](https://github.com/NSIAppDev/Moggles)：非开发向导的功能标志管理。
+* [FeatureManagement.UI](https://github.com/Odonno/FeatureManagement.UI)：此包允许你在自己的ASP.NET Web API中配置应用程序。
 
 ## 健康检查
 
@@ -5720,6 +5785,7 @@
 * [BTCPayServer.Vault](https://github.com/btcpayserver/BTCPayServer.Vault)：BTCPayServer Vault允许Web应用程序访问你的硬件钱包，从而实现更好的集成用户体验。
 * [.NET Passbook](https://github.com/tomasmcguinness/dotnet-passbook)：一个用于为iOS Wallet生成Passbook包的.NET标准库。
 * [WalletConnectSharp](https://github.com/WalletConnect/WalletConnectSharp)：WalletConnect协议的C#实现。
+* [HDWallet](https://github.com/farukterzioglu/HDWallet)：一个通用的用于椭圆曲线和爱德华曲线基于加密货币的HD钱包。
 
 ## 以太坊
 
@@ -6833,6 +6899,17 @@
 * [NaCl.NET](https://github.com/somdoron/NaCl.net)：NaCl.NET密码库。
 * [ECDSA .NET](https://github.com/starkbank/ecdsa-dotnet)：这是一个纯C#实现的椭圆曲线数字签名算法(ECDSA)。
 * [Lucinda](https://github.com/Taiizor/Lucinda)：一个高性能的.NET端到端加密库，支持Signal协议。
+* [RSAKeyVaultProvider](https://github.com/novotnyllc/RSAKeyVaultProvider)：RSAKeyVaultProvider使你能够使用存储在Azure Key Vault中的密钥和证书来执行签名和解密操作。
+* [PWDTK.NET](https://github.com/realindiahotel/PWDTK.NET)：PWDTK.NET是一个易于使用的.NET库，它创建加密随机盐并使用RFC2898中列出的PBKDF2规范的HMACSHA512版本来哈希密码。
+* [AspNetCore.LegacyAuthCookieCompat](https://github.com/dazinator/AspNetCore.LegacyAuthCookieCompat)：此库提供加密或解密用于表单身份验证Cookie的功能。
+* [LetsEncrypt](https://github.com/Tondas/LetsEncrypt)：LetsEncrypt.Client是用于Let's Encrypt证书的ACME客户端的简单直观的C#实现。
+* [ConfigCrypter](https://github.com/devattic/ConfigCrypter)：DevAttic ConfigCrypter让你轻松加密和解密配置文件。
+* [SafeKrypt.Data.Security](https://github.com/selfmadecode/SafeKrypt.Data.Security)：一个用于加密和解密的C#实用程序库。
+* [CryptHash.NET](https://github.com/alecgn/crypthash-net)：一个用于加密/解密、哈希和编码/解码的.NET多目标库和.NET Core控制台应用程序工具。
+* [Bing.Encryption](https://github.com/bing-framework/Bing.Encryption)：Bing.Encryption是Bing应用框架的加密操作类库。
+* [Lucinda](https://github.com/Taiizor/Lucinda)：一个适用于.NET的全面端到端加密库，提供安全的加密操作，包括对称/非对称加密、密钥交换、数字签名和安全密钥管理。
+* [Rijndael256](https://github.com/2Toad/Rijndael256)：适用于.NET Framework和.NET Core的AES加密库。
+* [Unity Crypto](https://github.com/dubit/unity-crypto)：一个包含用于加密和解密数据的类的库。
 
 ## 密码库
 
