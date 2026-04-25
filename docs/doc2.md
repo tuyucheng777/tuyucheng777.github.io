@@ -10804,12 +10804,6 @@ Kafka生态管理系统、运维平台。
 * [Netty Server](https://github.com/cosmoplat-dev/netty-server)：Netty Server使用Spring Boot、Netty进行搭建，主要做软件和智能硬件之间的通信框架。
 * [Easy IoT](https://gitee.com/damocode/easy-iot)：Easy IoT是一款轻量级物联网开发的SDK。
 
-#### 物联网SDK
-
-* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
-* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
-* [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
-
 #### 物联网平台
 
 * [SmartThings](https://www.samsung.com/us/smartthings/)：SmartThings是一款免费应用程序，它使用Wi-Fi连接基于Matter协议的智能设备，无论其制造商是哪家公司，这是三星的产品。
@@ -10853,6 +10847,12 @@ Kafka生态管理系统、运维平台。
 * [GYJ IoT](https://gitee.com/jishenghua/gyj-iot)：基于Vue 3.4和Spring Boot 2.5框架开发的物联网软件。
 * [FireControl](https://gitee.com/cabrfire/firecontrol)：TMC智慧消防云平台。
 * [Iceburg](https://github.com/Deshan555/IOT-Smart_Farming)：Iceburg是一个智能项目，旨在促进农业农场的互动和管理改进。
+
+#### 物联网SDK
+
+* [Azure IoT SDK](https://github.com/Azure/azure-iot-sdk-java)：用于将设备连接到Microsoft Azure IoT服务的Java SDK。
+* [AWS IoT Device SDK Java](https://github.com/aws/aws-iot-device-sdk-java)：AWS IoT Device SDK使Java开发人员能够通过MQTT或基于WebSocket协议的MQTT访问AWS IoT平台。
+* [IoT Device Java](https://github.com/tencentyun/iot-device-java)：腾讯云物联网通信Java和Android SDK。
 
 #### 智能家居
 

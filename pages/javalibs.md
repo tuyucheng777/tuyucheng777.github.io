@@ -6674,8 +6674,8 @@ permalink: /javalibs
 * [Brando](https://github.com/chrisdinn/brando)：一个轻量级的Redis客户端，可与Akka一起使用。
 * [JRediSearch](https://github.com/RediSearch/JRediSearch)：RediSearch的Java客户端库。
 * [RedisClient](https://github.com/caoxinyu/RedisClient)：RedisClient是一个基于Java SWT和Jedis编写的Redis客户端GUI工具。
-* [JDBC Redis](https://github.com/mtpettyp/jdbc-redis)：JDBC Redis是为Redis实现JDBC API的一个项目。
 * [HotKey](https://gitee.com/jd-platform-opensource/hotkey)：京东App后台中间件，毫秒级探测热点数据，毫秒级推送至服务器集群内存，大幅降低热key对数据层查询压力。
+* [JDBC Redis](https://github.com/mtpettyp/jdbc-redis)：JDBC Redis是为Redis实现JDBC API的一个项目。
 * [RedisX](https://gitee.com/websterlu/redisx)：Redis线程池实现。
 * [Redis Admin](https://github.com/mauersu/redis-admin)：Redis Admin是一个基于Java EE和Jedis编写的Redis客户端Web工具。
 * [Redis Desktop Client](https://gitee.com/RedisDesktopClient/redis-desktop-client)：Redis Desktop Client是一款颜值较高、使用方便的redis客户端工具。
@@ -8052,8 +8052,8 @@ permalink: /javalibs
 * [TreodeDB](https://github.com/Treode/store)：TreodeDB是一个提供多行原子写入的分布式数据库，它专为RESTful服务而设计。
 * [Hank](https://github.com/LiveRamp/hank)：Hank是LiveRamp构建和使用的一个非常快速且非常紧凑的分布式键值NoSQL数据库。
 * [IODB](https://github.com/input-output-hk/iodb)：IODB是为区块链应用设计的嵌入式存储引擎。
-* [Recall](https://github.com/aitusoftware/recall)：Recall是JVM的一个堆外、无分配的对象存储系统。
 * [WaspDB](https://github.com/rehacktive/waspdb)：WaspDB是一个适用于Android的纯Java键值对数据库库。
+* [Recall](https://github.com/aitusoftware/recall)：Recall是JVM的一个堆外、无分配的对象存储系统。
 * [FastKV](https://github.com/BillyWei01/FastKV)：FastKV是用Java编写的高效可靠的键值存储库，专为Android平台优化。
 * [LSM Tree](https://github.com/indeedeng/lsmtree)：LSM Tree是一种快速键/值存储，对于大容量随机访问读写非常有效，由Indeed开发。
 * [Distkv](https://github.com/distkv-project/distkv)：Distkv是一个具有表概念的轻量级分布式键值数据库系统。
@@ -13513,8 +13513,8 @@ Kafka生态管理系统、运维平台。
 * [Vision4JPC](https://github.com/KXJ-WQL/Vision4JPC)：Vision4JPC是一款基于Spring Boot、Vue3、Electron、Quasar的本地桌面应用开发脚手架。
 * [Unicorn](https://github.com/lWoHvYe/unicorn)：基于最新的Java 25和Spring Boot 4.x，根据ELADMIN项目进行改造。
 * [Vertx Start](https://github.com/wang007/vertx-start)：简单、快速启动Vert.x的脚手架。
-* [Java EE 7 Essentials Archetype](https://github.com/AdamBien/javaee7-essentials-archetype)：用于创建全新Java EE 7项目的快速入门Maven原型。
 * [Cn.Stackbox.Archetypes](https://github.com/superalsrk/cn.stackbox.archetypes)：Spring Boot的一些项目原型。
+* [Java EE 7 Essentials Archetype](https://github.com/AdamBien/javaee7-essentials-archetype)：用于创建全新Java EE 7项目的快速入门Maven原型。
 * [HiveGenerator](https://github.com/Enndfp/code-generator)：HiveGenerator是一个分阶段开发的定制化代码生成器平台。
 * [Spring CRUD Generator](https://github.com/mzivkovicdev/spring-crud-generator)：从单个YAML或JSON规范生成可用于生产环境的Spring Boot后端样板代码。
 * [Sculptor Boot](https://github.com/cdk8s/sculptor-boot-generator)：Sculptor Boot生成器体系核心。
