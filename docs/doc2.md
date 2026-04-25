@@ -1544,6 +1544,7 @@
 * [DLSync](https://github.com/Snowflake-Labs/dlsync)：DLSync是一款数据库变更管理工具，旨在简化Snowflake变更的开发和部署。
 * [AutoPatch](https://github.com/tacitknowledge/autopatch)：AutoPatch是一个用于Java的自动化数据库修补框架。
 * [Sqiffy](https://github.com/dzikoysk/sqiffy)：Sqiffy是一个实验性的复合SQL框架，它使用类型安全的DSL API。
+* [Bee](https://github.com/bluesoft/bee)：数据库变更管理器。
 
 #### 数据源增强
 
@@ -3648,6 +3649,7 @@
 * [Brackit](https://github.com/sirixdb/brackit)：Brackit是一个功能强大的JSONiq引擎，用于查询JSON和XML。
 * [Josson](https://github.com/octomix/josson)：Josson是一个完整的JSON查询和转换语言。
 * [Kt JsonQ](https://github.com/shuza/kt-jsonq)：Kt JsonQ是一个简洁优雅的Kotlin库，用于查询任何类型的JSON数据。
+* [SQL4Json](https://github.com/mnesimiyilmaz/sql4json)：SQL4Json允许你使用熟悉的SQL SELECT语法查询内存中的JSON数据。
 
 #### JSON Patch
 
@@ -4810,7 +4812,7 @@
 * [UFLO2](https://github.com/youseries/uflo)：UFLO是一款基于Spring的纯Java流程引擎，支持并行、动态并行、串行、会签等各种流转方式。
 * [NFlow](https://github.com/NitorCreations/nflow)：NFlow是一种经过验证的用于编排业务流程的解决方案，它可以用作微服务编排器(Saga模式)、业务流程引擎或持久有限状态机。
 * [WFlow](http://wflow.willianfu.top/)：WFlow工作流是一个简单易用，面向普通用户的工作流系统。
-* [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎
+* [FlowLong](https://gitee.com/aizuda/flowlong)：由爱组搭开源的工作流引擎。
 * [Concord](https://github.com/walmartlabs/concord)：Concord是一个工作流服务器，它是使用用户创建的场景和插件将不同系统连接在一起的编排引擎，由沃尔玛开源。
 * [OpenWebFlow](https://github.com/bluejoe2008/openwebflow)：OpenWebFlow是基于Activiti扩展的工作流引擎。
 * [DataBuilder](https://github.com/flipkart-incubator/databuilderframework)：DataBuilder框架是一个高级逻辑执行引擎，可用于执行多步骤工作流，该引擎目前为Flipkart的结账系统以及诊断和其他工作流提供支持。
@@ -8535,8 +8537,8 @@ Kafka生态管理系统、运维平台。
 * [RESThub](https://github.com/resthub/resthub-spring-stack)：RESThub是一个基于Spring和Backbone.js的技术栈，旨在轻松高效地构建HTML5应用程序。
 * [FlyCloud](https://github.com/mxdldev/spring-cloud-flycloud)：FlyCloud包括了用Spring Cloud构建微服务的一系列基本组件和框架。
 * [Edison MicroService](https://github.com/otto-de/edison-microservice)：Spring Boot之上的独立库集合，可提供更快的JVM微服务设置。
-* [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
 * [TOTVS Java Framework](https://tjf.totvs.com.br/)：TOTVS Java Framework是一个专为云原生应用程序设计的框架，结合了Java技术和Spring技术。
+* [Fw Cloud Framework](https://github.com/liuweijw/fw-cloud-framework)：基于Spring Cloud全家桶开发分布式框架，实现基于Vue全家桶等前后端分离项目工程。
 * [DevOps Boot](https://github.com/bkdevops-projects/devops-framework)：DevOps Boot是基于Spring Boot的微服务快速开发框架，由腾讯DevOps团队开发。
 * [Hawaii Framework](https://github.com/hawaiifw/hawaii-framework)：Hawaii Framework是一个用于开发基于Spring的应用程序的Java框架，由ilionx开源。
 * [Essencium Backend](https://github.com/Frachtwerk/essencium-backend)：Essencium是一个构建在Spring Boot之上的软件库，允许开发人员快速开始新的软件项目。
@@ -8780,7 +8782,7 @@ Kafka生态管理系统、运维平台。
 * [Nussknacker](https://github.com/TouK/nussknacker)：Nussknacker是一款低代码可视化工具，可供领域专家构建、运行和监控实时决策算法，而不是在代码中实现它们。
 * [JeeLowCode](https://gitee.com/jeelowecode/JeeLowCode)：JeeLowCode是一款基于芋道源码精心二次封装的企业级低代码开发框架。
 * [Gemini](https://github.com/gemini-projects/gemini)：云原生和低代码平台，可在几分钟内创建全栈Web管理应用程序。
-* [Oinone](https://gitee.com/oinone/oinone-pamirs)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
+* [Oinone](https://github.com/oinone/oinone-pamirs)：Oinone是一个赋能企业标准化研发和敏捷交付的统一低代码平台，由数式科技开发。
 * [MuYun](https://github.com/ximatai/MuYun)：MuYun是一个云原生、开发者优先、前后端分离、按需插拔的轻代码平台。
 * [Aware IM](https://www.awareim.com/)：Aware IM是一款低代码Web应用构建器，专为快速、稳定且可扩展的开发而设计，由Awaresoft开发。
 * [Informat](https://www.informat.cn/)：织信是基石协作科技自研的低代码应用构建平台。
@@ -8798,6 +8800,10 @@ Kafka生态管理系统、运维平台。
 * [YOMA](https://github.com/msh01/yoma)：YOMA是一个小而美的低代码全栈开发平台。
 * [DaaS Start Kit](https://github.com/doublechaintech/daas-start-kit)：DaaS是一个面向大型软件开发系统和私有部署的开发工具。
 * [Lite API](https://gitee.com/xc_java/lite-api)：Lite API是一个基于JFinal框架的轻量级API敏捷开发框架。
+* [Once](https://github.com/YiiGaa/Once)：一个基于RESTful API的后端低代码框架。
+* [Flow EAD](https://github.com/Linxfeng/flow-eda)：Flow EAD是一种基于事件驱动的流式低代码编程应用程序。
+* [JNPF Platform](https://github.com/Angelo0504/lowCodePlatform)：低代码开发平台项目。
+* [Aizuda Components](https://github.com/aizuda/aizuda-components)：低代码、无代码、零代码开发组件库。
 
 #### 权限管理系统
 
@@ -9437,6 +9443,7 @@ Kafka生态管理系统、运维平台。
 * [SSMBlog](https://github.com/oldbiwang/SSMBlogv2)：基于Spring、Spring MVC、Mybatis、Bootstrap、Ajax的个人响应式博客。
 * [TBlog](https://github.com/xieshuang/t-blog)：简洁的个人博客系统。
 * [Spring Blog](https://github.com/jaycekon/Spring-Blog)：分模块化开发的Spring Boot博客平台。
+* [Dim Stack](https://github.com/lingview/dim_stack)：基于Spring Boot、React的现代化个人博客系统。
 
 #### 论坛系统
 
@@ -11225,6 +11232,7 @@ Kafka生态管理系统、运维平台。
 * [MontiCore](https://github.com/MontiCore/monticore)：MontiCore是一个用于高效开发DSL的语言工作台，它处理定义DSL的扩展语法格式并生成用于处理DSL文档的Java组件，由亚琛工业大学开发。
 * [Spoofax](https://github.com/metaborg/spoofax)：Spoofax是一个帮助开发者快速开发领域特定语言(DSL)的平台。
 * [Dsl.scala](https://github.com/ThoughtWorksInc/Dsl.scala)：Dsl.scala是一个在Scala中创建嵌入式DSL的框架，由ThoughtWorks开源。
+* [DSL DevKit](https://github.com/dsldevkit/dsl-devkit)：用于使用Xtext实现领域特定语言的开发工具包。
 
 ## JMX
 
@@ -11320,6 +11328,7 @@ Kafka生态管理系统、运维平台。
 * [Max Bot API Java Client](https://github.com/max-messenger-client/max-bot-api-client-java)：Max Bot API的Java客户端。
 * [YuQ](https://github.com/YuQWorks/YuQ)：YuQ是一个机器人快速开发框架。
 * [Mail.Ru IM Java](https://github.com/mail-ru-im/bot-java)：Mail.Ru IM机器人API的Java接口。
+* [Xatkit](https://github.com/xatkit-bot-platform/xatkit-runtime)：Xatkit低代码聊天机器人平台的核心运行时引擎。
 
 #### Discord机器人
 
@@ -12536,6 +12545,8 @@ Kafka生态管理系统、运维平台。
 * [FlatSwing](https://github.com/Mommoo/FlatSwing)：一个由平面设计制成的漂亮的Java Swing库。
 * [JTattoo](https://github.com/michael-hagen/JTattoo)：JTattoo是一个基于Swing的应用程序的LaF库。
 * [JGoodies Looks](https://www.jgoodies.com/freeware/libraries/looks/)：JGoodies的Windows L&F系列能让你的Swing应用看起来更美观。
+* [WebLookAndFeel](https://github.com/margelperetto/WebLookAndFeel)：为Swing应用程序设计类似Web风格的Java外观和体验。
+* [ElementUI](https://github.com/gufengchangdao/ElementUI)：Swing的UI组件库。
 
 #### Swing UI库
 
@@ -12578,6 +12589,9 @@ Kafka生态管理系统、运维平台。
 * [JIDE Components](https://www.jidesoft.com/products/component.htm)：JIDE Components包含一系列非常实用的组件。
 * [JIDE Dashboard](https://www.jidesoft.com/products/dashboard.htm)：JIDE Dashboard提供了一个占位符来展示各种小部件。
 * [JIDE Grids](https://www.jidesoft.com/products/grids.htm)：JIDE Grids是一个包含所有JTable相关组件的集合。
+* [JBrowser](https://github.com/caiiiycuk/jbrowser)：JBrowser是一款易于使用的Web浏览器Swing组件。
+* [SwingMaterialDesign](https://github.com/ibilux/SwingMaterialDesign)：一套用于Java Swing的Material Design组件。
+* [Swing Terminal](https://github.com/wille/swing-terminal)：Swing组件，外观和行为都与任何普通终端类似。
 
 #### Swing对话框
 
@@ -12618,6 +12632,7 @@ Kafka生态管理系统、运维平台。
 * [JDatePicker](https://github.com/JDatePicker/JDatePicker)：JDatePicker和JDatePanel是一组用于Java Swing应用程序的高级DatePicker控件。
 * [ColorPick](https://github.com/dheid/colorpicker)：一个使用Java Swing的漂亮颜色选择器，包含可视颜色选择和用于手动输入RGB和HSB值的输入框。
 * [JnaFileChooser](https://github.com/steos/jnafilechooser)：使用Windows原生对话框的Java文件选择器API。
+* [NativeJFileChooser](https://github.com/steffen678/NativeJFileChooser)：这是一个可直接替代Swing文件选择器的插件。
 
 #### Swing图表库
 
@@ -12644,6 +12659,7 @@ Kafka生态管理系统、运维平台。
 * [JIDE Gantt Chart](https://www.jidesoft.com/products/gantt.htm)：JIDE Gantt Chart是一个纯粹的Java Swing库，使你可以在Swing应用中创建甘特图成为可能。
 * [JIDE Charts](https://www.jidesoft.com/products/charts.htm)：JIDE Charts是一个强大且灵活的图表软件。
 * [ChartX](https://github.com/apokalypsix/chartx)：适用于Java Swing应用程序的高性能GPU加速图表库。
+* [Iceberg Charts](https://github.com/oliverwatkins/Iceberg-Charts)：Swing图表库。
 
 #### Swing测试库
 
@@ -12657,11 +12673,9 @@ Kafka生态管理系统、运维平台。
 #### JavaFX
 
 * [Scene Builder](https://github.com/gluonhq/scenebuilder)：Scene Builder是一款拖放式UI设计工具，可实现快速桌面和移动应用程序开发。
-* [RxJavaFX](https://github.com/ReactiveX/RxJavaFX)：RxJavaFX是一个轻量级库，用于将JavaFX事件转换为RxJava Observables/Flowables，反之亦然。
 * [WorkbenchFX](https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX)：用于JavaFX应用程序的轻量级RCP框架。
 * [MVVMFX](https://github.com/sialcasa/mvvmFX)：MVVMFX是一个应用程序框架，它为你提供使用JavaFX实现MVVM模式所需的组件。
 * [JWM](https://github.com/HumbleUI/JWM)：JWM是一个跨平台的Java窗口管理和操作系统集成库。
-* [ReactFX](https://github.com/TomasMikula/ReactFX)：ReactFX是对JavaFX响应式编程技术的补充。
 * [Substrate](https://github.com/gluonhq/substrate)：Gluon Substrate是一款将JavaFX客户端应用程序转换为桌面、移动和嵌入式设备的本机可执行文件的工具。
 * [WebFX](https://github.com/webfx-project/webfx)：WebFX是一个由GWT提供支持的JavaFX应用程序转译器，它可以将JavaFX应用程序转换为传统的独立纯JavaScript Web应用程序。
 * [TestFX](https://github.com/TestFX/TestFX)：TestFX是一个用于简单、干净地测试JavaFX应用程序和组件的库。
@@ -12669,10 +12683,8 @@ Kafka生态管理系统、运维平台。
 * [ValidatorFX](https://github.com/effad/ValidatorFX)：ValidatorFX是JavaFX的表单验证库。
 * [EasyBind](https://github.com/TomasMikula/EasyBind)：EasyBind在创建自定义绑定时利用Lambda来减少样板文件，为Bindings.select*方法提供类型安全的替代方案，并向ObservableValue添加单子操作。
 * [Advanced Bindings](https://github.com/manuel-mauky/advanced-bindings)：Advanced Bindings是一些有用的帮助程序和自定义绑定实现的集合，用于简化大量基于JavaFX的属性和绑定的应用程序的开发。
-* [Gluon Maps](https://github.com/gluonhq/maps)：Gluon Maps提供了一种将OpenStreetMaps集成到JavaFX应用程序中的简单方法，它速度极快，并提供图层叠加、多个图块集等等。
 * [LibRawFX](https://github.com/lanthale/LibRawFX)：集成适用于所有主要操作系统(Linux、Windows、OSX)的JavaFX的LibRaw库。
 * [UpdateFX](https://github.com/vinumeris/updatefx)：UpdateFX是一个小型、简单的JavaFX应用程序自动在线更新框架。
-* [ReduxFX](https://github.com/netopyr/reduxfx)：ReduxFX是一组库，使你能够在JavaFX应用程序中使用函数式响应式编程。
 * [EasyFXML](https://github.com/Tristan971/EasyFXML)：EasyFXML是一组固执己见的工具，旨在简化健壮且模块化的JavaFX应用程序的开发。
 * [FxmlKit](https://github.com/dlsc-software-consulting-gmbh/FxmlKit)：JavaFX FXML加载器，支持FXML/CSS热重载和约定优于配置。
 * [JRebirth](https://github.com/JRebirth/JRebirth)：JRebirth是一个JavaFX应用程序框架。
@@ -12688,7 +12700,8 @@ Kafka生态管理系统、运维平台。
 * [SynchronizeFX](https://github.com/zeiss-digital-innovation/SynchronizeFX)：SynchronizeFX支持在本地计算机和网络上的不同JVM之间进行属性绑定。
 * [JideFX](https://github.com/jidesoft/jidefx-oss)：JideFX通用层是JavaFX平台各种扩展和实用程序的集合。
 * [FX](https://github.com/int4-org/FX)：这是一个JavaFX库，提供流式、类型安全的控件、面板和自定义节点构建器，以及响应式、领域感知模型和可观察实用程序。
-* [FXMaps](https://github.com/fxpresso/FXMaps)：FXMaps允许你将Google地图嵌入到JavaFX应用程序中。
+* [FXRouter](https://github.com/Marcotrombino/FXRouter)：一个简单的JavaFX路由器，用于在应用程序场景之间切换。
+* [Kairos](https://github.com/Kairos-Project/kairos-framework)：Kairos让你能够像在Android中一样，使用Activity和Fragment构建JavaFX应用程序，并使用Material Design创建出色的用户界面。
 
 #### JavaFX主题库
 
@@ -12709,6 +12722,9 @@ Kafka生态管理系统、运维平台。
 * [FlatBee](https://github.com/marcschuler/FlatBee)：一个扁平化、流式的JavaFX CSS主题。
 * [FXThemes](https://github.com/dukke/FXThemes)：用于JavaFX高级主题开发的实用程序类。
 * [GNDecorator](https://github.com/gleidsonmt/GNDecorator)：适用于JavaFX应用程序的现代窗口装饰器。
+* [Fextile](https://github.com/watermint/Fextile)：Fextile是一个类似Twitter Bootstrap的JavaFX UI框架。
+* [AeroFX](https://github.com/Maddosaurus/aerofx)：JavaFX皮肤，打造原生Windows 7外观和感觉。
+* [ElementFX](https://github.com/Anivie/ElementFX)：JavaFX中的ElementUI，只需要一行代码就可以得到一个漂亮的应用程序。
 
 #### JavaFX样式库
 
@@ -12731,6 +12747,7 @@ Kafka生态管理系统、运维平台。
 * [JavaFX Blur](https://github.com/kieferlam/JavaFX-Blur)：该库提供了使用JNI调用本机窗口管理器功能将模糊效果应用于JavaFX Stage的方法。
 
 * [JavaFX UI](https://github.com/xjw580/javafx-ui)：适用于JavaFX的UI组件库。
+* [ITStack Native Chat](https://github.com/itstack-naive-chat)：JavaFX开发的UI端，提供了登录体、聊天框体。
 
 #### JavaFX组件库
 
@@ -12758,7 +12775,6 @@ Kafka生态管理系统、运维平台。
 * [FXOK](https://github.com/comtel2000/fx-experience)：FXOK为带有XML布局配置的触摸显示器提供基于JavaFX 8的虚拟屏幕键盘组件。
 * [FroXty](https://github.com/iAmGio/froxty)：FroXty是一个JavaFX库，可以轻松复制著名的iOS半透明效果。
 * [GestureFX](https://github.com/tom91136/GestureFX)：JavaFX的轻量级捏合缩放窗格。
-* [FXFileChooser](https://github.com/Oliver-Loeffler/FXFileChooser)：自定义JavaFX文件选择器，允许快速手动过滤，允许添加路径谓词作为过滤器。
 * [FXTaskbarProgressBar](https://github.com/Dansoftowner/FXTaskbarProgressBar)：JavaFX的一个库，使你能够在Windows任务栏上显示进度。
 * [Grid](https://github.com/manuel-mauky/Grid)：Grid是一个JavaFX(8)组件，用于基于方格网格的不同类型的小游戏，例如国际象棋或数独。
 * [RichTextArea](https://github.com/gluonhq/rich-text-area)：RichTextArea是一种文本输入控件，它提供富文本功能以及表情符号和非文本对象(如图像、表格和超链接)。
@@ -12769,12 +12785,20 @@ Kafka生态管理系统、运维平台。
 * [NFX](https://github.com/xdsswar/nfx-lib)：NFX是适用于Windows 10/11的JavaFX/JNI库，可让你构建完全自定义、原生感觉的窗口Chrome-标题栏、按钮和框架行为。
 * [JFXC](https://github.com/innFactory/JFXC)：JFXC包含一些新的控件，可以扩展你的GUI。
 * [FX Progress Circle](https://github.com/torakiki/fx-progress-circle)：一些JavaFX进度指示器，以圆弧/圆环或填充圆的形式显示进度。
-* [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
 * [FranzXaver](https://github.com/afester/FranzXaver)：FranzXaver是一个JavaFX组件和工具库。
 * [FXSVGImage](https://github.com/hervegirod/fxsvgimage)：此库允许将SVG文件转换为JavaFX节点树或图像。
 * [JavaFXCalendar](https://github.com/poralcode/JavaFXCalendar)：JavaFX中的简单Material风格日历。
 * [Techsenger TabPanePro](https://github.com/techsenger/tabpanepro)：Techsenger TabPanePro是一个轻量级的JavaFX库，它通过自定义控制区域、自定义选项卡形状、带边缘滚动的选项卡拖放、选项卡滚动条等实用功能扩展了标准TabPane。
 * [TouchSlider](https://github.com/HanSolo/regulators)：JavaFX控件，可用于家庭自动化用户界面。
+* [FXComponents](https://github.com/dukke/FXComponents)：JavaFX的新控件。
+* [MarkdownEditorControlFX](https://github.com/Dansoftowner/MarkdownEditorControlFX)：一款适用于JavaFX的高级Markdown编辑器控件。
+* [Techsenger TabShell](https://github.com/techsenger/tabshell)：Techsenger TabShell是一个用于在JavaFX中构建基于选项卡的应用程序的平台。
+* [RadialFx](https://github.com/MrLoNee/RadialFx)：径向设计与JavaFX的完美结合。
+* [Emoji TextFlow JavaFX](https://github.com/pavlobu/emoji-text-flow-javafx)：一个扩展的JavaFX TextFlow，带有自定义表情符号图像，可帮助你在JavaFX跨平台UI应用程序中实现表情符号与文本的一致性。
+* [Simple Media Player](https://github.com/Al-assad/Simple-Media-Player)：JavaFX内嵌多媒体播放器。
+* [VAMaskField](https://github.com/vas7n/VAMaskField)：VAMaskField是JavaFX的一个扩展TextField。
+* [FXTools](https://github.com/HouariZegai/FXTools)：实用工具和用户界面，可以在JavaFX项目中使用它。
+* [JavaFX NeovimPane](https://github.com/jebberjeb/javafx-neovimpane)：这是一个JavaFX组件，允许用户使用Vim命令输入多行纯文本，并由嵌入式Neovim进程提供支持。
 
 #### JavaFX Dock库
 
@@ -12785,6 +12809,7 @@ Kafka生态管理系统、运维平台。
 * [BentoFX](https://github.com/Col-E/BentoFX)：JavaFX的Dock系统。
 * [Cedro Modern Dock](https://github.com/arthurdeka/cedro-modern-dock)：简洁流畅的开源Dock，通过自定义快捷方式，快速访问你常用的应用和系统模块。
 * [SnapFX](https://github.com/Beowolve/SnapFX)：SnapFX是一个轻量级JavaFX Docking框架。
+* [DockSystemFX](https://github.com/Dansoftowner/DockSystemFX)：一个受IntelliJ IDEA的Dock系统启发而开发的JavaFX停靠库。
 
 #### JavaFX图表库
 
@@ -12820,6 +12845,9 @@ Kafka生态管理系统、运维平台。
 * [JLeaflet](https://github.com/makbn/java_leaflet)：JLeaflet是一个用于将Leaflet地图集成到Vaadin和JavaFX应用中的Java库，支持完整的JPMS。
 * [Fancy Chart](https://github.com/tesis-dynaware/fancy-chart)：Fancy Chart是LineChart和TableView控件的组合。
 * [JavaFX Chart Zooming](https://github.com/kerner1000/javafx-chart-zooming)：JavaFX图表缩放。
+* [SmoothCharts](https://github.com/HanSolo/smoothcharts)：一个可平滑处理并具有鼠标交互功能的JavaFX折线/面积图。
+* [FXCharts](https://github.com/dukke/FXCharts)：对JavaFX内置图表库的增强。
+* [VisFX](https://github.com/arocketman/VisFX)：通过JavaFX轻松访问vis.js网络图。
 
 #### JavaFX图标库
 
@@ -12835,6 +12863,8 @@ Kafka生态管理系统、运维平台。
 * [Flowless](https://github.com/FXMisc/Flowless)：JavaFX的高效VirtualFlow，VirtualFlow是一个布局容器，可在垂直或水平流中布局单元格。
 * [FlexBoxFX](https://github.com/onexip/FlexBoxFX)：FlexBoxFX是CSS3弹性框布局管理器的JavaFX实现。
 * [ScaledFX](https://github.com/miho/ScaledFX)：JavaFX窗格，用于通过应用缩放变换来缩放任意内容节点(用于Vworkflow)。
+* [TemplateFX](https://github.com/tferi/templateFX)：TemplateFX是一个用Scala编写的JavaFX UI定义和协调库。
+* [Amaronui Layouts](https://github.com/AmaronUI/amaronui-layouts)：用Java实现的布局算法，可用于JavaFX、iOS和Android。
 
 #### JavaFX动画库
 
@@ -12846,6 +12876,7 @@ Kafka生态管理系统、运维平台。
 * [LitFX](https://github.com/Birdasaur/LitFX)：LitFX可以将其效果作为透明覆盖层应用到你的JavaFX GUI，这样效果就可以与你的各种节点进行交互，而无需事先了解你的布局。
 * [Tray Notification](https://github.com/PlusHaze/TrayNotification)：Tray Notification是JavaFX的一个库，为台式计算机添加了易于使用的托盘通知。
 * [Lottie4J](https://github.com/lottie4j/lottie4j)：Lottie4J是用于处理Lottie文件的Java库。
+* [GNButton](https://github.com/gleidsonmt/GNButton)：JavaFX自定义按钮动画。
 
 #### JavaFX渲染库
 
@@ -12853,6 +12884,33 @@ Kafka生态管理系统、运维平台。
 * [OpenGLFX](https://github.com/husker-dev/openglfx)：该库为JavaFX添加了新元素，用于使用LWJGL、JOGL、LWJGL2或LibGDX渲染OpenGL图形。
 * [NativeFX](https://github.com/miho/NativeFX)：JavaFX的原生渲染集成。
 * [JFXShader](https://github.com/Teragam/JFXShader)：允许在JavaFX中使用OpenGL(GLSL)或DirectX(HLSL)自定义效果着色器。
+* [Wayland JavaFX](https://github.com/udevbe/wayland-javafx)：一个用于JavaFX的Wayland后端。
+
+#### JavaFX选择器
+
+* [FXFileChooser](https://github.com/Oliver-Loeffler/FXFileChooser)：自定义JavaFX文件选择器，允许快速手动过滤，允许添加路径谓词作为过滤器。
+* [DateTimePicker](https://github.com/taipeiben/DateTimePicker)：JavaFX的基本日期和时间选择器控件。
+* [JWheatSheaf](https://github.com/io7m-com/jwheatsheaf)：JavaFX FileChooser的一个替代方案。
+* [PickerFX](https://github.com/dlsc-software-consulting-gmbh/PickerFX)：PickerFX是一个轻量级的框架，用于创建选择器控件。
+
+#### JavaFX地图库
+
+* [WorldFX](https://github.com/HanSolo/worldfx)：一个基于JavaFX的世界地图，支持鼠标交互和地理定位。
+* [FXMaps](https://github.com/fxpresso/FXMaps)：FXMaps允许你将Google地图嵌入到JavaFX应用程序中。
+* [Gluon Maps](https://github.com/gluonhq/maps)：Gluon Maps提供了一种将OpenStreetMaps集成到JavaFX应用程序中的简单方法，它速度极快，并提供图层叠加、多个图块集等等。
+
+#### JavaFX对话框
+
+* [JavaFxDialog](https://github.com/4ntoine/JavaFxDialog)：JavaFX 2的标准对话框。
+* [SimpleDialogFX](https://github.com/Daytron/SimpleDialogFX)：易于使用的轻量级对话框库，适用于JavaFX应用程序。
+
+#### JavaFX响应式库
+
+* [RxJavaFX](https://github.com/ReactiveX/RxJavaFX)：RxJavaFX是一个轻量级库，用于将JavaFX事件转换为RxJava Observables/Flowables，反之亦然。
+* [ReactFX](https://github.com/TomasMikula/ReactFX)：ReactFX是对JavaFX响应式编程技术的补充。
+* [ReduxFX](https://github.com/netopyr/reduxfx)：ReduxFX是一组库，使你能够在JavaFX应用程序中使用函数式响应式编程。
+* [ReactorFX](https://github.com/shadskii/ReactorFX)：这个轻量级的便捷库实现了Project Reactor和JavaFX之间的简单集成。
+* [FluxFX](https://github.com/manuel-mauky/FluxFX)：这是基于JavaFX的Flux架构的实验性实现。
 
 #### JavaFX项目模板
 
@@ -13075,6 +13133,7 @@ Kafka生态管理系统、运维平台。
 * [Kanvas](https://github.com/ftomassetti/kanvas)：Kanvas是一个用Kotlin编写的非常简单的编辑器，旨在方便用户进行扩展和修改。
 * [Markdown Writer FX](https://github.com/JFormDesigner/markdown-writer-fx)：用JavaFX编写的开源Markdown编辑器。
 * [TextMd](https://github.com/jdesive/textmd)：TextMD Markdown编辑器。
+* [JeditFX](https://github.com/lanthale/JeditFX)：JeditFX是一个非常轻量级的文本编辑器，用JavaFX编写。
 
 #### 在线编辑器
 
@@ -13447,6 +13506,8 @@ Kafka生态管理系统、运维平台。
 * [WraithEngine](https://github.com/TheDudeFromCI/WraithEngine)：WraithEngine是一款基于LWJGL的免费开源Java游戏引擎。
 * [JLud2D](https://github.com/rafael-esper/JLud2D)：JLud2D是一款老式游戏引擎。
 * [Ockero](https://github.com/KogeLabs/Ockero)：Ockero是一个用Kotlin开发的2D OpenGL游戏框架，可在Windows、Linux和Mac OS X上运行。
+* [SypherEngine](https://github.com/SypherEngine/SypherEngine)：SypherEngine是一款简单的游戏引擎，采用纯Java编写，设计轻巧、快速且易于使用。
+* [FXGameEngine](https://github.com/eppleton/FXGameEngine)：基于JavaFX Canvas API的游戏引擎。
 
 #### Minecraft
 
@@ -14232,6 +14293,7 @@ Kafka生态管理系统、运维平台。
 * [Java Music Generator](https://github.com/Armaxis/jmg)：JMG基于jMusic库，允许你实时创作音乐、播放音乐并将其保存为MIDI或MP3格式。
 * [Scala Audio File](https://github.com/mziccard/scala-audio-file)：一个极简的Scala音频文件处理库。
 * [Wayang](https://github.com/Deep-Symmetry/wayang)：这是一个用于在Ableton Push 2乐器上显示图像的Java库。
+* [Jipes](https://github.com/hendriks73/jipes)：Jipes是一个Java开源库，可以高效地计算音频特征。
 
 #### 视频库
 
@@ -14935,8 +14997,8 @@ Kafka生态管理系统、运维平台。
 
 * [GeoTools](https://github.com/geotools/geotools)：GeoTools是一个开源Java库，它提供符合标准的方法来操作地理空间数据，例如实现地理信息系统(GIS)，由英国利兹大学开源。
 * [Apache SIS](https://github.com/apache/sis)：SIS是一个用于开发地理空间应用程序的Java语言库。
-* [GeoTrellis](https://github.com/locationtech/geotrellis)：GeoTrellis是一个Scala库和框架，提供用于读取、写入和操作地理空间栅格和矢量数据的API。
 * [Geo Assist](https://github.com/thegeekyasian/geo-assist)：Geo Assist是一个开源Java库，旨在简化空间数据的处理过程。
+* [GeoTrellis](https://github.com/locationtech/geotrellis)：GeoTrellis是一个Scala库和框架，提供用于读取、写入和操作地理空间栅格和矢量数据的API。
 * [GeoMesa](https://github.com/locationtech/geomesa)：GeoMesa是一套开源工具，可在分布式计算系统上进行大规模地理空间查询和分析。
 * [SeaRoute](https://github.com/eurostat/searoute)：SeaRoute可以计算两个地点之间的最短海上路线，由欧盟统计局开源。
 * [MrGeo](https://github.com/ngageoint/mrgeo)：MrGeo是一个地理空间工具包，旨在提供可大规模执行的基于栅格的地理空间功能，由美国国家地理空间情报局与DigitalGlobe合作开发。
@@ -16116,6 +16178,7 @@ Kafka生态管理系统、运维平台。
 * [GWT Maps V3 API](https://github.com/branflake2267/GWT-Maps-V3-Api)：该库为Google地图Javascript API提供Java语言绑定。
 * [GWT OpenLayers](https://github.com/TDesjardins/gwt-ol)：使用JSInterop的OpenLayers 3+ GWT封装。
 * [jQM4GWT](https://github.com/jqm4gwt/jqm4gwt)：jQM4GWT是jQuery Mobile框架的高级封装，它将其转换为可在GWT应用中使用的组件库。
+* [GWTSwing](https://github.com/keinhaar/gwtswing)：这是一个类似于Java Swing API的UI API，但它是基于GWT构建的。
 
 #### JSF库
 

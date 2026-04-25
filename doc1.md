@@ -824,6 +824,10 @@
   * [JavaFX布局库](docs/doc2.md#JavaFX布局库)
   * [JavaFX动画库](docs/doc2.md#JavaFX动画库)
   * [JavaFX渲染库](docs/doc2.md#JavaFX渲染库)
+  * [JavaFX选择器](docs/doc2.md#JavaFX选择器)
+  * [JavaFX地图库](docs/doc2.md#JavaFX地图库)
+  * [JavaFX对话框](docs/doc2.md#JavaFX对话框)
+  * [JavaFX响应式库](docs/doc2.md#JavaFX响应式库)
   * [JavaFX项目模板](docs/doc2.md#JavaFX项目模板)
   * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
@@ -1097,6 +1101,7 @@
 * [Duct](https://github.com/duct-framework/duct)：Duct是一个高度模块化的框架，用于使用数据驱动架构在Clojure中构建服务器端应用程序。
 * [RePlay](https://github.com/replay-framework/replay)：RePlay是Play1框架的一个分支，由Codeborne创建。
 * [Pytheas](https://github.com/Netflix/pytheas)：Pytheas是一个基于Guice、Jersey的Web应用框架，旨在快速构建原型并创建用于探索大型数据源的Web工具，由Netflix开源。
+* [NioFlow](https://core-http.vercel.app/)：NioFlow是一个极简的Java HTTP框架，专注于显式的程序化配置。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
@@ -2318,6 +2323,7 @@
 * [ZCMS](https://gitee.com/yejinzc/zcms)：ZCMS是基于Java NIO的消息中间件。
 * [Delay Queue](https://github.com/yangwenjie88/delay-queue)：Redis实现延迟消息队列。
 * [RedMQ](https://github.com/thisxulz/RedMQ)：基于Redis的消息队列。
+* [Krafta](https://github.com/akansha204/kofta)：Krafta是一个用Java实现的Kafka式分布式日志系统。
 * [Rapid Queue](https://github.com/badqiu/rapid-queue)：最快速精简的Java消息队列。
 * [DataCarrier](https://github.com/wu-sheng/DataCarrier)：DataCarrier是一个轻量级、嵌入式、高吞吐量的发布/订阅消息队列。
 * [Simple Message Queue](https://github.com/kentfitch/Simple-message-queue)：一个用Java实现的非常简单的基于磁盘的消息队列。
@@ -2431,6 +2437,7 @@
 * [Vert.x EventBus Java](https://github.com/abdlquadri/vertx-eventbus-java)：一个用Java编写的Vert.x EventBus客户端，可在Android上运行。
 * [RxBus2](https://github.com/KingJA/RxBus2)：一个基于RxJava2的简单事件总线库。
 * [RxBus](https://github.com/liuguangli/RxBus)：RxBus是一个针对Android优化的发布/订阅事件总线。
+* [FXEventBus](https://github.com/AlmasB/FXEventBus)：基于JavaFX事件分发机制的简单事件总线实现。
 
 #### 消息总线
 

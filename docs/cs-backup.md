@@ -155,6 +155,16 @@
 * [UI库](#UI库)
 * [移动开发框架](#移动开发框架)
 * [WPF](#WPF)
+* [WPF UI库](#WPF-UI库)
+* [WPF控件库](#WPF控件库)
+* [WPF主题库](#WPF主题库)
+* [WPF图表库](#WPF图表库)
+* [WPF对话框](#WPF对话框)
+* [WPF布局库](#WPF布局库)
+* [WPF动画库](#WPF动画库)
+* [WPF图标库](#WPF图标库)
+* [WPF通知库](#WPF通知库)
+* [WPF节点图](#WPF节点图)
 * [WinForms](#WinForms)
 * [MAUI](#MAUI)
 * [Avalonia](#Avalonia)
@@ -1642,6 +1652,8 @@
 * [Data API Builder](https://github.com/Azure/data-api-builder)：Data API Builder是一款开源的无代码工具，可为你的数据库创建安全、功能齐全的REST和GraphQL端点。
 * [JJMasterData](https://github.com/JJConsulting/JJMasterData)：JJMasterData是一个开源的.NET库，可帮助你从数据字典快速创建动态CRUD，以及其他大量样板代码操作，例如导出和导入数据。
 * [ReZero](https://github.com/DotNetNext/ReZero)：Rezero是一款.NET中间件，无需写代码也能实现CRUD。
+* [NeoApps.AI Code Generator](https://github.com/Neopric-Inc/NeoApps.AI-CodeGenerator)：全球首款无代码/低代码应用构建器采用数据优先的方法，使用户能够从零开始创建应用程序。
+* [CodeSpirit](https://github.com/xin-lai/CodeSpirit)：CodeSpirit是一个革命性的全栈低代码、AI开发框架。
 
 ## 压缩库
 
@@ -3094,155 +3106,220 @@
 
 ## WPF
 
-* [Material Design In XAML Toolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)：适用于C#和VB.Net的XAML和WPF中的Google Material Design。
-* [MUI](https://github.com/firstfloorsoftware/mui)：一组控件和样式将你的WPF应用程序转换为美观的现代UI应用程序。
-* [SciChart](https://www.scichart.com/)：SciChart WPF是一个实时、高性能的WPF图表库，专为金融、医疗和工程应用设计。
-* [AvalonDock](https://github.com/Dirkster99/AvalonDock)：AvalonDock是一个WPF文档和工具窗口布局容器，用于以与许多知名IDE(例如Eclipse、Visual Studio、PhotoShop等)类似的方式排列文档和工具窗口。
-* [WPF UI](https://github.com/lepoco/wpfui)：WPF UI在你熟悉和喜爱的WPF框架中提供流畅的体验。
 * [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)：一套用于创建出色WPF应用程序的工具包。
-* [Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon)：Fluent.Ribbon是一个为WPF实现类似Office用户界面的库。
-* [Extended WPF Toolkit](https://github.com/xceedsoftware/wpftoolkit)：Extended WPF Toolkit是用于创建下一代Windows应用程序的WPF控件、组件和实用程序的首要集合。
-* [ModernWPF](https://github.com/Kinnara/ModernWpf)：适用于你的WPF应用程序的现代样式和控件。
-* [HandyControl](https://github.com/HandyOrg/HandyControl)：HandyControl是一套WPF控件库，它几乎重写了所有原生样式，同时包含80余款自定义控件。
 * [Prism](https://github.com/PrismLibrary/Prism)：Prism是一个用于在WPF、Avalonia、MAUI、Uno Platform和WinUI中构建松散耦合、可维护和可测试的XAML应用程序的框架。
-* [Windows Community Toolkit](https://github.com/CommunityToolkit/WindowsCommunityToolkit)：Windows Community Toolkit是帮助程序、扩展和自定义控件的集合。
 * [.NET Community Toolkit](https://github.com/CommunityToolkit/dotnet)：.NET Community Toolkit是一系列帮助程序和API的集合，适用于所有.NET开发人员，并且与任何特定的UI平台无关。
 * [Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro)：Caliburn.Micro是一个小巧但功能强大的框架，旨在构建跨所有XAML平台的应用程序。
-* [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop)：GongSolutions.WPF.DragDrop库是一个用于WPF的拖放框架。
-* [Dragablz](https://github.com/ButchersBoy/Dragablz)：WPF的可拖动和可撕标签控件。
-* [AduSkin](https://github.com/aduskin/AduSkin)：漂亮的WPF控件UI。
-* [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks)：IconPacks库包含控件、标记扩展和转换器，可以以简单的方式将这些出色的图标与你的应用程序一起使用。
-* [Adonis UI](https://github.com/benruehl/adonis-ui)：适用于WPF应用程序的轻量级UI工具包，提供经典但增强的Windows视觉效果。
-* [PanuonUI.Silver](https://github.com/Mochengvia/PanuonUI.Silver)：Panuon.UI优化版，一个使用模板和附加属性的精美WPF UI库。
 * [DMSkin](https://github.com/944095635/DMSkin)：这是一个全新的项目，快速开发WPF客户端的框架。
-* [ReoGrid](https://github.com/unvell/ReoGrid)：适用于.NET应用程序的快速且强大的可视化电子表格组件。
-* [FluentWPF](https://github.com/sourcechord/FluentWPF)：WPF的Fluent设计系统。
-* [Mapsui](https://github.com/Mapsui/Mapsui)：Mapsui是适用于MAUI、WPF、Avalonia、Uno、Blazor、WinUI、Xamarin和Eto的.NET地图组件。
 * [HTML Renderer](https://github.com/ArthurHub/HTML-Renderer)：跨框架、多用途、100%托管、高性能HTML渲染库。
-* [Ookii.Dialogs.Wpf](https://github.com/ookii-dialogs/ookii-dialogs-wpf)：用于WPF应用程序的类库，提供多个常见对话框。
-* [PropertyTools](https://github.com/PropertyTools/PropertyTools)：WPF的自定义控件。
-* [Panuon.WPF.UI](https://github.com/Panuon/Panuon.WPF.UI)：专业的WPF UI库。
-* [HandyControls](https://github.com/ghost1372/HandyControls)：此项目基于HandyControl，包括一些原始项目中未包含的控件和功能。
-* [ControlzEx](https://github.com/ControlzEx/ControlzEx)：WPF共享控件。
-* [InteractiveDataDisplay.WPF](https://github.com/microsoft/InteractiveDataDisplay.WPF)：InteractiveDataDisplay.WPF是一套用于为你的应用程序添加动态数据交互式可视化的控件。
 * [WPF ABP](https://github.com/HenJigg/wpf-abp)：基于ABP框架Xamarin.Forms的跨平台移动项目和WPF客户端。
-* [WPF NotifyIcon](https://github.com/hardcodet/wpf-notifyicon)：WPF平台的NotifyIcon(又称系统托盘图标或任务栏图标)。
-* [NodeNetwork](https://github.com/Wouterdek/NodeNetwork)：NodeNetwork是一个.NET C# WPF库，提供节点编辑器组件。
-* [UI.WPF.Modern](https://github.com/iNKORE-NET/UI.WPF.Modern)：现代Fluent 2风格和控制，适用于你的WPF应用。
 * [XAML Behaviors](https://github.com/microsoft/XamlBehaviorsWpf)：XAML Behaviors是一种易于使用的方式，可以用最少的代码为你的WPF应用添加常见且可重复使用的交互性。
-* [DataGridExtensions](https://github.com/dotnet/DataGridExtensions)：WPF DataGrid控件的模块化扩展。
-* [Wpf Hexeditor](https://github.com/abbaye/WpfHexEditorControl)：Wpf Hexeditor是一个强大且完全可定制的用户控件，可用于编辑文件或流，涵盖十六进制、十进制和二进制。
-* [XamlFlair](https://github.com/XamlFlair/XamlFlair)：XamlFlair库的目标是简化常见动画的实现，并允许开发者仅用几行Xaml轻松添加单一或组合动画集。
-* [Material Design Extensions](https://github.com/spiegelp/MaterialDesignExtensions)：Material Design Extensions基于XAML工具包中的Material Design Toolkit，为WPF应用提供额外的控制和功能。
-* [Arthas](https://github.com/oneo-me/Arthas-WPFUI)：WPF控件库，支持.NET 7.0 Windows Desktop。
-* [WPF ControlBase](https://github.com/HeBianGu/WPF-ControlBase)：WPF封装的自定义控件资源库。
-* [ConsoleControl](https://github.com/dwmkerr/consolecontrol)：ConsoleControl是一个C#类库，可以让你在WinForms或WPF应用中嵌入控制台。
-* [ToastNotifications](https://github.com/rafallopatka/ToastNotifications)：ToastNotifications允许你在WPF应用中创建和显示富通知。
-* [LoadingIndicators.WPF](https://github.com/zeluisping/LoadingIndicators.WPF)：LoadingIndicators.WPF是一套包含8个WPF动画加载指示器的集合，兼容MahApps.Metro。
-* [MVVM Dialogs](https://github.com/FantasticFiasco/mvvm-dialogs)：MVVM Dialogs是一个库，简化了在WPF中使用MVVM时，从视图模型打开对话框的概念。
-* [Notifications.Wpf](https://github.com/Federerer/Notifications.Wpf)：WPF吐司通知。
 * [XAML Math](https://github.com/ForNeVeR/xaml-math)：XAML Math是一套.NET库，用于使用LaTeX排版风格渲染数学公式，适用于基于WPF和Avalonia的XAML框架。
-* [H.NotifyIcon](https://github.com/HavenDV/H.NotifyIcon)：适用于WPF/WinUI/Uno/MAUI的TrayIcon。
-* [CalcBinding](https://github.com/Alex141/CalcBinding)：CalcBinding是一个高级的Binding标记扩展，允许你在XAML中编写计算过的绑定表达式，无需自定义转换器。
-* [WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)：一个简单的库，用于在WPF中显示动画GIF图像，可用于XAML或代码中。
-* [WPFSpark](https://github.com/ratishphilip/wpfspark)：WPFSpark是一个可供开发者社区使用的丰富用户控件库。
-* [PanuonUI](https://github.com/Mochengvia/PanuonUI)：一个好看精致，不限制个人或商业使用的WPF控件库。
-* [Font Awesome WPF/UWP](https://github.com/charri/Font-Awesome-WPF)：WPF和UWP控件，用于标志性字体和CSS工具包Font Awesome。
-* [WPFDarkTheme](https://github.com/AngryCarrot789/WPFDarkTheme)：一个小型的WPF主题库，内置6个主题，易于复制粘贴。
-* [Layui WPF](https://github.com/Layui-WPF-Team/Layui-WPF)：WPF版的Layui前端UI样式库。
+* [CalcBinding](https://github.com/Alex141/CalcBinding)：CalcBinding是一个高级的Binding标签扩展，允许你在XAML中编写计算过的绑定表达式，无需自定义转换器。
 * [Orchestra](https://github.com/WildGums/Orchestra)：Orchestra是一个成熟且可组合的WPF Shell和框架，构建在Catel之上。
-* [DataGridFilter](https://github.com/macgile/DataGridFilter)：一个继承自基础DataGrid控件类的DataGrid控件，并覆盖某些方法以实现每列的过滤器，可以自动或自定义生成。
-* [XAML SDK](https://github.com/telerik/xaml-sdk)：XAML SDK是一个易于使用的基础设施，拥有1000+个面向开发者的示例，适用于Telerik的大部分WPF控件界面。
-* [XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif)：一个用于在.NET Framework 4.5、.NET Core 3.1和.NET 5.0上显示动画GIF图像的库。
-* [WPF AutoComplete TextBox](https://github.com/quicoli/WPF-AutoComplete-TextBox)：WPF的自动补全文本框。
-* [Wpf.Notifications](https://github.com/Enterwell/Wpf.Notifications)：WPF通知UI控件。
 * [FontAwesome.Sharp](https://github.com/awesome-inc/FontAwesome.Sharp)：一个用于在WPF和Windows Forms应用中使用Font Awesome的库。
-* [WPF.Controls](https://github.com/kwonganding/wpf.controls)：WPF.Controls是一个WPF基础UI库。
 * [Emoji.Wpf](https://github.com/samhocevar/emoji.wpf)：Emoji.Wpf为WPF应用程序增加了表情符号渲染支持。
-* [VirtualizingWrapPanel](https://github.com/sbaeumlisberger/VirtualizingWrapPanel)：WPF VirtualizingWrapPanel的功能丰富实现。
-* [MetroRadiance](https://github.com/Grabacr07/MetroRadiance)：用于创建WPF窗口的UI控制库。
 * [NHotkey](https://github.com/thomaslevesque/NHotkey)：一个管理库，用于处理WinForms和WPF应用程序中的全局快捷键。
-* [ColorPicker](https://github.com/PixiEditor/ColorPicker)：WPF和AvaloniaUI的可定制色彩选择控制。
 * [MdXaml](https://github.com/whistyun/MdXaml)：MdXaml是Markdown.Xaml的一个修改版本。
 * [WpfExtensions](https://github.com/DingpingZhang/WpfExtensions)：现有MVVM框架的补充。
 * [Ink Canvas](https://github.com/WXRIW/Ink-Canvas)：Ink Canvas是一个出色的WPF/C#墨水画布，对Seewo Boards的支持非常出色。
-* [Kino.Toolkit.Wpf](https://github.com/DinoChan/Kino.Toolkit.Wpf)：Kino.Toolkit.Wpf是一组简单实用的WPF控件与工具。
 * [Xamarin Forms Tab Badge](https://github.com/xabre/xamarin-forms-tab-badge)：Xamarin Forms可绑定标签，适用于iOS、Android、UWP、MacOS和WPF。
 * [Livet](https://github.com/runceel/Livet)：Livet是WPF上MVVM模式的基础设施。
-* [Bootstrap WPF Style](https://github.com/ptddqr/bootstrap-wpf-style)：Bootstrap风格的WPF样式。
 * [Meta.Vlc](https://github.com/devkanro/Meta.Vlc)：Meta.Vlc是一个LibVlc封装库的.NET实现，封装了大部分的LibVlc的功能，该项目主要是为了寻求一个在WPF上使用Vlc的完美的解决方案。
-* [WpfDemo](https://github.com/caomfan/WpfDemo)：WPF常用控件自定义样式。
 * [EdgeSharp](https://github.com/webview2/EdgeSharp)：EdgeSharp是Chromely的一个分支，是一个基于.NET HTML5的Win32/WinForms/Wpf WebView2桌面框架。
-* [WPF Chrome Tabs](https://github.com/sskodje/wpfchrometabs-mvvm)：基于WPF Chrome Tabs的标签控制，并修改以兼容MVVM模式。
+* [MicaWPF](https://github.com/Simnico99/MicaWPF)：MicaWPF旨在让Mica在WPF中可用。
+* [UsbCamera](https://github.com/secile/UsbCamera)：用于在WinForms/WPF中使用USB摄像头和Web摄像头的C#源代码。
+* [RichCanvas](https://github.com/mircea21S/RichCanvas)：增强版WPF Canvas，具备平移、缩放、滚动及其他可自定义功能，专为MVVM设计。
+* [Markdig.WPF](https://github.com/Kryptos-FR/markdig.wpf)：一个用于xoofx/markdig的WPF库。
+* [Gu.Wpf.DataGrid2D](https://github.com/GuOrg/Gu.Wpf.DataGrid2D)：附带的WPF DataGrid属性，支持绑定不同类型的源代码。
+* [MechaView](https://github.com/marktoman/mechaview)：自动WPF界面，用于单一用途工具和快速原型制作。
+* [MediaPlayerUI.NET](https://github.com/mysteryx93/MediaPlayerUI.NET)：一个适用于任何媒体播放器的.NET媒体播放器界面，适用于WPF和Avalonia。
+* [Mpv.NET](https://github.com/hudec117/Mpv.NET-lib-)：基于mpv的.NET嵌入视频/媒体播放器，适用于WinForms和WPF。
+* [WpfScreenHelper](https://github.com/micdenny/WpfScreenHelper)：WPF的WinForms屏幕助手移植。
+* [QuickConverter](https://github.com/JohannesMoersch/QuickConverter)：QuickConverter为你提供了WPF标签，让你能直接在XAML中用类似C#的语言写入内联转换器、多绑定和事件处理程序。
+* [XAMLMarkupExtensions](https://github.com/XAMLMarkupExtensions/XAMLMarkupExtensions)：该项目的目标是在提升XAML代码能力的同时，保持其良好的可读性。
+* [SimpleWPFReporting](https://github.com/maximcus/SimpleWPFReporting)：这个项目让你能够完全利用WPF XAML创建任何报告。
+* [WPFTabTip](https://github.com/maximcus/WPFTabTip)：Windows 8.1和Windows 10上WPF应用的简单TabTip/虚拟键盘集成。
+* [Overlay.NET](https://github.com/lolp1/Overlay.NET)：Overlay.NET旨在成为一个易于使用的覆盖库，允许你将视觉效果渲染到其他窗口，并提供许多覆盖选项，从外部WPF窗口到共享进程DirectX钩子以执行覆盖渲染。
+* [Gemini](https://github.com/tgjones/gemini)：Gemini是一个专门为构建类似IDE的应用程序而设计的WPF框架。
+* [MetroWPFTemplate](https://github.com/0xdeafcafe/MetroWPFTemplate)：用于快速创建Metro主题应用程序的WPF模板。
+
+#### WPF UI库
+
+* [MUI](https://github.com/firstfloorsoftware/mui)：一套控件和样式，可将你的WPF应用程序转换为美观的Modern UI应用。
+* [WPF UI](https://github.com/lepoco/wpfui)：WPF UI在你熟悉和喜爱的WPF框架中提供流畅的体验。
+* [Adonis UI](https://github.com/benruehl/adonis-ui)：适用于WPF应用程序的轻量级UI工具包，提供经典但增强的Windows视觉效果。
+* [AduSkin](https://github.com/aduskin/AduSkin)：漂亮的WPF控件UI。
+* [PanuonUI.Silver](https://github.com/Mochengvia/PanuonUI.Silver)：Panuon.UI优化版，一个使用模板和附加属性的精美WPF UI库。
+* [Panuon.WPF.UI](https://github.com/Panuon/Panuon.WPF.UI)：专业的WPF UI库。
+* [Layui WPF](https://github.com/Layui-WPF-Team/Layui-WPF)：WPF版的Layui前端UI样式库。
+* [WeUiSharp](https://github.com/IUpdatable/WeUiSharp)：基于WPF实现的仿Windows桌面版微信UI界面库。
+* [Gu.Wpf.Adorners](https://github.com/GuOrg/Gu.Wpf.Adorners)：一系列用于WPF的装饰器。
+* [Caliburn.Metro](https://github.com/bugthesystem/Caliburn.Metro)：该库结合了MahApps.Metro和Caliburn.Micro，用于Metro UI风格的WPF应用。
+* [ModernUI.Xceed.Toolkit](https://github.com/samoatesgames/mui.extended.toolkit)：ModernUI.Xceed.Toolkit包含所有样式资源，能够无缝将Xceeds的WPF扩展工具包集成到ModernUI框架中。
+
+#### WPF控件库
+
+* [HandyControl](https://github.com/HandyOrg/HandyControl)：HandyControl是一套WPF控件库，它几乎重写了所有原生样式，同时包含80余款自定义控件。
+* [Windows Community Toolkit](https://github.com/CommunityToolkit/WindowsCommunityToolkit)：Windows Community Toolkit是帮助程序、扩展和自定义控件的集合。
+* [PropertyTools](https://github.com/PropertyTools/PropertyTools)：WPF的自定义控件。
+* [Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon)：Fluent.Ribbon是一个为WPF实现类似Office用户界面的库。
+* [HandyControls](https://github.com/ghost1372/HandyControls)：此项目基于HandyControl，包括一些原始项目中未包含的控件和功能。
+* [Extended WPF Toolkit](https://github.com/xceedsoftware/wpftoolkit)：Extended WPF Toolkit是用于创建下一代Windows应用程序的WPF控件、组件和实用程序的首要集合。
+* [ControlzEx](https://github.com/ControlzEx/ControlzEx)：WPF共享控件。
+* [Wpf Hexeditor](https://github.com/abbaye/WpfHexEditorControl)：Wpf Hexeditor是一个强大且完全可定制的用户控件，可用于编辑文件或流，涵盖十六进制、十进制和二进制。
+* [Arthas](https://github.com/oneo-me/Arthas-WPFUI)：WPF控件库，支持.NET 7.0 Windows Desktop。
+* [WPF ControlBase](https://github.com/HeBianGu/WPF-ControlBase)：WPF封装的自定义控件资源库。
+* [PanuonUI](https://github.com/Mochengvia/PanuonUI)：一个好看精致，不限制个人或商业使用的WPF控件库。
+* [Font Awesome WPF/UWP](https://github.com/charri/Font-Awesome-WPF)：WPF和UWP控件，用于标志性字体和CSS工具包Font Awesome。
+* [WPF.Controls](https://github.com/kwonganding/wpf.controls)：WPF.Controls是一个WPF基础UI库。
+* [ColorPicker](https://github.com/PixiEditor/ColorPicker)：WPF和AvaloniaUI的可定制色彩选择控件。
+* [Kino.Toolkit.Wpf](https://github.com/DinoChan/Kino.Toolkit.Wpf)：Kino.Toolkit.Wpf是一组简单实用的WPF控件与工具。
+* [WpfDemo](https://github.com/caomfan/WpfDemo)：WPF常用控件自定义样式。
+* [WPF Chrome Tabs](https://github.com/sskodje/wpfchrometabs-mvvm)：基于WPF Chrome Tabs的标签控件，并修改以兼容MVVM模式。
 * [WPFDevelopers](https://github.com/WPFDevelopersOrg/WPFDevelopers)：WPFDevelopers涵盖了WPF的基本控件和自定义控件库。
 * [SVGImage](https://github.com/dotnetprojects/SVGImage)：这是一个用于WPF应用的SVG图像视图控件。
-* [MicaWPF](https://github.com/Simnico99/MicaWPF)：MicaWPF旨在让Mica在WPF中可用。
-* [UniversalWPF](https://github.com/dotMorten/UniversalWPF)：一组从Windows Universal 应用/WinUI移植来的WPF控件。
-* [LottieSharp](https://github.com/quicoli/LottieSharp)：用于WPF应用的Lottie动画。
-* [RealTimeGraphX](https://github.com/royben/RealTimeGraphX)：RealTimeGraphX是一个数据类型无关的高性能绘图库，适用于WPF和UWP。
-* [UsbCamera](https://github.com/secile/UsbCamera)：用于在WinForms/WPF中使用USB摄像头和Web摄像头的C#源代码。
+* [UniversalWPF](https://github.com/dotMorten/UniversalWPF)：一组从Windows Universal应用/WinUI移植来的WPF控件。
 * [GLWpfControl](https://github.com/opentk/GLWpfControl)：OpenTK 3.x和4.x中WPF的原生控件。
-* [GridExtra](https://github.com/sourcechord/GridExtra)：GridExtra是一个为WPF/UWP定制的面板库。
-* [RichCanvas](https://github.com/mircea21S/RichCanvas)：增强版WPF Canvas，具备平移、缩放、滚动及其他可自定义功能，专为MVVM设计。
 * [MultiSelect ComboBox](https://github.com/RWS/Multiselect-ComboBox)：MultiSelect ComboBox是WPF自定义控件，具备多选功能，并可自定义组合、排序和筛选合集中的元素。
 * [ShowMeTheXAML](https://github.com/Keboo/ShowMeTheXAML)：一个WPF组件，方便显示对应的XAML，用于WPF自定义样式和控件。
 * [MultiSelectTreeView](https://github.com/ygoe/MultiSelectTreeView)：MultiSelectTreeView是一个.NET/WPF控件，显示一个层级结构的项目树，可以像普通树控件一样浏览、选择、折叠和编辑。
-* [GLGraph](https://github.com/varon/GLGraph)：GLGraphs是一个适用于.NET的实时图形/图表/数据可视化库，可以独立运行或集成于WPF。
 * [RadialMenu](https://github.com/Julien-Marcou/RadialMenu)：一个自定义控件，可以在你的WPF应用中创建环形菜单。
-* [WpfExpressionBlendTheme](https://github.com/DanPristupov/WpfExpressionBlendTheme)：一个WPF主题，可以让应用看起来像Blend。
-* [Markdig.WPF](https://github.com/Kryptos-FR/markdig.wpf)：一个用于xoofx/markdig的WPF库。
-* [BusyIndicator](https://github.com/Moh3nGolshani/BusyIndicator)：WPF的忙碌指示器。
-* [NodeGraph](https://github.com/Jinten/NodeGraph)：WPF中的节点图控件。
-* [Gu.Wpf.DataGrid2D](https://github.com/GuOrg/Gu.Wpf.DataGrid2D)：附带的WPF DataGrid属性，支持绑定不同类型的源代码。
-* [Forge.Forms](https://github.com/WPF-Forge/Forge.Forms)：WPF中的动态生成表单和对话框。
-* [SciChart.Wpf.UI](https://github.com/ABTSoftware/SciChart.Wpf.UI)：SciChart为WPF UI创建的核心响应式库、自定义控件和样式。
-* [EleCho.WpfSuite](https://github.com/OrgEleCho/EleCho.WpfSuite)：WPF布局面板、控件、值转换器、标记扩展、过渡和工具。
-* [MechaView](https://github.com/marktoman/mechaview)：自动WPF界面，用于单一用途工具和快速原型制作。
-* [MediaPlayerUI.NET](https://github.com/mysteryx93/MediaPlayerUI.NET)：一个适用于任何媒体播放器的.NET媒体播放器界面，适用于WPF和Avalonia。
-* [Fluent UI XAML](https://github.com/adospace/fluent-ui-xaml)：Fluent UI WPF主题库。
-* [Mpv.NET](https://github.com/hudec117/Mpv.NET-lib-)：基于mpv的.NET嵌入视频/媒体播放器，适用于WinForms和WPF。
-* [Biaui](https://github.com/YoshihiroIto/Biaui)：.NET的WPF暗色主题和控件。
 * [TUM.CMS.VplControl](https://github.com/tumcms/TUM.CMS.VPLControl)：TUM.CMS.VplControl是一种基于WPF的.NET可视化编程语言控件。
-* [WpfAppBar](https://github.com/PhilipRieck/WpfAppBar)：一个帮助将WPF窗口变成类似Windows任务栏的应用栏的工具。
-* [PrintDialogX](https://github.com/Fei-Sheng-Wu/PrintDialogX)：自定义WPF打印对话框，实时预览极快。
-* [WPFCustomMessageBox](https://github.com/evanwon/WPFCustomMessageBox)：WPFCustomMessageBox是Windows/.NET原生MessageBox的WPF克隆版，增加了自定义按钮文本等额外功能。
 * [WPFContrib](https://github.com/aelij/WPFContrib)：WPF控件和实用工具类的集合。
 * [TwokaB](https://github.com/jspuij/TwokaB)：适用于WPF、Android、macOS、iOS的Blazor WebView控件。
-* [NodeGraph](https://github.com/lifeisforu/NodeGraph)：用于节点图的WPF控件库。
-* [FancyCandles](https://github.com/gellerda/FancyCandles)：FancyCandles是一个WPF库，可以让你在应用程序中添加专业的烛台图表。
-* [WeUiSharp](https://github.com/IUpdatable/WeUiSharp)：基于WPF实现的仿Windows桌面版微信UI界面库。
-* [FontAwesome5](https://github.com/MartinTopfstedt/FontAwesome5)：WPF以及标志性SVG、字体和CSS工具包Font Awesome 5的UWP/WinUI控件。
-* [WpfScreenHelper](https://github.com/micdenny/WpfScreenHelper)：WPF的WinForms屏幕助手移植。
-* [QuickConverter](https://github.com/JohannesMoersch/QuickConverter)：QuickConverter为你提供了WPF标记，让你能直接在XAML中用类似C#的语言写入内联转换器、多绑定和事件处理程序。
-* [WPF Autogrid](https://github.com/carbonrobot/wpf-autogrid)：一种灵活且易于配置的标准WPF网格控件替代方案。
-* [XAMLMarkupExtensions](https://github.com/XAMLMarkupExtensions/XAMLMarkupExtensions)：该项目的目标是在提升XAML代码能力的同时，保持其良好的可读性。
-* [InfragisticsThemesForMicrosoftControls](https://github.com/Infragistics/InfragisticsThemesForMicrosoftControls)：免费的Infragistics主题，适用于WPF和Silverlight Microsoft控件。
-* [SimpleWPFReporting](https://github.com/maximcus/SimpleWPFReporting)：这个项目让你能够完全利用WPF XAML创建任何报告。
-* [Caliburn.Metro](https://github.com/bugthesystem/Caliburn.Metro)：该库结合了MahApps.Metro和Caliburn.Micro，用于Metro UI风格的WPF应用。
 * [NlogViewer](https://github.com/erizet/NlogViewer)：NlogViewer是一个简单的WPF控件，用于显示NLog日志。
-* [Simple.Wpf.Terminal](https://github.com/oriches/Simple.Wpf.Terminal)：一个用于WPF应用的简单控制台/终端窗口。
 * [BlurryControls](https://github.com/ConfusedHorse/BlurryControls)：BlurryControls库旨在让你的应用程序呈现模糊的外观。
-* [WPFTabTip](https://github.com/maximcus/WPFTabTip)：Windows 8.1和Windows 10上WPF应用的简单TabTip/虚拟键盘集成。
-* [WpfGorgeousThemeSwitch](https://github.com/SunnyDesignor/WpfGorgeousThemeSwitch)：WPF华丽的白天/黑夜主题切换开关。
 * [Toggle Switch Control](https://github.com/ejensen/toggle-switch-control)：Toggle Switch Control库为WPF和Silverlight应用创建高度自定义的切换开关控件。
-* [VirtualCanvas](https://github.com/clovett/VirtualCanvas)：该项目包含一个WPF控件，利用高效的QuadTree索引提供了一个漂亮的二维虚拟画布。
 * [ColorPickerWPF](https://github.com/drogoganor/ColorPickerWPF)：一个简单的WPF颜色选择控件，适用于.NET 4.5.2。
-* [WPFTextBoxAutoComplete](https://github.com/Nimgoble/WPFTextBoxAutoComplete)：WPF TextBox控件的附加行为，用于从给定集合中提供自动补全建议。
-* [ModernUI.Xceed.Toolkit](https://github.com/samoatesgames/mui.extended.toolkit)：ModernUI.Xceed.Toolkit包含所有样式资源，能够无缝将Xceeds的WPF扩展工具包集成到ModernUI框架中。
 * [GMap.NET](https://github.com/judero01col/GMap.NET)：GMap.NET WPF是一款优秀的开源、功能强大、免费且跨平台的.NET控件。
-* [Overlay.NET](https://github.com/lolp1/Overlay.NET)：Overlay.NET旨在成为一个易于使用的覆盖库，允许你将视觉效果渲染到其他窗口，并提供许多覆盖选项，从外部WPF窗口到共享进程DirectX钩子以执行覆盖渲染。
-* [Gemini](https://github.com/tgjones/gemini)：Gemini是一个专门为构建类似IDE的应用程序而设计的WPF框架。
 * [Orc.Controls](https://github.com/WildGums/Orc.Controls)：该库包含用于查看和编辑数据的简单控件。
-* [DesktopToast](https://github.com/emoacht/DesktopToast)：一个用于桌面应用程序Toast通知的库。
-* [WPFToastNotification](https://github.com/muhammad-magdy/WPFToastNotification)：适用于WPF应用程序的高级提示通知，易于使用并支持MVVM模式。
 * [OpenControls.Wpf](https://github.com/LeifUK/OpenControls.Wpf)：OpenControl.Wpf项目是一个包含实用WPF控件的库。
-* [MetroWPFTemplate](https://github.com/0xdeafcafe/MetroWPFTemplate)：用于快速创建Metro主题应用程序的WPF模板。
-* [GraphShape](https://github.com/KeRNeLith/GraphShape)：GraphShape是一个.NET库，主要提供图形布局框架。
 * [WPF Chrome Tabs](https://github.com/realistschuckle/wpfchrometabs)：这是一个从零开始构建的WPF自定义选项卡控件，旨在模仿Google Chrome浏览器中的用户体验。
-* [WpfThemesCollection](https://github.com/StanislawSwierc/WpfThemesCollection)：WPF主题合集。
-* [Gu.Wpf.Adorners](https://github.com/GuOrg/Gu.Wpf.Adorners)：一系列用于WPF的装饰器。
 * [NLogViewer](https://github.com/boexler/NLogViewer)：NLogViewer是一个用于在个人应用程序中可视化NLog日志的UI控件库。
 * [Math Editor](https://github.com/kashifimran/math-editor)：用于创建数学和科学文档的方程编辑器。
+* [Mapsui](https://github.com/Mapsui/Mapsui)：Mapsui是适用于MAUI、WPF、Avalonia、Uno、Blazor、WinUI、Xamarin和Eto的.NET地图组件。
+* [DataGridExtensions](https://github.com/dotnet/DataGridExtensions)：WPF DataGrid控件的模块化扩展。
+* [ConsoleControl](https://github.com/dwmkerr/consolecontrol)：ConsoleControl是一个C#类库，可以让你在WinForms或WPF应用中嵌入控制台。
+* [DataGridFilter](https://github.com/macgile/DataGridFilter)：一个继承自基础DataGrid控件类的DataGrid控件，并覆盖某些方法以实现每列的过滤器，可以自动或自定义生成。
+* [XAML SDK](https://github.com/telerik/xaml-sdk)：XAML SDK是一个易于使用的基础设施，拥有1000+个面向开发者的示例，适用于Telerik的大部分WPF控件界面。
+* [WPF AutoComplete TextBox](https://github.com/quicoli/WPF-AutoComplete-TextBox)：WPF的自动补全文本框。
+* [BusyIndicator](https://github.com/Moh3nGolshani/BusyIndicator)：WPF的忙碌指示器。
+* [WpfAppBar](https://github.com/PhilipRieck/WpfAppBar)：一个帮助将WPF窗口变成类似Windows任务栏的应用栏的工具。
+* [WPF Autogrid](https://github.com/carbonrobot/wpf-autogrid)：一种灵活且易于配置的标准WPF网格控件替代方案。
+* [WPFTextBoxAutoComplete](https://github.com/Nimgoble/WPFTextBoxAutoComplete)：WPF TextBox控件的附加行为，用于从给定集合中提供自动补全建议。
+* [VirtualCanvas](https://github.com/clovett/VirtualCanvas)：该项目包含一个WPF控件，利用高效的QuadTree索引提供了一个漂亮的二维虚拟画布。
+* [Simple.Wpf.Terminal](https://github.com/oriches/Simple.Wpf.Terminal)：一个用于WPF应用的简单控制台/终端窗口。
+* [Dragablz](https://github.com/ButchersBoy/Dragablz)：WPF的可拖动和可撕标签控件。
+* [GongSolutions.WPF.DragDrop](https://github.com/punker76/gong-wpf-dragdrop)：GongSolutions.WPF.DragDrop库是一个用于WPF的拖放框架。
+* [WPF File System Controls](https://github.com/Dirkster99/fsc)：一套可自定义主题的WPF文件系统控件，类似于Windows(7-10)资源管理器中的某些组件。
+* [ColorPickerLib](https://github.com/Dirkster99/ColorPickerLib)：这是一个基于WPF/MVVM实现的可主题化颜色选择器控件。
+
+#### WPF主题库
+
+* [Material Design In XAML Toolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)：适用于C#和VB.Net的XAML和WPF中的Google Material Design。
+* [ModernWPF](https://github.com/Kinnara/ModernWpf)：适用于你的WPF应用程序的现代样式和控件。
+* [WPFDarkTheme](https://github.com/AngryCarrot789/WPFDarkTheme)：一个小型的WPF主题库，内置6个主题，易于复制粘贴。
+* [Bootstrap WPF Style](https://github.com/ptddqr/bootstrap-wpf-style)：Bootstrap风格的WPF样式。
+* [WpfExpressionBlendTheme](https://github.com/DanPristupov/WpfExpressionBlendTheme)：一个WPF主题，可以让应用看起来像Blend。
+* [Fluent UI XAML](https://github.com/adospace/fluent-ui-xaml)：Fluent UI WPF主题库。
+* [Biaui](https://github.com/YoshihiroIto/Biaui)：.NET的WPF暗色主题和控件。
+* [InfragisticsThemesForMicrosoftControls](https://github.com/Infragistics/InfragisticsThemesForMicrosoftControls)：免费的Infragistics主题，适用于WPF和Silverlight Microsoft控件。
+* [WpfGorgeousThemeSwitch](https://github.com/SunnyDesignor/WpfGorgeousThemeSwitch)：WPF华丽的白天/黑夜主题切换开关。
+* [WpfThemesCollection](https://github.com/StanislawSwierc/WpfThemesCollection)：WPF主题合集。
+* [UI.WPF.Modern](https://github.com/iNKORE-NET/UI.WPF.Modern)：现代Fluent 2风格和控制，适用于你的WPF应用。
+* [Material Design Extensions](https://github.com/spiegelp/MaterialDesignExtensions)：Material Design Extensions基于XAML工具包中的Material Design Toolkit，为WPF应用提供额外的控件和功能。
+* [FluentWPF](https://github.com/sourcechord/FluentWPF)：WPF的Fluent设计系统。
+* [MetroRadiance](https://github.com/Grabacr07/MetroRadiance)：用于创建类似Visual Studio 2012/2013/2015的WPF窗口的UI控件库。
+* [PresentationTheme.Aero](https://github.com/gix/PresentationTheme.Aero)：PresentationTheme.Aero是一个高度精美的WPF Windows Aero主题。
+* [AakStudio.Shell.UI](https://github.com/Wenveo/AakStudio.Shell.UI)：AakStudio的WPF控件样式和主题。
+* [WpfPlus](https://github.com/MarcusWichelmann/WpfPlus)：适用于你下一个WPF应用程序的现代扁平化主题和实用控件。
+* [MLib](https://github.com/Dirkster99/MLib)：MLib是一套基于MahApps.Metro和MUI的WPF主题库。
+* [AvalonDock.Themes.WPFUI](https://github.com/qian-o/AvalonDock.Themes.WPFUI)：AvalonDock.Themes.WPFUI是一个基于WPF-UI的AvalonDock主题库。
+* [Displaying XAML](https://github.com/wongjiahau/Displaying-XAML)：该库用于显示WPF主题库(例如MaterialDesignInXamlToolkit/MahApps)的XAML代码。
+* [PhotonTheme](https://github.com/alonfnt/PhotonTheme)：一款全新简洁现代的主题，可用于你的WPF应用程序。
+* [WPF.Bootstrap](https://github.com/scheshan/WPF.Bootstrap)：一个用于WPF的Bootstrap主题。
+* [Ruby WPF](https://github.com/goensin/rubyer-wpf)：一个通用的WPF主题控件包。
+* [Modern Chrome](https://github.com/QtLab/ModernChrome)：Modern Chrome是一个用于.NET WPF应用程序的库，它ModernWindow为窗口提供了一个自定义基类，该基类模仿Visual Studio 2017的外观，具有自定义的边框和发光效果。
+* [Monotone](https://github.com/steto-scope/Monotone)：Monotone是一款易于使用的WPF主题。
+* [CandyShop](https://github.com/stil/candyshop)：WPF的主题/皮肤。
+* [WPFWin3](https://github.com/Trinitek/WPFWin3)：一款受Windows 3.1启发而设计的WPF主题。
+* [WPFControls ThemePack](https://github.com/Customatics/WPFControls-ThemePack)：为WPF控件定制设计的主题，让你的应用外观更美观。
+* [Celestial.UIToolkit](https://github.com/manuelroemer/Celestial.UIToolkit)：一个定制的WPF工具包，其灵感来源于许多当前的设计语言，包括微软的Fluent Design和谷歌的Material Design。
+* [WPFSpark](https://github.com/ratishphilip/wpfspark)：WPFSpark是一个可供开发者社区使用的丰富用户控件库。
+
+#### WPF图表库
+
+* [ReoGrid](https://github.com/unvell/ReoGrid)：适用于.NET应用程序的快速且强大的可视化电子表格组件。
+* [SciChart](https://www.scichart.com/)：SciChart WPF是一个实时、高性能的WPF图表库，专为金融、医疗和工程应用设计。
+* [InteractiveDataDisplay.WPF](https://github.com/microsoft/InteractiveDataDisplay.WPF)：InteractiveDataDisplay.WPF是一套用于为你的应用程序添加动态数据交互式可视化的控件。
+* [RealTimeGraphX](https://github.com/royben/RealTimeGraphX)：RealTimeGraphX是一个数据类型无关的高性能绘图库，适用于WPF和UWP。
+* [GLGraph](https://github.com/varon/GLGraph)：GLGraphs是一个适用于.NET的实时图形/图表/数据可视化库，可以独立运行或集成于WPF。
+* [FancyCandles](https://github.com/gellerda/FancyCandles)：FancyCandles是一个WPF库，可以让你在应用程序中添加专业的烛台图表。
+* [Quick Charts](https://github.com/ailon/amCharts-Quick-Charts)：适用于WPF和Silverlight的免费开源图表控件。
+* [MvvMChart](https://github.com/zenjia/MvvmChart)：MvvMChart是一款极其轻量级、支持MVVM且高度可定制的WPF/UWP图表控件。
+* [Charts.WPF](https://github.com/mendonca-andre/Charts.WPF)：适用于WPF的现代UI图表。
+* [StockCharts](https://github.com/leboeuf/StockCharts)：这是一个用C#编写的自定义控件，用于在WPF应用程序中显示股票图表。
+* [GanttChartWPF](https://github.com/daixin0/GanttChartWPF)：WPF的甘特图组件。
+* [WPFDevelopers.Charts](https://github.com/WPFDevelopersOrg/WPFDevelopers.Charts)：WPF图表控件库。
+* [Orc.GraphExplorer](https://github.com/Orcomp/Orc.GraphExplorer)：Graph Explorer是一个开源的.NET控件，它可以帮助你浏览和探索有向无环图(DAG)。
+
+#### WPF对话框
+
+* [Ookii.Dialogs.Wpf](https://github.com/ookii-dialogs/ookii-dialogs-wpf)：用于WPF应用程序的类库，提供多个常见对话框。
+* [MVVM Dialogs](https://github.com/FantasticFiasco/mvvm-dialogs)：MVVM Dialogs是一个库，简化了在WPF中使用MVVM时，从视图模型打开对话框的概念。
+* [Forge.Forms](https://github.com/WPF-Forge/Forge.Forms)：WPF中的动态生成表单和对话框。
+* [PrintDialogX](https://github.com/Fei-Sheng-Wu/PrintDialogX)：自定义WPF打印对话框，实时预览极快。
+* [WpfMaterialForms](https://github.com/edongashi/WpfMaterialForms)：WPF中动态生成的表单和对话框。
+* [Lighty](https://github.com/sourcechord/Lighty)：Lighty是一个可定制的WPF灯箱库。
+* [SimpleDialogs](https://github.com/schdck/SimpleDialogs)：SimpleDialogs是一个简单的框架，用于帮助在WPF应用程序中显示对话框。
+* [WPFCustomMessageBox](https://github.com/evanwon/WPFCustomMessageBox)：WPFCustomMessageBox是Windows/.NET原生MessageBox的WPF克隆版，增加了自定义按钮文本等额外功能。
+* [WPF Material Message Box](https://github.com/denpalrius/Material-Message-Box)：一个实现了Material Design的WPF消息框。
+
+#### WPF布局库
+
+* [VirtualizingWrapPanel](https://github.com/sbaeumlisberger/VirtualizingWrapPanel)：WPF VirtualizingWrapPanel的功能丰富实现。
+* [GridExtra](https://github.com/sourcechord/GridExtra)：GridExtra是一个为WPF/UWP定制的面板库。
+* [EleCho.WpfSuite](https://github.com/OrgEleCho/EleCho.WpfSuite)：WPF布局面板、控件、值转换器、标记扩展、过渡和工具。
+* [GraphShape](https://github.com/KeRNeLith/GraphShape)：GraphShape是一个.NET库，主要提供图形布局框架。
+* [ResponsiveGrid](https://github.com/sourcechord/ResponsiveGrid)：ResponsiveGrid是WPF/UWP的一个自定义面板控件。
+* [HexGrid](https://github.com/AlexanderSharykin/HexGrid)：WPF HexGrid面板。
+
+#### WPF动画库
+
+* [XamlFlair](https://github.com/XamlFlair/XamlFlair)：XamlFlair库的目标是简化常见动画的实现，并允许开发者仅用几行Xaml轻松添加单一或组合动画集。
+* [LoadingIndicators.WPF](https://github.com/zeluisping/LoadingIndicators.WPF)：LoadingIndicators.WPF是一套包含8个WPF动画加载指示器的集合，兼容MahApps.Metro。
+* [WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)：一个简单的库，用于在WPF中显示动画GIF图像，可用于XAML或代码中。
+* [XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif)：一个用于在.NET Framework 4.5、.NET Core 3.1和.NET 5.0上显示动画GIF图像的库。
+* [LottieSharp](https://github.com/quicoli/LottieSharp)：用于WPF应用的Lottie动画。
+
+#### WPF图标库
+
+* [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks)：IconPacks库包含控件、标签扩展和转换器，可以以简单的方式将这些出色的图标与你的应用程序一起使用。
+* [WPF NotifyIcon](https://github.com/hardcodet/wpf-notifyicon)：WPF平台的NotifyIcon(又称系统托盘图标或任务栏图标)。
+* [H.NotifyIcon](https://github.com/HavenDV/H.NotifyIcon)：适用于WPF/WinUI/Uno/MAUI的TrayIcon。
+* [FontAwesome5](https://github.com/MartinTopfstedt/FontAwesome5)：WPF以及标志性SVG、字体和CSS工具包Font Awesome 5的UWP/WinUI控件。
+* [WPF FamFamFam Flags](https://github.com/point-platform/famfamfam-flags-wpf)：WPF的famfamfam旗帜图标。
+* [FontAwesome6](https://github.com/MartinTopfstedt/FontAwesome6)：WPF、UWP和WinUI控件，适用于Web上最流行的图标集和工具包。
+
+#### WPF通知库
+
+* [ToastNotifications](https://github.com/rafallopatka/ToastNotifications)：ToastNotifications允许你在WPF应用中创建和显示富通知。
+* [Wpf.Notifications](https://github.com/Enterwell/Wpf.Notifications)：WPF通知UI控件。
+* [DesktopToast](https://github.com/emoacht/DesktopToast)：一个用于桌面应用程序Toast通知的库。
+* [WPFToastNotification](https://github.com/muhammad-magdy/WPFToastNotification)：适用于WPF应用程序的高级提示通知，易于使用并支持MVVM模式。
+* [Notifications.Wpf](https://github.com/Federerer/Notifications.Wpf)：WPF吐司通知。
+* [WPFGrowlNotification](https://github.com/IvanLeonenko/WPFGrowlNotification)：适用于WPF项目的轻量级Growl通知。
+* [Notifications.Wpf.Core](https://github.com/mjuen/Notifications.Wpf.Core)：基于.NET 8的WPF应用程序的Toast通知。
+* [WPF ToastNotifications](https://github.com/mike-eason/WPF_ToastNotifications)：这是一个为WPF桌面应用程序提供简洁美观的Toast通知的项目。
+* [Netoaster](https://github.com/zachatrocity/netoaster)：一个用于实现非常简单且略微可定制的弹出式通知的.NET WPF弹出式通知库。
+* [MLNotifications](https://github.com/moraleslarios/MLNotifications)：适用于所有环境的WPF通知。
+
+#### WPF节点图
+
+* [NodeNetwork](https://github.com/Wouterdek/NodeNetwork)：NodeNetwork是一个.NET C# WPF库，提供节点编辑器组件。
+* [NodeGraph](https://github.com/Jinten/NodeGraph)：WPF中的节点图控件。
+* [NodeGraph](https://github.com/lifeisforu/NodeGraph)：用于节点图的WPF控件库。
 
 #### WinForms
 
@@ -3417,6 +3494,11 @@
 * [Dock](https://github.com/wieslawsoltes/Dock)：Dock是Avalonia应用的对接布局系统。
 * [DarkUI](https://github.com/RobinPerris/DarkUI)：.NET WinForms的暗色主题控制和停靠库。
 * [ReDocking](https://github.com/yuto-trd/ReDocking)：像JetBrains IDE的Avalonia的Docking UI库。
+* [WinUI.Dock](https://github.com/qian-o/WinUI.Dock)：WinUI.Dock是一个类似于Visual Studio的停靠控件，基于WinUI 3。
+* [Avalonia.UpDock](https://github.com/jupahe64/Avalonia.UpDock)：一个简单而有效的Avalonia Desktop停靠库。
+* [WpfDocking](https://github.com/DevZest/WpfDocking)：一个停靠库，可在几分钟内将可撤销/重做的选项卡式停靠、浮动和自动隐藏窗口管理功能集成到你的应用程序中。
+* [YDock](https://github.com/yzylovepmn/YDock)：一个完全基于WPF的Dock，风格与Visual Studio完全一致。
+* [PixiDocks](https://github.com/PixiEditor/PixiDocks)：Avalonia的Dock库。
 
 #### UWP
 
