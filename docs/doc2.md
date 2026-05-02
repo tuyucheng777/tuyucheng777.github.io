@@ -9296,7 +9296,7 @@ Kafka生态管理系统、运维平台。
 * [Modular Architecture Hexagonal](https://github.com/AlicanAkkus/Modular-Architecture-Hexagonal-Demo-Project)：本项目是一个可用于生产环境的模板实现，用于展示六边形架构的强大功能。
 * [DDD Archetype](https://github.com/feiniaojin/ddd-archetype)：Maven模板，实现了领域驱动设计(DDD)的分层应用程序架构。
 * [Spring Boot Application Template](https://github.com/sivaprasadreddy/spring-boot-application-template)：该仓库是一个用于创建Spring Boot应用程序的模板，其中预配置了常用功能。
-
+* [MBA Hexagonal Architecture](https://github.com/devfullcycle/MBA-hexagonal-architecture)：六边形架构示例模板。
 
 #### 脚手架
 

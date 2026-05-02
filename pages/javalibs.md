@@ -10899,8 +10899,8 @@
 * [Result4j](https://github.com/sviperll/result4j)：Result4j提供了类似于Rust中的Result类型的Result类，允许返回成功结果或返回某种错误。
 * [Fluent Result](https://github.com/gorandalum/fluent-result)：一个Java结果库，帮助你摆脱异常，实现更流式的编码风格。
 * [Result](https://github.com/leakyabstractions/result)：Result的目的是为可能成功或失败的操作结果提供类型安全的封装，而不是抛出异常。
-* [Stream Result](https://github.com/GetStream/stream-result)：面向铁路的库，可轻松为Kotlin多平台和Android的Retrofit建模和处理成功/失败。
 * [Result](https://github.com/kittinunf/Result)：Kotlin和KMM中操作成功/失败的建模。
+* [Stream Result](https://github.com/GetStream/stream-result)：面向铁路的库，可轻松为Kotlin多平台和Android的Retrofit建模和处理成功/失败。
 * [Fugue](https://bitbucket.org/atlassian/fugue)：Fugue提供补充Google Guava库的函数结构，包括Option、Either、Pair和其他类似有用的类，由Atlassian开源。
 * [NoException](https://github.com/robertvazan/noexception)：NoException是Java异常处理程序的函数式编程库。
 * [Try](https://github.com/lambdista/try)：Java的Try-Success-Failure Scala API的实现。
@@ -21036,7 +21036,7 @@ Kafka生态管理系统、运维平台。
 * [WordCloudPlugin](https://github.com/myot233/WordCloudPlugin)：一个用于生成词云的插件。
 * [WordCram](https://github.com/danbernier/WordCram)：WordCram可以让你在Processing中生成词云。
 
-## Unicode
+## 字符集
 
 * [AnyAscii](https://github.com/anyascii/anyascii)：AnyAscii为几乎所有Unicode字符提供纯ASCII替换字符串。
 * [JUnidecode](https://github.com/gcardone/junidecode)：JUnidecode是用于将Unicode转换到ASCII的Java库。
