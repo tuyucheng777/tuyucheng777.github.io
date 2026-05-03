@@ -19896,8 +19896,7 @@ Kafka生态管理系统、运维平台。
 * [Plexus Classworlds](https://github.com/codehaus-plexus/plexus-classworlds)：Plexus Classworlds是一个为需要复杂操作Java类加载器的容器开发人员提供的框架。
 * [Cytodynamics](https://github.com/linkedin/Cytodynamics)：Cytodynamics是一个使JVM上的动态JAR加载和类加载器隔离变得简单的Java库，由LinkedIn开源。
 * [XJar](https://github.com/core-lib/xjar)：Spring Boot JAR安全加密运行工具，同时支持的原生JAR。
-* [Sonar Classloader](https://gi
-* thub.com/SonarSource/sonar-classloader)：Sonar Classloader是一个用于创建Java 7+类加载器的工具箱。
+* [Sonar Classloader](https://github.com/SonarSource/sonar-classloader)：Sonar Classloader是一个用于创建Java 7+类加载器的工具箱。
 * [Grab’n Run](https://github.com/lukeFalsina/Grab-n-Run)：Grab‘n Run是一个简单且高效的Java库，通过标准DexClassLoader执行安全的动态类加载。
 * [SlimJar](https://github.com/slimjar/slimjar)：SlimJar允许你在运行时下载并加载依赖项，作为依赖着色的替代方案。
 * [Cabin](https://github.com/esastack/esa-cabin)：Cabin是一款Java类隔离框架，用于隔离各个模块之间、模块和业务之间使用的第三方依赖库。

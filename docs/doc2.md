@@ -15125,7 +15125,7 @@ Kafka生态管理系统、运维平台。
 #### 象棋引擎
 
 * [BlackWidow](https://github.com/amir650/BlackWidow-Chess)：BlackWidow是一个跨平台的象棋引擎。
-* [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：支持UCI和UCCI协议引擎的象棋界面程序，具有加载引擎、对弈、分析、连线、开局库等功能。
+* [Public Xiangqi](https://github.com/sojourners/public-Xiangqi)：TCHESS是一款支持UCI和UCCI协议引擎的跨平台象棋界面程序。
 * [JFXChess](https://github.com/asdfjkl/jfxchess)：JFXChess是一个跨平台的国际象棋图形用户界面。
 * [Bagatur](https://github.com/bagaturchess/Bagatur)：Bagatur是世界上最强大的Java国际象棋引擎之一。
 * [Chesslib](https://github.com/bhlangonijr/chesslib)：Chesslib是一个简单的Java国际象棋库，用于根据棋盘位置生成合法的国际象棋走法、解析以PGN或FEN格式存储的国际象棋游戏以及许多其他内容。
