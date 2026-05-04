@@ -2098,6 +2098,7 @@
 * [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
 * [jDialects](https://gitee.com/drinkjava2/jdialects)：jDialects支持多达80多种数据库方言的DDL创建、实体源码生成、分页、函数变换、类型变换及主要的JPA注解解析功能。
 * [DBSHOP](https://github.com/LeYunone/dbshop)：DBSHOP是一个数据库比对工具。
+* [MySQL2H2 Converter](https://github.com/bgranvea/mysql2h2-converter)：一个用Java编写的MySQL到H2 SQL转换库。
 
 #### 查询构建器
 
