@@ -8668,6 +8668,7 @@
 
 * [BloomFilter.NetCore](https://github.com/vla/BloomFilter.NetCore)：一个高性能、功能齐全的.NET Bloom过滤器库，支持内存和分布式Redis后端。
 * [BloomFilter.NET](https://github.com/joeyrobert/bloomfilter)：BloomFilter.NET是布隆过滤器的一种实现。
+* [PageBloomFilter](https://github.com/PeterRK/PageBloomFilter)：带有页面的布隆过滤器，专为存储密度和查询速度设计。
 
 ## 表达式引擎
 

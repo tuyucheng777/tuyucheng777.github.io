@@ -569,6 +569,7 @@
   * [静态分析](docs/doc2.md#静态分析)
   * [空安全](docs/doc2.md#空安全)
   * [编码规范](docs/doc2.md#编码规范)
+  * [代码格式化](docs/doc2.md#代码格式化)
   * [代码异味](docs/doc2.md#代码异味)
   * [依赖分析](docs/doc2.md#依赖分析)
   * [迁移&重构](docs/doc2.md#迁移重构)
@@ -1831,6 +1832,7 @@
 * [Mill](https://github.com/com-lihaoyi/mill)：Mill是一个现代化的构建工具，支持Scala和Java项目的构建和管理。
 * [Pants](https://github.com/pantsbuild/pants)：Pants是一个快速、可扩展、用户友好的构建系统，适用于各种规模的代码库，由Twitter开源。
 * [Amper](https://github.com/JetBrains/amper)：Amper是一个项目配置工具，其目标是改善项目配置体验和工具性，即IDE内部的支持，同时还提供流畅的开箱即用体验，由JetBrains开源。
+* [Blade](https://github.com/blade-build/blade-build)：Blade是腾讯推出的一款功能强大的构建系统，支持多种主流编程语言，例如C/C++、Java、Scala、Python、Protobuf等。
 * [1JPM](https://github.com/Osiris-Team/1JPM)：1JPM是一种Maven/Gradle替代方案，但有所不同，它本身是一个Java文件，你应该编辑该文件来配置你的项目。
 * [Bloop](https://github.com/scalacenter/bloop)：Bloop是一个构建服务器和CLI工具，可从任何编辑器或构建工具快速编译、测试和运行Scala。
 * [Boot](https://github.com/boot-clj/boot)：Boot是一个Clojure构建框架和临时Clojure脚本评估器。
@@ -3496,6 +3498,7 @@
 * [MaxKB4j](https://gitee.com/taisan/MaxKB4j)：MaxKB4j是一款基于Java语言开发的LLM工作流应用和RAG的开源LLMOps平台。
 * [Surogate Studio](https://github.com/invergent-ai/surogate-studio)：Surogate Studio是一个企业级LLMOps平台，旨在加速生成式AI应用的开发和部署。
 * [Tracy](https://github.com/JetBrains/tracy)：Tracy可以帮助你直接从Kotlin或Java项目中跟踪、监控和评估AI驱动的功能，由JetBrains开源。
+* [LangSmith Java SDK](https://github.com/langchain-ai/langsmith-java)：LangSmith是一个与框架无关的平台，用于构建、调试和部署AI代理和LLM应用程序。
 
 ### AI Assistant
 
@@ -4366,6 +4369,7 @@
 * [BIOS Report](http://www.bijetsoft.com/report-features.html)：BIOS Report是新一代的纯Java的企业级报表软件。
 * [AnyChart Export](https://github.com/AnyChart/export-server)：AnyChart Export是一款可以将图表导出为PNG、JPG、PDF、SVG、CSV、Excel、JSON和XML格式的工具。
 * [NopReport](https://github.com/entropy-cloud/nop-entropy)：NopReport是Nop平台内置的报表引擎。
+* [NextReports](https://github.com/nextreports/nextreports-server)：NextReports是一款免费的Java商业报表软件。
 
 #### 电子表格
 
