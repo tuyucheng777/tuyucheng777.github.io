@@ -1943,6 +1943,7 @@
 * [MerLoc Java](https://github.com/thundra-io/merloc-java)：MerLoc是一款用于开发和调试AWS Lambda函数的实时工具。
 * [Gaelyk](https://github.com/gaelyk/gaelyk)：Gaelyk是一个轻量级工具包，用于在Google App Engine环境中使用Groovy开发应用程序。
 * [JRestless](https://github.com/bbilger/jrestless)：JRestless允许你使用JAX-RS创建Serverless应用程序。
+* [Kubeless](https://github.com/vmware-archive/runtimes)：Kubeless函数运行时，由VMWare开源。
 
 ## API网关
 
@@ -3311,6 +3312,7 @@
 * [Java LangChains](https://github.com/cupybara/java-langchains)：一个基于Java 8+ LangChain的实现。
 * [InterfAIce](https://github.com/mscheong01/interfAIce)：InterfAIce是一个开源、基于GPT的自动代理生成库，支持Kotlin、Java、Spring、Reactor和协程。
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow-Java)：PocketFlow是原始Python PocketFlow框架的直接移植版本。
+* [Naftiko Framework](https://github.com/naftiko/framework)：Naftiko Framework是第一个面向规范驱动集成的开源项目。
 
 ### LLM客户端
 
@@ -3480,6 +3482,7 @@
 * [DataAgent](https://github.com/spring-ai-alibaba/DataAgent)：DataAgent是一个基于Spring AI Alibaba的自然语言转SQL项目，能让你用自然语言直接查询数据库，不需要写复杂的SQL。
 * [DAT](https://github.com/junjiem/dat)：DAT让业务人员能够用自然语言直接与数据库对话，无需编写复杂的SQL查询。
 * [WebSQL](https://gitee.com/boy_0214/websql)：WebSQL管理工具，SQL执行、数据开发、跨库联查、Text2Sql、ETL同步、动态数据源、SQL管理、数据监测等众多功能。
+* [DBchat](https://github.com/skanga/DBchat)：DBChat是一个桥梁，可将任何MCP客户端(Claude Desktop、Gemini CLI等)连接到你的数据库，从而实现自然语言数据库交互。
 
 ### LLMOps
 
@@ -4295,7 +4298,8 @@
 * [Knowage](https://github.com/KnowageLabs/Knowage-Server)：Knowage是开源分析和商业智能套件，可让你将传统数据和大/云数据源组合成有价值且有意义的信息，由OW2开源。
 * [Datafor](https://datafor.com.cn/)：Datafor是一款自助式敏捷BI工具，旨在为用户提供直观易用的数据可视化和探索式分析功能，帮助用户快速进行数据探索、分析和决策。
 * [JRelax-BI](https://gitee.com/zengchao/JRelax-BI)：BI商业智能，自定义表单+自定义流程+自定义报表。
-* [ART](https://art.sourceforge.net/)：ART是一种报告和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
+* [ART](https://art.sourceforge.net/)：ART是一种报表和商业智能解决方案，它可以快速部署SQL查询结果，支持表格报告、图表、仪表板、调度。
+* [karma](https://github.com/CyrilFeng/karma)：Karma是一种全新的数据洞察方式，用一句话表述就是可执行的脑图。
 * [FusionView](https://gitee.com/hitsoft1995/fusion-view)：富表智能数据可视化平台是一款面向企业和行业级别的用户，具有AI特色的可视化与BI商业智能敏捷分析的平台。
 * [ReportServer](https://github.com/infofabrik/reportserver)：ReportServer是一个现代、多功能的开源商业智能(BI)平台，具有强大的报告功能，由ReportServer公司开发。
 * [Logi Analytics](https://insightsoftware.com/logi-analytics/)：Logi Analytics提供具有自助分析功能的商业智能和数据发现平台，这是InsightSoftware公司的商业产品。
@@ -4561,6 +4565,7 @@
 * [RDAP](https://github.com/DNSBelgium/rdap)：这个Java库使得构建与注册表后端通信的RDAP服务器变得非常容易。
 * [PNet](https://github.com/PvdBerg1998/PNet)：PNet是一个易于使用的网络库，适用于Java 1.6或更高版本。
 * [jBot](https://github.com/Aaron-Akhtar/jBot)：jBot是用Java实现的僵尸网络，旨在方便开发者创建自己的僵尸网络。
+* [PETSCII BBS Builder](https://github.com/sblendorio/petscii-bbs)：一个用于构建高度可定制、支持PETSCII的BBS的Java框架，可从Commodore 64/128访问。
 
 #### WebSocket
 
@@ -5038,6 +5043,7 @@
 * [Net2Plan](https://github.com/girtel/Net2Plan)：Net2Plan是一个用Java开发的通信网络规划、优化和评估工具。
 * [ISCXFlowMeter](https://github.com/ahlashkari/ISCXFlowMeter)：ISCXFlowMeter是一个以太网流量生成器和分析器，用于异常检测。
 * [MTS](https://github.com/ericsson-mts/mts)：MTS是一款专为电信IP架构设计的多协议测试工具，由爱立信开源。
+* [Netshot](https://github.com/netfishers-onl/Netshot)：Netshot是一款网络设备管理器。
 
 #### 端口转发
 
@@ -6267,6 +6273,7 @@
 * [Skippy](https://github.com/skippy-io/skippy)：Skippy是JVM的测试影响分析和预测测试选择框架。
 * [Minutest](https://github.com/dmcg/minutest)：在JVM上对Kotlin进行简单、富有表现力、可扩展的测试。
 * [GWT Test Utils](https://github.com/gwt-test-utils/gwt-test-utils)：GWT Test Utils是用于GWT应用程序的Java测试框架。
+* [Kubetest4j](https://github.com/skodjob/kubetest4j)：使用Fabric8 API轻松测试Kubernetes部署和运算符的库。
 
 #### Spring测试
 
@@ -7596,6 +7603,7 @@
 * [Hasher](https://github.com/ihimanshurawat/Hasher)：一个简单、轻量级且易于使用的哈希库。
 * [OpenSC Java](https://github.com/CardContact/opensc-java)：Java PKCS#11封装器和JCE提供程序。
 * [Brisbane](https://github.com/openjdk/brisbane)：Brisbane为Java的JCA框架提供了一个Java加密服务提供程序(CSP)，使Java应用程序能够在受监管的环境中使用符合FIPS标准的加密技术，由Oracle开源。
+* [Asherah](https://github.com/godaddy/asherah)：Asherah是一款多语言、跨平台的应用程序加密SDK。
 
 #### 密码库
 
@@ -9664,6 +9672,7 @@
 * [JavaPlex](https://github.com/appliedtopology/javaplex)：JavaPlex库实现了计算和应用拓扑中的持久同源性和相关技术，由斯坦福大学开源。
 * [Kotlin Math](https://github.com/romainguy/kotlin-math)：一套Kotlin API，旨在简化图形数学运算的编写。
 * [Ryu](https://github.com/ulfjack/ryu)：该项目包含使用最短、固定%f和科学%e格式将IEEE-754浮点数转换为十进制字符串的例程。
+* [OpenDA](https://github.com/OpenDA-Association/OpenDA)：OpenDA是一个开放接口标准，用于快速实现任意数值模型的数据同化和校准。
 * [JavaCPP MKL](https://github.com/bytedeco/javacpp-presets/tree/master/mkl)：MKL是由英特尔开发的高度优化、广泛线程化的数学函数库。
 * [Hacktoberfest Mathematics](https://github.com/BaReinhard/Hacktoberfest-Mathematics)：数学公式和函数的脚本和/或程序库。
 * [JTransforms](https://github.com/wendykierp/JTransforms)：JTransforms是第一个用纯Java编写的开源多线程FFT库。
@@ -13773,7 +13782,9 @@ Kafka生态管理系统、运维平台。
 
 ## 企业软件开发
 
-这里列出了各行业企业级开发的管理系统，包括CMS、低代码、ERP等。
+* [eXo Platform](https://www.exoplatform.com/)：eXo Platform是一个开源的企业级数字工作场所解决方案，集成了文档管理、协作工具、社交网络和Web内容管理，面向团队和企业。
+* [Waltz](https://github.com/finos/waltz)：Waltz可以帮助你可视化和定义组织的技术架构，你可以把它想象成一个结构化的架构Wiki，由金融科技基金会开源。
+* [Meeds](https://github.com/Meeds-io/meeds)：Meeds是一个模块化的开源平台，旨在激活、吸引和奖励Web3社区的贡献者。
 
 #### 项目模板
 
@@ -18436,6 +18447,7 @@ Kafka生态管理系统、运维平台。
 * [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine)：Multi-OS Engine为iOS平台API提供了Java运行时和Java接口，用于开发具有原生外观、原生性能以及可从Android应用程序移植常见Java逻辑模块的原生iOS应用程序。
 * [MobileUI](https://mobileui.dev/)：MobileUI是第一个适用于iOS和Android的基于Java的原生UI框架。
 * [OpenJDK Mobile](https://github.com/openjdk/mobile)：Mobile的目标是专注于将JDK移植到iOS、Android和Windows等流行的移动平台。
+* [YouI](https://github.com/outr/youi)：使用Scala和Scala.js进行下一代用户界面和应用程序开发，适用于Web、移动和桌面平台。
 * [GwtMobile](https://github.com/dennisjzh/GwtMobile)：GWT Mobile是一款基于GWT技术的跨平台移动开发工具。
 * [JUniversal](https://github.com/juniversal/juniversal)：JUniversal允许你使用源代码转换功能，用Java编写原生、移动端和跨平台应用程序。
 
@@ -19038,6 +19050,7 @@ Kafka生态管理系统、运维平台。
 * [DevelNext](https://github.com/jphp-group/develnext)：DevelNext是一个专注于快速创建程序、简单的2D游戏以及适用于Windows/Linux/Mac的功能原型的开发环境。
 * [DevKt](https://github.com/ice1000/dev-kt)：DevKt是一个类似DevCpp的跨平台Kotlin/Java IDE，功能轻量级。
 * [JfxIDE](https://github.com/Zev-G/JfxIDE)：JfxIDE是一个用JavaFX编写的Java函数式代码编辑器。
+* [ToyIDE](https://github.com/pavelfatin/toyide)：ToyIDE是一个功能齐全的集成开发环境的模拟版本。
 
 #### 可视化编程
 
@@ -22089,6 +22102,7 @@ Kafka生态管理系统、运维平台。
 * [Kramerius](https://github.com/ceskaexpedice/kramerius)：Kramerius是一款数字图书馆开源软件解决方案，主要用于数字化图书馆藏书、专著和期刊，由捷克共和国科学院图书馆、捷克共和国国家图书馆等开源。
 * [OpacClient](https://github.com/opacapp/opacclient)：一个Java客户端库和一个Android应用程序，可访问来自世界各地的1000多个公共和学术图书馆。
 * [Metafacture](https://github.com/metafacture/metafacture-core)：Metafacture是一个用于处理半结构化数据的工具包，专注于图书馆元数据。
+* [QA Catalogue](https://github.com/pkiraly/qa-catalogue)：QA Catalogue是一种用于评估图书馆目录记录元数据质量的工具。
 
 ## 自动程序修复
 
