@@ -56,6 +56,7 @@
 * [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
+* [DHCP4j](https://github.com/shevek/dhcp4j)：Java DHCP服务器和协议处理程序。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 * [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
@@ -659,6 +660,8 @@
 * [SNMP API](https://ireasoning.com/snmpapi.shtml)：SNMP API是业界领先的SNMP库，它为构建网络管理应用程序提供了高性能、跨平台的SNMP Java API。
 * [DynamicSNMP](https://monfox.com/dsnmp/java-snmp-agent-sdk.html)：DynamicSNMP提供了一组通用的高级Java API，可大大简化平台无关的Java SNMP v1、v2c和v3代理软件的开发。
 * [SNMP Java](https://metricshub.org/snmp-java/)：Westhawk的轻量级SNMP协议栈，基于Java编写。
+* [SNMP4S](https://github.com/joescii/snmp4s)：SNMP4S是一个符合惯用语法、类型安全的Scala DSL，用于处理SNMP数据。
+* [SNMPMAN](https://github.com/1and1/snmpman)：SNMPMAN是一个命令行应用程序，用于模拟支持SNMP的设备，其开发目的是为了在单元测试期间使用。
 
 #### Radius
 
@@ -3283,6 +3286,7 @@
 * [OpenSSL4J](https://github.com/sfuhrm/openssl4j)：OpenSSL4J是一个Java桥接器，用于连接原生OpenSSL库。
 * [Let's Encrypt Helper](https://github.com/valb3r/letsencrypt-helper)：生成并更新Spring Boot应用程序的Let's Encrypt或其他符合ACME标准的SSL证书。
 * [TaSK](https://github.com/BSI-Bund/TaSK)：TaSK是一款可配置的测试工具，用于执行基于技术指南TR-03116-TS的TLS一致性测试，由德国信息技术安全局开源。
+* [CompositeJKS](https://github.com/1and1/CompositeJKS)：CompositeJKS允许你将自定义Java密钥库加载到SSL上下文中，而无需替换系统CA列表。
 
 #### CORS
 
@@ -4858,6 +4862,7 @@
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
+* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
 * [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
 * [MicroProfile Reactive Messaging](https://github.com/microprofile/microprofile-reactive-messaging)：MicroProfile提供的基于Reactive Streams的异步消息传递支持。
 * [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
@@ -12045,6 +12050,7 @@ Kafka生态管理系统、运维平台。
 * [IoT-DC](https://github.com/Theembers/iot-dc)：IoT-DC是一个基于Spring Boot、Netty、RabbitMQ实现的物联网设备数据接入项目。
 * [Easy IoT](https://gitee.com/damocode/easy-iot)：Easy IoT是一款轻量级物联网开发的SDK。
 * [WoT Servient](https://github.com/sane-city/wot-servient)：W3C WoT Java实现。
+* [Embr](https://github.com/mussonindustrial/embr)：Inductive Automation出品的Ignition开源模块，包含图表、热成像、Periscope、SNMP等功能。
 
 #### 物联网平台
 
@@ -12104,6 +12110,7 @@ Kafka生态管理系统、运维平台。
 * [Amazon Echo Bridge](https://github.com/armzilla/amazon-echo-ha-bridge)：Amazon Echo Bridge允许你快速模拟Phillips Hue桥，从而能够将Amazon Echo无缝集成到各种家庭自动化系统中。
 * [Khome](https://github.com/dennisschroeder/khome)：Khome是一个用Kotlin编写的Home Assistant智能家居自动化库。
 * [KWSwitch](https://gitee.com/kerwincui/kwswitch)：智能开关平台，包含服务端、硬件端、安卓端和前端。
+* [HAP Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
 * [SmartApplianceEnabler](https://github.com/camueller/SmartApplianceEnabler)：SmartApplianceEnabler可将普通的家用电器转变为智能的、可远程控制的家电，并使其能够参与家庭能源管理，尤其是与光伏太阳能发电相结合。
 * [Arcus](https://github.com/arcus-smart-home/arcusplatform)：Arcus是一个开源的家庭自动化与控制系统。
 * [HomA](https://github.com/binarybucks/homA)：HomA是一个免费的开源框架，用于构建智能家居并将其连接到物联网。
@@ -12249,6 +12256,7 @@ Kafka生态管理系统、运维平台。
 * [JT808 Server](https://gitee.com/yezhihao/jt808-server)：JT808、JT808协议解析；支持TCP、UDP，实时兼容2011、2013、2019版本协议，支持分包。
 * [JT809 TCP Server](https://github.com/ch0ice/jt809-tcp-server)：JT/T809-2011(道路运输车辆卫星定位系统平台数据交换协议)上级服务端。
 * [JT Framework](https://github.com/hylexus/jt-framework)：基于Spring Boot的JT-808协议服务端。
+* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
 * [Eclipse MOSAIC](https://github.com/eclipse-mosaic/mosaic)：MOSAIC是智能互联移动领域的多尺度仿真框架，它允许将来自不同领域的模拟器耦合到综合模拟工具。
 * [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 * [JTT1078 Video Server](https://gitee.com/matrixy/jtt1078-video-server)：基于JT/T 1078协议实现的视频转播服务器。
@@ -17634,9 +17642,6 @@ Kafka生态管理系统、运维平台。
 ## 协议实现
 
 * [Open eCard](https://github.com/ecsec/open-ecard)：Open eCard旨在提供eCard-API-Framework(BSI TR-03112)和相关国际标准ISO/IEC 24727的开源和跨平台实现。
-* [HAP Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
-* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
-* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
 * [Chromecast Java API v2](https://github.com/vitalidze/chromecast-java-api-v2)：Chromecast V2协议客户端的Java实现。
 * [Scribble Java](https://github.com/scribble/scribble-java)：Scribble Java工具的核心组件。
 

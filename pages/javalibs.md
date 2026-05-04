@@ -1679,6 +1679,7 @@
 * [Apache Geronimo](https://github.com/apache/geronimo)：Geronimo是一组开源项目，专注于提供JavaEE/JakartaEE库和Microprofile实现。
 * [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个高度可组合、快速启动的动态应用程序服务器运行时环境，它是IBM WebSphere Liberty的开源实现。
 * [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html)：SAP Web应用服务器是NetWeaver解决方案的一个组件。
+* [Tanzu TC Server](https://enterprise.spring.io/tcserver)：Tanzu TC Server是一款基于开源Tomcat的Web应用服务器和命令行工具的捆绑包，由博通提供。
 * [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html)：FlyingServer是一款满足Java EE 8标准的国产化Web中间件软件，支持WAR，EAR，JAR等应用的部署，由亚信科技提供。
 * [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html)：Adobe ColdFusion是一款久经考验的高性能应用程序服务器，可让程序员轻松进行Web开发。
 * [Apusic AAS](https://www.apusic.com/list-117.html)：金蝶Apusic应用服务器是一款标准、安全、高效、集成并具丰富功能的企业级应用服务器软件，全面支持Jakarta EE 8/9的技术规范。
@@ -1690,6 +1691,7 @@
 * [Libercat](https://axiomjdk.ru/pages/libercat/)：Libercat是一款安全的俄罗斯制造的应用服务器，它基于Apache Tomcat和Apache TomEE，并实现了Jakarta EE规范。
 * [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html)：TongWeb是一款全面符合Java EE、Jakarta EE最新标准规范、轻量易于使用、性能强大、具有高可靠性和高安全性的应用服务器产品，由东方通开发。
 * [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27)：JEUS是在Web环境中开发、运行、执行应用程序的平台，提供各种必要服务、符合Java标准的Web应用服务器，由韩国TmaxSoft公司开发。
+* [LENA](https://solution.lgcns.com/en/solution/lena)：LENA是一款创新的云原生Web应用服务器，采用LG CNS的尖端技术开发。
 * [AliEE](https://help.aliyun.com/zh/edas/product-overview/what-is-alibaba-cloud-application-server?spm=a2c4g.11186623.0.0.72385806mPZpST)：阿里云应用服务器是一款企业级Java EE的应用服务器软件，用于构建和部署企业级应用程序。
 * [Cosminexus](https://www.hitachi.com/products/it/software/prod/cosminexus/)：Cosminexus是日立公司提供的用于构建和运行应用程序服务器的中间件产品。
 * [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html)：WebOTX是一个Java应用程序执行平台，非常适合在从本地到云的各种IT资源中推广DX，这是日本电气公司的产品。
@@ -1897,6 +1899,7 @@
 * [SapMachine](https://github.com/SAP/SapMachine)：SapMachine是SAP维护的OpenJDK的一个发行版。
 * [Apache Harmony](https://harmony.apache.org/)：Apache Harmony旨在创建一个兼容Java SE 5和Java SE 6标准的完整、独立的Java运行时环境，主要由IBM开发。
 * [Canonical OpenJDK](https://ubuntu.com/toolchains/java)：Canonical为Ubuntu构建的OpenJDK，提供长达12年的安全维护。
+* [Xcode OpenJDK](https://github.com/apple/openjdk)：Apple Xcode中使用的OpenJDK修改版本。
 * [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8)：阿里巴巴Dragonwell是OpenJDK的下游版本，也是阿里内部的OpenJDK实现。
 * [Tencent Kona](https://github.com/Tencent/TencentKona-8)：腾讯Kona是OpenJDK的免费、生产就绪发行版，提供长期支持和季度更新。
 * [Huawei Bisheng](https://gitee.com/openeuler/bishengjdk-8)：毕昇JDK是华为内部OpenJDK定制版Huawei JDK的开源版本，是一个高性能、可用于生产环境的OpenJDK发行版。
@@ -4538,6 +4541,7 @@
 * [Jcabi URN](https://github.com/jcabi/jcabi-urn)：Jcabi URN是根据RFC 2141的URN的不可变实现。
 * [JSTUN](https://github.com/tking/JSTUN)：JSTUN是基于Java的STUN(通过网络地址转换(NAT)简单遍历UDP)实现。
 * [Jagornet DHCP](https://github.com/jagornet/dhcp)：用Java编写的开源DHCPv4/DHCPv6服务器。
+* [DHCP4j](https://github.com/shevek/dhcp4j)：Java DHCP服务器和协议处理程序。
 * [Nmap4j](https://github.com/narkisr/nmap4j)：Java Nmap包装器。
 * [Ionet](https://github.com/iohao/ionet)：Ionet是一个开源的轻量级基于Aeron的分布式网络编程框架，能够做到纳秒级别的端到端延迟。
 * [Mikrotik](https://github.com/GideonLeGrange/mikrotik-java)：Mikrotik RouterOS API的Java客户端库实现。
@@ -5141,6 +5145,8 @@
 * [SNMP API](https://ireasoning.com/snmpapi.shtml)：SNMP API是业界领先的SNMP库，它为构建网络管理应用程序提供了高性能、跨平台的SNMP Java API。
 * [DynamicSNMP](https://monfox.com/dsnmp/java-snmp-agent-sdk.html)：DynamicSNMP提供了一组通用的高级Java API，可大大简化平台无关的Java SNMP v1、v2c和v3代理软件的开发。
 * [SNMP Java](https://metricshub.org/snmp-java/)：Westhawk的轻量级SNMP协议栈，基于Java编写。
+* [SNMP4S](https://github.com/joescii/snmp4s)：SNMP4S是一个符合惯用语法、类型安全的Scala DSL，用于处理SNMP数据。
+* [SNMPMAN](https://github.com/1and1/snmpman)：SNMPMAN是一个命令行应用程序，用于模拟支持SNMP的设备，其开发目的是为了在单元测试期间使用。
 
 #### Radius
 
@@ -7765,6 +7771,7 @@
 * [OpenSSL4J](https://github.com/sfuhrm/openssl4j)：OpenSSL4J是一个Java桥接器，用于连接原生OpenSSL库。
 * [Let's Encrypt Helper](https://github.com/valb3r/letsencrypt-helper)：生成并更新Spring Boot应用程序的Let's Encrypt或其他符合ACME标准的SSL证书。
 * [TaSK](https://github.com/BSI-Bund/TaSK)：TaSK是一款可配置的测试工具，用于执行基于技术指南TR-03116-TS的TLS一致性测试，由德国信息技术安全局开源。
+* [CompositeJKS](https://github.com/1and1/CompositeJKS)：CompositeJKS允许你将自定义Java密钥库加载到SSL上下文中，而无需替换系统CA列表。
 
 #### CORS
 
@@ -9340,6 +9347,7 @@
 * [ZBus](https://gitee.com/openforce/zbus)：ZBus致力于使消息队列和RPC变得快速、轻量级并且易于为许多不同的平台构建你自己的面向服务的架构，由开放金融技术开源。
 * [ZMS](https://github.com/ZTO-Express/zms)：ZMS是使用方与集群解耦，屏蔽各消息集群差异，并对消息集群进行安装、管理、监控、告警管理的平台，由中通开源。
 * [Mappedbus](https://github.com/caplogic/Mappedbus)：Mappedbus是一种用于利用共享内存的Java微服务的低延迟消息总线。
+* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
 * [Smallrye Reactive Messaging](https://github.com/smallrye/smallrye-reactive-messaging)：Eclipse MicroProfile Reactive Messaging规范实现，用于构建事件驱动的微服务和数据流应用。
 * [MicroProfile Reactive Messaging](https://github.com/microprofile/microprofile-reactive-messaging)：MicroProfile提供的基于Reactive Streams的异步消息传递支持。
 * [Spring Cloud Stream](https://github.com/spring-cloud/spring-cloud-stream)：Spring Cloud Stream是一个用于构建与共享消息系统连接的高度可扩展的事件驱动微服务的框架，由Pivotal开发。
@@ -16527,6 +16535,7 @@ Kafka生态管理系统、运维平台。
 * [IoT-DC](https://github.com/Theembers/iot-dc)：IoT-DC是一个基于Spring Boot、Netty、RabbitMQ实现的物联网设备数据接入项目。
 * [Easy IoT](https://gitee.com/damocode/easy-iot)：Easy IoT是一款轻量级物联网开发的SDK。
 * [WoT Servient](https://github.com/sane-city/wot-servient)：W3C WoT Java实现。
+* [Embr](https://github.com/mussonindustrial/embr)：Inductive Automation出品的Ignition开源模块，包含图表、热成像、Periscope、SNMP等功能。
 
 #### 物联网平台
 
@@ -16586,6 +16595,7 @@ Kafka生态管理系统、运维平台。
 * [Amazon Echo Bridge](https://github.com/armzilla/amazon-echo-ha-bridge)：Amazon Echo Bridge允许你快速模拟Phillips Hue桥，从而能够将Amazon Echo无缝集成到各种家庭自动化系统中。
 * [Khome](https://github.com/dennisschroeder/khome)：Khome是一个用Kotlin编写的Home Assistant智能家居自动化库。
 * [KWSwitch](https://gitee.com/kerwincui/kwswitch)：智能开关平台，包含服务端、硬件端、安卓端和前端。
+* [HAP Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
 * [SmartApplianceEnabler](https://github.com/camueller/SmartApplianceEnabler)：SmartApplianceEnabler可将普通的家用电器转变为智能的、可远程控制的家电，并使其能够参与家庭能源管理，尤其是与光伏太阳能发电相结合。
 * [Arcus](https://github.com/arcus-smart-home/arcusplatform)：Arcus是一个开源的家庭自动化与控制系统。
 * [HomA](https://github.com/binarybucks/homA)：HomA是一个免费的开源框架，用于构建智能家居并将其连接到物联网。
@@ -16731,6 +16741,7 @@ Kafka生态管理系统、运维平台。
 * [JT808 Server](https://gitee.com/yezhihao/jt808-server)：JT808、JT808协议解析；支持TCP、UDP，实时兼容2011、2013、2019版本协议，支持分包。
 * [JT809 TCP Server](https://github.com/ch0ice/jt809-tcp-server)：JT/T809-2011(道路运输车辆卫星定位系统平台数据交换协议)上级服务端。
 * [JT Framework](https://github.com/hylexus/jt-framework)：基于Spring Boot的JT-808协议服务端。
+* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
 * [Eclipse MOSAIC](https://github.com/eclipse-mosaic/mosaic)：MOSAIC是智能互联移动领域的多尺度仿真框架，它允许将来自不同领域的模拟器耦合到综合模拟工具。
 * [Xtream Codec](https://github.com/hylexus/xtream-codec)：基于Reactor Netty的私有协议编解码库。
 * [JTT1078 Video Server](https://gitee.com/matrixy/jtt1078-video-server)：基于JT/T 1078协议实现的视频转播服务器。
@@ -22116,9 +22127,6 @@ Kafka生态管理系统、运维平台。
 ## 协议实现
 
 * [Open eCard](https://github.com/ecsec/open-ecard)：Open eCard旨在提供eCard-API-Framework(BSI TR-03112)和相关国际标准ISO/IEC 24727的开源和跨平台实现。
-* [HAP Java](https://github.com/hap-java/HAP-Java)：HAP-Java是HomeKit附件协议的Java实现。
-* [DBus Java](https://github.com/hypfvieh/dbus-java)：该库是D-Bus协议的原生Java实现。
-* [RISE V2G](https://github.com/SwitchEV/RISE-V2G)：车辆到电网(V2G)通信接口ISO 15118的开源参考实现。
 * [Chromecast Java API v2](https://github.com/vitalidze/chromecast-java-api-v2)：Chromecast V2协议客户端的Java实现。
 * [Scribble Java](https://github.com/scribble/scribble-java)：Scribble Java工具的核心组件。
 
