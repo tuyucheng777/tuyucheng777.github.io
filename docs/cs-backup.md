@@ -604,6 +604,7 @@
 * [CoreRPC](https://github.com/kekekeks/CoreRPC)：可扩展的RPC库，带有TypeScript客户端生成器。
 * [SmartRoute](https://github.com/beetlex-io/SmartRoute)：SmartRoute是基于.NET Core设计的可运行在Linux和Windows下的服务通讯组件。
 * [XRPC](https://github.com/beetlex-io/XRPC)：.NET高性能远程接口调用(RPC)通信组件。
+* [Imp.NET](https://github.com/DouglasDwyer/Imp.NET)：Imp.NET是一个快速、高级、面向对象的C#网络库，支持通过代理接口对象调用远程方法。
 
 ## gRPC
 
@@ -1029,6 +1030,8 @@
 * [Resonance](https://github.com/royben/Resonance)：Resonance是一个高性能的实时C#通信库，内置支持多种不同的转码和传输方式。
 * [Net Socket](https://github.com/tallesl/net-Socket)：对System.Net.Sockets.Socket的极简封装。
 * [Exomia Network](https://github.com/exomia/network)：Exomia Network是System.Socket的一个封装库，用于轻松实现TCP/UDP客户端和服务器之间的通信。
+* [RxSockets](https://github.com/dshe/RxSockets)：一个极简的响应式/异步流套接字实现。
+* [ManagedSockets](https://github.com/umby24/ManagedSockets)：一个简单、异步、事件驱动的C# TCP套接字库。
 
 ## WebSocket
 
@@ -1097,7 +1100,6 @@
 * [Hazel Networking](https://github.com/DarkRiftNetworking/Hazel-Networking)：Hazel Networking是一个面向C#的低级网络库，通过TCP、UDP和RUDP提供面向连接的消息通信。
 * [CocoSocket](https://github.com/beykery/cocosocket)：CocoSocket是一个为Cocos2d-x和Unity 3D手机网络游戏准备的底层通信框架。
 * [FreeNet](https://github.com/sunduk/FreeNet)：FreeNet是一个轻量级异步C#网络库。
-* [Netproxy](https://github.com/Stormancer/netproxy)：Netproxy是一个基于.NET 5.0的简单IPv6/IPv4 UDP和TCP代理。
 * [CSharpServer](https://github.com/chronoxor/CSharpServer)：超高速、低延迟异步套接字服务器和客户端C#库，支持TCP、SSL、UDP协议和10K连接问题解决方案。
 * [AsyncSocketServers](https://github.com/Dem0n13/AsyncSocketServers)：C#实现的异步、高性能的TCP和UDP套接字服务器。
 * [EasyTcp](https://github.com/job79/EasyTcp)：EasyTcp是一个简单快速的TCP库，能够处理通常在使用TCP时需要完成的所有重复性任务。
@@ -1119,6 +1121,21 @@
 * [Xeeny](https://github.com/MhAllan/Xeeny)：用于在.NET Standard中构建和使用服务的框架。
 * [Easy TCP Server](https://github.com/nickproud/Easy-TCP-Server)：Easy TCP Server是一款易于实现的TCP服务器，它通过客户端与服务器之间的连接通道处理来自多个客户端的传入TCP数据。
 * [WatsonMesh](https://github.com/jchristn/WatsonMesh)：一个基于WatsonTcp的简单C#网状网络库。
+* [Ruffles](https://github.com/MidLevel/Ruffles)：Ruffles是一个完全托管的UDP库，专为高性能和低延迟而设计。
+* [MixedRealityNetworking](https://github.com/DynaSpan/MixedRealityNetworking)：用于Unity的UDP网络库，可与UWP和/或HoloLens结合使用。
+* [SimpleUDP](https://github.com/StrumDev/SimpleUDP)：SimpleUDP是一个简单的网络库，提供可靠和不可靠消息。
+* [EasyTcp4Net](https://github.com/BruceQiu1996/EasyTcp4Net)：一个由.NET开发的高性能TCP通信软件包，支持多种解包策略。
+* [TurtleRock](https://github.com/eightyao/TurtleRock)：一个类似Netty的.NET Core TCP/IP通信框架，同时支持IOCP和Epoll。
+* [EpServerEngine.cs](https://github.com/juhgiyo/EpServerEngine.cs)：Visual C# IOCP TCP服务器/客户端引擎。
+* [SiS.Communcation](https://github.com/autcn/SiS.Communcation)：本项目为.NET提供了一系列通信组件，包括TCP、UDP、HTTP和进程通信。
+* [Tcp.NET](https://github.com/LiveOrDevTrying/Tcp.NET)：Tcp.NET提供易于使用且可自定义的TCP服务器和TCP客户端。
+* [TCPServer](https://github.com/stratisproject/TCPServer)：使用裸TCP套接字作为传输层的ASP.NET Core IServer实现。
+* [FastNetwork](https://github.com/gloriawish/FastNetwork)：基于SocketAsyncEventArgs的一个性能异步TCP网络库。
+* [Fallout4 PipBoy](https://github.com/weberph/Fallout4-PipBoy)：用于在.NET中使用PipBoy Android/iOS应用的TCP通信机制/协议的库。
+* [UnityTcpNetwork](https://github.com/GGDevLee/UnityTcpNetwork)：Unity超高性能TCP网络库。
+* [TCPMaid](https://github.com/Joy-less/TCPMaid)：一个简单、强大且轻量级的C# TCP客户端/服务器。
+* [ObooltNet](https://github.com/Phyyl/ObooltNet)：一个简单的C# TCP库，用于快速网络连接。
+* [ServerFramework.NET](https://github.com/souvik1997/ServerFramework.NET)：ServerFramework.NET是一个异步、强大、开源、可扩展、易于使用的TCP服务器框架，使用C#为.NET 2.0及更高版本编写。
 
 ## FTP
 
@@ -1152,6 +1169,9 @@
 * [ArashiDNS.Aoi](https://github.com/mili-tan/ArashiDNS.Aoi)：基于HTTPS服务器的简单DNS。
 * [DinoDNS](https://github.com/TurnerSoftware/DinoDNS)：快速高效的DNS服务器和客户端，支持UDP、TCP、TLS和HTTPS上的DNS。
 * [Tmds.MDns](https://github.com/tmds/Tmds.MDns)：此库允许查找通过多播DNS公告的服务。
+* [Ae.Dns](https://github.com/alanedwardes/Ae.Dns)：这是一个纯C#实现的DNS客户端、服务器端以及可配置的缓存/过滤层。
+* [DnsClientX](https://github.com/EvotecIT/DnsClientX)：DnsClientX是一个异步C#库，用于通过UDP、TCP、HTTPS(DoH)、TLS(DoT)、HTTP/3(DoH3)和QUIC(DoQ)进行DNS查询。
+* [MsmhAgnosticServer](https://github.com/msasanmh/MsmhAgnosticServer)：C#中的DNS客户端/服务器和代理服务器。
 
 ## SSH
 
@@ -1219,6 +1239,10 @@
 * [Mono UPNP](https://github.com/mono/mono-upnp)：Mono/.NET的UPNP绑定。
 * [StandardNetworkLibrary](https://github.com/ReferenceType/StandardNetworkLibrary)：高性能、易用的网络库。
 * [EuNet](https://github.com/zestylife/EuNet)：EuNet是一款面向多人游戏的网络解决方案。
+* [Megumin.Net](https://github.com/KumoKyaku/Megumin.Net)：应用程序和游戏网络模块解决方案。
+* [NetUV](https://github.com/StormHub/NetUV)：适用于.NET Standard和.NET Core的Libuv绑定。
+* [RakNet Networking](https://github.com/redheadgektor/RakNet_Networking)：这是对流行的网络引擎RakNet的封装。
+* [UniFiSharp](https://github.com/anthturner/UniFiSharp)：UniFiSharp为Ubiquiti UniFi控制器提供了一个基本的C# API，以及一个编排叠加层，以便更轻松地可视化网络拓扑并执行设备命令。
 
 ## 网络工具
 
@@ -1227,6 +1251,8 @@
 * [InternetTest](https://github.com/Leo-Corporation/InternetTest)：InternetTest是一款适用于Windows的现代化网络连接实用程序。
 * [SharpNetSH](https://github.com/rpetz/SharpNetSH)：该库旨在让C#应用程序能够轻松访问NetSH工具。
 * [Swiddler](https://github.com/jlucansky/Swiddler)：TCP/UDP调试工具。
+* [OpenNetMeter](https://github.com/Ashfaaq18/OpenNetMeter)：一款用于监控网络/数据使用情况的简单程序，专为普通Windows用户设计。
+* [PingoMeter](https://github.com/EFLFE/PingoMeter)：PingoMeter是一款小程序，可在Windows系统托盘中显示你的Ping值。
 
 ## 网络设备管理
 
@@ -1294,6 +1320,7 @@
 * [BoutDuTunnel](https://github.com/sailro/Bdtunnel)：BoutDuTunnel是一款对受限制防火墙后面的用户非常有用的软件，旨在使用通常无法使用的网络服务。
 * [FrpGUI](https://github.com/f-shake/FrpGUI)：一个使用Avalonia开发的FRP的Windows/Linux/MacOS GUI程序。
 * [TcpTunnel](https://github.com/kpreisser/TcpTunnel)：TcpTunnel是一个用C#实现的程序，它允许通过服务器将TCP连接隧道传输到远程计算机。
+* [Tunnelite](https://github.com/cristipufu/tunnelite)：Tunnelite是一个.NET工具，它允许你在公共网址和本地计算机上运行的应用程序之间建立安全连接。
 
 ## HTTP代理
 
@@ -1314,6 +1341,7 @@
 * [Shadowsocks.Net](https://github.com/HMBSbige/Shadowsocks.Net)：SOCKS5、HTTP、管道和Shadowsocks。
 * [Socks5Proxy4Net](https://github.com/BruceQiu1996/Socks5Proxy4Net)：一个基于.NET 8的高性能Socks5代理服务端与客户端。
 * [VEthernet](https://github.com/liulilittle/VEthernet)：用C#和VEthernet编写的Tun2Socks实现。
+* [Netproxy](https://github.com/Stormancer/netproxy)：Netproxy是一个基于.NET 5.0的简单IPv6/IPv4 UDP和TCP代理。
 
 ## KCP
 
@@ -1338,6 +1366,7 @@
 * [IronPigeon](https://github.com/AArnott/IronPigeon)：IronPigeon是一种去中心化的通信协议，为消息提供高度的机密性和真实性。
 * [AirDropAnywhere](https://github.com/deanward81/AirDropAnywhere)：.NET Core实现的AirDrop协议，允许任意设备与原生支持AirDrop的设备(例如Apple设备)之间发送/接收文件。
 * [MLAPI.Puncher](https://github.com/MidLevel/MLAPI.Puncher)：MLAPI.Puncher是一个轻量级、跨平台、易于使用、微小的NAT穿透实现。
+* [I2P CS](https://github.com/PeterZander/i2p-cs)：C#中的I2P路由器。
 
 ## BitTorrent
 
@@ -2686,6 +2715,7 @@
 * [Learning.EventStore](https://github.com/learningcom/Learning.EventStore)：Learning.EventStore是一个基于CQRSLite的CQRS、事件溯源和消息传递框架。
 * [MongoDB.Messaging](https://github.com/loresoft/MongoDB.Messaging)：MongoDB Messaging是一个基于MongoDB数据存储的轻量级队列发布/订阅处理库。
 * [KnightBus](https://github.com/BookBeat/knightbus)：KnightBus是一个快速、轻量级且可扩展的消息传递框架，支持多种活动消息传输方式。
+* [RedFoxMQ](https://github.com/hanswolff/redfoxmq)：RedFoxMQ是一个基于.NET的内存消息队列，它使用简单的TCP传输协议。
 
 ## 事件总线
 
@@ -4595,6 +4625,7 @@
 * [Simple.MailServer](https://github.com/hanswolff/simple.mailserver)：C# 5简易SMTP邮件服务器。
 * [DotLiquid.Mailer](https://github.com/miseeger/DotLiquid.Mailer)：DotLiquid.Mailer是一个简单的SMTP邮件服务，它使用DotLiquid作为模板引擎。
 * [Super SMTP Server](https://github.com/penguinboy/Super-SMTP-Server)：Super SMTP Server是一个小型的SMTP服务器，旨在允许开发人员快速检查其应用程序的邮件发送功能是否正常工作。
+* [CSharp SMTP Server](https://github.com/zabszk/CSharp-SMTP-Server)：一个简单的SMTP服务器库，适用于C#。
 
 ## 静态站点生成器
 
@@ -5766,6 +5797,7 @@
 * [Ping9719.IoT](https://github.com/ping9719/IoT)：工业互联网通讯库协议实现，包括主流协议ModBus、S7、CIP、MC、FINS等常用协议和PLC。
 * [Modbus](https://github.com/AndreasAmMueller/Modbus)：在.NET Standard 2.0上实现Modbus协议。
 * [Modbus](https://github.com/sontx/modbus)：C#对Modbus RTU和TCP的支持。
+* [VagabondK.Protocols](https://github.com/Vagabond-K/VagabondK.Protocols)：VagabondK.Protocols实现了使用Modbus RTU/ASCII/TCP协议、LS ELECTRIC的Cnet和FEnet协议与设备通信的功能。
 
 ## PLC
 
@@ -5777,6 +5809,8 @@
 * [SharpNodeSettings](https://github.com/dathlin/SharpNodeSettings)：一个设备及节点配置类库，基于HslCommunication创建，方便的实现PLC根据配置文件动态创建，并支持自动写入相应的服务器对象。
 * [WPF MC Next](https://github.com/MAS-Copilot/wpf-mc-protocol-next)：下一代高性的能异步三菱PLC MC协议通信库。
 * [Simatic S7 Webserver API](https://github.com/siemens/simatic-s7-webserver-api)：适用于.NET的WebserverApi客户端库。
+* [MewtocolNet](https://github.com/OpenLogics/MewtocolNet)：一个易于使用的Mewtocol协议库，用于通过TCP/串口与Panasonic PLC进行接口。
+* [McOmron](https://github.com/mcNets/mcOmron)：C#欧姆龙PLC TCP接口。
 
 ## 串口
 
@@ -5793,6 +5827,7 @@
 * [MonoSerialPort](https://github.com/JTrotta/MonoSerialPort)：.NET/Mono的串口库，可用于虚拟USB端口。
 * [PInvokeSerialPort](https://github.com/ebraminio/PInvokeSerialPort)：Win32API串口的P/Invoke封装。
 * [Flyfire.CustomSerialPort](https://github.com/flyfire-cn/flyfire.CustomSerialPort)：一个增强的自定义串口类，实现协议无关的数据帧完整接收功能，支持跨平台使用。
+* [SerialPortRx](https://github.com/ChrisPulman/SerialPortRx)：SerialPortRx是一个响应式串口、TCP和UDP I/O库，它将传入数据作为IObservable流公开，并通过简单的方法接受写入操作。
 
 ## EtherNet/IP
 
@@ -6515,6 +6550,7 @@
 * [System.Extension.Core](https://github.com/zhenlei520/System.Extension.Core)：System.Extension.Core是一个NET Standard 2.0、NET Standard 2.1的基础类库。
 * [Sixnet.Web](https://github.com/six-net/Sixnet.Web)：基于Sixnet开发框架的ASP.NET Core开发工具库。
 * [Tools](https://github.com/lfz233002072/tools)：C#工具箱，提供Socket、Redis、ActiveMQ、数据库访问等技术的封装实现。
+* [XiaoFeng](https://github.com/zhuovi/XiaoFeng)：C#公用类库。
 
 ## 日期时间
 
@@ -6935,6 +6971,7 @@
 * [MessageShark](https://github.com/rpgmaker/MessageShark)：MessageShark是Protobuf .NET的替代二进制序列化器。
 * [ObjectDumper](https://github.com/thomasgalliker/ObjectDumper)：ObjectDumper是一个工具，旨在将C#对象序列化为字符串，以便调试和日志记录。
 * [FluentSerializer](https://github.com/Marvin-Brouwer/FluentSerializer)：FluentSerializer是一个库，用于帮助你使用配置文件在C# POCO对象之间进行序列化和反序列化。
+* [ByteStream](https://github.com/DennisCorvers/ByteStream)：一款速度极快的C#字节序列化器。
 
 ## JSON
 
