@@ -329,7 +329,6 @@
 * [SmartIM](https://github.com/Jamling/SmartIM)：SmartIM插件的底层库，已实现SmartQQ、微信桌面版协议。
 * [Lithium](https://github.com/wireapp/lithium)：Lithium是用Java编写的Wire Services SDK。
 * [JXMPP](https://github.com/igniterealtime/jxmpp)：JXMPP是一个基于Java的开源XMPP库。
-* [T0rlib4j](https://github.com/PanagiotisDrakatos/T0rlib4j)：T0rlib4j是一个用于Tor的Java控制器库。
 * [Signal Service Java](https://github.com/signalapp/libsignal-service-java)：一个用于通过Signal进行通信的Java库。
 * [Signal CLI](https://github.com/AsamK/signal-cli)：Signal CLI是Signal即时通讯工具的命令行接口。
 * [Signald](https://github.com/thefinn93/signald)：Signal的API。
