@@ -455,6 +455,7 @@
 * [ACME](#ACME)
 * [LDAP](#LDAP)
 * [数据脱敏](#数据脱敏)
+* [匿名网络](#匿名网络)
 * [安全工具](#安全工具)
 * [安全绕过工具](#安全绕过工具)
 * [数字签名](#数字签名)
@@ -1264,7 +1265,6 @@
 * [RakNet Networking](https://github.com/redheadgektor/RakNet_Networking)：这是对流行的网络引擎RakNet的封装。
 * [UniFiSharp](https://github.com/anthturner/UniFiSharp)：UniFiSharp为Ubiquiti UniFi控制器提供了一个基本的C# API，以及一个编排叠加层，以便更轻松地可视化网络拓扑并执行设备命令。
 * [DHCPServer](https://github.com/jpmikkers/DHCPServer)：这是一个用C#编写的开源托管IPv4 DHCP服务器实现。
-* [DotNetTor](https://github.com/nopara73/DotNetTor)：.NET Core中稳定且高性能的Tor库。
 
 ## 网络工具
 
@@ -6259,6 +6259,10 @@
 * [UnitConversion](https://github.com/atulmish/UnitConversion)：适用于.NET Core和.NET Framework的可扩展单位转换库。
 * [QuantityTypes](https://github.com/QuantityTypes/QuantityTypes)：.NET中的强类型物理量。
 * [ByteSize](https://github.com/omar/ByteSize)：ByteSize是一个实用类，通过消除所表示值的歧义，使代码中的字节大小表示更容易理解。
+
+## 匿名网络
+
+* [DotNetTor](https://github.com/nopara73/DotNetTor)：.NET Core中稳定且高性能的Tor库。
 
 ## 安全工具
 
