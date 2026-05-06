@@ -3258,6 +3258,7 @@
 * [Common Secure](https://github.com/chenerzhu/common-secure)：提供一些加密算法Java代码封装。
 * [SHA](https://github.com/romus/sha)：Java中SHA-3的实现。
 * [Cipher4j](https://github.com/cszxyang/cipher4j)：DES、RSA、AES等加密算法的纯实现。
+* [Liboqs Java](https://github.com/open-quantum-safe/liboqs-java)：Liboqs Java提供了一个Java封装器，通过liboqs提供抗量子加密算法。
 
 #### 接口加密
 
