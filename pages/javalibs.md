@@ -3624,6 +3624,7 @@
 * [ProbCog](https://github.com/opcode81/ProbCog)：ProbCog是一个统计关系学习和推理系统，支持在关系领域进行高效的学习和推理。
 * [LiFT](https://github.com/linkedin/LiFT)：LiFT是一个Scala/Spark库，用于衡量大规模机器学习工作流程中的公平性并缓解偏差，由LinkedIn开源。
 * [TAK ML](https://github.com/raytheonbbn/tak-ml)：TAK ML是一个适用于TAK/ATAK的工具包，支持在运行环境中对机器学习模型进行打包、存储、分发和执行，由雷神公司开源。
+* [JavaML](https://github.com/AbeelLab/javaml)：Java机器学习库。
 
 #### 神经网络
 
@@ -4063,6 +4064,7 @@
 * [SpellChecker](https://github.com/bobbylight/SpellChecker)：SpellChecker是RSyntaxTextArea的一个拼写检查插件。
 * [EmailSuggester](https://github.com/fewlaps/quitnow-email-suggester)：更正电子邮件地址中的拼写错误。
 * [JSymSpell](https://github.com/rxp90/jsymspell)：JSymSpell是SymSpell的一个零依赖Java 8+移植版本。
+* [SymSpellKt](https://github.com/Wavesonics/SymSpellKt)：SymSpell算法的Kotlin多平台实现。
 
 #### WordNet
 
@@ -5001,6 +5003,7 @@
 * [Shadowsocks Java](https://github.com/nooner2014/shadowsocks-java)：Shadowsocks Java是一个轻量级的隧道代理，可以帮助你穿过防火墙。
 * [Shadowsocks Server](https://github.com/zk-123/shadowsocks)：Java开发的Shadowsocks。
 * [Shadowsocks Vert.x](https://github.com/Bestoa/shadowsocks-vertx)：Shadowsocks Vert.x是一个轻量级的隧道代理，可以帮助你穿过防火墙。
+* [Shadowsocks Java](https://github.com/victor8886/shadowsockr-java)：Java重写的Shadowsocks。
 * [Esocks](https://github.com/fengyouchao/esocks)：Esocks是一个命令行应用程序，可以轻松创建SOCKS5服务器。
 * [MitmSocks4j](https://github.com/Akdeniz/mitmsocks4j)：一个用于拦截SOCKS代理协议的拦截器，允许用户转储任何连接的内容，即使该连接使用SSL进行保护。
 * [JSocksProxy](https://github.com/Kecon/JSocksProxy)：用Java编写的SOCKS代理。
@@ -6755,6 +6758,7 @@
 * [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
 * [MybatisPlus Generator](https://github.com/baomidou/generator)：用于Mybatis Plus的代码生成器。
 * [Mybatis DSC Generator](https://gitee.com/flying-cattle/mybatis-dsc-generator)：完美集成Lombok，Swagger的代码生成工具。
+* [MyBatis SQLHelper](https://github.com/heykb/mybatis-sqlhelper)：MyBatis SQK注入、多租户、逻辑删除、数据权限插件。
 
 #### Hibernate库
 
@@ -8119,6 +8123,7 @@
 * [Kotlinx.Support](https://github.com/Kotlin/kotlinx.support)：提供扩展和顶级函数，以便在Kotlin 1.0中使用JDK7/JDK8功能。
 * [Util.Commons](https://github.com/qwhai/util.commons)：Java常用工具类集合。
 * [Groovy Common Extensions](https://github.com/timyates/groovy-common-extensions)：Groovy通用扩展函数库。
+* [ZCode Commons](https://github.com/zcode-zjw/zcode-commons)：快速简易开发的最佳后端服务组件库。
 
 ## 对象校验
 
@@ -8419,6 +8424,7 @@
 * [DiskCache](https://github.com/giovcorte/DiskCache)：适用于Kotlin和Android应用程序的简单易读的磁盘缓存。
 * [Kache](https://github.com/yundom/kache)：Kache是一个用Kotlin编写的轻量级缓存库。
 * [LocalCache](https://github.com/lishuo9527/LocalCache)：Java本地缓存工具类。
+* [OkCache](https://github.com/spring2go/okcache)：OkCache是一个高性能二级缓存实现, 内存LRU缓存、磁盘文件持久化缓存。
 
 #### 分布式缓存
 
@@ -10957,6 +10963,7 @@
 * [KSMT](https://github.com/UnitTestBot/ksmt)：满足各种SMT求解器的统一Kotlin/Java API。
 * [ScalaZ3](https://github.com/epfl-lara/ScalaZ3)：使用Z3 SMT求解器进行约束求解的Scala DSL。
 * [OSTRICH](https://github.com/uuverifiers/ostrich)：OSTRICH是一个基于自动机的字符串约束SMT求解器。
+* [Z3 Theorem](https://github.com/tudo-aqua/z3-turnkey)：Z3 Theorem证明器是一个广泛使用的SMT求解器。
 
 ## 命令行开发
 
@@ -11068,6 +11075,7 @@
 * [Colored Console](https://github.com/marcelmatula/colored-console)：Kotlin DSL ANSI输出彩色控制台。
 * [ANSI4J](https://github.com/techsenger/ansi4j)：Techsenger ANSI4J是一个Java库，它完全按照ISO/IEC 6429:1992标准解析ANSI转义码。
 * [AsciiTerminal](https://github.com/julianmaster/AsciiTerminal)：AsciiTerminal是一个使用LibGDX库的ASCII终端Java显示程序。
+* [Embroidery](https://github.com/wi101/embroidery)：为控制台增加艺术气息。
 
 #### 文本打印
 
@@ -12300,6 +12308,7 @@
 * [Naruku](https://github.com/shuangshuang-121/naruku)：Naruku是一个专门的Excel解析工具，可以快速的解析上百万条Excl数据和转换成CSV的格式。
 * [Excelr](https://github.com/enderim-archive/excelr)：Java中的基本实用程序，可读取XLSX、XLS和CSV文件并将Excel行转换为Java对象。
 * [Spreadsheet Builder](https://github.com/dsl-builders/spreadsheet)：Spreadsheet Builder提供了一种便捷的方式来创建MS Excel OfficeOpenXML文档(XSLX)，不仅关注内容方面，还关注轻松的样式设置。
+* [ExcelUtils](https://github.com/xyz0101/excelutils)：一个通用的Excel导入导出工具。
 
 ### CSV库
 
@@ -12464,6 +12473,7 @@
 * [XML Patch](https://github.com/dnault/xml-patch)：RFC 5261的Java实现。
 * [Xnav](https://github.com/volodya-lombrozo/xnav)：Xnav是一个旨在实现XML文档无缝导航和查询的库，其设计灵感源于XPath的简洁性和优雅性。
 * [XQS](https://github.com/fancellu/xqs)：XQS是一个Scala库，用于对XML数据源和Sedna调用XQuery。
+* [Xtract](https://github.com/lucidsoftware/xtract)：Xtract是一个用于反序列化XML的Scala库。
 
 ### HTML库
 
@@ -14196,7 +14206,7 @@ Kafka生态管理系统、运维平台。
 * [Java Swing GUI Starter](https://github.com/4ra1n/java-swing-gui-stater)：本项目是一个Java Swing GUI项目基础模板。
 * [Spring Boot Faster](https://github.com/canuran/spring-boot-faster)：Spring Boot整合常用框架组成完整可用的快速开发模板。
 * [BankOfSpring](https://github.com/SystangoTechnologies/BankOfSpring)：这是一个用于快速启动基于API和事务的Spring Java服务器开发的入门套件。
-* [Klokwrk](https://github.com/croz-ltd/klokwrk-project)：CROZ将 Klokwrk项目设想为一个展示平台和蓝图，用于在JVM上实现复杂的分布式系统。
+* [Klokwrk](https://github.com/croz-ltd/klokwrk-project)：CROZ将Klokwrk项目设想为一个展示平台和蓝图，用于在JVM上实现复杂的分布式系统。
 * [Microservice Skeleton](https://github.com/imrenagi/microservice-skeleton)：本项目是使用Spring Cloud、Spring Boot和Docker构建的微服务架构模式的简单框架代码。
 * [Spring MVC Hibernate Skeleton](https://github.com/shagstrom/spring-mvc-hibernate-skeleton)：一个用于创建带有Hibernate持久层的Spring MVC应用程序的简洁框架。
 * [SpringBoard](https://github.com/SystangoTechnologies/Springboard)：这是一个入门套件，旨在帮助开发者快速启动基于Spring的API型Java服务器的开发。
@@ -15428,6 +15438,7 @@ Kafka生态管理系统、运维平台。
 * [AEAI HR](https://gitee.com/agileai/aeaihr)：AEAI HR是数通畅联软件基于AEAI DP开发的开源Java Web系统，用来协助管理公司人力、薪酬等事务。
 * [HRM](https://github.com/fo11ow-me/hrm)：基于Spring Boot、Vue、ElementUI的人力资源管理系统。
 * [SaaS IHRM](https://github.com/Han-YLun/SaaS_IHRM)：SaaS智能人力资源管理系统。
+* [HrmsProject](https://github.com/Zeynebb/HrmsProject)：人力资源管理系统。
 
 #### AI系统
 
@@ -18604,6 +18615,7 @@ Kafka生态管理系统、运维平台。
 * [Enroscar](https://github.com/stanfy/enroscar)：一套用于简化应用程序开发的Android工具，由Stanfy开源。
 * [Kotlin Android Utils](https://github.com/costular/kotlin-android-utils)：用于更轻松、更快速Kotlin编程的Android工具。
 * [KotlinExtensions](https://github.com/Carleslc/kotlin-extensions)：增强Kotlin编程的实用扩展。
+* [Kotlin Multiplatform](https://github.com/shakurocom/kotlin_multiplatform)：适用于iOS和Android项目的通用原生Kotlin库。
 
 #### ADB
 
@@ -19684,6 +19696,7 @@ Kafka生态管理系统、运维平台。
 * [Blur](https://github.com/BlurEngine/Blur)：Minecraft 1.21.10游戏引擎，使用Java和Kotlin编写。
 * [DwarfGameEngine](https://github.com/Hyrdaboo/DwarfGameEngine)：DwarfGameEngine是一款基于Java的极简游戏引擎和软件渲染器。
 * [MarteEngine](https://github.com/Gornova/MarteEngine)：MarteEngine是一款Java视频游戏引擎，专注于提供简单、清晰的API，以实现快速游戏开发。
+* [BoardGameWork](https://github.com/tudo-aqua/bgw)：BoardGameWork是一个使用Kotlin创建2D棋盘游戏应用程序的框架。
 
 #### Minecraft
 
@@ -20247,6 +20260,7 @@ Kafka生态管理系统、运维平台。
 * [LLJVM](https://github.com/davidar/lljvm)：LLJVM提供了一组工具和库，用于在JVM上运行相对较低级别的语言(例如C)。
 * [LLFI](https://github.com/DependableSystemsLab/LLFI)：LLFI是一个基于LLVM的故障注入工具，它将故障注入到应用程序源代码的LLVM IR中，由不列颠哥伦比亚大学开源。
 * [MiniJavaLLVM](https://github.com/MiniJavaCompiler/MiniJavaLLVM)：MiniJava x86、LLVM编译器和解释器。
+* [KLLVM](https://github.com/ftomassetti/kllvm)：KLLVM是一个用于在Kotlin中使用LLVM的库。
 
 ## PC模拟器
 
@@ -21731,6 +21745,7 @@ Kafka生态管理系统、运维平台。
 
 * [BLE Indoor Positioning](https://github.com/neXenio/BLE-Indoor-Positioning)：BLE Indoor Positioning是一个Java库，能够根据从蓝牙信标接收的广播数据包估算位置。
 * [Kable](https://github.com/JuulLabs/kable)：Kable提供了一个简单的基于协程的API，用于与低功耗蓝牙设备进行交互。
+* [SimpleBLE](https://github.com/simpleble/simpleble)：SimpleBLE是适用于MacOS、iOS、Windows、Linux和Android的一体化蓝牙库。
 * [Bluetooth Manager](https://github.com/sputnikdev/bluetooth-manager)：用于管理蓝牙适配器、蓝牙设备、GATT服务和特性的库/框架。
 * [BlueCove](https://sourceforge.net/projects/bluecove/)：Bluecove是Java的跨平台蓝牙库，最初由英特尔研究院开发。
 * [LiteBle](https://github.com/litesuits/android-lite-bluetoothLE)：Android低功耗蓝牙便捷操作框架，基于回调。
@@ -23128,3 +23143,450 @@ Kafka生态管理系统、运维平台。
 * [Java Notes](https://github.com/lvminghui/Java-Notes)：一份面向Java初学者和初级工程师的知识点总结和面试题解析，着重关注面试中最常见的知识点。
 * [Interview](https://github.com/hadyang/interview)：本文档收集整理计算机、Java相关基础知识。
 * [YCBlogs](https://github.com/yangchong211/YCBlogs)：技术博客笔记大汇总，包括Java基础、线程、并发、数据结构、Android技术博客等。
+
+
+* [Carbon MultiTenancy](https://github.com/wso2/carbon-multitenancy)：Carbon MultiTenancy的目标是通过允许多个用户(租户)同时登录并使用同一台服务器/集群，并以租户隔离的方式，最大限度地实现资源共享，由WSO2开源。
+* [Spring Tenancy](https://github.com/spring-attic/spring-tenancy)：Spring Tenancy为管理基于Spring的应用程序中的多租户方法提供了一个框架。
+* [Multitenant](https://github.com/muxiangqiu/multitenant)：独立数据库模式实现多租户。
+* [OpenDDS](https://github.com/OpenDDS/OpenDDS)：OpenDDS是对象管理组织(OMG)数据分发服务(DDS)的开源C++实现，通过JNI支持Java绑定。
+* [OMP4j](https://github.com/omp4j/omp4j)：OMP4j是一个用Scala和Java编写的轻量级Java OMP类预处理器。
+* [Inspector Jay](https://github.com/timmolderez/inspector-jay)：Inspector Jay是一款代码检查工具，可以帮助你调试和/或理解Clojure/Java代码。
+* [JavaBank](https://github.com/thejamesthomas/javabank)：Mountebank的原生Java绑定。
+* [CQF Clinical Reasoning](https://github.com/cqframework/clinical-reasoning)：Java版FHIR上的CQF临床推理。
+* [XDEV Application Framework](https://github.com/xdev-software/xapi)：
+* [WKS Platform](https://github.com/wkspower/wks-platform)：WKS Platform是一个基于Camunda工作流自动化引擎构建的尖端自适应案例管理平台。
+* [ChromaScape](https://github.com/StaticSweep/ChromaScape)：ChromaScape是一个智能的OSRS颜色机器人/颜色机器人框架，它使开发人员能够使用计算机视觉和拓扑学创建强大的脚本。
+* [PraxisCORE](https://github.com/praxis-live/praxiscore)：PraxisCORE是一个模块化的JVM运行时环境，专为网络物理编程而设计，支持实时系统的实时编码。
+* [Kotlinx Browser](https://github.com/Kotlin/kotlinx-browser)：Kotlin浏览器API。
+* [AWS CloudWatch Metrics Java](https://github.com/awslabs/aws-embedded-metrics-java)：Amazon CloudWatch嵌入式指标格式客户端库。
+* [MENA](https://github.com/TheChance101/MENA-backend)：MENA是一款专为中东和北非地区打造的超级聊天应用。
+* [Zksnark Java SDK](https://github.com/tronprotocol/zksnark-java-sdk)：Zksnark JNI库。
+* [Clj Diff](https://github.com/brentonashworth/clj-diff)：
+* [Hildr](https://github.com/optimism-java/hildr)：Hildr是一个用最新Java编写的OP Stack Rollup客户端。
+* [Stocky](https://github.com/jamesawo/stocky)：Stocky是一款基于Java、Spring Boot和Angular构建的全栈Web应用，旨在帮助繁忙的店主在一个平台上管理所有门店。
+* [Robots.txt Java](https://github.com/google/robotstxt-java)：Java中的Google Robots.txt解析器和匹配器库。
+* [SeetaFace6JNI](https://github.com/SeetaFace6Open/SeetaFace6JNI)：
+* [LangageLinotte](https://github.com/cpc6128/LangageLinotte)：Linotte是一种完全用法语编写的编程语言。
+* [MarlinFX](https://github.com/bourgesl/marlin-fx)：MarlinFX是Marlin渲染器的JavaFX移植版，旨在比Open/Native Pisces更快。
+* [OJAI](https://github.com/ojai/ojai)：OJAI是一个通用的JSON访问层，它位于数据库、文件系统和消息流之上，能够使用通用API访问结构化、半结构化和非结构化数据。
+* [Matrix ClientServer Java API](https://github.com/JojiiOfficial/Matrix-ClientServer-API-java)：一个用于Matrix客户端/服务器协议的小型且简单的Java API。
+* [NgTor](https://github.com/theborakompanioni/ngtor)：通过Tor轻松暴露本地服务。
+* [IP2Proxy Java](https://github.com/ip2location/ip2proxy-java)：IP2Proxy Java组件，它可以用来查找用作VPN匿名器、开放代理、Web代理和Tor出口的IP地址。
+* [IPGeolocation Java SDK](https://github.com/IPGeolocation/ip-geolocation-api-java-sdk)：官方IPGeolocation API Java SDK，获取IP地理位置、ASN、公司、时区、主机名和用户代理数据，以及VPN检测、代理检测、Tor检测、威胁评分和云或数据中心IP检查等安全信号。
+* [Apex Link](https://github.com/nawforce/apex-link)：Salesforce 元数据静态分析库，专注于Apex验证。
+* [JRuby Parser](https://github.com/jruby/jruby-parser)：针对IDE使用情况定制的JRuby解析器。
+* [EET Client](https://github.com/todvora/eet-client)：用于向eet.cz中央注册处提交收据的简单Java客户端。
+* [IP-API Retrofit](https://github.com/seventhmoon/ipapi-retrofit)：用于使用Retrofit调用IP-API的Android库。
+* [Instrumentation](https://github.com/brutusin/instrumentation)：一个可扩展的Java代理框架，用于检测在JVM上运行的程序(在类加载时修改字节码)，目的是捕获方法调用事件(开始、结束、错误)并通知自定义监听器。
+* [BCTrace](https://github.com/ShiftLeftSecurity/bctrace)：BCTrace是一个用于创建基于钩子的Java代理的库，无需处理字节码。
+* [Helium](https://github.com/stanfy/helium)：Helium是一种用于REST API规范的DSL，也是一个用于处理用该语言编写的描述的Java API。
+* [FathomCloud](https://github.com/fathomdb/cloud)：FathomCloud是一个易于运行的云平台，支持OpenStack API。
+* [Orderly](https://github.com/ndimiduk/orderly)：用于创建可排序字节数组的模式和类型系统。
+* [SciView](https://github.com/scenerygraphics/sciview)：SciView是一个用于图像和网格三维可视化的ImageJ/FIJI插件。
+* [Supl Client](https://github.com/google/supl-client)：Supl客户端库。
+* [Aperture Tiles](https://github.com/unchartedsoftware/aperture-tiles)：Aperture Tiles能够创建基于浏览器的交互式工具，任何分析师都可以使用这些工具来探索包含数十亿个数据点的数据集。
+* [InTrace](https://github.com/mchr3k/org.intrace)：Java跟踪代理和实时跟踪客户端。
+* [Artemis ODB Contrib](https://github.com/DaanVanYperen/artemis-odb-contrib)：Artemis ODB的即插即用扩展，事件总线、计划操作、延迟系统、性能分析器、抽象和预制系统、组件和网络。
+* [jNVMf](https://github.com/zrlio/jNVMf)：jNVMf是一个用于远程访问NVMe存储的Java库。
+* [Centrifuge Java](https://github.com/centrifugal/centrifuge-java)：Centrifugo服务器和Centrifuge库的Websocket客户端。
+* [Query Testing Framework](https://github.com/Netflix/q)：Query Testing Framework是一个库，它允许用户针对搜索引擎测试查询数据集，由Netflix开源。
+* [PGADBA](https://github.com/pgjdbc/pgadba)：ADBA在PostgreSQL中的实现。
+* [Shift Java](https://github.com/shapesecurity/shift-java)：该项目提供了围绕Shift AST格式的Java工具。
+* [Tarena Pigeon](https://github.com/tarena-tech/tarena-pigeon)：Pigeon是与非科技的开源消息中台。
+* [JRAE](https://github.com/sancha/jrae)：JRAE是用Java重新实现的半监督递归自编码器。
+* [Yass2](https://github.com/softappeal/yass2)：Yass2是一个小型Kotlin多平台库，用于高效的基于异步/非阻塞协程的点对点通信。
+* [Multiplatform Locale](https://github.com/vanniktech/multiplatform-locale)：适用于Android应用、iOS/Mac应用和JVM后端的类型安全的Kotlin多平台本地化实现。
+* [MacroUtils](https://github.com/frkasper/MacroUtils)：MacroUtils是一组高级API，旨在让你在编写Simcenter STAR-CCM+ Java宏时更加轻松。
+* [Alicloud HTTPDNS Android SDK](https://github.com/aliyun/alibabacloud-httpdns-android-sdk)：针对Android的HTTP/HTTPS DNS解析SDK，提供鉴权与可选的AES加密、IPv4/IPv6双栈解析、缓存与调度、预解析等能力。
+* [Java EtherScan API](https://github.com/GoodforGod/java-etherscan-api)：Etherscan.io Java API实现。
+* [Artemis](https://github.com/test-jitcomp/Artemis)：Artemis是一款专门用于测试JVM JIT编译器的Java程序变异器。
+* [Thanos Common](https://github.com/TianXuan-Chain/thanos-common)：天玄区块链中的一些通用功能抽离出来实现的一个通用模块。
+* [RoboPods](https://github.com/robovm/robovm-robopods)：RoboPods是高质量的RoboVM代码库和绑定，支持最流行的第三方服务，例如社交媒体集成、广告网络或崩溃报告。
+* [Play2 SockJS](https://github.com/fdimuccio/play2-sockjs)：Play Framework的SockJS服务器实现。
+* [jSCSI](https://github.com/sebastiangraf/jSCSI)：jSCSI是一个功能齐全的iSCSI实现。
+* [Java TCP/UDP Tunnel](https://github.com/mukatee/java-tcp-tunnel)：一个简单的工具，可以对TCP连接进行中间人攻击，用于调试和测试你的软件。
+* [Spring Boot Netty](https://github.com/kgusarov/spring-boot-netty)：Spring Boot与Netty集成。
+* [Java BinUtils](https://github.com/jawi/java-binutils)：一个可以读取各种二进制格式文件的小型实用程序库，例如AR、ELF、COFF、Intel-Hex和Motorola S-record(srec)文件。
+* [QueryBuilder](https://github.com/itfsw/QueryBuilder)：jQuery QueryBuilder插件的Java版本后台实现。
+* [Code Artisan](https://github.com/superleeyom/code-artisan)：搭建一个通用的RESTful API接口平台，方便用户快速搭建项目。
+* [FNetServer](https://github.com/570622566/FNetServer)：Android小型HTTP服务器框架。
+* [Shapefile](https://github.com/mraad/Shapefile)：一个简单的Java库，用于读取点和多边形shapefile文件。
+* [Contentful Java](https://github.com/contentful/contentful.java)：Contentful内容分发API的Java SDK。
+* [JvmXposed](https://github.com/cinit/JvmXposed)：JvmXposed是一个用于OpenJDK HotSpot JVM的运行时Java方法钩子库，其灵感来源于Xposed框架。
+* [Apache Streams](https://github.com/apache/streams)：Apache Streams将各种各样的数字个人资料和在线活动统一为通用格式和词汇表，并使这些数据集可在各种数据库、设备和平台上访问，以用于流式传输、浏览、搜索、共享和分析等用例。
+* [Proofpoint](https://github.com/proofpoint/platform)：
+* [VSOP87](https://github.com/gmiller123456/vsop87-multilang)：VSOP87在多种编程语言中的应用。
+* [Wikokit](https://github.com/componavt/wikokit)：该程序解析维基词典，构建并填充机器可读的维基词典。
+* [Buddy Hashers](https://github.com/funcool/buddy-hashers)：Buddy Hashers提供了一系列安全密码哈希器，具有轻量级和可扩展的抽象，用于构建强大的密码认证流程。
+* [Buddy Core](https://github.com/funcool/buddy-core)：Buddy Core模块致力于提供Clojure友好的加密API。
+* [DevOps Platform](https://github.com/ken-xue/devops-platform)：DevOps Platform是一款企业级开发、效能、运维平台。
+* [J-ExifTool](https://bitbucket.org/P_W999/j-exiftool)：J-ExifTool是第一个开源的跨平台Java 7库，它允许你从任何图像文件中读取和写入Exif标签。
+* [IM4Java](https://im4java.sourceforge.net/)：IM4Java是一个纯Java编写的ImageMagick命令行接口。
+* [Spring Hexagonal](https://github.com/gshaw-pivotal/spring-hexagonal-example)：在Spring Boot应用中实现六边形设计的模板。
+* [Lint Checks](https://github.com/uber/lint-checks)：Lint Checks提供了一系列基于Android Lint的代码检查，可帮助你避免日常开发中可能遇到的常见陷阱和错误。
+* [CDOJ](https://github.com/UESTC-ACM/CDOJ)：
+* [JavaSnap](https://github.com/hatboysam/JavaSnap)：
+* [VehicleRoutingProblem](https://github.com/afurculita/VehicleRoutingProblem)：
+     * [Java Thread Sanitizer](https://github.com/google/java-thread-sanitizer)：
+* [OkHttp Spring Boot](https://github.com/freefair/okhttp-spring-boot)：
+* [XLS Test](https://github.com/codeborne/xls-test)：
+* [Mobile-ID](https://github.com/codeborne/mobileid)：
+* [SRepair](https://github.com/GhabiX/SRepair)：
+* [GeoClimate](https://github.com/orbisgis/geoclimate)：
+* [Avi SDK](https://github.com/vmware/alb-sdk)：
+* [Kotlin Money](https://github.com/tobiasschuerg/android-money)：
+* [Bankster](https://github.com/randomseed-io/bankster)：
+* [Terminal ReCall](https://github.com/jtrfp/terminal-recall)：
+* [JPDFSigner](https://github.com/zerodha/jpdfsigner)：
+* [Java Scanner Access Twain](https://github.com/Asprise/java-scanner-access-twain)：
+* [RAW2OMETIFF](https://github.com/glencoesoftware/raw2ometiff)：用于将瓦片目录转换为OME-TIFF金字塔的Java应用程序。
+* []()：
+* []()：
+* [DedicatedThreadPool](https://github.com/helios-io/DedicatedThreadPool)：一个实例化的专用线程池，用于消除CLR线程池上的噪声邻居问题。
+* [Microsoft.SqlServer.Types](https://github.com/dotMorten/Microsoft.SqlServer.Types)：Microsoft.SqlServer.Types中空间类型的.NET Standard实现。
+* [Tuya.Net](https://github.com/ClusterM/tuyanet)：.NET Standard 2.0库，用于通过局域网与Tuya WiFi智能设备接口，无需使用云端。
+* [LethalLib](https://github.com/EvaisaDev/LethalLib)：一个用于为《致命公司》添加新内容的库，主要供个人使用。
+* [FormsAuthentication](https://github.com/synercoder/FormsAuthentication)：通过实现自定义ISecureDataFormat，使ASP.NET Core 2的Cookie能够读取旧的ASP.NET表单身份验证Cookie。
+* [ColoredConsole](https://github.com/colored-console/colored-console)：为你的控制台添加一些颜色。
+* [ASP.Net REST API Service Template](https://github.com/drwatson1/AspNet-Core-REST-Service)：该仓库包含一个可直接使用的预配置项目模板。
+* [MalwareScan.AMSI](https://github.com/NewOrbit/MalwareScan.AMSI)：提供了一个围绕AMSI接口的封装，该接口在Windows 10/Server 2016中引入，以允许应用程序扫描内容以检测病毒。
+* [Gepsio](https://github.com/JeffFerguson/gepsio)：Gepsio是一个用于XBRL文档的文档对象模型。
+* [WinForms Theme Pack](https://github.com/Runnin-N-Gunnin/WinForms-Theme-Pack)：包含约26个自定义WinForms主题和控件。
+* [Genesis](https://github.com/jeffcampbellmakesgames/Genesis)：Genesis是一个通用、可通过插件扩展的Unity代码生成框架。
+* [FlutterSharp](https://github.com/Clancey/FlutterSharp)：.NET Dart绑定。
+* [TimingWheel](https://github.com/linys2333/TimingWheel)：C#版分层时间轮算法，参考Kafka TimingWheel实现。
+* [.NET IPFS HTTP Client](https://github.com/jeremy-ellis-tech/net-ipfs-http-client)：IPFS .NET客户端。
+* [PdfiumPrinter](https://github.com/sandrohanea/PdfiumPrinter)：一个用于打印PDF文件的小型库。
+* [Linq2Acad](https://github.com/wtertinek/Linq2Acad)：一个旨在简化AutoCAD .NET插件代码的库。适用于AutoCAD 2015及更高版本。
+* [GraphicsEngine](https://github.com/ckarcz/GraphicsEngine)：一个用C#编写的Windows控制台3D图形引擎。
+* [NQuery](https://github.com/terrajobst/nquery)：NQuery是一个用C#编写的关系查询引擎。
+* [UniFi API](https://github.com/KoenZomers/UniFiApi)：.NET 9中用于从本地Ubiquiti UniFi控制器获取数据的API。
+* [KinectEx](https://github.com/KinectEx/KinectEx)：KinectEx是一套库和实用工具，显著增强了微软版本2的Kinect for Windows传感器和SDK的功能。
+* [DocumentLab](https://github.com/karisigurd4/DocumentLab)：光学字符识别、图像处理和智能数据提取。
+* [Wpf.Extensions.Hosting](https://github.com/nuitsjp/Wpf.Extensions.Hosting)：Wpf.Extensions.Hosting是一个用于在通用主机上运行WPF应用程序的库。
+* [Talk](https://github.com/zhaopeiym/Talk)：公共类库、用于快速开发。
+* [TD Ameritrade](https://github.com/kriasoft/TDAmeritrade)：免费的开源.NET客户端，用于TD Ameritrade交易平台。
+* [GenericParsing](https://github.com/AndrewRissing/GenericParsing)：GenericParser是一个用于分隔符和固定宽度格式文件解析器的.NET实现。
+* [Generators.Blazor](https://github.com/excubo-ag/Generators.Blazor)：该项目使用源生成器提高了Blazor组件的性能，并提供了有用的诊断工具。
+* [EventDriven.ReferenceArchitecture](https://github.com/event-driven-dotnet/EventDriven.ReferenceArchitecture)：用于基于事件的.NET抽象和库，以实现领域驱动设计(DDD)、命令查询职责分离(CQRS)和事件驱动架构(EDA)的参考架构。
+* [Privileged](https://github.com/loresoft/Privileged)：Privileged是一个授权库，用于按操作、主体和限定符限制资源。
+* [TidyManaged](https://github.com/markbeaton/TidyManaged)：该库是一个HTML/XHTML/XML标签解析器和清理器。
+* [Strathweb.TypedRouting.AspNetCore](https://github.com/filipw/Strathweb.TypedRouting.AspNetCore)：一个在ASP.NET Core MVC项目中实现强类型路由的库。
+* [VIENNA Advantage](https://github.com/VIENNA-Advantage-ERP-CRM)：VIENNA Advantage开源ERP CRM。
+* [SpyGlass](https://github.com/Washi1337/SpyGlass)：SpyGlass是一个钩子库，允许在远程进程中进行钩子操作。
+* [Toolbelt.Blazor.HttpClientInterceptor](https://github.com/jsakamoto/Toolbelt.Blazor.HttpClientInterceptor)：在客户端Blazor WebAssembly应用程序中拦截所有发送的HTTP请求的类库。
+* [Bing](https://github.com/jianxuanbing/Bing)：Bing是基于.NET Framework 4.5的框架，旨在提升团队的开发输出能力，由常用公共操作类、分层架构基类、第三方组件封装、第三方业务接口封装等组成。
+* [WeasyPrint .NET](https://github.com/balbarak/WeasyPrint-netcore)：用于Windows的.Net WeasyPrint封装器，用于从HTML生成PDF。
+* [BuildingBlocks](https://github.com/phongnguyend/BuildingBlocks)：Clean Architecture通用构建模块，身份、存储、消息总线、电子邮件、短信、缓存、配置与密钥提供者。
+* [SQLinq](https://github.com/crpietschmann/SQLinq)：SQLinq允许你使用.NET的LINQ功能在运行时生成临时SQL查询。
+* [CodeFirstFunctions](https://github.com/moozzyk/CodeFirstFunctions)：EntityFramework CodeFirst的存储函数。
+* [Clean Architecture Web API](https://github.com/VisionBling/clean-architecture)：该项目是一个在Web API中使用ASP.NET Core实现清洁架构的模板。
+* [Blazor.Cookies](https://github.com/BitzArt/Blazor.Cookies)：BitzArt.Blazor.Cookies是一个NuGet包，用于简化在Blazor应用程序中处理浏览器Cookies。
+* [AspNetCore.Authentication.Basic](https://github.com/mihirdilip/aspnetcore-authentication-basic)：易于使用且非常轻量的微软风格基础方案认证实现，适用于ASP.NET Core。
+* [AlphaVantage.Net](https://github.com/kirlut/AlphaVantage.Net)：用于Alpha Vantage API的最流行的.NET客户端库。
+* [SQLFormat](https://github.com/benlaan/sqlformat)：提供使用C#解析和格式化T-SQL的功能。
+* [Gu.Localization](https://github.com/GuOrg/Gu.Localization)：
+* [Gu.Wpf.Geometry](https://github.com/GuOrg/Gu.Wpf.Geometry)：带有WPF几何图形和着色器的小型库。
+* [Gu.Wpf.UiAutomation](https://github.com/GuOrg/Gu.Wpf.UiAutomation)：Gu.Wpf.UiAutomation是一个.NET库，它有助于WPF应用程序的自动化UI测试。
+* [Gu.Wpf.FlipView](https://github.com/GuOrg/Gu.Wpf.FlipView)：用于WPF的翻转视图，支持触控和鼠标滑动。
+* [Gu.Wpf.ValidationScope](https://github.com/GuOrg/Gu.Wpf.ValidationScope)：提供用于WPF表单校验功能的库。
+* [Gu.Wpf.Media](https://github.com/GuOrg/Gu.Wpf.Media)：System.Windows.Controls.MediaElement的封装器。
+* [Gu.Wpf.PropertyGrid](https://github.com/GuOrg/Gu.Wpf.PropertyGrid)：用于创建属性网格的控件库。
+* [Gu.Units](https://github.com/GuOrg/Gu.Units)：C#的计量单位。
+* [Gu.Reactive](https://github.com/GuOrg/Gu.Reactive)：用于将System.Reactive与INotifyPropertyChanged一起使用的辅助工具。
+* [AudioFingerprinting](https://github.com/nelemans1971/AudioFingerprinting)：
+* [HydroDesktop](https://github.com/CUAHSI/HydroDesktop)：HydroDesktop是一个免费的开源GIS桌面应用程序，帮助你搜索、下载、可视化和分析在CUAHSI水文信息系统中登记的水文和气候数据。
+* [Prism.Plugin.Logging](https://github.com/dansiegel/Prism.Plugin.Logging)：Prism的ILoggerFacade提供了对所有内部Prism错误的日志记录，以及为你的WPF、UWP或Xamarin Forms应用在整个ViewModel和服务中引入日志记录的快速简便方法。
+* [AkinatorEngine](https://github.com/ukushu/AkinatorEngine)：C# Akinator游戏引擎。
+* [WPF UI Violeta](https://github.com/emako/wpfui.violeta)：WPF UI Violeta基于WPF UI，并在你熟悉和喜爱的WPF框架中提供Fluent体验。
+* [TiffLibrary](https://github.com/yigolden-oss/TiffLibrary)：一个用于解码和编码图片的C#库。
+* [SAML HTTP POST](https://github.com/covermymeds/saml-http-post-reference)：C# SAML 2.0身份提供者SAML 2.0身份提供者以及用于使用IdP发起的POST绑定的服务提供者的参考实现。
+* [Aria2 CSharp](https://github.com/isRight/Aria2-CSharp)：C#封装的Ari2c接口。
+* [KernelMemory.StructRAG](https://github.com/kbeaugrand/KernelMemory.StructRAG)：该项目利用创新的 StructRAG 方法来提高在复杂场景中RAG的准确性。
+* [Encryptamajig](https://github.com/jbubriski/Encryptamajig)：一个用于.NET AES加密算法功能的简单封装。
+* [UnityTools](https://github.com/cmdwtf/UnityTools)：一小部分多个项目都会使用的工具集合。
+* [OwnAudioSharp](https://github.com/ModernMube/OwnAudioSharp)：OwnAudioSharp是一个跨平台音频框架，具有用于专业音频应用的高级功能。
+* [DTasks](https://github.com/gianvitodifilippo/DTasks)：DTasks是一个零抽象库，用于在服务边界之间编写长时间运行的工作流。
+* [Stubbery](https://github.com/markvincze/Stubbery)：用于在.NET中创建和运行API存根的简单库。
+* [WPFEffects](https://github.com/DuelCodes/WPFEffects)：简版WPF UI框架。
+* [WPF PropertyGrid](https://github.com/jaime-olivares/wpf-propertygrid)：将Workflow Foundation的属性网格重新打包，以便在WPF应用程序中通用使用。
+* [HTML Thermal Printer](https://github.com/BeratARPA/HTML-Thermal-Printer)：一个WPF应用程序，允许将HTML内容直接打印到Windows打印机，支持自定义格式标签和预览功能。
+* [Synapse](https://github.com/codebutler/synapse)：一个XMPP客户端。
+* [OpenMEP](https://github.com/chuongmep/OpenMEP)：OpenMEP套件包括一个全面的MEP组件库，使你可以轻松选择并将合适的组件纳入你的设计中。
+* [MonoMod.Common](https://github.com/MonoMod/MonoMod.Common)：MonoMod及其他.NET模组库常用的代码。
+* [CUDAfy.NET](https://github.com/lepoco/CUDAfy.NET)：CUDAfy .NET允许完全从.NET轻松开发高性能GPGPU应用程序。
+* [UblTr](https://github.com/hkutluay/UblTr)：C#代理类，用于创建和序列化符合UBL-TR v1.2.1标准的.NET对象为XML，或将UBL-TR文档反序列化为.NET对象。
+* [Reducto](https://github.com/pshomov/reducto)：Reducto是一个应用程序状态管理器。
+* [Blazor.IndexedDB.Framework](https://github.com/Reshiru/Blazor.IndexedDB.Framework)：一种与IndexedDB交互的简便方法，让它感觉像EFCore但异步。
+* [LiveKit .NET SDKs](https://github.com/pabloFuente/livekit-server-sdk-dotnet)：.NET SDK用于管理LiveKit API并向你的.NET应用添加实时视频、音频和数据功能。
+* [Architect.DomainModeling](https://github.com/TheArchitectDev/Architect.DomainModeling)：用于实现领域模型的完整DDD工具集，包括基础类型和源生成器。
+* [TwitchLib.Api](https://github.com/TwitchLib/TwitchLib.Api)：TwitchLib的API组件。
+* [CachedImage](https://github.com/floydpink/CachedImage)：一个封装了Image控件的WPF控件，用于启用基于文件系统的缓存。
+* [MosaiqueRAT](https://github.com/thdal/MosaiqueRAT)：Mosaique远程管理工具。
+* [AliaSQL](https://github.com/ClearMeasure/AliaSQL)：AliaSQL是一个用于数据库部署的命令行工具。
+* [NGinnBPM](https://github.com/lafar6502/NGinnBPM)：NGinn.BPM是一个用于Microsoft.Net的工作流引擎。
+* [AmiBroker .NET SDK](https://github.com/kriasoft/amibroker)：面向.NET开发者的非官方AmiBroker插件SDK。
+* [KGySoft.CoreLibraries](https://github.com/koszeggy/KGySoft.CoreLibraries)：KGy SOFT CoreLibraries提供高性能且方便的通用库。
+* [NQuery vNext](https://github.com/terrajobst/nquery-vnext)：一个受Roslyn启发的NQuery重写。
+* [ChordImageGenerator](https://github.com/einaregilsson/ChordImageGenerator)：一个用于生成吉他和弦图片的.NET库。
+* [DotVue](https://github.com/mbdavid/DotVue)：实现带有服务器端ViewModel的.vue单文件组件。
+* [Cupertino TreeView](https://github.com/JamesnetGroup/cupertino-treeview)：一个在WPF中实现的高级自定义TreeView控件，为复杂的层次数据结构提供现代且灵活的解决方案。
+* [DynamicsCrm.DevKit](https://github.com/phuocle/Dynamics-Crm-DevKit)：一个面向Microsoft Dynamics 365/Power Platform/Dataverse的综合开发工具包。
+* [V2Ray .NET Standard SDK](https://github.com/techotaku/v2ray-dotnet-sdk)：V2Ray Grpc API .Net Standard客户端实现。
+* [MetroBus](https://github.com/GokGokalp/MetroBus)：MassTransit的轻量级消息包装器。
+* [SharpTox](https://github.com/alexbakker/SharpTox)：Tox核心、AV和DNS功能的封装库。
+* [RapidOCRCSharp](https://github.com/RapidAI/RapidOCRCSharp)：RapidOCR是一款完全开源免费、支持离线快速部署的多平台多语言OCR工具。
+* [EsPy](https://github.com/jungervin/EsPy)：ESP8266的Micropython集成开发环境。
+* [Onvif Discovery](https://github.com/vicmaeg/onvif-discovery)：OnvifDiscovery是一个简单的跨平台.NET库，用于发现符合ONVIF标准的设备。
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* [Multiplatform Locale](https://github.com/vanniktech/multiplatform-locale)：
+* [MacroUtils](https://github.com/frkasper/MacroUtils)：
+* [Kotlin Metadata Printer](https://github.com/Guardsquare/kotlin-metadata-printer)：
+* [Alicloud HTTPDNS Android SDK](https://github.com/aliyun/alibabacloud-httpdns-android-sdk)：
+* [Java EtherScan API](https://github.com/GoodforGod/java-etherscan-api)：
+* [SymSpellKt](https://github.com/Wavesonics/SymSpellKt)：
+* [Artemis](https://github.com/test-jitcomp/Artemis)：
+* [MyBatis SQLHelper](https://github.com/heykb/mybatis-sqlhelper)：
+* [Xtract](https://github.com/lucidsoftware/xtract)：
+* [Thanos Common](https://github.com/TianXuan-Chain/thanos-common)：天玄区块链中的一些通用功能抽离出来实现的一个通用模块。
+  已有* [Klokwrk](https://github.com/croz-ltd/klokwrk-project)：CROZ将 Klokwrk项目设想为一个展示平台和蓝图，用于在JVM上实现复杂的分布式系统。
+* [RoboPods](https://github.com/robovm/robovm-robopods)：
+* [Play2 SockJS](https://github.com/fdimuccio/play2-sockjs)：
+* [JavaML](https://github.com/AbeelLab/javaml)：
+* [Embroidery](https://github.com/wi101/embroidery)：
+* [jSCSI](https://github.com/sebastiangraf/jSCSI)：
+* [KLLVM](https://github.com/ftomassetti/kllvm)：
+* [Spring Mirai Server](https://github.com/ProtobufBot/Spring-Mirai-Server)：
+* [HrmsProject](https://github.com/Zeynebb/HrmsProject)：
+* [Java TCP/UDP Tunnel](https://github.com/mukatee/java-tcp-tunnel)：
+* [OkCache](https://github.com/spring2go/okcache)：
+* [Spring Boot Netty](https://github.com/kgusarov/spring-boot-netty)：
+* [Java BinUtils](https://github.com/jawi/java-binutils)：
+* [QueryBuilder](https://github.com/itfsw/QueryBuilder)：jQuery QueryBuilder插件的Java版本后台实现。
+* [Amazon Kinesis Log4J Appender](https://github.com/amazon-archives/kinesis-log4j-appender)：
+* [Kotlin Multiplatform](https://github.com/shakurocom/kotlin_multiplatform)：
+* [Code Artisan](https://github.com/superleeyom/code-artisan)：搭建一个通用的RESTful API接口平台，方便用户快速搭建项目。
+* [FNetServer](https://github.com/570622566/FNetServer)：Android小型HTTP服务器框架。
+* [Shapefile](https://github.com/mraad/Shapefile)：
+* [CryptoAnalysis](https://github.com/CROSSINGTUD/CryptoAnalysis)：
+* [Contentful Java](https://github.com/contentful/contentful.java)：
+* [JvmXposed](https://github.com/cinit/JvmXposed)：
+* [Stock Finex](https://github.com/Tradingcodecom/Stock-Finex)：
+* [Apache Streams](https://github.com/apache/streams)：
+* [Proofpoint](https://github.com/proofpoint/platform)：
+* [VSOP87](https://github.com/gmiller123456/vsop87-multilang)：
+* [GeoRocket](https://github.com/georocket/georocket)：
+* [ZCode Commons](https://github.com/zcode-zjw/zcode-commons)：快速简易开发的最佳后端服务组件库。
+* [Wikokit](https://github.com/componavt/wikokit)：
+* [Buddy Hashers](https://github.com/funcool/buddy-hashers)：
+* [Catacumba](https://github.com/funcool/catacumba)：
+* [Buddy Core](https://github.com/funcool/buddy-core)：
+* [DevOps Platform](https://github.com/ken-xue/devops-platform)：DevOps Platform是一款企业级开发、效能、运维平台。
+* [J-ExifTool](https://bitbucket.org/P_W999/j-exiftool)：
+* [IM4Java](https://im4java.sourceforge.net/)：
+* [Spring Hexagonal](https://github.com/gshaw-pivotal/spring-hexagonal-example)：
+* [SmartCache](https://github.com/fikisipi/SmartCache)：
+* [Lint Checks](https://github.com/uber/lint-checks)：
+* [MHttp](https://github.com/jymot/MHttp)：
+* [ExcelUtils](https://github.com/xyz0101/excelutils)：
+* [Shadowsocks Java](https://github.com/victor8886/shadowsockr-java)：
+* [CDOJ](https://github.com/UESTC-ACM/CDOJ)：
+* [JavaSnap](https://github.com/hatboysam/JavaSnap)：
+* [VehicleRoutingProblem](https://github.com/afurculita/VehicleRoutingProblem)：
+* [Kotlin Rust](https://github.com/GabrielMajeri/kotlin-rust)：
+* [Java Thread Sanitizer](https://github.com/google/java-thread-sanitizer)：
+* [OkHttp Spring Boot](https://github.com/freefair/okhttp-spring-boot)：
+* [XLS Test](https://github.com/codeborne/xls-test)：
+* [Mobile-ID](https://github.com/codeborne/mobileid)：
+* [SRepair](https://github.com/GhabiX/SRepair)：
+* [GeoClimate](https://github.com/orbisgis/geoclimate)：
+* [Avi SDK](https://github.com/vmware/alb-sdk)：
+* [Kotlin Money](https://github.com/tobiasschuerg/android-money)：
+* [Bankster](https://github.com/randomseed-io/bankster)：
+* [Terminal ReCall](https://github.com/jtrfp/terminal-recall)：
+* [JPDFSigner](https://github.com/zerodha/jpdfsigner)：
+* []()：
+* []()：
+* [TestLink Java API](https://github.com/kinow/testlink-java-api)：
+* [Clojang](https://github.com/clojang/clojang)：
+* [Kotlin IPv8](https://github.com/Tribler/kotlin-ipv8)：
+* [DependenSee](https://github.com/awaisathar/dependensee)：
+* [JWalkable](https://github.com/implicit-invocation/jwalkable)：
+* [LeanCloud Java/Android Unified SDK](https://github.com/leancloud/java-unified-sdk)：
+* [Log4j AWS Appenders](https://github.com/kdgregory/log4j-aws-appenders)：
+* [Delimited](https://github.com/tixxit/delimited)：
+* [Oscar](https://github.com/Comcast/Oscar)：
+* [HLSParserJ](https://github.com/Comcast/hlsparserj)：
+* [Zucchini](https://github.com/Comcast/zucchini)：
+* [Cover Art Archive API](https://github.com/lastfm/coverartarchive-api)：
+* [NoReDraw](https://github.com/uladzimirFilipchanka/noredraw)：
+* [SpatialFlink](https://github.com/aistairc/SpatialFlink)：
+* [Curiostack](https://github.com/curioswitch/curiostack)：
+* [Module Saga](https://github.com/nomisRev/Saga)：
+* [Elasticsearch Cluster Runner](https://github.com/codelibs/elasticsearch-cluster-runner)：
+* [JVerein](https://github.com/jverein/jverein)：
+* [Code Generator](https://github.com/GitHub-Laziji/code-generator)：
+* [JFilter](https://github.com/rkonovalov/jfilter)：
+* [SpringREST2TS](https://github.com/blue-veery-gmbh/spring-rest-2-ts)：
+* [YQHP](https://github.com/opendx/server)：
+* [Time Tracker](https://github.com/useraddZYB/time-tracker)：
+* [Emporia Energy API Client](https://github.com/helgew/emporia-downloader)：
+* [Ratatool](https://github.com/spotify/ratatool)：
+* [Spotify Auth Library](https://github.com/spotify/android-auth)：
+* [Spydra](https://github.com/spotify/spydra)：
+* [Semantic Metrics](https://github.com/spotify/semantic-metrics)：
+* [Vispana](https://github.com/spotify/vispana)：
+* [Diffuser](https://github.com/spotify/diffuser)：
+* [Hype](https://github.com/spotify/hype)：
+* [Spawn](https://github.com/spotify/spawn)：
+* [Spring Cloud Plus](https://github.com/geekidea/spring-cloud-plus)：
+* [Alfresco PDF Toolkit](https://github.com/OrderOfTheBee/alfresco-pdf-toolkit)：
+* [JavaCompileEngine](https://github.com/xiaoyvyv/JavaCompileEngine)：在Android上面编译和运行Java代码的引擎。
+* [Scalqa](https://github.com/scalqa/scalqa)：
+* [Ethereum Harmony](https://github.com/ether-camp/ethereum-harmony)：
+* [ConvertExt](https://github.com/swallowsonny/ConvertExt)：
+* [Webex Java SDK](https://github.com/webex/webex-java-sdk)：
+* [Qatja Android](https://github.com/Qatja/qatja-android)：
+* [Cafebabe](https://github.com/psuter/cafebabe)：
+* [Commons GDX](https://github.com/gemserk/commons-gdx)：
+* [OFDBox](https://github.com/QAQtutu/ofdbox)：
+* [HACKLYMPICS](https://github.com/aesophor/hacklympics)：
+* [](https://github.com/h819/spring-boot)：
+* [Resty](https://github.com/takezoe/resty)：
+* [API Debugger](https://github.com/longforus/api-debugger)：
+* [Musicg](https://github.com/loisaidasam/musicg)：
+* [SQLiteQueryBuilder](https://github.com/alexfu/SQLiteQueryBuilder)：
+* [Jedisque](https://github.com/xetorthio/jedisque)：
+* [Thunder](https://github.com/100cm/thunder)：Thunder是一个微型MVC框架。
+* [jEN](https://github.com/echonest/jEN)：
+* [JFugue](http://www.jfugue.org/)：
+* [OBJExport](https://github.com/nervoussystem/OBJExport)：
+* [PowerAuth Crypto](https://github.com/wultra/powerauth-crypto)：
+* [Ceres](https://github.com/teogor/ceres)：
+* [Android Commons](https://github.com/delight-im/Android-Commons)：
+* [Zenvisage](https://github.com/zenvisage/zenvisage)：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* []()：
+* [Thrifty](https://github.com/endink/Thrifty)：Thrifty.Net是Swift的移植版，这是一个基于属性的库，用于创建可序列化的Thrift类型和服务。
+* [RoaringBitmap](https://github.com/Tornhoof/RoaringBitmap)：.NET的RoaringBitmap实现。
+* [GazeFlowAPI](https://github.com/szydej/GazeFlowAPI)：基于网络摄像头的眼动追踪API。
+* [Storage](https://github.com/teoadal/Storage)：一个用于S3存储的HttpClient封装。
+* [Groq API C# Client Library](https://github.com/jgravelle/GroqApiLibrary)：Groq API C#客户端库。
+* [MotorTributarioNet](https://github.com/AutomacaoNet/MotorTributarioNet)：
+* [BorderlessForm](https://github.com/mganss/BorderlessForm)：Windows Forms中的无边框窗口，带有自定义窗口装饰控件。
+* [BigDecimal](https://github.com/AdamWhiteHat/BigDecimal)：BigDecimal是一种任意精确的浮点数类型。
+* [Rx.Http](https://github.com/lucassklp/Rx.Http)：这是一个基于.NET HTTP客户端构建的轻量级库，帮助程序员进行异步HTTP请求。
+* [MR.AspNetCore.Pagination](https://github.com/mrahhal/MR.AspNetCore.Pagination)：ASP.NET Core的分页组件。
+* [CsvHelper.Excel](https://github.com/youngcm2/CsvHelper.Excel)：CsvHelper Excel是一个扩展，集成了两个优秀的库CsvHelper和ClosedXml，它提供了CsvHelper的实现，通过ClosedXML读写Excel。
+* [Live Documenter](https://github.com/barry-jones/live-documenter)：Live Documenter是一套应用程序和库，能够实时查看并自动生成.NET代码和XML注释文件的文档。
+* [BetterHttpClient](https://github.com/Yozer/BetterHttpClient)：BetterHttpClient帮助你发送HTTP和HTTPS请求，并支持完整的Cookie。
+* [CalculatedProperties](https://github.com/StephenCleary/CalculatedProperties)：MVVM应用中易用的计算属性。
+* []()：
+* [UniversalScanner](https://github.com/julienblitte/UniversalScanner)：Universal Network Scanner是一款基于多播和广播发现的多品牌超高速网络发现工具。
+* [PoliteCaptcha](https://github.com/NuGet/PoliteCaptcha)：PoliteCaptcha是一个用于ASP.NET MVC 3 Forms的防垃圾邮件库。
+* [.NET Ogg Vorbis Encoder](https://github.com/SteveLillis/.NET-Ogg-Vorbis-Encoder)：一个完全用托管代码编写的.NET Ogg Vorbis音频编码库。
+* [FlaUI.WebDriver](https://github.com/FlaUI/FlaUI.WebDriver)：FlaUI.WebDriver是一个使用FlaUI自动化的W3C WebDriver2实现。
+* [SimpleOfficeReader](https://github.com/mayswind/SimpleOfficeReader)：一个简单的Office文件读取工具。
+* [GebImage](https://github.com/xiaotie/GebImage)：Geb.Image是一款为图像分析目的而构建的易用、高性能的C#图像库。
+* [NStrip](https://github.com/bbepis/NStrip)：.NET程序集剥离器、公开化工具及通用实用工具。
+* [Vinchuca](https://github.com/lontivero/vinchuca)：Vinchuca是一个由.NET开发的面向教育用途的强健点对点僵尸网络代理。
+* [Curve25519](https://github.com/hanswolff/curve25519)：Curve25519是一种椭圆曲线，用于快速的Diffie-Hellman密钥协商。
+* [CoAPnet](https://github.com/chkr1011/CoAPnet)：CoAPnet是一个高性能的.NET库，用于基于CoAPnet的通信。
+* [Todoist.Net](https://github.com/olsh/todoist-net)：一个用于.NET的Todoist API客户端。
+* [Pioneer .NET Core Console Boilerplate](https://github.com/PioneerCode/pioneer-console-boilerplate)：模板化的.NET Core控制台应用程序，包括依赖注入、日志记录和配置。
+* [FormatWith](https://github.com/crozone/FormatWith)：一组字符串扩展方法，用于执行{named} {{parameterized}}字符串格式化。
+* [MicroService4Net](https://github.com/TheCodeCleaner/MicroService4Net)：使用C#轻松创建微服务。
+* [SphereOS](https://github.com/LumaTechnologies/SphereOS)：SphereOS是一个用C#编写的操作系统，由Cosmos提供支持。
+* [Mes](https://github.com/fengxing1121/Mes)：板式家具Mes生产管理系统。
+* [LayIM.AspNetCore](https://github.com/fanpan26/LayIM.AspNetCore)：一个基于AspNetCore的中间件，对LayIM的功能实现做了深度封装。
+* [Aho–Corasick](https://github.com/pdonald/aho-corasick)：C#中的Aho–Corasick字符串匹配算法。
+* [Dependify](https://github.com/NikiforovAll/dependify)：Dependify是一个用于可视化.NET应用程序中依赖关系的工具。
+* [SRP.NET](https://github.com/secure-remote-password/srp.net)：用于.NET Standard 1.6和.NET Framework 3.5的现代SRP-6a实现。
+* [ChainingAssertion](https://github.com/neuecc/ChainingAssertion)：用于MSTest、NUnit、xUnit.net的方法链基础单元测试扩展方法和动态私有访问器。
+* [Voxel Engine](https://github.com/sjoerdev/voxel-engine)：这是一个3D图形引擎，专注于在不牺牲动态几何的情况下尽可能快速地渲染体素。
+* [SimpleBBS](https://github.com/MQPearth/SimpleBBS)：Spring Boot构建的简易在线论坛。
+* [Vault](https://github.com/contentful/vault)：
+* [SDL2GDX](https://github.com/electronstudio/sdl2gdx)：
+* [Kollections](https://github.com/Xantier/Kollections)：
+* [Google Bard](https://github.com/LarryDpk/Google-Bard)：
+* [QSD Lib](https://github.com/sdedit/sdedit)：
+* [Bluetooth GATT Parser](https://github.com/sputnikdev/bluetooth-gatt-parser)：
+* [Kradle](https://github.com/mrkuz/kradle)：
+* [E-commerce Microservices](https://github.com/ibatulanandjp/ecommerce-microservices)：
+* [Katlib](https://github.com/LukasForst/katlib)：
+* [Terraform Spring Boot](https://github.com/microsoft/terraform-spring-boot)：
+* [ModularEventBus](https://github.com/pengxurui/ModularEventBus)：ModularEventBus是一款帮助Android App解决事件总线滥用问题的框架。
+* [KSVG](https://github.com/nwillc/ksvg)：
+* [Spring Security JWT Vue Template](https://github.com/ywbjja/springSecurity-jwt-vue-temple)：Spring Security JWT Vue Template是一个基于Spring Boot、Vue的后台管理系统模板。
+* [Sky Cloud](https://github.com/xk11961677/skycloud-base)：Spring Cloud脚手架，适合学习与快速开发使用。
+* [NewCoder](https://github.com/Ming-XMU/nowcoder-community)：基于Spring Boot的社区平台，实现了牛客网讨论区的功能。
+* [JavaStrava3API](https://github.com/danshannon/javastravav3api)：
+* [Spring Boot Redis Caffeine Cache](https://github.com/yudiandemingzi/springboot-redis-caffeine-cache)：Caffeine、Redis实现的二级缓存框架。
+* [CloudTerm](https://github.com/javaterminal/cloudterm)：
+* [Jdotxt](https://github.com/chms/jdotxt)：
+* [Hub](https://github.com/SilenceDut/Hub)：
+* [DB Meta](https://github.com/wukenaihe/db-meta)：
+* [Libby](https://github.com/Byteflux/libby)：
+* [jLDADMM](https://github.com/datquocnguyen/jLDADMM)：
+* [Cava](https://github.com/ConsenSysMesh/cava)：
+* [GemFrame](https://github.com/gem-team/gem)：GemFrame是一款基于Java开发的开源的微服务架构，其具有功能强大、稳定高效、代码规范等特性。
+* [JFoolNLTK](https://github.com/rockyzhengwu/JFoolNLTK)：
+* [Kotlin JVM Reflect Tools](https://github.com/wuseal/Kotlin-Reflect-Tools-For-JVM)：
+* [MaskFormatter](https://github.com/rtoshiro/MaskFormatter)：
+* [AzaKotlinCSS](https://github.com/olegcherr/Aza-Kotlin-CSS)：
+* [RedisFlag](https://gitee.com/kangroo/RedisFlag)：RedisFlag使用info命令实时生成监控图。
+* [Amon](https://gitee.com/lyhome_admin/amon)：Amon方法级限流解决方案。
+* [JMoney](https://gitee.com/jflyfox/jmoney)：小型财务管理软件，通过JFinal、Beelt实现，支持收入支出录入和报表展示
+* [JST](https://gitee.com/nutz/jst)：基于JDK 8 Nashorn引擎的模板引擎。
+* [Iartisan Admin Tempalte](https://gitee.com/iartisan/iartisan-admin-template)：Iartisan Admin Tempalte是一个Java快速开发平台，可以快速构建后台项目。
+* [Android REST Client](https://github.com/darko1002001/android-rest-client)：
+* [Android Promise](https://github.com/hnakagawa/android-promise)：
+* [Godot Java](https://github.com/youngledo/godot-java)：
+* [Iolite](https://github.com/ysknsid25/iolite)：
+* [Did Common Java](https://github.com/decentralized-identity/did-common-java)：
+* [SimpleDAO Starter](https://github.com/gzz2017gzz/simple-dao-starter)：
+* [MIMA](https://github.com/maveniverse/mima)：
+* [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
+* [Eclipse Dash License Tool](https://github.com/eclipse-dash/dash-licenses)：
+* [Luau](https://github.com/hollow-cube/luau-java)：
+* [Slicer4J](https://github.com/resess/Slicer4J)：
+* [CDASim](https://github.com/usdot-fhwa-stol/cdasim)：
+* [Code FREAK](https://github.com/codefreak/codefreak)：
+* [Neovim Java](https://github.com/esensar/neovim-java)：
+* [Picocli Spring boot Starter](https://github.com/kakawait/picocli-spring-boot-starter)：
+* [Ukey2](https://github.com/google/ukey2)：
+* [](https://github.com/bsorrentino/java2typescript)：
+  已有* [Java2Typescript](https://github.com/raphaeljolivet/java2typescript)：Java2Typescript提供了一个Java REST服务定义和Typescript客户端之间的桥梁。
+* [Java2Typescript](https://github.com/bsorrentino/java2typescript)：
+* [Pulsar](https://github.com/MeteorDevelopment/pulsar)：
+* [CoralCpp](https://github.com/coralblocks/CoralCpp)：
+* [OneBot Client](https://github.com/cnlimiter/onebot-client)：基于Java开发的OneBot协议客户端。
+* [Princeton Java Algorithms](https://github.com/fracpete/princeton-java-algorithms)：
+* [Airtable.java](https://github.com/Sybit-Education/airtable.java)：
+* [TPCH](https://github.com/trinodb/tpch)：
+* [Chronicle Decentred](https://github.com/OpenHFT/Chronicle-Decentred)：
+* [Chronicle Engine](https://github.com/OpenHFT/Chronicle-Engine)：
+* [Chronicle Websocket Jetty](https://github.com/OpenHFT/Chronicle-Websocket-Jetty)：
+* [FastDFS Client](https://github.com/coding4m/fastdfs-client)：
+* [Kick4J](https://github.com/tyyzf/Kick4J)：
+* [Rocket Chat REST Client](https://github.com/baloise/rocket-chat-rest-client)：
+* [GeoGrid](https://github.com/mocnik-science/geogrid)：
+* [Trinity](https://github.com/firstfault/Trinity)：
+* [WebThing Java](https://github.com/WebThingsIO/webthing-java)：
+* [Language Time](https://github.com/adetuyiTolu/Language_Time)：
+* [Gradle Initializer](https://github.com/bmuschko/gradle-initializr)：
