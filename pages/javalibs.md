@@ -14442,6 +14442,7 @@ Kafka生态管理系统、运维平台。
 * [Code Artisan](https://github.com/superleeyom/code-artisan)：搭建一个通用的RESTful API接口平台，方便用户快速搭建项目。
 * [Kradle](https://github.com/mrkuz/kradle)：Kradle是一个Gradle插件，可以快速设置你的Kotlin/JVM(或Java)项目。
 * [InfoQ Scaffold AI](https://github.com/LuckyKuang/infoq-scaffold-ai)：Spring Boot 3.x、Vue 3.x、React 19.x脚手架。
+* [SlothBoot](https://github.com/GuoHuaijian/SlothBoot)：面向个人开源与中小团队的Spring Boot 3多模块基础脚手架。
 
 #### 快速开发框架
 
@@ -14542,7 +14543,6 @@ Kafka生态管理系统、运维平台。
 * [AJ-Framework](https://gitee.com/lightweight-components/ajaxjs)：AJ-Framework是一个基于Spring Boot的轻量级框架，旨在增强Spring Boot特性。
 * [GemFrame](https://github.com/gem-team/gem)：GemFrame是一款基于Java开发的开源的微服务架构，其具有功能强大、稳定高效、代码规范等特性。
 * [Flea Framework](https://github.com/huazie/flea-framework)：Flea Framework是一款小巧易用的Java应用基础开发框架。
-* [SlothBoot](https://github.com/GuoHuaijian/SlothBoot)：面向个人开源与中小团队的Spring Boot 3多模块基础脚手架。
 
 #### 后台管理系统
 
