@@ -3659,6 +3659,7 @@
 * [NeuralNetwork](https://github.com/amten/NeuralNetwork)：用Java实现的神经网络，带有Weka插件。
 * [JCudnn](https://github.com/jcuda/jcudnn)：cuDNN的Java绑定。
 * [FastDNN](https://github.com/ahmetaa/fast-dnn)：FastDNN是一个专为语音识别系统中使用的深度神经网络(DNN)而设计的快速深度神经网络库。
+* [JNN](https://github.com/wlin12/JNN)：Java神经网络工具包。
 
 #### 深度学习
 
