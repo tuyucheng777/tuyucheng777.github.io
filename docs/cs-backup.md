@@ -1027,6 +1027,7 @@
 * [Rx.Http](https://github.com/lucassklp/Rx.Http)：这是一个基于.NET HTTP客户端构建的轻量级库，帮助程序员进行异步HTTP请求。
 * [BetterHttpClient](https://github.com/Yozer/BetterHttpClient)：BetterHttpClient帮助你发送HTTP和HTTPS请求，并支持完整的Cookie。
 * [CurlThin](https://github.com/stil/CurlThin)：CurlThin是一个与.NET Standard兼容的libcurl绑定库。
+* [Aardwolf](https://github.com/JamesDunne/aardwolf)：Aardwolf是一个针对C#的异步HTTP API服务提供者。
 
 ## Socket
 
@@ -1927,6 +1928,7 @@
 * [POS](https://github.com/ecnalyr/POS)：销售点系统。
 * [SambaPOS](https://github.com/emreeren/SambaPOS-3)：触摸屏餐厅POS机。
 * [GarantiVp](https://github.com/c1982/GarantiVp)：Garanti银行虚拟POS客户端。
+* [POS System](https://github.com/DeelakaLakpura/POINT-OF-SALES-SYSTEM)：POS系统，一款用C# .NET开发的功能丰富的桌面应用程序。
 
 ## 数学库
 
@@ -2413,12 +2415,14 @@
 * [EntityFrameworkCore.SqlServerCompact](https://github.com/ErikEJ/EntityFramework.SqlServerCompact)：本项目是适用于SQL Server Compact 4.0和3.5 SP2的Entity Framework Core SQL Server Compact提供程序。
 * [EfCore.GenericEventRunner](https://github.com/JonPSmith/EfCore.GenericEventRunner)：这个库允许EF Core的用户向他们的实体类添加事件。
 * [Pomelo.EntityFrameworkCore.MyCat](https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MyCat)：Pomelo.EntityFrameworkCore.MyCat是一个Entity Framework Core提供程序，并针对MyCat进行了优化。
+* [EfCore.InMemoryHelpers](https://github.com/FelixBoers/EfCore.InMemoryHelpers)：提供了一个围绕EF Core内存数据库提供程序的封装。
 
 ## Dapper扩展
 
 * [LnskyDB](https://github.com/liningit/Dapper.LnskyDB)：LnskyDB是基于Dapper的Lambda扩展。
 * [Dapper.SimpleCRUD](https://github.com/ericdc1/Dapper.SimpleCRUD)：SimpleCRUD为Dapper提供简单的CRUD辅助工具。
 * [Dommel](https://github.com/henkmollema/Dommel)：Dommel通过在接口上使用扩展方法提供了用于CRUD操作的便捷API。
+* [DapperWrapper](https://github.com/half-ogre/dapper-wrapper)：DapperWrapper是一个库，它封装了IDbConnection上的Dapper扩展方法，以使单元测试更容易。
 
 ## Repository
 
@@ -3800,6 +3804,7 @@
 * [MWinNet](https://github.com/mroccyen/MWinNet)：MWinNet是基于.NET WinForm平台的插件式开发框架。
 * [BorderlessForm](https://github.com/mganss/BorderlessForm)：Windows Forms中的无边框窗口，带有自定义窗口装饰控件。
 * [TurtleGraphics.NET](https://github.com/nakov/TurtleGraphics.NET)：C# Turtle图形库。
+* [AutoScaleHelper](https://github.com/hlz2516/AutoScaleHelper)：一个适用于Winform的窗体/控件布局缩放自适应辅助类，其前身是Winform.AutoSizeHelper。
 
 ## WinForms主题库
 
@@ -5481,6 +5486,7 @@
 * [GazeFlowAPI](https://github.com/szydej/GazeFlowAPI)：基于网络摄像头的眼动追踪API。
 * [Xbox One SmartGlass .NET](https://github.com/OpenXbox/xbox-smartglass-csharp)：.NET Standard客户端库，用于Xbox One SmartGlass协议。
 * [Canon.Eos.Framework](https://github.com/esskar/Canon.Eos.Framework)：Canon.Eos.Framework旨在提供一种更好、更方便的方式，将Canon EOS SDK集成到.NET应用程序中。
+* [SimWinInput](https://github.com/DavidRieman/SimWinInput)：在Windows上模拟鼠标、键盘和游戏手柄事件。
 
 ## 打印机
 
@@ -5687,6 +5693,8 @@
 * [pHash](https://github.com/pgrho/phash)：pHash的C#实现。
 * [TiffLibrary](https://github.com/yigolden-oss/TiffLibrary)：一个用于解码和编码图片的C#库。
 * [GebImage](https://github.com/xiaotie/GebImage)：Geb.Image是一款为图像分析目的而构建的易用、高性能的C#图像库。
+* [ImageResize](https://github.com/LazZiya/ImageResize)：.NET应用程序的图像调整大小工具，支持添加文字/图片水印。
+* [Libheif Sharp](https://github.com/0xC0000054/libheif-sharp)：Libheif Sharp为libheif提供了.NET绑定。
 
 ## PNG
 
@@ -6345,6 +6353,7 @@
 * [ANTLR 3 C#](https://github.com/antlr/antlrcs)：ANTLR 3、StringTemplate 3和StringTemplate 4的C#移植版。
 * [Piglet](https://github.com/Dervall/Piglet)：Piglet是一个用于文本词法分析和语法分析的库。
 * [IronMeta](https://github.com/chalcolith/ironmeta)：IronMeta解析器生成器提供了一种编程语言和应用程序，用于在任意对象流上生成模式匹配器。
+* [Grammatica](https://github.com/cederberg/grammatica)：Grammatica是一款Java解析器生成器。
 
 ## 解析器组合器
 
@@ -6866,6 +6875,7 @@
 * [BinaryObjectScanner](https://github.com/SabreTools/BinaryObjectScanner)：C#保护、打包器和归档扫描库。
 * [SceneGate](https://github.com/SceneGate/SceneGate)：用于逆向工程、文件格式分析、修改和本地化的开发中工具。
 * [MetadataLocator](https://github.com/wwh1004/MetadataLocator)：通过CLR查找.NET元数据的地址以防止反转储。
+* [Ressy](https://github.com/Tyrrrz/Ressy)：Ressy是一个用于管理存储在可移植可执行文件(即EXE和DLL文件)中的本机资源的库。
 
 ## 反向移植
 
@@ -7200,6 +7210,7 @@
 * [BlazorGrid](https://github.com/AnkitSharma-007/BlazorGrid)：一个用于Blazor的可重用网格组件，支持客户端分页。
 * [Blazor.Console](https://github.com/ardacetinkaya/Blazor.Console)：一个简单的基于Web的命令行界面(CLI)组件，用于ASP.NET Core Blazor应用程序。
 * [BlazorRouter](https://github.com/hez2010/BlazorRouter)：一个出色的用于Blazor的路由器，受React Router启发，为Blazor提供声明式路由。
+* [NObservable](https://github.com/kekekeks/NObservable)：类似MobX的可观察状态管理库，支持Blazor。
 
 ## 限流
 
@@ -7434,6 +7445,8 @@
 * [FluentSerializer](https://github.com/Marvin-Brouwer/FluentSerializer)：FluentSerializer是一个库，用于帮助你使用配置文件在C# POCO对象之间进行序列化和反序列化。
 * [ByteStream](https://github.com/DennisCorvers/ByteStream)：一款速度极快的C#字节序列化器。
 * [InvertedTomato.Packing](https://github.com/invertedtomato/packing)：InvertedTomato.Packing以最快的方式将数据编码为最小的形式。
+* [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct_csharp_runtime)：Kaitai Struct是一种用于描述各种二进制数据结构的声明式语言。
+* [NetCode](https://github.com/Levchenkov/NetCode)：适用于.NET Standard 2.0、.NET Standard 2.1、.NET 6和.NET 8(Mono、.NET Core、.NET Framework、Unity)的轻量快速位和字节序列化。
 
 ## JSON
 
@@ -8279,6 +8292,7 @@
 * [Dexer](https://github.com/sailro/Dexer)：Dexer是一个用C#编写的开源框架，用于读取和写入Android开源项目使用的.DEX文件。
 * [FlatMapper](https://github.com/joaomatossilva/FlatMapper)：FlatMapper是一个库，用于以与Linq兼容的方式从纯文本文件导入和导出数据。
 * [MixERP.Net.VCards](https://github.com/mixerp/MixERP.Net.VCards)：VCards是一个符合标准、轻量且容错的vCard解析器，使用C#编写，支持解析和序列化vCard。
+* [DjvuNet](https://github.com/DjvuNet/DjvuNet)：DjvuNet是一个开源库，旨在处理和创建使用DjVu格式编码的文档。
 
 ## 文件匹配
 
@@ -8633,6 +8647,7 @@
 * [Utf8StreamReader](https://github.com/Cysharp/Utf8StreamReader)：基于Utf8的StreamReader，用于高性能文本处理。
 * [PCLStorage](https://github.com/dsplaisted/PCLStorage)：PCL Storage为.NET、Windows Phone、Windows应用商店、Xamarin.iOS、Xamarin.Android和Silverlight提供了一套一致且可移植的本地文件I/O API。
 * [FluentPath](https://github.com/bleroy/FluentPath)：FluentPath为System.IO实现了一个现代化的封装，采用了诸如流式API和Lambda表达式等现代模式。
+* [UnityIO](https://github.com/ByronMayne/UnityIO)：Unity IO的目的是尝试减轻使用Unity文件系统的痛苦。
 
 ## 文件同步
 
