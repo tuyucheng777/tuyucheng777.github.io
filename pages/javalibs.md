@@ -3239,16 +3239,6 @@
 * [Actionbase](https://github.com/kakao/actionbase)：Actionbase是一个用于提供用户交互的数据库，由Kakao开源。
 * [CATA](https://github.com/cata-network/cata_database)：CATA为元宇宙数据存储提供了一站式完整解决方案。
 
-#### 灾难备份
-
-* [Dataflow Templates](https://github.com/GoogleCloudPlatform/DataflowTemplates)：Dataflow Templates旨在解决简单但大型的云内数据任务，包括数据导入/导出/备份/恢复和批量API操作，而无需开发环境，由Google开源。
-* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
-* [Priam](https://github.com/Netflix/Priam)：Priam是一个与Cassandra一起运行的流程/工具，由Netflix开源。
-* [Ptubes](https://github.com/meituan/ptubes)：Ptubes是一款基于PITR的数据库灾难恢复产品，可以用来将整个数据库恢复到特定时间点，美团开源。
-* [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
-* [InnoDB Java Reader](https://github.com/alibaba/innodb-java-reader)：InnoDB Java Reader是一个直接访问MySQL InnoDB存储引擎文件的Java实现，由阿里开源。
-* [FQLite](https://github.com/pawlaszczyk/fqlite)：FQLite是一款用于查找和恢复SQLite数据库中已删除记录的工具。
-
 ## 人工智能
 
 * [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk)：IBM Watson是知名的企业级AI服务平台，提供自然语言理解、语音识别、视觉识别等AI能力。
@@ -7332,6 +7322,16 @@
 * [BinlogPortal](https://github.com/dothetrick/binlogportal)：BinlogPortal是一个轻量级的MySQL Binlog同步工具。
 * [Spark Binlog](https://github.com/allwefantasy/spark-binlog)：Spark Binlog是一个用于使用Apache Spark结构流查询Binlog的库，支持Spark SQL、DataFrames和MLSQL。
 * [BinLake](https://github.com/jd-tiger/binlake)：BinLake是一个集群化的数据库BinLog管理、采集和分发系统，并且透明集成JMQ和Kafka等消息分发和订阅系统，由京东开源。
+
+#### 灾难备份
+
+* [Dataflow Templates](https://github.com/GoogleCloudPlatform/DataflowTemplates)：Dataflow Templates旨在解决简单但大型的云内数据任务，包括数据导入/导出/备份/恢复和批量API操作，而无需开发环境，由Google开源。
+* [Exhibitor](https://github.com/soabase/exhibitor)：ZooKeeper协同处理实例，例如监控、备份/恢复、清理和可视化，由Netflix开源。
+* [Priam](https://github.com/Netflix/Priam)：Priam是一个与Cassandra一起运行的流程/工具，由Netflix开源。
+* [Ptubes](https://github.com/meituan/ptubes)：Ptubes是一款基于PITR的数据库灾难恢复产品，可以用来将整个数据库恢复到特定时间点，美团开源。
+* [Raigad](https://github.com/Netflix/Raigad)：Raigad是一个用于ElasticSearch备份/恢复、自动部署和集中配置管理的协同进程，由Netflix开源。
+* [InnoDB Java Reader](https://github.com/alibaba/innodb-java-reader)：InnoDB Java Reader是一个直接访问MySQL InnoDB存储引擎文件的Java实现，由阿里开源。
+* [FQLite](https://github.com/pawlaszczyk/fqlite)：FQLite是一款用于查找和恢复SQLite数据库中已删除记录的工具。
 
 ## 安全
 
