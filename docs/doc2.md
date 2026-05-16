@@ -12987,6 +12987,7 @@ Kafka生态管理系统、运维平台。
 * [Simple Email](https://github.com/clearfly/simple-email)：Simple Email是Seam 3邮件模块的延续。
 * [EmailAddress](https://github.com/hmrc/emailaddress)：用于对电子邮件地址进行类型检查、验证和混淆的Scala微型库。
 * [Emil](https://github.com/eikek/emil)：Emil是一个用于在Scala中处理电子邮件的库。
+* [Resend Java SDK](https://github.com/resend/resend-java)：Resend的Java SDK。
 
 ## 邮件服务器
 
