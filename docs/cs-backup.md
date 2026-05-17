@@ -218,6 +218,7 @@
 * [Notion](#Notion)
 * [Twitch](#Twitch)
 * [Bluesky](#Bluesky)
+* [Zendesk](#Zendesk)
 * [TheMovieDb](#TheMovieDb)
 * [Bot](#Bot)
 * [QQ机器人](#QQ机器人)
@@ -408,6 +409,7 @@
 * [Actor](#Actor)
 * [MongoDB](#MongoDB)
 * [Redis](#Redis)
+* [Solr](#Solr)
 * [Blazor](#Blazor)
 * [限流](#限流)
 * [重试](#重试)
@@ -749,6 +751,7 @@
 * [Xfrogcn.PluginFactory](https://github.com/xfrogcn/Xfrogcn.PluginFactory)：PluginFactory是.NET Core下基于依赖注入实现的插件框架。
 * [MefContrib](https://github.com/MefContrib/MefContrib)：MefContrib是一套由社区开发、用于托管可扩展性框架(MEF)的扩展、工具和示例。
 * [FarNet](https://github.com/nightroman/FarNet)：Far Manager平台，适用于PowerShell、F#、JavaScript中的.NET模块和脚本。
+* [CPlugin.Net](https://github.com/DevD4v3/CPlugin.Net)：一个简单的库，有助于实现基于插件的架构。
 
 ## IDE
 
@@ -2082,6 +2085,7 @@
 * [Voxel Engine](https://github.com/sjoerdev/voxel-engine)：这是一个3D图形引擎，专注于在不牺牲动态几何的情况下尽可能快速地渲染体素。
 * [ImageMagitek](https://github.com/stevemonaco/ImageMagitek)：ImageMagitek是一个.NET库，用于复古电子游戏系统图形。
 * [VGltf](https://github.com/yutopp/VGltf)：VGltf是一个库，可以简化在你的C#标准和Unity项目中导入和导出glTF 2.0资源的过程。
+* [Sokol CS](https://github.com/bottlenoselabs/sokol-cs)：Sokol图形库的自动更新C#绑定。
 
 ## FBX
 
@@ -2406,7 +2410,6 @@
 * [DbfDataReader](https://github.com/yellowfeather/DbfDataReader)：DbfDataReader是一个小型、快速的.NET Core库，用于读取dBase、xBase、Clipper和FoxPro数据库文件。
 * [MyCounch](https://github.com/danielwertheim/mycouch)：.NET的异步CouchDB客户端。
 * [Meilisearch .NET](https://github.com/meilisearch/meilisearch-dotnet)：Meilisearch .NET是面向C#开发人员的Meilisearch API客户端。
-* [SolrNet](https://github.com/SolrNet/SolrNet)：SolrNet是一个适用于.NET的Apache Solr和SolrCloud客户端。
 * [Lucene.Net.Linq](https://github.com/chriseldredge/Lucene.Net.Linq)：Lucene.Net.Linq是一个.NET库，它使LINQ查询能够在Lucene.Net索引上原生运行。
 * [ArangoDB .NET Standard](https://github.com/ArangoDB-Community/arangodb-net-standard)：使.NET应用程序能够使用ArangoDB REST API提供的全部功能。
 * [Aerospike C# Client](https://github.com/aerospike/aerospike-client-csharp)：Aerospike C#客户端库。
@@ -2440,6 +2443,7 @@
 * [Pomelo.EntityFrameworkCore.MyCat](https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MyCat)：Pomelo.EntityFrameworkCore.MyCat是一个Entity Framework Core提供程序，并针对MyCat进行了优化。
 * [EfCore.InMemoryHelpers](https://github.com/FelixBoers/EfCore.InMemoryHelpers)：提供了一个围绕EF Core内存数据库提供程序的封装。
 * [EntityFramework.Toolkit](https://github.com/thomasgalliker/EntityFramework.Toolkit)：EntityFramework.Toolkit是一个库，提供了EntityFramework的最佳实践、模式、实用工具和扩展的实现。
+* [EntityFrameworkCore.Locking](https://github.com/mnbuhl/efcore-locking)：EF Core的悲观锁机制，支持PostgreSQL、MySQL和SQL Server。
 
 ## Dapper扩展
 
@@ -2493,6 +2497,7 @@
 * [AutoCompare](https://github.com/StevenGilligan/AutoCompare)：AutoCompare是一个简单的库，旨在轻松比较两个相同类型的对象，以生成已修改属性的列表。
 * [DeepEqual](https://github.com/jamesfoster/DeepEqual)：DeepEqual是一个可扩展的深度相等比较库。
 * [AnyDiff](https://github.com/replaysMike/AnyDiff)：一个C#差异库，可以比较两个对象的差异并返回差异列表。
+* [Equ](https://github.com/thedmi/Equ)：Equ是一个.NET Standard库，它为类型提供快速、基于约定的相等性运算。
 
 ## 数据库
 
@@ -4436,6 +4441,7 @@
 * [Entities](https://github.com/needle-mirror/com.unity.entities)：Entities包提供了一个现代的实体组件系统实现，带有为Unity制作的一套基本系统和组件。
 * [MinECS](https://github.com/Alan-FGR/minECS)：一个用现代C#编写的极简、极速的实体组件系统。
 * [Trecs](https://github.com/svermeulen/trecs)：一个高性能的Unity实体组件系统框架，专为确定性模拟、录制/回放和Burst/Jobs集成而设计。
+* [RelEcs](https://github.com/Byteron/RelEcs)：一个轻量级且易于使用的实体组件系统，具有一套有效的游戏制作功能集。
 
 ## 安装工具
 
@@ -4511,6 +4517,7 @@
 * [XtermSharp](https://github.com/migueldeicaza/XtermSharp)：XtermSharp是一个用于.NET的VT100/Xterm终端模拟器，其引擎旨在与潜在的前端和后端无关。
 * [VtNetCore](https://github.com/darrenstarr/VtNetCore)：VtNetCore是一个适用于.NET Standard 2.0框架的VT100/XTerm风格的终端模拟器库。
 * [XenoAtom.Terminal](https://github.com/XenoAtom/XenoAtom.Terminal)：XenoAtom.Terminal是一个现代化的终端。
+* [Pty.Net](https://github.com/microsoft/vs-pty.net)：Pty.Net是一个跨平台的.NET库，为forkpty()提供惯用的绑定。
 
 ## API&客户端
 
@@ -4563,7 +4570,6 @@
 * [DropNet](https://github.com/DropNet/DropNet)：Dropbox API客户端库。
 * [SapNwRfc](https://github.com/huysentruitw/SapNwRfc)：适用于.NET 5、.NET Core和.NET Framework的SAP NetWeaver RFC库。
 * [B1SLayer](https://github.com/bgmulinari/B1SLayer)：一个轻量级的SAP Business One服务层客户端，适用于.NET。
-* [Zendesk API V2](https://github.com/Speedygeek/ZendeskApi_v2)：Zendesk API的C#封装。
 * [BaiduOldDriver](https://github.com/pengw0048/BaiduOldDriver)：使用百度网盘私有API的库和工具。
 * [WikiClientLibrary](https://github.com/CXuesong/WikiClientLibrary)：Wiki Client Library是一个面向现代.NET平台的异步MediaWiki API客户端库。
 * [SharpSapRfc](https://github.com/goenning/SharpSapRfc)：Sharp SAP RFC是一个顶级库，使调用SAP系统上的远程函数更加容易。
@@ -4695,6 +4701,11 @@
 * [FishyFlip](https://github.com/drasticactions/FishyFlip)：FishyFlip是一个针对.NET的ATProtocol实现。
 * [Idunno.Bluesky](https://github.com/blowdart/idunno.Bluesky)：一个用于Bluesky社交网络的.NET类库。
 * [X.Bluesky](https://github.com/a-gubskiy/X.Bluesky)：X.Bluesky是一个.NET库，旨在让开发人员能够轻松地向去中心化社交网络Bluesky发布消息。
+
+## Zendesk
+
+* [Zendesk API V2](https://github.com/Speedygeek/ZendeskApi_v2)：Zendesk API的C#封装。
+* [ZendeskApiClient](https://github.com/justeat/ZendeskApiClient)：用于操作Zendesk API的C#客户端。
 
 ## TheMovieDb
 
@@ -5205,6 +5216,7 @@
 * [ILMerge](https://github.com/dotnet/ILMerge)：ILMerge是一个将多个.NET程序集合并为单个程序集的工具。
 * [LibZ](https://github.com/MiloszKrajewski/LibZ)：LibZ是ILMerge的一个替代方案。
 * [ILRepack](https://github.com/gluck/il-repack)：ILRepack是一个用于将多个.NET程序集合并为单个程序集的工具。
+* [IntuneAppBuilder](https://github.com/simeoncloud/IntuneAppBuilder)：一款跨平台的Intune应用程序打包和部署控制台工具及SDK。
 
 ## 部署
 
@@ -5360,6 +5372,7 @@
 * [Compilify](https://github.com/jrusbatch/compilify)：Compilify使.NET编译器完全可移植，并通过一个快速、简单的界面提供访问，从而促进共享和协作。
 * [Bflat](https://github.com/bflattened/bflat)：借助Bflat，你可以使用高性能CoreCLR GC和本机代码生成器(RyuJIT)来访问最新的C#功能。
 * [Fable](https://github.com/fable-compiler/Fable)：Fable是一个基于F#到JavaScript编译器的FSharp编译器服务，旨在使F#成为JavaScript生态系统中的一等公民。
+* [Dotcl](https://github.com/dotcl/dotcl)：在.NET上实现Common Lisp。
 
 ## 解释器
 
@@ -5879,6 +5892,7 @@
 * [AudioFingerprinting](https://github.com/nelemans1971/AudioFingerprinting)：使用C# .NET编写的音频指纹识别软件。
 * [MusicBrainz](https://github.com/avatar29A/MusicBrainz)：.NET的MusicBrainz API版本2的实现。
 * [StbSharp](https://github.com/rds1983/StbSharp)：StbSharp是著名Stb C框架的C#移植版。
+* [MusicXml.Net](https://github.com/vdaron/MusicXml.Net)：快速的C# MusicXML解析器。
 
 ## 视频库
 
@@ -6905,6 +6919,7 @@
 * [UblTr](https://github.com/hkutluay/UblTr)：C#代理类，用于创建和序列化符合UBL-TR v1.2.1标准的.NET对象为XML，或将UBL-TR文档反序列化为.NET对象。
 * [MotorTributarioNet](https://github.com/AutomacaoNet/MotorTributarioNet)：巴西NF-e、CT-e、NFC-e和Sat-Fiscal税款计算。
 * [FiscalAPI .NET](https://github.com/FiscalAPI/fiscalapi-net)：FiscalAPI的官方SDK，适用于.NET，是墨西哥CFDI开票和其他税务服务的API。
+* [ElectronicInvoiceTW](https://github.com/isdaniel/ElectronicInvoice_TW)：台湾电子发票SDK。
 
 ## NFC
 
@@ -7117,6 +7132,7 @@
 * [Tyme](https://github.com/6tail/tyme4net)：Tyme是一个非常强大的日历工具库。
 * [FluentTime](https://github.com/duelinmarkers/FluentTime)：一个用C#编写的流式接口，用于在.NET框架上处理日期和时间。
 * [Dates.Recurring](https://github.com/gavynriebau/Dates.Recurring)：轻松计算下一个重复事件发生的时间。
+* [NChronic](https://github.com/robertwilczynski/nChronic)：一个从Ruby移植过来的自然语言日期/时间解析器。
 
 ## 函数式编程
 
@@ -7246,6 +7262,12 @@
 * [Hangfire.Redis.StackExchange](https://github.com/marcoCasamento/Hangfire.Redis.StackExchange)：HangFire Redis存储基于HangFire.Redis，但使用优秀的StackExchange.Redis客户端。
 * [Rol](https://github.com/JasonPunyon/Rol)：Rol是一个C#库，它让在Redis中存储和操作数据变得像声明一个接口一样简单，此外还提供了一些其他实用功能。
 * [NReJSON](https://github.com/tombatron/NReJSON)：NReJSON是一系列针对StackExchange.Redis库的扩展方法，使你能够与Redis模块RedisJSON进行交互。
+
+## Solr
+
+* [SolrNet](https://github.com/SolrNet/SolrNet)：SolrNet是一个适用于.NET的Apache Solr和SolrCloud客户端。
+* [SolrExpress](https://github.com/solr-express/solr-express)：一个简单轻量级的Solr查询.NET库，以可控、可构建和快速失败的方式运行。
+* [Foundatio.Parsers](https://github.com/FoundatioFx/Foundatio.Parsers)：一个可扩展的Lucene风格查询解析器，支持Elasticsearch和SQL/Entity Framework Core。
 
 ## Blazor
 
@@ -8759,6 +8781,7 @@
 * [Scryber.Core](https://github.com/richard-scryber/scryber.core)：Scryber.Core是一个先进的.NET 9 HTML转PDF引擎，完全用C#编写，用于从HTML模板创建美观流式的文档，包括CSS样式、对象数据绑定和SVG绘图。
 * [B2xTranslator](https://github.com/EvolutionJobs/b2xtranslator)：用于将Microsoft Office二进制文件(Doc、XLS和PPT)转换为Open XML(Docx、XLSX和PPTX)的.NET Core库。
 * [WeasyPrint .NET](https://github.com/balbarak/WeasyPrint-netcore)：用于Windows的.Net WeasyPrint封装器，用于从HTML生成PDF。
+* [ElBruno.MarkItDotNet](https://github.com/elbruno/ElBruno.MarkItDotNet)：一个.NET库，可将15种以上的文件格式转换为Markdown，适用于AI流程、文档工作流和开发者工具。
 
 ## 文件上传
 
@@ -9616,3 +9639,4 @@
 * [Electron CGI](https://github.com/ruidfigueiredo/electron-cgi-dotnet)：Electron CGI是一个库，可以在NodeJs中创建请求，然后由.NET提供服务。
 * [InfoOf](https://github.com/Fody/InfoOf)：提供typeof的methodof、propertyof和fieldof等效项。
 * [DynamicSyscalls](https://github.com/Shrfnt77/DynamicSyscalls)：DynamicSyscalls是一个用.NET编写的库。
+* [BitsKit](https://github.com/barncastle/BitsKit)：BitsKit是一个轻量级的C#库，它提供高效的位级读取、写入和操作功能，并为C#添加了位域支持。
