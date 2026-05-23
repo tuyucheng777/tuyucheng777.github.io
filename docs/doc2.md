@@ -5341,6 +5341,39 @@
 * [WSO2 ESB](https://github.com/wso2-attic/product-esb)：WSO2 Enterprise Service Bus是一款轻量级、高性能、近乎零延迟的产品，全面支持SOAP、WS和REST等多种技术。
 * [CSB SDK](https://github.com/aliyun/csb-sdk)：CSB-SDK是一个客户端调用SDK，用于调用阿里云CSB产品开放的HTTP或Web服务API。
 
+#### 消息队列库
+
+* [RabbitMQ Java](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端库。
+* [Lyra](https://github.com/jhalterman/lyra)：Lyra是一个拥抱故障的RabbitMQ客户端，可在发生意外故障时自动恢复AMQP资源，帮助你实现服务的高可用性。
+* [Hop](https://github.com/rabbitmq/hop)：适用于Java、Groovy和其他JVM语言的RabbitMQ HTTP API客户端。
+* [SIA RabbitMQ Plus](https://github.com/siaorg/sia-rabbitmq-plus)：SIA RabbitMQ Plus是宜信开发的一个简单RabbitMQ客户端。
+* [Spring AMQP](https://github.com/spring-projects/spring-amqp)：Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。
+* [RabbitMQ Access](https://github.com/littlersmall/rabbitmq-access)：RabbitMQ手动确认模式Java封装。
+* [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
+* [RabbitMQ Kotlin](https://github.com/viartemev/rabbitmq-kotlin)：RabbitMQ Kotlin旨在为Kotlin开发者提供一种高效、基于协程的方式来与RabbitMQ交互。
+* [Spring MultiRabbit](https://github.com/freenowtech/spring-multirabbit)：Spring MultiRabbit是一个用于在Spring Boot应用中启用多个RabbitMQ代理的库。
+* [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
+* [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
+* [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
+* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
+* [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
+* [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
+* [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
+* [Priority Kafka Client](https://github.com/flipkart-incubator/priority-kafka-client)：Kafka客户端，允许按照配置的优先级向Kafka生成和从Kafka消费记录，由Flipkart开源。
+* [Krackle](https://github.com/blackberry/Krackle)：Krackle是一个低成本的Kafka客户端。
+* [Jackdaw](https://github.com/obsidiandynamics/jackdaw)：Kafka客户端的简单配置和Mock。
+* [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
+* [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
+* [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
+* [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
+* [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
+* [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
+* [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
+* [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
+* [Beanstalkc](https://github.com/dinstone/beanstalkc)：Beanstalkc是Beanstalkd的一个线程安全客户端库，支持连接池。
+* [TrendrrBeanstalk](https://github.com/dustismo/TrendrrBeanstalk)：Java Beanstalk客户端。
+* [JavaBeanstalkClient](https://github.com/RTykulsker/JavaBeanstalkClient)：一个用于Beanstalkd工作队列服务的Java客户端。
+
 ## GraphQL
 
 * [GraphQL Java](https://github.com/graphql-java/graphql-java)：GraphQL Java实现。
@@ -5857,6 +5890,13 @@
 * [JPregel](https://github.com/kowshik/JPregel)：基于谷歌Pregel的大规模图处理系统和Java API。
 * [Arabesque](https://github.com/qcri/Arabesque)：Arabesque是一个分布式图挖掘系统，它能够快速轻松地开发图挖掘算法，同时提供在Hadoop之上运行的可扩展、高效的执行引擎，由卡塔尔计算研究所开源。
 * [Okapi](https://github.com/grafos-ml/okapi)：Okapi是一个用于Giraph的机器学习和图挖掘算法库，由西班牙电信研究院开源。
+
+## Graphviz
+
+* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
+* [Graph Support](https://github.com/jamisonjiang/graph-support)：Graphviz的轻量级Java重实现，用于解析、布局和渲染图形。
+* [Digraph Parser](https://github.com/paypal/digraph-parser)：这是一个简单独立的Java解析器，用于解析Graphviz DOT语法的有向图DSL，由Paypal开源。
+* [GraphViz Java API](https://github.com/jabbalaci/graphviz-java-api)：借助这个简单的API，你可以直接从Java程序调用GraphViz的dot函数。
 
 ## 语义Web
 
@@ -7799,12 +7839,6 @@
 * [Stipple Effect](https://github.com/stipple-effect/stipple-effect)：Stipple Effect是一款支持动画和脚本的像素艺术编辑器。
 * [Pixelitor](https://github.com/lbalazscs/Pixelitor)：Pixelitor是一个高级Java图像编辑器，具有图层、图层蒙版、文本图层、110多个图像滤镜和颜色调整、多重撤消等。
 * [FakeImageDetection](https://github.com/afsalashyana/FakeImageDetection)：FakeImageDetection的目标是识别假图像(经过数字更改的图像)。
-
-#### 图形与设计
-
-* [MPM](https://github.com/arisona/mpm)：基于Java/OpenGL的多投影仪3D映射等框架。
-* [SketchChair](https://github.com/DiatomStudio/SketchChair)：SketchChair是一款开源软件工具，任何人都可以轻松设计和制作自己的数字化家具。
-* [AbFab3D](https://github.com/AbFab3D/AbFab3D)：AbFab3D是一个用于帮助开发3D打印编辑器和工具的库。
 
 ## 压缩库
 
@@ -15985,6 +16019,7 @@ Kafka生态管理系统、运维平台。
 * [NodeBox](https://github.com/nodebox/nodebox)：NodeBox系列工具让你能够按照自己想要的方式创建生成设计，由布鲁塞尔圣卢卡斯大学学院开发。
 * [TreeForm](https://github.com/frekky/TreeForm)：TreeForm语法树绘图软件是一个语言语法/语义树绘图编辑器。
 * [Sweet Home 3D](http://www.sweethome3d.com/)：Sweet Home 3D是一款免费的室内设计应用程序，它可以帮助你绘制房屋平面图、在其上布置家具并以3D形式查看结果。
+* [SketchChair](https://github.com/DiatomStudio/SketchChair)：SketchChair是一款开源软件工具，任何人都可以轻松设计和制作自己的数字化家具。
 
 #### 软件定义无线电
 

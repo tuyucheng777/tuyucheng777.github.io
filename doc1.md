@@ -55,7 +55,6 @@
   * [数据Shuffle](#数据Shuffle)
   * [时序数据分析](#时序数据分析)
 * [消息中间件](#消息中间件)
-* [消息队列客户端](#消息队列客户端)
 * [分布式开发](#分布式开发)
   * [分布式锁](#分布式锁)
   * [分布式ID](#分布式ID)
@@ -146,7 +145,6 @@
   * [实体解析](#实体解析)
   * [Dataframe](#Dataframe)
   * [Notebook](#Notebook)
-  * [Graphviz](#Graphviz)
 * [网络编程](docs/doc2.md#网络编程)
   * [NIO框架](docs/doc2.md#NIO框架)
   * [网络库](docs/doc2.md#网络库)
@@ -374,6 +372,7 @@
   * [事件总线](docs/doc2.md#事件总线)
   * [消息总线](docs/doc2.md#消息总线)
   * [应用总线](docs/doc2.md#应用总线)
+  * [消息队列库](docs/doc2.md#消息队列库)
 * [GraphQL](docs/doc2.md#GraphQL)
   * [GraphQL Spring](docs/doc2.md#GraphQL-Spring)
   * [模式优先](docs/doc2.md#模式优先)
@@ -409,6 +408,7 @@
   * [运筹学](docs/doc2.md#运筹学)
   * [LaTeX](docs/doc2.md#LaTeX)
 * [图处理](docs/doc2.md#图处理)
+* [Graphviz](docs/doc2.md#Graphviz)
 * [语义Web](docs/doc2.md#语义Web)
   * [本体库](docs/doc2.md#本体库)
   * [本体编辑器](docs/doc2.md#本体编辑器)
@@ -497,7 +497,6 @@
   * [条形码库](docs/doc2.md#条形码库)
   * [水印](docs/doc2.md#水印)
   * [图像操作软件](docs/doc2.md#图像操作软件)
-  * [图形与设计](docs/doc2.md#图形与设计)
 * [压缩库](docs/doc2.md#压缩库)
   * [数据压缩](docs/doc2.md#数据压缩)
   * [文件压缩](docs/doc2.md#文件压缩)
@@ -2768,39 +2767,6 @@
 * [FFMQ](https://github.com/timewalker74/ffmq)：FFMQ是一个完全用Java编写、轻量级、快速的JMS 1.1队列实现。
 * [DubSub](https://github.com/alexanderjarvis/DubSub)：基于Akka集群的分布式PubSub。
 
-## 消息队列客户端
-
-* [RabbitMQ Java](https://github.com/rabbitmq/rabbitmq-java-client)：RabbitMQ Java客户端库。
-* [Lyra](https://github.com/jhalterman/lyra)：Lyra是一个拥抱故障的RabbitMQ客户端，可在发生意外故障时自动恢复AMQP资源，帮助你实现服务的高可用性。
-* [Hop](https://github.com/rabbitmq/hop)：适用于Java、Groovy和其他JVM语言的RabbitMQ HTTP API客户端。
-* [SIA RabbitMQ Plus](https://github.com/siaorg/sia-rabbitmq-plus)：SIA RabbitMQ Plus是宜信开发的一个简单RabbitMQ客户端。
-* [Spring AMQP](https://github.com/spring-projects/spring-amqp)：Spring AMQP项目将核心Spring概念应用于基于AMQP的消息传递解决方案的开发。
-* [RabbitMQ Access](https://github.com/littlersmall/rabbitmq-access)：RabbitMQ手动确认模式Java封装。
-* [RabbitMQ Advanced](https://github.com/societe-generale/rabbitmq-advanced-spring-boot-starter)：一个用于与RabbitMQ进行消息传递的通用库，它是Spring Boot AMQP的扩展，由法国兴业银行开源。
-* [RabbitMQ Kotlin](https://github.com/viartemev/rabbitmq-kotlin)：RabbitMQ Kotlin旨在为Kotlin开发者提供一种高效、基于协程的方式来与RabbitMQ交互。
-* [Spring MultiRabbit](https://github.com/freenowtech/spring-multirabbit)：Spring MultiRabbit是一个用于在Spring Boot应用中启用多个RabbitMQ代理的库。
-* [Spring Kafka](https://github.com/spring-projects/spring-kafka)：Spring Kafka项目将核心Spring概念应用于基于Kafka的消息传递解决方案的开发。
-* [Confluent Parallel Consumer](https://github.com/confluentinc/parallel-consumer)：并行Apache Kafka客户端包装器，具有客户端排队功能、更简单的消费者/生产者API、关键并发性和可扩展的非阻塞IO处理。
-* [Greyhound](https://github.com/wix/greyhound)：Apache Kafka的高级SDK。
-* [Reactor Kafka](https://github.com/reactor/reactor-kafka)：Reactor响应式Kafka驱动程序。
-* [Li Apache Kafka Clients](https://github.com/linkedin/li-apache-kafka-clients)：Li Apache Kafka Clients是一个基于原生Apache Kafka客户端构建的Kafka客户端封装库，由LinkedIn开发。
-* [Kafka Fast](https://github.com/gerritjvv/kafka-fast)：适用于任何JVM语言的快速Kafka库，用Clojure实现。
-* [Vert.x Kafka Client](https://github.com/vert-x3/vertx-kafka-client)：Vert.x的响应式Kafka客户端。
-* [Priority Kafka Client](https://github.com/flipkart-incubator/priority-kafka-client)：Kafka客户端，允许按照配置的优先级向Kafka生成和从Kafka消费记录，由Flipkart开源。
-* [Krackle](https://github.com/blackberry/Krackle)：Krackle是一个低成本的Kafka客户端。
-* [Jackdaw](https://github.com/obsidiandynamics/jackdaw)：Kafka客户端的简单配置和Mock。
-* [NSQ-J](https://github.com/sproutsocial/nsq-j)：NSQ实时分布式消息传递平台的Java客户端。
-* [NATS Java](https://github.com/nats-io/nats.java)：NATS消息系统的Java客户端。
-* [Amazon SQS Java Messaging Library](https://github.com/awslabs/amazon-sqs-java-messaging-lib)：Amazon SQS Java Messaging Library包含与JMS兼容的类，用于与Amazon SQS进行通信。
-* [IBM MQ JMS Spring Components](https://github.com/ibm-messaging/mq-jms-spring)：用于辅助MQ JMS与Spring框架集成的组件。
-* [Java Pub/Sub](https://github.com/googleapis/java-pubsub)：Google Cloud Pub/Sub的Java惯用客户端。
-* [Google Pub/Sub](https://github.com/GoogleCloudPlatform/pubsub)：Google Cloud Pub/Sub开源项目。
-* [Async Google Pub/Sub Client](https://github.com/spotify/async-google-pubsub-client)：一个低级别的Pub/Sub客户端和一个并发的每主题批处理发布者，由Spotify开发。
-* [OpenMAMA](https://github.com/finos/OpenMAMA)：OpenMAMA是一个高性能、与供应商无关的轻量级包装器，它为跨各种平台和语言的不同中间件和消息传递解决方案提供通用API接口，由金融科技基金会开源。
-* [Beanstalkc](https://github.com/dinstone/beanstalkc)：Beanstalkc是Beanstalkd的一个线程安全客户端库，支持连接池。
-* [TrendrrBeanstalk](https://github.com/dustismo/TrendrrBeanstalk)：Java Beanstalk客户端。
-* [JavaBeanstalkClient](https://github.com/RTykulsker/JavaBeanstalkClient)：一个用于Beanstalkd工作队列服务的Java客户端。
-
 ## 分布式开发
 
 * [Waltz](https://github.com/wepay/waltz)：Waltz是一种基于仲裁的分布式预写日志，用于复制事务，由WePay开源。
@@ -4627,12 +4593,5 @@
 * [Apache Zeppelin](https://github.com/apache/zeppelin)：Zeppelin是一款基于Web的笔记本，支持交互式数据分析，由韩国公司ZEPL开源。
 * [Spark Notebook](https://github.com/spark-notebook/spark-notebook)：Spark Notebook是针对企业环境的开源笔记本，为数据科学家和数据工程师提供了一个基于Web的交互式编辑器。
 * [Pulse](https://github.com/timestored/pulseui)：Pulse是一款开源工具，用于实时可视化分析、电子邮件报告和警报。
-
-#### Graphviz
-
-* [Graphviz Java](https://github.com/nidi3/graphviz-java)：将Graphviz与纯Java一起使用，使用Java代码创建Graphviz模型并将其转换为漂亮的图形。
-* [Graph Support](https://github.com/jamisonjiang/graph-support)：Graphviz的轻量级Java重实现，用于解析、布局和渲染图形。
-* [Digraph Parser](https://github.com/paypal/digraph-parser)：这是一个简单独立的Java解析器，用于解析Graphviz DOT语法的有向图DSL，由Paypal开源。
-* [GraphViz Java API](https://github.com/jabbalaci/graphviz-java-api)：借助这个简单的API，你可以直接从Java程序调用GraphViz的dot函数。
 
 ## [网络编程-面试宝典](docs/doc2.md)
