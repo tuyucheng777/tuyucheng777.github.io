@@ -247,6 +247,7 @@
   * [查询构建器](docs/doc2.md#查询构建器)
   * [NoSQL库](docs/doc2.md#NoSQL库)
   * [事务](docs/doc2.md#事务)
+  * [分页](docs/doc2.md#分页)
   * [Mybatis库](docs/doc2.md#Mybatis库)
   * [Hibernate库](docs/doc2.md#Hibernate库)
   * [JPA库](docs/doc2.md#JPA库)
@@ -387,6 +388,7 @@
   * [假期库](docs/doc2.md#假期库)
 * [插件框架](docs/doc2.md#插件框架)
 * [多租户](docs/doc2.md#多租户)
+* [幂等](docs/doc2.md#幂等)
 * [MATLAB](docs/doc2.md#MATLAB)
 * [Jupyter](docs/doc2.md#Jupyter)
 * [机器人开发](docs/doc2.md#机器人开发)
@@ -782,7 +784,6 @@
 * [RMI](docs/doc2.md#RMI)
 * [gRPC](docs/doc2.md#gRPC)
 * [对象池](docs/doc2.md#对象池)
-* [幂等处理](docs/doc2.md#幂等处理)
 * [数据字典](docs/doc2.md#数据字典)
 * [Bot](docs/doc2.md#Bot)
   * [Discord机器人](docs/doc2.md#Discord机器人)
@@ -1243,6 +1244,7 @@
 * [Dump](https://github.com/yuanguangxin/Dump)：Dump是一个轻量级的Web框架。
 * [JSONCat](https://github.com/Snailclimb/jsoncat)：JSONCat是模仿Spring Boot写的一个轻量级的HTTP框架。
 * [Wint](https://github.com/pister/wint)：Wint是一个简单Java Web框架，适合快速开发。
+* [KISS](https://github.com/blakemcbride/Kiss)：KISS是一个基于Java的全栈应用程序开发框架，用于开发基于Web的商业应用程序。
 * [Web4j](http://www.web4j.com/)：Web4j是一款开源的全栈Java Web应用框架。
 * [JFire](https://gitee.com/eric_ds/jfireframework)：JFire是一个框架体系，内容涵盖IOC容器、MVC、持久层、JSON、序列化、AIO、RPC。
 * [Giiwa](https://github.com/giiwa/giiwa)：Giiwa是一个Java Web的快速开发框架。
@@ -2328,6 +2330,7 @@
 * [Presto](https://github.com/prestodb/presto)：Presto是一个用于大数据的分布式SQL查询引擎，由Facebook开源。
 * [Amazon Athena](https://aws.amazon.com/cn/athena/)：Athena是一种交互式查询服务，可让你方便地使用标准SQL直接分析Amazon S3中的数据。
 * [Apache Phoenix](https://github.com/apache/phoenix)：Phoenix是基于HBase的SQL皮肤，作为客户端嵌入的JDBC驱动程序提供，旨在针对HBase数据的低延迟查询，由Salesforce开源。
+* [Apache DataFusion Java](https://github.com/apache/datafusion-java)：DataFusion是一个可扩展查询引擎，它使用Apache Arrow作为其内存格式。
 * [XSQL](https://github.com/Qihoo360/XSQL)：XSQL是一个多数据源查询引擎，设计简单易用，运行稳定，由360开源。
 * [Blaze](https://github.com/kwai/blaze)：Blaze加速器利用本机矢量化执行来加速查询处理，由快手开源。
 * [Coral](https://github.com/linkedin/coral)：Coral是一个SQL翻译、分析和重写引擎，由LinkedIn开源。
@@ -2876,6 +2879,7 @@
 * [KSUID](https://github.com/akhawaja/ksuid)：Java实现的K可排序全局唯一ID。
 * [EasyIdGenerator](https://github.com/lookingatstarts/easyIdGenerator)：EasyIdGenerator生成全局唯一ID。
 * [FinTx Identifier](https://github.com/fintx/fintx-identifier)：FinTx Identifier用于在高性能分布式环境中生成唯一ID。
+* [Sequence](https://github.com/power4j/sequence)：Java序号工具包，高性能、无锁。
 
 #### Session集群
 
