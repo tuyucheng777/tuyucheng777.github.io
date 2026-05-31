@@ -9087,6 +9087,7 @@ permalink: /javalibs
 * [Spring Boot Redis Caffeine Cache](https://github.com/yudiandemingzi/springboot-redis-caffeine-cache)：Caffeine、Redis实现的二级缓存框架。
 * [Guava Cache Overflow Extension](https://github.com/raphw/guava-cache-overflow-extension)：Guava Cache扩展，允许缓存条目在内存无法存储时仍能持久化。
 * [Jujiu](https://github.com/jcouyang/jujiu)：函数式Scala缓存。
+* [LocalCache](https://github.com/meshware/local-cache)：Java应用程序的本地缓存，提升响应速度。
 * [RedisCache](https://github.com/xmbcc/RedisCache)：CacheRedis是一个使用Java语言制作的仿Redis本地缓存。
 
 #### 分布式缓存
