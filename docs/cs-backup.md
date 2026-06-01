@@ -4832,7 +4832,6 @@
 
 * [LoklakDotNet](https://github.com/loklak/loklak_dotnet_api)：Loklak服务器的.NET API包装器。
 * [Vimeo .NET](https://github.com/mfilippov/vimeo-dot-net)：一个用于Vimeo API v3.0的.NET 4.5/.NET Standard 1.3封装器。
-* [Cloudinary .NET SDK](https://github.com/cloudinary/CloudinaryDotNet)：Cloudinary的.NET SDK允许你快速轻松地将应用程序与Cloudinary集成。
 * [Analytics.NET](https://github.com/segmentio/Analytics.NET)：Analytics.NET是Segment的.NET/C#/F#客户端。
 * [Yandex.Music.Api](https://github.com/K1llMan/Yandex.Music.Api)：.NET的非官方Yandex Music API。
 * [PocketSharp](https://github.com/ceee/PocketSharp)：PocketSharp是一个.NET Standard库，用于集成Pocket API v3。
@@ -6241,6 +6240,7 @@
 * [Tinify .NET](https://github.com/tinify/tinify-net)：Tinify API的.NET客户端。
 * [ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare)：ImageSharp基础之上的图像比较功能。
 * [ImageGlider](https://github.com/star-plan/image-glider)：ImageGlider是一个功能强大的跨平台图像处理工具套件，使用C#、ImageSharp和ImageMagick.NET实现。
+* [Cloudinary .NET SDK](https://github.com/cloudinary/CloudinaryDotNet)：Cloudinary的.NET SDK允许你快速轻松地将应用程序与Cloudinary集成。
 
 ## PNG
 
