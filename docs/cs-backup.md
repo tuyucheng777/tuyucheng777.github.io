@@ -4520,24 +4520,15 @@
 #### UWP
 
 * [FluentTerminal](https://github.com/felixse/FluentTerminal)：基于UWP和Web技术的终端仿真器。
-* [Coolapk UWP](https://github.com/Coolapk-UWP/Coolapk-UWP)：一个基于UWP平台的第三方酷安客户端。
 * [FFMediaElement](https://github.com/unosquare/ffmediaelement)：高级WPF MediaElement替代方案。
-* [Cube YouTube Downloader](https://github.com/database64128/youtube-dl-wpf)：用于YouTube-DL和YT-DLP的WPF图形界面。
 * [WpfDesigner](https://github.com/icsharpcode/WpfDesigner)：SharpDevelop的WPF设计器。
-* [VisualHFT](https://github.com/visualHFT/VisualHFT)：VisualHFT是一款开源的桌面应用程序，用于实时市场微观结构分析。
-* [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor)：Office RibbonX Editor是一个独立工具，用于编辑Office开放文档文件格式中的自定义界面部分。
-* [League of Legends WPF](https://github.com/JamesnetGroup/leagueoflegends-wpf)：这是一个使用WPF的高质量英雄联盟客户端复刻项目。
 * [MarkDownEditor](https://github.com/chenguanzhou/MarkDownEditor)：一款面向Windows 7及以上版本的开源Metro风格桌面Markdown编辑器。
 * [WPF Blockly](https://github.com/weihuajiang/WPF-Blockly)：WPF Blockly是一个可视化编程编辑器，类似于Google Blocky和Scratch。
 * [SimpleStateMachineNodeEditor](https://github.com/SimpleStateMachine/SimpleStateMachineNodeEditor)：SimpleStateMachineNodeEditor是一个用于可视化工作和编辑状态机的WPF节点编辑器。
 * [HospitalManagementSystem WPF](https://github.com/zjxi/HospitalManagementSystem-WPF)：医疗信息管理系统，基于WPF，内附SQL Server 2012数据库，界面友好，功能实用。
 * [Markdown.XAML](https://github.com/theunrepentantgeek/Markdown.XAML)：Markdown XAML是流行的MarkdownSharp Markdown处理器的移植版。
 * [Asn1Editor.WPF](https://github.com/Crypt32/Asn1Editor.WPF)：ASN.1 Editor是一款允许你显示、编辑、格式化和转换ASN.1编码数据的工具。
-* [WPFManager](https://github.com/straw-git/WPFManager)：WPF开发的管理系统。
 * [MVVMDiagramDesigner](https://github.com/sachabarber/MVVMDiagramDesigner)：具备完整MVVM支持和可插拔持久化模型的WPF图设计器。
-* [Reservoom](https://github.com/SingletonSean/reservoom)：一个简单的酒店预订系统，展示了WPF MVVM的基本原理。
-* [FormThief](https://github.com/mlcsec/FormThief)：FormThief是一个旨在利用WinForms和WPF欺骗Windows桌面登录应用程序的项目。
-* [RobotArmHelix](https://github.com/Gabryxx7/RobotArmHelix)：使用WPF和螺旋工具包进行C#机械臂的3D仿真、正向和逆向运动学。
 * [UICompositionAnimations](https://github.com/Sergio0694/UICompositionAnimations)：一个功能强大且易于使用的库，用于处理Composition和XAML动画以及Win2D特效。
 * [Monaco Editor UWP](https://github.com/hawkerm/monaco-editor-uwp)：一个围绕基于Web的Monaco编辑器的Windows运行时组件封装器。
 * [Lottie Windows](https://github.com/CommunityToolkit/Lottie-Windows)：Lottie Windows是一个用于在应用程序中本地渲染Adobe After Effects动画的库。
