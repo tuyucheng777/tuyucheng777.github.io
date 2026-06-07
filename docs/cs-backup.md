@@ -3047,6 +3047,7 @@
 * [WebExtensions.Net](https://github.com/mingyaulee/WebExtensions.Net)：用于在浏览器扩展程序中使用WebExtensions API的软件包。
 * [MvcCheckBoxList](https://github.com/mikhail-tsennykh/MvcCheckBoxList)：扩展MVC HtmlHelper类，以便你可以创建可POST的复选框列表。
 * [DataTables.Queryable](https://github.com/AlexanderKrutov/DataTables.Queryable)：一个用于在服务器端处理来自datatables.net jQuery插件请求的.NET库。
+* [Squish](https://github.com/jetheredge/SquishIt)：Squish是一个针对.NET Web应用程序的资产优化库。
 
 ## 多租户
 
@@ -3545,6 +3546,7 @@
 * [RayPI](https://github.com/RayWangQvQ/RayPI)：RayPI是一款基于.NET Core 3.1的极简风Web开发框架，支持领域驱动，并集成了基础的CRUD，开箱即用。
 * [Puresharp](https://github.com/Puresharper/Puresharp)：Puresharp是一套适用于.NET 4.5.2+/.NET Core 2.1的功能集，旨在通过创建灵活高效的应用程序来提高生产力。
 * [AutoCSer](https://github.com/AutoCSer/AutoCSer)：AutoCSer是一个以高效率为目标向导的整体开发框架。
+* [Peasy.NET](https://github.com/peasy/Peasy.NET)：.NET和.NET Core的业务逻辑微框架。
 * [Sitko.Core](https://github.com/sitkoru/Sitko.Core)：Sitko.Core是一组库，旨在帮助快速构建.NET Core应用程序。
 * [SummerBoot](https://github.com/TripleView/SummerBoot)：SummerBoot致力于打造一个易上手、好维护的人性化框架。
 * [CloudScribe](https://github.com/cloudscribe/cloudscribe)：ASP.NET Core多租户Web应用基础，提供站点、用户、角色、声明等管理。
@@ -4345,6 +4347,7 @@
 * [SevenSegment](https://github.com/dbrant/SevenSegment)：适用于WinForms的全功能.NET七段显示控件。
 * [LoadingIndicator](https://github.com/MaxShoshin/LoadingIndicator)：Winforms长时间操作指示器。
 * [AutoClosingMessageBox](https://github.com/DmitryGaravsky/AutoClosingMessageBox)：会在指定超时时间后自动关闭的消息框。
+* [NetWinform](https://github.com/kwwwvagaa/NetWinformControl)：C# WinForm自定义控件，对触屏具有更好的操作支持。
 
 #### MAUI
 
@@ -4864,6 +4867,7 @@
 
 ## 游戏API
 
+* [Steamworks.NET](https://github.com/rlabrecque/Steamworks.NET)：Steamworks.NET是Valve的Steamworks API的C#包装器，它可以与Unity或基于C#的应用程序一起使用。
 * [PokeApiNet](https://github.com/jtwotimes/PokeApiNet)：Pokemon API的.NET包装器。
 * [ValveSockets C#](https://github.com/nxrighthere/ValveSockets-CSharp)：该仓库提供了一个针对GameNetworkingSockets库的托管C#抽象，由Valve创建和维护。
 * [RiotSharp](https://github.com/BenFradet/RiotSharp)：Riot Games API的C#封装。
@@ -4887,6 +4891,7 @@
 * [Riot Games .NET Client](https://github.com/mikaeldui/riot-games-dotnet-client)：适用于Riot Games及其游戏《英雄联盟》、《符文之地传说》、《云顶之弈》和《Valorant》的非官方.NET客户端。
 * [PoniLCU](https://github.com/Ponita0/PoniLCU)：PoniLCU是一个用于与英雄联盟客户端API通信的库。
 * [LeagueOfLegendsAPI](https://github.com/kRapaille/LeagueOfLegendsAPI)：适用于英雄联盟API的可移植C#库。
+* [Camille](https://github.com/MingweiSamuel/Camille)：Riot Games API的C#库。
 
 ## 象棋引擎
 
@@ -5060,6 +5065,7 @@
 * [Git GUI](https://github.com/kaisellgren/Git-GUI)：Git GUI是仅适用于Windows的Git源代码管理图形用户界面。
 * [Appy.GitDb](https://github.com/YellowLineParking/Appy.GitDb)：Appy.GitDb是一套用来将Git用作NoSQL数据库的软件包和应用程序。
 * [C# Github API](https://github.com/sgrassie/csharp-github-api)：这是一个用于访问GitHub开发者REST API的C#库。
+* [SourceGit](https://github.com/sourcegit-scm/sourcegit)：适用于Git用户的Windows/macOS/Linux GUI客户端。
 
 ## 远程控制
 
@@ -5778,6 +5784,7 @@
 * [Jobbr](https://github.com/jobbrIO/jobbr-server)：Jobbr是一个.NET作业服务器。
 * [DalSoft.Hosting.BackgroundQueue](https://github.com/DalSoft/DalSoft.Hosting.BackgroundQueue)：DalSoft.Hosting.BackgroundQueue是一个非常轻量级的.NET后台任务库。
 * [AsyncFlow](https://github.com/TheFo2sh/AsyncFlow)：轻松将异步作业流程集成到你的.NET应用程序中。
+* [Longbow.Tasks](https://gitee.com/LongbowEnterprise/Longbow.Tasks)：Longbow.Tasks是一款对标QuartZ与Hangfire的定时任务组件。
 
 ## Cron
 
@@ -5967,6 +5974,7 @@
 ## 静态分析
 
 * [Infer#](https://github.com/microsoft/infersharp)：Infer#是一个用于C#的进程间可扩展静态代码分析器。
+* [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)：PSScriptAnalyzer是PowerShell模块和脚本的静态代码检查器。
 * [ErrorProne.NET](https://github.com/SergeyTeplyakov/ErrorProne.NET)：ErrorProne.NET是一套基于Roslyn的分析器，能够帮助你编写正确的代码。
 * [Code Cracker](https://github.com/code-cracker/code-cracker)：一个用于C#和VB的分析器库，使用Roslyn来生成重构、代码分析和其他功能。
 * [NsDepCop](https://github.com/realvizu/NsDepCop)：NsDepCop是一个静态代码分析工具，用于在C#项目中强制执行命名空间和程序集依赖规则。
@@ -7567,6 +7575,7 @@
 
 ## 单位
 
+* [Units.NET](https://github.com/angularsen/UnitsNet)：Units.NET使计量单位的使用更简单。
 * [UnitGenerator](https://github.com/Cysharp/UnitGenerator)：C#源代码生成器，用于创建值对象模式，同时受计量单位的启发，以支持所有算术运算符和序列化。
 * [UnitConversion](https://github.com/atulmish/UnitConversion)：适用于.NET Core和.NET Framework的可扩展单位转换库。
 * [QuantityTypes](https://github.com/QuantityTypes/QuantityTypes)：.NET中的强类型物理量。
@@ -7611,6 +7620,7 @@
 
 * [ViVe](https://github.com/thebookisclosed/ViVe)：ViVe是一个C#库，你可以使用它来制作自己的程序，与Windows 10及更新版本中的A/B功能实验机制进行交互。
 * [FeatBit](https://github.com/featbit/featbit)：FeatBit是一个开源功能标志管理工具。
+* [Scientist.NET](https://github.com/scientistproject/Scientist.net)：Scientist库的.NET端口，用于仔细重构关键路径。
 * [.NET Feature Management](https://github.com/microsoft/FeatureManagement-Dotnet)：Feature Management提供了一种基于功能开发和公开应用程序功能的方法。
 * [FeatureToggle](https://github.com/jason-roberts/FeatureToggle)：.NET中简单、可靠的功能切换。
 * [FeatureSwitcher](https://github.com/mexx/FeatureSwitcher)：FeatureSwitcher是用于功能切换的小型库。
@@ -7939,6 +7949,7 @@
 * [Braintree .NET](https://github.com/braintree/braintree_dotnet)：Braintree .NET库提供对Braintree网关的集成访问。
 * [Authorize.Net .NET SDK](https://github.com/AuthorizeNet/sdk-dotnet)：Authorize .NET SDK。
 * [Payflow Gateway SDKs](https://github.com/paypal/payflow-gateway)：Payflow支付网关SDK。
+* [PayStack API .NET](https://github.com/adebisi-fa/paystack-dotnet)：面向.NET开发者的PayStack API。
 
 ## 电子发票
 
@@ -8253,6 +8264,7 @@
 
 ## 函数式异常处理
 
+* [FluentResults](https://github.com/altmann/FluentResults)：.NET/C#的通用Result对象实现。
 * [Throw](https://github.com/amantinband/throw)：一个简单、流式、可扩展且完全可定制的库，用于为使用.NET 6+的项目抛出异常。
 * [ManagedCode.Communication](https://github.com/managedcode/Communication)：.NET的结果模式，用类型安全的返回值替换异常。
 * [ResultBoxes](https://github.com/J-Tech-Japan/ResultBoxes)：专注于铁路导向编程的C#结果库。
@@ -9491,6 +9503,7 @@
 #### Mock框架
 
 * [Moq](https://github.com/devlooped/moq)：最流行、最友好的.NET Mock库。
+* [Pose](https://github.com/tonerdo/pose)：Pose允许你用代理替换任何.NET方法。
 * [NSubstitute](https://github.com/nsubstitute/NSubstitute)：NSubstitute被设计为.NET Mock库的友好替代品。
 * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy)：FakeItEasy是一个.NET动态伪造库，用于创建所有类型的伪对象、模拟、存根等。
 * [Rocks](https://github.com/JasonBock/Rocks)：基于编译器API的Mock库。
@@ -10512,189 +10525,10 @@
 * [Optick](https://github.com/bombomby/optick)：Optick是一款用于游戏的超轻量级C++分析器。
 * [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning)：用一个由单一简单version.json文件生成的独特版本盖章你的汇编、包等，并为非官方构建附上Git提交ID。
 * [BizHawk](https://github.com/TASEmulators/BizHawk)：EmuHawk是一个用C#编写的多系统模拟器。
-* [Yarn Spinner](https://github.com/YarnSpinnerTool/YarnSpinner)：Yarn Spinner是一款方便的游戏对话编写工具。
-* [XboxDownload](https://github.com/skydevil88/XboxDownload)：Xbox下载助手，支持Xbox、微软商店、PS、NS、EA app & Origin、战网、Epic、育碧、Riot Games、Rockstar Games下载加速，修复Steam商店社区、GitHub访问。
-* [Azure PowerShell](https://github.com/Azure/azure-powershell)：
-* [Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)：带有社区制作的插件的Windows快速文件搜索和应用程序启动器。
-* [Pinta](https://github.com/PintaProject/Pinta)：Pinta是Paint.Net 3.0的GTK克隆，支持Linux、Windows和macOS。
-* [Bloxstrap](https://github.com/bloxstraplabs/bloxstrap)：Bloxstrap是标准Roblox引导程序的第三方替代品，提供额外的有用功能和改进。
-* [Winhance](https://github.com/memstechtips/Winhance)：Winhance是一个C#应用程序，旨在优化和定制你的Windows体验。
-* [Space Station 14](https://github.com/space-wizards/space-station-14)：Space Station 14是SS13的翻版，运行在我们用C#编写的自主研发引擎Robust Toolbox上。
-* [PKHeX](https://github.com/kwsch/PKHeX)：神奇宝贝核心系列保存编辑器，用C#编写。
-* [Greenshot](https://github.com/greenshot/greenshot)：Greenshot是一款适用于Windows的轻量级截图软件工具。
-* [SoundSwitch](https://github.com/Belphemur/SoundSwitch)：SoundSwitch为你提供使用简单的热键切换播放和录音设备的机会。
-* [Radarr](https://github.com/Radarr/Radarr)：Radarr是Usenet和BitTorrent用户的电影收藏管理器。
-* [SourceGit](https://github.com/sourcegit-scm/sourcegit)：适用于Git用户的Windows/macOS/Linux GUI客户端。
-* [Stratum](https://github.com/stratumauth/app)：一款适用于Android的免费开源双因素身份验证应用。
-* [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI)：模块化AI图像生成Web用户界面，重点是使电动工具易于访问、高性能和可扩展性。
-* [Unigram](https://github.com/UnigramDev/Unigram)：Windows版Telegram。
-* [OpenTabletDriver](https://github.com/OpenTabletDriver/OpenTabletDriver)：OpenTabletDriver是一个开源、跨平台、用户模式平板电脑驱动程序。
-* [NETworkManager](https://github.com/BornToBeRoot/NETworkManager)：一个用于管理网络和解决网络问题的强大的开源工具。
-* [Starward](https://github.com/Scighost/Starward)：Starward是为了弥补HoYoPlay的不足而开发的一款开源第三方启动器。
-* [Hearthstone Deck Tracker](https://github.com/HearthSim/Hearthstone-Deck-Tracker)：Hearthstone Deck Tracker是炉石传说的自动卡牌追踪器和卡牌管理器。
-* [TiXL](https://github.com/tixl3d/tixl)：TiXL是一款用于创建实时动态图形的开源软件。
-* [Rubeus](https://github.com/GhostPack/Rubeus)：Rubeus是用于原始Kerberos交互和滥用的C#工具集。
-* [NatTypeTester](https://github.com/HMBSbige/NatTypeTester)：测试当前网络的NAT类型。
-* [Microsoft Application Inspector](https://github.com/microsoft/ApplicationInspector)：Microsoft Application Inspector是一种软件源代码表征工具，它可以帮助根据众所周知的库/API调用识别第一方或第三方软件组件的编码特征，并且在安全和非安全用例中很有帮助。
-* [Prowlarr](https://github.com/Prowlarr/Prowlarr)：Prowlarr是一个索引器管理器/代理，建立在流行的*arr .net/reactjs基础堆栈上，可与你的各种PVR应用程序集成。
-* [EverythingToolbar](https://github.com/srwi/EverythingToolbar)：由Everything提供支持的Windows任务栏即时文件搜索集成。
-* [SmartSystemMenu](https://github.com/AlexanderPro/SmartSystemMenu)：SmartSystemMenu扩展了系统中所有窗口的系统菜单。
-* [Raw Accel](https://github.com/RawAccelOfficial/rawaccel)：Raw Accel是Windows 10和Windows 11 x86-64驱动程序，允许加速原始输入流中的鼠标输入。
-* [](https://github.com/File-New-Project/EarTrumpet)：
-* [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)：DiscordChatExporter是一个应用程序，可用于将任何Discord频道的消息历史记录导出到文件。
-* [ImewlConverter](https://github.com/studyzy/imewlconverter)：一款输入法词库转换软件，支持以下超过20种的输入法工具和词库。
-* [Windows Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode)：按预定时间在Windows的深色和浅色主题之间切换。
-* [Driver Store Explorer](https://github.com/lostindark/DriverStoreExplorer)：Driver Store Explorer简化了Windows驱动程序存储的处理。
-* [Bili.UWP](https://github.com/Richasy/Bili.Uwp)：适用于新系统UI的哔哩。
-* [BiliBiliToolPro](https://github.com/RayWangQvQ/BiliBiliToolPro)：B站自动任务工具，支持Docker、青龙、K8s等多种部署方式。
 * [XDM](https://github.com/subhra74/xdm)：XDM是一款功能强大的工具，可将下载速度提高500%，保存来自热门视频流网站的视频，恢复损坏/死亡的下载，安排和转换下载。
-* [OFGB](https://github.com/xM4ddy/OFGB)：用于从Windows 11各个位置删除广告的GUI工具。
-* [Libre Hardware Monitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor)：Libre Hardware Monitor是一款免费软件，可以监控计算机的温度传感器、风扇速度、电压、负载和时钟速度。
-* [Steam Achievement Manager](https://github.com/gibbed/SteamAchievementManager)：Steam Achievement Manager是一款轻量级、可移植的应用程序，用于管理流行的PC游戏平台Steam中的成就和统计数据。
-* [Lenovo Legion Toolkit](https://github.com/BartoszCichecki/LenovoLegionToolkit)：Lenovo Legion Toolkit是一款为Lenovo Legion系列笔记本电脑创建的实用程序，可更改仅在Lenovo Vantage或Legion Zone中提供的几个功能。
-* [SharpKeys](https://github.com/randyrants/sharpkeys)：SharpKeys是一个管理注册表项的实用程序，它允许Windows将一个键重新映射到任何其他键。
-* [StabilityMatrix](https://github.com/LykosAI/StabilityMatrix)：用于Stable Diffusion的多平台包管理器和推理UI。
-* [Open Hardware Monitor](https://github.com/openhardwaremonitor/openhardwaremonitor)：开源硬件监视器。
-* [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)：跨平台的DASH/HLS/MSS下载工具。
-* [SyncTrayzor](https://github.com/canton7/SyncTrayzor)：SyncTrayzor是Windows上Syncthing的一个小托盘实用程序。
-* [VFSForGit](https://github.com/microsoft/VFSForGit)：VFSForGit会虚拟化Git仓库下的文件系统，以便Git和所有工具都能看到看似常规的工作目录。
-* [ToastFish](https://github.com/Uahh/ToastFish)：这是一个利用Windows通知栏背单词的软件。
-* [Borderless Gaming](https://github.com/Codeusa/Borderless-Gaming)：Borderless Gaming是一个简单的工具，它可以让你将窗口视频游戏变成全屏应用程序，而不会产生所有负面影响。
-* [Gsudo](https://github.com/gerardog/gsudo)：Gsudo是Windows的sudo等效项，具有与原始Unix/Linux sudo类似的用户体验。
-* [VPet](https://github.com/LorisYounger/VPet)：一个开源的桌宠软件, 可以内置到任何WPF应用程序。
-* [MisakaTranslator](https://github.com/hanmin0822/MisakaTranslator)：Galgame/文字游戏/漫画多语种实时机翻工具。
-* [ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)：ThisIsWin11可让你在一个地方自定义Windows 11。
-* [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector)：此工具用于修改NVIDIA驱动程序内部驱动程序数据库中的游戏配置文件。
-* [ClashN](https://github.com/2dust/clashN)：Windows的Clash客户端，支持Mihomo Core。
-* [SparkleShare](https://github.com/hbons/SparkleShare)：SparkleShare是一款文件共享和协作应用程序。
-* [GoogleTranslateIpCheck](https://github.com/Ponderfly/GoogleTranslateIpCheck)：扫描国内可用的谷歌翻译IP。
-* [StableSwarmUI](https://github.com/Stability-AI/StableSwarmUI)：模块化Stable Diffusion Web用户界面，重点是使电动工具易于访问、高性能和可扩展性。
-* [Little Big Mouse](https://github.com/mgth/LittleBigMouse)：Little Big Mouse是一款开源软件，旨在通过在多DPI显示器环境中提供准确的鼠标屏幕交叉位置来增强Windows 10和11上的多显示器体验。
-* [Wave Function Collapse](https://github.com/marian42/wavefunctioncollapse)：一个无限的、程序生成的城市，使用带有回溯的波函数坍缩算法由块组装而成。
-* [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop)：将macOS Mojave动态桌面功能移植到 Windows 10和11。
-* [USBipd Win](https://github.com/dorssel/usbipd-win)：用于将本地连接的USB设备共享到其他机器的Windows软件。
-* [Mica For Everyone](https://github.com/MicaForEveryone/MicaForEveryone)：Mica For Everyone是一个使用DwmSetWindowAttribute和其他方法自定义Win32应用程序系统背景的工具。
-* [SophiApp](https://github.com/Sophia-Community/SophiApp)：SophiApp是一款免费的开源应用程序，用于微调Windows 10和Windows 11。
-* [DLSS Swapper](https://github.com/beeradmoore/dlss-swapper)：DLSS Swapper是一种工具，可让你方便地下载、管理和交换DLSS、FSR和XeSS dll，从而让你无需更新游戏即可升级或降级游戏中的DLSS、FSR和XeSS版本。
-* [Bili.Copilot](https://github.com/Richasy/Bili.Copilot)：B站第三方Windows桌面客户端，使用Windows App SDK构建的原生应用。
-* [ShadowsocksR Windows](https://github.com/shadowsocksr-backup/shadowsocksr-csharp)：
-* [Tai](https://github.com/Planshit/Tai)：在Windows上统计软件使用时长和网站浏览时长。
-* [Covenant](https://github.com/cobbr/Covenant)：Covenant是一个.NET命令和控制框架，旨在突出.NET的攻击面，使攻击性.NET技术的使用更加容易，并作为红队的协作命令和控制平台。
-* [Malware Patch](https://github.com/the1812/Malware-Patch)：阻止指定软件的管理员授权，无需后台运行。
-* [Ink](https://github.com/inkle/ink)：Ink是inkle的脚本语言，用于编写交互式叙述，既适用于以文本为中心的游戏，也适用于包含高度分支故事的图形游戏。
-* [SharpWxDump](https://github.com/AdminTest0/SharpWxDump)：微信客户端取证，可获取用户个人信息(昵称/账号/手机/邮箱/数据库密钥)。
-* [QTTabBar](https://github.com/indiff/qttabbar)：QTTabBar是一个小工具，可让你在Windows资源管理器中使用选项卡多标签功能。
-* [Carnac](https://github.com/Code52/carnac)：用于演示、截屏录像的键盘记录和演示实用程序，可帮助你成为更好的键盘用户。
-* [OptiKey](https://github.com/OptiKey/OptiKey)：OptiKey是一款屏幕键盘，旨在帮助运动神经元疾病(MND)患者与Windows计算机交互。
-* [Downkyi](https://github.com/yaobiao131/downkyicore)：哔哩下载姬(跨平台版)downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱(音视频提取、去水印等)。
-* [Lidarr](https://github.com/Lidarr/Lidarr)：Lidarr是Usenet和BitTorrent用户的音乐收藏管理器。
-* [BetterJoy](https://github.com/Davidobot/BetterJoy)：允许Nintendo Switch Pro控制器、Joycons和Switch SNES控制器与Cemu一起使用，使用Cemuhook、Citra、Dolphin、Yuzu和具有通用XInput支持的全系统。
-* [BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder)：
-* [Sheas Cealer](https://github.com/SpaceTimee/Sheas-Cealer)：Sheas Cealer是一个基于WPF的桌面端SNI伪造工具。
-* [Galaxy Buds Client](https://github.com/timschneeb/GalaxyBudsClient)：适用于Windows、macOS、Linux和Android的非官方Galaxy Buds管理器。
-* [MPV.NET](https://github.com/mpvnet-player/mpv.net)：MPV.NET是一款具有现代GUI的Windows媒体播放器。
-* [Seatbelt](https://github.com/GhostPack/Seatbelt)：Seatbelt是一个C#项目，它执行一系列面向安全的主机调查安全检查，与进攻性和防御性安全角度相关。
-* [Parsec VDD](https://github.com/nomi-san/parsec-vdd)：该项目提供了一个独立的解决方案，用于使用Parsec虚拟显示驱动程序(VDD)在Windows主机上创建虚拟显示器，独立于Parsec应用程序。
-* [Aerial](https://github.com/cDima/Aerial)：Aerial是一个Windows屏幕保护程序，基于新的Apple TV屏幕保护程序，它会显示苹果公司拍摄的纽约、旧金山、夏威夷、中国等地的航空电影。
-* [PSReadLine](https://github.com/PowerShell/PSReadLine)：受bash启发的PowerShell readline实现。
-* [Steamless](https://github.com/atom0s/Steamless)：Steamless是一个DRM移除器，可移除各种SteamStub变体，适用于通过Steamworks SDK中的DRM工具在Steam上发布的应用程序和游戏。
-* [Translumo](https://github.com/Danily07/Translumo)：用于游戏、视频中的硬编码字幕、静态文本等的高级实时屏幕翻译器。
-* [NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016)：OneNote 2016和OneNote for O365的源代码语法高亮显示。
-* [Monitorian](https://github.com/emoacht/Monitorian)：Monitorian是一款Windows桌面工具，可轻松调整多个显示器的亮度。
-* [Ombi](https://github.com/Ombi-app/Ombi)：Ombi是一款便捷的媒体请求工具，会自动同步你的媒体服务器。
-* [ModernFlyouts](https://github.com/ModernFlyouts-Community/ModernFlyouts)：一套开源、现代、基于Fluent Design的Windows弹出窗口。
-* [CefFlashBrowser](https://github.com/Mzying2001/CefFlashBrowser)：CefFlashBrowser是一个自带Flash Player插件的浏览器，可以正常显示网页上的Flash内容，此外还支持打开本地SWF文件，管理Flash游戏存档等。
-* [Celeste](https://github.com/NoelFB/Celeste)：
-* [Privatezilla](https://github.com/builtbybel/privatezilla)：Privatezilla是对你的Windows 10副本执行快速隐私和安全检查的最简单方法。
-* [ConfuserEx](https://github.com/yck1509/ConfuserEx)：.NET应用程序的开源免费保护器。
-* [Steam Desktop Authenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator)：Steam移动身份验证器应用程序的桌面实现。
-* [Geographical Adventures](https://github.com/SebLague/Geographical-Adventures)：一款正在开发中的地理小游戏，内容是将包裹运送到世界各地。
-* [RetroBar](https://github.com/dremin/RetroBar)：RetroBar可以将你现代的Windows任务栏替换为经典的Windows 95、98、Me、2000、XP或Vista风格。
-* [WechatBakTool](https://github.com/SuxueCode/WechatBakTool)：基于C#开发的微信聊天记录备份分析工具。
-* [Skinner](https://github.com/keijiro/Skinner)：Skinner是一组使用动画蒙皮网格的顶点作为发射点的特殊效果。
-* [Windows Memory Cleaner](https://github.com/IgorMundstein/WinMemoryCleaner)：这款免费的RAM清理工具利用Windows原生功能来优化内存区域。
-* [SubsCheck Win GUI](https://github.com/cmliu/SubsCheck-Win-GUI)：SubsCheck为Windows用户设计的GUI程序界面。
-* [Readarr](https://github.com/Readarr/Readarr)：Readarr是一款面向Usenet和BitTorrent用户的电子书和有声书收藏管理器。
-* [PicView](https://github.com/Ruben2776/PicView)：PicView是一款快速、免费且可完全自定义的图片查看器，适用于macOS和Windows 10/11。
-* [Mixbox](https://github.com/scrtwpns/mixbox)：Mixbox是一种用于自然色彩混合的新型混合方法。
-* [Camille](https://github.com/MingweiSamuel/Camille)：
-* [.NET Reference Source](https://github.com/microsoft/referencesource)：包含来自Microsoft .NET参考源的源代码，这些源代码代表了.NET Framework的一个子集。
-* [BruteShark](https://github.com/odedshimon/BruteShark)：BruteShark是一种网络取证分析工具(NFAT)，可对网络流量(主要是PCAP文件，但也能够直接从网络接口实时捕获)进行深度处理和检查。
-* [Facepunch.Steamworks](https://github.com/Facepunch/Facepunch.Steamworks)：另一个C# Steamworks实现。
-* [FOCA](https://github.com/ElevenPaths/FOCA)：FOCA是一款主要用于在扫描的文档中查找元数据和隐藏信息的工具。
-* [Thrive](https://github.com/Revolutionary-Games/Thrive)：Thrive是一款关于生命进化的免费开源游戏。
-* [ACAT](https://github.com/intel/acat)：ACAT是由英特尔实验室创建的开源平台，它旨在增强语音和打字能力受限人士的沟通能力。
-* [163MusicLyrics](https://github.com/jitwxs/163MusicLyrics)：云音乐歌词获取处理工具。
-* [ScpToolkit](https://github.com/nefarius/ScpToolkit)：适用于索尼DualShock 3/4控制器的Windows驱动程序和XInput包装器。
-* [Kudu](https://github.com/projectkudu/kudu)：Kudu是git/hg部署、WebJobs以及Azure网站中其他各种功能的引擎。
-* [Cairo](https://github.com/cairoshell/cairoshell)：适用于Windows的可定制、直观的桌面环境。
-* [ILRuntime](https://github.com/Ourpalm/ILRuntime)：纯C# IL解释器运行时，对于无法进行即时编译的环境中的脚本要求来说，它快速且可靠。
-* [RoundedTB](https://github.com/RoundedTB/RoundedTB)：为你的任务栏添加边距、圆角和段。
-* [NBFC](https://github.com/hirschmann/nbfc)：NBFC是一款跨平台的笔记本电脑风扇控制服务。
-* [SyncClipboard](https://github.com/Jeric-X/SyncClipboard)：跨平台剪贴板同步方案。
-* [DS4Windows](https://github.com/Jays2Kings/DS4Windows)：DS4Windows是一款便携式程序，可让你在PC上使用DualShock 4时获得最佳体验。
-* [UtinyRipper](https://github.com/mafaca/UtinyRipper)：UtinyRipper是一种从序列化文件和资产包中提取资产并将其转换为原生引擎格式的工具。
-* [](https://github.com/KeenSoftwareHouse/SpaceEngineers)：
-* [OpenUtau](https://github.com/stakira/OpenUtau)：OpenUtau是一款专为UTAU社区打造的免费开源编辑器。
-* [Rant](https://github.com/TheBerkin/rant3)：Rant是一个通用的程序文本引擎，最简单的描述是Regex的对立面。
-* [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher)：XIVLauncher是我们最喜欢的、广受好评的MMO的更快启动器，具有各种可用的附加组件和游戏增强功能。
-* [.NET SDK](https://github.com/dotnet/sdk)：该仓库包含创建在Visual Studio和.NET CLI之间共享的.NET项目所需的核心功能。
-* [.NET Script](https://github.com/dotnet-script/dotnet-script)：从.NET CLI运行C#脚本，内联定义NuGet包并在VS Code中编辑/调试它们。
-* [ONLYOFFICE Community Server](https://github.com/ONLYOFFICE/CommunityServer)：ONLYOFFICE Community Server是一个免费的开源协作系统，旨在集中管理文档、项目、客户关系和电子邮件通信。
-* [BaiduPanDownload](https://github.com/Accelerider/BaiduPanDownloadWinform)：百度网盘不限速下载工具。
-* [](https://github.com/microsoft/Git-Credential-Manager-for-Windows)：
-* [QMK Toolbox](https://github.com/qmk/qmk_toolbox)：这是一款集成了多种刷机工具的应用程序。
-* [Units.NET](https://github.com/angularsen/UnitsNet)：向你的代码添加强类型数量。
-* [FNA](https://github.com/FNA-XNA/FNA)：FNA是一个XNA4的重新实现，它专注于为桌面开发一个完全准确的XNA4运行时。
-* [USBCopyer](https://github.com/kenvix/USBCopyer)：用于在插上目标U盘后自动按需复制该U盘的文件。
-* [RePKG](https://github.com/notscuffed/repkg)：壁纸引擎PKG解包器/TEX转换器，用C#编写。
-* [StyleCop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)：使用.NET编译器平台实现StyleCop规则。
-* [OpenTrace](https://github.com/Archeb/opentrace)：OpenTrace是NextTrace的跨平台GUI界面，带来你熟悉但更强大的用户体验。
-* [BaGet](https://github.com/loic-sharma/BaGet)：BaGet是一款轻量级的NuGet和符号服务器。
-* [KinoGlitch](https://github.com/keijiro/KinoGlitch)：KinoGlitch是一个故障视频特效合集。
-* [Serenity](https://github.com/serenity-is/Serenity)：Serenity是一个ASP.NET Core/TypeScript应用程序平台，旨在通过基于服务的架构简化和缩短以数据为中心的业务应用程序的开发。
 * [OpenRPA](https://github.com/open-rpa/openrpa)：开源机器人流程自动化软件。
-* [Taskbar Groups](https://github.com/tjackenpacken/taskbar-groups)：Taskbar Groups是Windows的轻量级实用程序，允许用户在任务栏中创建快捷方式组。
-* [PingCastle](https://github.com/netwrix/pingcastle)：在20%的时间内将Active Directory安全性提高到80%。
-* [Mod Assistant](https://github.com/bsmg/ModAssistant)：Mod Assistant是一款适用于《Beat Saber》的PC版Mod安装程序。
-* [SpleeterGUI](https://github.com/boy1dr/SpleeterGui)：Spleeter的Windows桌面前端。
-* [GeekDesk](https://github.com/BookerLiu/GeekDesk)：小巧、美观的桌面快速启动管理工具，集成Everything搜索功能。
-* [TShock](https://github.com/Pryaxis/TShock)：TShock是Terraria服务器和社区的工具箱。
-* [HackBGRT](https://github.com/Metabolix/HackBGRT)：HackBGRT旨在作为基于UEFI的Windows系统的启动徽标更改器。
-* [YarnSpinner](https://github.com/YarnSpinnerTool/YarnSpinner)：Yarn Spinner是一款方便的游戏对话编写工具。
-* [Costura](https://github.com/Fody/Costura)：将依赖项嵌入为资源。
-* [Sidebar Diagnostics](https://github.com/ArcadeRenegade/SidebarDiagnostics)：Windows桌面的简单侧边栏，显示硬件诊断信息。
-* [Snoop](https://github.com/snoopwpf/snoopwpf)：Snoop是一个开源WPF间谍实用程序。
-* [Simple DNSCrypt](https://github.com/bitbeans/SimpleDnsCrypt)：Simple DNSCrypt是一个简单的管理工具，用于在基于Windows的系统上配置dnscrypt-proxy。
-* [WiX 3](https://github.com/wixtoolset/wix3)：WiX工具集从XML源代码构建Windows安装包。
-* [FreeControl](https://github.com/pdone/FreeControl)：在PC上控制Android设备。
-* [Ezy Slice](https://github.com/DavidArayan/ezy-slice)：Unity3D游戏引擎的开源切片器框架。
-* [Unity Movement AI](https://github.com/sturdyspoon/unity-movement-ai)：Unity Movement AI是一个包含常见运动AI脚本的库。
-* [PolySharp](https://github.com/Sergio0694/PolySharp)：PolySharp为C#语言功能提供了生成的、仅源代码的polyfill，以便轻松使用所有与运行时无关的下级功能。
-* [Kernel Memory](https://github.com/microsoft/kernel-memory)：Kernel Memory是一种多模式AI服务，专门通过自定义连续数据混合管道对数据集进行高效索引，支持RAG、合成记忆、提示工程和自定义语义记忆处理。
 * [](https://github.com/rubberduck-vba/Rubberduck)：
-* [MissionPlanner](https://github.com/ArduPilot/MissionPlanner)：ArduPilot的任务规划器地面控制站。
-* [InjectFix](https://github.com/Tencent/InjectFix)：InjectFix是Unity的修补程序解决方案库。
-* [SecurityDriven.Inferno](https://github.com/sdrapkin/SecurityDriven.Inferno)：.NET加密技术正宗应用。
-* [VpnHood](https://github.com/vpnhood/VpnHood)：VpnHood是一款绕过高级防火墙和深度包检测的解决方案。
-* [ProtonVPN](https://github.com/ProtonVPN/win-app)：ProtonVPN官方Windows应用。
-* [ChoEazyCopy](https://github.com/Cinchoo/ChoEazyCopy)：简单而强大的Microsoft RoboCopy工具GUI RoboCopy是Microsoft Windows Server中包含的强大工具，用于执行更高级的文件复制任务。
-* [WWT Windows](https://github.com/WorldWideTelescope/wwt-windows-client)：世界望远镜Windows客户端。
-* [XMusicDownloader](https://github.com/jadepeng/XMusicDownloader)：XMusicDownloader是一款支持从百度、网易、QQ和酷狗、咪咕音乐等音乐网站搜索并下载歌曲的程序。
-* [Pose](https://github.com/tonerdo/pose)：Pose允许你用代理替换任何.NET方法。
-* [Steamworks.NET](https://github.com/rlabrecque/Steamworks.NET)：Steamworks.NET是Valve的Steamworks API的C#包装器，它可以与Unity或基于C#的应用程序一起使用。
-* [Scientist.NET](https://github.com/scientistproject/Scientist.net)：Scientist库的.NET端口，用于仔细重构关键路径。
-* [Peasy.NET](https://github.com/peasy/Peasy.NET)：.NET和.NET Core的业务逻辑微框架。
-* [ATF](https://github.com/SonyWWS/ATF)：ATF是一组用于在Windows上制作工具的C#/.NET组件。
-* [RegExtract](https://github.com/sblom/RegExtract)：快速而又简洁的惯用C#行解析器，可将文本提取为实用数据类型。
-* [Squish](https://github.com/jetheredge/SquishIt)：Squish是一个针对.NET Web应用程序的资产优化库。
-* [PSScriptAnalyzer](https://github.com/PowerShell/PSScriptAnalyzer)：PSScriptAnalyzer是PowerShell模块和脚本的静态代码检查器。
 * [Azure Functions Host](https://github.com/Azure/azure-functions-host)：该仓库包含Azure Functions服务使用的运行时主机的代码。
-* [Orleankka](https://github.com/OrleansContrib/Orleankka)：Orleankka是Microsoft Orlean框架的功能扩展。
-* [NetWinform](https://github.com/kwwwvagaa/NetWinformControl)：C# WinForm自定义控件，对触屏具有更好的操作支持。
-* [FluentResults](https://github.com/altmann/FluentResults)：.NET/C#的通用Result对象实现。
-* [Glimpse](https://github.com/Glimpse/Glimpse)：面向Web的开源诊断平台。
-* [Dnlib](https://github.com/0xd4d/dnlib)：.NET模块/程序集读取器/写入器库。
 * [TreeCollections](https://github.com/davidwest/TreeCollections)：一个用C#编写的泛型树库，专注于层级实体表示。
 
 ## 布隆过滤器
@@ -10743,6 +10577,8 @@
 
 ## 脚本引擎
 
+* [Ink](https://github.com/inkle/ink)：Ink是inkle的脚本语言，用于编写交互式叙述，既适用于以文本为中心的游戏，也适用于包含高度分支故事的图形游戏。
+* [.NET Script](https://github.com/dotnet-script/dotnet-script)：从.NET CLI运行C#脚本，内联定义NuGet包并在VS Code中编辑/调试它们。
 * [CS Script.Core](https://github.com/oleg-shilo/cs-script.core)：CS Script的.NET Core移植版。
 * [LSharp](https://github.com/lightszero/LSharp)：直接解析执行IL的脚本引擎。
 * [ClearScript](https://github.com/ClearFoundry/ClearScript)：ClearScript是一个库，使在你的.NET应用程序中添加脚本变得容易。
@@ -10804,6 +10640,7 @@
 
 ## 字节码操作
 
+* [Dnlib](https://github.com/0xd4d/dnlib)：.NET模块/程序集读取器/写入器库。
 * [AsmResolver](https://github.com/Washi1337/AsmResolver)：AsmResolver是一个用于读取、修改和重建可移植可执行文件(PE)的库。
 * [Reflexil](https://github.com/sailro/Reflexil)：Reflexil是一个程序集编辑器，并作为Red Gate的Reflector、ILSpy和Telerik的JustDecompile的插件运行。
 * [AsmJit](https://github.com/hypeartist/AsmJit)：.NET的x86/x64 JIT汇编器。
@@ -11199,3 +11036,8 @@
 * [Tuxboard](https://github.com/jdanylko/Tuxboard)：Tuxboard是一个轻量级的开源ASP.NET Core仪表盘库。
 * [Humidifier](https://github.com/jakejscott/Humidifier)：Humidifier允许你以编程方式构建AWS CloudFormation模板。
 * [Codez](https://github.com/khalidabuhakmeh/codez)：Codez是一个旨在帮助简化为最终用户生成代码过程的库，这些代码可用于确认号码、预订系统、错误代码等。
+* [ILRuntime](https://github.com/Ourpalm/ILRuntime)：纯C# IL解释器运行时，对于无法进行即时编译的环境中的脚本要求来说，它快速且可靠。
+* [.NET SDK](https://github.com/dotnet/sdk)：该仓库包含创建在Visual Studio和.NET CLI之间共享的.NET项目所需的核心功能。
+* [Costura](https://github.com/Fody/Costura)：将依赖项嵌入为资源。
+* [PolySharp](https://github.com/Sergio0694/PolySharp)：PolySharp为C#语言功能提供了生成的、仅源代码的polyfill，以便轻松使用所有与运行时无关的下级功能。
+* [RegExtract](https://github.com/sblom/RegExtract)：快速而又简洁的惯用C#行解析器，可将文本提取为实用数据类型。
