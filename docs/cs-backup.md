@@ -17,8 +17,8 @@
 * [插件框架](#插件框架)
 * [超媒体](#超媒体)
 * [IDE](#IDE)
-* [CLR](#CLR)
 * [文本编辑器](#文本编辑器)
+* [CLR](#CLR)
 * [IoC](#IoC)
 * [AOP](#AOP)
 * [GraphQL](#GraphQL)
@@ -53,7 +53,6 @@
 * [BitTorrent](#BitTorrent)
 * [Radius](#Radius)
 * [Asterisk](#Asterisk)
-* [端口转发](#端口转发)
 * [工作流](#工作流)
 * [人工智能](#人工智能)
 * [机器学习](#机器学习)
@@ -331,7 +330,6 @@
 * [视频库](#视频库)
 * [视频通讯](#视频通讯)
 * [多媒体库](#多媒体库)
-* [音视频软件](#音视频软件)
 * [媒体服务器](#媒体服务器)
 * [摄像头](#摄像头)
 * [推送](#推送)
@@ -846,13 +844,6 @@
 * [TurboSharp](https://github.com/Open-Inventions/TurboSharp)：一个用于C#的命令行集成开发环境。
 * [Nyan Compiler](https://github.com/NYAN-x-CAT/Nyan-Compiler)：Nyan Compiler是一个使用CodeDOM的基础C# VB.NET集成开发环境。
 
-## CLR
-
-* [Mono](https://github.com/mono/mono)：Mono是一个软件平台，旨在让开发人员轻松创建跨平台应用程序。
-* [CoreRT](https://github.com/dotnet/corert)：CoreRT是一个针对AOT场景优化的实验性.NET Core运行时，以及附带的编译器工具链。
-* [ManagedDotnetGC](https://github.com/kevingosse/ManagedDotnetGC)：用纯C#编写的自定义.NET垃圾回收器的实现。
-* [Natsu CLR](https://github.com/dotnetGame/natsu-clr)：Natsu CLR是一个与.Net Core兼容的il2cpp转译器和运行时。
-
 ## 文本编辑器
 
 * [AvalonEdit](https://github.com/icsharpcode/AvalonEdit)：AvalonEdit是SharpDevelop 4.x Mirador及更高版本中基于WPF的文本编辑器的名称。
@@ -872,6 +863,13 @@
 * [MEditor](https://github.com/sunminghong/MEditor)：MEditor是一个具有多窗口的文本编辑器，你可以将它用作Markdown编辑器并进行预览。
 * [Vex](https://github.com/dotnet9/Vex)：Vex提供一个轻量、清爽、可离线使用的Markdown写作环境。
 * [SerrisCodeEditor](https://github.com/Seeriis/SerrisCodeEditor)：适用于Windows 10的模块化代码编辑器。
+
+## CLR
+
+* [Mono](https://github.com/mono/mono)：Mono是一个软件平台，旨在让开发人员轻松创建跨平台应用程序。
+* [CoreRT](https://github.com/dotnet/corert)：CoreRT是一个针对AOT场景优化的实验性.NET Core运行时，以及附带的编译器工具链。
+* [ManagedDotnetGC](https://github.com/kevingosse/ManagedDotnetGC)：用纯C#编写的自定义.NET垃圾回收器的实现。
+* [Natsu CLR](https://github.com/dotnetGame/natsu-clr)：Natsu CLR是一个与.Net Core兼容的il2cpp转译器和运行时。
 
 ## IoC
 
@@ -1582,13 +1580,6 @@
 * [AsterNET](https://github.com/AsterNET/AsterNET)：AsterNET是一个用于Asterisk AMI和FastAGI的开源框架。
 * [AmiClient](https://github.com/alexforster/AmiClient)：用于.NET的Asterisk管理接口(AMI)客户端库。
 
-## 端口转发
-
-* [PortTran](https://github.com/k8gege/PortTran)：.NET端口转发工具。
-* [SharpRedirect](https://github.com/lsecqt/SharpRedirect)：SharpRedirect是一个基于.NET Framework的简单重定向器，可以将指定的本地端口重定向到目标主机和端口。
-* [PortProxyGUI](https://github.com/zmjack/PortProxyGUI)：一个用于netsh接口端口代理的管理器，用于评估Windows上的TCP/IP端口重定向。
-* [MeshCentralRouter](https://github.com/Ylianst/MeshCentralRouter)：MeshCentral Router是一款Windows TCP/UDP端口映射工具。
-
 ## 工作流
 
 * [Workflow Core](https://github.com/danielgerlag/workflow-core)：Workflow Core是一个针对.NET标准的轻量级可嵌入工作流引擎。
@@ -1900,11 +1891,8 @@
 
 ## 语音识别
 
-* [OptiKey](https://github.com/OptiKey/OptiKey)：OptiKey是一款屏幕键盘，旨在帮助运动神经元疾病(MND)患者与Windows计算机交互。
-* [LiveCaptions Translator](https://github.com/SakiRinn/LiveCaptions-Translator)：基于Windows LiveCaptions的轻量且强大的实时音频/语音翻译工具。
+* [Vosk](https://github.com/alphacep/vosk-api)：Vosk是一款离线开源语音识别工具包。
 * [Whisper.NET](https://github.com/sandrohanea/whisper.net)：OpenAI Whisper的.NET绑定。
-* [TTS Voice Wizard](https://github.com/VRCWizard/TTS-Voice-Wizard)：使用TTS语音向导的无障碍功能来提升你的VRChat体验。
-* [Whisperer](https://github.com/tigros/Whisperer)：Whisperer允许你为任何类型的视频/音频文件生成字幕。
 * [TTSController](https://github.com/ksasao/TTSController)：一个统一使用各种文本转语音引擎的库。
 * [Vonage .NET](https://github.com/Vonage/vonage-dotnet-sdk)：Vonage REST API客户端用于.NET，使用C#编写。
 * [Syn Speech](https://github.com/SynHub/syn-speech)：Syn Speech是一款灵活且与说话者无关的连续语音识别引擎，适用于Mono和.NET框架。
@@ -1918,8 +1906,8 @@
 
 ## 语音合成
 
+* [Supertonic](https://github.com/supertone-inc/supertonic)：Supertonic是一款速度极快的设备端多语言文本转语音系统，专为本地推理而设计，开销极低。
 * [Toolbelt.Blazor.SpeechSynthesis](https://github.com/jsakamoto/Toolbelt.Blazor.SpeechSynthesis)：这是一个用于Blazor应用程序的类库，用于提供语音合成API访问。
-* [AstraTTS](https://github.com/Blackwood416/AstraTTS)：基于ONNX Runtime的高性能语音合成解决方案，支持流式输出、高性能并发推理、多音色管理。
 * [SharpTalk](https://github.com/whatsecretproject/SharpTalk)：FonixTalk TTS引擎的.NET封装器。
 * [Edge TTS Sharp](https://github.com/Entity-Now/Edge_tts_sharp)：Edge TTS Sharp是一个免费的C#库，调用Microsoft Edge Text to Speech接口生成高质量的语音音频。
 
@@ -1931,15 +1919,12 @@
 * [Cognitive Vision Windows](https://github.com/microsoft/Cognitive-Vision-Windows)：适用于Microsoft计算机视觉API的Windows SDK，认知服务的一部分。
 * [YoloDotNet](https://github.com/NickSwardh/YoloDotNet)：YoloDotNet是一个模块化的轻量级C#库，用于.NET中的实时计算机视觉和基于YOLO的推理。
 * [YoloSharp](https://github.com/dme-compunet/YoloSharp)：基于YOLO11和ONNX Runtime的高性能实时目标检测解决方案。
-* [OpenHalcon](https://github.com/yanglei50/OpenHalcon)：开源工业级机器视觉平台。
 * [Yolov8.Net](https://github.com/sstainba/Yolov8.Net)：这是一个用于在ONNX Runtime使用Yolov5和Yolov8模型的.NET接口。
 * [Alturos.Yolo](https://github.com/AlturosDestinations/Alturos.Yolo)：一套最先进的C#实时对象检测系统。
 * [Yolov5Net](https://github.com/techwingslab/yolov5-net)：YOLOv5物体检测，支持C#、ML.NET、ONNX。
 * [YoloSharp](https://github.com/IntptrMax/YoloSharp)：使用TorchSharp在C#中训练Yolo模型。
 * [Yolov7net](https://github.com/ivilson/Yolov7net)：.NET 8的Yolo检测器。
-* [VisionEdit](https://github.com/eggplantlwj/VisionEdit)：基于Halcon的一款通用图像处理工具。
 * [MediaPipe.NET](https://github.com/cosyneco/MediaPipe.NET)：适用于Google MediaPipe的纯.NET绑定。
-* [Microsoft Emotion API](https://github.com/microsoft/Cognitive-Emotion-Windows)：适用于Microsoft Emotion API的Windows SDK。
 * [Zack.OpenCVSharp.Ext](https://github.com/yangzhongke/Zack.OpenCVSharp.Ext)：OpenCVSharp的一个扩展库，提供了ResourceTracker，可以简化Mat和其他非托管资源的管理。
 * [StableDiffusionSharp](https://github.com/IntptrMax/StableDiffusionSharp)：在C#中使用Stable Diffusion。
 * [NiWrapper.Net](https://github.com/falahati/NiWrapper.Net)：OpenNI 2.2.0.33和NiTE 2.2.0.11 .NET封装器(包括可再分发文件)。
@@ -1947,7 +1932,6 @@
 * [Genesis.CV](https://github.com/Doomer3D/Genesis.CV)：Genesis.CV是一个计算机视觉库。
 * [SharpSenses](https://github.com/SharpSenses/SharpSenses)：使用RealSense SDK的更简单方法，自定义姿势、手势及更多功能。
 * [Motion Gestures C#](https://github.com/uacaps/MotionGestureRecognizers-CSharp)：MotionGestureRecognizers是一个简单、多平台的手势库，适用于Leap Motion，它模仿了iOS的UIGestureRecognizer类。
-* [Yolo8 ByteTrack CSharp](https://github.com/devhxj/Yolo8-ByteTrack-CSharp)：C#中的ByteTrack实现。
 
 ## OCR
 
@@ -4051,7 +4035,6 @@
 * [Caliburn.Micro](https://github.com/Caliburn-Micro/Caliburn.Micro)：Caliburn.Micro是一个小巧但功能强大的框架，旨在构建跨所有XAML平台的应用程序。
 * [DMSkin](https://github.com/944095635/DMSkin)：这是一个全新的项目，快速开发WPF客户端的框架。
 * [HTML Renderer](https://github.com/ArthurHub/HTML-Renderer)：跨框架、多用途、100%托管、高性能HTML渲染库。
-* [WPF ABP](https://github.com/HenJigg/wpf-abp)：基于ABP框架Xamarin.Forms的跨平台移动项目和WPF客户端。
 * [XAML Behaviors](https://github.com/microsoft/XamlBehaviorsWpf)：XAML Behaviors是一种易于使用的方式，可以用最少的代码为你的WPF应用添加常见且可重复使用的交互性。
 * [XAML Math](https://github.com/ForNeVeR/xaml-math)：XAML Math是一套.NET库，用于使用LaTeX排版风格渲染数学公式，适用于基于WPF和Avalonia的XAML框架。
 * [CalcBinding](https://github.com/Alex141/CalcBinding)：CalcBinding是一个高级的Binding标签扩展，允许你在XAML中编写计算过的绑定表达式，无需自定义转换器。
@@ -4061,7 +4044,6 @@
 * [NHotkey](https://github.com/thomaslevesque/NHotkey)：一个管理库，用于处理WinForms和WPF应用程序中的全局快捷键。
 * [MdXaml](https://github.com/whistyun/MdXaml)：MdXaml是Markdown.Xaml的一个修改版本。
 * [WpfExtensions](https://github.com/DingpingZhang/WpfExtensions)：现有MVVM框架的补充。
-* [Ink Canvas](https://github.com/WXRIW/Ink-Canvas)：Ink Canvas是一个出色的WPF/C#墨水画布，对Seewo Boards的支持非常出色。
 * [Xamarin Forms Tab Badge](https://github.com/xabre/xamarin-forms-tab-badge)：Xamarin Forms可绑定标签，适用于iOS、Android、UWP、MacOS和WPF。
 * [Livet](https://github.com/runceel/Livet)：Livet是WPF上MVVM模式的基础设施。
 * [Meta.Vlc](https://github.com/devkanro/Meta.Vlc)：Meta.Vlc是一个LibVlc封装库的.NET实现，封装了大部分的LibVlc的功能，该项目主要是为了寻求一个在WPF上使用Vlc的完美的解决方案。
@@ -4136,6 +4118,7 @@
 * [ControlzEx](https://github.com/ControlzEx/ControlzEx)：WPF共享控件。
 * [Wpf Hexeditor](https://github.com/abbaye/WpfHexEditorControl)：Wpf Hexeditor是一个强大且完全可定制的用户控件，可用于编辑文件或流，涵盖十六进制、十进制和二进制。
 * [Arthas](https://github.com/oneo-me/Arthas-WPFUI)：WPF控件库，支持.NET 7.0 Windows Desktop。
+* [Nodify](https://github.com/miroiu/nodify)：一套专为MVVM架构设计的高性能节点式编辑器控件集合。
 * [WPF ControlBase](https://github.com/HeBianGu/WPF-ControlBase)：WPF封装的自定义控件资源库。
 * [PanuonUI](https://github.com/Mochengvia/PanuonUI)：一个好看精致，不限制个人或商业使用的WPF控件库。
 * [Font Awesome WPF/UWP](https://github.com/charri/Font-Awesome-WPF)：WPF和UWP控件，用于标志性字体和CSS工具包Font Awesome。
@@ -4678,20 +4661,15 @@
 * [WebView](https://github.com/OutSystems/WebView)：WebView允许你将Chromium嵌入到.NET应用中。
 * [CefGlue](https://github.com/OutSystems/CefGlue)：CefGlue允许你在.NET应用中嵌入Chromium。
 * [FlaUI](https://github.com/FlaUI/FlaUI)：FlaUI是一个.NET库，可帮助对Windows应用程序进行自动化UI测试。
-* [Winium.Desktop](https://github.com/2gis/Winium.Desktop)：Winium.Desktop是一款开源的测试自动化工具，用于基于WinForms和WPF平台的Windows应用程序进行自动化测试。
-* [Nodify](https://github.com/miroiu/nodify)：为MVVM设计的基于节点的编辑器的高性能控件集合。
 * [Webview C#](https://github.com/webview-cs/webview-cs)：Webview的C#绑定。
 * [CefGlue.Core](https://github.com/VitalElement/CefGlue.Core)：CefGlue的.NET Core移植。
 * [UltralightSharp](https://github.com/ImpromptuNinjas/UltralightSharp)：Ultralight项目的多平台.NET绑定。
-* [SharpBrowser](https://github.com/sharpbrowser/SharpBrowser)：SharpBrowser是最快、功能最全面的开源C# Web浏览器。
 * [Optimus](https://github.com/RusKnyaz/Optimus)：Optimus是一款完全基于.NET实现的无头Web浏览器。
-* [WebExpress](https://github.com/sentialx/WebExpress)：这是一个用C# WPF开发的高级Web浏览器。
 * [Webkit Sharp](https://github.com/mono/webkit-sharp)：WebKit/Gtk C#/CLI绑定。
 * [BrowseSharp](https://github.com/Jayx239/BrowseSharp)：一个支持网页导航、HTML解析和JavaScript执行的无头浏览器。
 * [AwesomiumSharp](https://github.com/khrona/AwesomiumSharp)：AwesomiumSharp是Awesomium的.NET封装器。
 * [WebView2Aot](https://github.com/smourier/WebView2Aot)：Microsoft WebView2 .NET 10兼容AOT的绑定，完全独立于WinForms或WPF。
 * [WebView2.DOM](https://github.com/R2D221/WebView2.DOM)：用于WebView2的C# DOM绑定。
-* [WebView2Utilities](https://github.com/david-risney/WebView2Utilities)：WebView2Utilities可帮助你开发和调试Microsoft Edge WebView2应用。
 * [CefSharp.Wpf.HwndHost](https://github.com/cefsharp/CefSharp.Wpf.HwndHost)：CefSharp.Wpf.HwndHost旨在作为CefSharp.Wpf.ChromiumWebBrowser的直接替代品。
 * [WebWindow](https://github.com/SteveSandersonMS/WebWindow)：.NET Core库，用于在Windows、Mac和Linux上打开包含网页UI的本地操作系统窗口。
 
@@ -6753,7 +6731,6 @@
 * [EmguCV](https://github.com/emgucv/emgucv)：Open CV图像处理库的跨平台.NET包装器。
 * [Magick.NET](https://github.com/dlemstra/Magick.NET)：ImageMagick是一个强大的图像处理库，支持超过100种主要文件格式。
 * [PhotoSauce](https://github.com/saucecontrol/PhotoSauce)：MagicScaler是.NET的高性能图像处理流水线，专注于简化复杂的成像任务。
-* [CUETool](https://github.com/gchudov/cuetools.net)：CUETools是一款用于无损音频/CUE表格格式转换的工具。
 * [ImageSharp.Web](https://github.com/SixLabors/ImageSharp.Web)：ImageSharp.Web是一款高性能的ASP.NET Core中间件，利用ImageSharp图形库，允许通过基于URL的命令进行实时图像处理。
 * [Imageflow.NET](https://github.com/imazen/imageflow-dotnet)：Imageflow.NET是一个.NET API，用于Imageflow的快速图像优化和处理库，适用于Web服务器。
 * [Seam Carving](https://github.com/zavolokas/SeamCarving)：Seam Carving是一种基于内容感知的图像尺寸调整算法。
@@ -6785,7 +6762,6 @@
 * [NetImageLibrary](https://github.com/fschultz/NetImageLibrary)：用于轻松处理图像的.NET库。
 * [MipFlooding](https://github.com/secarri/MipFlooding)：这是《战神》中使用的“mipflooding”算法的C#和Python实现。
 * [FloodSpill](https://github.com/azsdaja/FloodSpill-CSharp)：用C#实现的洪水填充算法。
-* [SharpIco](https://github.com/star-plan/sharp-ico)：SharpIco是一个纯C#实现的轻量级图标生成工具。
 * [LibTiff.NET](https://github.com/BitMiracle/libtiff.net)：LibTiff库的.NET版本。
 * [Structure.Sketching](https://github.com/JaCraig/Structure.Sketching)：Structure.Sketching是一个用于.NET Core和.NET 4.6的图像处理库。
 * [Image Processing Library](https://github.com/LazoVelko/Image-Processing-Library)：用于处理和操作图像的库，包括边缘检测、颜色通道交换、浮雕、锐化、阈值处理等功能。
@@ -6800,7 +6776,6 @@
 * [GebImage](https://github.com/xiaotie/GebImage)：Geb.Image是一款为图像分析目的而构建的易用、高性能的C#图像库。
 * [ImageResize](https://github.com/LazZiya/ImageResize)：.NET应用程序的图像调整大小工具，支持添加文字/图片水印。
 * [Libheif Sharp](https://github.com/0xC0000054/libheif-sharp)：Libheif Sharp为libheif提供了.NET绑定。
-* [Anime4KSharp](https://github.com/net2cn/Anime4KSharp)：一个使用C#实现的Anime4K。
 * [ImageSharp.Textures](https://github.com/SixLabors/ImageSharp.Textures)：用C#编写的纹理加载和操作库。
 * [ImageHashing](https://github.com/jforshee/ImageHashing)：这是一个非常简单的C#库，用于生成图像和包含图像内容的文件的平均感知哈希。
 * [DNTScanner.Core](https://github.com/VahidN/DNTScanner.Core)：DNTScanner.Core是一个适用于.NET 4x和.NET Core 2x的Windows图像采集库的封装器。
@@ -6816,7 +6791,6 @@
 * [2D Image Filter](https://github.com/Hawkynt/2dimagefilter)：2D Image Filter是一个功能强大的库，汇集了专为像素艺术和低分辨率图形设计的最流行的图像缩放算法。
 * [Imaging Library](https://github.com/enginkirmaci/Imaging-Library)：PCL Imaging Library专为像Office Lens和Camscanner这样的文档扫描设计。
 * [ImageMagick.FredsScripts.NET](https://github.com/dlemstra/ImageMagick.FredsScripts.NET)：该项目的目标是将Fred Weinhaus创建的大多数ImageMagick脚本移植到C#。
-* [Azure Image Optimizer](https://github.com/madskristensen/ImageOptimizerWebJob)：一个Azure App Services WebJob，用于压缩上传或部署到你的网站的所有图片。
 * [APNG.NET](https://github.com/xupefei/APNG.NET)：一个完全托管的APNG解析器，使用C#编写。
 * [ColorSharp](https://github.com/Coder-Spirit/ColorSharp)：一个用于处理颜色空间和光谱的.NET/Mono库。
 * [NetFx](https://github.com/asadm/NETFx)：NetFx是一个C#图像处理库。
@@ -6865,20 +6839,15 @@
 * [Vlc.DotNet](https://github.com/ZeBobo5/Vlc.DotNet)：Vlc.DotNet是一个.NET库，托管了VLC库的音视频功能。
 * [SoundFingerPrinting](https://github.com/AddictedCS/soundfingerprinting)：SoundFingerPrinting是一个C#框架，专为数字信号处理、数据挖掘和音频/视频识别领域的公司、爱好者和研究人员而设计。
 * [MediaToolkit](https://github.com/AydinAdn/MediaToolkit)：MediaToolkit提供了一个简便的媒体数据处理接口，使得音频和视频的转换、剪辑和编辑等任务变得轻松无阻。
-* [Jvedio](https://github.com/hitchao/Jvedio)：Jvedio是本地视频管理软件。
 * [FFMpegCore](https://github.com/rosenbjerg/FFMpegCore)：一个.NET Standard FFMpeg/FFProbe封装器，方便将媒体分析和转换集成到你的.NET应用中。
-* [Axiom](https://github.com/MattMcManis/Axiom)：Windows的FFmpeg图形界面。
-* [FFmpeg Batch](https://github.com/eibols/ffmpeg_batch)：FFmpeg批量AV转换器。
+* [Libpd](https://github.com/libpd/libpd)：Pure Data可嵌入音频合成库。
 * [Flyleaf](https://github.com/SuRGeoNix/Flyleaf)：基于FFmpeg/DirectX的WinUI 3/WPF/WinForms媒体播放器.NET库。
 * [FFmpeg.AutoGen](https://github.com/Ruslan-B/FFmpeg.AutoGen)：FFmpeg自动为C#/.NET和Core(Linux、MacOS和Mono)生成不安全绑定。
 * [Xabe.FFmpeg](https://github.com/tomaszzmuda/Xabe.FFmpeg)：FFmpeg的.NET Standard包装器。
 * [FFmpeg.NET](https://github.com/cmxl/FFmpeg.NET)：FFmpeg.NET提供了直接的媒体数据处理接口，使得转换、切片和编辑音频和视频等任务变得轻松无阻。
 * [FFMediaToolkit](https://github.com/radek-k/FFMediaToolkit)：FFMediaToolkit是一个用于创建和读取多媒体文件的.NET库。
 * [Sdcb.FFmpeg](https://github.com/sdcb/Sdcb.FFmpeg)：由CppSharp生成的基础FFmpeg .NET API。
-* [JoinerSplitter](https://github.com/Rambalac/JoinerSplitter)：另一个FFMpeg的图形界面，用于快速视频拼接和剪辑。
-* [WebMConverter](https://github.com/argorar/WebMConverter)：FFMPEG的图形界面，用于将视频转换为WebM和MP4。
 * [FFMpegSharp](https://github.com/vladjerca/FFMpegSharp)：FFMpegSharp是编写视频应用时使用FFMpeg编码的绝佳方式。
-* [RemoteFFmpegGUI](https://github.com/f-shake/RemoteFFmpegGUI)：使用Vue.js、ASP.NET、WPF搭建的FFmpeg的Web/Windows GUI程序，支持视频转码、拼接等功能。
 * [HudlFfmpeg](https://github.com/hudl/HudlFfmpeg)：可扩展的C#转码框架，基于FFmpeg构建。
 * [FFmpeg.NET](https://github.com/mysteryx93/FFmpeg.NET)：一个用于FFmpeg的.NET包装器。
 * [FFmpegBlazor](https://github.com/sps014/FFmpegBlazor)：FFmpegBlazor提供了从Blazor Wasm C#中使用ffmpeg.wasm的功能。
@@ -6897,15 +6866,12 @@
 * [NVorbis](https://github.com/NVorbis/NVorbis)：NVorbis是一个用于解码Xiph.org Vorbis文件的.NET库。
 * [.NET Ogg Vorbis Encoder](https://github.com/SteveLillis/.NET-Ogg-Vorbis-Encoder)：一个完全用托管代码编写的.NET Ogg Vorbis音频编码库。
 * [ManagedBass](https://github.com/ManagedBass/ManagedBass)：Un4seen Bass音频库及其插件的免费开源跨平台.NET封装器。
-* [Zenith MIDI](https://github.com/arduano/Zenith-MIDI)：世界上速度最快、可定制性最强的MIDI渲染程序。
 * [Sanford.Multimedia.Midi](https://github.com/tebjan/Sanford.Multimedia.Midi)：C# MIDI工具包。
 * [DryWetMIDI](https://github.com/melanchall/drywetmidi)：DryWetMIDI是一个用于处理MIDI数据和MIDI设备的.NET库。
-* [OmniMIDI](https://github.com/KeppySoftware/OmniMIDI)：专业使用的软件MIDI合成器。
 * [Managed MIDI](https://github.com/atsushieno/managed-midi)：Managed MIDI旨在提供C#/.NET API，以便以跨平台的方式几乎原始地访问MIDI设备。
 * [MIDI.NET](https://github.com/obiwanjacobi/midi.net)：MIDI.NET允许任何.NET开发者在无需进行P/Invokes的情况下使用MIDI的功能。
 * [MidiSharp](https://github.com/stephentoub/MidiSharp)：用于读取、写入和操作MIDI文件的C#库。
 * [C# MIDI Parser](https://github.com/davidluzgouveia/midi-parser)：这是一个用C#编写的小型MIDI解析器。
-* [KMC](https://github.com/KeppySoftware/KMC)：功能齐全的MIDI转WAV/OGG转换器。
 * [MidiSlicer](https://github.com/codewitch-honey-crisis/MidiSlicer)：Midi是一个小型库，提供一个功能齐全、易于使用的托管封装，用于Microsoft Windows的MIDI API。
 * [RtMidi.Core](https://github.com/micdah/RtMidi.Core)：在Windows和Mac OS X上支持.NET Standard 2.0的MIDI。
 * [SoundFlow](https://github.com/LSXPrime/SoundFlow)：SoundFlow是一个强大且多功能的.NET音频引擎，旨在实现无缝的跨平台音频处理。
@@ -6928,7 +6894,6 @@
 * [AudioWorks](https://github.com/jherby2k/AudioWorks)：一个跨平台、多格式的音频转换和标签套件，适用于.NET和PowerShell。
 * [OwnAudioSharp](https://github.com/ModernMube/OwnAudioSharp)：OwnAudioSharp是一个跨平台音频框架，具有用于专业音频应用的高级功能。
 * [AudioFingerprinting](https://github.com/nelemans1971/AudioFingerprinting)：使用C# .NET编写的音频指纹识别软件。
-* [AcoustID.NET](https://github.com/wo80/AcoustID.NET)：.NET Framework 4.5和.NET Standard 2.0的AcoustID指纹识别器和Web服务访问。
 * [StbSharp](https://github.com/rds1983/StbSharp)：StbSharp是著名Stb C框架的C#移植版。
 * [MusicXml.Net](https://github.com/vdaron/MusicXml.Net)：快速的C# MusicXML解析器。
 * [MPlayerControl](https://github.com/majorsilence/MPlayerControl)：Libmpv、Ffmpeg和MPlayer的C# .NET库。
@@ -6950,22 +6915,17 @@
 * [TagLib#](https://github.com/mono/taglib-sharp)：TagLib#是一个.NET平台独立的库，用于读取和写入媒体文件中的元数据，包括视频、音频和照片格式。
 * [RtspClientSharp](https://github.com/BogdanovKirill/RtspClientSharp)：这是一个纯C#开发的.NET Standard RTSP客户端，无外部依赖，并具备真正的异步特性。
 * [SharpRTSP](https://github.com/ngraziano/SharpRTSP)：一个用于构建RTSP客户端、RTSP服务器并处理RTP数据流的C#库。
-* [StreamNode GB28181](https://github.com/chatop2020/StreamNode-GB28181)：本项目基于ZLMediaKit的流媒体控制管理接口平台，支持RTSP、GB28181的设备拉流与推流控制，GB28181支持PTZ控制。
 * [SharpAvi](https://github.com/baSSiLL/SharpAvi)：SharpAvi是一个简单的.NET库，用于创建AVI格式的视频文件。
 * [OBS Websocket](https://github.com/BarRaider/obs-websocket-dotnet)：官方.NET库，用于与OBS Websocket服务器通信。
 * [FlashCap](https://github.com/kekyo/FlashCap)：.NET/.NET Core和.NET Framework上的独立视频帧捕获库。
 * [OpenH264Lib.NET](https://github.com/secile/OpenH264Lib.NET)：思科OpenH264封装库，适用于.NET框架。
-* [SharpRTSPtoWebRTC](https://github.com/jimm98y/SharpRTSPtoWebRTC)：这是一个用C#实现的RTSP到WebRTC网关，允许你将来自各种来源的RTSP流传输到Web浏览器。
-* [VideoServer](https://github.com/maxakuru/VideoServer)：使用C#开发，并采用RTP和RTSP协议的多线程视频流服务器。
 * [SharpRealTimeStreaming](https://github.com/jimm98y/SharpRealTimeStreaming)：简单的RTSP服务器和客户端。
 * [Nager.VideoStream](https://github.com/nager/Nager.VideoStream)：用于从网络摄像头或视频文件中捕获JPG、PNG或BMP格式帧的.NET库。
 * [LibAtem](https://github.com/LibAtem/LibAtem)：这是用于操作Blackmagic Design ATEM设备的库。
 * [LibobsSharp](https://github.com/GoaLitiuM/libobs-sharp)：Libobs的C#封装库。
-* [ColorChord.NET](https://github.com/CaiB/ColorChord.NET)：高度优化的实时色彩音乐可视化工具。
 * [LibMpv OpenGL](https://github.com/mysteryx93/LibMpv-OpenGL)：用于.NET的跨平台MPV视频播放器库。
 * [LibMPV.AutoGen](https://github.com/vrjure/LibMPV.AutoGen)：MPV C#绑定。
 * [SharpMp4Parser](https://github.com/jimm98y/SharpMp4Parser)：一个用于读取、写入和创建MP4文件的C# API。
-* [Blackmagic ATEM C# Library](https://github.com/mintopia/atemlib)：这个库是用于操作Blackmagic ATEM视频切换器的工具集合。
 
 ## 视频通讯
 
@@ -6973,19 +6933,14 @@
 * [RTMP Sharp](https://github.com/liuyunxiong/rtmpsharp)：RTMP Sharp是一个快速且轻量的面向数据的RTMP库，适用于.NET桌面和.NET Core。
 * [Harmonic](https://github.com/a1q123456/Harmonic)：高性能RTMP直播应用框架。
 * [SIPSorcery](https://github.com/sipsorcery-org/sipsorcery)：SIPSorcery是一个全面的实时通信库，能够让开发者在其应用程序中添加VoIP和WebRTC功能。
-* [ContactPoint IP Phone](https://github.com/ipphone/core)：适用于Windows的轻量级SIP软电话。
-* [OfficeSIP](https://github.com/vf1/sipserver)：OfficeSIP是一个用C#编写的Windows SIP服务器。
 * [Pjsip4NET](https://github.com/ladendirekt/pjsip4net)：适用于.NET的pjsip高级用户代理API封装。
-* [FSClient](https://github.com/mitchcapper/FSClient)：FSClient是一个完整的Windows SIP客户端。
 * [C# SIP Library](https://github.com/ims-research/C-Sharp-Sip-Lib)：用C#编写的SIP库。
 
 ## 多媒体库
 
 * [MMALSharp](https://github.com/techyian/MMALSharp)：MMALSharp是一个基于Broadcom开发的MMAL库的C#封装库。
 * [TerraFX](https://github.com/terrafx/terrafx)：用于开发多媒体应用程序的框架。
-* [Windows Media Center SDK](https://github.com/skijump/windows-media-center-sdk)：适用于Windows 7的Windows Media Center SDK。
 * [Blazor.MediaCaptureStreams](https://github.com/KristofferStrube/Blazor.MediaCaptureStreams)：用于媒体捕获和流浏览器API的Blazor封装。
-* [AirPlay Receiver](https://github.com/SteeBono/airplayreceiver)：用C# .Net Core实现的AirPlay 2镜像/音频协议的开源实现。
 * [GoogleCast](https://github.com/kakone/GoogleCast)：Google Cast协议的实现。
 * [ChordImageGenerator](https://github.com/einaregilsson/ChordImageGenerator)：一个用于生成吉他和弦图片的.NET库。
 * [LiveKit .NET SDKs](https://github.com/pabloFuente/livekit-server-sdk-dotnet)：.NET SDK用于管理LiveKit API并向你的.NET应用添加实时视频、音频和数据功能。
@@ -6996,18 +6951,10 @@
 * [ZLMediaKit.HttpApi](https://github.com/chengxiaosheng/ZLMediaKit.HttpApi)：基于.NET Core的ZLMediaKit HTTP API客户端。
 * [MP-MediaInfo](https://github.com/yartat/MP-MediaInfo)：Mediaportal MediaInfoLib封装器。
 
-## 音视频软件
-
-* [Beutl](https://github.com/b-editor/beutl)：Beutl是一款跨平台的视频编辑(合成)软件。
-* [AKStream](https://github.com/chatop2020/AKStream)：AKStream是一套全平台、全架构、全功能的流媒体管理控制接口平台。
-
 ## 媒体服务器
 
-* [Emby Server](https://github.com/MediaBrowser/Emby)：Emby Server是一个个人媒体服务器，几乎在每台设备上都有应用程序。
-* [SimpleDLNA](https://github.com/nmaier/simpleDLNA)：一个简单的、无需配置的DLNA媒体服务器，开箱即用。
 * [Live Streaming Server NET](https://github.com/josephnhtam/live-streaming-server-net)：Live Streaming Server NET是一套高性能、灵活的工具集，允许你使用.NET构建自己的直播服务器。
 * [Plex API](https://github.com/jensenkd/plex-api)：用于Plex媒体服务器API的非官方C#绑定。
-* [EmbyStat](https://github.com/mregni/EmbyStat)：EmbyStat是一款个人Web服务器，可以计算来自你Emby或Jellyfin服务器的各种统计数据。
 
 ## 摄像头
 

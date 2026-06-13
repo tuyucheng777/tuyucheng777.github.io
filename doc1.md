@@ -240,7 +240,6 @@
   * [大数据测试](docs/doc2.md#大数据测试)
   * [其他测试库](docs/doc2.md#其他测试库)
   * [Spring测试](docs/doc2.md#Spring测试)
-  * [测试套件](docs/doc2.md#测试套件)
   * [代码覆盖率](docs/doc2#代码覆盖率)
 * [数据库开发](docs/doc2.md#数据库开发)
   * [数据库驱动](docs/doc2.md#数据库驱动)
@@ -306,7 +305,6 @@
   * [安全工具](docs/doc2.md#安全工具)
   * [SBOM](docs/doc2.md#SBOM)
   * [漏洞工具](docs/doc2.md#漏洞工具)
-  * [安全培训](docs/doc2.md#安全培训)
   * [自保护](docs/doc2.md#自保护)
   * [加密库](docs/doc2.md#加密库)
   * [密码库](docs/doc2.md#密码库)
@@ -839,36 +837,14 @@
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
   * [Processing](docs/doc2.md#Processing)
-  * [JavaFX程序](docs/doc2.md#JavaFX程序)
-  * [GUI程序](docs/doc2.md#GUI程序)
-  * [IDE](docs/doc2.md#IDE)
-  * [可视化编程](docs/doc2.md#可视化编程)
-  * [文本编辑器](docs/doc2.md#文本编辑器)
-  * [在线编辑器](docs/doc2.md#在线编辑器)
-  * [数学软件](docs/doc2.md#数学软件)
-  * [仿真软件](docs/doc2.md#仿真软件)
-  * [UML工具](docs/doc2.md#UML工具)
-  * [数电](docs/doc2.md#数电)
-  * [数控](docs/doc2.md#数控)
-  * [CAD](docs/doc2.md#CAD)
-  * [办公软件](docs/doc2.md#办公软件)
-  * [思维导图](docs/doc2.md#思维导图)
-  * [音视频软件](docs/doc2.md#音视频软件)
-  * [数据库软件](docs/doc2.md#数据库软件)
-  * [数据库建模](docs/doc2.md#数据库建模)
-  * [远程连接](docs/doc2.md#远程连接)
-  * [终端模拟器](docs/doc2.md#终端模拟器)
-  * [远程桌面控制](docs/doc2.md#远程桌面控制)
-  * [Git客户端](docs/doc2.md#Git客户端)
-  * [下载器](docs/doc2.md#下载器)
-  * [LaTeX编辑器](docs/doc2.md#LaTeX编辑器)
-  * [字幕软件](docs/doc2.md#字幕软件)
-  * [学术软件](docs/doc2.md#学术软件)
-  * [图形与设计](docs/doc2.md#图形与设计)
-  * [软件定义无线电](docs/doc2.md#软件定义无线电)
-  * [文本处理与校对](docs/doc2.md#文本处理与校对)
-  * [工业控制与实验室](docs/doc2.md#工业控制与实验室)
-  * [文件与数据管理](docs/doc2.md#文件与数据管理)
+* [IDE](docs/doc2.md#IDE)
+* [可视化编程](docs/doc2.md#可视化编程)
+* [文本编辑器](docs/doc2.md#文本编辑器)
+* [数学软件](docs/doc2.md#数学软件)
+* [UML工具](docs/doc2.md#UML工具)
+* [数据库软件](docs/doc2.md#数据库软件)
+* [数据库建模](docs/doc2.md#数据库建模)
+* [终端模拟器](docs/doc2.md#终端模拟器)
 * [游戏开发](docs/doc2.md#游戏开发)
   * [游戏引擎](docs/doc2.md#游戏引擎)
   * [Minecraft](docs/doc2.md#Minecraft)
@@ -882,10 +858,7 @@
   * [寻路算法](docs/doc2.md#寻路算法)
   * [麻将算法](docs/doc2.md#麻将算法)
   * [实体框架](docs/doc2.md#实体框架)
-  * [游戏编辑器](docs/doc2.md#游戏编辑器)
-  * [开源游戏](docs/doc2.md#开源游戏)
   * [象棋引擎](docs/doc2.md#象棋引擎)
-  * [游戏开发工具](docs/doc2.md#游戏开发工具)
   * [虚拟现实](docs/doc2.md#虚拟现实)
 * [JVM实现](docs/doc2.md#JVM实现)
 * [JVM语言](docs/doc2.md#JVM语言)
@@ -914,7 +887,6 @@
   * [视频库](docs/doc2.md#视频库)
   * [多媒体库](docs/doc2.md#多媒体库)
   * [视频通讯](docs/doc2.md#视频通讯)
-  * [FFmpeg包装器](docs/doc2.md#FFmpeg包装器)
   * [音频编解码器](docs/doc2.md#音频编解码器)
   * [媒体服务器](docs/doc2.md#媒体服务器)
   * [呼叫中心](docs/doc2.md#呼叫中心)
@@ -4397,16 +4369,14 @@
 * [BGSLibrary](https://github.com/andrewssobral/bgslibrary)：BGSLibrary是一个全面的C++框架，专为计算机视觉应用中的背景减法而设计，尤其适用于检测视频流中的运动物体。
 * [TAIP](https://gitee.com/xshuai/taip)：TAIP是调用腾讯AI接口封装的Java客户端，为调用腾讯AI功能的开发人员提供了一系列的交互方法。
 * [Origami](https://github.com/hellonico/origami)：Origami是JVM上的图像处理、计算机视觉和神经网络库。
-* [PaperVision](https://github.com/deltacv/PaperVision)：PaperVision旨在让计算机视觉更容易被使用。
 * [Image Forensics](https://github.com/MKLab-ITI/image-forensics)：这是一个用于图像取证分析的集成框架。
-* [DataGym](https://github.com/datagym-ai/datagym-core)：DataGym是一个基于Web的现代工作台，用于标记图像和视频，它允许你管理项目和数据集、标记数据、控制质量并构建你自己的训练数据管道。
-* [JavaVision](https://gitee.com/javpower/java-vision)：JavaVision是一个基于Java开发的全能视觉智能识别项目。
 * [VisRec API](https://github.com/JavaVisRec/visrec-api)：Java视觉识别规范API。
 * [OpenCV](https://github.com/PatternConsulting/opencv)：OpenCV Java绑定，与本地库打包在一起。
 * [JFeatureLib](https://github.com/locked-fg/JFeatureLib)：JFeatureLib是一个免费库，提供了几种图像特征的实现，以及主要用于计算机视觉研究领域的几种点/区域检测器。
 * [YUV2Mat](https://github.com/QuickBirdEng/yuvToMat)：用于将YUV_420_888 Android相机图像转换为OpenCV RGB材质的高性能库。
 * [NyARToolkit](https://github.com/nyatla/NyARToolkit)：NyARToolkit是一个基于ARToolKit 5.3.2的AR应用类库。
 * [EyeTribe Java SDK](https://github.com/EyeTribe/tet-java-client)：The Eye Tribe Tacker的Java SDK。
+* [Cognitive Vision Android](https://github.com/microsoft/Cognitive-Vision-Android)：Microsoft Computer Vision API的Android客户端库。
 
 #### OCR
 
@@ -4440,12 +4410,9 @@
 * [CompreFace](https://github.com/exadel-inc/CompreFace)：Exadel CompreFace是一项免费的开源人脸识别服务，无需具备机器学习技能即可轻松集成到任何系统中。
 * [SeetaFace2 Engine](https://github.com/seetaface/SeetaFaceEngine2)：SeetaFace2 Engine包含三个关键部分，即SeetaFace2检测、SeetaFace2对齐和SeetaFace2识别，由中国科学院开源。
 * [ArcFace](https://github.com/itboyst/ArcSoftFaceDemo)：ArcFace 3.0免费离线人脸识别SDK。
-* [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library)：Face Recognition是用于Android和Java的人脸识别库，由苏黎世应用科学大学开源。
 * [FaceRecognition](https://github.com/wihoho/FaceRecognition)：FaceRecognition是使用PCA、LDA和LPP实现的人脸识别项目。
 * [SeetafaceJNI](https://gitee.com/cnsugar/seetafaceJNI)：SeetafaceJNI是基于中科院Seetaface 2进行封装的Java人脸识别库。
 * [FaceSearch](https://gitee.com/open-visual/face-search)：FaceSearch是阿里云视觉智能开放平台的人脸搜索M:N的开源替代。
-* [FaceRecognition LivenessDetection Android](https://github.com/Faceplugin-ltd/FaceRecognition-LivenessDetection-Android)：适用于Android的本地人脸识别人脸活体检测SDK，由FacePlugIn开源。
-* [Red5](https://gitee.com/endlesshh/red5-rtmp-push)：Java版天网人脸识别系统，可以获取视频流进行人脸识别后推送到流媒体服务器实时展示。
 * [Qiansou Face SDK](https://gitee.com/qiansou/face-v4-java-sdk)：千搜科技第五代人脸识别引擎Java接口。
 * [SeetaFace6 Java SDK](https://github.com/tracy100/seetaface6SDK)：基于SeetaFace6的Java语言SDK封装，提供完整的人脸识别解决方案。
 * [Face++](https://github.com/FacePlusPlus/facepp-java-sdk)：适用于Java的Face++ SDK。
@@ -4471,12 +4438,10 @@
 * [讯飞开放平台AI能力Java SDK](https://github.com/iFLYTEK-OP/websdk-java)：提供各种讯飞开放平台能力的Java SDK。
 * [WhisperJNI](https://github.com/GiviMAD/whisper-jni)：whisper.cpp的JNI包装器，允许将语音转录为Java中的文本。
 * [AIUIChatSDK](https://github.com/wowo3129/AIUIChatSDK)：讯飞语音AIUI、百度语音封装。
-* [WhisperCat](https://github.com/ddxy/whispercat)：WhisperCat是你捕捉音频、转录和管理音频的得力助手，所有功能都集成在一个简洁流畅的界面中。
 * [Actions On Google Client Library](https://github.com/ticketmaster/actions-on-google-kotlin)：用于Google Actions的JVM客户端库。
 * [Rivr](https://github.com/nuecho/rivr)：Rivr是一个轻量级的开源对话引擎，使Java开发人员能够轻松创建企业级VoiceXML应用程序。
 * [JVoiceXML](https://github.com/JVoiceXML/JVoiceXML)：开源VoiceXML解释器。
 * [Dialogflow Java Client](https://github.com/dialogflow/dialogflow-java-client)：Dialogflow的Java客户端库。
-* [SpeechToText](https://gitee.com/yzd_org/speechToText)：基于WebSocket实现浏览器端文本、视频、语音的即时通讯，以及实时语音转文字。
 * [ASRT SDK Java](https://github.com/nl8590687/ASRT_SDK_Java)：用于ASRT语音识别系统的Java SDK。
 
 ### 语音合成
@@ -4484,14 +4449,9 @@
 * [Supertonic](https://github.com/supertone-inc/supertonic)：Supertonic是一款速度极快的设备端多语言文本转语音系统，专为本地推理而设计，开销极低。
 * [MaryTTS](https://github.com/marytts/marytts)：MaryTTS是一个用纯Java编写的开源、多语言文本到语音合成系统。
 * [FreeTTS](https://freetts.sourceforge.io/)：FreeTTS是一个完全用Java编程语言编写的语音合成系统。
-* [VeloVoice](https://github.com/Mai-Onsyn/VeloVoice)：一个用于解析中文小说并通过TTS转换为语音的JavaFX软件。
 * [Java TTS](https://github.com/ikfly/java-tts)：参考其他语言版本写的Java版文字转语音，使用Edge API。
-* [Edge-TTS](https://github.com/yynag/edge-tts-android)：Edge-TTS是一款文本转语音服务，它使用Edge-TTS API将文本转换为语音。
-* [Android Speech](https://github.com/gotev/android-speech)：轻松实现Android语音识别和文本转语音。
 * [Java Google Speech API](https://github.com/goxr3plus/java-google-speech-api)：这是一个用Java编写的API，包含识别器、合成器和麦克风采集工具。
 * [Voices](https://github.com/hcoles/voices)：适用于Java 17及更高版本的快速进程内文本转语音。
-* [AndroidMaryTTS](https://github.com/AndroidMaryTTS/AndroidMaryTTS)：AndroidMaryTTS是一款基于MaryTTS构建的开源Android离线文本转语音应用。
-* [Xufei Music](https://gitee.com/52itstyle/xufei_msc)：讯飞语音Java Web语音合成解决方案。
 * [TextToSpeechKt](https://github.com/Marc-JB/TextToSpeechKt)：适用于Kotlin的多平台文本转语音库。
 * [ZmeetAI TTS](https://github.com/zmeet-ai/tts-demo)：ZmeetAI语音合成Java SDK。
 * [Java TTS](https://github.com/ekk0/java-tts)：一个基于Java的粤语发音TTS，文字转语音。
