@@ -467,7 +467,6 @@
   * [Shell](docs/doc2.md#Shell)
 * [版本控制系统](docs/doc2.md#版本控制系统)
   * [Git服务器](docs/doc2.md#Git服务器)
-  * [Git工具](docs/doc2.md#Git工具)
   * [Git API](docs/doc2.md#Git-API)
   * [语义版本控制](docs/doc2.md#语义版本控制)
 * [集合库](docs/doc2.md#集合库)
@@ -677,7 +676,6 @@
   * [BaaS平台](docs/doc2.md#BaaS平台)
   * [PaaS平台](docs/doc2.md#PaaS平台)
   * [IaaS平台](docs/doc2.md#IaaS平台)
-  * [仿真框架](docs/doc2.md#仿真框架)
   * [边缘计算](docs/doc2.md#边缘计算)
   * [虚拟化](docs/doc2.md#虚拟化)
 * [云服务SDK](docs/doc2.md#云服务SDK)
@@ -788,6 +786,9 @@
   * [SECS](docs/doc2.md#SECS)
   * [BACnet](docs/doc2.md#BACnet)
   * [业余无线电](docs/doc2.md#业余无线电)
+* [仿真框架](docs/doc2.md#仿真框架)
+* [CAD](docs/doc2.md#CAD)
+* [仪器](docs/doc2.md#仪器)
 * [短信](docs/doc2.md#短信)
 * [邮件库](docs/doc2.md#邮件库)
 * [邮件服务器](docs/doc2.md#邮件服务器)
@@ -836,7 +837,7 @@
   * [SWT](docs/doc2.md#SWT)
   * [键盘鼠标监听器](docs/doc2.md#键盘鼠标监听器)
   * [浏览器](docs/doc2.md#浏览器)
-  * [Processing](docs/doc2.md#Processing)
+* [Processing](docs/doc2.md#Processing)
 * [IDE](docs/doc2.md#IDE)
 * [可视化编程](docs/doc2.md#可视化编程)
 * [文本编辑器](docs/doc2.md#文本编辑器)
@@ -4381,6 +4382,7 @@
 #### OCR
 
 * [Tess4j](https://github.com/nguyenq/tess4j)：Tesseract OCR API的Java JNA包装器。
+* [JavaCPP Presets](https://github.com/bytedeco/javacpp-presets)：JavaCPP Presets模块包含常用C/C++库的Java配置和接口类。
 * [C-OCR](https://github.com/ctripcorp/C-OCR)：C-OCR是携程自研的OCR项目，主要包括身份证、护照、火车票、签证等旅游相关证件、材料的识别。
 * [Aspose.OCR](https://products.aspose.com/ocr/java/)：Aspose OCR是一种高效、用户友好且经济高效的OCR API。
 * [Spire.OCR](https://www.e-iceblue.com/Introduce/ocr-for-java.html)：Spire.OCR是一个专业的OCR库，可从JPG、PNG、GIF、BMP和TIFF格式的图像中读取文本。
