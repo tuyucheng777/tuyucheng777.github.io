@@ -3724,6 +3724,7 @@
 
 #### 安全工具
 
+* [Mariana Trench](https://github.com/facebook/mariana-trench)：Mariana Trench是一个针对Android的专注于安全的静态分析平台，由Facebook开源。
 * [Zen](https://github.com/AikidoSec/firewall-java)：Zen是一个嵌入式的Web应用防火墙，能够自主保护你的Java应用免受常见且关键的攻击。
 * [Keywhiz](https://github.com/square/keywhiz)：Keywhiz是一个用于分发和管理密钥的系统，由Square开源。
 * [PortEx](https://github.com/struppigel/PortEx)：PortEx是一个用于对可移植可执行文件进行静态恶意软件分析的Java库。
@@ -3736,7 +3737,6 @@
 
 #### 漏洞工具
 
-* [Mariana Trench](https://github.com/facebook/mariana-trench)：Mariana Trench是一个针对Android的专注于安全的静态分析平台，由Facebook开源。
 * [Java Memshell Generator](https://github.com/pen4uin/java-memshell-generator)：一款支持高度自定义的Java内存马生成工具。
 * [Java Echo Generator](https://github.com/pen4uin/java-echo-generator)：一款支持高度自定义的Java回显载荷生成工具。
 * [Code Inspector](https://github.com/4ra1n/code-inspector)：Code Inspector是一个Java自动代码审计工具，尤其针对Spring Boot框架。
