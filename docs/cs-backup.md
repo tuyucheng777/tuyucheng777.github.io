@@ -6,16 +6,14 @@
 * [gRPC](#gRPC)
 * [OWIN](#OWIN)
 * [WebService](#WebService)
+* [微服务框架](#微服务框架)
 * [OData](#OData)
 * [HATEOAS](#HATEOAS)
-* [JSON-RPC](#JSON-RPC)
-* [JSON API](#JSON-API)
-* [微服务框架](#微服务框架)
+* [超媒体](#超媒体)
 * [DDD框架](#DDD框架)
 * [CQRS框架](#CQRS框架)
 * [设计模式](#设计模式)
 * [插件框架](#插件框架)
-* [超媒体](#超媒体)
 * [IDE](#IDE)
 * [文本编辑器](#文本编辑器)
 * [CLR](#CLR)
@@ -35,6 +33,7 @@
 * [TCP/UDP](#TCPUDP)
 * [QUIC](#QUIC)
 * [FTP](#FTP)
+* [KCP](#KCP)
 * [DNS](#DNS)
 * [SSH](#SSH)
 * [Pcap](#Pcap)
@@ -48,7 +47,6 @@
 * [即时通讯](#即时通讯)
 * [反向代理](#反向代理)
 * [HTTP代理](#HTTP代理)
-* [KCP](#KCP)
 * [P2P](#P2P)
 * [BitTorrent](#BitTorrent)
 * [Radius](#Radius)
@@ -59,7 +57,6 @@
 * [LLM框架](#LLM框架)
 * [AI网关](#AI网关)
 * [OpenAI客户端](#OpenAI客户端)
-* [ChatGPT](#ChatGPT)
 * [智能体](#智能体)
 * [NL2SQL](#NL2SQL)
 * [推理引擎](#推理引擎)
@@ -150,8 +147,6 @@
 * [后台管理系统](#后台管理系统)
 * [快速开发框架](#快速开发框架)
 * [权限管理系统](#权限管理系统)
-* [代码生成器](#代码生成器)
-* [构建器模式](#构建器模式)
 * [CMS系统](#CMS系统)
 * [项目管理](#项目管理)
 * [社交网络](#社交网络)
@@ -314,6 +309,8 @@
 * [内存库](#内存库)
 * [泛型库](#泛型库)
 * [值对象](#值对象)
+* [代码生成器](#代码生成器)
+* [构建器模式](#构建器模式)
 * [字符串库](#字符串库)
 * [锁](#锁)
 * [图像处理](#图像处理)
@@ -451,6 +448,8 @@
 * [JsonPatch](#JsonPatch)
 * [JsonLogic](#JsonLogic)
 * [JSON-LD](#JSON-LD)
+* [JSON-RPC](#JSON-RPC)
+* [JSON API](#JSON-API)
 * [BSON](#BSON)
 * [CBOR](#CBOR)
 * [编解码](#编解码)
@@ -684,6 +683,15 @@
 * [SOAP Client](https://github.com/nikolic-bojan/soap-client)：在.NET Core中使用IHttpClientFactory发送SOAP请求。
 * [WebServiceDataProvider](https://github.com/iamscottxu/WebServiceDataProvider)：WebServiceDataProvider是一个用于动态调用WebService的C#类库。
 
+## 微服务框架
+
+* [Microdot](https://github.com/gigya/microdot)：Microdot是一个开源的.NET框架，满足了许多轻松创建微服务的需求。
+* [ADNC](https://github.com/AlphaYu/adnc)：ADNC是一个开源.NET 8框架，用于构建模块化业务系统，这些系统可以从模块化单体架构演进到分布式微服务架构。
+* [Yams](https://github.com/microsoft/Yams)：YAMS是一个库，可用于在本地、Azure或其他云服务平台上部署和托管微服务。
+* [Azos](https://github.com/azist/azos)：Azos是一个全栈框架，适用于各种规模的分布式数据驱动型业务应用程序。
+* [Xigadee](https://github.com/xigadee/Microservice)：Xigadee是一个开源的微服务框架。
+* [Motor.NET](https://github.com/GDATASoftwareAG/motornet)：Motor.NET是一个基于Microsoft Generic Hosting构建的.NET微服务框架。
+
 ## OData
 
 * [OData .NET](https://github.com/OData/odata.net)：OData .NET库项目包含在.NET平台上实现OData协议的核心功能。
@@ -703,32 +711,10 @@
 * [RiskFirst.Hateoas](https://github.com/riskfirst/riskfirst.hateoas)：RiskFirst.Hateoas是一个针对ASP.NET Core Web API项目的HATEOAS实现。
 * [Halcyon](https://github.com/visualeyes/halcyon)：Halcyon是ASP.NET的一个HAL实现。
 
-## JSON-RPC
+## 超媒体
 
-* [StreamJsonRpc](https://github.com/microsoft/vs-streamjsonrpc)：StreamJsonRpc是一个跨平台的.NET可移植库，用于实现JSON-RPC传输协议。
-* [JSON-RPC.NET](https://github.com/Astn/JSON-RPC.NET)：JSON-RPC.Net是一个高性能的JSON-RPC 2.0服务器，它利用了流行的JSON.NET库。
-* [JsonRpc](https://github.com/edjCase/JsonRpc)：适用于Microsoft.AspNetCore.Routing的.NetStandard 2.1 IRouter实现，用于Json Rpc v2请求。
-* [Tochka.JsonRpc](https://github.com/tochka-public/Tochka.JsonRpc)：将JSON RPC 2.0集成到ASP.NET Core MVC中。
-* [JsonRpc.Standard](https://github.com/CXuesong/JsonRpc.Standard)：一个用于实现JSON RPC客户端和服务器的异步.NET Standard 1.3和.NET Framework 4.5库。
-
-## JSON API
-
-* [JSONAPI.NET](https://github.com/JSONAPIdotNET/JSONAPI.NET)：JSONAPI.NET是一组实用类，旨在使使用ASP.NET MVC WebAPI快速且轻松地实现符合JSON API规范的RESTful Web服务成为可能。
-* [JsonApiFramework](https://github.com/scott-mcdonald/JsonApiFramework)：JsonApiFramework是一个快速、可扩展且可移植的.NET框架，用于基于超媒体API资源的领域模型读取和编写客户端和服务器端的JSON API文档。
-* [Saule](https://github.com/joukevandermaas/saule)：Saule是一个适用于ASP.Net Web API 2的JSON API库。
-
-## 微服务框架
-
-* [Microdot](https://github.com/gigya/microdot)：Microdot是一个开源的.NET框架，满足了许多轻松创建微服务的需求。
-* [Silky](https://github.com/liuhll/silky)：Silky框架旨在帮助开发者通过简单的代码和配置，在.NET平台上快速构建微服务开发框架。
-* [Ketchup](https://github.com/phil-guo/ketchup)：Ketchup是一个基于.NET Core的微服务框架。
-* [ADNC](https://github.com/AlphaYu/adnc)：ADNC是一个基于.NET平台的分布式/微服务开源框架。
-* [NanoFabric](https://github.com/geffzhang/NanoFabric)：基于Consul、.NET Core、Polly、Ocelot、Exceptionless、IdentityServer等开源项目的微服务开发框架。
-* [ECSharp](https://github.com/suxf/ECSharp)：ECSharp是一个基于.NET语言框架而设计的开发框架。
-* [Yams](https://github.com/microsoft/Yams)：YAMS是一个库，可用于在本地、Azure或其他云服务平台上部署和托管微服务。
-* [Azos](https://github.com/azist/azos)：Azos是一个面向任何规模的分布式数据驱动业务应用的全栈框架。
-* [Xigadee](https://github.com/xigadee/Microservice)：Xigadee是一个开源微服务框架。
-* [Motor.NET](https://github.com/GDATASoftwareAG/motornet)：Motor.NET是一个基于微软通用托管的.NET微服务框架。
+* [HAL](https://github.com/daxnet/hal)：Hypertext Application Language(HAL)规范的C#/.NET Core实现。
+* [Hypermedia](https://github.com/cosullivan/Hypermedia)：一个用于.NET的客户端和服务器基础超媒体库。
 
 ## DDD框架
 
@@ -807,11 +793,6 @@
 * [FarNet](https://github.com/nightroman/FarNet)：Far Manager平台，适用于PowerShell、F#、JavaScript中的.NET模块和脚本。
 * [CPlugin.Net](https://github.com/DevD4v3/CPlugin.Net)：一个简单的库，有助于实现基于插件的架构。
 * [Plugin.NET](https://gitee.com/hyjiacan/Plugin.NET)：Plugin.NET是一个灵活的C#插件管理器。
-
-## 超媒体
-
-* [HAL](https://github.com/daxnet/hal)：Hypertext Application Language(HAL)规范的C#/.NET Core实现。
-* [Hypermedia](https://github.com/cosullivan/Hypermedia)：一个用于.NET的客户端和服务器基础超媒体库。
 
 ## IDE
 
@@ -1122,9 +1103,9 @@
 ## Socket
 
 * [SuperSocket](https://github.com/kerryjiang/SuperSocket)：SuperSocket是一个高性能、可扩展的.NET套接字服务器应用程序框架。
-* [NetCoreServer](https://github.com/chronoxor/NetCoreServer)：超快速、低延迟异步套接字服务器和客户端C# .NET Core库，支持TCP、SSL、UDP、Unix域套接字、HTTP、HTTPS、WebSocket协议和10K连接问题解决方案。
-* [BeetleX](https://github.com/beetlex-io/BeetleX)：高性能.NET Core Socket TCP通信组件，支持TCP、SSL、HTTP、HTTPS、WebSocket、MQTT、RPC、Redis等协议，以及1M连接问题解决方案。
-* [TouchSocket](https://github.com/RRQM/TouchSocket)：TouchSocket是一个功能强大且易于使用的.NET网络通信框架，适用于C#、VB.Net、F#等语言。
+* [NetCoreServer](https://github.com/chronoxor/NetCoreServer)：超快速、低延迟的异步套接字服务器和客户端C# .NET Core库，支持TCP、SSL、UDP、Unix域套接字、HTTP、HTTPS、WebSocket协议。
+* [BeetleX](https://github.com/beetlex-io/BeetleX)：高性能的.NET Core Socket TCP通信组件，支持TCP、SSL、HTTP、HTTPS、WebSocket、MQTT、RPC、Redis等协议。
+* [TouchSocket](https://github.com/RRQM/TouchSocket)：TouchSocket是一个简单、现代且高性能的.NET网络框架，支持C#、VB.NET、F#等多种语言。
 * [SAEA.Socket](https://github.com/yswenli/SAEA)：SAEA.Socket是一个IOCP高性能Sockets网络框架。
 * [Cowboy.Sockets](https://github.com/gaochundong/Cowboy)：Cowboy.Sockets是一个用于构建基于套接字的服务的C#库。
 * [HiSocket](https://github.com/hiram3512/HiSocket)：轻量级客户端套接字解决方案，可以在C#项目或Unity3D中使用。
@@ -1155,9 +1136,10 @@
 * [Resonance](https://github.com/royben/Resonance)：Resonance是一个高性能的实时C#通信库，内置支持多种不同的转码和传输方式。
 * [Net Socket](https://github.com/tallesl/net-Socket)：对System.Net.Sockets.Socket的极简封装。
 * [Exomia Network](https://github.com/exomia/network)：Exomia Network是System.Socket的一个封装库，用于轻松实现TCP/UDP客户端和服务器之间的通信。
-* [RxSockets](https://github.com/dshe/RxSockets)：一个极简的响应式/异步流套接字实现。
+* [RxSockets](https://github.com/dshe/RxSockets)：一个简单、异步、事件驱动的C# TCP套接字库。
 * [ManagedSockets](https://github.com/umby24/ManagedSockets)：一个简单、异步、事件驱动的C# TCP套接字库。
 * [SSCore](https://github.com/forrestly/SSCore)：SuperSocket的.NET Core版本。
+* [SiMaySocket](https://gitee.com/dWwwang/SiMaySocket)：可跨平台的轻量级高性能Socket库。
 
 ## WebSocket
 
@@ -1261,6 +1243,7 @@
 * [EasyFileTransfer](https://github.com/Jamalianpour/EasyFileTransfer)：通过TCP协议在网络上传输任意大小文件的简单方法。
 * [SharpRUDP](https://github.com/whl0070179/SharpRUDP)：自定义C#实现可靠UDP(RUDP)算法。
 * [TJSYXYCommunication](https://github.com/sherlockchou86/TJSYXYCommunication)：一个简单的TCP/UDP通信框架。
+* [SunnyUI.FrameDecoder](https://gitee.com/yhuse/SunnyUI.FrameDecoder)：SunnyUI.FrameDecoder是一个开源TCP、UDP、串口等流式数据解码库。
 
 ## QUIC
 
@@ -1282,6 +1265,19 @@
 * [FtpServer](https://github.com/taoyouh/FtpServer)：一个用于.NET Core的FTP服务器程序，以及其可自定义的.NET Standard核心库。
 * [Arx One FTP](https://github.com/ArxOne/FTP)：一个简单的FTP/FTPS/FTPES客户端。
 * [FlagFtp](https://github.com/flagbug/FlagFtp)：FlagFtp是一个适用于.NET的FTP库，支持各种操作，例如获取文件列表、从/向文件写入和读取、获取文件和目录信息等。
+
+## KCP
+
+* [KCP](https://github.com/KumoKyaku/kcp)：KCP C#版。
+* [KCP CSharp](https://github.com/limpo1989/kcp-csharp)：快速可靠的ARQ协议。
+* [KCP Socket](https://github.com/slicol/KCP-Socket)：这是一个KCP、UDP套装器。
+* [CSharp KCP](https://github.com/l42111996/csharp-kcp)：基于C#的DotNetty实现的可靠UDP网络库。
+* [KCP CSharp](https://github.com/Molth/Kcp-CSharp)：高性能纯C# KCP实现。
+* [Kcp2k](https://github.com/MirrorNetworking/kcp2k)：基于原始C Kcp的C# KCP。
+* [KcpTransport](https://github.com/Cysharp/KcpTransport)：KcpTransport是RUDP的纯C#实现，用于高性能实时网络通信。
+* [KCP4Sharp](https://github.com/beykery/kcp4sharp)：用于C#的KCP。
+* [KcpSharp](https://github.com/yigolden-oss/KcpSharp)：用C#实现的KCP协议。
+* [Kcp .NET](https://github.com/qi7chen/kcp-dotnet)：一个针对.NET Core的KCP C#实现。
 
 ## DNS
 
@@ -1519,19 +1515,6 @@
 * [ProxyLib](https://github.com/grinay/ProxyLib)：TcpClient，支持代理的Socket库HTTP、Socks4、Socks4a、Socks5。
 * [CitadelCore](https://github.com/TechnikEmpire/CitadelCore)：基于.NET Standard 2.0的跨平台过滤HTTP/S代理。
 
-## KCP
-
-* [KCP](https://github.com/KumoKyaku/kcp)：KCP C#版。
-* [KCP CSharp](https://github.com/limpo1989/kcp-csharp)：快速可靠的ARQ协议。
-* [KCP Socket](https://github.com/slicol/KCP-Socket)：这是一个KCP、UDP套装器。
-* [CSharp KCP](https://github.com/l42111996/csharp-kcp)：基于C#的DotNetty实现的可靠UDP网络库。
-* [KCP CSharp](https://github.com/Molth/Kcp-CSharp)：高性能纯C# KCP实现。
-* [Kcp2k](https://github.com/MirrorNetworking/kcp2k)：基于原始C Kcp的C# KCP。
-* [KcpTransport](https://github.com/Cysharp/KcpTransport)：KcpTransport是RUDP的纯C#实现，用于高性能实时网络通信。
-* [KCP4Sharp](https://github.com/beykery/kcp4sharp)：用于C#的KCP。
-* [KcpSharp](https://github.com/yigolden-oss/KcpSharp)：用C#实现的KCP协议。
-* [Kcp .NET](https://github.com/qi7chen/kcp-dotnet)：一个针对.NET Core的KCP C#实现。
-
 ## P2P
 
 * [SLSKD](https://github.com/slskd/slskd)：用于Soulseek文件共享网络的现代客户端-服务器应用程序。
@@ -1741,12 +1724,6 @@
 * [LLamaStack](https://github.com/saddam213/LLamaStack)：LLamaStack是一个为.NET应用程序提供高级服务和集成的库，增强了LLamaSharp和Llama.cpp项目的功能性和多样性。
 * [UniversalLLMFunctionCaller](https://github.com/Jenscaasen/UniversalLLMFunctionCaller)：一个集成到Semantic Kernel中的规划器，能够在所有基于聊天的语言模型(Mistral、Bard、Claude、LLama等)上调用函数。
 
-## ChatGPT
-
-* [ChatGPT](https://github.com/wieslawsoltes/ChatGPT)：一个用于图形用户界面的ChatGPT C#客户端。
-* [ChatGPT.Desktop](https://github.com/239573049/ChatGpt.Desktop)：ChatGPT.Desktop是一个简单易懂的界面，使用Blazor实现，支持多次对话。
-* [Rodel.Agent](https://github.com/Richasy/Rodel.Agent)：一款集成聊天、文本转语音、文本图像生成和机器翻译的Windows桌面应用。
-
 ## 智能体
 
 * [NetCoreKevin](https://github.com/junkai-li/NetCoreKevin)：AI知识库智能体。
@@ -1788,9 +1765,8 @@
 
 ## 代理框架
 
-* [Agent Framework](https://github.com/microsoft/agent-framework)：一个用于构建、编排和部署AI代理及多代理工作流的框架，支持Python和.NET。
-* [AI2Thor](https://github.com/allenai/ai2thor)：一个接近照片级真实的可交互化框架，用于具身人工智能代理。
-* [AgentFrameworkToolkit](https://github.com/rwjdk/AgentFrameworkToolkit)：一个基于Microsoft Agent Framework、具有独特风格的C#工具包，让开发更轻松。
+* [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)：Microsoft Agent Framework是一个开放的多语言框架，用于在.NET和Python中构建生产级AI代理和多代理工作流。
+* [AgentFrameworkToolkit](https://github.com/rwjdk/AgentFrameworkToolkit)：Agent Framework Toolkit是一个针对Microsoft Agent Framework的C#封装库，旨在简化开发工作。
 
 ## 遗传算法
 
@@ -2710,6 +2686,7 @@
 * [EntityFrameworkCore.IndexAttribute](https://github.com/jsakamoto/EntityFrameworkCore.IndexAttribute)：EntityFramework Core的IndexColumnAttribute。
 * [EntityFramework.VersionedProperties](https://github.com/NickStrupat/EntityFramework.VersionedProperties)：VersionedProperties是一个为使用Entity Framework的.NET开发者提供的库，它可以非常容易地支持精细化(到属性级别)的数据版本控制。
 * [Entity Minimal API](https://github.com/huynhtandat223/entity-mimimal-api)：Entity Minimal API是一个轻量级框架，构建于ASP.NET Core OData和Minimal API之上，完全兼容.NET Core 8。
+* [N.EntityFrameworkCore.Extensions](https://github.com/NorthernLight1/N.EntityFrameworkCore.Extensions)：适用于Entity Framework Core的高性能批量数据扩展。
 
 ## Dapper扩展
 
@@ -3605,6 +3582,9 @@
 * [Titan.Blog.WebAPP](https://github.com/hanjunjun/Titan.Blog.WebAPP)：ASP.NET Core WebAPI前后端分离，后端框架。
 * [OpenTouryo](https://github.com/OpenTouryoProject/OpenTouryo)：Open Touryo是一个用于.NET的应用程序框架，它是基于长期应用程序开发成果积累的技术经验开发的。
 * [Sixnet](https://github.com/six-net/Sixnet)：一个简单、易用、灵活且高效的.NET开发框架。
+* [ECSharp](https://github.com/suxf/ECSharp)：ECSharp是一个基于.NET语言框架而设计的开发框架。
+* [Silky](https://github.com/liuhll/silky)：Silky框架旨在帮助开发者通过简单的代码和配置，在.NET平台上快速构建微服务开发框架。
+* [NanoFabric](https://github.com/geffzhang/NanoFabric)：基于Consul、.NET Core、Polly、Ocelot、Exceptionless、IdentityServer等开源项目的微服务开发框架。
 * [NBB](https://github.com/osstotalsoft/nbb)：使用.NET构建模块构建尖端、云就绪、可扩展、易于维护且有趣的LOB服务。
 * [Anet](https://github.com/anet-lib/anet)：.NET Core通用库、框架和样板。
 * [Jimu](https://github.com/grissomlau/jimu)：Jimu是一个基于.NET 6.0简单易用的微服务框架。
@@ -3643,6 +3623,7 @@
 * [OpenAuth.Core](https://github.com/yubaolee/OpenAuth.Core)：.NET Core/.NET 5快速应用开发框架。
 * [Aries](https://github.com/cyq1162/Aries)：Aries是一个用于ASP.NET Core的快速开发框架。
 * [Milvasoft](https://github.com/Milvasoft/Milvasoft)：Milvasoft库帮助你以最简单的方式创建.NET项目。
+* [Ketchup](https://github.com/phil-guo/ketchup)：Ketchup是一个基于.NET Core的微服务框架。
 
 ## 权限管理系统
 
@@ -3655,100 +3636,6 @@
 * [Sukt.Admin](https://github.com/KawhiWei/Sukt.Admin)：Sukt.Admin是一个开箱即用的企业级权限管理应用框架。
 * [OnceMi.Framework](https://github.com/oncemi/OnceMi.Framework)：基于.NET 7和Vue 2开发的企业级前后端分离权限管理开发框架。
 * [NBCZ](https://github.com/chi8708/NBCZ_Admin)：NBCZ是一个通用权限系统。
-
-## 代码生成器
-
-* [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI)：AbpHelper.GUI提供代码生成等功能，帮助你使用ABP框架开发应用程序和模块。
-* [WebFirst](https://github.com/DotNetNext/WebFirst)：WebFirst是果糖大数据团队开发的新一代高性能代码生成器。
-* [EntityFramework Reverse POCO Code First Generator](https://github.com/sjh37/EntityFramework-Reverse-POCO-Code-First-Generator)：EntityFramework反向POCO代码优先生成器。
-* [R4MVC](https://github.com/T4MVC/R4MVC)：R4MVC是一个用于ASP.NET Core MVC应用程序的Roslyn代码生成器，它可以创建强类型辅助函数，从而在许多地方消除对字符串字面量的使用。
-* [NTypewriter](https://github.com/NeVeSpl/NTypewriter)：NTypewriter是一个文件生成器，它使用包含C#代码元数据的文本模板生成文件。
-* [StringLiteralGenerator](https://github.com/ufcpp/StringLiteralGenerator)：用于UTF-8二进制字面量的C#源代码生成器。
-* [uController](https://github.com/davidfowl/uController)：一个用于生成极简API的源代码生成器。
-* [ObservableEvents](https://github.com/reactivemarbles/ObservableEvents)：本项目是一个.NET源代码生成器，用于生成IObservable对象中包含的事件。
-* [Facet](https://github.com/Tim-Maes/Facet)：Facet是一个C#源代码生成器，可以消除DTO样板代码。
-* [Craftsman](https://github.com/pdevito3/craftsman)：Craftsman是Wrapt框架背后的主力工具，提供了一套CLI命令，通过简单的CLI命令和配置文件，快速为你的.NET Web API创建新的文件和项目。
-* [CodeGenHelpers](https://github.com/dansiegel/CodeGenHelpers)：CodeGenHelpers帮助人们编写C#代码生成器。
-* [CsCodeGenerator](https://github.com/borisdj/CsCodeGenerator)：这是一个小型的.NET库，可以基于类及其元素轻松生成C#代码。
-* [AutoCtor](https://github.com/distantcam/AutoCtor)：AutoCtor是一个Roslyn源代码生成器，它可以自动为你的类创建构造函数，以便用于构造函数依赖注入。
-* [Morris.Moxy](https://github.com/mrpmorris/Morris.Moxy)：Morris.Moxy是一个用于Microsoft .NET的Mixins代码生成器。
-* [Uno.SourceGeneration](https://github.com/unoplatform/Uno.SourceGeneration)：Uno SourceGeneration是一个API兼容的源代码生成器。
-* [Generator.Equals](https://github.com/diegofrata/Generator.Equals)：仅使用属性即可自动实现IEquatable的源代码生成器。
-* [CsWhispers](https://github.com/rasta-mouse/CsWhispers)：用于向C#项目添加D/Invoke和间接系统调用方法的源代码生成器。
-* [SourceGeneratorTemplate](https://github.com/davidwengier/SourceGeneratorTemplate)：编写C#源代码生成器的基本模板。
-* [GodotSharp.SourceGenerators](https://github.com/Cat-Lips/GodotSharp.SourceGenerators)：用于Godot游戏引擎的C#源代码生成器。
-* [Protocol Buffers C# Code Generator](https://github.com/silentorbit/protobuf)：用于读取和写入Protocol Buffers格式的C#代码生成器。
-* [Lombok.NET](https://github.com/CollinAlpert/Lombok.NET)：使用源代码生成器将Java的Lombok适配到.NET。
-* [Comptime](https://github.com/sebastienros/comptime)：Comptime是一个.NET源代码生成器，它在编译时执行方法并将其结果序列化为C#代码。
-* [PrimaryConstructor](https://github.com/chaowlert/PrimaryConstructor)：从只读字段和属性生成主构造函数。
-* [Vipr](https://github.com/microsoft/Vipr)：VIPR是一个可扩展的工具包，用于生成Web服务客户端库。
-* [Gobie](https://github.com/GobieGenerator/Gobie)：基于自定义模板的简单C#源代码生成。
-* [Automatic Interface](https://github.com/codecentric/net_automatic_interface)：一个C#源生成器，用于自动从类创建接口。
-* [Equals](https://github.com/Fody/Equals)：从属性生成Equals、GetHashCode和运算符方法。
-* [LinqGen](https://github.com/cathei/LinqGen)：LinqGen是一个利用用户代码源代码生成来优化Linq查询的项目。
-* [ImmutableObjectGraph](https://github.com/AArnott/ImmutableObjectGraph)：该项目提供代码生成功能，使编写不可变对象变得更加容易。
-* [WebApiClientGen](https://github.com/zijianhuang/webapiclientgen)：强类型客户端API生成器可以从ASP.NET Web API和.NET Core Web API生成C#.NET和TypeScript编写的强类型客户端API，支持jQuery和Angular 2+。
-* [Scripty](https://github.com/daveaglick/Scripty)：用于让你使用Roslyn驱动的C#脚本进行代码生成的工具。
-* [ServiceScan.SourceGenerator](https://github.com/Dreamescaper/ServiceScan.SourceGenerator)：Microsoft.Extensions.DependencyInjection的程序集扫描源生成器。
-* [T4MVC](https://github.com/T4MVC/T4MVC)：T4MVC是一个用于ASP.NET MVC应用程序的T4模板，它创建强类型辅助函数，从而在许多地方消除了字面字符串的使用。
-* [CodegenCS](https://github.com/Drizin/CodegenCS)：CodegenCS是一个代码生成工具包，其中的模板是用纯C#编写的。
-* [Geco](https://github.com/iQuarc/Geco)：基于控制台项目的简单代码生成器，运行于.Net Core并使用C#插值字符串。
-* [C2CS](https://github.com/bottlenoselabs/c2cs)：C到C#库绑定代码生成器。
-* [Testura.Code](https://github.com/Testura/Testura.Code)：Testura.Code是Roslyn API的包装器，用于生成、保存和编译C#代码。
-* [TypedSignalR.Client.TypeScript](https://github.com/nenoNaninu/TypedSignalR.Client.TypeScript)：TypedSignalR.Client.TypeScript是一个库/命令行工具，它可以分析用C#编写的SignalR hub和接收器类型定义，并生成TypeScript源代码，以提供强类型的SignalR客户端。
-* [CodeBuilder](https://github.com/xianrendzw/CodeBuilder)：CodeBuilder是一款简单易用且轻量级的基于数据库物理模型的代码生成工具。
-* [Slothful CRUD](https://github.com/dfyda/slothful-crud)：Slothful CRUD可帮助你以最少的设置为你的实体生成CRUD API端点。
-* [InstantAPIs](https://github.com/csharpfritz/InstantAPIs)：一个为EFCore上下文生成最小API端点的库。
-* [.NET Dynamic API](https://github.com/DeeJayTC/net-dynamic-api)：一个可以将你的模型转换为完全可用的API的库，你可以将你的模型定义为Markdown、JSON或C#。
-* [StructureOfArraysGenerator](https://github.com/Cysharp/StructureOfArraysGenerator)：数组结构源生成器，用于为.NET和Unity中的高性能代码创建CPU缓存和SIMD友好型数据结构。
-* [AutoRegisterInject](https://github.com/patrickklaeren/AutoRegisterInject)：AutoRegisterInject是一个C#源生成器，它会自动为带有属性标记的类型创建Microsoft.Extensions.DependencyInjection注册。
-* [Thinktecture.Runtime.Extensions](https://github.com/PawelGerr/Thinktecture.Runtime.Extensions)：该库提供一些接口、类、Roslyn源生成器、Roslyn分析器和Roslyn CodeFixes，用于实现智能枚举、值对象和判别联合。
-* [Sync Method Generator](https://github.com/zompinc/sync-method-generator)：生成异步方法的同步版本。
-* [PocoClassGenerator](https://github.com/mini-software/PocoClassGenerator)：迷你POCO类生成器。
-* [JsonCSharpClassGenerator](https://github.com/JsonCSharpClassGenerator/JsonCSharpClassGenerator)：从JSON生成C#类的工具。
-* [POCOGenerator](https://github.com/jaklithn/POCOGenerator)：在SQL中从表或存储过程创建C# POCO类。
-* [SharpCode](https://github.com/ful-stackz/SharpCode)：小型C#代码生成器
-* [Amadevus.RecordGenerator](https://github.com/amis92/RecordGenerator)：C#不可变记录生成器。
-* [EmbeddingResourceCSharp](https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp)：这是一个C#源生成器，它让你可以将文件嵌入到你的应用程序中。
-* [Durian](https://github.com/piotrstenke/Durian)：Durian是一个基于Roslyn的分析器、源代码生成器和实用程序库集合，通过引入在其他现有编程语言(如Kotlin、Swift、Java、C等)中发现的新功能，大大扩展了C#的默认功能。
-* [MTT](https://github.com/CodySchrank/MTT)：MTT从.NET DTO生成TypeScript接口。
-* [Source Generators Toolkit](https://github.com/kant2002/SourceGeneratorsKit)：用于编写源生成器的工具包，特别是收集有关项目的重要信息以辅助生成本身。
-* [Lambda2Js](https://github.com/gearz-lab/lambda2js)：将C#表达式树转换为语法正确的JavaScript代码。
-* [AutoConstructor](https://github.com/k94ll13nn3/AutoConstructor)：C#源代码生成器，用于从类或结构体中的只读字段/属性生成构造函数。
-* [NetTiers](https://github.com/netTiers/netTiers)：NetTiers是一个用C#编写的开源CodeSmith生成器模板库。
-* [ProjectFiles](https://github.com/SimonCropp/ProjectFiles)：一个C#源生成器，提供对在.csproj文件中标记为CopyToOutputDirectory的项目文件以及EmbeddedResource文件的强类型、编译时访问。
-* [DomainPrimitives](https://github.com/altasoft/DomainPrimitives)：一个专门设计用于加速在你的应用程序中开发特定领域原语的C#工具包。
-* [FluentInterfaceCreator](https://github.com/ScottLilly/FluentInterfaceCreator)：用于创建C#流式接口文件的工具。
-* [TypeScript.ContractGenerator](https://github.com/skbkontur/TypeScript.ContractGenerator)：一个可以从C#类生成TypeScript类型的工具。
-* [SmartAnnotations](https://github.com/fiseni/SmartAnnotations)：一个用于.NET的库，它使用源生成器自动为你的模型生成数据注解。
-* [ResXFileCodeGenerator](https://github.com/VocaDB/ResXFileCodeGenerator)：ResX设计器源生成器，生成强类型资源类以查找本地化字符串。
-* [Spiderly](https://github.com/filiptrivan/spiderly)：Spiderly是一个免费的开源.NET代码生成器，它可以将EF Core模型转换为一个可完全自定义的.NET Angular Web应用程序，并在模型演变时自动更新所有样板代码。
-* [NotifyPropertyChangedGenerator](https://github.com/neuecc/NotifyPropertyChangedGenerator)：Roslyn分析器/生成器，用于避免乏味的INotifyPropertyChanged实现样板代码。
-* [FastCrud](https://github.com/ashkanRmk/FastCrud)：FastCrud是一个轻量级、灵活的.NET 9 CRUD API生成器。
-* [Postman2CSharp](https://github.com/biegehydra/Postman2CSharp)：Postman2CSharp是一款免费工具，只需输入你的Postman集合JSON文件，即可生成功能齐全的ApiClient项目。
-* [ProxyApi](https://github.com/stevegreatrex/ProxyApi)：ProxyApi是一个库，它可以自动为ASP.NET MVC和WebApi控制器创建JavaScript代理对象。
-* [Immutype](https://github.com/DevTeam/Immutype)：Immutype是一个.NET代码生成器，它为带有属性标记的记录、结构和类创建扩展方法。
-* [GeneratedEndpoints](https://github.com/jscarle/GeneratedEndpoints)：GeneratedEndpoints是一个.NET源代码生成器，它可以自动从带有属性注解的方法生成Minimal API端点。
-* [DapperCodeGenerator](https://github.com/spronkets/DapperCodeGenerator)：简单的C#代码生成器，用于创建数据库模型和Dapper增删改查操作，以减少手动编码和重复工作。
-* [Sharp2Js](https://github.com/castle-it/sharp2Js)：Sharp2Js是一个小型库，可以创建反映你的C# POCO类的JavaScript对象，并且可以轻松用于使用T4模板生成JS文件。
-* [Voyager](https://github.com/smithgeek/Voyager)：一个源生成器，使请求/端点/响应更容易。
-* [SqlSharpener](https://github.com/aeslinger0/sqlsharpener)：SqlSharpener通过解析SQL文件来创建元对象层次结构，从而生成C#代码。
-* [StructRecordsGenerator](https://github.com/SergeyTeplyakov/StructRecordsGenerator)：该项目包含一组Roslyn生成器，帮助处理C#中的结构体。
-* [Safe Routing Source Generator](https://github.com/daviddotcs/safe-routing)：Safe Routing是一个源代码生成器，它会分析项目的Razor页面和MVC控制器，在你输入时生成这些路由的强类型表示。
-* [SourceFusion](https://github.com/dotnet-campus/SourceFusion)：SourceFusion是一套预编译框架。
-* [GitBuildInfo.SourceGenerator](https://github.com/Elskom/GitBuildInfo.SourceGenerator)：源生成器，用于导出Git分支信息、提交哈希，以及工作树在安装此项目时是脏的还是干净的，并将其作为程序集级别的属性应用。
-* [Immediate.Apis](https://github.com/ImmediatePlatform/Immediate.Apis)：Immediate.Apis是一个用于最小API的源生成器，用于Immediate.Handlers处理程序。
-* [CompileTimeExecution](https://github.com/jonatan1024/CompileTimeExecution)：CompileTimeExecution是一个源生成器，它在编译时运行你的C#代码，并将结果值存储到生成的类中。
-* [Fluentify](https://github.com/MooVC/Fluentify)：Fluentify是一个.NET Roslyn源代码生成器，旨在自动化创建Fluent API。
-* [Route Generator .NET](https://github.com/ewerspej/epj.RouteGenerator)：Route Generator是一个C#源代码生成器，它为你的.NET应用生成一个静态Routes类，包含基于字符串的路由导航的所有路由标识符。
-
-## 构建器模式
-
-* [M31.FluentAPI](https://github.com/m31coding/M31.FluentAPI)：轻松为你的C#类生成流式构建器。
-* [Data Builder Generator](https://github.com/dasMulli/data-builder-generator)：允许为你的模型类生成数据构建器模式。
-* [FluentBuilder](https://github.com/StefH/FluentBuilder)：使用源生成为指定模型或DTO创建FluentBuilder的项目。
-* [BuilderGenerator](https://github.com/MelGrubb/BuilderGenerator)：这是一个.NET源代码生成器，旨在为你的项目添加构建器。
-* [Builder Pattern Generator](https://github.com/macsux/builder-pattern-generator)：.NET构建器模式源代码生成器。
 
 ## CMS系统
 
@@ -4743,6 +4630,7 @@
 * [GE](https://github.com/mellinoe/ge)：一款基于.NET Core构建的通用3D游戏引擎，带有编辑器。
 * [Orbit](https://github.com/bijington/orbit)：Orbit是一个基于.NET MAUI Graphics构建的游戏引擎。
 * [Molten](https://github.com/Syncaidius/MoltenEngine)：一个C# .NET 8游戏引擎项目。
+* [Neo3dEngine](https://github.com/IvanSobolev/Neo3dEngine)：Neo 3D是一个极简的3D引擎，用C#编写，完全在系统控制台中运行。
 * [PokemonGameEngine](https://github.com/Kermalis/PokemonGameEngine)：Pokemon Game Engine是一款基于C#的游戏引擎，类似于2D宝可梦游戏。
 * [NeoAxis Engine](https://github.com/NeoAxis/NeoAxisEngine)：NeoAxis Engine是一款功能全面的游戏引擎，专为创建视频游戏和实时应用程序而设计。
 * [LoveSharp](https://github.com/endlesstravel/Love2dCS)：LoveSharp是LÖVE游戏引擎的C#/F#封装器，可用于你的C#/F#应用程序。
@@ -6612,6 +6500,100 @@
 * [Value](https://github.com/tpierrain/Value)：Value是一个小型库，可以帮助你在C#项目中轻松实现值类型。
 * [WrapperValueObject](https://github.com/martinothamar/WrapperValueObject)：一个用于创建封装原始类型的简单值对象的.NET源代码生成器。
 
+## 代码生成器
+
+* [AbpHelper.GUI](https://github.com/EasyAbp/AbpHelper.GUI)：AbpHelper.GUI提供代码生成等功能，帮助你使用ABP框架开发应用程序和模块。
+* [WebFirst](https://github.com/DotNetNext/WebFirst)：WebFirst是果糖大数据团队开发的新一代高性能代码生成器。
+* [EntityFramework Reverse POCO Code First Generator](https://github.com/sjh37/EntityFramework-Reverse-POCO-Code-First-Generator)：EntityFramework反向POCO代码优先生成器。
+* [R4MVC](https://github.com/T4MVC/R4MVC)：R4MVC是一个用于ASP.NET Core MVC应用程序的Roslyn代码生成器，它可以创建强类型辅助函数，从而在许多地方消除对字符串字面量的使用。
+* [NTypewriter](https://github.com/NeVeSpl/NTypewriter)：NTypewriter是一个文件生成器，它使用包含C#代码元数据的文本模板生成文件。
+* [StringLiteralGenerator](https://github.com/ufcpp/StringLiteralGenerator)：用于UTF-8二进制字面量的C#源代码生成器。
+* [uController](https://github.com/davidfowl/uController)：一个用于生成极简API的源代码生成器。
+* [ObservableEvents](https://github.com/reactivemarbles/ObservableEvents)：本项目是一个.NET源代码生成器，用于生成IObservable对象中包含的事件。
+* [Facet](https://github.com/Tim-Maes/Facet)：Facet是一个C#源代码生成器，可以消除DTO样板代码。
+* [Craftsman](https://github.com/pdevito3/craftsman)：Craftsman是Wrapt框架背后的主力工具，提供了一套CLI命令，通过简单的CLI命令和配置文件，快速为你的.NET Web API创建新的文件和项目。
+* [CodeGenHelpers](https://github.com/dansiegel/CodeGenHelpers)：CodeGenHelpers帮助人们编写C#代码生成器。
+* [CsCodeGenerator](https://github.com/borisdj/CsCodeGenerator)：这是一个小型的.NET库，可以基于类及其元素轻松生成C#代码。
+* [AutoCtor](https://github.com/distantcam/AutoCtor)：AutoCtor是一个Roslyn源代码生成器，它可以自动为你的类创建构造函数，以便用于构造函数依赖注入。
+* [Morris.Moxy](https://github.com/mrpmorris/Morris.Moxy)：Morris.Moxy是一个用于Microsoft .NET的Mixins代码生成器。
+* [Uno.SourceGeneration](https://github.com/unoplatform/Uno.SourceGeneration)：Uno SourceGeneration是一个API兼容的源代码生成器。
+* [Generator.Equals](https://github.com/diegofrata/Generator.Equals)：仅使用属性即可自动实现IEquatable的源代码生成器。
+* [CsWhispers](https://github.com/rasta-mouse/CsWhispers)：用于向C#项目添加D/Invoke和间接系统调用方法的源代码生成器。
+* [SourceGeneratorTemplate](https://github.com/davidwengier/SourceGeneratorTemplate)：编写C#源代码生成器的基本模板。
+* [GodotSharp.SourceGenerators](https://github.com/Cat-Lips/GodotSharp.SourceGenerators)：用于Godot游戏引擎的C#源代码生成器。
+* [Protocol Buffers C# Code Generator](https://github.com/silentorbit/protobuf)：用于读取和写入Protocol Buffers格式的C#代码生成器。
+* [Lombok.NET](https://github.com/CollinAlpert/Lombok.NET)：使用源代码生成器将Java的Lombok适配到.NET。
+* [Comptime](https://github.com/sebastienros/comptime)：Comptime是一个.NET源代码生成器，它在编译时执行方法并将其结果序列化为C#代码。
+* [PrimaryConstructor](https://github.com/chaowlert/PrimaryConstructor)：从只读字段和属性生成主构造函数。
+* [Vipr](https://github.com/microsoft/Vipr)：VIPR是一个可扩展的工具包，用于生成Web服务客户端库。
+* [Gobie](https://github.com/GobieGenerator/Gobie)：基于自定义模板的简单C#源代码生成。
+* [Automatic Interface](https://github.com/codecentric/net_automatic_interface)：一个C#源生成器，用于自动从类创建接口。
+* [Equals](https://github.com/Fody/Equals)：从属性生成Equals、GetHashCode和运算符方法。
+* [LinqGen](https://github.com/cathei/LinqGen)：LinqGen是一个利用用户代码源代码生成来优化Linq查询的项目。
+* [ImmutableObjectGraph](https://github.com/AArnott/ImmutableObjectGraph)：该项目提供代码生成功能，使编写不可变对象变得更加容易。
+* [WebApiClientGen](https://github.com/zijianhuang/webapiclientgen)：强类型客户端API生成器可以从ASP.NET Web API和.NET Core Web API生成C#.NET和TypeScript编写的强类型客户端API，支持jQuery和Angular 2+。
+* [Scripty](https://github.com/daveaglick/Scripty)：用于让你使用Roslyn驱动的C#脚本进行代码生成的工具。
+* [ServiceScan.SourceGenerator](https://github.com/Dreamescaper/ServiceScan.SourceGenerator)：Microsoft.Extensions.DependencyInjection的程序集扫描源生成器。
+* [T4MVC](https://github.com/T4MVC/T4MVC)：T4MVC是一个用于ASP.NET MVC应用程序的T4模板，它创建强类型辅助函数，从而在许多地方消除了字面字符串的使用。
+* [CodegenCS](https://github.com/Drizin/CodegenCS)：CodegenCS是一个代码生成工具包，其中的模板是用纯C#编写的。
+* [Geco](https://github.com/iQuarc/Geco)：基于控制台项目的简单代码生成器，运行于.Net Core并使用C#插值字符串。
+* [C2CS](https://github.com/bottlenoselabs/c2cs)：C到C#库绑定代码生成器。
+* [Testura.Code](https://github.com/Testura/Testura.Code)：Testura.Code是Roslyn API的包装器，用于生成、保存和编译C#代码。
+* [TypedSignalR.Client.TypeScript](https://github.com/nenoNaninu/TypedSignalR.Client.TypeScript)：TypedSignalR.Client.TypeScript是一个库/命令行工具，它可以分析用C#编写的SignalR hub和接收器类型定义，并生成TypeScript源代码，以提供强类型的SignalR客户端。
+* [CodeBuilder](https://github.com/xianrendzw/CodeBuilder)：CodeBuilder是一款简单易用且轻量级的基于数据库物理模型的代码生成工具。
+* [Slothful CRUD](https://github.com/dfyda/slothful-crud)：Slothful CRUD可帮助你以最少的设置为你的实体生成CRUD API端点。
+* [InstantAPIs](https://github.com/csharpfritz/InstantAPIs)：一个为EFCore上下文生成最小API端点的库。
+* [.NET Dynamic API](https://github.com/DeeJayTC/net-dynamic-api)：一个可以将你的模型转换为完全可用的API的库，你可以将你的模型定义为Markdown、JSON或C#。
+* [StructureOfArraysGenerator](https://github.com/Cysharp/StructureOfArraysGenerator)：数组结构源生成器，用于为.NET和Unity中的高性能代码创建CPU缓存和SIMD友好型数据结构。
+* [AutoRegisterInject](https://github.com/patrickklaeren/AutoRegisterInject)：AutoRegisterInject是一个C#源生成器，它会自动为带有属性标记的类型创建Microsoft.Extensions.DependencyInjection注册。
+* [Thinktecture.Runtime.Extensions](https://github.com/PawelGerr/Thinktecture.Runtime.Extensions)：该库提供一些接口、类、Roslyn源生成器、Roslyn分析器和Roslyn CodeFixes，用于实现智能枚举、值对象和判别联合。
+* [Sync Method Generator](https://github.com/zompinc/sync-method-generator)：生成异步方法的同步版本。
+* [PocoClassGenerator](https://github.com/mini-software/PocoClassGenerator)：迷你POCO类生成器。
+* [JsonCSharpClassGenerator](https://github.com/JsonCSharpClassGenerator/JsonCSharpClassGenerator)：从JSON生成C#类的工具。
+* [POCOGenerator](https://github.com/jaklithn/POCOGenerator)：在SQL中从表或存储过程创建C# POCO类。
+* [SharpCode](https://github.com/ful-stackz/SharpCode)：小型C#代码生成器
+* [Amadevus.RecordGenerator](https://github.com/amis92/RecordGenerator)：C#不可变记录生成器。
+* [EmbeddingResourceCSharp](https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp)：这是一个C#源生成器，它让你可以将文件嵌入到你的应用程序中。
+* [Durian](https://github.com/piotrstenke/Durian)：Durian是一个基于Roslyn的分析器、源代码生成器和实用程序库集合，通过引入在其他现有编程语言(如Kotlin、Swift、Java、C等)中发现的新功能，大大扩展了C#的默认功能。
+* [MTT](https://github.com/CodySchrank/MTT)：MTT从.NET DTO生成TypeScript接口。
+* [Source Generators Toolkit](https://github.com/kant2002/SourceGeneratorsKit)：用于编写源生成器的工具包，特别是收集有关项目的重要信息以辅助生成本身。
+* [Lambda2Js](https://github.com/gearz-lab/lambda2js)：将C#表达式树转换为语法正确的JavaScript代码。
+* [AutoConstructor](https://github.com/k94ll13nn3/AutoConstructor)：C#源代码生成器，用于从类或结构体中的只读字段/属性生成构造函数。
+* [NetTiers](https://github.com/netTiers/netTiers)：NetTiers是一个用C#编写的开源CodeSmith生成器模板库。
+* [ProjectFiles](https://github.com/SimonCropp/ProjectFiles)：一个C#源生成器，提供对在.csproj文件中标记为CopyToOutputDirectory的项目文件以及EmbeddedResource文件的强类型、编译时访问。
+* [DomainPrimitives](https://github.com/altasoft/DomainPrimitives)：一个专门设计用于加速在你的应用程序中开发特定领域原语的C#工具包。
+* [FluentInterfaceCreator](https://github.com/ScottLilly/FluentInterfaceCreator)：用于创建C#流式接口文件的工具。
+* [TypeScript.ContractGenerator](https://github.com/skbkontur/TypeScript.ContractGenerator)：一个可以从C#类生成TypeScript类型的工具。
+* [SmartAnnotations](https://github.com/fiseni/SmartAnnotations)：一个用于.NET的库，它使用源生成器自动为你的模型生成数据注解。
+* [ResXFileCodeGenerator](https://github.com/VocaDB/ResXFileCodeGenerator)：ResX设计器源生成器，生成强类型资源类以查找本地化字符串。
+* [Spiderly](https://github.com/filiptrivan/spiderly)：Spiderly是一个免费的开源.NET代码生成器，它可以将EF Core模型转换为一个可完全自定义的.NET Angular Web应用程序，并在模型演变时自动更新所有样板代码。
+* [NotifyPropertyChangedGenerator](https://github.com/neuecc/NotifyPropertyChangedGenerator)：Roslyn分析器/生成器，用于避免乏味的INotifyPropertyChanged实现样板代码。
+* [FastCrud](https://github.com/ashkanRmk/FastCrud)：FastCrud是一个轻量级、灵活的.NET 9 CRUD API生成器。
+* [Postman2CSharp](https://github.com/biegehydra/Postman2CSharp)：Postman2CSharp是一款免费工具，只需输入你的Postman集合JSON文件，即可生成功能齐全的ApiClient项目。
+* [ProxyApi](https://github.com/stevegreatrex/ProxyApi)：ProxyApi是一个库，它可以自动为ASP.NET MVC和WebApi控制器创建JavaScript代理对象。
+* [Immutype](https://github.com/DevTeam/Immutype)：Immutype是一个.NET代码生成器，它为带有属性标记的记录、结构和类创建扩展方法。
+* [GeneratedEndpoints](https://github.com/jscarle/GeneratedEndpoints)：GeneratedEndpoints是一个.NET源代码生成器，它可以自动从带有属性注解的方法生成Minimal API端点。
+* [DapperCodeGenerator](https://github.com/spronkets/DapperCodeGenerator)：简单的C#代码生成器，用于创建数据库模型和Dapper增删改查操作，以减少手动编码和重复工作。
+* [Sharp2Js](https://github.com/castle-it/sharp2Js)：Sharp2Js是一个小型库，可以创建反映你的C# POCO类的JavaScript对象，并且可以轻松用于使用T4模板生成JS文件。
+* [Voyager](https://github.com/smithgeek/Voyager)：一个源生成器，使请求/端点/响应更容易。
+* [SqlSharpener](https://github.com/aeslinger0/sqlsharpener)：SqlSharpener通过解析SQL文件来创建元对象层次结构，从而生成C#代码。
+* [StructRecordsGenerator](https://github.com/SergeyTeplyakov/StructRecordsGenerator)：该项目包含一组Roslyn生成器，帮助处理C#中的结构体。
+* [Safe Routing Source Generator](https://github.com/daviddotcs/safe-routing)：Safe Routing是一个源代码生成器，它会分析项目的Razor页面和MVC控制器，在你输入时生成这些路由的强类型表示。
+* [SourceFusion](https://github.com/dotnet-campus/SourceFusion)：SourceFusion是一套预编译框架。
+* [GitBuildInfo.SourceGenerator](https://github.com/Elskom/GitBuildInfo.SourceGenerator)：源生成器，用于导出Git分支信息、提交哈希，以及工作树在安装此项目时是脏的还是干净的，并将其作为程序集级别的属性应用。
+* [Immediate.Apis](https://github.com/ImmediatePlatform/Immediate.Apis)：Immediate.Apis是一个用于最小API的源生成器，用于Immediate.Handlers处理程序。
+* [CompileTimeExecution](https://github.com/jonatan1024/CompileTimeExecution)：CompileTimeExecution是一个源生成器，它在编译时运行你的C#代码，并将结果值存储到生成的类中。
+* [Fluentify](https://github.com/MooVC/Fluentify)：Fluentify是一个.NET Roslyn源代码生成器，旨在自动化创建Fluent API。
+* [Route Generator .NET](https://github.com/ewerspej/epj.RouteGenerator)：Route Generator是一个C#源代码生成器，它为你的.NET应用生成一个静态Routes类，包含基于字符串的路由导航的所有路由标识符。
+
+## 构建器模式
+
+* [M31.FluentAPI](https://github.com/m31coding/M31.FluentAPI)：轻松为你的C#类生成流式构建器。
+* [Data Builder Generator](https://github.com/dasMulli/data-builder-generator)：允许为你的模型类生成数据构建器模式。
+* [FluentBuilder](https://github.com/StefH/FluentBuilder)：使用源生成为指定模型或DTO创建FluentBuilder的项目。
+* [BuilderGenerator](https://github.com/MelGrubb/BuilderGenerator)：这是一个.NET源代码生成器，旨在为你的项目添加构建器。
+* [Builder Pattern Generator](https://github.com/macsux/builder-pattern-generator)：.NET构建器模式源代码生成器。
+
 ## 字符串库
 
 * [GString](https://github.com/vexe/gstring)：C#的无GC字符串。
@@ -7837,6 +7819,7 @@
 * [QuantTrading](https://github.com/letianzj/QuantTrading)：一个用C#支持IB和Google Finance的实时定量交易/回测平台。
 * [Stock.Indicators](https://github.com/DaveSkender/Stock.Indicators)：Stock.Indicators是一个C#库包，用于生成金融市场技术指标。
 * [TA-Lib.NETCore](https://github.com/hmG3/TA-Lib.NETCore)：TALib.NETCore是著名的技术分析库(TA-Lib)的独立.NET版本。
+* [TaLibStandard](https://github.com/phmatray/TaLibStandard)：TA-Lib的现代C#移植版。
 * [OsEngine](https://github.com/AlexWan/OsEngine)：开源算法交易平台。
 * [TradingSystem](https://github.com/oybab/TradingSystem)：一个多语言跨平台开源交易系统，支持个人交易管理、餐厅、小商店、超市、酒店等。
 * [Trady](https://github.com/karlwancl/Trady)：Trady是一个用于计算技术指标的实用库，目标是成为一个自动化交易系统，提供股票数据输入、指标计算、策略制定和自动交易。
@@ -9014,6 +8997,20 @@
 * [JSON-LD.NET](https://github.com/linked-data-dotnet/json-ld.net)：该库是C#中JSON-LD规范的实现。
 * [JsonLD.Entities](https://github.com/wikibus/JsonLD.Entities)：JsonLD.Entities是一个用于在JSON-LD中序列化和反序列化POCO的小型库。
 
+## JSON-RPC
+
+* [StreamJsonRpc](https://github.com/microsoft/vs-streamjsonrpc)：StreamJsonRpc是一个跨平台的.NET可移植库，用于实现JSON-RPC传输协议。
+* [JSON-RPC.NET](https://github.com/Astn/JSON-RPC.NET)：JSON-RPC.Net是一个高性能的JSON-RPC 2.0服务器，它利用了流行的JSON.NET库。
+* [JsonRpc](https://github.com/edjCase/JsonRpc)：适用于Microsoft.AspNetCore.Routing的.NetStandard 2.1 IRouter实现，用于Json Rpc v2请求。
+* [Tochka.JsonRpc](https://github.com/tochka-public/Tochka.JsonRpc)：将JSON RPC 2.0集成到ASP.NET Core MVC中。
+* [JsonRpc.Standard](https://github.com/CXuesong/JsonRpc.Standard)：一个用于实现JSON RPC客户端和服务器的异步.NET Standard 1.3和.NET Framework 4.5库。
+
+## JSON API
+
+* [JSONAPI.NET](https://github.com/JSONAPIdotNET/JSONAPI.NET)：JSONAPI.NET是一组实用类，旨在使使用ASP.NET MVC WebAPI快速且轻松地实现符合JSON API规范的RESTful Web服务成为可能。
+* [JsonApiFramework](https://github.com/scott-mcdonald/JsonApiFramework)：JsonApiFramework是一个快速、可扩展且可移植的.NET框架，用于基于超媒体API资源的领域模型读取和编写客户端和服务器端的JSON API文档。
+* [Saule](https://github.com/joukevandermaas/saule)：Saule是一个适用于ASP.Net Web API 2的JSON API库。
+
 ## BSON
 
 * [Json.NET BSON](https://github.com/JamesNK/Newtonsoft.Json.Bson)：Json.NET BSON为Json.NET添加了对BSON读写的支持。
@@ -9660,6 +9657,7 @@
 * [InjectorPP.NET](https://github.com/microsoft/injectorppfordotnet)：InjectorPP.NET是一个C#运行时方法替换库，它可以帮助你为尚无法进行单元测试的代码添加测试，而无需事先修改生产代码。
 * [DbMocker](https://github.com/Apps72/DbMocker)：这个.NET库简化了单元测试的数据Mock，以避免连接到关系型数据库。
 * [EntityFrameworkMock](https://github.com/huysentruitw/entity-framework-mock)：用于在单元测试中Mock EF6 DbContext和DbSet的Easy Mock包装器。
+* [Topaz](https://github.com/TheCloudTheory/Topaz)：Topaz是一个单二进制Azure模拟器。
 
 #### 接口Mock
 
@@ -10216,6 +10214,7 @@
 * [ComPDFKit PDF SDK](https://github.com/ComPDFKit/compdfkit-pdf-sdk-windows)：ComPDFKit PDF SDK允许开发者快速向任何Windows应用程序添加PDF功能。
 * [PdfiumPrinter](https://github.com/sandrohanea/PdfiumPrinter)：一个用于打印PDF文件的小型库。
 * [iLovePDF .NET](https://github.com/ilovepdf/ilovepdf-net)：用于iLovePDF API的C#库。
+* [PDFjet](https://github.com/edragoev1/pdfjet)：适用于Java、C#、Swift和Go开发人员的PDF库。
 
 ## PPT
 
