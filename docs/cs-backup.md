@@ -55,6 +55,7 @@
 * [人工智能](#人工智能)
 * [机器学习](#机器学习)
 * [LLM框架](#LLM框架)
+* [RAG](#RAG)
 * [AI网关](#AI网关)
 * [OpenAI客户端](#OpenAI客户端)
 * [智能体](#智能体)
@@ -200,7 +201,6 @@
 * [游戏服务器](#游戏服务器)
 * [游戏模拟器](#游戏模拟器)
 * [ECS](#ECS)
-* [安装工具](#安装工具)
 * [Git工具](#Git工具)
 * [远程桌面协议](#远程桌面协议)
 * [终端模拟器](#终端模拟器)
@@ -239,6 +239,7 @@
 * [CLI框架](#CLI框架)
 * [命令行参数解析](#命令行参数解析)
 * [控制台](#控制台)
+* [TUI框架](#TUI框架)
 * [文本表](#文本表)
 * [ASCII艺术](#ASCII艺术)
 * [进度条](#进度条)
@@ -461,7 +462,6 @@
 * [硬件ID生成器](#硬件ID生成器)
 * [报表引擎](#报表引擎)
 * [商业智能](#商业智能)
-* [广告系统](#广告系统)
 * [爬虫](#爬虫)
 * [短链](#短链)
 * [WebDAV](#WebDAV)
@@ -807,8 +807,6 @@
 * [RoslynPad](https://github.com/roslynpad/roslynpad)：基于Roslyn和AvalonEdit的跨平台C#编辑器。
 * [AvalonStudio](https://github.com/VitalElement/AvalonStudio)：一个可扩展的跨平台集成集成开发环境，使用C#编写，支持Embedded C/C++、.NET Core、Avalonia和Typescript。
 * [Avalonia Visual Basic 6](https://github.com/BAndysc/AvaloniaVisualBasic6)：用Avalonia重现经典的Visual Basic 6 IDE和语言，用C#实现。
-* [CShell](https://github.com/lukebuehler/CShell)：CShell是一个交互式C#脚本环境。
-* [WoWDatabaseEditor](https://github.com/BAndysc/WoWDatabaseEditor)：用于智能脚本的集成开发环境以及基于TrinityCore服务器的数据库编辑。
 * [Edi](https://github.com/Dirkster99/Edi)：基于AvalonDock、AvalonEdit和Castle Windsor的开源集成开发环境。
 * [C64 Studio](https://github.com/GeorgRottensteiner/C64Studio)：C64 Studio是一个基于.NET的集成开发环境。
 * [EsotericIDE](https://github.com/Timwi/EsotericIDE)：Esoteric IDE是针对某些晦涩编程语言的解释器和调试器。
@@ -818,7 +816,6 @@
 * [Wide](https://github.com/chandramouleswaran/Wide)：Wide是一个参与式IDE框架，它使用WPF和Prism来构建类似IDE的应用程序。
 * [ILEditor](https://github.com/worksofliam/ILEditor)：ILEditor是一个用于在IBM i上开发ILE应用程序的编辑器。
 * [EsPy](https://github.com/jungervin/EsPy)：ESP8266的Micropython集成开发环境。
-* [TurboSharp](https://github.com/Open-Inventions/TurboSharp)：一个用于C#的命令行集成开发环境。
 * [Nyan Compiler](https://github.com/NYAN-x-CAT/Nyan-Compiler)：Nyan Compiler是一个使用CodeDOM的基础C# VB.NET集成开发环境。
 
 ## 文本编辑器
@@ -1425,32 +1422,20 @@
 
 ## 即时通讯
 
-* [Disa](https://github.com/Disa-im/DisaOpenSource)：Disa是一款统一的即时通讯软件，目前支持安卓设备。
-* [JabbR](https://github.com/JabbR/JabbR)：JabbR是一个使用ASP.NET和SignalR构建的聊天应用程序。
-* [BitChatClient](https://github.com/TechnitiumSoftware/BitChatClient)：Technitium Bit Chat是一款安全的点对点开源即时通讯软件，旨在提供端到端加密。
 * [Ubiety](https://github.com/ubiety/xmpp)：Ubiety是一个用C#编写的可扩展XMPP库，它简单易用且功能强大。
 * [MixedReality WebRTC](https://github.com/microsoft/MixedReality-WebRTC)：MixedReality WebRTC是一个库集合，帮助混合现实应用开发者将点对点实时音频和视频通信整合进他们的应用，提升协作体验。
 * [FreeIM](https://github.com/2881099/FreeIM)：FreeIM使用WebSocket协议实现简易、高性能、集群即时通讯组件，支持点对点通讯、群聊通讯、上线下线事件消息等众多实用性功能。
-* [BaileysCSharp](https://github.com/WhiskeySockets/BaileysCSharp)：轻量级全功能C# WhatsApp Web API。
-* [Technitium Mesh](https://github.com/TechnitiumSoftware/Mesh)：Technitium Mesh是一个安全、匿名的点对点开源即时通讯工具，旨在提供端到端加密。
 * [PubNub C# SDK](https://github.com/pubnub/c-sharp)：针对C#及其衍生语言的PubNub客户端，包括Windows C#/.NET、Silverlight、IIS和Mono。
 * [NeuChar](https://github.com/Senparc/NeuChar)：Senparc.NeuChar跨平台信息交互标准。
 * [Matrix .NET SDK](https://github.com/baking-bad/matrix-dotnet-sdk)：这个开源库允许你构建与Matrix协议兼容的.NET应用程序。
-* [SignalR Chat](https://github.com/IEvangelist/signalr-chat)：一款使用Blazor WebAssembly构建、托管在ASP.NET Core上、采用最新C#和SignalR的聊天应用程序。
 * [Pusher Channels .NET HTTP](https://github.com/pusher/pusher-http-dotnet)：这是一个用于与Pusher Channels HTTP API交互的.NET库。
-* [Kahla](https://github.com/AiursoftWeb/Kahla)：Kahla是一款跨平台的商务聊天应用程序。
-* [Egroo](https://github.com/jihadkhawaja/Egroo)：一个使用Blazor和ASP.NET构建的自托管实时聊天Web应用程序。
-* [GFF](https://github.com/yswenli/GFF)：GFF是一个模仿QQ的通信项目。
 * [LineMessagingApi](https://github.com/pierre3/LineMessagingApi)：这是LINE Messaging API的C#实现。
-* [TCPChat](https://github.com/Nirklav/TCPChat)：多用户客户端-服务器语音聊天，融合了P2P元素。
-* [WSNet2](https://github.com/KLab/wsnet2)：WSNet2是基于WebSocket的面向移动在线游戏的实时通信系统。
 * [LayIM.NETClient](https://github.com/fanpan26/LayIM.AspNet)：LayIM.NETClient是针对当前流行前端WebIM框架LayIM的实现。
 * [Lime C#](https://github.com/takenet/lime-csharp)：LIME允许你使用基于JSON的开放协议构建可扩展的实时消息应用。
 * [MumbleSharp](https://github.com/martindevans/MumbleSharp)：MumbleSharp是一个Mumble客户端库以及用C#编写的示例客户端实现。
 * [Stream Chat .NET](https://github.com/GetStream/stream-chat-net)：Stream Chat的官方.NET API客户端，Stream Chat是一款用于构建聊天应用程序的服务。
 * [Synapse](https://github.com/codebutler/synapse)：一个XMPP客户端。
 * [SharpTox](https://github.com/alexbakker/SharpTox)：Tox核心、AV和DNS功能的封装库。
-* [IpMsg.Net](https://github.com/iccfish/IpMsg.Net)：IPMSG的.NET实现。
 * [Matrix .NET SDK](https://github.com/Half-Shot/matrix-dotnet-sdk)：该项目提供了一个用于与Matrix协议接口的SDK。
 * [S22.Xmpp](https://github.com/smiley22/S22.Xmpp)：S22.Xmpp是一个易于使用且文档完善的.NET程序集，用于与XMPP服务器通信。
 * [Artalk.Xmpp](https://github.com/araditc/Artalk.Xmpp)：Artalk.Xmpp包含一个易于使用且文档齐全的.NET程序集，用于与XMPP服务器通信。
@@ -1543,8 +1528,6 @@
 ## BitTorrent
 
 * [TorrentClient .NET](https://github.com/aljazsim/torrent-client-for-net)：这是一个使用C#编写、基于BitTorrent协议1.0的种子节点实现。
-* [qBittorrent CLI](https://github.com/fedarovich/qbittorrent-cli)：qBittorrent CLI是一个跨平台的命令行界面，用于远程操作qBittorrent实例。
-* [RatioMaster.NET](https://github.com/NikolayIT/RatioMaster.NET)：RatioMaster.NET是一个小型独立应用程序，可模拟几乎所有BitTorrent跟踪器上的种子上传和下载统计数据。
 * [MonoTorrent](https://github.com/alanmcgovern/monotorrent)：MonoTorrent是一个用于.NET的BitTorrent库。
 * [TorrentCore](https://github.com/SamuelFisher/torrentcore)：一个可以在所有支持.NET Standard 2.0的平台上运行的BitTorrent库。
 * [bzTorrent](https://github.com/bizzehdee/bzTorrent)：用C#编写的开源.NET BitTorrent库，包含抓取器和点对点协议实现。
@@ -1621,8 +1604,6 @@
 * [TypeChat.NET](https://github.com/microsoft/typechat.net)：TypeChat.NET将TypeChat的理念带到.NET。
 * [SemanticKernel.Assistants](https://github.com/kbeaugrand/SemanticKernel.Assistants)：
 * [SourceAFIS .NET](https://github.com/robertvazan/sourceafis-net)：SourceAFIS的纯C#移植版本。
-* [KernelMemory.StructRAG](https://github.com/kbeaugrand/KernelMemory.StructRAG)：该项目利用创新的 StructRAG 方法来提高在复杂场景中RAG的准确性。
-* [RAGSharp](https://github.com/MrRazor22/RAGSharp)：RAGSharp是一个轻量级、可扩展的RAG库，完全用C#构建。
 * [OpenPoseDotNet](https://github.com/takuya-takeuchi/OpenPoseDotNet)：OpenPose包装器，使用C++和C#编写，适用于Windows。
 * [PlanningAI](https://github.com/rubenwe/PlanningAI)：该库提供了GOAP的基本实现，并在此基础上添加了一些实用工具系统。
 * [AiDotNet](https://github.com/ooples/AiDotNet)：一个适用于所有最新人工智能算法的新库。
@@ -1688,6 +1669,13 @@
 * [SemanticSlicer](https://github.com/drittich/SemanticSlicer)：SemanticSlicer是一个轻量级的C#应用程序，它递归地将文本分割成有意义的块，同时保留语义边界，非常适合用于生成嵌入。
 * [AgileAI](https://github.com/kklldog/AgileAI)：一个轻量级的.NET AI SDK，用于构建具有提供商路由、流式响应、工具调用、本地技能和会话持久性的聊天应用程序。
 * [LangChain.NET](https://github.com/jeastham1993/langchain-dotnet)：LangChain项目的.NET实现。
+
+## RAG
+
+* [KernelMemory.StructRAG](https://github.com/kbeaugrand/KernelMemory.StructRAG)：该项目利用创新的StructRAG方法来提高在复杂场景中RAG的准确性。
+* [RAGSharp](https://github.com/MrRazor22/RAGSharp)：RAGSharp是一个轻量级、可扩展的RAG库，完全用C#构建。
+* [VectorRAG.Net](https://github.com/likeslines-maker/VectorRAG.Net)：VectorRAG.Net是一个面向.NET的高性能向量数据库库，用于语义搜索和RAG。
+* [SmartRAG](https://github.com/byerlikaya/SmartRAG)：.NET的多模态RAG。
 
 ## AI网关
 
@@ -2060,6 +2048,7 @@
 * [Pash](https://github.com/Pash-Project/Pash)：一个用于Mono的Windows PowerShell开源重实现。
 * [AIShell](https://github.com/PowerShell/AIShell)：AI Shell是一款命令行工具，它将人工智能的强大功能直接带到你的命令行。
 * [.NET Shell](https://github.com/dotnet-shell/Shell)：.NET Shell是Unix Shell的替代品，它将C#/.NET带到命令行中，使用熟悉且类似Bash的语法。
+* [CShell](https://github.com/lukebuehler/CShell)：CShell是一个交互式C#脚本环境。
 
 ## 电商
 
@@ -2978,6 +2967,7 @@
 * [Dataphor](https://github.com/dataphor/Dataphor)：Dataphor是一个开源应用程序开发平台，旨在简化设计、开发和维护软件应用程序的过程。
 * [Cosmos DB Studio](https://github.com/thomaslevesque/CosmosDBStudio)：用于浏览和查询Azure Cosmos DB数据库的工具。
 * [SQRLDotNetClient](https://github.com/sqrldev/SQRLDotNetClient)：一个基于.NET Core的跨平台SQL客户端和库。
+* [WoWDatabaseEditor](https://github.com/BAndysc/WoWDatabaseEditor)：用于智能脚本的集成开发环境以及基于TrinityCore服务器的数据库编辑。
 
 ## 微服务库
 
@@ -4592,6 +4582,8 @@
 * [NetSparkle](https://github.com/NetSparkleUpdater/NetSparkle)：NetSparkle是一个C#跨平台、高度可配置的软件更新框架。
 * [SimpleUpdater.NET](https://github.com/iccfish/FSLib.App.SimpleUpdater)：这是一个快速为已有的应用程序增加自动更新功能的组件，专为.NET/WinForm设计。
 * [GeneralUpdate](https://github.com/GeneralLibrary/GeneralUpdate)：GeneralUpdate是一个基于.NET Standard 2.0的跨平台应用自动升级组件。
+* [Squirrel](https://github.com/Squirrel/Squirrel.Windows)：Squirrel既是一套工具，也是库，用于全面管理你的桌面Windows应用程序的安装和更新。
+* [Onova](https://github.com/Tyrrrz/Onova)：Onova是一个用于桌面应用的轻量级自动更新框架。
 * [MAutoUpdate](https://github.com/Hello-Mango/MAutoUpdate)：.NET程序自动更新实现。
 * [AppAutoUpdater](https://github.com/knightswarrior/AppAutoUpdater)：AutoUpdater是一个库，它允许开发人员轻松地向其桌面应用程序添加自动更新功能。
 * [nUpdate](https://github.com/dbforge/nUpdate)：nUpdate是一个功能强大的.NET应用程序更新系统。
@@ -4627,18 +4619,14 @@
 * [JYNew](https://github.com/jynew/jynew)：类似金庸传奇的RPG游戏框架，具有完整的Modding支持和10多个小时的可玩游戏样本。
 * [Stride](https://github.com/stride3d/stride)：Stride是一个专为真实感渲染和VR而设计的开源C#游戏引擎。
 * [FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)：Flax Engine是一个用C++和C#编写的高质量现代3D游戏引擎。
-* [Game Framework](https://github.com/EllanJiang/GameFramework)：Game Framework是一个基于Unity引擎的游戏框架，主要对游戏开发过程中常用模块进行了封装
 * [Behaviac](https://github.com/Tencent/behaviac)：Behaviac是一个游戏AI开发框架，同时也可以作为快速游戏原型设计工具，由腾讯开源。
 * [Murder](https://github.com/isadorasophia/murder)：Murder是一款像素艺术ECS游戏引擎。
 * [ET](https://github.com/egametang/ET)：Unity3D客户端和C#服务器框架。
 * [Nez](https://github.com/prime31/Nez)：Nez旨在成为一个功能丰富的2D框架。
 * [Playnite](https://github.com/JosefNemec/Playnite)：一款开源视频游戏库管理器和启动器，支持Steam、Epic、GOG、EA App、Battle.net等第三方库。
-* [San Andreas Unity](https://github.com/in0finite/SanAndreasUnity)：San Andreas Unity是Unity中GTA San Andreas游戏引擎的开源重新实现。
 * [S&Box](https://github.com/Facepunch/sbox-public)：S&Box是一款基于Valve Source 2和最新.NET技术构建的现代游戏引擎，它提供了一个现代化的直观编辑器，用于创建游戏。
 * [Osu](https://github.com/ppy/osu-framework)：一个以osu!为参考编写的游戏框架。
-* [Game Framework](https://github.com/EllanJiang/UnityGameFramework)：Game Framework是一个基于Unity引擎的游戏框架。
 * [SadConsole](https://github.com/Thraka/SadConsole)：SadConsole是一款基于C#的.NET跨平台终端、ASCII、控制台和游戏引擎。
-* [AnyRPG](https://github.com/AnyRPG/AnyRPGCore)：AnyRPG是一个用C#编写的Unity角色扮演游戏引擎。
 * [Prowl](https://github.com/ProwlEngine/Prowl)：Prowl是一个开源的游戏引擎，使用最新的.NET纯C#开发。
 * [Robust Toolbox](https://github.com/space-wizards/RobustToolbox)：Robust Toolbox是一款主要为Space Station 14开发的引擎。
 * [FlatRedBall](https://github.com/vchelaru/FlatRedBall)：FlatRedBall游戏引擎旨在提升游戏开发者的效率，尤其专注于构建各种类型的2D游戏。
@@ -4745,13 +4733,10 @@
 * [SDL2#](https://github.com/flibitijibibo/SDL2-CS)：SDL2#是一个SDL2的C#封装器。
 * [Raylib CS](https://github.com/raylib-cs/raylib-cs)：C# Raylib绑定，这是一个简单易用的库，用于学习视频游戏编程。
 * [Gorgon](https://github.com/Tape-Worm/Gorgon)：.NET的模块化库集合，对图形和视频游戏开发非常有用。
-* [KDTree](https://github.com/viliwonka/KDTree)：Unity的快速KDTree，支持线程安全的查询。
 * [SFML.Net](https://github.com/SFML/SFML.Net)：SFML是一个简单、快速、跨平台且面向对象的多媒体API。
 * [SharpNav](https://github.com/Robmaister/SharpNav)：SharpNav是一个用于生成和查找导航网格路径的库。
 * [UImGui](https://github.com/psydack/uimgui)：UImGui是一个基于ImGui.NET的即时模式GUI库的UPM包。
-* [KNN](https://github.com/ArthurBrussee/KNN)：Unity DOTS快速K最近邻库。
 * [Fluid HTN](https://github.com/ptrefall/fluid-hierarchical-task-network)：一个基于构建器模式原则的简单HTN规划器，灵感来自Fluid行为树。
-* [Actors](https://github.com/PixeyeHQ/actors.unity)：Actors是一个框架，它使开发者能够在Unity上更快地制作出更好的游戏。
 * [SDL3#](https://github.com/edwardgushchin/SDL3-CS)：SDL3#是一个SDL3的C#封装器。
 * [RogueSharp](https://github.com/FaronBracy/RogueSharp)：RogueSharp是一个用C#编写的免费库，旨在帮助Roguelike游戏开发者快速启动他们的游戏。
 * [GoRogue](https://github.com/Chris3606/GoRogue)：GoRogue是一个现代化的.NET Standard Roguelike/2D游戏实用工具库。
@@ -4768,7 +4753,6 @@
 * [Assetto Corsa Shared Memory](https://github.com/mdjarv/assettocorsasharedmemory)：用C#编写的Assetto Corsa共享内存库，用于访问实时游戏数据。
 * [GenericScriptableArchitecture](https://github.com/SolidAlloy/GenericScriptableArchitecture)：采用ScriptableObject架构，代码库小巧易于扩展，用户界面简洁。
 * [ViGEm.NET](https://github.com/nefarius/ViGEm.NET)：ViGEmClient库的.NET绑定。
-* [JEngine](https://github.com/JasonXuDeveloper/JEngine)：JEngine是专为Unity开发人员设计的开箱即用框架。
 * [SpriterDotNet](https://github.com/loodakrawa/SpriterDotNet)：一个用纯C#实现的简单、快速且高效的Spriter。
 * [ObjLoader](https://github.com/chrisjansson/ObjLoader)：Objloader是一个简单的Wavefront .obj和.mtl文件加载器。
 * [WiimoteLib](https://github.com/BrianPeek/WiimoteLib)：一个用于在.NET中使用任天堂Wii遥控器的库。
@@ -4956,14 +4940,6 @@
 * [LeoEcsLite](https://github.com/LeoECSCommunity/ecslite)：轻量级C#实体组件系统框架。
 * [EntJoy](https://github.com/coinsoundsbetter/entjoy)：一个C#编写的轻量级ECS框架。
 * [uFrame.ECS](https://github.com/uFrame/uFrame.ECS)：uFrame ECS是由uFrame可视化编码引擎实现的实体组件系统框架。
-
-## 安装工具
-
-* [Chocolatey](https://github.com/chocolatey/choco)：Windows的包管理器。
-* [Squirrel](https://github.com/Squirrel/Squirrel.Windows)：Squirrel既是一套工具，也是库，用于全面管理你的桌面Windows应用程序的安装和更新。
-* [Onova](https://github.com/Tyrrrz/Onova)：Onova是一个用于桌面应用的轻量级自动更新框架。
-* [WiX](https://github.com/wixtoolset/wix)：WiX工具集是打造Windows安装体验的最强大工具集。
-* [OneGet](https://github.com/OneGet/oneget)：OneGet是Windows的软件包管理器。
 
 ## Git工具
 
@@ -5459,35 +5435,36 @@
 
 ## 控制台
 
-* [Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)：用于为Windows、Mac和Linux/Unix构建丰富控制台应用程序的首要工具包。
 * [Spectre.Console](https://github.com/spectreconsole/spectre.console)：一个.NET库，可以更轻松地创建漂亮的跨平台控制台应用程序。
-* [ConsoleGUI](https://github.com/TomaszRewak/C-sharp-console-gui-framework)：ConsoleGUI是一个简单的布局驱动的.NET框架，用于创建基于控制台的GUI应用程序。
-* [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar)：在控制台应用程序中可视化进度。
 * [Cocona](https://github.com/mayuki/Cocona)：.NET Core控制台应用程序的微框架。
-* [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
-* [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
 * [EasyConsole](https://github.com/splttingatms/EasyConsole)：EasyConsole是一个库，用于帮助开发者更轻松地为.NET控制台应用程序构建简单的菜单界面。
 * [ConsoleDraw](https://github.com/Haydend/ConsoleDraw)：C#控制台GUI图形库。
-* [Windows Terminal Quake](https://github.com/flyingpie/windows-terminal-quake)：为几乎任何应用程序启用Quake风格的下拉菜单。
 * [FluentConsole](https://github.com/ashmind/FluentConsole)：一个旨在简化彩色控制台输出的流式API。
 * [Kurukuru](https://github.com/mayuki/Kurukuru)：适用于.NET平台的终端旋转器库。
-* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的ncurses终端控件库绑定。
 * [Command .NET](https://github.com/bilal-fazlani/commanddotnet)：一个用于构建现代CLI应用的框架。
 * [PrettyPrompt](https://github.com/waf/PrettyPrompt)：一款跨平台的命令行提示符，提供语法高亮、自动补全、历史记录等功能。
 * [Typin](https://github.com/adambajguz/Typin)：Typin是一个易于使用、受ASP.NET Core启发的框架，用于构建交互式命令行应用程序和命令行工具。
-* [CLRCLI](https://github.com/PhonicUK/CLRCLI)：CLRCLI是一个事件驱动的窗口系统，它使用线条艺术界面供命令行应用程序使用。
-* [.NET Curses](https://github.com/MV10/dotnet-curses)：这是一个易于使用、完全跨平台的.NET封装，用于Unix NCurses终端库。
-* [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI)：XenoAtom.Terminal.UI是一个用于.NET的现代、响应式保留模式终端UI框架。
 * [ConsoleTools](https://github.com/lastunicorn/ConsoleTools)：一套用于.NET控制台的工具和控件。
 * [ConsoleDump](https://github.com/cameronism/ConsoleDump)：在控制台中以颜色形式可视化你的集合和对象。
 * [ColoredConsole](https://github.com/colored-console/colored-console)：为你的控制台添加一些颜色。
 * [PromptPlus](https://github.com/FRACerqueira/PromptPlus)：用于.NET Core的交互式命令行工具包的最佳工具，具有强大的控件和命令，可创建专业的控制台应用程序。
-* [Termina](https://github.com/Aaronontheweb/termina)：Termina是一个面向.NET的响应式TUI框架，它采用声明式布局和精准的区域渲染。
-* [FlagConsole](https://github.com/flagbug/FlagConsole)：FlagConsole是一个用C#编写的.NET库，用于构建基于文本的控制台应用程序界面。
 * [ConsoleMenu](https://github.com/lechu445/ConsoleMenu)：一个简单、高度可定制的类DOS控制台菜单。
 * [InputReader](https://github.com/salihcantekin/InputReader)：InputReader是一个C#库，旨在简化和增强控制台应用程序中读取用户输入的过程。
-* [Terminaux](https://github.com/Aptivi/Terminaux)：Terminaux是一个库，其中包含所有常用和额外的控制台工具，可让你构建高效的控制台应用程序。
 * [ANSIConsole](https://github.com/WilliamRagstad/ANSIConsole)：一个用于创建漂亮控制台应用程序的.NET库。
+
+## TUI框架
+
+* [Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)：用于为Windows、Mac和Linux/Unix构建丰富控制台应用程序的首要工具包。
+* [ConsoleGUI](https://github.com/TomaszRewak/C-sharp-console-gui-framework)：ConsoleGUI是一个简单的布局驱动的.NET框架，用于创建基于控制台的GUI应用程序。
+* [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
+* [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
+* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的ncurses终端控件库绑定。
+* [.NET Curses](https://github.com/MV10/dotnet-curses)：这是一个易于使用、完全跨平台的.NET封装，用于Unix NCurses终端库。
+* [CLRCLI](https://github.com/PhonicUK/CLRCLI)：CLRCLI是一个事件驱动的窗口系统，它使用线条艺术界面供命令行应用程序使用。
+* [Termina](https://github.com/Aaronontheweb/termina)：Termina是一个面向.NET的响应式TUI框架，它采用声明式布局和精准的区域渲染。
+* [FlagConsole](https://github.com/flagbug/FlagConsole)：FlagConsole是一个用C#编写的.NET库，用于构建基于文本的控制台应用程序界面。
+* [Terminaux](https://github.com/Aptivi/Terminaux)：Terminaux是一个库，其中包含所有常用和额外的控制台工具，可让你构建高效的控制台应用程序。
+* [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI)：XenoAtom.Terminal.UI是一个用于.NET的现代、响应式保留模式终端UI框架。
 
 ## 文本表
 
@@ -5515,6 +5492,7 @@
 * [Konsole](https://github.com/goblinfactory/konsole)：低仪式感、用于编写控制台应用程序、实用工具和试验项目的流式DSL。
 * [ConsoleProgressBar](https://github.com/iluvadev/ConsoleProgressBar)：一个功能全面、易于使用的控制台应用程序进度条，用C#编写。
 * [Progress Bar](https://github.com/goblinfactory/progress-bar)：支持单线程或多线程进度更新的C#控制台进度条。
+* [ShellProgressBar](https://github.com/Mpdreamz/shellprogressbar)：在控制台应用程序中可视化进度。
 
 ## 命令框架
 
@@ -5579,9 +5557,7 @@
 * [MailKit](https://github.com/jstedfast/MailKit)：MailKit是一个基于MimeKit构建的跨平台邮件客户端库。
 * [SMTP4Dev](https://github.com/rnwood/smtp4dev)：用于开发和测试的假SMTP电子邮件服务器。
 * [FluentEmail](https://github.com/lukencode/FluentEmail)：从.NET和.NET Core发送电子邮件的最简单方法。
-* [Papercut SMTP](https://github.com/ChangemakerStudios/Papercut-SMTP)：Papercut SMTP是一款二合一的快速电子邮件查看器和内置SMTP服务器(仅用于接收消息)。
 * [SendGrid](https://github.com/sendgrid/sendgrid-csharp)：该库允许你通过C#和.NET快速轻松地使用Twilio SendGrid Web API v3。
-* [MvcMailer](https://github.com/smsohan/MvcMailer)：MvcMailer是一个ASP.NET MVC邮件程序，它帮助使用常规ASP.NET MVC视图撰写电子邮件正文。
 * [PreMailer.NET](https://github.com/milkshakesoftware/PreMailer.Net)：PreMailer.NET将CSS移动到内联样式属性，以获得最大的电子邮件客户端兼容性。
 * [Postal](https://github.com/andrewdavey/postal)：一个方便的ASP.NET MVC电子邮件发送库。
 * [EmailValidation](https://github.com/jstedfast/EmailValidation)：一个用于验证电子邮件地址的简单的.NET类。
@@ -5589,11 +5565,8 @@
 * [MsgKit](https://github.com/Sicos1977/MsgKit)：无需Outlook即可制作MSG文件的.NET库。
 * [MJML.NET](https://github.com/SebastianStehle/mjml-net)：MJML是一种由Mailjet创建的标记语言，旨在减轻编写响应式电子邮件的痛苦。
 * [StrongGrid](https://github.com/Jericho/StrongGrid)：StrongGrid是SendGrid v3 API的强类型库。
-* [EmailAddressExtractor](https://github.com/HaveIBeenPwned/EmailAddressExtractor)：一个从给定路径中的任何文件快速提取所有电子邮件地址的项目。
-* [Mailozaurr](https://github.com/EvotecIT/Mailozaurr)：Mailozaurr是一个PowerShell模块，旨在提供SMTP、POP3、IMAP以及其他几种与电子邮件交互的方式。
 * [Mail](https://github.com/mafly/Mail)：基于Net.Mail封装的发送邮件工具类。
 * [MimeKit](https://github.com/jstedfast/MimeKit)：MimeKit是一个C#库，可用于使用多用途互联网邮件扩展(MIME)创建和解析消息，这些扩展由众多IETF规范定义。
-* [Mail Archiver](https://github.com/s1t5/mail-archiver)：用于存档、搜索和导出电子邮件的综合解决方案。
 * [Mandrill .NET](https://github.com/shawnmclean/Mandrill-dotnet)：Mandrill的.NET封装器。
 * [OpenPop.NET](https://github.com/foens/hpop)：OpenPop.NET是一个开源的POP3客户端和强大的MIME解析器，使用C#编写。
 * [NETCore.MailKit](https://github.com/myloveCc/NETCore.MailKit)：适用于ASP.NET Core的MailKit扩展。
@@ -5809,14 +5782,12 @@
 * [Cake](https://github.com/cake-build/cake)：Cake是一个使用C# DSL的构建自动化系统，用于执行编译代码、复制文件/文件夹、运行单元测试、压缩文件和构建NuGet包等操作。
 * [Nuke](https://github.com/nuke-build/nuke)：适用于C#/.NET的AKEless构建系统。
 * [FAKE](https://github.com/fsprojects/FAKE)：FAKE是一个跨平台构建自动化系统。
-* [SuperUnityBuild](https://github.com/superunitybuild/buildtool)：一个强大的自动化工具，可使用Unity快速轻松地生成构建。
 * [FlubuCore](https://github.com/dotnetcore/FlubuCore)：FlubuCore是一个跨平台构建和部署自动化系统。
 * [Oryx](https://github.com/microsoft/Oryx)：Oryx是一个构建系统，可以自动将源代码库编译为可运行的构件。
 * [.NET Releaser](https://github.com/xoofx/dotnet-releaser)：.NET Releaser是一个一体化命令行工具，它通过构建、测试、运行覆盖、交叉编译、打包、从PR/提交创建发行说明和发布，完全自动化你的.NET库和应用程序到NuGet和GitHub的发布周期。
 * [Nake](https://github.com/yevhen/Nake)：Naked是一款神奇的.NET任务运行工具，它是Shovel和Rake的混合体。
 * [ModularPipelines](https://github.com/thomhurst/ModularPipelines)：在.NET中定义你的管道，强类型、智能感知、并行化以及整个.NET生态系统触手可及。
 * [BuildXL](https://github.com/microsoft/BuildXL)：BuildXL是一款最初为Microsoft大型内部团队开发的构建引擎。
-* [Xasset](https://github.com/xasset/xasset)：Xasset是专业Unity构建工具。
 * [NAnt](https://github.com/nant/nant)：NAnt是一个基于.NET的构建工具。
 * [Sake](https://github.com/sakeproject/sake)：Sake是一个基于C#语言的构建系统。
 * [Bullseye](https://github.com/adamralph/bullseye)：Bullseye是一个运行目标依赖图的.NET库。
@@ -6262,9 +6233,7 @@
 
 * [ROS#](https://github.com/siemens/ros-sharp)：ROS#是一套用于从.NET应用程序与ROS通信的C#开源软件库和工具。
 * [Machina.NET](https://github.com/RobotExMachina/Machina.NET)：Machina是一个用于基于动作的机械执行器实时控制的.NET库。
-* [Simulator](https://github.com/lgsvl/simulator)：用于自动驾驶汽车的ROS/ROS2多机器人模拟器。
 * [ROS2 .NET](https://github.com/ros2-dotnet/ros2_dotnet)：这是一个用于为.NET Core和.NET Standard编写ROS2应用程序的项目集合。
-* [Robots](https://github.com/visose/Robots)：Robots是Rhino Grasshopper可视化编程界面的一个插件。
 * [ROS.NET](https://github.com/uml-robotics/ROS.NET)：用于Windows开发的C# ROS客户端库。
 * [Monoev3](https://github.com/Larsjep/monoev3)：乐高心灵风暴EV3 C#库。
 * [Fanuc.NET](https://github.com/underautomation/Fanuc.NET)：.NET库用于与Fanuc机器人通信。
@@ -6278,14 +6247,12 @@
 ## 嵌入式
 
 * [.NET Micro Framework](https://github.com/NETMF/netmf-interpreter)：.NET Micro Framework是一个开源平台，它允许你使用Visual Studio为资源受限的嵌入式设备编写托管代码C#应用程序。
-* [Emul8](https://github.com/emul8/emul8)：Emul8是各种嵌入式系统的模拟器。
 * [ArduinoDriver](https://github.com/christophediericx/ArduinoDriver)：一个.NET库，通过在串行连接上运行的简单且高度兼容Arduino语法的请求/响应协议，轻松连接、驱动和调试Arduino。
 * [SolidSoils4Arduino](https://github.com/SolidSoils/Arduino)：SolidSoils4Arduino是一个基于.NET Standard 2.1构建的客户端库。
 * [ArduinoSketchUploader](https://github.com/twinearthsoftware/ArduinoSketchUploader)：一个.NET库和一个命令行实用程序，用于将编译后的草图(.HEX文件)直接上传到Arduino板。
 * [imBMW](https://github.com/toxsedyshev/imBMW)：imBMW是一个基于.NET微框架和硬件的项目。
 * [LVGLSharp](https://github.com/imxcstar/LVGLSharp)：LVGL C#绑定库。
 * [STBootLib](https://github.com/MightyDevices/STBootLib)：用于与STM32 USART(UART)片上引导加载程序通信的C#库。
-* [BSL430.NET](https://github.com/parezj/BSL430.NET)：TI MSP430引导加载程序.NET跨平台工具链和固件工具。
 * [NanoFramework.Hardware.Esp32](https://github.com/nanoframework/nanoFramework.Hardware.Esp32)：.NET NanoFramework Hardware.Esp32类库。
 
 ## 硬件操作
@@ -6360,9 +6327,7 @@
 * [ESCPOS.NET](https://github.com/lukevp/ESC-POS-.NET)：ESCPOS.NET是一个超级易于使用的库，支持Epson ESC/POS标准的最常见功能。
 * [Huanent.Printer](https://github.com/huanent/Huanent.Printer)：Windows下的通用小票打印库。
 * [ESC/POS .NET](https://github.com/mtmsuhail/ESC-POS-USB-NET)：ESC/POS .NET是一个免费的开源.NET实现，用于通过USB设备驱动程序使用Epson ESC/POS打印。
-* [ClawPDF](https://github.com/clawsoftware/clawPDF)：开源虚拟Windows打印机，允许你创建PDF、OCR文本和打印图像，具备通常仅在企业解决方案中具备的高级功能。
 * [ThermalDotNet](https://github.com/yukimizake/ThermalDotNet)：.NET的轻量级ESC POS热敏打印机库。
-* [ErpNet.FP](https://github.com/erpnet/ErpNet.FP)：ErpNet.FP是一个轻量级的多平台HTTP服务器，它通过简单的JSON API实现向财务打印机发送打印请求。
 * [SharpZebra](https://github.com/rkone/sharpzebra)：一个.NET库，简化了使用原生 EPL2/ZPL语言向Zebra打印机打印的过程，无需了解EPL2或ZPL。
 * [PDFtoZPL](https://github.com/sungaila/PDFtoZPL)：一个用于将PDF文件转换为Zebra编程语言命令的.NET库。
 * [BinaryKits.Zpl](https://github.com/BinaryKits/BinaryKits.Zpl)：BinaryKits.Zpl是一套.NET库，该项目帮助你轻松创建Zebra标签。
@@ -6376,17 +6341,12 @@
 
 * [.NET Bio](https://github.com/dotnetbio/bio)：.NET Bio是一个开源的常用生物信息学函数库，旨在简化生命科学应用程序的创建。
 * [ProteoWizard](https://github.com/ProteoWizard/pwiz)：ProteoWizard库和工具是一套模块化且可扩展的开源跨平台工具和软件库，旨在促进蛋白质组学数据分析。
-* [ThermoRawFileParser](https://github.com/CompOmics/ThermoRawFileParser)：一个工具，可以读取Thermo RAW质谱仪文件并转换为在所有支持.NET Core的平台上的通用开放格式。
 * [ECGToolkit](https://github.com/Refactoring/ECGToolkit)：C# ECG Toolkit是一款开源软件工具包，用于转换、查看和打印心电图。
-* [PK Sim](https://github.com/Open-Systems-Pharmacology/PK-Sim)：PK Sim是一款功能全面的全身生理药代动力学建模软件。
 * [RawFileReader](https://github.com/thermofisherlsms/RawFileReader)：RawFilelReader是一组用C#编写的.NET程序集，用于读取Thermo Scientific RAW文件。
 * [CSMSL](https://github.com/dbaileychess/CSMSL)：CSMSL是一个基于.NET的框架，用于处理蛋白质组学和质谱数据。
 
 ## DICOM
 
-* [DICOM Server](https://github.com/microsoft/dicom-server)：用于DICOM的医学影像服务器。
-* [DicomSCP](https://github.com/fightroad/DicomSCP)：轻量PACS系统，医学影像必备DICOM工具箱。
-* [DICOMcloud](https://github.com/DICOMcloud/DICOMcloud)：DICOMcloud是一个独立的DICOMweb服务器，具有DICOMweb/WADO服务的RESTful实现。
 * [Evil DICOM](https://github.com/rexcardan/Evil-DICOM)：一个易于使用的C#库，用于读取和操作DICOM文件。
 * [DICOMSharp](https://github.com/deregtd/DICOMSharp)：DICOMSharp是一个基于C#的DICOM工具包。
 
@@ -6405,7 +6365,6 @@
 ## RDF
 
 * [DotNetRDF](https://github.com/dotnetrdf/dotnetrdf)：DotNetRDF是一个强大而灵活的API，用于在.NET环境中使用RDF和SPARQL。
-* [DOAP](https://github.com/ewilderj/doap)：DOAP是一个创建XML/RDF词汇表来描述软件项目的项目。
 * [RDFSharp](https://github.com/mdesalvo/RDFSharp)：用于实现语义网应用程序的轻量级、友好的.NET库。
 
 ## Wiki
@@ -7236,12 +7195,8 @@
 
 ## 仿真框架
 
-* [Renode](https://github.com/renode/renode)：Renode由Antmicro创建，作为一个用于多节点嵌入式网络(有线和无线)的虚拟开发工具，旨在实现可扩展的工作流程，以创建高效、经过测试且安全的物联网系统。
 * [Gepe3D](https://github.com/Gonkee/Gepe3D)：计算流体动力学。
-* [ViRa](https://github.com/chstetco/virtualradar)：ViRa是一个面向机器人应用的实时FMCW雷达仿真框架。
-* [GHOSTS](https://github.com/cmu-sei/GHOSTS)：GHOSTS是一个代理编排框架，可以在各种计算机系统上模拟逼真的用户行为，在应用程序、网络和工作流中生成类似人类的活动。
 * [SimSharp](https://github.com/heal-research/SimSharp)：Sim#是SimPy的.NET移植版，SimPy是一个基于过程的离散事件仿真框架。
-* [Open DIS C#](https://github.com/open-dis/open-dis-csharp)：C#实现的分布式交互模拟(DIS)标准。
 
 ## Modbus
 
@@ -7249,11 +7204,7 @@
 * [EasyModbusTCP.NET](https://github.com/rossmann-engineering/EasyModbusTCP.NET)：适用于.NET的Modbus TCP、Modbus UDP和Modbus RTU客户端/服务器库。
 * [HslCommunication](https://github.com/dathlin/HslCommunication)：HslCommunication是非常流行的一款工业物联网通讯插件。
 * [NModbus](https://github.com/NModbus/NModbus)：NModbus是Modbus协议的C#实现。
-* [ModbusTool](https://github.com/ClassicDIY/ModbusTool)：具有导入和导出功能的Modbus TCP和RTU主站和从站工具。
-* [Wu.CommTool](https://github.com/Monika1313/Wu.CommTool)：基于C#、WPF、Prism、MaterialDesign、HandyControl开发的通讯调试工具。
 * [FluentModbus](https://github.com/Apollo3zehn/FluentModbus)：FluentModbus是一个.NET Standard库，它提供Modbus TCP/RTU服务器和客户端实现，以便于流程数据交换。
-* [Devices](https://github.com/ganweisoft/Devices)：Devices原生支持Modbus和OPC UA。
-* [LLCOM](https://github.com/chenxuuu/llcom)：功能强大的串口工具。
 * [Modbus.Net](https://github.com/parallelbgls/Modbus.Net)：Modbus.Net是一个开源硬件通信平台。
 * [JccModbus](https://github.com/LessIsMoreInSZ/JccModbus)：Modbus池寄存器通信库。
 * [SharpModbus](https://github.com/samuelventura/SharpModbus)：C# Modbus工具。
@@ -7304,12 +7255,9 @@
 
 ## 串口
 
-* [SerialAssistant](https://github.com/Mculover666/SerialAssistant)：使用C#、WinForm框架编写的串口助手。
 * [UsbSerialForAndroid](https://github.com/anotherlab/UsbSerialForAndroid)：这是一个.NET驱动程序库，用于使你的Microsoft Android应用能够与许多常见的USB串口硬件通信。
 * [SerialPortLib](https://github.com/genielabs/serialport-lib-dotnet)：.NET/Mono的串行端口库。
 * [KoboldCom](https://github.com/PeterRock/KoboldCom)：KoboldCom是一个串口通信类库，提供自定义多协议异步解析、数据模型转换等功能。
-* [Serial Lab](https://github.com/ahsayde/Serial-Lab)：Serial Lab是一个Windows应用程序，它可以从串口读取、写入和绘制数据。
-* [SuperCom](https://github.com/SuperStudio/SuperCom)：SuperCom是一款美观、流畅、功能丰富、高效的串口调试工具。
 * [MitsubishiPlcProtocol](https://github.com/blueskit/MitsubishiPlcProtocol)：三菱PLC(Mitsubishi)通讯协议的C#实现，支持FX、Q系列的ASCII-3E、BIN-3E、FX串口格式。
 * [SerialPortStream](https://github.com/jcurl/RJCP.DLL.SerialPortStream)：SerialPortStream是System.IO.Ports.SerialPort和SerialStream的独立实现，旨在提供更好的可靠性和可维护性。
 * [BytesIO](https://github.com/landriesnidis/STTech.BytesIO)：BytesIO是一个易于使用的基于字节数组通信的.NET库。
@@ -7998,7 +7946,7 @@
 ## 支付
 
 * [Stripe.NET](https://github.com/stripe/stripe-dotnet)：官方Stripe .NET库，支持.NET Standard 2.0、.NET Core 5和.NET Framework 4.6.2。
-* [Paylinks](https://gitee.com/essensoft/paylinks)：一套基于 现代.NET开发，支持跨平台、多商户的第三方支付SDK。
+* [Paylinks](https://gitee.com/essensoft/paylinks)：一套基于现代.NET开发，支持跨平台、多商户的第三方支付SDK。
 * [JumbotPay](https://gitee.com/jumbot/JumbotPay)：一套支持多商户支付宝、微信、百度钱包等第三方支付接口的统一支付平台。
 * [OSS.Clients.Pay](https://gitee.com/osscore/OSS.Clients.Pay)：OSS开源支付SDK，主要打造微信支付，支付宝支付，以及其他银行支付接口标准库项目。
 * [Alipay.AopSdk.Core](https://github.com/dotnetcore/Alipay.AopSdk.Core)：支付宝服务端SDK，采用.NET Standard 2.0。
@@ -8058,13 +8006,11 @@
 
 ## NFC
 
-* [Plugin.NFC](https://github.com/franckbour/Plugin.NFC)：一款跨平台NFC插件，可轻松在你的.NET MAUI应用程序中读取和写入NFC标签。
 * [NFC Reader](https://github.com/h4kbas/nfc-reader)：一个现代化的、跨平台的.NET库，用于使用PC/SC技术的NFC操作。
 
 ## 智能卡
 
 * [PC/SC C#](https://github.com/danm-de/pcsc-sharp)：PC/SC C#库是一个封装器，提供使用系统本地PC/SC API访问个人电脑/智能卡资源管理器的功能。
-* [BouncyHsm](https://github.com/harrison314/BouncyHsm)：Bouncy Hsm是一个HSM和智能卡模拟器软件，具有HTML UI、REST API和PKCS#11接口。
 * [ThaiNationalIDCard](https://github.com/chakphanu/ThaiNationalIDCard)：泰国国家身份证(智能卡)助手。
 * [Cardidy](https://github.com/d-edge/Cardidy)：Cardidy是一个.NET库，用于识别信用卡号码和CVV。
 * [SmartcardFramework](https://github.com/orouit/SmartcardFramework)：一组支持.NET中智能卡的简单类。
@@ -8416,7 +8362,6 @@
 * [Lua C#](https://github.com/nuskey8/Lua-CSharp)：高性能Lua解释器，使用C#为.NET和Unity实现。
 * [NLua](https://github.com/NLua/NLua)：Lua和.NET之间的桥梁。
 * [NeoLua](https://github.com/neolithos/neolua)：动态语言运行时(DLR)的Lua实现。
-* [ToLua](https://github.com/topameng/tolua)：ToLua是Unity Lua静态绑定解决方案。
 * [MoonSharp](https://github.com/moonsharp-devs/moonsharp)：完全用C#编写的适用于.NET、Mono、Xamarin和Unity3D平台的完整Lua解决方案。
 * [NetLua](https://github.com/frabert/NetLua)：NetLua是一个完全托管的Lua动态语言解释器。
 * [Bridge.lua](https://github.com/yanghuan/bridge.lua)：Bridge.lua是一个C#转Lua编译器，生成等效且一致的Lua代码，会进行一些优化，比如局部优化、常数转换等。
@@ -9194,10 +9139,6 @@
 
 * [ImpactIQ](https://github.com/BeSmarterWithData/ImpactIQ)：一键式解决方案，适用于Power BI和Fabric影响分析及治理。
 
-## 广告系统
-
-* [Lorn.ADSP](https://github.com/lornshrimp/Lorn.ADSP)：Lorn.ADSP是一个开源的智能广告投放系统。
-
 ## 爬虫
 
 * [DotnetSpider](https://github.com/dotnetcore/DotnetSpider)：DotnetSpider是一个.NET标准Web爬虫库。
@@ -9352,7 +9293,6 @@
 
 * [NWebsec](https://github.com/NWebsec/NWebsec)：NWebsec包含多个用于ASP.NET应用程序的安全库。
 * [FIDO2 .NET Library](https://github.com/passwordless-lib/fido2-net-lib)：一个用于.NET的完全可用且经过实战测试的密码密钥库。
-* [Bouncy Castle C#](https://github.com/bcgit/bc-csharp)：Bouncy Castle加密库是一个针对.NET的加密算法和协议实现。
 * [CredentialManager](https://github.com/AdysTech/CredentialManager)：C#对CredWrite/CredRead函数的封装，用于在Windows凭据存储中存取数据。
 * [MediatR.Behaviors.Authorization](https://github.com/AustinDavies/MediatR.Behaviors.Authorization)：一个简单的请求授权包，允许你在请求处理器被调用之前构建和运行针对特定请求的授权要求。
 * [Masquerade](https://github.com/TonicAI/masquerade)：一个用于隐藏敏感数据集的Postgres代理。
@@ -9572,6 +9512,7 @@
 ## 加密库
 
 * [BCrypt.NET](https://github.com/BcryptNet/bcrypt.net)：这是用C#实现的jBCrypt移植版本。
+* [Bouncy Castle C#](https://github.com/bcgit/bc-csharp)：Bouncy Castle加密库是一个针对.NET的加密算法和协议实现。
 * [Kamus](https://github.com/Soluto/kamus)：一个开源的GitOps零信任秘密加密和解密解决方案，适用于Kubernetes应用。
 * [NETCore.Encrypt](https://github.com/myloveCc/NETCore.Encrypt)：NETCore加密和解密工具，包括AES、RSA、MD5、SAH1、SAH256、SHA384、SHA512等。
 * [GostCryptography](https://github.com/AlexMAS/GostCryptography)：适用于ViPNet CSP和CryptoPro CSP的.NET驱动程序。
@@ -10082,26 +10023,17 @@
 * [ExcelDna](https://github.com/Excel-DNA/ExcelDna)：Excel DNA是一个独立项目，它将.NET集成到Microsoft Excel中以扩展其原生功能。
 * [LinqToExcel](https://github.com/paulyoder/LinqToExcel)：LinqToExcel是一个.NET库，允许你使用LINQ语法查询Excel电子表格。
 * [ExcelMapper](https://github.com/mganss/ExcelMapper)：将POCO对象映射到Excel文件的库。
-* [Cellm](https://github.com/getcellm/cellm)：Cellm是一个Excel扩展，可让你在单元格公式中使用像ChatGPT这样的大语言模型。
-* [ExcelMerge](https://github.com/skanmera/ExcelMerge)：ExcelMerge是Excel或CSV Diff的图形显示工具。
 * [DaxStudio](https://github.com/DaxStudio/DaxStudio)：DAX Studio是一种用于在Power BI Desktop、Power Pivot for Excel和Analysis Services Tabular中编写、执行和分析DAX查询的工具。
-* [XlsxToLua](https://github.com/zhangqi-ulua/XlsxToLua)：Excel表格数据导出为Lua Table、CSV、JSON形式的工具，兼带数据检查功能以及导出、导入MySQL数据库功能。
 * [Npoi.Mapper](https://github.com/donnytian/Npoi.Mapper)：通过NPOI在强类型对象和Excel数据之间建立基于约定的映射器。
 * [SpreadCheetah](https://github.com/sveinungf/spreadcheetah)：SpreadCheetah是一个用于生成电子表格(Microsoft Excel XLSX)文件的高性能.NET库。
-* [SmartSqlT](https://github.com/TeslaFly01/SmartSqlT)：SmartSQL是一款方便、快捷的数据库文档查询、导出工具。
 * [XLParser](https://github.com/spreadsheetlab/XLParser)：兼容率为99.9%的Microsoft Excel公式C#解析器。
-* [Macrome](https://github.com/michaelweber/Macrome)：专为红队成员和分析师打造的Excel宏文档读写器。
 * [BakingSheet](https://github.com/cathei/BakingSheet)：轻松管理C#和Unity的数据表，支持Excel、Google Sheet、JSON和CSV格式。
 * [OfficeIMO](https://github.com/EvotecIT/OfficeIMO)：OfficeIMO是一系列轻量级、跨平台的.NET库，使用Open XML SDK可以更轻松地处理Office文件格式。
-* [ExcelGPT](https://github.com/Asterecho/ExcelGPT)：ExcelGPT是一款为Excel、WPS添加GPT支持的插件。
 * [FastExcel](https://github.com/ahmedwalid05/FastExcel)：FastExcel提供一种快速读取和写入Excel文件的方法。
-* [ExcelTK](https://github.com/fanfeilong/exceltk)：将Excel表转换为Markdown、JSON、TEX、HTML、图像等。
 * [Sylvan.Data.Excel](https://github.com/MarkPflug/Sylvan.Data.Excel)：用于读取和写入Excel数据文件的跨平台.NET库。
 * [LargeXlsx](https://github.com/salvois/LargeXlsx)：一个.NET库，使用流式写入以低内存消耗写入XLSX格式的大型Excel文件。
 * [ExcelFinancialFunctions](https://github.com/fsprojects/ExcelFinancialFunctions)：这是一个.NET标准库，提供Excel的全套财务功能。
-* [Excel2TextDiff](https://github.com/focus-creative-games/Excel2TextDiff)：一个方便Diff Excel族文件的工具。
 * [ExcelMapper](https://github.com/hughbe/excel-mapper)：一个强大、灵活的.NET库，用于将Excel电子表格数据映射到强类型C#对象。
-* [Hot Manchego](https://github.com/RedSiege/hot-manchego)：使用EPPlus库的启用宏的Excel文件生成器。
 * [NanoXLSX](https://github.com/rabanti-github/NanoXLSX)：NanoXLSX是一个用C#编写的小型.NET库，用于以简单且原生的方式创建和读取XLSX格式的Microsoft Excel文件。
 * [BookFx](https://github.com/bookfx/bookfx)：BookFx提供了一种极其有效的方法来创建任何复杂程度的Excel工作簿。
 * [IntelliSense](https://github.com/Excel-DNA/IntelliSense)：为Excel用户自定义函数添加工作表内智能感知功能。
@@ -10112,33 +10044,28 @@
 * [ExcelLibrary](https://github.com/gustafl/ExcelLibrary)：这是一个小型的C#库，用于简化在Open XML文件格式中读取和写入Excel工作簿。
 * [ExcelProvider](https://github.com/fsprojects/ExcelProvider)：该库是为.NET平台实现的只读Excel类型提供程序。
 * [FsExcel](https://github.com/misterspeedy/FsExcel)：FsExcel是一个可以使用非常简单的代码生成Excel电子表格的库。
-* [ConfigExcel](https://github.com/yukuyoulei/ConfigExcel)：Excel导出成C#类并填充数据，省去序列化和反序列化的消耗。
 * [Excel.IO](https://github.com/OfficeDev/Excel-IO)：这个项目的目标是简化Excel工作簿的读写，使开发者只需传递一个对象集合即可写入工作簿。
 * [Excelsior](https://github.com/SimonCropp/Excelsior)：Excelsior是一个Excel表格生成库，具有独特的数据驱动方法。
 * [EPPlus.Core.Extensions](https://github.com/eraydin/EPPlus.Core.Extensions)：EPPlus包的扩展库，用于轻松生成和操作Excel文件。
 * [ExcelCake](https://github.com/winstonwxj/ExcelCake)：基于EPPlus开发的Excel通用导入导出类库。
 * [EPPlus.DataExtractor](https://github.com/ipvalverde/EPPlus.DataExtractor)：这是一个简单的EPPlus扩展，可以更容易地从电子表格中提取POCO。
-* [DocTransform](https://github.com/xihan123/DocTransform)：DocTransform是一款高效的Excel到Word数据映射应用程序，使用C#开发。
 * [PicoXLSX](https://github.com/rabanti-github/PicoXLSX)：PicoXLSX是一个用C#编写的小型.NET库，用于以简单且本地的方式创建XLSX格式的Microsoft Excel文件。
 * [ExcelExport](https://github.com/fingers10/ExcelExport)：用于在ASP.NET Core中生成Excel/CSV报表的简单类。
-* [ExcelPatternTool](https://github.com/jevonsflash/ExcelPatternTool)：Excel表格-数据库互导工具。
 * [SwiftExcel](https://github.com/RomanPavelko/SwiftExcel)：轻量级、极其快速且内存高效的Excel输出库，适用于.NET和.NET Core应用程序。
 * [ExcelReportGenerator](https://github.com/traf72/excel-report-generator)：这个库允许你通过使用面板和模板标记Excel工作表来将数据渲染到Microsoft Excel。
 * [ExcelExporter](https://github.com/SLaks/ExcelExporter)：ExcelExport是一个简单、流式的API，用于将数据导出到Excel电子表格。
 * [ArrayToExcel](https://github.com/mustaddon/ArrayToExcel)：从数组创建Excel。
 * [Excel2Object](https://github.com/chsword/Excel2Object)：Excel与.NET对象互相转换。
-* [Bumblebee](https://github.com/ksobon/Bumblebee)：Bumblebee是Dynamo的一个Excel互操作工具。
 * [ExcelToHtml](https://github.com/kotynia/ExcelToHtml)：Excel到HTML库和控制台应用程序。
 * [ExcelKit](https://github.com/AdvanceOpen/ExcelKit.Sample)：.NET下简单易用的百万级数据导出到Excel。
 * [NPOI Template](https://github.com/wilson6/NPOI-Template)：NPOI Template根据NPOI模版去生成复杂的Excel表格。
 * [TianCheng.Excel](https://github.com/chengkkll/TianCheng.Excel)：EPPlus封装，实现可以按对象读写Excel。
 * [ExcelToEnumerable](https://github.com/ChrisHodges/ExcelToEnumerable)：一个用于将Excel表格映射到对象列表的高性能库。
-* [Excel2JSON](https://github.com/tidys/excel2Json)：Excel转换JSON工具。
 * [EasyOffice](https://github.com/Nokecy/EasyOffice)：一个用于轻松操作Excel和Word的.NET库。
-* [XlsxMerge](https://github.com/kyungjae-nexon/xlsxmerge)：XlsxMerge是一个可以比较Excel文档并合并内容的工具。
 * [NPOI.CSS](https://github.com/qihangnet/NPOI.CSS)：NPOI.CSS是一个可以在使用NPOI时用类CSS的方法设置单元格样式的NPOI扩展。
 * [CsvHelper.Excel](https://github.com/youngcm2/CsvHelper.Excel)：CsvHelper Excel是一个扩展，集成了两个优秀的库CsvHelper和ClosedXml，它提供了CsvHelper的实现，通过ClosedXML读写Excel。
 * [Serialize.OpenXml.CodeGen](https://github.com/Docx2Src/Serialize.OpenXml.CodeGen)：.NET程序集类，负责将基于OpenXml的文档转换为相应的.NET代码。
+* [Panda.SimpleExcel](https://gitee.com/pandarrr/Panda.SimpleExcel)：简便操作Excel的类库，包括读取、创建、修改等，支持直接从Linq语句转换成Excel工作表。
 
 ## CSV
 
@@ -10212,20 +10139,15 @@
 * [PDF APIs](https://cloudmersive.com/pdf-api)：无缝处理、生成、修改和权限控制PDF文件。
 * [Docotic.Pdf](https://bitmiracle.com/pdf-library/)：Docotic.Pdf是一个高性能的C# PDF库，适用于.NET。
 * [iTextSharp](https://github.com/VahidN/iTextSharp.LGPLv2.Core)：iTextSharp PDF库。
-* [PDFPatcher](https://github.com/wmjordan/PDFPatcher)：PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等。
 * [PdfPig](https://github.com/UglyToad/PdfPig)：该项目允许用户从PDF文件中读取和提取文本及其他内容。
 * [iText](https://github.com/itext/itext-dotnet)：iText是一个高性能、久经考验的库，可用于创建、调整、检查和维护PDF文档。
-* [Kavita](https://github.com/Kareadita/Kavita)：Kavita是一个快速、功能丰富、跨平台的阅读服务器。
 * [PDFsharp](https://github.com/empira/PDFsharp-1.5)：用于处理PDF的.NET库。
 * [NAPS2](https://github.com/cyanfish/naps2)：NAPS2是一款注重简单性和易用性的文档扫描应用程序。
 * [PdfSharpCore](https://github.com/ststeiger/PdfSharpCore)：PdfSharpCore是PdfSharp.Xamarin针对.NET Standard的部分移植。
 * [DinkToPdf](https://github.com/rdvojmoc/DinkToPdf)：WkHtmlToPdf库的C# .NET Core包装器，使用Webkit引擎将HTML页面转换为PDF。
 * [PdfiumViewer](https://github.com/pvginkel/PdfiumViewer)：PdfiumViewer是一个基于PDFium项目的PDF查看器。
-* [OfficeToPDF](https://github.com/cognidox/OfficeToPDF)：OfficeToPDF是一个命令行实用程序，它使用Office内置的PDF导出功能将Microsoft Office 2003、2007、2010、2013和2016文档从其原始格式转换为PDF。
 * [DocNET](https://github.com/GowenGit/docnet)：DocNET旨在成为一个快速的PDF编辑和数据提取库。
 * [ChromiumHtmlToPdf](https://github.com/Sicos1977/ChromiumHtmlToPdf)：ChromiumHtmlToPdf是一个100%托管的C# .NETStandard 2.0库和.NET 8控制台应用程序，可用于使用Google Chromemium将HTML转换为PDF格式。
-* [PDFQFZ](https://github.com/flytkgl/PDFQFZ)：PDF加盖骑缝章的小工具。
-* [PDFCreator](https://github.com/pdfforge/PDFCreator)：免费的PDF转换器。
 * [PDFtoImage](https://github.com/sungaila/PDFtoImage)：一个用于将PDF文件渲染成图像的.NET库。
 * [Tabula Sharp](https://github.com/BobLd/tabula-sharp)：Tabula Sharp是一个用于从PDF文件中提取表格的库。
 * [PDFiumSharp](https://github.com/ArgusMagnus/PDFiumSharp)：PDFiumSharp库是PDFium库的C#/.NET封装库。
@@ -10237,7 +10159,6 @@
 * [Ghostscript.NET](https://github.com/ArtifexSoftware/Ghostscript.NET)：Ghostscript.NET是围绕Ghostscript库最完整的托管封装库，它是用于PostScript语言、PDF及相关软件和文档的解释器。
 * [PDFiumCore](https://github.com/Dtronix/PDFiumCore)：PDFiumCore是一个基于.NET Standard 2.1的PDFium库封装库，包含二进制文件和头文件P/Invoke绑定。
 * [PeachPDF](https://github.com/jhaygood86/PeachPDF)：Peach PDF是一个纯.NET的HTML转PDF渲染库。
-* [PDFKeeper](https://github.com/rffrasca/PDFKeeper)：开源PDF文档管理。
 * [PDFtoPrinter](https://github.com/svishnevsky/PDFtoPrinter)：PDFtoPrinter项目允许打印PDF文件。
 * [WkHtmlToPdf](https://github.com/codaxy/wkhtmltopdf)：这是一个围绕wkhtmltopdf控制台工具的小型C#封装工具。
 * [WkHtmlToXSharp](https://github.com/pruiz/WkHtmlToXSharp)：这是一个针对优秀的Html转PDF转换库wkhtmltopdf的C#封装。
@@ -10251,10 +10172,8 @@
 * [RazorPDF](https://github.com/RazorAnt/RazorPDF)：RazorPDF是一个简单的项目，它让使用Razor视图引擎创建PDF文件变得轻而易举。
 * [DanfeSharp](https://github.com/SilverCard/DanfeSharp)：DanfeSharp是一个C#库，它允许生成PDF格式的DANFE。
 * [MiniPdf](https://github.com/mini-software/MiniPdf)：一个极简、轻量化的.NET库，用于将Office文件转换为PDF。
-* [BulkPDF](https://github.com/Tadelsucht/BulkPDF)：BulkPDF是一款免费且易于使用的开源软件，它可以自动将不同的值填写到现有的PDF表单中。
 * [Api2Pdf.NET](https://github.com/Api2Pdf/api2pdf.dotnet)：Api2Pdf.com是一个强大的REST API，用于在.NET应用程序中生成文档、文件转换和自动化内容提取。
 * [Report.NET](https://github.com/ritchiecarroll/Report.NET)：Report.NET类库用于生成精确的PDF文档。
-* [PDFEncrypt](https://github.com/ryangriggs/PDFEncrypt)：PDFEncrypt是一个免费的开源Windows应用程序，用于快速轻松地加密PDF文件。
 * [Melville.PDF](https://github.com/DrJohnMelville/Pdf)：Melville.PDF让PDF文档可以在.NET应用中免费显示。
 * [PdfiumLight](https://github.com/marcpabst/PdfiumLight)：一个用于在.NET应用中使用Google的Pdfium渲染PDF的轻量级C#库。
 * [Docx4j.NET](https://github.com/plutext/docx4j.NET)：.NET的Docx4j绑定。
@@ -10607,10 +10526,6 @@
 * [AMBROSIA](https://github.com/microsoft/AMBROSIA)：Ambrosia是一种与编程语言无关的方法，用于编写和部署高度可靠的分布式应用程序。
 * [AiurVersionControl](https://github.com/AiursoftWeb/AiurVersionControl)：一个强大而优雅的分布式同步框架，可为任何.NET应用程序带来类似Git的版本控制功能。
 
-
-* [Watt Toolkit](https://github.com/BeyondDimension/SteamTools)：Watt Toolkit是一个开源跨平台的多功能游戏工具箱。
-* [](https://github.com/ppy/osu)：
-
 ## 图
 
 * [Microsoft Graph Engine](https://github.com/microsoft/GraphEngine)：Microsoft Graph Engine是一个分布式内存数据处理引擎，以强类型内存键值存储和通用分布式计算引擎为基础。
@@ -10753,17 +10668,13 @@
 * [Auios.QuadTree](https://github.com/Auios/Auios.QuadTree)：受Leonidovia的四叉树启发而提出的通用四叉树算法。
 * [.NET Trees](https://github.com/tunnelvisionlabs/dotnet-trees)：使用树形数据结构高效实现标准.NET集合接口。
 * [MassivePoints](https://github.com/kekyo/MassivePoints)：.NET实现的改进型四叉树，可以从大量多维坐标中更快地进行范围搜索，支持内存和数据库的卸载。
+* [TreeCollections](https://github.com/davidwest/TreeCollections)：一个用C#编写的泛型树库，专注于层级实体表示。
+* [QuadTree](https://github.com/futurechris/QuadTree)：一个专门为测试二维空间中AABB碰撞而设计的C#四叉树实现。
 
 * [ComputeSharp](https://github.com/Sergio0694/ComputeSharp)：ComputeSharp是一个.NET库，用于通过DX12、D2D1和动态生成的HLSL计算和像素着色器在GPU上并行运行C#代码。
 * [Optick](https://github.com/bombomby/optick)：Optick是一款用于游戏的超轻量级C++分析器。
-* [Nerdbank.GitVersioning](https://github.com/dotnet/Nerdbank.GitVersioning)：用一个由单一简单version.json文件生成的独特版本盖章你的汇编、包等，并为非官方构建附上Git提交ID。
 * [BizHawk](https://github.com/TASEmulators/BizHawk)：EmuHawk是一个用C#编写的多系统模拟器。
-* [XDM](https://github.com/subhra74/xdm)：XDM是一款功能强大的工具，可将下载速度提高500%，保存来自热门视频流网站的视频，恢复损坏/死亡的下载，安排和转换下载。
 * [OpenRPA](https://github.com/open-rpa/openrpa)：开源机器人流程自动化软件。
-* [](https://github.com/rubberduck-vba/Rubberduck)：
-* [Azure Functions Host](https://github.com/Azure/azure-functions-host)：该仓库包含Azure Functions服务使用的运行时主机的代码。
-* [TreeCollections](https://github.com/davidwest/TreeCollections)：一个用C#编写的泛型树库，专注于层级实体表示。
-* [QuadTree](https://github.com/futurechris/QuadTree)：一个专门为测试二维空间中AABB碰撞而设计的C#四叉树实现。
 
 ## 布隆过滤器
 
@@ -10907,7 +10818,6 @@
 * [Kubernetes C# Client](https://github.com/kubernetes-client/csharp)：官方支持的.NET Kubernetes客户端库。
 * [KubeClient](https://github.com/tintoy/dotnet-kube-client)：KubeClient是一个可扩展的Kubernetes API客户端。
 * [KubeOps](https://github.com/dotnet/dotnet-operator-sdk)：KubeOps是一款专为.NET开发人员设计的Kubernetes Operator SDK。
-* [Reflector](https://github.com/emberstack/kubernetes-reflector)：Reflector是一个Kubernetes插件，旨在监视资源的变化，并将变化反映到同一或其他命名空间中的镜像资源。
 * [.NET Operator SDK](https://github.com/sebagomez/dotnet-operator-sdk)：.NET用于构建Kubernetes Operator的SDK。
 * [Kubernetes.DotNet](https://github.com/masroorhasan/Kubernetes.DotNet)：适用于.NET 4.5平台的Kubernetes API规范的C#客户端SDK。
 
@@ -11051,7 +10961,6 @@
 * [](https://github.com/structurizr/dotnet)：
 * [WebAPIContrib](https://github.com/WebApiContrib/WebAPIContrib)：WebAPIContrib是一个开源项目集合，旨在帮助你改进ASP.NET Web API的使用。
 * [Flunt](https://github.com/andrebaltieri/Flunt)：Flunt是一种流式的方式，将通知模式应用于你的实体，集中管理你所做的每一次更改，并在需要时轻松访问它。
-
 * [TodoTxt.NET](https://github.com/benrhughes/todotxt.net)：这是使用.NET框架实现的Todo.Txt。
 * [Disposables](https://github.com/StephenCleary/Disposables)：IDisposable辅助类型。
 * [CSharpAnalytics](https://github.com/AttackPattern/CSharpAnalytics)：CSharpAnalytics是一个免费的C#库，用于通过Google Analytics跟踪应用程序指标。
