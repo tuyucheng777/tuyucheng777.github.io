@@ -1808,7 +1808,6 @@
 * [NltkNet](https://github.com/nrcpp/NltkNet)：.NET的NLTK库封装器。
 * [SharpSimpleNLG](https://github.com/nickhodge/SharpSimpleNLG)：SimpleNLG的C#版本。
 * [Toki Pona](https://github.com/matthewdeanmartin/Tokipona.Parser)：TokiPona.Parser是一个用于解析toki pona的库。
-* [GroupDocs.Classification .NET](https://github.com/groupdocs-classification/GroupDocs.Classification-for-.NET)：GroupDocs.Classification .NET是一个本地库，用于借助IAB-2、文档或情感分类法进行文本和文档分类。
 
 ## 分词器
 
@@ -2158,6 +2157,7 @@
 * [Arithmetics](https://github.com/Lombiq/Arithmetics)：下一代算术实现，为.NET提供改进的浮点数类型，使用C#编写。
 * [BigFloat](https://github.com/Osinko/BigFloat)：一个基于C#自身任意精度整数类的C#任意精度小数库。
 * [IntXLib](https://github.com/devoyster/IntXLib)：IntX是一个用纯C# 2.0编写的任意精度整数库。
+* [Friflo.Vectorization](https://github.com/friflo/Friflo.Vectorization)：Friflo Vectorization是一个C#源代码生成器，用于将Intel和AMD x86-64处理器的惯用浮点运算向量化，并使用AVX指令集。
 
 ## 矩阵
 
@@ -3750,6 +3750,7 @@
 * [MVCBlog](https://github.com/danielpalme/MVCBlog)：基于ASP.NET MVC Core 10和Twitter Bootstrap 4的博客引擎。
 * [WilderBlog](https://github.com/shawnwildermuth/WilderBlog)：基于ASP.NET Core 5的博客项目。
 * [Snakk](https://github.com/snakk-community-platform/snakk)：一个采用.NET 10和ASP.NET Core构建的现代化、高性能社区平台。
+* [FormCMS](https://github.com/nnecrkvenuOX/formcms)：基于ASP.NET Core和React构建的开源无头CMS，具有REST API、GraphQL和GrapesJS页面设计器。
 
 ## 项目管理
 
@@ -3869,7 +3870,6 @@
 * [WAF](https://github.com/jbe2277/waf)：WAF是一个轻量级框架，帮助你创建结构良好的XAML应用程序。
 * [Spice](https://github.com/jonathanpeppers/spice)：跨平台UI框架。
 * [DevZH.UI](https://github.com/noliar/DevZH.UI)：libui的.NET Core绑定。
-* [Consolonia](https://github.com/Consolonia/Consolonia)：一个跨平台的.NET UI框架。
 * [NWindows](https://github.com/xoofx/NWindows)：NWindows是一个用于.NET的跨平台窗口创建和管理库。
 * [Gir.Core](https://github.com/gircore/gir.core)：Gir.Core提供了几个基于GObject的库的C#绑定。
 * [MewUI](https://github.com/aprillz/MewUI)：MewUI是一个跨平台、轻量级、以代码为先的.NET GUI框架，面向NativeAOT。
@@ -4587,6 +4587,7 @@
 * [Caliburn.Light](https://github.com/tibel/Caliburn.Light)：一个无需魔法的MVVM框架，用于使用WPF、WinUI 3和Avalonia构建现代.NET应用程序。
 * [QuickCross](https://github.com/VincentH-Net/QuickCross)：QuickCross是一种轻量级跨平台MVVM框架。
 * [uFrame.MVVM](https://github.com/uFrame/uFrame.MVVM)：uFrame MVVM是由uFrame可视化编码引擎实现的MVVM框架。
+* [Radcial](https://github.com/RadicalFx/Radcial)：Radical是一个基础设施框架，其主要作用是帮助开发基于MVVM模式的复合WPF应用程序。
 
 ## 更新框架
 
@@ -5469,15 +5470,21 @@
 
 * [Terminal.Gui](https://github.com/gui-cs/Terminal.Gui)：用于为Windows、Mac和Linux/Unix构建丰富控制台应用程序的首要工具包。
 * [ConsoleGUI](https://github.com/TomaszRewak/C-sharp-console-gui-framework)：ConsoleGUI是一个简单的布局驱动的.NET框架，用于创建基于控制台的GUI应用程序。
+* [Consolonia](https://github.com/Consolonia/Consolonia)：一个适用于.NET的跨平台UI框架。
 * [Console Framework](https://github.com/igor-kostromin/consoleframework)：Console Framework是一个跨平台工具包，允许使用C#开发基于类似WPF的概念的TUI应用程序。
 * [Hex1b](https://github.com/mitchdenny/hex1b)：Hex1b是一个.NET库，用于使用受React启发的声明式API构建丰富、交互式的终端用户界面。
-* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的ncurses终端控件库绑定。
+* [ConsoleEx](https://github.com/nickprotop/ConsoleEx)：一个基于.NET的终端UI框架，带有真正的合成引擎。
+* [CursesSharp](https://github.com/sushihangover/CursesSharp)：Curses Sharp是一个用于C#的NCurses终端控件库绑定。
 * [.NET Curses](https://github.com/MV10/dotnet-curses)：这是一个易于使用、完全跨平台的.NET封装，用于Unix NCurses终端库。
 * [CLRCLI](https://github.com/PhonicUK/CLRCLI)：CLRCLI是一个事件驱动的窗口系统，它使用线条艺术界面供命令行应用程序使用。
 * [Termina](https://github.com/Aaronontheweb/termina)：Termina是一个面向.NET的响应式TUI框架，它采用声明式布局和精准的区域渲染。
 * [FlagConsole](https://github.com/flagbug/FlagConsole)：FlagConsole是一个用C#编写的.NET库，用于构建基于文本的控制台应用程序界面。
 * [Terminaux](https://github.com/Aptivi/Terminaux)：Terminaux是一个库，其中包含所有常用和额外的控制台工具，可让你构建高效的控制台应用程序。
 * [XenoAtom.Terminal.UI](https://github.com/XenoAtom/XenoAtom.Terminal.UI)：XenoAtom.Terminal.UI是一个用于.NET的现代、响应式保留模式终端UI框架。
+* [TUI .NET Core](https://github.com/fcrozetta/tui-netcore)：.NET Core的文本用户界面库。
+* [Sharpie](https://github.com/pavkam/sharpie)：Sharpie是一个基于NCurses的终端操作库。
+* [Tessera](https://github.com/georgetsouvaltzis/tessera)：Tessera是一个以C#为核心的.NET 10终端UI框架。
+* [CLUI](https://github.com/HugoW5/CLUI)：命令行用户界面库。
 
 ## 文本表
 
@@ -6846,6 +6853,7 @@
 * [NET7MMA](https://github.com/juliusfriedman/net7mma_core)：该项目包含用于处理与媒体处理相关的各种协议和二进制格式的工具。
 * [ZLMediaKit.HttpApi](https://github.com/chengxiaosheng/ZLMediaKit.HttpApi)：基于.NET Core的ZLMediaKit HTTP API客户端。
 * [MP-MediaInfo](https://github.com/yartat/MP-MediaInfo)：Mediaportal MediaInfoLib封装器。
+* [MediaPlayer](https://github.com/ZeProgFactory/MediaPlayer)：跨平台媒体播放器库。
 
 ## 媒体服务器
 
@@ -8016,6 +8024,7 @@
 * [SharpSMS](https://github.com/PavelBansky/SharpSMS)：SharpSMS是一个用于创建PDU格式短信的库。
 * [JamaaSMPP](https://github.com/AdhamAwadhi/JamaaSMPP)：Jamaa SMPP客户端是一个.NET实现的SMPP协议，旨在为.NET开发者提供一个易于使用且可靠的SMPP客户端库。
 * [Magicodes.Sms](https://github.com/xin-lai/Magicodes.Sms)：短信服务核心库。
+* [SMSBridge](https://github.com/teesofttech/SMSBridge)：SMSBridge是一个与服务提供商无关的.NET SDK，它使用一个简洁的API通过多个服务提供商发送短信。
 
 ## 反混淆
 
@@ -8252,6 +8261,7 @@
 * [WeihanLi.Web.Extensions](https://github.com/WeihanLi/WeihanLi.Web.Extensions)：一套精心挑选的ASP.NET Core应用程序实用构建模块。
 * [DotNetClasses](https://github.com/genexuslabs/DotNetClasses)：适用于.NET和.NET Framework生成器的GeneXus标准类。
 * [FreeKit](https://github.com/luoyunchong/FreeKit)：FreeKit为.NET Core提供了更多的扩展实现。
+* [Lombiq Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries)：Orchard核心库/Orchard 1.x模块，其中包含在Orchard开发过程中可能用到的库。
 
 ## 日期时间
 
@@ -10448,6 +10458,7 @@
 * [Sherlog](https://github.com/sschmid/Sherlog)：Sherlog是一个非常轻量级的日志库，它专注于速度、灵活性和可扩展性。
 * [FileLogger](https://github.com/adams85/filelogger)：该类库包含Microsoft.Extensions.Logging.ILoggerProvider接口的轻量级文件日志记录实现。
 * [LibLog](https://github.com/damianh/LibLog)：LibLog专为想要提供日志功能的库开发者设计。
+* [BqLog](https://github.com/Tencent/BqLog)：BqLog是一款轻量级、高性能的日志系统，应用于王者荣耀等项目中，由腾讯开源。
 * [NReco.Logging](https://github.com/nreco/logging)：适用于.NET Core的通用文件日志记录器。
 * [Easy.Logger](https://github.com/NimaAra/Easy.Logger)：一个现代化、高性能、跨平台的Log4Net封装库。
 * [Seq](https://github.com/datalust/seq-extensions-logging)：Seq是一个灵活的自托管后端，用于ASP.NET Core日志子系统。

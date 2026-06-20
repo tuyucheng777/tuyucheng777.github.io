@@ -856,7 +856,6 @@ permalink: /javalibs
 * [终端模拟器](#终端模拟器)
 * [游戏开发](#游戏开发)
   * [游戏引擎](#游戏引擎)
-  * [Minecraft](#Minecraft)
   * [游戏服务器](#游戏服务器)
   * [游戏模拟器](#游戏模拟器)
   * [2D/3D渲染](#2D3D渲染)
@@ -5472,6 +5471,7 @@ permalink: /javalibs
 * [KNet](https://github.com/VKCOM/KNet)：支持QUIC协议的Android网络库。
 * [Cronet Transport OkHttp](https://github.com/google/cronet-transport-for-okhttp)：该软件包允许OkHttp和Retrofit用户使用Cronet作为其传输层，并受益于QUIC/HTTP3支持和连接迁移等功能，由Google开发。
 * [Java Quic](https://github.com/trensetim/quic)：QUIC的纯Java实现。
+* [Webtransport4j](https://github.com/webtransport4j/webtransport4j)：Java的WebTransport服务器实现。
 
 #### SNMP
 
@@ -12322,6 +12322,7 @@ permalink: /javalibs
 * [Kubit](https://github.com/mhss1/Kubit)：Kubit提供经过微优化的Kotlin工具和数据结构，可提升性能和内存效率。
 * [Chronicle Collections](https://github.com/ChronicleClientProjects/Collections)：高性能、低延迟的Java集合库。
 * [Shōki](https://github.com/palatable/shoki)：Shōki是一个为JVM提供纯函数式、持久化数据结构的库。
+* [Joda Collect](https://github.com/JodaOrg/joda-collect)：Joda Collect提供了JDK或Google Guava中不存在的集合。
 
 ## 数组库
 
@@ -13103,6 +13104,7 @@ permalink: /javalibs
 * [Elf](https://github.com/Spatio-Temporal-Lab/elf)：Elf是一种基于擦除的浮点数据压缩算法，具有很高的压缩比。
 * [FPC Compression](https://github.com/kutschkem/fpc-compression)：Java实现的Burtscher和Ratanaworabhan的压缩方法。
 * [S3 Stream Unzip](https://github.com/nejckorasa/s3-stream-unzip)：使用Java解压缩S3中的数据，利用流式下载和分段上传。
+* [SplittableGzip](https://github.com/nielsbasjes/splittablegzip)：用于Hadoop的可分割Gzip编解码器。
 
 #### 文件压缩
 
@@ -19022,6 +19024,7 @@ Kafka生态管理系统、运维平台。
 * [DSMR Toolkit](https://github.com/nielsbasjes/dsmr-tools)：用于荷兰智能电表要求(DSMR)的Java模拟器/解析器/工具包。
 * [Protocol376.1](https://github.com/turtlerrrrr/protocol376.1)：376.1协议编解码。
 * [IECLib](https://github.com/jkl69/ieclib)：Java IEC 60870–5–101/104 API。
+* [YADI](https://github.com/pfaco/yadi.java)：YADI是一个使用DLMS标准与计量设备通信的库。
 
 #### 环境监测
 
@@ -20394,76 +20397,6 @@ Kafka生态管理系统、运维平台。
 * [Azurite](https://github.com/azurite-engine/Azurite)：Azurite是由Games with Gabe Discord/YouTube社区开发的2D Java游戏引擎。
 * [CubeEngine](https://github.com/rpereira-dev/CubeEngine)：一款基于OpenGL、GLFW、OpenAL和Netty的体素游戏引擎。
 * [MikuMikuStudio](https://github.com/chototsu/MikuMikuStudio)：MikuMikuStudio是与MikuMikuDance兼容的游戏引擎。
-
-#### Minecraft
-
-* [Paper](https://github.com/PaperMC/Paper)：Paper是一个基于Spigot的Minecraft游戏服务器，旨在大幅提高性能并提供更高级的功能和API。
-* [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server)：Docker镜像为Java版提供Minecraft服务器，可在启动时自动下载所选版本。
-* [MinecraftForge](https://github.com/MinecraftForge/MinecraftForge)：Forge是一个免费的开源修改API，可供你所有喜爱的Mod使用。
-* [HMCL](https://github.com/HMCL-dev/HMCL)：HMCL是一个开源、跨平台的Minecraft启动器，支持Mod管理、游戏自定义、ModLoader安装、Modpack创建、UI自定义等。
-* [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)：PojavLauncher是一个启动器，可让你在Android和iOS设备上玩Minecraft Java版。
-* [Sodium](https://github.com/CaffeineMC/sodium-fabric)：Sodium是Minecraft客户端的强大渲染引擎和优化模块，可提高帧速率并减少微卡顿，同时修复Minecraft中的许多图形问题。
-* [Geyser](https://github.com/GeyserMC/Geyser)：Geyser是Minecraft基岩版和Minecraft Java版之间的桥梁，为那些想要真正跨平台游戏的玩家提供了便利。
-* [WorldEdit](https://github.com/EngineHub/WorldEdit)：WorldEdit是一款易于使用的游戏内Minecraft地图编辑器。
-* [Iris](https://github.com/IrisShaders/Iris)：适用于Minecraft的现代着色器模型，与现有的OptiFine着色器包兼容。
-* [MCA Selector](https://github.com/Querz/mcaselector)：MCA Selector是一个外部工具，用于导出、删除或编辑Minecraft Java版世界保存中的选定块和区域。
-* [Bukkit](https://github.com/Bukkit/Bukkit)：Bukkit是一个由社区开发的开源工具，用于减轻开发服务器插件的负担。
-* [Create](https://github.com/Creators-of-Create/Create)：Create是一个提供用于建筑、装饰和美学自动化的各种工具和模块的模组。
-* [Amidst](https://github.com/toolbox4minecraft/amidst)：Amidst是一个显示Minecraft世界概览的工具，无需实际创建它。
-* [Minestom](https://github.com/Minestom/Minestom)：Minestom是一个开源库，开发人员可以使用它创建自己的Minecraft服务器软件，而无需Mojang的任何代码。
-* [Dynmap](https://github.com/webbukkit/dynmap)：Dynmap是类似Google地图的Minecraft服务器地图，可以在浏览器中查看。
-* [Fabric](https://github.com/FabricMC/fabric)：Fabric API是Fabric模块必备钩子和互操作机制的库。
-* [SeedcrackerX](https://github.com/19MisterX98/SeedcrackerX)：SeedcrackerX是一个用于破解我的世界Java版游戏世界种子的模组。
-* [McMMO](https://github.com/mcMMO-Dev/mcMMO)：McMMO的目标是采用核心Minecraft游戏机制并将其扩展为广泛而优质的RPG体验。
-* [Glowstone](https://github.com/GlowstoneMC/Glowstone)：Glowstone是一款轻量级、从零开始的开源Minecraft服务器，支持为Bukkit API及其主要分支Spigot和Paper编写的插件。
-* [CatServer](https://github.com/Luohuayu/CatServer)：CatServer是一个高性能的Forge、Bukkit、Spigot服务端核心。
-* [LuckPerms](https://github.com/LuckPerms/LuckPerms)：LuckPerms是一款适用于Minecraft服务器的权限插件，它允许服务器管理员通过创建群组和分配权限来控制玩家可以使用的功能。
-* [Lithium](https://github.com/CaffeineMC/lithium-fabric)：Lithium是一款免费的开源Minecraft模组，可优化游戏的许多领域，以提供更好的整体性能。
-* [Essentials](https://github.com/EssentialsX/Essentials)：EssentialsX是Essentials插件套件的延续，已更新以支持现代Minecraft和Spigot版本。
-* [Meteor](https://github.com/MeteorDevelopment/meteor-client)：基础Minecraft实用程序模组。
-* [BungeeCord](https://github.com/SpigotMC/BungeeCord)：BungeeCord是一款复杂的代理和API，主要用于在多个Minecraft服务器之间传送玩家。
-* [BlueMap](https://github.com/BlueMap-Minecraft/BlueMap)：BlueMap是一个程序，它可以读取你的Minecraft世界文件并生成地图，还可以生成整个表面的3D模型。
-* [Velocity](https://github.com/PaperMC/Velocity)：Velocity是一款现代的高性能代理服务器。
-* [FarPlaneTwo](https://github.com/PorkStudios/FarPlaneTwo)：FarPlaneTwo是一个为Minecraft实现了多细节层次(LoD)地形渲染的Mod。
-* [Applied Energistics 2](https://github.com/AppliedEnergistics/Applied-Energistics-2)：Applied Energistics 2是Minecraft的一个综合模组，它引入了一种独特的游戏内库存管理方法。
-* [Botania](https://github.com/VazkiiMods/Botania)：Botania是一个以自然魔法为主题的Minecraft技术模组。
-* [SpongeAPI](https://github.com/SpongePowered/SpongeAPI)：Sponge的目的是为Minecraft Java版创建一个插件开发框架。
-* [Nukkit](https://github.com/CloudburstMC/Nukkit)：Nukkit是Minecraft基岩版的核动力服务器软件。
-* [SpongeForge](https://github.com/SpongePowered/SpongeForge)：实现SpongeAPI的Forge模组。
-* [Adventure](https://github.com/KyoriPowered/adventure)：Adventure是Minecraft Java版中服务器可控制的用户界面元素库。
-* [BuildCraft](https://github.com/BuildCraft/BuildCraft)：BuildCraft是一个历史悠久的物流向模组。
-* [MultiPaper](https://github.com/MultiPaper/MultiPaper)：MultiPaper是一个多服务器、单世界的PaperMC实现。
-* [Folia](https://github.com/PaperMC/Folia)：Folia是PaperMC组织最新的项目，旨在实现真正的多线程和区域化心跳。
-* [Fold Craft Launcher](https://github.com/FCL-Team/FoldCraftLauncher)：FCL是由FCL-Team基于HMCL的核心功能，结合PojavLauncher后端和Boat后端开发的Minecraft Java版启动器。
-* [Purpur](https://github.com/PurpurMC/Purpur)：Purpur是Paper服务器的替代品，旨在实现可配置性、新颖有趣且令人兴奋的游戏功能以及基于Paper的性能。
-* [VulkanMod](https://github.com/xCollateral/VulkanMod)：VulkanMod是一个Fabric Mod，它为Minecraft Java引入了一个全新的基于Vulkan的体素渲染引擎，以替换默认的OpenGL渲染器并带来性能改进。
-* [Arclight](https://github.com/IzzelAliz/Arclight)：Arclight是一款支持Bukkit和Forge插件的混合服务器。
-* [LiquidBounce](https://github.com/CCBlueX/LiquidBounce)：LiquidBounce是一个免费的开源的基于Mixin的注入式黑客客户端，使用Minecraft的Fabric API。
-* [BedrockConnect](https://github.com/Pugmatt/BedrockConnect)：BedrockConnect是一款极简版Minecraft基岩版服务器软件，为玩家提供服务器列表解决方案。
-* [OpenComputers](https://github.com/MightyPirates/OpenComputers)：OpenComputers是一个Minecraft模组，它为游戏添加了可编程计算机和机器人。
-* [NeoForge](https://github.com/neoforged/NeoForge)：NeoForge是针对Minecraft的免费、开源、面向社区的修改API。
-* [Mekanism](https://github.com/mekanism/Mekanism)：Mekanism是一款独立的Minecraft插件，具有可用于制造强大工具、盔甲和武器的高科技机械。
-* [Mohist](https://github.com/MohistMC/Mohist)：Mohist是一个出色的Minecraft Forge服务器软件，实现了Bukkit、Spigot API。
-* [ViaVersion](https://github.com/ViaVersion/ViaVersion)：ViaVersion是一个多平台插件，允许你在Minecraft服务器上处理未来的客户端版本。
-* [Cardboard](https://github.com/CardboardPowered/cardboard)：Cardboard是FabricMC流行的Bukkit/Spigot/Paper Modding API的实现。
-* [Carpet](https://github.com/gnembon/fabric-carpet)：Carpet Mod是原版Minecraft的一个模组，它允许你从游戏的技术角度完全控制重要的事情。
-* [GrimAC](https://github.com/GrimAnticheat/Grim)：GrimAC是一款开源的Minecraft反作弊软件，旨在支持最新版本的Minecraft。
-* [Starlight](https://github.com/PaperMC/Starlight)：重写灯光引擎以修复照明性能和照明错误。
-* [Wurst](https://github.com/Wurst-Imperium/Wurst7)：Wurst是一个开源的Minecraft破解客户端。
-* [Phosphor](https://github.com/CaffeineMC/phosphor-fabric)：Phosphor是一个免费的开源Minecraft模组，旨在通过优化Minecraft最低效的区域之一-照明引擎，节省你的CPU周期并提高性能。
-* [Tweaked](https://github.com/cc-tweaked/CC-Tweaked)：Tweaked是Minecraft的一个模组，它为游戏添加了可编程计算机、乌龟等内容。
-* [Yarn](https://github.com/FabricMC/yarn)：Yarn是一组开放、不受限制的Minecraft映射。
-* [Minecraft World Downloader](https://github.com/mircokroon/minecraft-world-downloader)：Minecraft世界下载器作为客户端和服务器之间的代理服务器来读取和保存块数据。
-* [MCinaBox](https://github.com/AOF-Dev/MCinaBox)：MCinaBox是Android上的Minecraft Java版启动器。
-* [Skript](https://github.com/SkriptLang/Skript)：Skript是Paper/Spigot的Minecraft插件，它允许服务器所有者和其他人无需学习Java即可修改他们的服务器。
-* [ProtocolLib](https://github.com/dmulloy2/ProtocolLib)：使用Bukkit提供对Minecraft协议的读写访问。
-* [EnchantmentCracker](https://github.com/Earthcomputer/EnchantmentCracker)：EnchantmentCracker是一个用于Minecraft Java版的工具，它通过分析游戏的随机数种子，来预测和破解游戏中的附魔机制。
-* [ZalithLauncher](https://github.com/ZalithLauncher/ZalithLauncher)：Zalith Launcher是一款基于PojavLauncher的Minecraft启动器，可在Android设备上运行Minecraft Java版。
-* [DiscordSRV](https://github.com/DiscordSRV/DiscordSRV)：DiscordSRV是一个用于Minecraft服务器的插件，它能在游戏的聊天频道和指定的Discord服务器频道之间建立一座双向桥梁，实现无缝的实时通信。
-* [Slimefun4](https://github.com/Slimefun/Slimefun4)：Slimefun是一个插件，旨在将你的Spigot服务器变成一个Modpack，而无需安装任何Mod。
-* [MCreator](https://github.com/MCreator/MCreator)：MCreator是一款用于制作Minecraft Java版模组、Minecraft Bedrock版附加组件和数据包的软件，使用直观易学的界面或集成代码编辑器。
-* [Minosoft](https://github.com/Bixilon/Minosoft)：Minosoft是一个开源的Minecraft客户端，用Kotlin和Java从头开始编写。
-* [PojavLauncher iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS)：PojavLauncher是一款适用于Android、iOS和iPadOS的Minecraft Java版启动器。
 
 #### 游戏服务器
 
@@ -22203,6 +22136,7 @@ Kafka生态管理系统、运维平台。
 * [NoiseModelling](https://github.com/Universite-Gustave-Eiffel/NoiseModelling)：NoiseModelling是一个能够生成噪声图的库，由古斯塔夫埃菲尔大学开源。
 * [Spatial4j](https://github.com/locationtech/spatial4j)：Spatial4j是一个通用空间/地理空间开源Java库，其核心功能有三重：提供常见的地理空间感知形状，提供距离计算和其他数学运算，以及读取形状并将其写入字符串。
 * [WorldWind Java](https://github.com/NASAWorldWind/WorldWindJava)：WorldWind Java是NASA推出的一款开源的三维地球软件开发套件。
+* [WorldWind Kotlin SDK](https://github.com/WorldWindEarth/WorldWindKotlin)：WorldWind Kotlin SDK包含用于构建适用于Android、Web和Java的多平台3D虚拟地球应用程序的库、示例和教程。
 * [GeoServer](https://github.com/geoserver/geoserver)：GeoServer是一个用Java编写的开源软件服务器，允许用户共享和编辑地理空间数据。
 * [Deegree](https://github.com/deegree/deegree3)：Deegree是用于空间数据基础设施和地理空间网络的开源软件，由德国波恩大学地理系开发。
 * [geOrchestra](https://github.com/georchestra/georchestra)：geOrchestra是一个完整的空间数据基础设施解决方案，由法国地理信息社区开源。
@@ -22824,6 +22758,7 @@ Kafka生态管理系统、运维平台。
 * [KoISO](https://github.com/jillesvangurp/ko-iso)：Kotlin中用于处理国家和语言代码的简单抽象。
 * [Scala I18N](https://github.com/alaz/scala-i18n)：适用于任何Scala的类似Play的国际化消息。
 * [YAML ResourceBundle](https://github.com/akkinoc/yaml-resource-bundle)：Java ResourceBundle，支持YAML格式。
+* [Joda Time I18N](https://github.com/JodaOrg/joda-time-i18n)：Joda Time I18N是一个为Joda Time库提供国际化数据支持的扩展库。
 
 ## 翻译库
 
