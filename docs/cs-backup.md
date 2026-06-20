@@ -302,7 +302,6 @@
 * [家谱学](#家谱学)
 * [RDF](#RDF)
 * [Wiki](#Wiki)
-* [知识图谱](#知识图谱)
 * [校验库](#校验库)
 * [反射库](#反射库)
 * [集合库](#集合库)
@@ -4885,7 +4884,6 @@
 ## 虚拟现实
 
 * [LibOpenMetaverse](https://github.com/openmetaversefoundation/libopenmetaverse)：LibOpenMetaverse是一组用C#编写的.NET库，用于与3D虚拟世界模拟器进行交互。
-* [OpenSim](https://github.com/opensim/opensim)：OpenSim旨在开发一个功能完善的虚拟世界服务器平台，能够在异构网格结构中支持多客户端和多服务器。
 * [OpenXR.NET](https://github.com/EvergineTeam/OpenXR.NET)：Evergine使用的OpenXR底层绑定。
 * [VRC OSCQuery](https://github.com/vrchat-community/vrc-oscquery-lib)：OSCQuery是一种协议，可以让OSC应用更容易地相互发现和通信。
 * [VRidge API](https://github.com/RiftCat/vridge-api)：VRidge API提供了一种使用你选择的任何编程语言与VRidge进行交互的方式。
@@ -6388,10 +6386,6 @@
 * [Roadkill](https://github.com/roadkillwiki/roadkill)：Roadkill .NET是一个轻量级但功能强大的Wiki平台。
 * [OpenDeepWiki](https://github.com/AIDotNet/OpenDeepWiki)：OpenDeepWiki旨在提供一个强大的知识管理和协作平台。
 * [TightWiki](https://github.com/NTDLS/TightWiki)：TightWiki是一个现代化的开源Wiki平台。
-
-## 知识图谱
-
-* [Strazh](https://github.com/vladbatushkov/strazh)：Strazh是一个.NET Core控制台应用程序，用于通过Roslyn分析器从C#代码库构建代码库知识图谱。
 
 ## 校验库
 
