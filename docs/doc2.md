@@ -3928,7 +3928,6 @@
 * [BIP32](https://github.com/NovaCrypto/BIP32)：BIP32 Java微库实现。
 * [Zion Key Management API](https://github.com/htczion/ZKMA)：ZKMA是一个库，它为开发者提供了一种管理HTC EXODUS设备内置种子安全机制的方法，该设备集成了Zion安全保护。
 * [Jitsi SRTP](https://github.com/jitsi/jitsi-srtp)：Jitsi SRTP包含用于加密和解密SRTP和SRTCP数据包的类。
-* [Jacknji11](https://github.com/joelhockey/jacknji11)：Java PKCS#11接口。
 * [SimpleEncryptionLib](https://github.com/hummatli/SimpleEncryptionLib)：用于Android应用和PC Java应用的字符串加密和解密库。
 * [PKCS#11Wrapper](https://github.com/mikma/pkcs11wrapper)：PKCS#11 Java封装器。
 * [Easysign](https://github.com/jeffreyHZ/easysign)：PKCS#11格式封装、PDF盖章等。
