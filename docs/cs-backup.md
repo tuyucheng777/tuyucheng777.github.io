@@ -1252,6 +1252,7 @@
 * [TJSYXYCommunication](https://github.com/sherlockchou86/TJSYXYCommunication)：一个简单的TCP/UDP通信框架。
 * [SunnyUI.FrameDecoder](https://gitee.com/yhuse/SunnyUI.FrameDecoder)：SunnyUI.FrameDecoder是一个开源TCP、UDP、串口等流式数据解码库。
 * [ENet C#](https://github.com/Molth/enet-csharp)：ENet可靠UDP网络库。
+* [GameFrameX.Server](https://github.com/GameFrameX/GameFrameX.Server)：GameFrameX Server是基于C# .NET 10.0开发的高性能游戏服务器框架，采用Actor模型设计，支持热更新机制。
 
 ## QUIC
 
@@ -2083,7 +2084,6 @@
 * [CoreShop](https://github.com/CoreUnion/CoreShop)：CoreShop是基于Asp.Net 9.0、Uni-App开发、支持可视化布局的小程序商城系统。
 * [SaaS ECom](https://github.com/pedropaf/saas-ecom)：使用Stripe支持ASP.NET MVC 5应用的订阅，包括开箱即用的视图助手。
 * [WooCommerce.NET](https://github.com/XiaoFaye/WooCommerce.NET)：WooCommerce.NET是一个.NET库，用于在.NET应用程序中通过OAuth/JWT调用WooCommerce/WordPress REST API。
-* [eShopLite](https://github.com/Azure-Samples/eShopLite)：eShopLite是一组.NET参考应用程序，实现了电子商务网站，并具有语义搜索、MCP、推理模型、向量数据库等功能。
 * [Open PDD .NET SDK](https://github.com/niltor/open-pdd-net-sdk)：拼多多开放平台.NET SDK。
 * [Amazon Selling Partner API C#](https://github.com/abuzuhri/Amazon-SP-API-CSharp)：这是一个用于新的亚马逊销售合作伙伴API的.Net C# API绑定。
 * [DigitalWallet](https://github.com/thisisnabi/DigitalWallet)：基于ASP.NET Core设计的电子商务用户钱包服务。
@@ -2589,6 +2589,7 @@
 * [SqlBuilder](https://github.com/koshovyi/SqlBuilder)：SqlBuilder是一个简单轻巧的SQL构建器。
 * [Fastql](https://github.com/theilgaz/fastql)：用于.NET实体类的SQL查询生成器。
 * [AlchemySharp](https://github.com/glitchdotcom/AlchemySharp)：AlchemySharp是一款受SQLAlchemy表达式语言启发而开发的查询构建工具。
+* [FlexQuery.NET](https://github.com/peterjohncasasola/FlexQuery.NET)：FlexQuery.NET是一个轻量级且功能强大的.NET动态查询引擎。
 
 ## 数据库驱动
 
@@ -3267,6 +3268,7 @@
 * [Multicaster](https://github.com/Cysharp/Multicaster)：该框架提供了一个代理，可以通过接口透明地调用多个POCO实例或远程客户端的方法。
 * [MSMQ.Messaging](https://github.com/weloytty/MSMQ.Messaging)：MSMQ.Messaging的目的是将.NET Framework的System.Messaging程序集直接移植到.NET Core。
 * [Routemeister](https://github.com/danielwertheim/routemeister)：Routemeister是一个小型库，高效地执行进程内异步消息路由。
+* [BareWire](https://github.com/Wizard-Software/BareWire)：适用于.NET 10/C# 14的高性能异步消息传递库。
 
 ## 事件总线
 
@@ -3374,7 +3376,7 @@
 * [ASP.NET Core & Vue.js Starter](https://github.com/TrilonIO/aspnetcore-Vue-starter)：用于ASP.NET Core和Vue.JS(Vue)的入门模板，包含Webpack、Web API、Vuex状态管理以及其他内置的最佳实践。
 * [Generator ASP.NET](https://github.com/OmniSharp/generator-aspnet)：ASP.NET Core的yo生成器。
 * [Clean Architecture Boilerplate](https://github.com/aspnetcorehero/Boilerplate)：ASP.NET Core 5.0的Clean Architecture解决方案模板。
-* [ASP.NET Core Vue Starter](https://github.com/SoftwareAteliers/asp-net-core-vue-starter)：该仓库包含一个ASP.​NET Core和Vue.js的入门模板。
+* [ASP.NET Core Vue Starter](https://github.com/SoftwareAteliers/asp-net-core-vue-starter)：该仓库包含一个ASP.NET Core和Vue.js的入门模板。
 * [Angular Visual Studio Webpack Starter](https://github.com/damienbod/AngularWebpackVisualStudio)：Webpack、Visual Studio、ASP.NET Core和Angular模板。
 * [RazorPageCleanArchitecture](https://github.com/neozhu/RazorPageCleanArchitecture)：这是一个用于创建ASP.NET Core Razor页面应用程序的解决方案模板，遵循Clean Architecture的原则。
 * [React ASP.NET Boilerplate](https://github.com/pauldotknopf/react-aspnet-boilerplate)：这是一个使用ASP.NET Core 1构建通用/同构React应用程序的起点，它利用了现有的前端方法。
@@ -4495,6 +4497,7 @@
 * [NativeWebView](https://github.com/wieslawsoltes/NativeWebView)：NativeWebView为Avalonia提供了一个以原生WebView为先的控制栈，而无需捆绑Chromium。
 * [SmoothScroll.Avalonia](https://github.com/zxbmmmmmmmmm/SmoothScroll.Avalonia)：在Avalonia中实现WinUI的InteractionTracker和ScrollView。
 * [AvaloniaFixedWrapPanel](https://github.com/MikD1/AvaloniaFixedWrapPanel)：Avalonia WrapPanel控件。
+* [Jc.AdMob.Avalonia](https://github.com/jcsawyer/Jc.AdMob.Avalonia)：用于将AdMob广告引入Avalonia移动项目的库。
 
 #### Avalonia图标库
 
@@ -5650,6 +5653,7 @@
 * [Postmark.NET](https://github.com/ActiveCampaign/postmark-dotnet)：Postmark帮助Web应用程序发送和跟踪交易电子邮件。
 * [RazorMailer](https://github.com/jonleigh/RazorMailer)：RazorMailer是一个轻量级框架，基于RazorEngine，它使使用Razor模板发送电子邮件变得非常容易。
 * [EmailClientLibrary](https://github.com/gognjanovski/EmailClientLibrary)：.NET邮件客户端库，类库中包含邮件Razor模板。
+* [Simple MAPI .NET](https://github.com/PandaWood/Simple-MAPI.NET)：Simple MAPI .NET允许你使用Windows系统上用户的默认电子邮件客户端创建电子邮件。
 
 ## SMTP服务器
 
@@ -6137,6 +6141,7 @@
 * [StackTraceParser](https://github.com/atifaziz/StackTraceParser)：StackTraceParser是一个单一的C#函数，它可以将堆栈跟踪文本输出解析回一系列堆栈跟踪帧。
 * [Spector](https://github.com/yashwanthkkn/spector)：Spector是一个功能强大却轻量的ASP.NET Core应用调试工具，可以实时捕获和可视化HTTP跟踪。
 * [Novus](https://github.com/Decimation/Novus)：Novus的目标是提供类似于ClrMD、WinDbg SOS和Reflection的功能，但方式更加详细，同时还能显示更多底层元数据和CLR功能。
+* [DebugProbe.AspNetCore](https://github.com/DebugProbe/DebugProbe.AspNetCore)：DebugProbe.AspNetCore是一个轻量级的ASP.NET Core调试工具，用于直接在应用程序内部检查HTTP流量。
 
 ## 元编程
 
@@ -6374,6 +6379,7 @@
 * [EDSDK.NET](https://github.com/thrixton/EDSDK.NET)：用于Canon SDK的C#封装。
 * [Potato.ImageFlasher](https://github.com/kitsuned/Potato.ImageFlasher)：一个用于在华为手机上以VCOM_DOWNLOAD模式刷写引导程序的微型库。
 * [Anviz](https://github.com/MxLabs/Anviz)：用于访问和控制Anviz设备的.NET库。
+* [OpenMacroBoard.SDK](https://github.com/OpenMacroBoard/OpenMacroBoard.SDK)：OpenMacroBoard是一组.NET库，可帮助你为各种宏板实现自定义功能，主要针对带有按键显示的设备。
 
 ## 键盘鼠标库
 
@@ -7560,6 +7566,7 @@
 * [TinyPG](https://github.com/SickheadGames/TinyPG)：TinyPG是一个用C#编写的LL(1)递归下降解析器生成器，可以生成扫描器、解析器和解析树文件，支持C#或VB代码。
 * [Antlr4Ast](https://github.com/xoofx/Antlr4Ast)：Antlr4Ast是一个.NET库，它为ANTLR4/g4文件提供解析器和抽象语法树。
 * [GPPG](https://github.com/k-john-gough/gppg)：GPPG是一个解析器生成器，生成的解析器使用C# V2或更高版本编写。
+* [RCParsing](https://github.com/RomeCore/RCParsing)：流式、轻量级且功能强大的.NET无词法分析器解析库，用于语言开发(DSL)和数据抓取。
 
 ## 解析器组合器
 
@@ -9547,6 +9554,7 @@
 * [Orleans.Security](https://github.com/Async-Hub/Orleans.Security)：Microsoft Orleans的授权库。
 * [TeslaAuth](https://github.com/tomhollander/TeslaAuth)：用于对特斯拉API进行身份验证的辅助库，使你能够构建与特斯拉汽车和能源产品交互的应用程序。
 * [OAuth2Provider](https://github.com/micahlmartin/OAuth2Provider)：适用于.NET的OAuth 2提供程序。
+* [Authenticator](https://github.com/sergiye/authenticator)：Authenticator是一款适用于Windows的便携式OTP/双因素身份验证工具，它提供用户友好的界面，并允许你复制登录代码，而不是从手机手动输入。
 
 ## 授权服务器
 
