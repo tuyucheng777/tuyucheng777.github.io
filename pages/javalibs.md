@@ -7298,6 +7298,7 @@ permalink: /javalibs
 * [MybatisBoost](https://github.com/zhang-rf/mybatis-boost)：MybatisBoost为Mybatis带来诸多官方没有的高级特性，包含通用CrudMapper、Mybatis语法增强、字段生成、JSON映射、智能方法查询、无感知分页、SQL指标与监控、流式查询等功能。
 * [MyBatis Dynamic Query](https://github.com/wz2cool/mybatis-dynamic-query)：MyBatis Dynamic Query框架简化了在映射器XML中动态生成Where和Order表达式的过程。
 * [Mybatis JPA](https://github.com/littlenb/mybatis-jpa)：Mybatis插件，提供Mybatis处理JPA的能力。
+* [MMPT](https://github.com/manniwood/mmpt)：Manni的MyBatis PostgreSQL类型。
 
 #### Hibernate库
 
@@ -7310,7 +7311,6 @@ permalink: /javalibs
 * [EAV Model](https://github.com/ssledz/eav-model-pattern)：EAV Model是一种用于描述实体的数据模型。
 * [Fluent Hibernate](https://github.com/v-ladynev/fluent-hibernate)：一个用于通过流式API操作Hibernate的库。
 * [Reactive Components](https://github.com/IBM/reactive-components)：一个使用Java持久化API(Hibernate)的响应式组件(Project Reactor)为JDBC提供包装器的库，由IBM开源。
-* [MMPT](https://github.com/manniwood/mmpt)：Manni的MyBatis PostgreSQL类型。
 
 #### JPA库
 
@@ -8439,6 +8439,7 @@ permalink: /javalibs
 * [SimpleEncryptionLib](https://github.com/hummatli/SimpleEncryptionLib)：用于Android应用和PC Java应用的字符串加密和解密库。
 * [PKCS#11Wrapper](https://github.com/mikma/pkcs11wrapper)：PKCS#11 Java封装器。
 * [Easysign](https://github.com/jeffreyHZ/easysign)：PKCS#11格式封装、PDF盖章等。
+* [Jacknji11](https://github.com/joelhockey/jacknji11)：Java PKCS#11接口。
 
 #### 密码库
 
@@ -8480,7 +8481,6 @@ permalink: /javalibs
 * [Secret Service](https://github.com/swiesend/secret-service)：一个用于在Linux系统下通过D-Bus将密钥存储在gnome-keyring中的Java库。
 * [Secrets Manager](https://github.com/bancolombia/secrets-manager)：该库将帮助你将应用程序与密钥提供程序解耦，由哥伦比亚银行开源。
 * [Keystore Management](https://github.com/adorsys/keystore-management)：该库允许使用类似Fluent API的方式生成密钥和密钥库，而无需处理JCA的复杂细节。
-* [Jacknji11](https://github.com/joelhockey/jacknji11)：Java PKCS#11接口。
 * [Spring Security OTP Plugin](https://github.com/upcrob/spring-security-otp)：Spring Security OTP Plugin为使用Spring Security的应用程序添加了一次性密码(OTP)功能。
 
 #### 加密算法

@@ -3929,8 +3929,10 @@
 * [Zion Key Management API](https://github.com/htczion/ZKMA)：ZKMA是一个库，它为开发者提供了一种管理HTC EXODUS设备内置种子安全机制的方法，该设备集成了Zion安全保护。
 * [Jitsi SRTP](https://github.com/jitsi/jitsi-srtp)：Jitsi SRTP包含用于加密和解密SRTP和SRTCP数据包的类。
 * [Jacknji11](https://github.com/joelhockey/jacknji11)：Java PKCS#11接口。
-* [Spring Security OTP Plugin](https://github.com/upcrob/spring-security-otp)：Spring Security OTP Plugin为使用Spring Security的应用程序添加了一次性密码(OTP)功能。
 * [SimpleEncryptionLib](https://github.com/hummatli/SimpleEncryptionLib)：用于Android应用和PC Java应用的字符串加密和解密库。
+* [PKCS#11Wrapper](https://github.com/mikma/pkcs11wrapper)：PKCS#11 Java封装器。
+* [Easysign](https://github.com/jeffreyHZ/easysign)：PKCS#11格式封装、PDF盖章等。
+* [Jacknji11](https://github.com/joelhockey/jacknji11)：Java PKCS#11接口。
 
 #### 密码库
 
@@ -3972,8 +3974,7 @@
 * [Secret Service](https://github.com/swiesend/secret-service)：一个用于在Linux系统下通过D-Bus将密钥存储在gnome-keyring中的Java库。
 * [Secrets Manager](https://github.com/bancolombia/secrets-manager)：该库将帮助你将应用程序与密钥提供程序解耦，由哥伦比亚银行开源。
 * [Keystore Management](https://github.com/adorsys/keystore-management)：该库允许使用类似Fluent API的方式生成密钥和密钥库，而无需处理JCA的复杂细节。
-* [PKCS#11Wrapper](https://github.com/mikma/pkcs11wrapper)：PKCS#11 Java封装器。
-* [Easysign](https://github.com/jeffreyHZ/easysign)：PKCS#11格式封装、PDF盖章等。
+* [Spring Security OTP Plugin](https://github.com/upcrob/spring-security-otp)：Spring Security OTP Plugin为使用Spring Security的应用程序添加了一次性密码(OTP)功能。
 
 #### 加密算法
 
@@ -4458,6 +4459,7 @@
 * [iStack Common Utility](https://github.com/eclipse-ee4j/jaxb-istack-commons)：该项目是Eclipse JAXB实现的一部分。
 * [Akarnokd Misc](https://github.com/akarnokd/akarnokd-misc)：Akarnokd Misc包含各种工具类。
 * [Kotlin Extra Library](https://github.com/kotlin-extra-library/kotlin-extlib)：Kotlin社区通用多平台库。
+* [Java SDK](https://github.com/Kestrong/java-sdk)：一些常用的Java SDK和工具类。
 
 ## 对象校验
 
@@ -11361,7 +11363,6 @@ Kafka生态管理系统、运维平台。
 * [Java Spring Microservice Starter Kit](https://github.com/IBM/template-java-spring)：本仓库为创建基于Spring的Java微服务应用程序提供了一个起点，由IBM开源。
 * [GWT Archetypes](https://github.com/branflake2267/Archetypes)：GWT原型项目，帮助你快速上手GWT应用程序。
 * [Cloudx](https://github.com/chachae/cloudx)：Spring Cloud Hoxton、Alibaba快速构建分布式微服务工程的种子项目。
-* [Java SDK](https://github.com/Kestrong/java-sdk)：一些常用的Java SDK和工具类。
 
 #### 脚手架
 
