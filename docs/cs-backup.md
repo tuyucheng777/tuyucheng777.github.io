@@ -470,6 +470,7 @@
 * [文件系统](#文件系统)
 * [NTFS](#NTFS)
 * [安全库](#安全库)
+* [安全框架](#安全框架)
 * [漏洞工具](#漏洞工具)
 * [安全审计](#安全审计)
 * [XSS](#XSS)
@@ -9572,6 +9573,11 @@
 * [Unbreakable](https://github.com/ashmind/Unbreakable)：Unbreakable是一个.NET沙箱库，旨在进程内运行不受信任的代码。
 * [Injection Eater](https://github.com/mig1023/injection-eater)：实验性防注入库。
 * [Keeper .NET SDK](https://github.com/Keeper-Security/keeper-sdk-dotnet)：Keeper Commander的.NET和PowerShell版本，是Keeper Security平台的命令行和SDK接口。
+
+## 安全框架
+
+* [Gatekeeper](https://github.com/jchristn/Gatekeeper)：GateKeeper是一个简单的库，用于实现基于角色的访问控制，以控制用户对给定操作类型的资源的访问。
+* [Meerkat.Security](https://github.com/phatcher/Meerkat.Security)：适用于.NET MVC和WebAPI项目的基于角色的访问控制(RBAC)库。
 
 ## 漏洞工具
 
