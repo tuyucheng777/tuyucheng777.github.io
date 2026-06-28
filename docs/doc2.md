@@ -11310,7 +11310,6 @@ Kafka生态管理系统、运维平台。
 * [Spring Boot Start Current](https://github.com/yujunhao8831/spring-boot-start-current)：Spring Boot脚手架。
 * [Vue.js Java Starter](https://github.com/kucharzyk/vuejs-java-starter)：Vue.js Spring Boot Starter项目。
 * [Boot React](https://github.com/geowarin/boot-react)：这个简单的项目利用Spring Dev Tools和React Transform实现热重载，可以提高你的工作效率。
-* [SpringUserFramework](https://github.com/devondragon/SpringUserFramework)：适用于Spring的简单用户管理框架/入门应用。
 * [MVC Java 11 Web Application](https://github.com/ericpd/MVC-Java-11-Web-Application)：该项目原型是一个用于创建完整功能的MVC Web应用的模板，使用 Hibernate、JSTL和Bootstrap。
 * [Spring Boot Vue Template Session](https://github.com/itbaima-study/SpringBoot-Vue-Template-Session)：Spring Boot 3、Vue 3前后端分离模版，采用Session方案，包含基本的登录、注册、密码重置等等功能，可以二次开发编写具体场景下的应用程序。
 * [Spring Boot Template](https://github.com/LinkinStars/springBootTemplate)：Spring Boot项目模版。
