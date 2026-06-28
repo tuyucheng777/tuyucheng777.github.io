@@ -1391,6 +1391,7 @@ permalink: /javalibs
 * [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
 * [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
 * [SAAJ](https://github.com/eclipse-ee4j/metro-saaj)：Eclipse中Jakarta SOAP及其附件的实现。
+* [Apache Axiom](https://github.com/apache/ws-axiom)：Axiom库提供了一个符合XML信息集规范的对象模型实现，支持按需构建对象树。
 
 ### RPC框架
 
@@ -4736,6 +4737,7 @@ permalink: /javalibs
 * [SessionAnalytics](https://github.com/Tencent/SessionAnalytics)：SessionAnalytics是一个基于互联网用户Session会话的用户路径分析和挖掘框架，由腾讯开源。
 * [KEEL](https://github.com/SCI2SUGR/KEEL)：KEEL是一款开源Java软件工具，可用于多种不同的知识数据发现任务。
 * [SPMF](https://github.com/philfv9/spmf-software)：SPMF是一款用Java编写的流行且高效的数据挖掘软件，专门用于模式挖掘。
+* [SAX](https://github.com/jMotif/SAX)：SAX、HOT-SAX和EMMA的Java实现。
 
 #### 数据分析
 
@@ -6167,6 +6169,7 @@ permalink: /javalibs
 * [Kwik](https://github.com/jcornaz/kwik)：Kotlin的基于属性的测试库。
 * [Probably](https://github.com/propensive/probably)：Probably是一个测试库，旨在以非侵入式的方式为任何代码库提供测试记录和报告功能，而无需考虑用户选择的库或编程范式。
 * [Hegel Java](https://github.com/hegeldev/hegel-java)：Hegel是一个基于属性的Java测试库。
+* [PUnit](https://github.com/mavai-org/punit)：一个与JUnit兼容的实验和概率测试框架，用于对非确定性特征和服务进行回归测试。
 
 #### 验收测试
 
@@ -7555,6 +7558,7 @@ permalink: /javalibs
 * [DBMetadata](https://gitee.com/free/DBMetadata)：DBMetadata可用于数据库表和字段的查询。
 * [SQLDump](https://github.com/tbrugz/sqldump)：用于从关系型数据库管理系统(RDBMS)导出模式和数据的实用程序。
 * [DB Meta](https://github.com/wukenaihe/db-meta)：Db Meta是一款免费的数据库模式发现和易用工具。
+* [Database Metadata Bind](https://github.com/jinahya/database-metadata-bind)：用于绑定DatabaseMetaData中定义的方法的结果的库。
 
 #### 存储过程
 
@@ -7706,6 +7710,7 @@ permalink: /javalibs
 * [MongoWP](https://github.com/torodb/mongowp)：MongoWP是一个Java层，它支持开发MongoDB网络协议应用程序。
 * [Vert.x Mongo Client](https://github.com/vert-x3/vertx-mongo-client)：用于与MongoDB数据库交互的异步客户端。
 * [Mongo Util](https://github.com/mhelmstetter/mongo-util)：MongoDB工具集。
+* [BsonCodec](https://github.com/ralscha/bsoncodec)：MongoDB的org.bson.codecs.Codec实现集合。
 * [Embedded MongoDB](https://github.com/flapdoodle-oss/de.flapdoodle.embed.mongo)：Embedded MongoDB提供一种平台中立的方式在单元测试中运行MongoDB。
 * [Fongo](https://github.com/fakemongo/fongo)：Fongo是MongoDB的内存中Java实现，主要用途是轻量级集成测试，由Foursquare开源。
 * [JMockMongo](https://github.com/thiloplanz/jmockmongo)：用于单元测试的模拟进程内内存MongoDB。
@@ -13789,6 +13794,7 @@ permalink: /javalibs
 * [ComposePDF](https://github.com/kdroidFilter/ComposePdf)：ComposePDF是一个基于Pdfium和Compose Multiplatform构建的Kotlin多平台PDF渲染和文本提取库。
 * [PDFFigures](https://github.com/allenai/pdffigures2)：PDFFigures是一个基于Scala的项目，旨在从学术文献中提取图表、图解、表格和章节标题，尤其侧重于计算机科学领域的文档，由艾伦人工智能研究院开源。
 * [PDF Parser](https://github.com/ethanhwang1024/pdf-parser)：一款能够提取段落、表格和图片的PDF解析器。
+* [JPDFium](https://github.com/Stirling-Tools/JPDFium)：JPDFium提供了一个安全、符合人体工程学的Java API，用于PDF渲染、文本提取、真正的内容剥离和编辑等诸多功能。
 
 #### PDF比较库
 
@@ -19182,6 +19188,7 @@ Kafka生态管理系统、运维平台。
 * [Java8583](https://github.com/Ajsgn/Java8583)：基于Java语言实现的iso8583协议框架包。
 * [jBSBE](https://github.com/keyhan/jBSBE)：jBSBE是一个基于j8583的库。
 * [ISO8583 JSON XML](https://github.com/kamshory/ISO8583-JSON-XML)：该库用于将消息从一种格式转换为另一种格式，支持的格式包括ISO 8583、JSON和XML。
+* [ISO8583 Processor](https://github.com/artivisi/iso8583-processor)：用于处理ISO-8583消息的库。
 
 #### 金融信息交换
 
@@ -21814,6 +21821,7 @@ Kafka生态管理系统、运维平台。
 * [Clojure Sound](https://github.com/uncomplicate/clojure-sound)：Clojure Sound是一个用于转换数字媒体并与MIDI设备通信的库。
 * [MidiDroid](https://github.com/pdrogfer/MidiDroid)：Java中的MIDI库。
 * [Minim](https://github.com/ddf/Minim)：Java音频库，设计用于与Processing一起使用。
+* [ZenGarden](https://github.com/mhroth/ZenGarden)：ZenGarden是Pure Data(Pd)音频编程语言的运行时环境。
 * [JSyn](https://github.com/philburk/jsyn)：Java模块化音频合成器。
 * [Jaudiotagger](https://github.com/RouHim/jaudiotagger)：Jaudiotagger是音频标记库，用于标记音频文件中的数据。
 * [Jaudiotagger](https://bitbucket.org/ijabz/jaudiotagger)：Jaudiotagger是一个用于音频元数据标记的Java API。
@@ -22329,6 +22337,7 @@ Kafka生态管理系统、运维平台。
 * [Slicez](https://github.com/richardstartin/slicez)：Z布局位切片索引，用于评估对未排序数值数据的点和范围查询。
 * [Splitmap](https://github.com/richardstartin/splitmap)：该库基于RoaringBitmap构建，提供布尔电路(多维滤波器)的并行实现以及对滤波器的任意聚合。
 * [Reduce Rule](https://github.com/gaols/reduce-rule)：Java版本的拼多多砍价规则。
+* [GI](https://github.com/jMotif/GI)：Sequitur和RePair语法归纳算法的实现。
 
 #### 字符串算法
 

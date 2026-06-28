@@ -1382,6 +1382,7 @@
 * [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
 * [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
 * [SAAJ](https://github.com/eclipse-ee4j/metro-saaj)：Eclipse中Jakarta SOAP及其附件的实现。
+* [Apache Axiom](https://github.com/apache/ws-axiom)：Axiom库提供了一个符合XML信息集规范的对象模型实现，支持按需构建对象树。
 
 ### RPC框架
 
