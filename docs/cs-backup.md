@@ -93,6 +93,7 @@
 * [FBX](#FBX)
 * [GPU](#GPU)
 * [几何学](#几何学)
+* [工具库](#工具库)
 * [LINQ](#LINQ)
 * [表达式树](#表达式树)
 * [ORM](#ORM)
@@ -276,6 +277,7 @@
 * [包管理](#包管理)
 * [工件仓库](#工件仓库)
 * [依赖移除](#依赖移除)
+* [SBOM](#SBOM)
 * [打包](#打包)
 * [部署](#部署)
 * [迁移](#迁移)
@@ -346,6 +348,7 @@
 * [通知](#通知)
 * [异常报告](#异常报告)
 * [RSS](#RSS)
+* [COMET](#COMET)
 * [APM](#APM)
 * [分布式跟踪](#分布式跟踪)
 * [性能分析](#性能分析)
@@ -427,7 +430,6 @@
 * [逆向工程](#逆向工程)
 * [反向移植](#反向移植)
 * [热加载](#热加载)
-* [工具库](#工具库)
 * [日期时间](#日期时间)
 * [函数式编程](#函数式编程)
 * [函数式异常处理](#函数式异常处理)
@@ -712,6 +714,7 @@
 * [.NET Core Pal Cloud Framework](https://github.com/netcorepal/netcorepal-cloud-framework)：一个基于ASP.NET Core实现的领域驱动设计落地战术框架。
 * [NCommon](https://github.com/riteshrao/ncommon)：NCommon是一个轻量级框架，它为使用领域驱动设计方法的应用程序提供了常用设计模式的实现。
 * [Stove](https://github.com/stoveproject/Stove)：Stove是一个应用框架，它封装并抽象了你的需求，使其易于使用。
+* [Flunt](https://github.com/andrebaltieri/Flunt)：Flunt是一种将通知模式与实体结合使用的流式方式，它会集中显示你所做的每一个更改，并在你需要时轻松访问它。
 * [Plastic](https://github.com/sang-hyeon/Plastic)：本项目旨在对应用程序中的领域、应用规则、业务规则或业务逻辑等进行封装。
 * [CoreDDD](https://github.com/xhafan/coreddd)：一套开源的.NET库，帮助进行DDD和CQRS。
 * [EApp](https://github.com/TwoMaKing/EApp)：EApp是一款基于Microsoft .NET的面向领域驱动的轻量级应用程序开发框架, 遵循DDD和CQRS的设计思想。
@@ -2252,6 +2255,167 @@
 * [Plato.Geometry](https://github.com/ara3d/Plato.Geometry)：Plato.Geometry是一个C#几何库，其核心是一个多语言几何内核。
 * [Poly Nest](https://github.com/touzov1012/poly-nest)：一个用于嵌套和打包任意多边形的.NET类库。
 
+## 工具库
+
+* [Masuit.Tools](https://github.com/ldqk/Masuit.Tools)：友好的C#.NET万能工具库。
+* [Humanizer](https://github.com/Humanizr/Humanizer)：Humanizer满足你对操作和显示字符串、枚举、日期、时间、时间跨度、数字和数量的所有.NET需求。
+* [Common.Utility](https://github.com/laochiangx/Common.Utility)：各种C#辅助类。
+* [Fork](https://github.com/yuzhengyang/Fork)：Fork是封装整合各种轮子的一个工具库项目。
+* [MyToolkit](https://github.com/RicoSuter/MyToolkit)：MyToolkit是一套.NET库，其中包含大量适用于各种.NET平台的实用类。
+* [Sikiro.Tookits](https://github.com/SkyChenSky/Sikiro.Tookits)：Sikiro.Tookits是一个基础且常用的工具库。
+* [LeagueSharp.Common](https://github.com/LeagueSharp/LeagueSharp.Common)：LeagueSharp平台通用库是所有程序集的主要支持库。
+* [PeanutButter](https://github.com/fluffynuts/PeanutButter)：PeanutButter是一个项目集合，提供了一些经常需要重用的实用功能。
+* [Easytool](https://github.com/dotnet-easy/easytool)：Easytool是一个功能丰富且易用的.NET工具库，旨在帮助开发者快速、便捷地完成各类开发任务。
+* [ECommon](https://github.com/tangxuehua/ecommon)：一个通用的C#语言基础结构库。
+* [.NET Box Framework](https://github.com/Dotnet-Boxed/Framework)：.NET Core扩展和辅助NuGet包。
+* [DNC-DShop.Common](https://github.com/devmentors/DNC-DShop.Common)：DShop项目的通用库。
+* [Ardalis.Extensions](https://github.com/ardalis/Ardalis.Extensions)：一些有用的C#扩展方法。
+* [C# Utils](https://github.com/csm19910701/csharp-utils)：比较全面的C#帮助类。
+* [CalbucciLib.ExtensionsGalore](https://github.com/calbucci/CalbucciLib.ExtensionsGalore)：ExtensionsGalore是一个扩展库，它扩展了.NET的许多常用类型和类，从而可以快速便捷地访问常见的Web和移动开发场景。
+* [.NEXT](https://github.com/dotnet/dotNext)：.NEXT是一套强大的库，旨在提升开发效率并通过独特功能扩展.NET API。
+* [NewLife](https://github.com/NewLifeX/X)：NewLife框架是一个全面的.NET组件生态系统，它为构建可扩展的应用程序提供了高性能的基础设施。
+* [Z.ExtensionMethods](https://github.com/zzzprojects/Z.ExtensionMethods)：通过超过1000种扩展方法增强.NET Framework和.NET Core。
+* [WebAPIContrib](https://github.com/WebApiContrib/WebAPIContrib)：WebAPIContrib是一个开源项目集合，旨在帮助你改进ASP.NET Web API的使用。
+* [Modern](https://github.com/anton-martyniuk/Modern)：Modern是一套现代.NET工具，用于快速高效地开发常见的后端任务。
+* [TechnitiumLibrary](https://github.com/TechnitiumSoftware/TechnitiumLibrary)：一个用于.NET应用程序的库。
+* [FSLib.Extension](https://github.com/iccfish/FSLib.Extension)：FSLib.Extension库是一个用于.NET的扩展函数库。
+* [MADE.NET](https://github.com/MADE-Apps/MADE.NET)：MADE.NET是一套基于样板代码、可重用组件、服务、扩展和辅助工具的库。
+* [Wangkanai](https://github.com/wangkanai/wangkanai)：Wangkanai是一个由内部逐步开发的ASP.NET核心库集合。
+* [Craig's Utility Library](https://github.com/JaCraig/Craig-s-Utility-Library)：一套庞大的实用工具类。
+* [ASP.NET Core Utility](https://github.com/sgjsakura/AspNetCore)：此解决方案为ASP.NET Core项目添加了一些实用功能。
+* [SimpleHelpers.Net](https://github.com/khalidsalomao/SimpleHelpers.Net)：适用于.NET的微型库，安全易用。
+* [CodeJam](https://github.com/rsdn/CodeJam)：CodeJam是一套方便的可重用.NET组件，你可以将自己喜欢的辅助方法和类从一个项目复制粘贴到另一个项目，从而简化你的日常工作并节省时间。
+* [StackExchange.Utils](https://github.com/StackExchange/StackExchange.Utils)：Stack Exchange实用程序包。
+* [HigLabo](https://github.com/higty/higlabo)：HigLabo库提供AI客户端、对象映射器等库。
+* [DamienGKit](https://github.com/damieng/DamienGKit)：来自DamienG的实用工具类和辅助类。
+* [Westwind.Utilities](https://github.com/RickStrahl/Westwind.Utilities)：一个用于.NET开发的通用工具和辅助库。
+* [TinyHelpers](https://github.com/marcominerva/TinyHelpers)：一组.NET辅助方法和类。
+* [NStack](https://github.com/gui-cs/NStack)：NStack包含基于现代C#和.NET语言的新.NET API。
+* [Easy.Common](https://github.com/NimaAra/Easy.Common)：一套在Easy.*项目中使用的实用工具和辅助工具。
+* [Senparc.CO2NET](https://github.com/Senparc/Senparc.CO2NET)：Senparc.CO2NET是一个通用的基础扩展库，支持.NET Framework和.NET Core，包括日常开发所需的基本辅助类。
+* [Logos.Utility](https://github.com/Faithlife/Logos.Utility)：由Logos Bible Software创建的C#/.NET实用程序代码。
+* [Meziantou.Framework](https://github.com/meziantou/Meziantou.Framework)：
+* [Magnum](https://github.com/phatboyg/Magnum)：Magnum是一套包含多种工具的集合，可帮助你更高效地工作。
+* [Swan](https://github.com/unosquare/swan)：Swan是一组多年来编写和演进的类和扩展方法集合。
+* [WestwindToolkit](https://github.com/RickStrahl/WestwindToolkit)：Westwind Toolkit是一组通用和Web实用类，以易于使用的包形式提供。
+* [Elect](https://github.com/topnguyen/Elect)：.NET Core的实用工具、最佳实践和流式方法集合。
+* [ECSharp](https://github.com/qwertie/ecsharp)：ECSharp代码库包含多个用于增强.NET和C#开发的工具。
+* [Squared.Util](https://github.com/sq/Libraries)：各种.NET实用函数和类型。
+* [ByndyuSoft.Dotnet.Infrastructure](https://github.com/Byndyusoft/ByndyuSoft.Dotnet.Infrastructure)：常规.NET项目的基础设施。
+* [.NET Extension](https://github.com/dotnet/extensions)：此仓库包含一套库，提供创建生产就绪应用程序时通常所需的功能。
+* [DNTCommon.Web.Core](https://github.com/VahidN/DNTCommon.Web.Core)：DNTCommon.Web.Core为ASP.NET Core应用程序提供常见场景的解决方案。
+* [Sharpify](https://github.com/dusrdev/Sharpify)：一套高性能的C#语言扩展，完全兼容NativeAOT。
+* [Business Logic Toolkit](https://github.com/igor-tkachev/bltoolkit)：Business Logic Toolkit是一套用于简化.NET应用程序开发的组件。
+* [WebAPIContrib.Core](https://github.com/WebApiContrib/WebAPIContrib.Core)：WebAPIContrib.Core是一系列开源项目、附加组件和扩展，用于帮助提升你在ASP.NET Core和ASP.NET Core MVC开发中的工作效率。
+* [TomsToolbox](https://github.com/tom-englert/TomsToolbox)：一套核心功能和类，帮助简化日常的.NET开发任务。
+* [SharpHoundCommon](https://github.com/SpecterOps/SharpHoundCommon)：SharpHound使用的公共库。
+* [ZibStack.NET](https://github.com/MistyKuu/ZibStack.NET)：一套用于处理常见应用程序问题的.NET源代码生成器和实用工具集，包括日志记录、跟踪、DTO、CRUD API、校验、UI元数据等等。
+* [Dos.Common](https://github.com/itdos/Dos.Common)：常用开发类库，提高开发效率。
+* [AutomationCommonToolsCodes](https://github.com/Southeastofstar/C-Sharp-Industry-Automation-Common-Tools-Codes)：C#开发的工业自动化控制类。
+* [HelpMate.Core](https://github.com/proudmonkey/HelpMate.Core)：一个用于编写.NET Core应用程序的小型辅助工具。
+* [Utilities](https://github.com/Bunny83/Utilities)：包含各种数学、几何和通用实用类，适用于Unity3D和C#。
+* [ToolBox](https://github.com/deinsoftware/toolbox)：ToolBox的创建旨在简化和自动化与.NET控制台相关的任务。
+* [C# Extensions](https://github.com/rmandvikar/csharp-extensions)：一系列实用的C#扩展方法。
+* [Bearded.Utilities](https://github.com/beardgame/utilities)：通用的C#实用程序库，包含各种有用的类型和算法。
+* [Baseline](https://github.com/JasperFx/baseline)：.NET开发通用实用程序和扩展方法的集合。
+* [HeroicFramework](https://github.com/MattHoneycutt/HeroicFramework)：Heroic Framework包含实用程序和应用程序框架基础架构，可简化.NET应用程序开发。
+* [MVC .Utilities](https://github.com/Aaronontheweb/mvc-utilities)：这是一批用于简化ASP.NET MVC开发的实用类。
+* [DotNetTips.Utility.Core](https://github.com/RealDotNetDave/dotNetTips.Utility.Core)：适用于.NET Core和.NET Standard通用工具库。
+* [MedallionUtilities](https://github.com/madelson/MedallionUtilities)：一组包含各种常用实用函数的小型.NET库。
+* [Tact.NET](https://github.com/tdupont750/tact.net)：一套巧妙的.NET开发实用工具集。
+* [Menees Libraries](https://github.com/menees/Libraries)：Menees所有实用程序中使用的.NET库。
+* [Cadenza](https://github.com/cadenza/cadenza)：.NET的实用工具类型和扩展方法。
+* [.NET Utility](https://github.com/aloneguid/netbox)：.NET支持库及其实用方法。
+* [Bardock.Utils](https://github.com/bardock/Bardock.Utils)：一套用于.NET Framework的实用程序。
+* [CommonLib](https://github.com/jprichardson/CommonLib)：一个包含实用类和方法的.NET库。
+* [WeihanLi.Common](https://github.com/WeihanLi/WeihanLi.Common)：WeihanLi.Common捆绑了一套可用于生产环境的辅助函数、扩展和中间件，以简化.NET应用程序开发。
+* [Akka.NET Helpers](https://github.com/petabridge/akkadotnet-helpers)：Akka.NET辅助类，用于满足常见的生产需求。
+* [Farseer.Net](https://github.com/FarseerNet/Farseer.Net)：为.NET Core语言的常用组件提供一致的标准用法。
+* [Firely .NET Common](https://github.com/FirelyTeam/firely-net-common)：Firely .NET SDK之间共享的代码。
+* [Dotmore](https://github.com/mattmc3/dotmore)：.NET核心库缺少一些非常实用的常用功能，Dotmore可以为你提供这些功能。
+* [WLib](https://github.com/Windr07/WLib)：WLib是一组针对C#.NET和ArcGIS Engine开发常用代码进行封装的基础库和控件库。
+* [XCLNetTools](https://github.com/xucongli1989/XCLNetTools)：这是一个.NET通用类库DLL。
+* [Yuhan Commons](https://github.com/hansuky/Yuhan)：.NET通用代码库。
+* [Qoollo Turbo](https://github.com/qoollo/dotNet-turbo)：一系列有用的.NET应用程序工具类。
+* [ClownFish](https://github.com/fish-li/ClownFish.net)：ClownFish是一个NET工具类库。
+* [Walterlv.Packages](https://github.com/walterlv/Walterlv.Packages)：Walterlv.Packages是一系列工具库。
+* [System.Extension.Core](https://github.com/zhenlei520/System.Extension.Core)：System.Extension.Core是一个NET Standard 2.0、NET Standard 2.1的基础类库。
+* [Sixnet.Web](https://github.com/six-net/Sixnet.Web)：基于Sixnet开发框架的ASP.NET Core开发工具库。
+* [Tools](https://github.com/lfz233002072/tools)：C#工具箱，提供Socket、Redis、ActiveMQ、数据库访问等技术的封装实现。
+* [XiaoFeng](https://github.com/zhuovi/XiaoFeng)：C#公用类库。
+* [Cyjb](https://github.com/CYJB/Cyjb)：提供基础的功能扩展，基于.NET 6。
+* [SharpUtils](https://github.com/IS4Code/SharpUtils)：C#的各种工具和技巧。
+* [MASA.Utils](https://github.com/masastack/MASA.Utils)：MASA.Utils是一个MASA工具库，被MASA Stack和MASA Labs等项目使用。
+* [BoC](https://github.com/csteeg/BoC)：.NET公共精选类。
+* [GodotUtils](https://github.com/CSharpGodotTools/GodotUtils)：一个不断扩展的Godot C#工具库。
+* [Microsoft Enterprise Library](https://github.com/microsoftarchive/enterprise-library)：Microsoft Enterprise Library是一组可重用的软件组件，用于解决常见的横切关注点。
+* [KGySoft.CoreLibraries](https://github.com/koszeggy/KGySoft.CoreLibraries)：KGy SOFT CoreLibraries提供高性能且方便的通用库。
+* [MonoMod.Common](https://github.com/MonoMod/MonoMod.Common)：MonoMod及其他.NET模组库常用的代码。
+* [Talk](https://github.com/zhaopeiym/Talk)：公共类库、用于快速开发。
+* [Bing](https://github.com/jianxuanbing/Bing)：Bing是基于.NET Framework 4.5的框架，旨在提升团队的开发输出能力，由常用公共操作类、分层架构基类、第三方组件封装、第三方业务接口封装等组成。
+* [Bing.Utils](https://github.com/bing-framework/Bing.Utils)：Bing.Utils是一个基于.NET Core平台下的工具库。
+* [BytecodeApi](https://github.com/bytecode77/bytecode-api)：BytecodeApi实现了用于通用目的的类和扩展。
+* [Cadru](https://github.com/scottdorman/cadru)：Cadru是一系列NuGet包，包含用于.NET核心框架的新API和扩展，以帮助完善你的开发者工具箱。
+* [JCE.Utils](https://github.com/jianxuanbing/JCE)：JCE.Utils是基于.NET Framework 4.5的工具库，旨在提升团队的开发输出能力。
+* [NLight](https://github.com/slorion/nlight)：.NET项目的工具箱。
+* [Spargine](https://github.com/RealDotNetDave/dotNetTips.Spargine)：来自dotNetTips.com和David McCarter的开源.NET程序集。
+* [FluentSharp](https://github.com/fluentsharp/FluentSharp)：FluentSharp是一系列开源.NET API，可显著简化.NET Framework API的使用。
+* [Xmtool](https://github.com/softwaiter/Xmtool)：Xmtool是一个基于.NET的常用功能集成工具类库。
+* [OSS.Common](https://github.com/KevinWG/OSS.Common)：OSS基础类库，主要涉及基础实体、加密算法、XML序列化、以及其他扩展方法等。
+* [Platform.NET](https://github.com/platformdotnet/Platform)：一个适用于C#和.NET的跨平台实用类和扩展库。
+* [UtilsSharp.Standard](https://github.com/agoling/UtilsSharp.Standard)：.NET Core公共工具类。
+* [Common.Utility](https://github.com/iZhongCheng/Common.Utility)：C#通用工具库。
+* [.NET Helper](https://github.com/hdkn235/hd-net-helper)：.NET工具类库。
+* [Dppt](https://github.com/MrChuJiu/Dppt)：一个针对.NET Core各种技术点的工具库。
+* [MyHelper](https://github.com/chrisyanghua/MyHelper)：C# Web开发通用类。
+* [TechBuddy.Extensions](https://github.com/TechBuddyTR/TechBuddy.Extensions)：为ASP.NET Core应用提供扩展库。
+* [Byndyusoft.Dotnet.Core.Infrastructure](https://github.com/Byndyusoft/Byndyusoft.Dotnet.Core.Infrastructure)：.NET项目的基础设施。
+* [Riganti.Utils.Infrastructure](https://github.com/riganti/infrastructure)：Riganti.Utils.Infrastructure是常见企业架构设计模式的实现，此库可用作你应用程序中业务层的基础。
+* [OpenSourceToolkit.NET](https://github.com/tobitege/OpenSourceToolkit.NET)：这套工具包提供可重用的模块化组件，涵盖文本处理、安全、网络、硬件测试等领域。
+* [Minimod](https://github.com/minimod/minimods)：Minimod是一个包含特定可重用C#代码片段的单文件分发包。
+* [Sitecore.Mvc.Contrib](https://github.com/Sitecore-Community/Sitecore-Mvc-Contrib)：该项目扩展了Sitecore MVC的基本功能，提供了一组在使用Sitecore的MVC范式时可能需要的通用类和辅助工具。
+* [Ion](https://github.com/ionsharp/Ion)：C#核心工具库。
+* [Handlebars.Net.Helpers](https://github.com/Handlebars-Net/Handlebars.Net.Helpers)：可用于Handlebars.Net的辅助函数。
+* [DotNetCodes](https://gitee.com/kuiyu/dotnetcodes)：.NET开发代码集合。
+* [BIMFace.SDK](https://gitee.com/NAlps/BIMFace.SDK)：BIMFace.SDK是基于.NET Standard技术封装的用于BIMFACE二次开发的通用类库。
+* [DotNetCommon](https://gitee.com/jackletter/DotNetCommon)：.NET Core常用功能的工具库。
+* [MtTools](https://gitee.com/mkwuji/mtTools)：MtTools为C#基础类库，无任何第三方依赖。
+* [NKnife](https://gitee.com/xknife/nknife)：NKnife是一个基于.NET的综合开发库。
+* [Silkier](https://gitee.com/maikebing/Silkier)：Silkier是一个常用扩展集合。
+* [Zongsoft.CoreLibrary](https://github.com/Zongsoft/Zongsoft.CoreLibrary)：Zongsoft开发框架核心类库。
+* [HelperSharp](https://github.com/giacomelli/HelperSharp)：一组用于C#编程的辅助工具和扩展。
+* [NcfPackageSources](https://github.com/NeuCharFramework/NcfPackageSources)：NcfPackageSources为NCF模板官方包的核心基础库源码。
+* [MiscUtil](https://github.com/loory/MiscUtil)：C#中的各种实用类集合。
+* [Helpers.Net](https://github.com/robvolk/Helpers.Net)：一组辅助方法，使你的项目编码更容易。
+* [EnterpriseLibrary.NetCore](https://github.com/Chavoshi/EnterpriseLibrary.NetCore)：EnterpriseLibrary.NetCore是一个可重用的软件组件集合，旨在帮助软件开发人员处理常见的企业级开发跨领域问题。
+* [OSS.Tools](https://github.com/KevinWG/OSS.Tools)：OSS的辅助类库。
+* [LoycCore](https://github.com/qwertie/LoycCore)：Loyc Core项目是一套通用的.NET库。
+* [CoreLibrary](https://github.com/nanoframework/CoreLibrary)：.NET NanoFramework基础类库。
+* [AppBase](https://github.com/carina-studio/AppBase)：AppBase是一套专为.NET应用程序设计的库。
+* [Lib.Web.Mvc](https://github.com/tpeczek/Lib.Web.Mvc)：Lib.Web.Mvc是一个库，其中包含一些ASP.NET MVC的辅助类。
+* [LibPalaso](https://github.com/sillsdev/libpalaso)：Palaso是一个共享库集合，用于SIL .NET应用程序。
+* [FaithlifeUtility](https://github.com/Faithlife/FaithlifeUtility)：Faithlife使用的常见.NET实用程序代码。
+* [DotNetTips.Spargine](https://github.com/RealDotNetDave/dotNetTips.Spargine.8)：.NET 8的Spargine库。
+* [Svelto.Common](https://github.com/sebas77/Svelto.Common)：Svelto仓库之间共享的代码。
+* [Xfrogcn.AspNetCore.Extensions](https://github.com/xfrogcn/Xfrogcn.AspNetCore.Extensions)：ASP.NET Core扩展库。
+* [Excessives](https://github.com/SirHall/Excessives)：Excessives是一个实用工具库，旨在通过提供强大的工具让你的C#开发生活更轻松。
+* [NIC.NET](https://github.com/nreco/nicnet)：NIC.NET是一套开源可重用组件。
+* [Skylark](https://github.com/Taiizor/Skylark)：Skylark是一套工具和资源的集合，可以帮助开发.NET项目。
+* [Base](https://github.com/bruce68tw/Base)：Base是一个公共程序，可在开发各种C#项目时作为参考，以节省开发时间。
+* [C# Libs](https://github.com/reinterpretcat/csharp-libs)：一个通用的C#库集合。
+* [Ark.Tools](https://github.com/ARKlab/Ark.Tools)：这是由Ark开发和维护的一套核心库。
+* [Odachi](https://github.com/Kukkimonsuta/Odachi)：.NET Core的各种扩展集合。
+* [Lidgren.Core](https://github.com/lidgren/Lidgren.Core)：适用于几乎所有项目的各种核心功能。
+* [NanoByte.Common](https://github.com/nano-byte/common)：NanoByte.Common提供各种实用类和数据结构。
+* [WeihanLi.Web.Extensions](https://github.com/WeihanLi/WeihanLi.Web.Extensions)：一套精心挑选的ASP.NET Core应用程序实用构建模块。
+* [DotNetClasses](https://github.com/genexuslabs/DotNetClasses)：适用于.NET和.NET Framework生成器的GeneXus标准类。
+* [FreeKit](https://github.com/luoyunchong/FreeKit)：FreeKit为.NET Core提供了更多的扩展实现。
+* [Lombiq Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries)：Orchard核心库/Orchard 1.x模块，其中包含在Orchard开发过程中可能用到的库。
+* [NStandard](https://github.com/zmjack/NStandard)：.NET系统库扩展。
+* [Allegro.Extensions](https://github.com/allegro/dotnet-utils)：Allegro.Extensions包含可以在Allegro服务之间共享的实用程序包。
+* [Lib12](https://github.com/kkalinowski/lib12)：Lib12是一个通用的辅助工具和扩展库，适用于任何.NET项目。
+* [Trivial](https://github.com/nuscien/trivial)：Trivial库包含很多实用工具、模型和组件，可以帮助你专注于项目的业务逻辑。
+
 ## LINQ
 
 * [ZLinq](https://github.com/Cysharp/ZLinq)：
@@ -3077,6 +3241,7 @@
 * [NGon](https://github.com/brooklynDev/NGon)：Rails Gon移植版。
 * [Dazinator.Extensions.FileProviders](https://github.com/dazinator/Dazinator.Extensions.FileProviders)：为ASP.NET Core提供了一些有用的IFileProvider实现。
 * [Fix](https://github.com/FixProject/Fix)：一个用C#编写的超轻量级.NET Web粘合剂。
+* [Delta](https://github.com/SimonCropp/Delta)：Delta是一种实现304未修改的方法，利用数据库变更跟踪。
 
 ## 多租户
 
@@ -4936,6 +5101,7 @@
 * [BlazorBindGen](https://github.com/sps014/BlazorBindGen)：一个用于JS的绑定生成器，在Blazor Wasm和Server中调用任何JS函数或属性，无需编写JS包装器。
 * [RazorTemplates](https://github.com/DamianEdwards/RazorTemplates)：尝试为Razor组件创建模板扩展。
 * [AzureMapsControl.Components](https://github.com/arnaudleclerc/AzureMapsControl.Components)：这个库让你可以在你的Razor应用中使用Azure地图。
+* [TextCopy](https://github.com/CopyText/TextCopy)：一个用于在剪贴板和文本之间复制文本的跨平台软件包。
 
 ## IDE
 
@@ -5135,6 +5301,7 @@
 * [Pollus](https://github.com/Refsa/pollus)：这是一个基于ECS的小型C#跨平台游戏引擎，利用WGPU实现原生运行和浏览器运行。
 * [Alis](https://github.com/pabllopf/Alis)：Alis是一个跨平台框架，旨在帮助开发者轻松创建视频游戏。
 * [Scythe](https://github.com/fkerimk/Scythe)：Scythe是一款基于C#的轻量级游戏引擎，它使用Raylib库，专注于可修改性和快速迭代。
+* [Promete](https://github.com/prometeapp/Promete)：Promete是一个适用于.NET 8及更高版本的游戏开发框架和游戏引擎。
 
 ## 碰撞检测
 
@@ -6138,6 +6305,7 @@
 * [Longbow.Tasks](https://gitee.com/LongbowEnterprise/Longbow.Tasks)：Longbow.Tasks是一款对标QuartZ与Hangfire的定时任务组件。
 * [Burden](https://github.com/Iristyle/Burden)：Burden利用响应式扩展的力量提供了一个类型化的持久作业队列。
 * [NCrontab.Scheduler](https://github.com/thomasgalliker/NCrontab.Scheduler)：NCrontab.Scheduler是一个简单的开源任务调度系统，可用于任何.NET应用程序。
+* [AspNetBackgroundTasks](https://github.com/StephenCleary/AspNetBackgroundTasks)：一个向ASP.NET运行时注册即发即弃任务的组件。
 
 ## Cron
 
@@ -6332,6 +6500,10 @@
 ## 依赖移除
 
 * [Chisel](https://github.com/0xced/Chisel)：Chisel提供了一种从.NET项目中移除不需要的依赖项的方法。
+
+## SBOM
+
+* [SBOM Tool](https://github.com/microsoft/sbom-tool)：SBOM Tool是一款高度可扩展且适用于企业级应用的工具，可为各种类型的工件创建与SPDX 2.2和SPDX 3.0兼容的SBOM。
 
 ## 打包
 
@@ -6938,6 +7110,7 @@
 
 * [GeneGenie.Gedcom](https://github.com/TheGeneGenieProject/GeneGenie.Gedcom)：一个用于加载、保存、处理和分析以GEDCOM格式存储的家谱的.NET库。
 * [GEDCOM X C#](https://github.com/FamilySearch/gedcomx-csharp)：本项目包含GEDCOM X及其相关扩展的C#实现。
+* [GEDKeeper](https://github.com/Serg-Norseman/GEDKeeper)：GEDKeeper程序用于处理个人族谱数据库。
 
 ## RDF
 
@@ -7452,6 +7625,11 @@
 * [RSSharp](https://github.com/liGhun/RSSharp)：一个提供对各种RSS源聚合服务访问的.NET库。
 * [SimpleFeedReader](https://github.com/RobThree/SimpleFeedReader)：易于使用，简单的联合订阅源读取器。
 
+## COMET
+
+* [AspCOMET](https://github.com/nmosafi/aspComet)：该项目的目标是提供一个轻量且可扩展的COMET实现，无需自定义服务器。
+* [CometD.NET](https://github.com/Oyatel/CometD.NET)：CometD.NET是一个在.NET中提供Bayeux协议实现的项目。
+
 ## APM
 
 * [HttpReports](https://github.com/dotnetcore/HttpReports)：HttpReports是.NET Core的APM系统。
@@ -7522,6 +7700,7 @@
 * [PerfTap](https://github.com/Iristyle/PerfTap)：一个Win32 PerfMon监控服务，将一组计数器发布到兼容StatsD的UDP监听器。
 * [HdrHistogram.NET](https://github.com/HdrHistogram/HdrHistogram.NET)：HdrHistogram的.NET版本。
 * [SQL Server Performance Monitor](https://github.com/erikdarlingdata/PerformanceMonitor)：SQL Server性能监控器。
+* [CSharpAnalytics](https://github.com/AttackPattern/CSharpAnalytics)：CSharpAnalytics是一个免费的C#库，用于通过Google Analytics跟踪应用程序指标。
 
 ## 指标库
 
@@ -8620,6 +8799,7 @@
 * [Mdcrypt](https://github.com/wwh1004/Mdcrypt)：下一代.NET应用程序保护器。
 * [JDO](https://github.com/fileoffset/JDO)：Java反混淆器。
 * [Babel Deobfuscator](https://github.com/CleoV2/Babel-Deobfuscator)：Babel Deobfuscator是一个开源的Babel混淆解除工具。
+* [De4dot Cex](https://github.com/ViRb3/de4dot-cex)：De4dot反混淆器，完全支持原版ConfuserEx。
 
 ## 逆向工程
 
@@ -8657,166 +8837,6 @@
 
 * [LiveSharp](https://github.com/ionoy/LiveSharp)：.NET平台的原始热重载解决方案。
 * [DevReload](https://github.com/abiosoft/DevReload)：用于ASP.NET Core开发的实时重载。
-
-## 工具库
-
-* [Masuit.Tools](https://github.com/ldqk/Masuit.Tools)：友好的C#.NET万能工具库。
-* [Humanizer](https://github.com/Humanizr/Humanizer)：Humanizer满足你对操作和显示字符串、枚举、日期、时间、时间跨度、数字和数量的所有.NET需求。
-* [Common.Utility](https://github.com/laochiangx/Common.Utility)：各种C#辅助类。
-* [Fork](https://github.com/yuzhengyang/Fork)：Fork是封装整合各种轮子的一个工具库项目。
-* [MyToolkit](https://github.com/RicoSuter/MyToolkit)：MyToolkit是一套.NET库，其中包含大量适用于各种.NET平台的实用类。
-* [Sikiro.Tookits](https://github.com/SkyChenSky/Sikiro.Tookits)：Sikiro.Tookits是一个基础且常用的工具库。
-* [LeagueSharp.Common](https://github.com/LeagueSharp/LeagueSharp.Common)：LeagueSharp平台通用库是所有程序集的主要支持库。
-* [PeanutButter](https://github.com/fluffynuts/PeanutButter)：PeanutButter是一个项目集合，提供了一些经常需要重用的实用功能。
-* [Easytool](https://github.com/dotnet-easy/easytool)：Easytool是一个功能丰富且易用的.NET工具库，旨在帮助开发者快速、便捷地完成各类开发任务。
-* [ECommon](https://github.com/tangxuehua/ecommon)：一个通用的C#语言基础结构库。
-* [.NET Box Framework](https://github.com/Dotnet-Boxed/Framework)：.NET Core扩展和辅助NuGet包。
-* [DNC-DShop.Common](https://github.com/devmentors/DNC-DShop.Common)：DShop项目的通用库。
-* [Ardalis.Extensions](https://github.com/ardalis/Ardalis.Extensions)：一些有用的C#扩展方法。
-* [C# Utils](https://github.com/csm19910701/csharp-utils)：比较全面的C#帮助类。
-* [CalbucciLib.ExtensionsGalore](https://github.com/calbucci/CalbucciLib.ExtensionsGalore)：ExtensionsGalore是一个扩展库，它扩展了.NET的许多常用类型和类，从而可以快速便捷地访问常见的Web和移动开发场景。
-* [.NEXT](https://github.com/dotnet/dotNext)：.NEXT是一套强大的库，旨在提升开发效率并通过独特功能扩展.NET API。
-* [NewLife](https://github.com/NewLifeX/X)：NewLife框架是一个全面的.NET组件生态系统，它为构建可扩展的应用程序提供了高性能的基础设施。
-* [Z.ExtensionMethods](https://github.com/zzzprojects/Z.ExtensionMethods)：通过超过1000种扩展方法增强.NET Framework和.NET Core。
-* [Modern](https://github.com/anton-martyniuk/Modern)：Modern是一套现代.NET工具，用于快速高效地开发常见的后端任务。
-* [TechnitiumLibrary](https://github.com/TechnitiumSoftware/TechnitiumLibrary)：一个用于.NET应用程序的库。
-* [FSLib.Extension](https://github.com/iccfish/FSLib.Extension)：FSLib.Extension库是一个用于.NET的扩展函数库。
-* [MADE.NET](https://github.com/MADE-Apps/MADE.NET)：MADE.NET是一套基于样板代码、可重用组件、服务、扩展和辅助工具的库。
-* [Wangkanai](https://github.com/wangkanai/wangkanai)：Wangkanai是一个由内部逐步开发的ASP.NET核心库集合。
-* [Craig's Utility Library](https://github.com/JaCraig/Craig-s-Utility-Library)：一套庞大的实用工具类。
-* [ASP.NET Core Utility](https://github.com/sgjsakura/AspNetCore)：此解决方案为ASP.NET Core项目添加了一些实用功能。
-* [SimpleHelpers.Net](https://github.com/khalidsalomao/SimpleHelpers.Net)：适用于.NET的微型库，安全易用。
-* [CodeJam](https://github.com/rsdn/CodeJam)：CodeJam是一套方便的可重用.NET组件，你可以将自己喜欢的辅助方法和类从一个项目复制粘贴到另一个项目，从而简化你的日常工作并节省时间。
-* [StackExchange.Utils](https://github.com/StackExchange/StackExchange.Utils)：Stack Exchange实用程序包。
-* [HigLabo](https://github.com/higty/higlabo)：HigLabo库提供AI客户端、对象映射器等库。
-* [DamienGKit](https://github.com/damieng/DamienGKit)：来自DamienG的实用工具类和辅助类。
-* [Westwind.Utilities](https://github.com/RickStrahl/Westwind.Utilities)：一个用于.NET开发的通用工具和辅助库。
-* [TinyHelpers](https://github.com/marcominerva/TinyHelpers)：一组.NET辅助方法和类。
-* [NStack](https://github.com/gui-cs/NStack)：NStack包含基于现代C#和.NET语言的新.NET API。
-* [Easy.Common](https://github.com/NimaAra/Easy.Common)：一套在Easy.*项目中使用的实用工具和辅助工具。
-* [Senparc.CO2NET](https://github.com/Senparc/Senparc.CO2NET)：Senparc.CO2NET是一个通用的基础扩展库，支持.NET Framework和.NET Core，包括日常开发所需的基本辅助类。
-* [Logos.Utility](https://github.com/Faithlife/Logos.Utility)：由Logos Bible Software创建的C#/.NET实用程序代码。
-* [Meziantou.Framework](https://github.com/meziantou/Meziantou.Framework)：
-* [Magnum](https://github.com/phatboyg/Magnum)：Magnum是一套包含多种工具的集合，可帮助你更高效地工作。
-* [Swan](https://github.com/unosquare/swan)：Swan是一组多年来编写和演进的类和扩展方法集合。
-* [WestwindToolkit](https://github.com/RickStrahl/WestwindToolkit)：Westwind Toolkit是一组通用和Web实用类，以易于使用的包形式提供。
-* [Elect](https://github.com/topnguyen/Elect)：.NET Core的实用工具、最佳实践和流式方法集合。
-* [ECSharp](https://github.com/qwertie/ecsharp)：ECSharp代码库包含多个用于增强.NET和C#开发的工具。
-* [Squared.Util](https://github.com/sq/Libraries)：各种.NET实用函数和类型。
-* [ByndyuSoft.Dotnet.Infrastructure](https://github.com/Byndyusoft/ByndyuSoft.Dotnet.Infrastructure)：常规.NET项目的基础设施。
-* [.NET Extension](https://github.com/dotnet/extensions)：此仓库包含一套库，提供创建生产就绪应用程序时通常所需的功能。
-* [DNTCommon.Web.Core](https://github.com/VahidN/DNTCommon.Web.Core)：DNTCommon.Web.Core为ASP.NET Core应用程序提供常见场景的解决方案。
-* [Sharpify](https://github.com/dusrdev/Sharpify)：一套高性能的C#语言扩展，完全兼容NativeAOT。
-* [Business Logic Toolkit](https://github.com/igor-tkachev/bltoolkit)：Business Logic Toolkit是一套用于简化.NET应用程序开发的组件。
-* [WebAPIContrib.Core](https://github.com/WebApiContrib/WebAPIContrib.Core)：WebAPIContrib.Core是一系列开源项目、附加组件和扩展，用于帮助提升你在ASP.NET Core和ASP.NET Core MVC开发中的工作效率。
-* [TomsToolbox](https://github.com/tom-englert/TomsToolbox)：一套核心功能和类，帮助简化日常的.NET开发任务。
-* [SharpHoundCommon](https://github.com/SpecterOps/SharpHoundCommon)：SharpHound使用的公共库。
-* [ZibStack.NET](https://github.com/MistyKuu/ZibStack.NET)：一套用于处理常见应用程序问题的.NET源代码生成器和实用工具集，包括日志记录、跟踪、DTO、CRUD API、校验、UI元数据等等。
-* [Dos.Common](https://github.com/itdos/Dos.Common)：常用开发类库，提高开发效率。
-* [AutomationCommonToolsCodes](https://github.com/Southeastofstar/C-Sharp-Industry-Automation-Common-Tools-Codes)：C#开发的工业自动化控制类。
-* [HelpMate.Core](https://github.com/proudmonkey/HelpMate.Core)：一个用于编写.NET Core应用程序的小型辅助工具。
-* [Utilities](https://github.com/Bunny83/Utilities)：包含各种数学、几何和通用实用类，适用于Unity3D和C#。
-* [ToolBox](https://github.com/deinsoftware/toolbox)：ToolBox的创建旨在简化和自动化与.NET控制台相关的任务。
-* [C# Extensions](https://github.com/rmandvikar/csharp-extensions)：一系列实用的C#扩展方法。
-* [Bearded.Utilities](https://github.com/beardgame/utilities)：通用的C#实用程序库，包含各种有用的类型和算法。
-* [Baseline](https://github.com/JasperFx/baseline)：.NET开发通用实用程序和扩展方法的集合。
-* [HeroicFramework](https://github.com/MattHoneycutt/HeroicFramework)：Heroic Framework包含实用程序和应用程序框架基础架构，可简化.NET应用程序开发。
-* [MVC .Utilities](https://github.com/Aaronontheweb/mvc-utilities)：这是一批用于简化ASP.NET MVC开发的实用类。
-* [DotNetTips.Utility.Core](https://github.com/RealDotNetDave/dotNetTips.Utility.Core)：适用于.NET Core和.NET Standard通用工具库。
-* [MedallionUtilities](https://github.com/madelson/MedallionUtilities)：一组包含各种常用实用函数的小型.NET库。
-* [Tact.NET](https://github.com/tdupont750/tact.net)：一套巧妙的.NET开发实用工具集。
-* [Menees Libraries](https://github.com/menees/Libraries)：Menees所有实用程序中使用的.NET库。
-* [Cadenza](https://github.com/cadenza/cadenza)：.NET的实用工具类型和扩展方法。
-* [.NET Utility](https://github.com/aloneguid/netbox)：.NET支持库及其实用方法。
-* [Bardock.Utils](https://github.com/bardock/Bardock.Utils)：一套用于.NET Framework的实用程序。
-* [CommonLib](https://github.com/jprichardson/CommonLib)：一个包含实用类和方法的.NET库。
-* [WeihanLi.Common](https://github.com/WeihanLi/WeihanLi.Common)：WeihanLi.Common捆绑了一套可用于生产环境的辅助函数、扩展和中间件，以简化.NET应用程序开发。
-* [Akka.NET Helpers](https://github.com/petabridge/akkadotnet-helpers)：Akka.NET辅助类，用于满足常见的生产需求。
-* [Farseer.Net](https://github.com/FarseerNet/Farseer.Net)：为.NET Core语言的常用组件提供一致的标准用法。
-* [Firely .NET Common](https://github.com/FirelyTeam/firely-net-common)：Firely .NET SDK之间共享的代码。
-* [Dotmore](https://github.com/mattmc3/dotmore)：.NET核心库缺少一些非常实用的常用功能，Dotmore可以为你提供这些功能。
-* [WLib](https://github.com/Windr07/WLib)：WLib是一组针对C#.NET和ArcGIS Engine开发常用代码进行封装的基础库和控件库。
-* [XCLNetTools](https://github.com/xucongli1989/XCLNetTools)：这是一个.NET通用类库DLL。
-* [Yuhan Commons](https://github.com/hansuky/Yuhan)：.NET通用代码库。
-* [Qoollo Turbo](https://github.com/qoollo/dotNet-turbo)：一系列有用的.NET应用程序工具类。
-* [ClownFish](https://github.com/fish-li/ClownFish.net)：ClownFish是一个NET工具类库。
-* [Walterlv.Packages](https://github.com/walterlv/Walterlv.Packages)：Walterlv.Packages是一系列工具库。
-* [System.Extension.Core](https://github.com/zhenlei520/System.Extension.Core)：System.Extension.Core是一个NET Standard 2.0、NET Standard 2.1的基础类库。
-* [Sixnet.Web](https://github.com/six-net/Sixnet.Web)：基于Sixnet开发框架的ASP.NET Core开发工具库。
-* [Tools](https://github.com/lfz233002072/tools)：C#工具箱，提供Socket、Redis、ActiveMQ、数据库访问等技术的封装实现。
-* [XiaoFeng](https://github.com/zhuovi/XiaoFeng)：C#公用类库。
-* [Cyjb](https://github.com/CYJB/Cyjb)：提供基础的功能扩展，基于.NET 6。
-* [SharpUtils](https://github.com/IS4Code/SharpUtils)：C#的各种工具和技巧。
-* [MASA.Utils](https://github.com/masastack/MASA.Utils)：MASA.Utils是一个MASA工具库，被MASA Stack和MASA Labs等项目使用。
-* [BoC](https://github.com/csteeg/BoC)：.NET公共精选类。
-* [GodotUtils](https://github.com/CSharpGodotTools/GodotUtils)：一个不断扩展的Godot C#工具库。
-* [Microsoft Enterprise Library](https://github.com/microsoftarchive/enterprise-library)：Microsoft Enterprise Library是一组可重用的软件组件，用于解决常见的横切关注点。
-* [KGySoft.CoreLibraries](https://github.com/koszeggy/KGySoft.CoreLibraries)：KGy SOFT CoreLibraries提供高性能且方便的通用库。
-* [MonoMod.Common](https://github.com/MonoMod/MonoMod.Common)：MonoMod及其他.NET模组库常用的代码。
-* [Talk](https://github.com/zhaopeiym/Talk)：公共类库、用于快速开发。
-* [Bing](https://github.com/jianxuanbing/Bing)：Bing是基于.NET Framework 4.5的框架，旨在提升团队的开发输出能力，由常用公共操作类、分层架构基类、第三方组件封装、第三方业务接口封装等组成。
-* [Bing.Utils](https://github.com/bing-framework/Bing.Utils)：Bing.Utils是一个基于.NET Core平台下的工具库。
-* [BytecodeApi](https://github.com/bytecode77/bytecode-api)：BytecodeApi实现了用于通用目的的类和扩展。
-* [Cadru](https://github.com/scottdorman/cadru)：Cadru是一系列NuGet包，包含用于.NET核心框架的新API和扩展，以帮助完善你的开发者工具箱。
-* [JCE.Utils](https://github.com/jianxuanbing/JCE)：JCE.Utils是基于.NET Framework 4.5的工具库，旨在提升团队的开发输出能力。
-* [NLight](https://github.com/slorion/nlight)：.NET项目的工具箱。
-* [Spargine](https://github.com/RealDotNetDave/dotNetTips.Spargine)：来自dotNetTips.com和David McCarter的开源.NET程序集。
-* [FluentSharp](https://github.com/fluentsharp/FluentSharp)：FluentSharp是一系列开源.NET API，可显著简化.NET Framework API的使用。
-* [Xmtool](https://github.com/softwaiter/Xmtool)：Xmtool是一个基于.NET的常用功能集成工具类库。
-* [OSS.Common](https://github.com/KevinWG/OSS.Common)：OSS基础类库，主要涉及基础实体、加密算法、XML序列化、以及其他扩展方法等。
-* [Platform.NET](https://github.com/platformdotnet/Platform)：一个适用于C#和.NET的跨平台实用类和扩展库。
-* [UtilsSharp.Standard](https://github.com/agoling/UtilsSharp.Standard)：.NET Core公共工具类。
-* [Common.Utility](https://github.com/iZhongCheng/Common.Utility)：C#通用工具库。
-* [.NET Helper](https://github.com/hdkn235/hd-net-helper)：.NET工具类库。
-* [Dppt](https://github.com/MrChuJiu/Dppt)：一个针对.NET Core各种技术点的工具库。
-* [MyHelper](https://github.com/chrisyanghua/MyHelper)：C# Web开发通用类。
-* [TechBuddy.Extensions](https://github.com/TechBuddyTR/TechBuddy.Extensions)：为ASP.NET Core应用提供扩展库。
-* [Byndyusoft.Dotnet.Core.Infrastructure](https://github.com/Byndyusoft/Byndyusoft.Dotnet.Core.Infrastructure)：.NET项目的基础设施。
-* [Riganti.Utils.Infrastructure](https://github.com/riganti/infrastructure)：Riganti.Utils.Infrastructure是常见企业架构设计模式的实现，此库可用作你应用程序中业务层的基础。
-* [OpenSourceToolkit.NET](https://github.com/tobitege/OpenSourceToolkit.NET)：这套工具包提供可重用的模块化组件，涵盖文本处理、安全、网络、硬件测试等领域。
-* [Minimod](https://github.com/minimod/minimods)：Minimod是一个包含特定可重用C#代码片段的单文件分发包。
-* [Sitecore.Mvc.Contrib](https://github.com/Sitecore-Community/Sitecore-Mvc-Contrib)：该项目扩展了Sitecore MVC的基本功能，提供了一组在使用Sitecore的MVC范式时可能需要的通用类和辅助工具。
-* [Ion](https://github.com/ionsharp/Ion)：C#核心工具库。
-* [Handlebars.Net.Helpers](https://github.com/Handlebars-Net/Handlebars.Net.Helpers)：可用于Handlebars.Net的辅助函数。
-* [DotNetCodes](https://gitee.com/kuiyu/dotnetcodes)：.NET开发代码集合。
-* [BIMFace.SDK](https://gitee.com/NAlps/BIMFace.SDK)：BIMFace.SDK是基于.NET Standard技术封装的用于BIMFACE二次开发的通用类库。
-* [DotNetCommon](https://gitee.com/jackletter/DotNetCommon)：.NET Core常用功能的工具库。
-* [MtTools](https://gitee.com/mkwuji/mtTools)：MtTools为C#基础类库，无任何第三方依赖。
-* [NKnife](https://gitee.com/xknife/nknife)：NKnife是一个基于.NET的综合开发库。
-* [Silkier](https://gitee.com/maikebing/Silkier)：Silkier是一个常用扩展集合。
-* [Zongsoft.CoreLibrary](https://github.com/Zongsoft/Zongsoft.CoreLibrary)：Zongsoft开发框架核心类库。
-* [HelperSharp](https://github.com/giacomelli/HelperSharp)：一组用于C#编程的辅助工具和扩展。
-* [NcfPackageSources](https://github.com/NeuCharFramework/NcfPackageSources)：NcfPackageSources为NCF模板官方包的核心基础库源码。
-* [MiscUtil](https://github.com/loory/MiscUtil)：C#中的各种实用类集合。
-* [Helpers.Net](https://github.com/robvolk/Helpers.Net)：一组辅助方法，使你的项目编码更容易。
-* [EnterpriseLibrary.NetCore](https://github.com/Chavoshi/EnterpriseLibrary.NetCore)：EnterpriseLibrary.NetCore是一个可重用的软件组件集合，旨在帮助软件开发人员处理常见的企业级开发跨领域问题。
-* [OSS.Tools](https://github.com/KevinWG/OSS.Tools)：OSS的辅助类库。
-* [LoycCore](https://github.com/qwertie/LoycCore)：Loyc Core项目是一套通用的.NET库。
-* [CoreLibrary](https://github.com/nanoframework/CoreLibrary)：.NET NanoFramework基础类库。
-* [AppBase](https://github.com/carina-studio/AppBase)：AppBase是一套专为.NET应用程序设计的库。
-* [Lib.Web.Mvc](https://github.com/tpeczek/Lib.Web.Mvc)：Lib.Web.Mvc是一个库，其中包含一些ASP.NET MVC的辅助类。
-* [LibPalaso](https://github.com/sillsdev/libpalaso)：Palaso是一个共享库集合，用于SIL .NET应用程序。
-* [FaithlifeUtility](https://github.com/Faithlife/FaithlifeUtility)：Faithlife使用的常见.NET实用程序代码。
-* [DotNetTips.Spargine](https://github.com/RealDotNetDave/dotNetTips.Spargine.8)：.NET 8的Spargine库。
-* [Svelto.Common](https://github.com/sebas77/Svelto.Common)：Svelto仓库之间共享的代码。
-* [Xfrogcn.AspNetCore.Extensions](https://github.com/xfrogcn/Xfrogcn.AspNetCore.Extensions)：ASP.NET Core扩展库。
-* [Excessives](https://github.com/SirHall/Excessives)：Excessives是一个实用工具库，旨在通过提供强大的工具让你的C#开发生活更轻松。
-* [NIC.NET](https://github.com/nreco/nicnet)：NIC.NET是一套开源可重用组件。
-* [Skylark](https://github.com/Taiizor/Skylark)：Skylark是一套工具和资源的集合，可以帮助开发.NET项目。
-* [Base](https://github.com/bruce68tw/Base)：Base是一个公共程序，可在开发各种C#项目时作为参考，以节省开发时间。
-* [C# Libs](https://github.com/reinterpretcat/csharp-libs)：一个通用的C#库集合。
-* [Ark.Tools](https://github.com/ARKlab/Ark.Tools)：这是由Ark开发和维护的一套核心库。
-* [Odachi](https://github.com/Kukkimonsuta/Odachi)：.NET Core的各种扩展集合。
-* [Lidgren.Core](https://github.com/lidgren/Lidgren.Core)：适用于几乎所有项目的各种核心功能。
-* [NanoByte.Common](https://github.com/nano-byte/common)：NanoByte.Common提供各种实用类和数据结构。
-* [WeihanLi.Web.Extensions](https://github.com/WeihanLi/WeihanLi.Web.Extensions)：一套精心挑选的ASP.NET Core应用程序实用构建模块。
-* [DotNetClasses](https://github.com/genexuslabs/DotNetClasses)：适用于.NET和.NET Framework生成器的GeneXus标准类。
-* [FreeKit](https://github.com/luoyunchong/FreeKit)：FreeKit为.NET Core提供了更多的扩展实现。
-* [Lombiq Helpful Libraries](https://github.com/Lombiq/Helpful-Libraries)：Orchard核心库/Orchard 1.x模块，其中包含在Orchard开发过程中可能用到的库。
-* [NStandard](https://github.com/zmjack/NStandard)：.NET系统库扩展。
-* [Allegro.Extensions](https://github.com/allegro/dotnet-utils)：Allegro.Extensions包含可以在Allegro服务之间共享的实用程序包。
-* [Lib12](https://github.com/kkalinowski/lib12)：Lib12是一个通用的辅助工具和扩展库，适用于任何.NET项目。
-* [Trivial](https://github.com/nuscien/trivial)：Trivial库包含很多实用工具、模型和组件，可以帮助你专注于项目的业务逻辑。
 
 ## 日期时间
 
@@ -11248,24 +11268,11 @@
 
 * [AutoComplete](https://github.com/omerfarukz/autocomplete)：持久、简单、强大且可移植的自动补全库。
 * [GsSlicer](https://github.com/gradientspace/gsSlicer)：开源3D打印切片器，采用C#编写。
-* [AspCOMET](https://github.com/nmosafi/aspComet)：该项目的目标是提供一个轻量且可扩展的COMET实现，无需自定义服务器。
-* [Scrutable Objects](https://github.com/moonymachine/scrutable-objects)：
-* [](https://github.com/microsoft/sbom-tool)：
-* [Delta](https://github.com/SimonCropp/Delta)：Delta是一种实现304未修改的方法，利用数据库变更跟踪。
-* [DotNetToJScript](https://github.com/tyranid/DotNetToJScript)：一个用于创建JScript文件的工具，该文件可以从内存加载.NET v2程序集。
-* [AspNetBackgroundTasks](https://github.com/StephenCleary/AspNetBackgroundTasks)：
 * [AppDomainToolkit](https://github.com/jduv/AppDomainToolkit)：用于管理.NET应用程序领域编程复杂性的工具包。
-* [GEDKeeper](https://github.com/Serg-Norseman/GEDKeeper)：GEDKeeper程序用于处理个人族谱数据库。
-* [](https://github.com/ViRb3/de4dot-cex)：
-* [TextCopy](https://github.com/CopyText/TextCopy)：一个用于在剪贴板和文本之间复制文本的跨平台软件包。
 * [CopyOnWrite](https://github.com/microsoft/CopyOnWrite)：CopyOnWrite库在Windows操作系统特有的逻辑之上提供了一个.NET层，用于实现文件的写时复制链接。
-* [](https://github.com/structurizr/dotnet)：
-* [WebAPIContrib](https://github.com/WebApiContrib/WebAPIContrib)：WebAPIContrib是一个开源项目集合，旨在帮助你改进ASP.NET Web API的使用。
-* [Flunt](https://github.com/andrebaltieri/Flunt)：Flunt是一种流式的方式，将通知模式应用于你的实体，集中管理你所做的每一次更改，并在需要时轻松访问它。
 * [TodoTxt.NET](https://github.com/benrhughes/todotxt.net)：这是使用.NET框架实现的Todo.Txt。
 * [Disposables](https://github.com/StephenCleary/Disposables)：IDisposable辅助类型。
-* [CSharpAnalytics](https://github.com/AttackPattern/CSharpAnalytics)：CSharpAnalytics是一个免费的C#库，用于通过Google Analytics跟踪应用程序指标。
-* [FluentIL](https://github.com/FluentIL/FluentIL)：
+* [FluentIL](https://github.com/FluentIL/FluentIL)：FluentIL是一个发送消息的辅助库。
 * [Basic.Reference.Assemblies](https://github.com/jaredpar/basic-reference-assemblies)：生成包含.NET引用程序集作为资源的NuPkg文件。
 * [Incrementalist](https://github.com/petabridge/Incrementalist)：Incrementalist是一个.NET工具，它利用libgit2sharp和Roslyn来计算大型.NET解决方案的增量构建步骤。
 * [KitchenPC](https://github.com/KitchenPC/core)：KitchenPC是一个用C#编写的免费开源框架，用于处理食谱、购物清单和菜单。
@@ -11469,7 +11476,6 @@
 * [Asm6502](https://github.com/xoofx/Asm6502)：Asm6502是一个轻量级的C#库，适用于6502/6510，它将流式且强类型的汇编/反汇编器与周期精确的CPU仿真器结合在一起。
 * [Carbon Aware Computing](https://github.com/bluehands/Carbon-Aware-Computing)：该项目的目标是为开发者提供易于使用、可立即运行的碳感知计算工具。
 * [Flexbox](https://github.com/ru-ace/Flexbox)：FaceBook.Yoga的纯C#移植版。
-* [CometD.NET](https://github.com/Oyatel/CometD.NET)：CometD.NET是一个在.NET中提供Bayeux协议实现的项目。
 * [P4API.NET](https://github.com/perforce/p4api.net)：P4API.NET是Helix Core C/C++ API的一个封装，可用于C#和其他.NET语言。
 * [Qt Bridge C#](https://github.com/qt/qtbridge-csharp)：Qt Bridge C#是一个连接C#和QML的桥接工具，旨在让用户使用C#编写应用程序逻辑，同时使用Qt Quick创建用户界面。
 * [SharpProp](https://github.com/portyanikhin/sharpprop)：CoolProp的C#封装器。
