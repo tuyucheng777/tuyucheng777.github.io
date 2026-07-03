@@ -9508,6 +9508,7 @@
 * [Sesseltjonna CSV](https://github.com/skjolber/sesseltjonna-csv)：Sesseltjonna CSV是一个先进、高性能的CSV库，具有对开发者友好的配置选项。
 * [Delimited](https://github.com/tixxit/delimited)：一个快速、易用的Scala CSV解析器。
 * [FuzzyCSV](https://github.com/kayr/fuzzy-csv)：FuzzyCSV是一个简单的轻量级Groovy数据处理库，可以帮助你合并/追加/查询/或操作CSV文件或任何表格数据。
+* [Super CSV Annotation](https://github.com/mygreen/super-csv-annotation)：这是一个带有注解功能的Super CSV扩展库。
 * [Separator](https://github.com/amperity/separator)：一种高效且具有防御性的编解码器，适用于CSV和其他分隔符分隔值格式。
 * [JSaPar](https://github.com/org-tigris-jsapar/jsapar)：JSaPar是一个Java库，它提供了一个基于模式的解析器和合成器，可以解析几乎所有类型的分隔符文件和固定宽度文件。
 * [Retable](https://github.com/4sh/retable)：Retable是一个用于处理表格数据文件(CSV、Excel)的Kotlin库。
@@ -9870,6 +9871,7 @@
 * [DocConverter](https://github.com/assimbly/docconverter)：DocConverter是一个Java库，用于在XML、JSON、CSV和YAML文档之间进行转换。
 * [DocuConverter](https://github.com/chirag-ji/DocuConverter)：一个独立的Java库和API，可以非常快速地将Microsoft Office文档转换为其他格式。
 * [PPT2Video](https://github.com/ching7/ppt2video)：PPT文件转换为MP4工具类。
+* [XML2CSV](https://github.com/andybrodie/xml2csv)：这是一个命令行实用程序和库，可以根据用户提供的配置将XML文件转换为CSV文件。
 
 #### PDF/HTML转换
 

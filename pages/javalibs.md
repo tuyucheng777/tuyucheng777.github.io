@@ -9235,8 +9235,7 @@ permalink: /javalibs
 * [Jackson Bean Validation](https://github.com/unbroken-dome/jackson-bean-validation)：Jackson模块，用于在反序列化期间执行Java Bean校验。
 * [Chassis](https://github.com/boguszpawlowski/Chassis)：一个轻量级的Kotlin库，用于表单状态管理和字段校验。
 * [Vanilla](https://github.com/dimsuz/vanilla)：一个校验库，它将验证前模型和验证后模型明确分开，重点关注验证器的可组合性。
-* [Kotlin Validator](https://github.com/amir1376/kotlin-validator)：使用Kotlin类型安全构建器的强大功能来校验你的输入或对象
-。
+* [Kotlin Validator](https://github.com/amir1376/kotlin-validator)：使用Kotlin类型安全构建器的强大功能来校验你的输入或对象。
 * [Validation](https://github.com/kamedon/Validation)：Kotlin校验库。
 * [KVerify](https://github.com/KVerify/kverify)：Kotlin优先的校验DSL，带有类型化的失败结果。
 * [Validator](https://github.com/chRyNaN/validator)：一个基于Kotlin的多平台校验库。
