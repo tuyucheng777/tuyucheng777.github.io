@@ -275,7 +275,6 @@
 * [DevOps](#DevOps)
 * [包管理](#包管理)
 * [工件仓库](#工件仓库)
-* [依赖移除](#依赖移除)
 * [SBOM](#SBOM)
 * [打包](#打包)
 * [部署](#部署)
@@ -585,11 +584,6 @@
 * [呼叫中心](#呼叫中心)
 * [可视化编程](#可视化编程)
 * [AIS](#AIS)
-* [数据库](#数据库)
-* [数据库](#数据库)
-* [数据库](#数据库)
-* [数据库](#数据库)
-* [数据库](#数据库)
 
 ## Web框架
 
@@ -1668,6 +1662,8 @@
 * [DeepSeek .NET](https://github.com/niltor/DeepSeekSDK-NET)：专门为.NET开发者提供的DeepSeek API SDK。
 * [Deepseek.ASP.Client](https://github.com/Anwar-alhitar/Deepseek.Asp.Client)：Deepseek.ASPClient是一个轻量级的ASP.NET封装，用于Deepseek AI API，旨在简化.NET应用中的AI驱动文本处理。
 * [Ollama](https://github.com/tryAGI/Ollama)：.NET的Ollama SDK。
+* [OllamaSharp](https://github.com/awaescher/OllamaSharp)：OllamaSharp为Ollama API提供.NET绑定，简化了本地和远程与Ollama的交互。
+* [OllamaApiFacade](https://github.com/GregorBiswanger/OllamaApiFacade)：OllamaApiFacade是一个开源库，允许你将自己的.NET后端作为Ollama API运行，基于Microsoft Semantic Kernel。
 * [Google GenerativeAI](https://github.com/gunpal5/Google_GenerativeAI)：基于REST API的非官方C# .NET Google GenerativeAI SDK。
 * [XiaoZhiSharp](https://github.com/zhulige/xiaozhi-sharp)：XiaoZhiSharp是使用C#语言编写的小智SDK。
 * [Anthropic.SDK](https://github.com/tghamm/Anthropic.SDK)：Anthropic.SDK是一个非官方的C#客户端，专为与Claude AI API交互而设计。
@@ -1712,11 +1708,9 @@
 * [LLM.CS](https://github.com/azret/llm.cs)：LLM训练的C#实现。
 * [LLamaSharp](https://github.com/SciSharp/LLamaSharp)：LLamaSharp是一个跨平台库，可在本地设备上运行LLaMA/LLaVA模型。
 * [Llama2.CS](https://github.com/trrahul/llama2.cs)：单C#文件中的Llama 2推理。
-* [OllamaSharp](https://github.com/awaescher/OllamaSharp)：OllamaSharp为Ollama API提供.NET绑定，简化了本地和远程与Ollama的交互。
 * [Llama.cpp .NET](https://github.com/dranger003/llama.cpp-dotnet)：Llama.cpp库的最小C#绑定。
 * [LLaMA.NET](https://github.com/hpretila/llama.net)：用于在CPU上进行LLaMA语言模型推理的LLaMA.cpp的.NET封装器。
 * [Lobe.NET](https://github.com/lobe/lobe.NET)：用于在导出的Lobe模型上运行推理的.NET库。
-* [OllamaApiFacade](https://github.com/GregorBiswanger/OllamaApiFacade)：OllamaApiFacade是一个开源库，允许你将自己的.NET后端作为Ollama API运行，基于Microsoft Semantic Kernel。
 * [HuggingFace](https://github.com/tryAGI/HuggingFace)：Hugging Face API的C# SDK。
 * [GGMLSharp](https://github.com/SciSharp/GGMLSharp)：GGMLSharp是一个用于C#的GGML API。
 * [TensorSharp](https://github.com/zhongkaifu/TensorSharp)：一个用于在本地运行GGUF语言模型的C#推理引擎。
@@ -2434,6 +2428,7 @@
 * [Signum Extensions](https://github.com/signumsoftware/extensions)：一组补充Signum框架的模块，授权、图表、控制面板、邮件、流程、计划任务、离线、用户查询。
 * [TheHelperTrinity](https://github.com/kentcb/TheHelperTrinity)：The Helper Trinity是一套适用于大多数.NET应用的辅助类。
 * [Thinktecture.Abstractions](https://github.com/PawelGerr/Thinktecture.Abstractions)：为常用的.NET类型设计接口，以便扩展或改变标准行为，并提高测试性。
+* [CrispyWaffle](https://github.com/guibranco/CrispyWaffle)：.NET项目工具包。
 
 ## LINQ
 
@@ -3567,6 +3562,7 @@
 * [DynamicVNET](https://github.com/rasulhsn/DynamicVNET)：DynamicVNET是一个.NET Standard库，旨在提供可重用的动态校验。
 * [Its.Validation](https://github.com/jonsequitur/Its.Validation)：一个用于组合核心业务规则并将其从特定框架校验中解放出来的C#库。
 * [ExtendedFluentValidation](https://github.com/SimonCropp/ExtendedFluentValidation)：用一些更有针对性的规则和扩展来扩展FluentValidation。
+* [Immediate.Validations](https://github.com/ImmediatePlatform/Immediate.Validations)：Immediate.Validations是一个源生成器，用于验证Immediate.Handlers处理程序参数。
 
 ## 对象映射
 
@@ -4214,6 +4210,7 @@
 * [Bamboo](https://github.com/dinhduongha/BambooErp)：Bamboo是使用ABP框架将Odoo ERP移植到C#平台的产物。
 * [SimpleOps](https://github.com/vixark/SimpleOps)：适用于小企业、独立工人、私营企业和餐馆的信息和管理(ERP)应用程序。
 * [SilkRoadErp](https://github.com/TunNetCom/TunNetCom-SilkRoadErp)：SilkRoadERP是一款基于.NET Aspire构建的多租户ERP解决方案。
+* [AsToolkit](https://github.com/andrich-software/asToolkit)：开源、自托管、基于客户端/服务器架构的ERP系统，具有多平台GUI，使用C#编写。
 
 ## CRM系统
 
@@ -5148,6 +5145,7 @@
 * [RazorTemplates](https://github.com/DamianEdwards/RazorTemplates)：尝试为Razor组件创建模板扩展。
 * [AzureMapsControl.Components](https://github.com/arnaudleclerc/AzureMapsControl.Components)：这个库让你可以在你的Razor应用中使用Azure地图。
 * [TextCopy](https://github.com/CopyText/TextCopy)：一个用于在剪贴板和文本之间复制文本的跨平台软件包。
+* [Lumeo](https://github.com/Brain2k-0005/Lumeo)：一个现代化的、易于使用的Blazor组件库，包含130多个组件。
 
 ## IDE
 
@@ -5258,12 +5256,9 @@
 * [UnrealCLR](https://github.com/nxrighthere/UnrealCLR)：UnrealCLR是一个插件，它将.NET宿主原生集成到虚幻引擎中。
 * [OpenRA](https://github.com/OpenRA/OpenRA)：开源实时战略游戏引擎，适用于早期Westwood游戏，例如《命令与征服：红色警戒》。
 * [MonoGame](https://github.com/MonoGame/MonoGame)：MonoGame是一个简单而强大的.NET框架，用于使用C#编程语言为台式电脑、视频游戏机和移动设备创建游戏。
-* [JYNew](https://github.com/jynew/jynew)：类似金庸传奇的RPG游戏框架，具有完整的Modding支持和10多个小时的可玩游戏样本。
 * [Stride](https://github.com/stride3d/stride)：Stride是一个专为真实感渲染和VR而设计的开源C#游戏引擎。
 * [FlaxEngine](https://github.com/FlaxEngine/FlaxEngine)：Flax Engine是一个用C++和C#编写的高质量现代3D游戏引擎。
-* [Behaviac](https://github.com/Tencent/behaviac)：Behaviac是一个游戏AI开发框架，同时也可以作为快速游戏原型设计工具，由腾讯开源。
 * [Murder](https://github.com/isadorasophia/murder)：Murder是一款像素艺术ECS游戏引擎。
-* [ET](https://github.com/egametang/ET)：Unity3D客户端和C#服务器框架。
 * [Nez](https://github.com/prime31/Nez)：Nez旨在成为一个功能丰富的2D框架。
 * [Playnite](https://github.com/JosefNemec/Playnite)：一款开源视频游戏库管理器和启动器，支持Steam、Epic、GOG、EA App、Battle.net等第三方库。
 * [S&Box](https://github.com/Facepunch/sbox-public)：S&Box是一款基于Valve Source 2和最新.NET技术构建的现代游戏引擎，它提供了一个现代化的直观编辑器，用于创建游戏。
@@ -5272,7 +5267,6 @@
 * [Prowl](https://github.com/ProwlEngine/Prowl)：Prowl是一个开源的游戏引擎，使用最新的.NET纯C#开发。
 * [Robust Toolbox](https://github.com/space-wizards/RobustToolbox)：Robust Toolbox是一款主要为Space Station 14开发的引擎。
 * [FlatRedBall](https://github.com/vchelaru/FlatRedBall)：FlatRedBall游戏引擎旨在提升游戏开发者的效率，尤其专注于构建各种类型的2D游戏。
-* [Alimer](https://github.com/amerkoleci/alimer)：Alimer是一个现代化的跨平台.NET 10游戏引擎。
 * [OpenKh](https://github.com/OpenKH/OpenKh)：王国之心库、工具、游戏引擎。
 * [DirectX12GameEngine](https://github.com/Aminator/DirectX12GameEngine)：DirectX12GameEngine是一款完全用C#编写的游戏引擎，它利用Direct3D 12 API进行图形渲染。
 * [GE](https://github.com/mellinoe/ge)：一款基于.NET Core构建的通用3D游戏引擎，带有编辑器。
@@ -5293,7 +5287,6 @@
 * [Sparkle](https://github.com/MrScautHD/Sparkle)：一款快速、跨平台的.NET 9 C# 13游戏引擎。
 * [OpenMB](https://github.com/cookgreen/OpenMB)：Taleworlds《骑马与砍杀》系列的开源角色扮演游戏引擎，使用Ogre3d引擎，以C#语言编写。
 * [MiniRTS](https://github.com/roy-t/MiniRTS)：一款用于学习游戏引擎开发的游戏引擎。
-* [C3DE](https://github.com/demonixis/C3DE)：C3DE是一个基于MonoGame的3D游戏引擎。
 * [Ultraviolet](https://github.com/UltravioletFramework/ultraviolet)：Ultraviolet是一个跨平台的.NET游戏开发框架。
 * [CocosSharp](https://github.com/mono/CocosSharp)：CocosSharp是一个易于使用的库，用于使用C#和F#编写简单的游戏。
 * [Foster](https://github.com/FosterFramework/Foster)：Foster是一个小型跨平台2D游戏框架，使用C#编写。
@@ -5305,7 +5298,6 @@
 * [CloudBread](https://github.com/CloudBreadProject/CloudBread)：CloudBread是一个免费的开源项目，它为移动游戏和移动应用服务器引擎提供支持，并由云服务驱动。
 * [Helion](https://github.com/Helion-Engine/Helion)：一款从零开始编写的现代Doom引擎，专注于性能。
 * [DigitalRune](https://github.com/DigitalRune/DigitalRune)：DigitalRune引擎是一套用于开发3D游戏、虚拟现实模拟和CAx应用程序的中间件库和工具集合。
-* [Xultaik](https://github.com/FaberSanZ/Xultaik)：Xultaik是一个使用Direct3D 12实现的3D游戏引擎。
 * [EquilibriumEngine](https://github.com/clibequilibrium/EquilibriumEngine-CSharp)：Equilibrium Engine是一款面向数据的C#游戏引擎。
 * [Fusee](https://github.com/FUSEEProjectTeam/Fusee)：Fusee的目标是成为一个多平台3D实时引擎，重点在于内容转换和操控。
 * [Velaptor](https://github.com/KinsonDigital/Velaptor)：Velaptor是一个用现代C#编写的2D游戏开发框架，力求简单易用。
@@ -5359,12 +5351,10 @@
 * [BepuPhysics2](https://github.com/bepu/bepuphysics2)：纯C# 3D实时物理模拟库。
 * [Velcro Physics](https://github.com/Genbox/VelcroPhysics)：Velcro Physics是一个高性能的二维碰撞检测系统，具有真实的物理反应。
 * [BulletSharp](https://github.com/AndresTraks/BulletSharpPInvoke)：BulletSharp是Bullet物理库的.NET封装库。
-* [VolatilePhysics](https://github.com/ashoulson/VolatilePhysics)：一个用于网络游戏的二维物理库。
 * [Jitter Physics](https://github.com/notgiven688/jitterphysics)：一个适用于所有.NET应用的跨平台实时物理引擎。
 * [Aether.Physics2D](https://github.com/tainicom/Aether.Physics2D)：Aether.Physics2D是一个二维碰撞检测系统。
 * [Humper](https://github.com/dotnet-ad/Humper)：C#中轴对齐边界框(又名AABB)的碰撞检测。
 * [JoltPhysicsSharp](https://github.com/amerkoleci/JoltPhysicsSharp)：使用joltc的JoltPhysics跨平台现代.NET 9.0和.NET 10.0绑定。
-* [LockstepCollision](https://github.com/JiepengTan/LockstepCollision)：一个确定性碰撞检测库。
 * [ChipmunkSharp](https://github.com/netonjm/ChipmunkSharp)：ChipmunkSharp是一个简单、轻量级、快速且可移植的2D刚体物理库。
 * [FlatPhysics](https://github.com/twobitcoder101/FlatPhysics)：基础2D刚体物理引擎。
 * [Physics2D](https://github.com/Blueve/Physics2D)：Physics2D是一个使用C#编写的2D物理引擎。
@@ -5382,7 +5372,6 @@
 * [Gorgon](https://github.com/Tape-Worm/Gorgon)：.NET的模块化库集合，对图形和视频游戏开发非常有用。
 * [SFML.Net](https://github.com/SFML/SFML.Net)：SFML是一个简单、快速、跨平台且面向对象的多媒体API。
 * [SharpNav](https://github.com/Robmaister/SharpNav)：SharpNav是一个用于生成和查找导航网格路径的库。
-* [UImGui](https://github.com/psydack/uimgui)：UImGui是一个基于ImGui.NET的即时模式GUI库的UPM包。
 * [Fluid HTN](https://github.com/ptrefall/fluid-hierarchical-task-network)：一个基于构建器模式原则的简单HTN规划器，灵感来自Fluid行为树。
 * [SDL3#](https://github.com/edwardgushchin/SDL3-CS)：SDL3#是一个SDL3的C#封装器。
 * [RogueSharp](https://github.com/FaronBracy/RogueSharp)：RogueSharp是一个用C#编写的免费库，旨在帮助Roguelike游戏开发者快速启动他们的游戏。
@@ -5398,7 +5387,6 @@
 * [Comora](https://github.com/dotnet-ad/Comora)：一个用于Monogame的简单2D相机。
 * [SysBot.NET](https://github.com/kwsch/SysBot.NET)：用于远程控制Nintendo Switch游戏机的Sys Botbase客户端。
 * [Assetto Corsa Shared Memory](https://github.com/mdjarv/assettocorsasharedmemory)：用C#编写的Assetto Corsa共享内存库，用于访问实时游戏数据。
-* [GenericScriptableArchitecture](https://github.com/SolidAlloy/GenericScriptableArchitecture)：采用ScriptableObject架构，代码库小巧易于扩展，用户界面简洁。
 * [ViGEm.NET](https://github.com/nefarius/ViGEm.NET)：ViGEmClient库的.NET绑定。
 * [SpriterDotNet](https://github.com/loodakrawa/SpriterDotNet)：一个用纯C#实现的简单、快速且高效的Spriter。
 * [ObjLoader](https://github.com/chrisjansson/ObjLoader)：Objloader是一个简单的Wavefront .obj和.mtl文件加载器。
@@ -5408,13 +5396,10 @@
 * [Backdash](https://github.com/Delta3-Studio/Backdash)：具有完全异步I/O的回滚Rollback Netcode的高度可配置性和可扩展性实现。
 * [Mutagen](https://github.com/Mutagen-Modding/Mutagen)：Mutagen是一个用于分析、修改和创建Bethesda游戏模组的C#库。
 * [Hearthrock](https://github.com/yangyuan/hearthrock)：炉石传说机器人引擎。
-* [HPTK](https://github.com/jorgejgnz/HPTK)：HPTK是一款用于以模块化和可扩展的方式实现手部交互的工具包。
 * [DotRecast](https://github.com/ikpil/DotRecast)：DotRecast是C#的Recast & Detour。
 * [LibOfLegends](https://github.com/encratite/LibOfLegends)：这是一个C#网络库，模拟《英雄联盟》Air客户端。
 * [Apos.Shapes](https://github.com/Apostolique/Apos.Shapes)：MonoGame的形状渲染库。
-* [Rcdtcs](https://github.com/jlalleve/rcdtcs)：Rcdtcs是Recast和Detour库的实验性C#移植版本。
 * [BattleNET](https://github.com/marceldev89/BattleNET)：BattleNET是一个用于BattlEye协议的C#库和客户端。
-* [Lockstep](https://github.com/B1sounours/Lockstep-Framework)：Lockstep是为尤其需要锁步模拟的游戏设计的框架。
 * [SaintCoinach](https://github.com/Rogueadyn/SaintCoinach)：一个用C#编写的.NET库，用于提取游戏资源和读取《最终幻想XIV》的游戏资源，现在支持包含Libra Eorzea数据库。
 * [Behavior Library](https://github.com/DeveloperUX/BehaviorLibrary)：BehaviorLibrary是一个用于为游戏AI创建行为树的框架。
 * [Flat](https://github.com/twobitcoder101/Flat)：Monogame的2D游戏扩展库。
@@ -5578,22 +5563,18 @@
 * [DefaultEcs](https://github.com/Doraku/DefaultEcs)：DefaultEcs是一个实体组件系统框架，旨在以尽可能少的限制实现易用性，同时为游戏开发保留尽可能多的性能。
 * [EcsRx](https://github.com/EcsRx/ecsrx)：EcsRx是常见ECS模式的一种响应式实现。
 * [Friflo.Engine.ECS](https://github.com/friflo/Friflo.Engine.ECS)：Friflo ECS是一款高性能的C# ECS，注重简洁性和可靠性。
-* [LeoEcsLite](https://github.com/Leopotam/ecslite)：适用于Unity、Godot、MonoGame和.NET平台的实体组件系统。
 * [Morpeh](https://github.com/scellecs/morpeh)：Unity游戏引擎和.NET平台的ECS框架。
 * [Entitas](https://github.com/sschmid/Entitas)：Entitas是一个专为C#和Unity打造的超快速实体组件系统(ECS)框架。
 * [Arch](https://github.com/genaray/Arch)：一个基于C#的高性能原型和代码块实体组件系统(ECS)，用于游戏开发和面向数据的编程。
 * [TinyEcs](https://github.com/andreakarasho/TinyEcs)：TinyEcs是一个高性能、无反射的.NET ECS框架。
 * [Bang](https://github.com/isadorasophia/bang)：用C#制作的实体组件系统框架。
-* [ME.BECS](https://github.com/chromealex/ME.BECS)：Burst实体组件系统。
 * [Flecs.NET](https://github.com/BeanCheeseBurrito/Flecs.NET)：Flecs.NET是Flecs的高级封装。
 * [Artemis C#](https://github.com/thelinuxlich/artemis_CSharp)：这是一个完整的C#移植版本，也是对强大的实体系统框架Artemis的扩展。
 * [MinECS](https://github.com/Alan-FGR/minECS)：一个用现代C#编写的极简、极速的实体组件系统。
 * [RelEcs](https://github.com/Byteron/RelEcs)：一个轻量级且易于使用的实体组件系统，具有一套有效的游戏制作功能集。
 * [EnTTSharp](https://github.com/RabbitStewDio/EnTTSharp)：C#移植的EnTT，一个与游戏引擎无关的实体组件系统。
 * [GeonBit](https://github.com/RonenNess/GeonBit)：一个基于MonoGame的3D实体组件系统引擎，用于C#游戏。
-* [LeoEcsLite](https://github.com/LeoECSCommunity/ecslite)：轻量级C#实体组件系统框架。
-* [EntJoy](https://github.com/coinsoundsbetter/entjoy)：一个C#编写的轻量级ECS框架。
-* [uFrame.ECS](https://github.com/uFrame/uFrame.ECS)：uFrame ECS是由uFrame可视化编码引擎实现的实体组件系统框架。
+* [Flecs C#](https://github.com/flecs-hub/flecs-cs)：自动更新Flecs的C#绑定，支持原生动态链接库。
 
 ## Git工具
 
@@ -5791,6 +5772,7 @@
 * [SpeckleCore](https://github.com/speckleworks/SpeckleCore)：Speckle的核心.NET客户端库。
 * [Taviloglu.Wrike.ApiClient](https://github.com/staviloglu/Taviloglu.Wrike.ApiClient)：Wrike API的.NET客户端。
 * [AsanaNet](https://github.com/acron0/AsanaNet)：Asana REST API的.NET实现。
+* [Modrinth.Net](https://github.com/Zechiax/Modrinth.Net)：Modrinth API的C#封装。
 
 ## Twitter
 
@@ -6312,6 +6294,7 @@
 * [xStatic](https://github.com/Mulliman/xStatic-for-Umbraco)：xStatic是Umbraco的静态网站生成器。
 * [Statik](https://github.com/pauldotknopf/statik)：一个极其简单的静态网站生成器，没有任何功能，适用于.NET。
 * [Misakai Baker](https://github.com/kelindar/misakai-baker)：Baker是一个面向C#/.NET的静态网站生成器。
+* [Blake](https://github.com/matt-goldman/blake)：为希望使用熟悉的工具而非外语的.NET开发人员提供的静态网站生成器。
 
 ## 任务调度
 
@@ -6484,6 +6467,7 @@
 * [Simple Config](https://github.com/spadger/simple-config)：Simple Config是一个可扩展、基于约定的XML到C#绑定器，专门用于轻松绑定自定义配置部分。
 * [Workleap.Extensions.Configuration.Substitution](https://github.com/workleap/wl-extensions-configuration-substitution)：Microsoft.Extensions.Configuration的变量替换配置提供程序实现。
 * [Configuration.EntityFramework](https://github.com/thinkabouthub/Configuration.EntityFramework)：Configuration.EntityFramework是.NET Core配置系统的一个自定义配置提供程序。
+* [Fig](https://github.com/mzbrau/fig)：Fig是一个用于管理多个微服务设置的完整解决方案。
 
 ## 规则引擎
 
@@ -6562,10 +6546,6 @@
 * [MyGet](https://www.myget.org/)：MyGet是一款通用包管理器，可与你现有的源代码生态系统集成，并实现端到端的包管理。
 * [MinimalNugetServer](https://github.com/TanukiSharp/MinimalNugetServer)：一个基于.NET Core的极简但跨平台的NuGet服务器实现。
 * [SlimGet](https://github.com/Emzi0767/SlimGet)：SlimGet是一个轻量级的NuGet和符号服务器实现。
-
-## 依赖移除
-
-* [Chisel](https://github.com/0xced/Chisel)：Chisel提供了一种从.NET项目中移除不需要的依赖项的方法。
 
 ## SBOM
 
@@ -7365,6 +7345,7 @@
 * [Route Generator .NET](https://github.com/ewerspej/epj.RouteGenerator)：Route Generator是一个C#源代码生成器，它为你的.NET应用生成一个静态Routes类，包含基于字符串的路由导航的所有路由标识符。
 * [BoilerplateZero](https://github.com/IGood/boilerplatezero)：BoilerplateZero是一组C#源代码生成器，可以简化常见C#模式所需的代码。
 * [InterfaceGenerator](https://github.com/onsatoci/InterfaceGenerator)：一个通过实现来创建接口的简单源生成器。
+* [ConstExpr](https://github.com/JanTamis/ConstExpr)：ConstExpr是一个强大的C#源代码生成器，它在编译时优化方法调用，将运行时计算转换为编译时常量以提高性能。
 
 ## 构建器模式
 
@@ -7799,6 +7780,7 @@
 * [DatadogSharp](https://github.com/neuecc/DatadogSharp)：一个用于C#的Datadog客户端，用于将指标传输到Datadog代理。
 * [NStatsD.Client](https://github.com/robinbihun/NStatsD.Client)：适用于Etsy StatsD服务器的最简单.NET 4.0+客户端。
 * [Prometheus.NET.SystemMetrics](https://github.com/Daniel15/prometheus-net.SystemMetrics)：Prometheus.NET.SystemMetrics让你可以将各种系统指标(比如CPU使用率、磁盘使用率等)从你的.NET应用导出到Prometheus。
+* [JustEat.StatsD](https://github.com/justeattakeaway/JustEat.StatsD)：使用此库，将.NET代码中的StatsD指标发布到服务器。
 
 ## 内存转储
 
@@ -8732,6 +8714,7 @@
 * [CreditCardValidator](https://github.com/gustavo-frizzo/CreditCardValidator)：CreditCardValidator帮助你验证信用卡号码，识别其发卡机构、核实长度、前缀，并通过Luhn算法进行检查。
 * [SharpMt940Lib.Core](https://github.com/mjebrahimi/SharpMt940Lib.Core)：SharpMt940Lib.Core是Raptorious.Finance.Swift.Mt940库的一个非官方.NET Core移植版本。
 * [EficazFramework.SPED](https://github.com/Eficaz-Sistemas/EficazFramework.SPED)：该项目旨在简化各种政府电子账簿和文件的读取、审计和写入任务。
+* [ARSoftware.Contpaqi.Comercial](https://github.com/AndresRamos/ARSoftware.Contpaqi.Comercial)：ARSoftware.Contpaqi.Comercial项目是一套用于与墨西哥财务系统CONTPAQi Comercial Premium进行集成的.NET开发工具包。
 
 ## 金融API
 
@@ -8821,11 +8804,9 @@
 * [OpenNFSe](https://github.com/OpenAC-Net/OpenAC.Net.NFSe)：用于签发和传输NFSe(巴西电子发票)的库。
 * [ZeusFiscal](https://github.com/Hercules-NET/ZeusFiscal)：用于签发和打印NFe、NFCe、MDF-e和CT-e文档的主要C#库。
 * [Mews.Fiscalizations](https://github.com/MewsSystems/fiscalizations)：Mews.Fiscalizations是一个.NET库，旨在支持向多个国家的政府机构报告电子发票。
-* [Zatca.Net](https://github.com/aljbri/Zatca.Net)：一个实现了沙特阿拉伯ZATCA电子发票要求的.NET库。
 * [NFeEletronica.NET](https://github.com/leonardiwagner/NFeEletronica.NET)：巴西政府电子发票开具方。
 * [Unimake.DFe](https://github.com/Unimake/DFe)：Unimake.DFe是一个DLL，旨在简化ERP软件与SEFAZ电子税务文件系统的集成。
 * [DFe.NET](https://github.com/ZeusAutomacao/DFe.NET)：用于开具和打印NFe、NFCe、MDF-e和CT-e的C#库。
-* [MatchFlow](https://github.com/datpham0412/invoice-processor)：MatchFlow是一个基于Web的发票对账平台，旨在消除繁琐、易出错的手工发票核对过程。
 * [UblTr](https://github.com/hkutluay/UblTr)：C#代理类，用于创建和序列化符合UBL-TR v1.2.1标准的.NET对象为XML，或将UBL-TR文档反序列化为.NET对象。
 * [MotorTributarioNet](https://github.com/AutomacaoNet/MotorTributarioNet)：巴西NF-e、CT-e、NFC-e和Sat-Fiscal税款计算。
 * [FiscalAPI .NET](https://github.com/FiscalAPI/fiscalapi-net)：FiscalAPI的官方SDK，适用于.NET，是墨西哥CFDI开票和其他税务服务的API。
@@ -8836,6 +8817,8 @@
 * [eFacturacionColombia_V2.Firma](https://github.com/miguelhuertas/eFacturacionColombia_V2.Firma)：eFacturacionColombia_V2.Firma是一个用C#开发的模块，可以为提交给哥伦比亚DIAN的XML文档(发票、贷记/借记单和事件)进行签名，用于电子发票处理。
 * [SPEDBr.NET](https://github.com/AOPack/SPEDBr.NET)：免费库，用于生成SPED文件以及巴西会计/税务场景所需的其他申报文件。
 * [Factur-X](https://github.com/Securibox/facturx)：Factur-X是法国和德国的一种新的电子发票标准，它在德国ZUGFeRD标准的基础上进行了扩展。
+* [Direction.NFSe.Danfe](https://github.com/JairoMarques/direction-nfse-danfe)：.NET库，用于从国家NFSe(DPS/NFSe)的XML生成DANFSe(PDF)，无需依赖外部端点，可实现高容量、低延迟和完全的布局自定义。
+* [ARSoftware.Cfdi.DescargaMasiva](https://github.com/AndresRamos/ARSoftware.Cfdi.DescargaMasiva)：该项目是一个库，它公开了类和服务，可以使用SAT网络服务批量下载CFDI。
 
 ## NFC
 
@@ -10833,6 +10816,7 @@
 * [MimeTypeCore](https://github.com/lofcz/MimeTypeCore)：适用于.NET生态系统的快速MIME类型映射库。
 * [MimeTypesMap](https://github.com/hey-red/MimeTypesMap)：MimeTypesMap提供了一些查找MIME类型/扩展名的方法。
 * [Myrmec](https://github.com/rocketRobin/myrmec)：Myrmec是一个库，用于通过检测文件二进制头来识别真实的文件格式类型，而无需文件扩展名。
+* [MimeTypes.NET](https://github.com/markwhitaker/MimeTypes.NET)：可在.NET项目中使用的MIME类型常量的结构化集合。
 
 ## 响应式
 
