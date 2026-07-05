@@ -98,6 +98,7 @@
 * [表达式树](#表达式树)
 * [ORM](#ORM)
 * [持久层库](#持久层库)
+* [NoSQL库](#NoSQL库)
 * [数据库元数据](#数据库元数据)
 * [查询构建器](#查询构建器)
 * [数据库驱动](#数据库驱动)
@@ -1602,7 +1603,6 @@
 * [SharpToken](https://github.com/dmitry-brazhenko/SharpToken)：SharpToken是一个C#库，它是Python tiktoken库的移植版本。
 * [TiktokenSharp](https://github.com/aiqinxuancai/TiktokenSharp)：这个库是一个C#版本的Token计数实现，参考了OpenAI官方的Rust语言版本。
 * [Memorizer](https://github.com/petabridge/memorizer)：Memorizer是一款基于.NET的服务，它允许AI代理使用向量嵌入来存储、检索和搜索记忆。
-* [GraphRag.Net](https://github.com/shuyu-labs/GraphRag.Net)：参考GraphRag的.NET简单实现。
 * [LlmTornado](https://github.com/lofcz/LlmTornado)：LLM Tornado是一个与.NET供应商无关的SDK，赋能开发者构建、编排和部署AI代理和工作流。
 * [MemNet](https://github.com/yangzhongke/MemNet)：MemNet是一个面向.NET开发人员的LLM应用程序的自改进记忆层。
 * [SemanticSlicer](https://github.com/drittich/SemanticSlicer)：SemanticSlicer是一个轻量级的C#应用程序，它递归地将文本分割成有意义的块，同时保留语义边界，非常适合用于生成嵌入。
@@ -1631,6 +1631,8 @@
 * [RAGSharp](https://github.com/MrRazor22/RAGSharp)：RAGSharp是一个轻量级、可扩展的RAG库，完全用C#构建。
 * [VectorRAG.Net](https://github.com/likeslines-maker/VectorRAG.Net)：VectorRAG.Net是一个面向.NET的高性能向量数据库库，用于语义搜索和RAG。
 * [SmartRAG](https://github.com/byerlikaya/SmartRAG)：.NET的多模态RAG。
+* [GraphRag.Net](https://github.com/shuyu-labs/GraphRag.Net)：参考GraphRag的.NET简单实现。
+* [GraphRAG](https://github.com/managedcode/graphrag)：GraphRAG .NET是将微软的GraphRAG参考实现完全移植到现代.NET 10堆栈的版本。
 
 ## AI网关
 
@@ -1656,6 +1658,7 @@
 * [AllInAI.Sharp.API](https://github.com/raokun/AllInAI.Sharp.API)：AllInAI.Sharp.API是一款调用各大平台语言模型的SDK，能帮助使用者快速对接各大模型和向量数据库。
 * [OpenAISharp](https://github.com/jsuarezruiz/openaisharp-maui)：用于与OpenAI API一起使用的C# .NET封装库。
 * [OpenAI](https://github.com/tryAGI/OpenAI)：基于官方OpenAI OpenAPI规范的C# SDK。
+* [OpenAI](https://github.com/managedcode/OpenAI)：这是一个非官方的OpenAI API C#库。
 * [Anthropic C# SDK](https://github.com/anthropics/anthropic-sdk-csharp)：Anthropic C# SDK为用C#编写的应用程序提供了对Anthropic REST API的便捷访问。
 * [Anthropic](https://github.com/tryAGI/Anthropic)：Anthropic API的C# SDK。
 * [Claudia](https://github.com/Cysharp/Claudia)：非官方的Anthropic Claude API .NET客户端。
@@ -2592,6 +2595,10 @@
 * [C# MySQL Database Class](https://github.com/wickyaswal/c-sharp-mysql-database-class)：一个用于MySQL数据库引擎的C#数据库类。
 * [SQLNado](https://github.com/smourier/SQLNado)：SQLNado是一个基于SQLite的.NET轻量级、无冗余对象持久化框架。
 * [SQLHelper](https://github.com/JaCraig/SQLHelper)：SQLHelper是一个简单的类，用来帮助对数据库执行查询。
+
+## NoSQL库
+
+* [ManagedCode.Database](https://github.com/managedcode/Database)：该库提供了一个统一的接口，用于操作各种不同的面向文档的NoSQL数据库。
 
 ## 数据库元数据
 
@@ -4316,6 +4323,7 @@
 * [Gtk4DotNet](https://github.com/uriegel/Gtk4DotNet)：C# .NET 10的GTK4绑定。
 * [OpenWindow](https://github.com/Jjagg/OpenWindow)：OpenWindow是一个旨在提供简单C# API的项目，该API可以调用正在运行的本地窗口后端，而中间没有任何层。
 * [TGUI.Net](https://github.com/texus/TGUI.Net)：TGUI的.NET绑定。
+* [LibreWPF](https://github.com/wieslawsoltes/wpf)：LibreWPF跨平台桌面XAML运行时，由ProGPU/WebGPU和Silk.NET提供支持，并采用自定义SDK切换打包。
 
 ## UI库
 
@@ -5773,6 +5781,7 @@
 * [Taviloglu.Wrike.ApiClient](https://github.com/staviloglu/Taviloglu.Wrike.ApiClient)：Wrike API的.NET客户端。
 * [AsanaNet](https://github.com/acron0/AsanaNet)：Asana REST API的.NET实现。
 * [Modrinth.Net](https://github.com/Zechiax/Modrinth.Net)：Modrinth API的C#封装。
+* [KickLib](https://github.com/Bukk94/KickLib)：KickLib是一个C#库，它支持与官方和非官方的Kick API以及WebSocket进行交互。
 
 ## Twitter
 
@@ -8387,6 +8396,7 @@
 * [StateMachineToolkit](https://github.com/OmerMor/StateMachineToolkit)：一个通用的状态机框架，支持主动/被动机器、暴露事件和丰富的异常处理。
 * [StateTransition](https://github.com/ozontech/state-transition)：StateTransition是一个简单但非常实用的.NET库，用于配置状态机。
 * [StaMa](https://github.com/StaMa-StateMachine/StaMa)：StaMa提供了一个用于状态机的执行算法。
+* [NStateManager](https://github.com/scottctr/NStateManager)：易于使用且非常灵活的.NET有限状态管理器。
 
 ## 语义版本控制
 
@@ -8454,6 +8464,7 @@
 * [FeatureSwitch](https://github.com/valdisiljuconoks/FeatureSwitch)：FeatureSwitch是一个库，应该可以减少在项目中实现功能切换所需的时间和代码量。
 * [LaunchDarkly .NET](https://github.com/launchdarkly/dotnet-server-sdk)：LaunchDarkly .NET服务器端SDK。
 * [Esquio](https://github.com/Xabaril/Esquio)：Esquio是一个用于.NET Core 3.0的功能开关和A/B测试框架。
+* [Nona](https://github.com/Ryware/nona-config)：开源的自托管功能标志和远程配置。
 
 ## 下载库
 
@@ -9687,6 +9698,7 @@
 * [Injection Eater](https://github.com/mig1023/injection-eater)：实验性防注入库。
 * [Keeper .NET SDK](https://github.com/Keeper-Security/keeper-sdk-dotnet)：Keeper Commander的.NET和PowerShell版本，是Keeper Security平台的命令行和SDK接口。
 * [Maskify.Core](https://github.com/djesusnet/Maskify.Core)：Maskify是一个轻量、高效且灵活的库，旨在帮助开发者安全地屏蔽敏感数据，如巴西文件(CPF、CNPJ)、电子邮件、信用卡、手机和住宅电话号码等。
+* [Orleans.Identity](https://github.com/managedcode/Orleans.Identity)：Orleans.Identity是一个基于Orleans的ASP.NET Identity身份验证和授权库。
 
 ## 安全框架
 
@@ -9990,6 +10002,7 @@
 * [TimeStampResponder](https://github.com/Jemmy1228/TimeStampResponder-CSharp)：一个用C#编写的时间戳响应程序，支持Authenticode和RFC3161。
 * [FirmaXadesNet45](https://github.com/ctt-gob-es/FirmaXadesNet45)：FirmaXadesNet是一个用C#开发的库，用于生成由卡塔赫纳市政厅城市规划办公室新技术部门制作的XAdES签名。
 * [OpenOpcSignTool](https://github.com/vcsjones/OpenOpcSignTool)：OpenOpcSignTool是VsixSignTool的一个开源实现，可以在任何平台上对VSIX包进行数字签名。
+* [AwsSignatureVersion4](https://github.com/FantasticFiasco/aws-signature-version-4)：AwsSignatureVersion4是一个.NET库，用于生成AWS签名版本4的签名，以对向AWS服务发出的HTTP请求进行身份验证。
 
 #### 单元测试
 
@@ -10733,6 +10746,7 @@
 * [Westwind.AspNetCore.Markdown](https://github.com/RickStrahl/Westwind.AspNetCore.Markdown)：Westwind.AspNetCore.Markdown为你的ASP.NET Core应用提供了Markdown支持。
 * [Marked .NET](https://github.com/alex-titarenko/markednet)：一个功能齐全的Markdown解析器和编译器。
 * [Markdown Generator](https://github.com/ap0llo/markdown-generator)：Markdown Generator是一个用于程序化生成Markdown文档的库。
+* [MarkItDown](https://github.com/managedcode/markitdown)：MarkItDown是一个功能全面的文档转换库，可将多种文件格式(HTML、PDF、DOCX、XLSX、EPUB、压缩文件、URL等)转换为简洁、高质量的Markdown文档。
 
 ## Epub
 
@@ -10817,6 +10831,7 @@
 * [MimeTypesMap](https://github.com/hey-red/MimeTypesMap)：MimeTypesMap提供了一些查找MIME类型/扩展名的方法。
 * [Myrmec](https://github.com/rocketRobin/myrmec)：Myrmec是一个库，用于通过检测文件二进制头来识别真实的文件格式类型，而无需文件扩展名。
 * [MimeTypes.NET](https://github.com/markwhitaker/MimeTypes.NET)：可在.NET项目中使用的MIME类型常量的结构化集合。
+* [MimeTypes](https://github.com/managedcode/MimeTypes)：ManagedCode.MimeTypes是.NET生成的MIME/媒体类型助手。
 
 ## 响应式
 
@@ -11610,3 +11625,4 @@
 * [CarloSharp](https://github.com/gkmo/CarloSharp)：用于.NET应用程序的Web渲染表面。
 * [CS Expert System Shell](https://github.com/chen0040/cs-expert-system-shell)：C#实现的专家系统Shell，面向.NET Core 1.1。
 * [Redb.Route](https://github.com/redbase-app/redb-route)：适用于.NET的Apache Camel风格集成框架。
+* [ManagedCode.TimeSeries](https://github.com/managedcode/TimeSeries)：ManagedCode.TimeSeries库为C#中处理时序数据提供了便捷的工具。
