@@ -10,12 +10,9 @@
   * [Web框架](#Web框架)
     * [REST框架](#REST框架)
     * [MVC框架](#MVC框架)
-    * [JSF框架](#JSF框架)
-    * [RIA框架](#RIA框架)
-    * [SSR框架](#SSR框架)
-    * [WebService框架](#WebService框架)
-  * [RPC框架](#RPC框架)
   * [微服务框架](#微服务框架)
+  * [RPC框架](#RPC框架)
+  * [WebService框架](#WebService框架)
 * [HTTP客户端](#HTTP客户端)
 * [Web服务器](#Web服务器)
 * [微服务治理](#微服务治理)
@@ -1025,6 +1022,7 @@
 * [Web开发](docs/doc2.md#Web开发)
   * [WebAssembly](docs/doc2.md#WebAssembly)
   * [JavaScript引擎](docs/doc2.md#JavaScript引擎)
+  * [服务端渲染](docs/doc2.md#服务端渲染)
   * [GWT库](docs/doc2.md#GWT库)
   * [JSF库](docs/doc2.md#JSF库)
   * [Vaadin库](docs/doc2.md#Vaadin库)
@@ -1073,6 +1071,20 @@
 * [Pippo](https://github.com/pippo-java/pippo)：Pippo是一个Java开源微型Web框架，具有最小的依赖性和快速的学习曲线。
 * [Spark](https://github.com/perwendel/spark)：Spark是一个Java 8的小型Web框架。
 * [Smart](https://gitee.com/huangyong/smart-framework)：Smart是一款轻量级Java Web框架，内置IoC、AOP、ORM、DAO、MVC等特性。
+* [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。
+* [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
+* [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。
+* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
+* [Kweb](https://github.com/kwebio/kweb-core)：Kweb旨在让开发者轻松创建现代化网站，无需担心服务器和浏览器之间复杂的通信问题。
+* [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
+* [JWebMP](https://jwebmp.com)：JWebMP允许你使用纯Java构建完整的Web应用程序。
+* [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
+* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
+* [Apache Click](https://click.apache.org/)：Apache Click是一个现代化的JEE Web应用框架，提供自然流畅的富客户端编程模型。
+* [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
+* [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
+* [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
+* [ColdBox](https://github.com/coldbox/coldbox-platform)：ColdBox是一个基于约定的HMVC Web开发框架，适用于BoxLang JVM语言和ColdFusion。
 * [Citrus](https://github.com/webx/citrus)：Citrus是阿里开源的基于Java的Web框架。
 * [Kobweb](https://github.com/varabyte/kobweb)：Kobweb是一个用于创建网站和Web应用程序的Kotlin框架，它建立在Compose HTML之上，并受到Next.js和Chakra UI的启发。
 * [RIFE2](https://github.com/rife2/rife2)：RIFE2是一个全栈、无声明的框架，可以使用现代Java快速、轻松地创建Web应用程序。
@@ -1089,7 +1101,22 @@
 * [NioFlow](https://core-http.vercel.app/)：NioFlow是一个极简的Java HTTP框架，专注于显式的程序化配置。
 * [JavaLite](https://github.com/javalite/javalite)：JavaLite是一个功能丰富的开发框架，包含Web、JDBC、Config等模块。
 * [Scalatra](https://github.com/scalatra/scalatra)：Scalatra是一个小型、类似Sinatra的Scala Web框架。
+* [Jakarta Faces](https://github.com/jakartaee/faces)：Jakarta Faces定义了一个MVC框架，用于构建Web应用程序的用户界面。
+* [PrimeFaces](https://github.com/primefaces/primefaces)：PrimeFaces是Java EE生态系统中最受欢迎的UI库之一。
+* [JoinFaces](https://github.com/joinfaces/joinfaces)：JoinFaces是一个致力于简化Spring Boot与JSF集成的开源框架。
+* [IceFaces](https://www.icesoft.org/wiki/display/ICE/ICEfaces+Overview)：IceFaces是一个基于JSF标准的开源富互联网应用程序开发框架，由ICEsoft公司开源。
+* [Omnifaces](https://github.com/omnifaces/omnifaces)：OmniFaces是Faces的实用程序库，专注于使用标准Faces API简化日常任务的实用程序。
+* [Eclipse Mojarra](https://github.com/eclipse-ee4j/mojarra)：Mojarra是JSF标准的一个开源实现，由Oracle开发。
+* [Apache MyFaces](https://github.com/apache/myfaces)：Apache基金会下的Jakarta Faces实现。
+* [ButterFaces](https://github.com/butterfaces/butterfaces)：ButterFaces是一个轻量级响应式JSF框架，它结合了Bootstrap 4、jQuery 3和HTML 5的优点，可以使用JSF 2开发快速、简单且现代的Web应用程序。
+* [RichFaces](https://github.com/richfaces/richfaces)：RichFaces项目是一个高级UI组件框架，可以使用JSF将Ajax功能轻松集成到业务应用程序中，由RedHat开源。
+* [BootsFaces](https://github.com/TheCoder4eu/BootsFaces-OSP)：BootsFaces是一个基于Bootstrap 3和jQuery UI的强大且轻量级的JSF框架。
+* [Reasonable ServerFaces](https://rsf.github.io/wiki/Wikib2ab.html)：Reasonable ServerFaces是一个用Java编写的开源Web编程框架，由剑桥大学教育技术应用研究中心开发。
+* [Seam Faces](https://github.com/seam/faces)：Seam Faces是一个适用于JavaEE的可移植扩展，可为JSF提供增强功能。
 * [Apache Cocoon](https://github.com/apache/cocoon)：Cocoon是围绕Pipeline，关注点分离和基于组件的Web开发的概念构建的Web应用程序框架。
+* [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
+* [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
+* [Dragome](https://www.dragome.com/)：Dragome是一个使用纯Java语言创建客户端Web应用程序的开源工具。
 * [AndServer](https://github.com/yanzhenjie/AndServer)：AndServer是Android平台的Web服务器和Web框架。
 * [Takes](https://github.com/yegor256/takes)：Takes是一个真正的面向对象且不可变的Java Web开发框架。
 * [Argo](https://github.com/58code/Argo)：Argo是起源于58同城的内部Web框架。
@@ -1213,6 +1240,26 @@
 * [Irked](https://github.com/GreenfieldTech/irked)：Irked是一个非常注重特性的框架，用于配置Vert.x Web路由和调用分发。
 * [Fastboot](https://github.com/stylesmile/fastboot)：一个速度极快的Java Web框架。
 * [Yupiik Fusion](https://github.com/yupiik/fusion)：Yupiik Fusion是一个现代化的轻量级Java框架，旨在基于GraalVM，能够轻松快速地构建高效、模块化且易于维护的应用程序。
+* [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
+* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
+* [Echo](https://github.com/echo3/echo3)：Echo是一个用于开发富Web应用程序的开源框架。
+* [Seam](https://www.seamframework.org/)：Seam是一个功能强大的开源开发平台，用于构建基于Java的富互联网应用程序，由RedHat开源。
+* [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
+* [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
+* [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
+* [FireWeb](https://fireweb.sourceforge.io/index.html)：Java单页应用程序框架。
+* [Linkki](https://github.com/linkki-framework/linkki)：Linkki是一个开源的Web框架，可以用纯Java以最小的努力构建美观的商业应用程序。
+* [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
+* [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
+* [GraniteDS](https://github.com/graniteds/graniteds)：GraniteDS提供服务器和客户端库，可用于通过RPC和不同的消息传递技术(Comet、WebSocket、UDP)使用AMF3或JMF序列化协议将桌面和移动应用程序连接到服务器。
+* [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。
+* [Efw](https://github.com/efwGrp/efw4.X)：EFW采用以目标为导向的方法，使用Ajax和服务器端JavaScript构建高速Web系统，由Escco开源。
+* [Quinoa](https://github.com/quarkiverse/quarkus-quinoa)：Quinoa是一个Quarkus扩展，它简化了单页应用或Web组件(React、Angular、Vue、Lit、Svelte、Astro、SolidJS等)与Quarkus的集成，使其更易于开发、构建和部署。
+* [Jaggery](https://github.com/wso2/jaggery)：Jaggery是一个用于编写Web应用和基于HTTP的Web服务的框架，由WSO2开源。
+* [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
+* [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
+* [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
+* [WffWeb](https://github.com/webfirmframework/wff)：WffWeb是一个用于实时应用程序开发的开源Java框架，可以从Java代码生成HTML5和CSS3。
 
 #### REST框架
 
@@ -1304,88 +1351,79 @@
 * [NettyHTTP](https://github.com/myan9527/nettyhttp)：Netty的HTTP服务器和MVC框架。
 * [Htmleasy](https://github.com/voodoodyne/htmleasy)：Htmleasy是一个简单、优雅的基于HTML的MVC微框架，它基于Resteasy(JAX-RS)构建。
 
-#### JSF框架
+### 微服务框架
 
-* [Jakarta Faces](https://github.com/jakartaee/faces)：Jakarta Faces定义了一个MVC框架，用于构建Web应用程序的用户界面。
-* [PrimeFaces](https://github.com/primefaces/primefaces)：PrimeFaces是Java EE生态系统中最受欢迎的UI库之一。
-* [JoinFaces](https://github.com/joinfaces/joinfaces)：JoinFaces是一个致力于简化Spring Boot与JSF集成的开源框架。
-* [IceFaces](https://www.icesoft.org/wiki/display/ICE/ICEfaces+Overview)：IceFaces是一个基于JSF标准的开源富互联网应用程序开发框架，由ICEsoft公司开源。
-* [Omnifaces](https://github.com/omnifaces/omnifaces)：OmniFaces是Faces的实用程序库，专注于使用标准Faces API简化日常任务的实用程序。
-* [Eclipse Mojarra](https://github.com/eclipse-ee4j/mojarra)：Mojarra是JSF标准的一个开源实现，由Oracle开发。
-* [Apache MyFaces](https://github.com/apache/myfaces)：Apache基金会下的Jakarta Faces实现。
-* [ButterFaces](https://github.com/butterfaces/butterfaces)：ButterFaces是一个轻量级响应式JSF框架，它结合了Bootstrap 4、jQuery 3和HTML 5的优点，可以使用JSF 2开发快速、简单且现代的Web应用程序。
-* [RichFaces](https://github.com/richfaces/richfaces)：RichFaces项目是一个高级UI组件框架，可以使用JSF将Ajax功能轻松集成到业务应用程序中，由RedHat开源。
-* [BootsFaces](https://github.com/TheCoder4eu/BootsFaces-OSP)：BootsFaces是一个基于Bootstrap 3和jQuery UI的强大且轻量级的JSF框架。
-* [Reasonable ServerFaces](https://rsf.github.io/wiki/Wikib2ab.html)：Reasonable ServerFaces是一个用Java编写的开源Web编程框架，由剑桥大学教育技术应用研究中心开发。
-* [Seam Faces](https://github.com/seam/faces)：Seam Faces是一个适用于JavaEE的可移植扩展，可为JSF提供增强功能。
-
-#### RIA框架
-
-* [GWT](https://github.com/gwtproject/gwt)：GWT是一个开发工具包，用于构建和优化复杂的基于浏览器的应用程序，由Google开源。
-* [Vaadin](https://github.com/vaadin/framework)：Vaadin允许你使用纯Java高效构建现代Web应用程序，而无需接触低级Web技术。
-* [Apache Wicket](https://github.com/apache/wicket)：Wicket是一个开源、基于组件的Java Web应用程序框架。
-* [ZK](https://github.com/zkoss/zk)：ZK是一个高效的Java框架，用于构建企业Web和移动应用程序。
-* [Kweb](https://github.com/kwebio/kweb-core)：Kweb旨在让开发者轻松创建现代化网站，无需担心服务器和浏览器之间复杂的通信问题。
-* [Wonder](https://github.com/wocommunity/wonder)：Wonder是最大的可重用WebObjects框架、应用程序和扩展的开源集合，最初由NeXT开发并由Apple维护。
-* [JWebMP](https://jwebmp.com)：JWebMP允许你使用纯Java构建完整的Web应用程序。
-* [Oorian](https://oorian.com/)：Oorian是一个基于Java的框架，用于创建动态、交互式、数据驱动的Web应用程序。
-* [SmartClient](https://smartclient.com/product/smartclient.jsp)：SmartClient将业界最丰富的跨浏览器UI组件集与Java服务器框架相结合，为构建企业Web应用程序提供端到端的解决方案。
-* [Apache Tapestry](https://github.com/apache/tapestry-5)：Tapestry是一个面向组件的Java Web应用程序框架，专注于性能和开发人员生产力。
-* [Apache Click](https://click.apache.org/)：Apache Click是一个现代化的JEE Web应用框架，提供自然流畅的富客户端编程模型。
-* [JWt](https://github.com/emweb/jwt)：JWt是一个用于开发Web应用程序的Java库，它提供了一种纯Java组件驱动的方法来构建Web应用程序，并使用Ajax或纯HTML进行呈现。
-* [DWR](https://github.com/directwebremoting/dwr)：DWR是一个Java库，它使服务器上的Java和浏览器中的JavaScript能够尽可能简单地交互和调用。
-* [Errai](https://github.com/errai/errai)：Errai是一个Java/GWT Web框架，用于构建富客户端Web应用程序，由RedHat开源。
-* [Krema](https://github.com/krema-build/krema)：使用Java和你最喜欢的Web框架构建现代桌面应用程序。
-* [WebforJ](https://github.com/webforj/webforj)：WebforJ是一个强大且灵活的Web框架，可让你使用Java轻松创建现代且引人入胜的用户界面，由BASIS开源。
-* [WComponents](https://github.com/BorderTech/wcomponents)：WComponents是一个用于为企业和政府构建可访问的Web应用程序的Java框架。
-* [Apache Flex](https://github.com/apache/flex-sdk)：Apache Flex是一个基于AdobeFlash平台用于开发和部署RIA的SDK，由Adobe维护。
-* [Flavour](https://flavour.sourceforge.io/)：Flavour是一个内置电池的框架，用于用Java制作单页Web应用。
-* [Echo](https://github.com/echo3/echo3)：Echo是一个用于开发富Web应用程序的开源框架。
-* [Seam](https://www.seamframework.org/)：Seam是一个功能强大的开源开发平台，用于构建基于Java的富互联网应用程序，由RedHat开源。
-* [Fastball](https://github.com/fastball-projects/fastball)：Fastball是一套面向后端、声明式界面开发框架。
-* [NG-Objects](https://github.com/ngobjects/ng-objects)：NG-Objects是一个开源Web框架，它很大程度上基于苹果公司的WebObjects框架的概念。
-* [N2O Framework](https://github.com/i-novus-llc/n2o-framework)：N2O Framework是一个用Java和ReactJS编写的库，允许你创建具有复杂用户界面的Web应用程序，而无需深入了解Web技术和前端框架。
-* [FireWeb](https://fireweb.sourceforge.io/index.html)：Java单页应用程序框架。
-* [Desku](https://github.com/Osiris-Team/Desku)：Java UI框架，统一Web、桌面和移动应用。
-* [Linkki](https://github.com/linkki-framework/linkki)：Linkki是一个开源的Web框架，可以用纯Java以最小的努力构建美观的商业应用程序。
-* [Valkyrie RCP](https://github.com/lievendoclo/Valkyrie-RCP)：Valkyrie RCP的使命是利用Spring框架以及丰富的UI工厂和支持类库，提供一种优雅的方式来更快地构建高度可配置、符合GUI标准的富客户端应用程序。
-* [GraniteDS](https://github.com/graniteds/graniteds)：GraniteDS提供服务器和客户端库，可用于通过RPC和不同的消息传递技术(Comet、WebSocket、UDP)使用AMF3或JMF序列化协议将桌面和移动应用程序连接到服务器。
-
-#### SSR框架
-
-* [JSweet](https://github.com/cincheo/jsweet)：JSweet利用TypeScript通过JavaScript库和框架用Java编写丰富且响应迅速的Web应用程序。
-* [Dragome](https://www.dragome.com/)：Dragome是一个使用纯Java语言创建客户端Web应用程序的开源工具。
-* [Server Components](https://github.com/vadimv/server-components)：Server Components是一个Java Web服务器端渲染(SSR)框架，用于构建具有最少依赖的响应式UI。
-* [SiteMesh](https://github.com/sitemesh/sitemesh3)：SiteMesh是一个网页布局和装饰框架以及Web应用程序集成框架，可帮助创建由需要一致外观/感觉、导航和布局方案的页面组成的网站，由OpenSymphony开源。
-* [Efw](https://github.com/efwGrp/efw4.X)：EFW采用以目标为导向的方法，使用Ajax和服务器端JavaScript构建高速Web系统，由Escco开源。
-* [Quinoa](https://github.com/quarkiverse/quarkus-quinoa)：Quinoa是一个Quarkus扩展，它简化了单页应用或Web组件(React、Angular、Vue、Lit、Svelte、Astro、SolidJS等)与Quarkus的集成，使其更易于开发、构建和部署。
-* [Jaggery](https://github.com/wso2/jaggery)：Jaggery是一个用于编写Web应用和基于HTTP的Web服务的框架，由WSO2开源。
-* [PurpleJS](https://github.com/purplejs/purplejs)：PurpleJS是一个简单而强大的框架，无需脱离JavaScript即可创建高性能Web应用程序。
-* [Inertia4J](https://github.com/Inertia4J/inertia4j)：Inertia提供了一个协议，可以直接从后端渲染现代前端框架编写的组件，Inertia4J是一个实现此类协议的JVM适配器。
-* [Renarde](https://github.com/quarkiverse/quarkus-renarde)：Renarde是一个基于Quarkus、Qute、Hibernate和Quarkus REST的服务器端Web框架。
-* [JReact](https://github.com/KnisterPeter/jreact)：在服务器端的Java上使用React.js。
-* [Angular Universal](https://github.com/swaechter/angularj-universal)：Angular Universal是一种在SSR动态预渲染Angular应用程序并将内容直接发送到浏览器作为“已启动”应用程序的解决方案。
-* [Prerender Java](https://github.com/greengerong/prerender-java)：用于预渲染的Java框架。
-* [Medusa](https://github.com/medusa-ui/medusa)：Medusa是一个用Java构建的开源双向微前端框架，基于Spring Reactive、RSocket和Thymeleaf。
-* [WffWeb](https://github.com/webfirmframework/wff)：WffWeb是一个用于实时应用程序开发的开源Java框架，可以从Java代码生成HTML5和CSS3。
-* [Double View](https://github.com/emeraldpay/double-view)：Double View允许将标准的React与Java后端框架无缝结合使用。
-
-#### WebService框架
-
-* [Jakarta XML Web Services](https://github.com/jakartaee/jax-ws-api)：Jakarta XML Web Services定义了一种基于Jakarta SOAP及其附件和Jakarta Web Services元数据的XML Web Services实现方法。
-* [JAX-WS](https://github.com/eclipse-ee4j/metro-jax-ws)：该项目包含Jakarta XML Web Service、Jakarta Web Services Metadata和Jakarta XML Web Services规范实现。
-* [Apache WS](https://ws.apache.org/)：Apache WS汇聚了众多与Web Service相关的项目，涵盖从基础XML解析器到WS标准集的各种内容。
-* [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
-* [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一款产品，专注于创建文档驱动的Web服务。
-* [SOAP WS](https://github.com/reficio/soap-ws)：SOAP WS是一个轻量级且易于使用的Java库，它包装了Spring WS并支持在纯XML级别处理SOAP。
-* [WSC](https://github.com/forcedotcom/wsc)：WSC是一个使用流式解析器实现的高性能Web Service客户端堆栈，由Salesforce开源。
-* [Apache Axis2](https://github.com/apache/axis-axis2-java-core)：Apache Axis2是一个Web Services JSON/SOAP/WSDL引擎。
-* [JBossWS](https://jbossws.github.io/)：JBossWS是一个框架，它为WildFly和Red Hat JBoss企业应用平台(JBoss EAP)提供符合Eclipse Enterprise标准的Web Services技术。
-* [IceSoap](https://github.com/AlexGilleran/IceSoap)：IceSoap为Android设备提供对SOAP Web Services的快速、简便的异步访问。
-* [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
-* [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
-* [SAAJ](https://github.com/eclipse-ee4j/metro-saaj)：Eclipse中Jakarta SOAP及其附件的实现。
-* [Apache Axiom](https://github.com/apache/ws-axiom)：Axiom库提供了一个符合XML信息集规范的对象模型实现，支持按需构建对象树。
+* [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具，由Pivotal开源。
+* [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix项目为Spring Boot应用程序提供Netflix OSS集成。
+* [Spring Cloud AWS](https://github.com/awspring/spring-cloud-aws)：Spring Cloud AWS简化了在Spring和Spring Boot应用程序中使用AWS托管服务。
+* [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp)：Spring Cloud GCP项目使Spring框架成为Google Cloud Platform的一等公民。
+* [Spring Cloud Azure](https://github.com/microsoft/spring-cloud-azure)：Spring Cloud Azure是Microsoft开发的Spring Cloud框架，提供Spring与Azure服务的无缝集成。
+* [Spring Cloud OCI](https://github.com/oracle/spring-cloud-oci)：Spring Cloud OCI在内部OCI Java SDK的帮助下简化了与Oracle OCI服务的集成。
+* [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：Spring Cloud Alibaba为分布式应用开发提供一站式解决方案。
+* [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent)：Spring Cloud Tencent是实现标准Spring Cloud SPI的一站式微服务解决方案，它将Spring Cloud与腾讯中间件集成，让微服务开发变得简单。
+* [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei)：Spring Cloud Huawei是一个让使用Spring Cloud开发微服务变得更加简单和高效的框架。
+* [Spring Cloud Formula](https://gitee.com/baidu/spring-cloud-formula)：Spring Cloud Formula是百度云CNAP的面向客户提供的Java微服务框架设施。
+* [Apache Dubbo](https://github.com/apache/dubbo)：Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
+* [Jakarta EE](https://jakarta.ee/)：Jakarta EE为开发人员提供了一套全面的供应商中立的开放规范，用于从头开始开发现代云原生Java应用程序，由Eclipse基金会维护。
+* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：Micronaut是一个基于JVM的现代全栈Java框架，旨在构建模块化、易于测试的JVM应用程序，由Object Computing开源。
+* [Quarkus](https://github.com/quarkusio/quarkus)：Quarkus是一个用于编写Java应用程序的云原生容器优先框架，由RedHat开发。
+* [Helidon](https://github.com/helidon-io/helidon)：Helidon是一组用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
+* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包，由RedHat开源。
+* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
+* [tRPC](https://github.com/trpc-group/trpc-java)：tRPC Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
+* [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
+* [ScaleCube](https://github.com/scalecube/scalecube-services)：ScaleCube是一个通过提供可嵌入的微服务库来简化响应式和分布式应用程序开发的项目。
+* [ServiceTalk](https://github.com/apple/servicetalk)：ServiceTalk是一个JVM网络应用程序框架，具有针对特定协议(例如HTTP/1.x、HTTP/2.x等)定制的API，并支持多种编程范例，由Apple开源。
+* [RestExpress](https://github.com/RestExpress/RestExpress)：RestExpress是用于快速创建可扩展、无容器、RESTful微服务的极简Java框架，由Facebook开源。
+* [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
+* [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
+* [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
+* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
+* [Nano](https://github.com/NanoNative/nano)：Nano是一种轻量级方法，它使开发人员能够以极小的代码量，使用函数式、流式、链式调用、简洁的现代Java语言编写微服务。
+* [KivaKit](https://github.com/Telenav/kivakit)：KivaKit是一套用于日常开发的集成Java迷你框架，由Telenav开源。
+* [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
+* [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
+* [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
+* [Apollo](https://github.com/spotify/apollo)：Apollo是Spotify编写微服务时使用的一组Java库，包含HTTP服务器和URI路由系统等模块，使得实现RESTful API服务变得轻而易举。
+* [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
+* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个轻量级的开源框架，专为构建快速、高效的云原生Java微服务而设计，由IBM开源。
+* [Apache Aries](https://github.com/apache/aries)：Aries项目由一组可插拔Java组件组成，支持企业OSGi应用程序编程模型。
+* [GreenLightning](https://oci-pronghorn.gitbook.io/greenlightning)：GreenLightning是一个可嵌入的高性能微服务框架，内置HTTP和MQTT支持。
+* [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
+* [MSF4J](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
+* [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
+* [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
+* [KumuluzEE](https://github.com/kumuluz/kumuluzee)：KumuluzEE是一个轻量级框架，用于使用标准Java、Java EE/Jakarta EE技术开发微服务并将现有Java应用程序迁移到微服务，由SUNESIS公司开发。
+* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
+* [Apache Meecrowave](https://github.com/apache/openwebbeans-meecrowave)：Meecrowave是Apache的一个轻量级微服务框架，能够与CDI、JAX-RS和JSON API完美兼容。
+* [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架，由Sixt开发。
+* [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务器应用程序的构建。
+* [Colossus](https://github.com/tumblr/colossus)：Colossus是一个用来构建Scala微服务的轻量级I/O框架，由Tumblr开源。
+* [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
+* [ActiveJ](https://github.com/activej/activej)：ActiveJ是适用于现代Web、云、高负载和微服务的Java框架。
+* [AdeptJ](https://github.com/AdeptJ/adeptj-runtime)：高性能、动态、模块化的RESTful API、微服务和Web应用运行时。
+* [Launcher](https://github.com/fujitsu/launcher)：Launcher是MicroProfile的一个实现，由Fujitsu开源。
+* [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
+* [Las2peer](https://github.com/rwth-acis/las2peer)：Las2peer是一个基于Java的服务器框架，用于在分布式点对点(P2P)环境中开发和部署微服务，由亚琛工业大学开发。
+* [Dapeng SOA](https://github.com/dapeng-soa/dapeng-soa)：Dapeng SOA是一个轻量级、高性能的微服务框架，构建在Netty以及定制的精简版Thrift之上，大鹏开源。
+* [Redkale](https://gitee.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
+* [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
+* [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
+* [Xian](https://github.com/xiancloud/xian)：Xian是一个Reactive风格的微服务框架。
+* [Vxms](https://github.com/amoAHCP/vxms)：Vxms是一个模块化的微服务框架，100%基于Vert.x 3。
+* [Vertx Zero](https://github.com/silentbalanceyh/vertx-zero)：Vertx Zero Framework是一个用于服务网格微服务的工具。
+* [KIXEYE Chassis](https://github.com/Kixeye/chassis)：KIXEYE Chassis是一组独立的Java库，旨在提供在你自己的数据中心或云端快速构建和部署生产就绪服务所需的应用程序组件。
+* [RockScript](https://github.com/rockscript/rockscript)：RockScript是一个脚本引擎，用于协调服务调用。
+* [MFW](https://github.com/CryptoWorldChain/mfw)：MFW是基于TFW的微服务框架。
+* [Alogic](https://github.com/anylogic/alogic)：Alogic提供了分布式Web服务开发的一整套方法和思路。
+* [NHMicro](https://github.com/jeffreyning/nh-micro)：NHMicro是一个基于Groovy脚本驱动的Java微服务开发框架。
+* [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
+* [Jadex](https://github.com/actoron/jadex)：Jadex为分布式和并发系统提供编程和执行功能。
+* [SwitchYard](https://switchyard.jboss.org/)：SwitchYard是一个基于组件的开发框架，专注于使用面向服务的架构(SOA)的概念和最佳实践来构建结构化、可维护的服务和应用程序，由JBoss社区开源。
+* [Saluki](https://github.com/spring-avengers/saluki)：Saluki是一个基于gRPC Java的微服务框架。
+* [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
+* [Cougar](https://github.com/betfair/cougar)：Cougar是一个框架，旨在简化构建网络暴露服务接口的过程，由Betfair开源。
+* [Uship](https://github.com/yupiik/uship)：Uship是一个面向现代应用程序的轻量级微服务栈。
 
 ### RPC框架
 
@@ -1482,79 +1520,22 @@
 * [Yar RPC Client](https://github.com/starlight36/yar-client-java)：Yar RPC框架的Java客户端。
 * [Nucleus](https://github.com/gideondk/nucleus)：Nucleus是一个基于Akka IO和Sentinel构建的小型响应式RPC类技术栈。
 
-### 微服务框架
+### WebService框架
 
-* [Spring Cloud](https://spring.io/projects/spring-cloud)：Spring Cloud为开发人员提供了快速构建分布式系统中一些常见模式的工具，由Pivotal开源。
-* [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix)：Spring Cloud Netflix项目为Spring Boot应用程序提供Netflix OSS集成。
-* [Spring Cloud AWS](https://github.com/awspring/spring-cloud-aws)：Spring Cloud AWS简化了在Spring和Spring Boot应用程序中使用AWS托管服务。
-* [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp)：Spring Cloud GCP项目使Spring框架成为Google Cloud Platform的一等公民。
-* [Spring Cloud Azure](https://github.com/microsoft/spring-cloud-azure)：Spring Cloud Azure是Microsoft开发的Spring Cloud框架，提供Spring与Azure服务的无缝集成。
-* [Spring Cloud OCI](https://github.com/oracle/spring-cloud-oci)：Spring Cloud OCI在内部OCI Java SDK的帮助下简化了与Oracle OCI服务的集成。
-* [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)：Spring Cloud Alibaba为分布式应用开发提供一站式解决方案。
-* [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent)：Spring Cloud Tencent是实现标准Spring Cloud SPI的一站式微服务解决方案，它将Spring Cloud与腾讯中间件集成，让微服务开发变得简单。
-* [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei)：Spring Cloud Huawei是一个让使用Spring Cloud开发微服务变得更加简单和高效的框架。
-* [Spring Cloud Formula](https://gitee.com/baidu/spring-cloud-formula)：Spring Cloud Formula是百度云CNAP的面向客户提供的Java微服务框架设施。
-* [Apache Dubbo](https://github.com/apache/dubbo)：Dubbo是一个高性能、基于Java的开源RPC框架，由阿里开源。
-* [Jakarta EE](https://jakarta.ee/)：Jakarta EE为开发人员提供了一套全面的供应商中立的开放规范，用于从头开始开发现代云原生Java应用程序，由Eclipse基金会维护。
-* [Micronaut](https://github.com/micronaut-projects/micronaut-core)：Micronaut是一个基于JVM的现代全栈Java框架，旨在构建模块化、易于测试的JVM应用程序，由Object Computing开源。
-* [Quarkus](https://github.com/quarkusio/quarkus)：Quarkus是一个用于编写Java应用程序的云原生容器优先框架，由RedHat开发。
-* [Helidon](https://github.com/helidon-io/helidon)：Helidon是一组用于编写微服务的Java库，基于Java虚拟线程，由Oracle开发。
-* [Vert.x](https://github.com/eclipse-vertx/vert.x)：Vert.x是一个用于在JVM上构建响应式应用程序的工具包，由RedHat开源。
-* [Finatra](https://github.com/twitter/finatra)：Finatra是一个轻量级框架，用于在TwitterServer和Finagle之上构建快速、可测试的Scala应用程序，由Twitter开源。
-* [tRPC](https://github.com/trpc-group/trpc-java)：tRPC Java作为tRPC的Java语言实现，是一个久经考验的微服务框架，由腾讯开源。
-* [Ktor](https://github.com/ktorio/ktor)：Ktor是一个用于创建微服务、Web应用程序等的异步框架，由Jetbrains开源。
-* [ScaleCube](https://github.com/scalecube/scalecube-services)：ScaleCube是一个通过提供可嵌入的微服务库来简化响应式和分布式应用程序开发的项目。
-* [ServiceTalk](https://github.com/apple/servicetalk)：ServiceTalk是一个JVM网络应用程序框架，具有针对特定协议(例如HTTP/1.x、HTTP/2.x等)定制的API，并支持多种编程范例，由Apple开源。
-* [RestExpress](https://github.com/RestExpress/RestExpress)：RestExpress是用于快速创建可扩展、无容器、RESTful微服务的极简Java框架，由Facebook开源。
-* [Apache ServiceComb](https://github.com/apache/servicecomb-java-chassis)：ServiceComb是一个用于用Java快速开发微服务的软件开发工具包，提供服务注册、服务发现、动态路由和服务管理功能，由华为开源。
-* [Eclipse MicroProfile](https://github.com/eclipse/microprofile)：MicroProfile是一个Eclipse基金会项目，用于将Jakarta EE等企业Java技术应用于分布式微服务体系结构并不断发展，由IBM、RedHat、Oracle、Fujitsu、Microsoft等组织参与。
-* [Axon](https://github.com/AxonFramework/AxonFramework)：Axon是一个基于DDD、CQRS和事件溯源原则构建渐进式事件驱动微服务系统的框架。
-* [Misk](https://github.com/cashapp/misk)：Misk是来自Cash App的开源微服务容器，它允许你使用Kotlin或Java快速创建微服务。
-* [Nano](https://github.com/NanoNative/nano)：Nano是一种轻量级方法，它使开发人员能够以极小的代码量，使用函数式、流式、链式调用、简洁的现代Java语言编写微服务。
-* [KivaKit](https://github.com/Telenav/kivakit)：KivaKit是一套用于日常开发的集成Java迷你框架，由Telenav开源。
-* [Riposte](https://github.com/Nike-Inc/riposte)：Riposte是一个基于Netty的微服务框架，用于快速开发生产就绪的HTTP API，由Nike开源。
-* [Lagom](https://github.com/lagom/lagom)：Lagom是一个开源框架，用于用Java或Scala构建响应式微服务系统，由Lightbend开源。
-* [Squbs](https://github.com/paypal/squbs)：Squbs是一套组件，可在大规模托管云环境中实现Akka和Akka HTTP应用程序/服务的标准化和可操作化，Paypal开源。
-* [Apollo](https://github.com/spotify/apollo)：Apollo是Spotify编写微服务时使用的一组Java库，包含HTTP服务器和URI路由系统等模块，使得实现RESTful API服务变得轻而易举。
-* [Armeria](https://github.com/line/armeria)：Armeria是适合任何情况的首选微服务框架，你可以利用自己喜欢的技术构建任何类型的微服务，包括gRPC、Thrift、Kotlin、Retrofit、Reactive Streams、Spring Boot和Dropwizard，由Line开源。
-* [Open Liberty](https://github.com/OpenLiberty/open-liberty)：Open Liberty是一个轻量级的开源框架，专为构建快速、高效的云原生Java微服务而设计，由IBM开源。
-* [Apache Aries](https://github.com/apache/aries)：Aries项目由一组可插拔Java组件组成，支持企业OSGi应用程序编程模型。
-* [GreenLightning](https://oci-pronghorn.gitbook.io/greenlightning)：GreenLightning是一个可嵌入的高性能微服务框架，内置HTTP和MQTT支持。
-* [Light-4J](https://github.com/networknt/light-4j)：Light-4J是快速、轻量级且更高效的微服务框架。
-* [MSF4J](https://github.com/wso2/msf4j)：MSF4J是一个用于开发和运行微服务的轻量级高性能框架，由WSO2开源。
-* [NutzBoot](https://gitee.com/nutz/nutzboot)：NutzBoot是可靠的企业级微服务框架，提供自动配置、嵌入式Web服务、分布式会话、流控熔断、分布式事务等解决方案。
-* [Starlight](https://github.com/baidu/starlight)：Starlight是一套面向云原生的微服务通信框架，兼容Spring生态，由百度开源。
-* [KumuluzEE](https://github.com/kumuluz/kumuluzee)：KumuluzEE是一个轻量级框架，用于使用标准Java、Java EE/Jakarta EE技术开发微服务并将现有Java应用程序迁移到微服务，由SUNESIS公司开发。
-* [Microserver](https://github.com/aol/micro-server)：Microserver是一个Java 8原生、零配置、基于标准、久经考验的库，可通过标准Java主类运行REST微服务，由AOL开源。
-* [Apache Meecrowave](https://github.com/apache/openwebbeans-meecrowave)：Meecrowave是Apache的一个轻量级微服务框架，能够与CDI、JAX-RS和JSON API完美兼容。
-* [Ja-Micro](https://github.com/Sixt/ja-micro)：Ja-Micro是一个用于构建微服务的轻量级Java框架，由Sixt开发。
-* [Hexagon](https://github.com/hexagonkt/hexagon)：Hexagon是一个用Kotlin编写的微服务工具包，其目的是简化在云平台内运行的服务器应用程序的构建。
-* [Colossus](https://github.com/tumblr/colossus)：Colossus是一个用来构建Scala微服务的轻量级I/O框架，由Tumblr开源。
-* [JBoot](https://gitee.com/JbootProjects/jboot)：JBoot是一个基于JFinal、Dubbo、Seata、Sentinel、ShardingSphere、Nacos等开发的国产框架。
-* [ActiveJ](https://github.com/activej/activej)：ActiveJ是适用于现代Web、云、高负载和微服务的Java框架。
-* [AdeptJ](https://github.com/AdeptJ/adeptj-runtime)：高性能、动态、模块化的RESTful API、微服务和Web应用运行时。
-* [Launcher](https://github.com/fujitsu/launcher)：Launcher是MicroProfile的一个实现，由Fujitsu开源。
-* [Flower](https://github.com/zhihuili/flower)：Flower是一个构建在Akka上的响应式微服务框架。
-* [Las2peer](https://github.com/rwth-acis/las2peer)：Las2peer是一个基于Java的服务器框架，用于在分布式点对点(P2P)环境中开发和部署微服务，由亚琛工业大学开发。
-* [Dapeng SOA](https://github.com/dapeng-soa/dapeng-soa)：Dapeng SOA是一个轻量级、高性能的微服务框架，构建在Netty以及定制的精简版Thrift之上，大鹏开源。
-* [Redkale](https://gitee.com/redkale/redkale)：Redkale是基于Java 11全新的微服务框架，包含HTTP、WebSocket、TCP/UDP、数据序列化、数据缓存、依赖注入等功能。
-* [SeedStack](https://github.com/seedstack/seed)：SeedStack是一个固执己见、易于使用的Java开发堆栈。
-* [Moleculer Java](https://github.com/moleculer-java/moleculer-java)：Moleculer Java是JVM的Moleculer微服务框架的实现。
-* [Xian](https://github.com/xiancloud/xian)：Xian是一个Reactive风格的微服务框架。
-* [Vxms](https://github.com/amoAHCP/vxms)：Vxms是一个模块化的微服务框架，100%基于Vert.x 3。
-* [Vertx Zero](https://github.com/silentbalanceyh/vertx-zero)：Vertx Zero Framework是一个用于服务网格微服务的工具。
-* [KIXEYE Chassis](https://github.com/Kixeye/chassis)：KIXEYE Chassis是一组独立的Java库，旨在提供在你自己的数据中心或云端快速构建和部署生产就绪服务所需的应用程序组件。
-* [RockScript](https://github.com/rockscript/rockscript)：RockScript是一个脚本引擎，用于协调服务调用。
-* [MFW](https://github.com/CryptoWorldChain/mfw)：MFW是基于TFW的微服务框架。
-* [Alogic](https://github.com/anylogic/alogic)：Alogic提供了分布式Web服务开发的一整套方法和思路。
-* [NHMicro](https://github.com/jeffreyning/nh-micro)：NHMicro是一个基于Groovy脚本驱动的Java微服务开发框架。
-* [Restate Java](https://github.com/restatedev/sdk-java)：Restate是一个利用分布式持久化Async/Await轻松构建弹性应用程序的系统。
-* [Jadex](https://github.com/actoron/jadex)：Jadex为分布式和并发系统提供编程和执行功能。
-* [SwitchYard](https://switchyard.jboss.org/)：SwitchYard是一个基于组件的开发框架，专注于使用面向服务的架构(SOA)的概念和最佳实践来构建结构化、可维护的服务和应用程序，由JBoss社区开源。
-* [Saluki](https://github.com/spring-avengers/saluki)：Saluki是一个基于gRPC Java的微服务框架。
-* [Trooper](https://github.com/regunathb/Trooper)：Trooper是一个Java模块式框架，提供多种运行时配置文件用于构建应用程序。
-* [Cougar](https://github.com/betfair/cougar)：Cougar是一个框架，旨在简化构建网络暴露服务接口的过程，由Betfair开源。
-* [Uship](https://github.com/yupiik/uship)：Uship是一个面向现代应用程序的轻量级微服务栈。
+* [Jakarta XML Web Services](https://github.com/jakartaee/jax-ws-api)：Jakarta XML Web Services定义了一种基于Jakarta SOAP及其附件和Jakarta Web Services元数据的XML Web Services实现方法。
+* [JAX-WS](https://github.com/eclipse-ee4j/metro-jax-ws)：该项目包含Jakarta XML Web Service、Jakarta Web Services Metadata和Jakarta XML Web Services规范实现。
+* [Apache WS](https://ws.apache.org/)：Apache WS汇聚了众多与Web Service相关的项目，涵盖从基础XML解析器到WS标准集的各种内容。
+* [Apache CXF](https://github.com/apache/cxf)：CXF是一个开源服务框架，可帮助你使用前端编程API(例如JAX-WS和JAX-RS)构建和开发服务，最初由IONA开发。
+* [Spring WS](https://github.com/spring-projects/spring-ws)：Spring Web Services是Spring社区的一款产品，专注于创建文档驱动的Web服务。
+* [SOAP WS](https://github.com/reficio/soap-ws)：SOAP WS是一个轻量级且易于使用的Java库，它包装了Spring WS并支持在纯XML级别处理SOAP。
+* [WSC](https://github.com/forcedotcom/wsc)：WSC是一个使用流式解析器实现的高性能Web Service客户端堆栈，由Salesforce开源。
+* [Apache Axis2](https://github.com/apache/axis-axis2-java-core)：Apache Axis2是一个Web Services JSON/SOAP/WSDL引擎。
+* [JBossWS](https://jbossws.github.io/)：JBossWS是一个框架，它为WildFly和Red Hat JBoss企业应用平台(JBoss EAP)提供符合Eclipse Enterprise标准的Web Services技术。
+* [IceSoap](https://github.com/AlexGilleran/IceSoap)：IceSoap为Android设备提供对SOAP Web Services的快速、简便的异步访问。
+* [WSO2 WSDL4j](https://github.com/wso2/wso2-wsdl4j)：WSDL4J库用于解析、创建和操作WSDL文档。
+* [Libre WSDL4J](https://github.com/librewsdl4j/libre-wsdl4j)：Libre WSDL4J是一个用于WSDL的Java存根生成器。
+* [SAAJ](https://github.com/eclipse-ee4j/metro-saaj)：Eclipse中Jakarta SOAP及其附件的实现。
+* [Apache Axiom](https://github.com/apache/ws-axiom)：Axiom库提供了一个符合XML信息集规范的对象模型实现，支持按需构建对象树。
 
 ## HTTP客户端
 
@@ -3358,6 +3339,7 @@
 * [Aifei](https://github.com/jfinal/aifei)：Aifei是一个AI Coding框架。
 * [Autogen4j](https://github.com/HamaWhiteGG/autogen4j)：Java版Microsoft AutoGen，支持下一代大语言模型应用程序。
 * [Txtai.Java](https://github.com/neuml/txtai.java)：Txtai是一个集语义搜索、LLM编排和语言模型工作流程于一体的AI框架。
+* [BoxLang AI](https://github.com/ortus-boxlang/bx-ai)：BoxLang AI消除了供应商锁定，并通过提供跨16家以上AI提供商的单一、一致的接口，简化了AI集成。
 
 ### LLM客户端
 
@@ -3418,6 +3400,7 @@
 * [DashScope SDK Java](https://github.com/dashscope/dashscope-sdk-java)：DashScope模型的Java SDK。
 * [Z.ai Open Platform Java SDK](https://github.com/zai-org/z-ai-sdk-java)：Z.ai AI平台官方Java SDK，提供统一接口访问强大的AI能力，包括对话补全、向量嵌入、图像生成、音频处理等功能。
 * [ComfyUI Spring Boot](https://github.com/Sun-12138/comfyui-spring-boot)：ComfyUI Spring Boot支持Spring Boot调用ComfyUI服务API、提交绘图任务到队列、实时获取任务进度。
+* [Spring AI AgentCore SDK](https://github.com/spring-ai-community/spring-ai-agentcore)：一个开源库，通过熟悉的模式将Amazon Bedrock AgentCore的功能引入Spring AI。
 
 ### 推理引擎
 
@@ -3491,6 +3474,7 @@
 * [Easy Agent](https://github.com/songrongzhen/easy-agent)：Easy Agent是一个即插即用的Java智能体开发组件，旨在让任何基于Spring Boot的应用系统快速接入AI能力。
 * [EvoX](https://github.com/Leavesfly/EvoX)：EvoX是一个以Agent自进化为核心理念的企业级智能代理框架，基于Java 17、Spring Boot 3.2+和Project Reactor构建。
 * [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
+* [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
 
 ### RAG
 
@@ -4409,6 +4393,7 @@
 * [NyARToolkit](https://github.com/nyatla/NyARToolkit)：NyARToolkit是一个基于ARToolKit 5.3.2的AR应用类库。
 * [EyeTribe Java SDK](https://github.com/EyeTribe/tet-java-client)：The Eye Tribe Tacker的Java SDK。
 * [Cognitive Vision Android](https://github.com/microsoft/Cognitive-Vision-Android)：Microsoft Computer Vision API的Android客户端库。
+* [GDX RealSense](https://github.com/libgdx/gdx-realsense)：LibGDX RealSense SDK集成。
 
 #### OCR
 
