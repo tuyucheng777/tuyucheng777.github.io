@@ -1134,6 +1134,7 @@
 * [Ardalis.ApiClient](https://github.com/ardalis/Ardalis.ApiClient)：一些使API操作更便捷的类。
 * [System.Net.Http](https://github.com/nanoframework/System.Net.Http)：.NET nanoFramework System.Net.Http类库。
 * [HTTPnet](https://github.com/chkr1011/HTTPnet)：HTTPnet是一个用于基于HTTP和WebSocket通信的.NET库。
+* [Oryx](https://github.com/cognitedata/oryx)：Oryx是一个高性能的.NET跨平台函数式HTTP请求处理库，用于在F#中编写HTTP客户端和协调Web请求。
 
 ## Socket
 
@@ -2086,6 +2087,7 @@
 * [Fixed Point](https://github.com/nilpunch/fixed-point)：为在线多人游戏和其他使用场景设计的确定性定点数学库。
 * [ILNumerics](https://github.com/wdxa/ILNumerics)：.NET的数学库，支持N维数组、复数、线性代数、FFT、排序、单元格数组和逻辑数组，以及3D绘图类，帮助在所有支持.NET的平台上开发算法。
 * [FasterMath](https://github.com/Lokad/FasterMath)：这个库收集了一系列更快但近似的数学函数，利用了.NET中的硬件内置功能。
+* [Vorcyc.Mathematics](https://github.com/vorcyc/Vorcyc.Mathematics)：高性能.NET 10数学库。
 
 ## 矩阵
 
@@ -2878,6 +2880,7 @@
 * [Relatude.DB](https://github.com/Relatude/Relatude.DB)：Relatude.DB是一个开源、C#原生数据库引擎，旨在提供统一的存储解决方案，满足你构建Web应用程序后端的所有需求。
 * [EvenireDB](https://github.com/mizrael/EvenireDB)：小型流式数据库引擎。
 * [Shiny.DocumentDb](https://github.com/shinyorg/DocumentDb)：一个轻量级、多提供商的.NET文档存储，将关系型数据库转变为无模式的JSON文档数据库，支持LINQ查询、空间/地理查询，以及完整的AOT/裁剪支持。
+* [CamusDB](https://github.com/camusdb/camusdb)：CamusDB是一个开源的NewSQL分布式数据库，用C#在.NET 10上编写。
 
 ## 事件存储
 
@@ -3372,6 +3375,7 @@
 * [Confluent Kafka .NET](https://github.com/confluentinc/confluent-kafka-dotnet)：Confluent Kafka .NET是Confluent为Apache Kafka和Confluent平台提供的.NET客户端。
 * [Kafka4NET](https://github.com/ntent/kafka4net)：用于Kafka的C#客户端。
 * [KNet](https://github.com/masesgroup/KNet)：KNet是一个面向Apache Kafka的全面.NET套件，提供对所有Apache Kafka API和功能的直接访问。
+* [Dekaf](https://github.com/thomhurst/Dekaf)：Dekaf是一个高性能、纯C#的.NET 10 Apache Kafka客户端。
 * [SharpPulsar](https://github.com/Sharp-Pulsar/SharpPulsar)：SharpPulsar是一个基于Akka.NET的Apache Pulsar客户端。
 * [Amazon SQS .NET Extended Client Library](https://github.com/raol/amazon-sqs-net-extended-client-lib)：对Amazon SQS的扩展，添加了对发送和接收大于256K消息的支持。
 
@@ -10851,6 +10855,7 @@
 * [Reactor .NET](https://github.com/spring-attic/reactor-core-dotnet)：用于C#的流式响应式编程库，基于Reactive Streams，类似于JVM的Reactor Core。
 * [R3Async](https://github.com/fedeAlterio/R3Async)：R3Async是R3的异步版本，R3是一个用于.NET的响应式扩展库。
 * [Sync](https://github.com/chickensoft-games/Sync)：简单、同步、单线程的响应式编程原语和集合，带有流式的绑定。
+* [ReactiveBinding](https://github.com/XuToWei/ReactiveBinding)：ReactiveBinding提供基于属性的响应式数据绑定，在编译时生成变更检测代码。
 
 ## 状态管理
 
@@ -11376,6 +11381,7 @@
 * [LasZip.NET](https://github.com/shintadono/laszip.net)：C#的LAS/LAZ库。
 * [DDS Reader](https://github.com/andburn/dds-reader)：一个.NET Core DDS读取器和转换器。
 * [Aardvark.Algodat](https://github.com/aardvark-platform/aardvark.algodat)：Aardvark.Algodat是开源Aardvark平台的一部分，该平台用于视觉计算、实时图形和可视化。
+* [PointCloud Studio](https://github.com/lishilei0523/PointCloud-Studio)：Windows与Linux环境下PCL点云库常用功能的.NET接口封装。
 
 ## URL库
 
