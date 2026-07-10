@@ -1741,7 +1741,6 @@
 * [Crash Lab](https://github.com/tomakehurst/crash-lab)：Crash Lab是一个Java库，支持对非功能性/跨功能系统特性进行自动化测试，尤其关注系统在不稳定环境下的弹性、稳定性和正确性。
 * [Trouble Maker](https://github.com/in-the-keyhole/khs-trouble-maker)：Trouble Maker是一款开源工具，可以随机或按需触发服务故障问题。
 * [Rodriguez](https://github.com/kawasima/rodriguez)：Rodriguez是一款故障注入测试工具，设计用于仅在受信任的隔离网络(本地开发环境、持续集成环境或私有测试网络)内运行。
-* [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
 
 #### 快照测试
 

@@ -3491,6 +3491,7 @@
 * [Zsmith](https://github.com/AdamBien/zsmith)：零依赖AI代理框架，支持工具执行、SKILL.md和代理循环。
 * [Core AI](https://github.com/chancetop-com/core-ai)：Core AI为你提供一个运行在终端中的AI驱动型编码代理，以及一个带有Web用户界面的自托管代理服务器。
 * [TramAI](https://github.com/GionaGranchelli/tramAI)：TramAI是一个以Kotlin为核心的JVM运行时环境，专为受控AI工作流而设计。
+* [Agents.KT](https://github.com/Deep-CodeAI/Agents.KT)：用于人工智能代理系统的类型化Kotlin DSL框架。
 
 ### RAG
 
