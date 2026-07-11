@@ -14561,6 +14561,7 @@ Kafka生态管理系统、运维平台。
 * [Java CID](https://github.com/ipld/java-cid)：Content-ID的Java实现。
 * [USC Utils API](https://github.com/UlordChain/usc-utils-api)：USC Utils API是一个Java API，用于将Ulord私钥转换为Ulord侧链私钥。
 * [Ulordj](https://github.com/UlordChain/ulordj-thin)：Ulordj库是Ulord协议的Java实现，它无需本地安装Ulord Core即可维护钱包并收发交易。
+* [Chainsync](https://github.com/wx5352/chainsync)：Chainsync为Java/Spring团队提供可靠、可恢复、无损的链上数据，几乎无需编写任何代码。
 
 #### 区块链
 
