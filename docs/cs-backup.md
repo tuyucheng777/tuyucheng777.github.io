@@ -2484,6 +2484,7 @@
 * [ECNG](https://github.com/StockSharp/Ecng)：ECNG是一个全面的系统类集合，专为在StockSharp平台下开发连接器而设计。
 * [Atom Common](https://github.com/haloman9527/0.0_Common)：Atom的通用依赖库。
 * [Jenius Apps Common](https://github.com/jenius-apps/common)：一些用于构建应用的常用组件库。
+* [Orchard Core Extensions](https://github.com/Lombiq/Open-Source-Orchard-Core-Extensions)：Lombiq所有开源Orchard Core扩展的捆绑包。
 
 ## LINQ
 
@@ -2649,6 +2650,7 @@
 * [SQLNado](https://github.com/smourier/SQLNado)：SQLNado是一个基于SQLite的.NET轻量级、无冗余对象持久化框架。
 * [SQLHelper](https://github.com/JaCraig/SQLHelper)：SQLHelper是一个简单的类，用来帮助对数据库执行查询。
 * [FluentCommand](https://github.com/loresoft/FluentCommand)：DbCommand的流式封装。
+* [Smart.Data.Accessor](https://github.com/usausa/Smart-Net-Data-Accessor)：双向/外部SQL构建时数据访问器生成器库。
 
 ## NoSQL库
 
@@ -4878,6 +4880,7 @@
 * [Quick Library](https://github.com/ModuleArt/quick-library)：用于Quick应用程序的Windows Form控件类库。
 * [CSharp TreeListView](https://github.com/TangHanF/CSharp_TreeListView)：C# WinForm控件，Listview与Treeview的结合。
 * [D2Phap.DXControl](https://github.com/d2phap/DXControl)：一个支持Direct2D绘图的WinForms混合控件。
+* [RoyalApps.Community.Rdp.WinForms](https://github.com/royalapplications/royalapps-community-rdp)：RoyalApps.Community.Rdp.WinForms为Microsoft远程桌面会话提供WinForms RdpControl。
 
 #### MAUI
 
@@ -5020,6 +5023,8 @@
 * [OnePointUI.Avalonia](https://github.com/Round-Studio/OnePointUI.Avalonia)：一个为Avalonia开发的高动效轻量级的主题/控件库。
 * [MediaPlayer](https://github.com/wieslawsoltes/MediaPlayer)：针对Avalonia的GPU加速媒体播放器。
 * [Coachlight.Avalonia](https://github.com/c3n9/Coachlight.Avalonia)：为Avalonia应用提供交互式引导/产品导览，突出重点提示、模态步骤和分步导航。
+* [RoyalTerminal](https://github.com/royalapplications/RoyalTerminal)：高性能.NET 10终端堆栈，具有后端无关的Avalonia核心、帧缓冲着色器支持、官方原生Ghostty VT集成以及独立的完全托管的VT实现。
+* [VeloxDev](https://github.com/Axvser/VeloxDev)：VeloxDev为.NET开发人员提供了一个完整的基础，用于构建交互式工作流编辑器。
 
 #### Avalonia图标库
 
@@ -5347,6 +5352,7 @@
 * [uFrame.MVVM](https://github.com/uFrame/uFrame.MVVM)：uFrame MVVM是由uFrame可视化编码引擎实现的MVVM框架。
 * [Radcial](https://github.com/RadicalFx/Radcial)：Radical是一个基础设施框架，其主要作用是帮助开发基于MVVM模式的复合WPF应用程序。
 * [MauiMicroMvvm](https://github.com/AvantiPoint/mauimicromvvm)：MauiMicroMvvm是一个针对.NET Maui Shell应用的微型MVVM框架。
+* [MVVMToolkit](https://github.com/jtprichard/MVVMToolkit)：一个非常基础的WPF工具包，主要采用MVVM模式。
 
 ## 更新框架
 
@@ -5744,6 +5750,7 @@
 * [FreeRDP Sharp](https://github.com/FreeRDP/FreeRDP-Sharp)：FreeRDP C#绑定。
 * [CsharpWinRM](https://github.com/mez-0/CSharpWinRM)：CsharpWinRM是一个使用WinRM C++ API的.NET 4.0 WinRM实现。
 * [RemoteControl](https://github.com/immense/RemoteControl)：用于向现有.NET应用程序添加远程控制功能的客户端和服务器库。
+* [RoyalVNC](https://github.com/royalapplications/royalvnc)：RoyalVNC是一个现代化、高性能的VNC/RFB协议实现。
 
 ## 终端模拟器
 
@@ -6928,6 +6935,7 @@
 * [CS2ASM](https://github.com/nifanfa/CS2ASM)：CS2ASM是一个将C#代码翻译成汇编代码的编译器。
 * [Chibil](https://github.com/MichalStrehovsky/chibil)：Chibil是一个基于chibicc的C编译器，用C#重写并更新为面向.NET IL(MSIL)。
 * [Basic.Reference.Assemblies](https://github.com/jaredpar/basic-reference-assemblies)：Basic.Reference.Assemblies是一个为Roslyn编译器API提供参考程序集的.NET库。
+* [AotAnywhere](https://github.com/StuDevLabs/AotAnywhere)：NuGet包，可帮助你将Native AOT交叉编译到不同的操作系统/架构。
 
 ## 解释器
 
@@ -8977,6 +8985,7 @@
 * [Apple Receipt](https://github.com/shoshins/apple-receipt)：苹果应用内购买收据-模型、解析器、验证器。
 * [Yoomoney API](https://github.com/oooviv/yoomoney-api)：Yoomoney C#非官方客户端库。
 * [Ping++ CSharp SDK](https://github.com/PingPlusPlus/pingpp-csharp)：C#中的Pingpp SDK。
+* [Mpesa Sdk Net](https://github.com/gabrieldwight/Mpesa-Sdk-Net)：这是一个M-Pesa SDK，允许你将Safaricom的M-Pesa API集成到Net Framework、NetCore、NET5和Net Standard项目中。
 
 ## 支付网关
 
@@ -9178,6 +9187,7 @@
 * [Contextual](https://github.com/Tyrrrz/Contextual)：Contextual是一个库，它帮助在同一逻辑作用域内执行的操作之间共享数据。
 * [Object Algebras](https://github.com/tgrospic/object-algebras)：该库旨在探索C#中高阶类型表达式问题的解决方案。
 * [Immutable.Net](https://github.com/mattnischan/Immutable.Net)：Immutable.Net是一个轻量级库，用于在.NET中将不可变数据类型作为一等公民使用。
+* [Kalicz.StrongTypes](https://github.com/KaliCZ/StrongTypes)：StrongTypes添加了一些小巧而专注的类型，使日常代码更安全、更具表现力。
 
 ## 函数式异常处理
 
@@ -11465,6 +11475,7 @@
 * [MBBSDASM](https://github.com/mbbsemu/MBBSDASM)：MBBSDASM是一个用于反汇编16位分段可执行文件格式文件的反汇编器。
 * [PEReader](https://github.com/DKorablin/PEReader)：可移植可执行文件(PE/COFF和.NET CLI)读取器。
 * [PbdViewer](https://github.com/Hucxy/PbdViewer)：PowerBuilder反编译器。
+* [Ruri.ShaderDecompiler](https://github.com/ShiyumeMeguri/Ruri.ShaderDecompiler)：Ruri.ShaderDecompiler是一个通用的Shader反编译库，用于将编译后的Shader二进制还原为高可读性的HLSL代码。
 
 ## 字节码操作
 
