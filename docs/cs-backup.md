@@ -2485,6 +2485,8 @@
 * [Atom Common](https://github.com/haloman9527/0.0_Common)：Atom的通用依赖库。
 * [Jenius Apps Common](https://github.com/jenius-apps/common)：一些用于构建应用的常用组件库。
 * [Orchard Core Extensions](https://github.com/Lombiq/Open-Source-Orchard-Core-Extensions)：Lombiq所有开源Orchard Core扩展的捆绑包。
+* [Dex Common](https://github.com/dex-it/dex-common)：一套用于简化微服务开发的C#库，审计、缓存、发件箱、CAP、MassTransit、幂等性、规范、安全以及其他实用工具。
+* [Whipstaff](https://github.com/dpvreony/whipstaff)：Whipstaff是一个包含多个项目的.NET/C#库、UI集成、开发者工具和示例应用程序的集合。
 
 ## LINQ
 
@@ -2941,6 +2943,7 @@
 * [CamusDB](https://github.com/camusdb/camusdb)：CamusDB是一个开源的NewSQL分布式数据库，用C#在.NET 10上编写。
 * [Mars](https://gitee.com/chongdaoyang/mars)：Mars数据库是一个集数据采集、存储、分析为一体的实时数据库。
 * [Redb.NET](https://github.com/nuskey8/Redb.NET)：Redb.NET是一个高性能的C#绑定，用于Redb。
+* [ArrayDb](https://github.com/AiursoftWeb/ArrayDb)：Aiursoft ArrayDb是一款轻量级、高效的数据库引擎，专为存储固定长度数据而优化，并具有恒定时间复杂度(O(1))的索引性能。
 
 ## 事件存储
 
@@ -2974,6 +2977,7 @@
 * [BoboBrowse.Net](https://github.com/NightOwl888/BoboBrowse.Net)：BoboBrowse是一个功能强大且可扩展的分面搜索引擎库，它基于Lucene.Net构建。
 * [LeanCorpus](https://github.com/jordansrowles/LeanCorpus)：一个.NET原生的全文搜索引擎。
 * [IndexEngine](https://github.com/jchristn/IndexEngine)：IndexEngine是一个轻量级的文档和文本索引平台。
+* [FullTextSearchQuery](https://github.com/SoftCircuits/FullTextSearchQuery)：FullTextSearchQuery是一个.NET类库，它将用户友好的搜索词转换为有效的Microsoft SQL Server全文搜索查询。
 
 ## Elastic Search
 
@@ -4010,6 +4014,7 @@
 * [.NET Microservices Boilerplate](https://github.com/K4rt0/dotnet-microservices-boilerplate)：用.NET、Clean Architecture和领域驱动设计(DDD)构建可扩展微服务的模板。
 * [Clean Architecture Project Template](https://github.com/NET-Architecture-Templates/CleanArchitecture)：这个仓库是一个适用于.NET项目的Clean Architecture示例模板。
 * [NexusStack](https://github.com/yongpengW/NexusStack)：一个生产级别的.NET微服务全栈解决方案。
+* [.NET Library Starter Kit](https://github.com/dennisdoomen/dotnet-library-starter-kit)：一个经过实战检验的入门工具包，用于使用dotnet new构建开源和内部NuGet库。
 
 ## 后台管理系统
 
@@ -4545,6 +4550,7 @@
 * [ControlzEx](https://github.com/ControlzEx/ControlzEx)：WPF共享控件。
 * [Wpf Hexeditor](https://github.com/abbaye/WpfHexEditorControl)：Wpf Hexeditor是一个强大且完全可定制的用户控件，可用于编辑文件或流，涵盖十六进制、十进制和二进制。
 * [Arthas](https://github.com/oneo-me/Arthas-WPFUI)：WPF控件库，支持.NET 7.0 Windows Desktop。
+* [WPF Controls](https://www.actiprosoftware.com/products/controls/wpf)：一套丰富的UI控件，用于构建美观的WPF桌面应用程序。
 * [Nodify](https://github.com/miroiu/nodify)：一套专为MVVM架构设计的高性能节点式编辑器控件集合。
 * [WPF ControlBase](https://github.com/HeBianGu/WPF-ControlBase)：WPF封装的自定义控件资源库。
 * [PanuonUI](https://github.com/Mochengvia/PanuonUI)：一个好看精致，不限制个人或商业使用的WPF控件库。
@@ -5025,6 +5031,7 @@
 * [Coachlight.Avalonia](https://github.com/c3n9/Coachlight.Avalonia)：为Avalonia应用提供交互式引导/产品导览，突出重点提示、模态步骤和分步导航。
 * [RoyalTerminal](https://github.com/royalapplications/RoyalTerminal)：高性能.NET 10终端堆栈，具有后端无关的Avalonia核心、帧缓冲着色器支持、官方原生Ghostty VT集成以及独立的完全托管的VT实现。
 * [VeloxDev](https://github.com/Axvser/VeloxDev)：VeloxDev为.NET开发人员提供了一个完整的基础，用于构建交互式工作流编辑器。
+* [WPFDevelopers.Avalonia](https://github.com/WPFDevelopersOrg/WPFDevelopers.Avalonia)：基于Avalonia 11.3的UI组件库，提供丰富的控件主题和实用工具。
 
 #### Avalonia图标库
 
@@ -5283,6 +5290,7 @@
 * [Blazor Terra](https://github.com/LumexUI/blazor-terra)：为Blazor构建的漂亮地图组件，使用了Tailwind CSS。
 * [Blorc.PatternFly](https://github.com/WildGums/Blorc.PatternFly)：PatternFly的Blazor封装组件。
 * [NodeEditor.Net](https://github.com/Johnny2x2/NodeEditor.Net)：一个强大、事件驱动的可视化节点编辑器，适用于.NET 10，支持基于图形的交互式可视化编程，拥有完整的执行引擎、插件市场、AI集成以及无头执行支持。
+* [BlazorDX](https://github.com/logixrcorp/BlazorDX)：BazorDX包含100多个组件，涵盖叠加层、输入框、导航、数据网格系列、数据可视化、日程安排、编辑器、文件、表单。
 
 ## IDE
 
@@ -6633,6 +6641,7 @@
 * [DynamicConfiguration](https://github.com/Aguafrommars/DynamicConfiguration)：动态管理你的.NET应用程序配置。
 * [SimpleSettings](https://github.com/existall/SimpleSettings)：SimpleSetting是一个.NET配置库。
 * [Dyd.BaseService.ConfigManager](https://gitee.com/chejiangyi/Dyd.BaseService.ConfigManager)：用于所有项目统一的配置集中管理，简化运维和项目部署，具备高灵活性、高性能、高稳定性、高及时性。
+* [IniFileParser](https://github.com/SoftCircuits/IniFileParser)：IniFile是一个轻量级的.NET类库，可以轻松读写INI文件。
 
 ## 规则引擎
 
@@ -7805,6 +7814,7 @@
 
 * [Live Streaming Server NET](https://github.com/josephnhtam/live-streaming-server-net)：Live Streaming Server NET是一套高性能、灵活的工具集，允许你使用.NET构建自己的直播服务器。
 * [Plex API](https://github.com/jensenkd/plex-api)：用于Plex媒体服务器API的非官方C#绑定。
+* [PlexCSharp](https://github.com/LukasParke/plexcsharp)：一个开源的Plex媒体服务器C# SDK。
 
 ## 摄像头
 
@@ -8256,6 +8266,7 @@
 * [TitaniumAS.Opc.Client](https://github.com/titanium-as/TitaniumAS.Opc.Client)：用于OPC DA的开源.NET客户端库。
 * [OPCAutomationDotNet](https://github.com/leogle/OPCAutomationDotNet)：使用C#进行封装的OPC客户端和服务端。
 * [UA CloudLibrary](https://github.com/OPCFoundation/UA-CloudLibrary)：UA CloudLibrary使得可以从世界任何地方存储和查询OPC UA信息模型。
+* [TinyUa](https://github.com/renrouputao/tinyua)：TinyUA从零开始实现了完整的OPC UA二进制协议栈。
 
 ## 串口
 
@@ -8538,6 +8549,7 @@
 * [FluentRegex](https://github.com/bcwood/FluentRegex)：.NET的原始流式正则表达式构建器。
 * [RegexParser](https://github.com/aistrate/RegexParser)：RegexParser是一个用C#编写的正则表达式引擎。
 * [Sarif Pattern Matcher](https://github.com/microsoft/sarif-pattern-matcher)：质量领域无关的正则表达式模式匹配器，可将结果持久化到SARIF。
+* [RegexToolbox.NET](https://github.com/markwhitaker/RegexToolbox.NET)：面向.NET开发人员的正则表达式工具。
 
 ## 手机号解析
 
@@ -9866,6 +9878,7 @@
 * [WindowsFirewallHelper](https://github.com/falahati/WindowsFirewallHelper)：一个用于管理Windows防火墙以及将你的程序添加到Windows防火墙例外列表的类库。
 * [Firewall](https://github.com/dustinmoris/Firewall)：Firewall是一个ASP.NET Core中间件，可实现 IPv4和IPv6地址、地理位置及其他请求过滤功能。
 * [PwnedPasswords](https://github.com/andrewlock/PwnedPasswords)：一个检查被泄露密码的ASP.NET Core身份验证器。
+* [HaveIBeenPwned.Client](https://github.com/IEvangelist/pwned-client)：HaveIBeenPwned.Client是一个非官方、与AOT兼容的.NET客户端，用于完整的Have I Been Pwned REST API v3。
 * [IdParser](https://github.com/c0shea/IdParser)：IDParser可以用于将符合AAMVA标准的驾驶证和身份证解析为可操作的对象。
 * [HackerSpray](https://github.com/oazabir/HackerSpray)：一个用于防御暴力破解和拒绝服务攻击的.NET库。
 * [Hawknet](https://github.com/pcibraro/hawknet)：.NET的Hawk协议实现。
@@ -10148,6 +10161,8 @@
 * [CryptographyHelper](https://github.com/phongnguyend/CryptographyHelper)：一些让处理加密更轻松的简单扩展方法。
 * [CryptoBase](https://github.com/HMBSbige/CryptoBase)：一个用于.NET的快速加密库。
 * [HashGate](https://github.com/loresoft/HashGate)：一个用于ASP.NET Core应用的HMAC(基于哈希的消息认证码)认证系统。
+* [LibOQS .NET](https://github.com/open-quantum-safe/liboqs-dotnet)：LibOQS .NET是一个用C#编写的.NET liboqs封装器，提供抗量子加密算法。
+* [LibOQS.NET](https://github.com/filipw/maybe-liboqs-dotnet)：LibOQS.NET为Open Quantum Safe liboqs C库提供.NET封装/绑定。
 
 ## 密码库
 
@@ -10715,6 +10730,7 @@
 * [SpreadsheetStreams.NET](https://github.com/danielgindi/SpreadsheetStreams.net)：.NET中用于写电子表格的流式接口，支持CSV、XML、XLSX。
 * [Addax](https://github.com/alexanderkozlenko/addax)：提供高性能、低分配的类型，用于处理以分隔符分隔值(DSV)表示的表格数据。
 * [Orc.Csv](https://github.com/WildGums/Orc.Csv)：CsvHelper库的小型扩展和辅助方法库。
+* [CsvParser](https://github.com/SoftCircuits/CsvParser)：CsvParser是一个.NET库，可以轻松处理逗号分隔值(CSV)文件。
 
 ## Word
 
@@ -10836,6 +10852,7 @@
 * [QPdfNet](https://github.com/Sicos1977/QPdfNet)：一个C#的qpdf包装器，提供通过qpdf命令行工具可用的所有功能。
 * [NetPdf](https://github.com/raroche/NetPdf)：一个纯C#/.NET的HTML CSS转PDF渲染引擎。
 * [PDF Pixel](https://github.com/zayg21-pixel/pdf-pixel)：PDF Pixel是一个基于SkiaSharp渲染引擎的.NET原生C# PDF渲染库。
+* [Codeuctivity.PdfAValidator](https://github.com/Codeuctivity/PdfAValidatorApi)：PdfAValidatorApi将VeraPdf调用封装在.NET Standard程序集和Web API中。
 
 ## PPT
 
