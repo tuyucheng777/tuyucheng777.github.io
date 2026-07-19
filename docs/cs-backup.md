@@ -270,6 +270,7 @@
 * [Cron](#Cron)
 * [批处理](#批处理)
 * [工作流](#工作流)
+* [编排引擎](#编排引擎)
 * [配置管理](#配置管理)
 * [规则引擎](#规则引擎)
 * [构建工具](#构建工具)
@@ -6523,7 +6524,6 @@
 * [Soenneker.Utils.BackgroundQueue](https://github.com/soenneker/soenneker.utils.backgroundqueue)：BackgroundQueue提供了一种在.NET应用程序中快速且可控地执行后台任务的方式。
 * [Valir](https://github.com/Taiizor/Valir)：一个基于Redis后端的模块化.NET分布式任务队列框架，支持至少一次投递、优先级队列、事务型发件箱，并通过Kafka/RabbitMQ/Azure服务总线实现事件驱动架构。
 * [Orc.Scheduling](https://github.com/WildGums/Orc.Scheduling)：允许在应用程序中轻松调度任务。
-* [JobMaster](https://github.com/hugoj0s3/jobmaster-net)：.NET的分布式任务编排引擎。
 
 ## Cron
 
@@ -6585,6 +6585,11 @@
 * [SimpleWorkflowFramework.NET](https://github.com/sdebnath/SimpleWorkflowFramework.NET)：SimpleWorkflowFramework.NET是一个辅助库，用于简化在C#中为AWS SWF编写代码。
 * [Maestro](https://github.com/monirith/maestro)：C#.NET轻量级BPMN解释器。
 * [DWKit](https://github.com/optimajet/DWKit)：DWKit是一个基于.NET的BPM系统，设计时考虑到了简洁性和灵活性。
+
+## 编排引擎
+
+* [JobMaster](https://github.com/hugoj0s3/jobmaster-net)：.NET的分布式任务编排引擎。
+* [FlowOrchestrator](https://github.com/hoangsnowy/FlowOrchestrator)：面向.NET的代码优先DAG编排。
 
 ## 配置管理
 
@@ -8077,6 +8082,7 @@
 * [Orleans.SyncWork](https://github.com/OrleansContrib/Orleans.SyncWork)：该软件包的目的是公开一个抽象基类，使Orleans能够处理长时间运行、CPU密集型、同步工作，而不会变得过载。
 * [Ractor](https://github.com/buybackoff/Ractor)：基于Redis的分布式Actor。
 * [Actress](https://github.com/kthompson/Actress)：Actress是F# MailboxProcessor的C#版本。
+* [Nixie](https://github.com/kahunakv/nixie)：Nixie是一个基于.NET任务并行库构建的小型Actor框架。
 
 ## 线程池
 
