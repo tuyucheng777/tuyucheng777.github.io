@@ -733,6 +733,7 @@
 * [.NET Specification Pattern](https://github.com/bmgandre/dotnet-specification-pattern)：C#中的规范模式实现。
 * [DDDIFY](https://github.com/esofar/dddify)：一个轻量级的DDD集成框架，适用于现代ASP.NET Core应用程序。
 * [Tactical DDD Helpers](https://github.com/aneshas/tactical-ddd)：TacticalDDD包含一些轻量级的DDD辅助工具。
+* [Savvy I/O](https://github.com/codebeltnet/savvyio)：Savvy I/O框架提供了一个SOLID且简洁的.NET类库，用于编写DDD、CQRS和事件溯源应用程序。
 
 ## CQRS框架
 
@@ -2499,6 +2500,7 @@
 * [Orchard Core Extensions](https://github.com/Lombiq/Open-Source-Orchard-Core-Extensions)：Lombiq所有开源Orchard Core扩展的捆绑包。
 * [Dex Common](https://github.com/dex-it/dex-common)：一套用于简化微服务开发的C#库，审计、缓存、发件箱、CAP、MassTransit、幂等性、规范、安全以及其他实用工具。
 * [Whipstaff](https://github.com/dpvreony/whipstaff)：Whipstaff是一个包含多个项目的.NET/C#库、UI集成、开发者工具和示例应用程序的集合。
+* [Cuemon](https://github.com/codebeltnet/cuemon)：Cuemon .NET旨在与Microsoft .NET平台兼容并为其提供补充。
 
 ## LINQ
 
@@ -7052,6 +7054,7 @@
 * [Cs WASM](https://github.com/jonathanvdc/cs-wasm)：Cs WASM是一个C#库，可以读取、写入、解释和优化二进制WebAssembly文件。
 * [Extism .NET Host SDK](https://github.com/extism/dotnet-sdk)：Extism .NET Host SDK可轻松从C#和F#应用程序运行WebAssembly模块/插件。
 * [DotWasm](https://github.com/nuskey8/DotWasm)：一个用C#实现的.NET WebAssembly运行时。
+* [TypeShim](https://github.com/ArcadeMode/TypeShim)：TypeShim让.NET WebAssembly和TypeScript之间的互操作变得轻松无比。
 
 ## LLVM
 
@@ -8050,6 +8053,7 @@
 * [FreeSql.Cloud](https://github.com/2881099/FreeSql.Cloud)：为FreeSql提供跨数据库访问，分布式事务TCC、SAGA解决方案。
 * [Castle Transactions](https://github.com/castleproject-deprecated/Transactions)：一个用于.NET和Mono的事务管理项目。
 * [Sagaway](https://github.com/Zio-Net/Sagaway)：Sagaway体现了Saga模式，这是一种在分布式系统中管理事务和确保一致性的复杂方法。
+* [OutboxKit](https://github.com/YakShaveFx/outboxkit)：OutboxKit的目标是提供基础功能，以帮助实现事务性发件箱模式。
 
 ## 幂等
 
@@ -10514,6 +10518,7 @@
 * [FakeDbSet](https://github.com/a-h/FakeDbSet)：FakeDbSet提供了一种快速将InMemoryDbSet引入你的项目的方法。
 * [AWS Lambda Test Server .NET](https://github.com/martincostello/lambda-test-server)：一个NuGet包，提供用于测试AWS Lambda函数的内存测试服务器。
 * [TestContainers .NET](https://github.com/isen-ng/testcontainers-dotnet)：TestContainers Java项目的.NET移植。
+* [Reseed](https://github.com/uladz-zubrycki/Reseed)：Reseed库允许你以方便、可靠和快速的方式初始化和清理集成测试数据库。
 
 #### 接口测试
 
@@ -11115,6 +11120,7 @@
 * [IFilterTextReader](https://github.com/Sicos1977/IFilterTextReader)：一个通过IFilter接口从不同文件格式获取文本的读取器。
 * [FileMap](https://github.com/tomasr/filemap)：用于Win32内存映射文件API的.NET包装库。
 * [K4os.Streams](https://github.com/MiloszKrajewski/K4os.Streams)：.NET内存流池的实现。
+* [AngleSharp.Io](https://github.com/AngleSharp/AngleSharp.Io)：AngleSharp项目的IO库。
 
 ## 文件监听
 
