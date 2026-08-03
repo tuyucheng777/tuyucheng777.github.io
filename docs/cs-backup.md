@@ -1818,10 +1818,7 @@
 ## MCP
 
 * [MCP C# SDK](https://github.com/modelcontextprotocol/csharp-sdk)：MCP协议的官方C# SDK，使.NET应用程序、服务和库能够实现并与MCP客户端和服务器交互。
-* [MSSQL MCP](https://github.com/Aaronontheweb/mssql-mcp)：一个基于.NET的Microsoft SQL Server MCP服务器。
 * [MCPSharp](https://github.com/afrise/MCPSharp)：MCPSharp是一个.NET库，可帮助你构建MCP服务器和客户端。
-* [Windows MCP.Net](https://github.com/shuyu-labs/Windows-MCP.Net)：一个基于.NET的Windows桌面自动化MCP服务器，为AI助手提供与Windows桌面环境交互的能力。
-* [SharpToolsMCP](https://github.com/kooshi/SharpToolsMCP)：SharpTools是一项强大的服务，旨在赋予AI代理理解、分析和修改C#代码库的高级能力。
 * [ModelContextProtocol.NET](https://github.com/salty-flower/ModelContextProtocol.NET)：模型上下文协议(MCP)的C# SDK实现。
 * [Mcp.Net](https://github.com/SamFold/Mcp.Net)：Mcp.Net是MCP的一个.NET实现。
 * [MCP Plugin .NET](https://github.com/IvanMurzak/MCP-Plugin-dotnet)：MCP Plugin .NET是一个用于将.NET应用程序与MCP集成的综合解决方案。
@@ -2099,6 +2096,7 @@
 * [YoloSharpOnnx](https://github.com/meloht/YoloSharpOnnx)：一个高性能、内存可复用、跨平台、面向生产的C# YOLO推理库，基于OpenCV和ONNX Runtime。
 * [Florence2](https://github.com/curiosity-ai/florence2-sharp)：一个轻量级、易于使用的C#库，提供对Microsoft Florence-2基础模型的访问，用于执行高级图像理解任务，包括添加字幕、OCR、对象检测和短语定位。
 * [YoloSharp](https://github.com/Eviav/YoloSharp)：YoloSharp是一个基于ONNX Runtime的YOLO目标检测库，支持多种YOLO模型，包括YOLO26，提供了简洁易用的C# API。
+* [VisualIdentity](https://github.com/shunnet/VisualIdentity)：应用于工业物联网项目上基础视觉识别服务。
 
 ## OCR
 
@@ -2241,6 +2239,7 @@
 * [ChebyshevSharp](https://github.com/0xC000005/ChebyshevSharp)：.NET的多维切比雪夫张量插值及解析导数。
 * [FEM](https://github.com/mgroupntua/FEM)：MSolve库，支持有限元的空间离散化方法。
 * [Nancy](https://github.com/rzippo/nancy)：Nancy是一个C#库，实现了用于最终伪周期分段仿射曲线的(min,+)和(max,+)操作符。
+* [Mathematics.NET](https://github.com/HamletTanyavong/Mathematics.NET)：Mathematics.NET是一个C#类库，提供解决高级数学问题的工具。
 
 ## 矩阵
 
@@ -2611,6 +2610,10 @@
 * [CrestApps.OrchardCore](https://github.com/CrestApps/CrestApps.OrchardCore)：CrestApps.OrchardCore是一组模块和扩展，扩展了Orchard Core框架的能力，加速了现代企业级应用的开发。
 * [NexusLabs.Framework](https://github.com/ncosentino/NexusLabs.Framework)：NexusLabs.Framework是一个针对.NET开发者的综合性工具库。
 * [OwlCore](https://github.com/Arlodotexe/OwlCore)：OwlCore是一个面向.NET开发者的综合性实用工具集。
+* [LuYao .NET](https://github.com/coderbusy/luyao-dotnet)：一个高质量、易用的.NET工具库，提供丰富的通用工具类和扩展方法。
+* [BigCookieKit](https://github.com/BigBigZBBing/BigCookieKit)：BigCookieKit提供常用的.NET工具类。
+* [Dorado](https://github.com/lietou1986/dorado)：.NET开发工具包，零依赖。
+* [CodeArts](https://github.com/tinylit/codearts)：CodeArts是一套简单、高效的轻量级框架。
 
 ## ORM
 
@@ -2892,6 +2895,7 @@
 * [Dapper.Mapper](https://github.com/dotarj/Dapper.Mapper)：Dapper.Mapper是Dapper多重映射的一个扩展，它可以弄清返回对象之间的关系，并自动给它们赋值。
 * [Dapper.FluentColumnMapping](https://github.com/alexander-87/Dapper.FluentColumnMapping)：用于Dapper的流式对象-列映射。
 * [Dapper.Extensions](https://github.com/ZeeLyn/Dapper.Extensions)：一款优秀的扩展库，支持MySQL、SQL Server、PostgreSQL、Oracle、SQLite和ODBC。
+* [Kogel.Dapper.Extension](https://github.com/kogel-net/Kogel.Dapper.Extension)：此框架是Dapper的扩展，效率优于EntityFramework，并且支持.NET Framework和.NET Core。
 
 ## Repository
 
@@ -4384,6 +4388,8 @@
 * [Plumix](https://github.com/Plumix-Net/Plumix)：受Flutter启发的.NET UI框架。
 * [Square](https://github.com/wuldas/Square)：Square是一个纯C#、编译优先、NativeAOT友好的实验性跨平台桌面UI框架。
 * [Ryn](https://github.com/Yupmoh/Ryn)：一个轻量级的跨平台.NET框架，用于构建带有Web用户界面的桌面应用程序。
+* [WebUI.NET](https://github.com/Juff-Ma/WebUI.NET)：WebUI是一个极简的GUI库，它使用已安装的浏览器，而不是捆绑大型浏览器引擎或需要原生WebView支持。
+* [Vidra](https://github.com/rzamfiriu/vidra)：Vidra让.NET团队可以用任何现代Web框架，在原生C#/.NET核心上构建跨平台桌面应用。
 
 ## UI库
 
@@ -6510,6 +6516,7 @@
 * [Runly](https://github.com/runlyio/core-dotnet)：.NET Core的多线程批处理和后台作业。
 * [Taskling.NET](https://github.com/Vanlightly/Taskling.NET)：用于批处理和微批处理任务的API。
 * [Conveyor.Batch](https://github.com/Conveyor-Batch/Conveyor.Batch)：Conveyor.Batch是一个生产级的开源.NET批处理框架，相当于.NET生态系统中的Spring Batch。
+* [NBatch](https://github.com/tenzinkabsang/NBatch)：一个轻量级的.NET批处理框架，灵感来自Spring Batch。
 
 ## 工作流
 
@@ -7230,6 +7237,7 @@
 * [Hardware.Info](https://github.com/Jinjinov/Hardware.Info)：Hardware.Info是一个.NET Standard 2.0库，用于获取硬件信息。
 * [Yubico.NET.SDK](https://github.com/Yubico/Yubico.NET.SDK)：基于.NET构建的企业级跨平台YubiKey集成SDK。
 * [Stream Deck Client C#](https://github.com/TyrenDe/streamdeck-client-csharp)：用于Elgato Stream Deck设备的C#客户端库。
+* [DeckSurf SDK .NET](https://github.com/dend/decksurf-sdk)：为你的Stream Deck提供的非官方软件开发工具包。
 * [SeeSharpTools](https://github.com/SeeSharpOpenSource/SeeSharpTools)：SeeSharpTools是由JYTEK提供的一系列开源.NET库，它帮助开发人员以更简单、更高效的方式构建基于.NET C#语言的测试与测量应用程序。
 * [ASCOMPlatform](https://github.com/ASCOMInitiative/ASCOMPlatform)：ASCOM平台实现了ASCOM接口标准，并提供开发和运行时组件，以简化驱动程序和应用的开发。
 * [Buttplug C#](https://github.com/buttplugio/buttplug-csharp)：Buttplug C#客户端实现。
@@ -7641,6 +7649,7 @@
 * [Windows Metafile Library](https://github.com/papnkukn/wmf)：这个库支持读取和写入WMF文件。
 * [SrcSet](https://github.com/ecoAPM/SrcSet)：用来为Web创建响应式图片集的工具。
 * [InteropTypes](https://github.com/vpenades/InteropTypes)：InteropTypes是一个图像与张量互操作库集合，旨在解决在不同图像处理库和API之间高效、安全地交换位图数据的问题。
+* [BitmapToVector](https://github.com/daltonks/BitmapToVector)：Potrace的.NET Standard移植版，它可以把黑白位图转换成平滑的矢量轮廓。
 
 ## PNG
 
@@ -7667,6 +7676,7 @@
 
 * [Sdcb.WordCloud](https://github.com/sdcb/Sdcb.WordCloud)：Sdcb.WordCloud是一个多功能的跨平台库，用于根据词频生成文字云图像、SVG或JSON数据。
 * [WordCloudSharp](https://github.com/AmmRage/WordCloudSharp)：Codeplex .NET移植。
+* [KnowledgePicker.WordCloud](https://github.com/knowledgepicker/word-cloud)：KnowledgePicker.WordCloud是一个现代且快速的库，用于排列和绘制词云。
 
 ## 头像库
 
@@ -8374,6 +8384,7 @@
 * [MQTTClient.Rx](https://github.com/1iveowl/MQTTClient.rx)：MQTTnet的响应式扩展。
 * [NanoFramework M2Mqtt](https://github.com/nanoframework/nanoFramework.m2mqtt)：.NET NanoFramework MQTT类库。
 * [MQTTnet.Rx](https://github.com/ChrisPulman/MQTTnet.Rx)：MQTTnet的响应式扩展和辅助程序，使使用IObservable流构建事件驱动的MQTT客户端和服务器变得简单。
+* [XiaoFeng.Mqtt](https://github.com/zhuovi/XiaoFeng.Mqtt)：XiaoFeng.Mqtt实现了MQTT客户端、服务端，同时支持TCP、WebSocket连接。
 
 ## CoAP
 
@@ -9769,6 +9780,7 @@
 * [Unified](https://github.com/SergiySeletsky/Unified)：统一ID .NET实现。
 * [Strongly](https://github.com/lucasteles/Strongly)：Strongly让创建强类型值像添加一个属性一样简单。
 * [Be.Vlaanderen.Basisregisters.Generators.Deterministic](https://github.com/Informatievlaanderen/deterministic-guid-generator)：根据命名空间、字符串和可选版本创建一个确定性的GUID。
+* [DaanV2.UUID.Net](https://github.com/DaanV2/DaanV2.UUID.Net)：一个用于处理和生成UUID的库。
 
 ## 随机生成器
 
@@ -10428,7 +10440,6 @@
 * [Fluent Assertions](https://github.com/fluentassertions/fluentassertions)：Fluent Assertions提供了一套全面的扩展方法，使开发人员能够以自然、可读的方式表达TDD和BDD单元测试的预期结果。
 * [Shouldly](https://github.com/shouldly/shouldly)：Shouldly是一个断言框架，它专注于在断言失败时给出清晰的错误消息，同时又简单而简洁。
 * [NFluent](https://github.com/tpierrain/NFluent)：NFluent是一个断言库，旨在使你的.NET TDD体验更加流畅。
-* [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions)：由社区控制的FluentAssertions的一个分支。
 * [Should](https://github.com/erichexter/Should)：Should为AAA和BDD风格测试的测试断言提供了一组扩展方法。
 * [Assert.XUnit](https://github.com/xunit/assert.xunit)：xUnit.NET的断言库。
 * [PowerAssert.Net](https://github.com/PowerAssert/PowerAssert.Net)：.NET的可读、可写测试断言。
@@ -10666,6 +10677,7 @@
 * [GuiTestSharp](https://github.com/PlasticSCM/GuiTestSharp)：一个可扩展的多平台框架，用于测试WinForms、WPF、GtkSharp和Xamarin.Mac中的GUI。
 * [MAQS](https://github.com/Magenic/MAQS)：MAQS是一个模块化测试自动化框架。
 * [Motus](https://github.com/DataficationSDK/Motus)：这是一个可扩展的.NET浏览器自动化和测试框架。
+* [Keysharp](https://github.com/keysharp-org/Keysharp)：Keysharp是一个跨平台的C#实现的AutoHotkey v2。
 
 ## Selenium
 
