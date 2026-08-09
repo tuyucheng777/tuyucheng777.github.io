@@ -85,7 +85,7 @@ permalink: /javalibs
   * [LLM框架](#LLM框架)
   * [LLM客户端](#LLM客户端)
   * [代理框架](#代理框架)
-  * [推理引擎](#推理引擎)
+  * [LLM推理](#LLM推理)
   * [MCP](#MCP)
   * [A2A](#A2A)
   * [RAG](#RAG)
@@ -126,6 +126,7 @@ permalink: /javalibs
     * [语言检测](#语言检测)
     * [拼写检查](#拼写检查)
     * [WordNet](#WordNet)
+  * [模型推理](#模型推理)
   * [模型训练](#模型训练)
   * [因果推理](#因果推理)
   * [专家系统](#专家系统)
@@ -3533,7 +3534,7 @@ permalink: /javalibs
 * [Loopra](https://gitee.com/ezdemo/loopra)：Loopra是一个纯Java生态的AI编码代理框架。
 * [Hensu](https://github.com/hensu-project/hensu)：Hensu将AI代理工作流定义为类型安全的Kotlin DSL中的有向图，将其编译成可移植的JSON工件，并在GraalVM原生服务器上执行。
 
-### 推理引擎
+### LLM推理
 
 * [JLama](https://github.com/tjake/Jlama)：JLama是Java的现代LLM推理引擎，由DataStax开发。
 * [Llama3.java](https://github.com/mukel/llama3.java)：Java中的实用Llama 3推理。
@@ -3541,24 +3542,13 @@ permalink: /javalibs
 * [GPULlama3](https://github.com/beehive-lab/GPULlama3.java)：使用原生Java编写的Llama3模型，通过TornadoVM在GPU上自动加速，由曼彻斯特大学开源。
 * [UOLLM](http://www.useopen.com/p/uollm/)：UOLLM是一款使用Java语言开发AI应用的中间件产品，集成使用LLM大语言模型服务器和向量数据库，永源的商业产品。
 * [LLama Java](https://github.com/kherud/java-llama.cpp)：Facebook LLama的Java绑定。
-* [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
-* [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
-* [cuBERT](https://github.com/zhihu/cuBERT)：在NVIDIA和Intel MKL上直接快速实现BERT推理，由知乎开源。
-* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
-* [Inference4j](https://github.com/inference4j/inference4j)：Inference4j是一个基于ONNX Runtime构建的Java推理专用AI库。
 * [Gemma4.java](https://github.com/mukel/gemma4.java)：用纯Java编写的快速、零依赖的Gemma 4推理引擎。
 * [Deliverance](https://github.com/edwardcapriolo/deliverance)：Deliverance是一个Java推理引擎，能够生成文本、对输入进行分词、计算嵌入等。
 * [LLM.Java](https://github.com/harryjackson/llm.java)：Java中的LLM推理移植。
 * [Micronaut Llama3](https://github.com/seehiong/micronaut-llama3)：使用Micronaut和GraalVM原生镜像的高性能Llama3实现。
 * [LightMetal](https://github.com/AdamBien/lightmetal)：Lightmetal是一个让Java开发者能够在Apple Silicon上，利用Metal和Llama.cpp进行GPU加速的LLM推理的工具。
 * [Quixotic](https://github.com/qxoticai/qxotic)：Quixotic提供核心构建模块，用于在JVM上原生运行LLM推理、模型加载、分词和张量操作，并在需要时提供原生性能的CPU/GPU后端。
-* [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
-* [Cyc Java API Suite](https://github.com/cycorp/api-suite)：Cyc Java API Suite包含一系列Java API，用于开发基于Cyc的应用程序或以其他方式访问Cyc功能，并提供分层功能套件。
 * [Libargus](https://github.com/ProjectArgus-cc/libargus.cc)：Libargus是一个超精简、高性能、与模型无关的推理包装器。
-* [KMPLiteRT](https://github.com/leitingzi/kmplitert)：高性能、类型安全的Kotlin多平台库，适用于Google LiteRT。
-* [Stable Diffusion Webui Java SDK](https://github.com/Robothy/sdwebui-java-sdk)：Stable Diffusion Webui Java SDK是一个Java库，用于构建与Stable Diffusion Webui集成的Java应用程序。
-* [Treetops](https://github.com/horoc/treetops)：基于ASM动态代码生成框架的快速LightGBM树模型推理Java库。
-* [LightGBM4J](https://github.com/seek-oss/lightgbm4j)：一个用Scala编写的用于生产环境中推理的LightGBM JVM接口。
 
 ### MCP
 
@@ -4383,30 +4373,46 @@ permalink: /javalibs
 * [TurkishWordNet](https://github.com/StarlangSoftware/TurkishWordNet)：土耳其WordNet KeNet。
 * [UFSAC](https://github.com/getalp/UFSAC)：UFSAC是一个包含所有WordNet Sense标注语料库的资源库，以及一个用于操作这些语料库的Java库。
 
-### 模型训练
+### 模型推理
 
 * [ONNX Runtime](https://github.com/microsoft/onnxruntime/tree/main/java)：ONNX Runtime是一个跨平台推理和训练机器学习加速器，由Microsoft开源。
 * [ONNX Runtime Java](https://github.com/yuzawa-san/onnxruntime-java)：ONNX Runtime的类型安全、轻量级、现代且高性能的Java绑定。
+* [OpenMLDB](https://github.com/4paradigm/OpenMLDB)：OpenMLDB是一个开源机器学习数据库，为训练和推理提供计算一致特征的特征平台，由4Paradigm开源。
+* [Zoltar](https://github.com/spotify/zoltar)：Zoltar是一个用于在生产环境中服务TensorFlow、XGBoost和Scikit Learn模型的通用库，由Spotify开源。
+* [KInference](https://github.com/JetBrains-Research/kinference)：KInference是一个库，它使得在Kotlin中执行复杂的ML模型成为可能，由JetBrains开源。
+* [AI Serving](https://github.com/autodeployai/ai-serving)：AI Serving是一种灵活、高性能的推理系统，适用于机器学习和深度学习模型，专为生产环境而设计。
+* [Deep Learning Flink](https://github.com/flink-extended/dl-on-flink)：Deep Learning Flink旨在集成Flink和深度学习框架，以在Flink集群上实现分布式深度学习训练和推理。
+* [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。
+* [Onnx4j](https://github.com/onnx4j/onnx4j)：Onnx4j是一个面向ONNX的Java表达项目，其并不提供具体的运算实现。
+* [Petrify](https://github.com/exabrial/petrify)：Petrify是一个超轻量级的JVM机器学习模型编译器。
+* [Triton](https://github.com/triton-inference-server/client)：Triton Python、C++和Java客户端库。
+* [SD4J](https://github.com/oracle/sd4j)：此仓库包含在ONNX运行时之上运行的Stable Diffusion推理的实现，由Oracle开源。
+* [cuBERT](https://github.com/zhihu/cuBERT)：在NVIDIA和Intel MKL上直接快速实现BERT推理，由知乎开源。
+* [Open NARS](https://github.com/opennars/opennars)：Open NARS是NARS的开源版本，NARS是一个通用AI系统，设计为推理系统框架。
+* [Inference4j](https://github.com/inference4j/inference4j)：Inference4j是一个基于ONNX Runtime构建的Java推理专用AI库。
+* [DeepJ](https://github.com/KirstenAli/DeepJ)：一个轻量级的纯Java Transformer库。
+* [Cyc Java API Suite](https://github.com/cycorp/api-suite)：Cyc Java API Suite包含一系列Java API，用于开发基于Cyc的应用程序或以其他方式访问Cyc功能，并提供分层功能套件。
+* [KMPLiteRT](https://github.com/leitingzi/kmplitert)：高性能、类型安全的Kotlin多平台库，适用于Google LiteRT。
+* [Stable Diffusion Webui Java SDK](https://github.com/Robothy/sdwebui-java-sdk)：Stable Diffusion Webui Java SDK是一个Java库，用于构建与Stable Diffusion Webui集成的Java应用程序。
+* [Treetops](https://github.com/horoc/treetops)：基于ASM动态代码生成框架的快速LightGBM树模型推理Java库。
+* [LightGBM4J](https://github.com/seek-oss/lightgbm4j)：一个用Scala编写的用于生产环境中推理的LightGBM JVM接口。
+
+### 模型训练
+
 * [Xtreme1](https://github.com/xtreme1-io/xtreme1)：Xtreme1是一个用于多模态训练数据的一体化开源平台，由倍赛开发。
 * [TorchServe](https://github.com/pytorch/serve)：TorchServe是一种灵活且易于使用的工具，用于在生产中提供和扩展PyTorch模型，由AWS和Facebook开源。
 * [Chronon](https://github.com/airbnb/chronon)：Chronon是一个抽象出数据计算复杂性并为AI/ML应用程序提供服务的平台，由Airbnb开源。
 * [DJL Serving](https://github.com/deepjavalibrary/djl-serving)：DJL Serving是由DJL提供支持的高性能通用独立模型服务解决方案，由AWS开源。
 * [ModelMesh](https://github.com/kserve/modelmesh)：ModelMesh框架是一个成熟的通用模型，服务于管理层/路由层，专为高规模、高密度和频繁变化的模型用例而设计，由IBM开源。
-* [OpenMLDB](https://github.com/4paradigm/OpenMLDB)：OpenMLDB是一个开源机器学习数据库，为训练和推理提供计算一致特征的特征平台，由4Paradigm开源。
 * [DSSTNE](https://github.com/amazon-archives/amazon-dsstne/tree/master/java)：DSSTNE是一个软件库，用于训练和部署具有稀疏输入、全连接隐藏层和稀疏输出的推荐模型，由Amazon开发。
-* [Zoltar](https://github.com/spotify/zoltar)：Zoltar是一个用于在生产环境中服务TensorFlow、XGBoost和Scikit Learn模型的通用库，由Spotify开源。
 * [Mobius](https://github.com/ray-project/mobius)：Mobius是一个包括实时计算和训练的人工智能基础平台，由加州大学伯克利分校开源。
 * [Aurora](https://github.com/AcaiSoftware/aurora)：Aurora是用于模型训练、评估、部署、调整和基准测试的Java机器学习框架。
-* [KInference](https://github.com/JetBrains-Research/kinference)：KInference是一个库，它使得在Kotlin中执行复杂的ML模型成为可能，由JetBrains开源。
-* [AI Serving](https://github.com/autodeployai/ai-serving)：AI Serving是一种灵活、高性能的推理系统，适用于机器学习和深度学习模型，专为生产环境而设计。
-* [Deep Learning Flink](https://github.com/flink-extended/dl-on-flink)：Deep Learning Flink旨在集成Flink和深度学习框架，以在Flink集群上实现分布式深度学习训练和推理。
 * [WekaDeeplearning4j](https://github.com/Waikato/wekaDeeplearning4j)：WekaDeeplearning4j让用户能够在Weka环境中训练和测试深度学习模型，由怀卡托大学开源。
 * [OpenPAI](https://github.com/microsoft/pai)：OpenPAI是一个开源平台，提供完整的AI模型训练和资源管理能力，易于扩展并支持各种规模的本地、云和混合环境，由Microsoft开源。
 * [Airy](https://github.com/airyhq/airy)：Airy是一个开源流应用程序框架，用于训练ML模型并向其提供历史和实时数据。
 * [Primus](https://github.com/bytedance/primus)：Primus是用于机器学习应用程序的通用分布式调度框架，它管理TensorFlow等机器学习训练器的训练生命周期和数据分布，以执行大规模分布式训练，由字节开源。
 * [Serenade](https://github.com/serenadeai/serenade)：该仓库包含Serenade客户端应用程序、在线服务(如语音引擎、代码引擎和核心应用程序)和模型训练的代码。
 * [Multi Model Server](https://github.com/awslabs/multi-model-server)：MMS是一种灵活且易于使用的工具，用于为使用任何ML/DL框架训练的深度学习模型提供服务，由AWS开源。
-* [Easy BERT](https://github.com/robrua/easy-bert)：Easy BERT是一个非常简单的API，用于使用Google高质量的BERT语言模型。
 * [Openscoring](https://github.com/openscoring/openscoring)：用于对PMML模型进行评分的REST Web服务。
 * [Konduit](https://github.com/KonduitAI/konduit-serving)：Konduit Serving是一个专注于将机器学习流水线部署到生产环境的服务系统和框架。
 * [Pattern](https://github.com/Cascading/pattern)：Pattern是一个用于大规模机器学习模型评分的级联框架和库。
@@ -4416,8 +4422,6 @@ permalink: /javalibs
 * [Spark ML Serving](https://github.com/Hydrospheredata/spark-ml-serving)：Spark ML的无上下文机器学习实现。
 * [Lightning Server](https://github.com/lightningkite/lightning-server)：一个能够大幅提升服务器开发速度的项目，堪比Python版的Django。
 * [Tensorflow Deploy](https://github.com/handong0123/tensorflow_deploy)：简化与优化Tensorflow模型的Java部署。
-* [Onnx4j](https://github.com/onnx4j/onnx4j)：Onnx4j是一个面向ONNX的Java表达项目，其并不提供具体的运算实现。
-* [Petrify](https://github.com/exabrial/petrify)：Petrify是一个超轻量级的JVM机器学习模型编译器。
 
 ### 因果推理
 

@@ -67,7 +67,7 @@
 * [OpenAI客户端](#OpenAI客户端)
 * [智能体](#智能体)
 * [NL2SQL](#NL2SQL)
-* [推理引擎](#推理引擎)
+* [LLM推理](#LLM推理)
 * [代理框架](#代理框架)
 * [Jupyter](#Jupyter)
 * [自然语言处理](#自然语言处理)
@@ -77,6 +77,7 @@
 * [敏感词过滤](#敏感词过滤)
 * [神经网络](#神经网络)
 * [深度学习](#深度学习)
+* [模型推理](#模型推理)
 * [推荐系统](#推荐系统)
 * [语音识别](#语音识别)
 * [语音合成](#语音合成)
@@ -1930,11 +1931,8 @@
 * [Standard.AI.Data.EntityIntelligence](https://github.com/hassanhabib/Standard.AI.Data.EntityIntelligence)：.NET库，用于将自然语言查询转换为SQL查询并生成结果。
 * [AgentQL](https://github.com/daniel3303/AgentQL)：这是一个可重用的.NET库，它将EF Core DbContext模型转换为LLM友好的模式描述，并提供安全的SQL查询执行。
 
-## 推理引擎
+## LLM推理
 
-* [OpenVINO.NET](https://github.com/sdcb/OpenVINO.NET)：高质量的OpenVINO工具包.NET封装。
-* [NcnnDotNet](https://github.com/takuya-takeuchi/NcnnDotNet)：用C++和C#编写的Ncnn封装程序，支持Windows、macOS、Linux、iOS和Android平台。
-* [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET)：StableDiffusion.cpp的C#封装。
 * [MicroGPT.cs](https://github.com/milanm/AutoGrad-Engine)：一个完整的GPT语言模型，使用纯C#编写，无任何依赖。
 * [DotLLM](https://github.com/kkokosa/dotLLM)：DotLLM是一个为.NET量身打造的底层LLM推理引擎。
 * [Llm.cs](https://github.com/nietras/Llm.cs)：LLM.c的C#移植。
@@ -1943,7 +1941,6 @@
 * [Llama2.CS](https://github.com/trrahul/llama2.cs)：单C#文件中的Llama 2推理。
 * [Llama.cpp .NET](https://github.com/dranger003/llama.cpp-dotnet)：Llama.cpp库的最小C#绑定。
 * [LLaMA.NET](https://github.com/hpretila/llama.net)：用于在CPU上进行LLaMA语言模型推理的LLaMA.cpp的.NET封装器。
-* [Lobe.NET](https://github.com/lobe/lobe.NET)：用于在导出的Lobe模型上运行推理的.NET库。
 * [HuggingFace](https://github.com/tryAGI/HuggingFace)：Hugging Face API的C# SDK。
 * [GGMLSharp](https://github.com/SciSharp/GGMLSharp)：GGMLSharp是一个用于C#的GGML API。
 * [TensorSharp](https://github.com/zhongkaifu/TensorSharp)：一个用于在本地运行GGUF语言模型的C#推理引擎。
@@ -2063,6 +2060,13 @@
 * [YoloDeployCsharp](https://github.com/guojin-yan/YoloDeployCsharp)：基于C#的YOLO系列深度学习模型部署平台。
 * [KAMONOHASHI](https://github.com/KAMONOHASHI/kamonohashi)：KAMONOHASHI是一个专为高效开发深度学习模型而设计的AI开发平台。
 * [Merkurius](https://github.com/milchchan/Merkurius)：.NET平台的可移植深度学习库实现。
+
+## 模型推理
+
+* [OpenVINO.NET](https://github.com/sdcb/OpenVINO.NET)：高质量的OpenVINO工具包.NET封装。
+* [NcnnDotNet](https://github.com/takuya-takeuchi/NcnnDotNet)：用C++和C#编写的Ncnn封装程序，支持Windows、macOS、Linux、iOS和Android平台。
+* [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET)：StableDiffusion.cpp的C#封装。
+* [Lobe.NET](https://github.com/lobe/lobe.NET)：用于在导出的Lobe模型上运行推理的.NET库。
 
 ## 推荐系统
 
