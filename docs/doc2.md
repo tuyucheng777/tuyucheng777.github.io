@@ -7224,7 +7224,7 @@
 * [Secure Graph](https://github.com/lumifyio/securegraph)：Secure Graph是一个用于操作图的API。
 * [Antiquity](https://github.com/indexiatech/antiquity)：Antiquity是一个Blueprints扩展，它为任何Blueprints图提供完整的版本控制和历史记录支持。
 * [Blueprints](https://github.com/dmitriid/blueredis)：Blueprints是一个与数据库无关的图处理库。
-* [Apache HugeGraph Toolchain](https://github.com/apache/hugegraph-toolchain)：一套全面的客户端SDK、数据工具和管理实用程序，适用于Apache HugeGraph图数据库。
+* [Apache HugeGraph Computer](https://github.com/apache/hugegraph-computer)：Apache HugeGraph-Computer是一个全面的图计算解决方案。
 
 ## Graphviz
 
@@ -12767,7 +12767,7 @@ Kafka生态管理系统、运维平台。
 * [HDIS Framework](https://gitee.com/w6513017/HDIS-Framework)：HDIS Framework是一个基于Spring Boot、Kubernetes、阿里云服务编写的一个用于支撑微服务的极速开发框架。
 * [Soraka](https://gitee.com/beiyoufx/soraka)：Soraka是一个基于Spring Cloud的基础微服务开发框架。
 * [Slavic](https://gitee.com/weixin54321a/slavic)：基于Spring Boot的Java应用开发基础通用脚手架。
-* [CyFast](https://gitee.com/leiyuxi/cy-fast)：基于Spring Boot的快速开发框架。·
+* [CyFast](https://gitee.com/leiyuxi/cy-fast)：基于Spring Boot的快速开发框架。
 * [JBM](https://gitee.com/numen06/JBM)：JBM是一个基于Spring Boot的企业级模块化开发框架，它为构建分布式、多租户的企业应用提供了完整的技术集成和基础功能。
 * [SmallMind](https://github.com/zenbones/SmallMind)：SmallMind是一个全面的多模块Java框架，用于构建企业级应用程序。
 
