@@ -6777,7 +6777,7 @@ permalink: /javalibs
 * [JUnit 5 Kotlin](https://github.com/dpreussler/junit5-kotlin)：JUnit 5参数化测试的SealedClassesSource。
 * [Parameterized Suite](https://github.com/PeterWippermann/parameterized-suite)：为JUnit 4提供了一个新的Runner，它结合了Suite和Parameterized的特性。
 * [TestNG DataProviders](https://github.com/sergueik/testng-dataproviders)：支持各种Office格式的测试数据提供器。
-* [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：JUnit测试运行器和用于运行JUnit测试的插件，具有伪随机性。 
+* [RandomizedTesting](https://github.com/randomizedtesting/randomizedtesting)：JUnit测试运行器和用于运行JUnit测试的插件，具有伪随机性。
 
 #### Selenium
 
@@ -25040,7 +25040,7 @@ Kafka生态管理系统、运维平台。
 * [Thingifier](https://github.com/eviltester/thingifier)：基于实验性ER模型的CRUD应用生成引擎。
 * [CRUDGen](https://github.com/bariskokulu/CRUDGen)：Spring Boot的编译时注解处理器，无需运行时反射即可生成可预测的REST API、DTO、JSON Patch端点和N+1安全的JPA存储库。
 * [CobiGen](https://github.com/devonfw/cobigen)：CobiGen被构建为一个可扩展的增量代码生成框架。
-* [AGCode](https://gitee.com/you-yuan/AutoGeneratorCode)：AGCode是一个功能强大且极易操作的文件/代码批量生成引擎，帮助你从繁杂的基础代码编写中彻底解放。 
+* [AGCode](https://gitee.com/you-yuan/AutoGeneratorCode)：AGCode是一个功能强大且极易操作的文件/代码批量生成引擎，帮助你从繁杂的基础代码编写中彻底解放。
 * [Codgen](https://gitee.com/htengen/codgen)：Codgen是一个强大而灵活的代码生成器，它基于数据库元数据模型，使用FreeMarker模板引擎自动生成多层架构的代码文件。
 * [Spring Boot Generator](https://www.springboot-generator.com/)：基于浏览器的Spring Boot CRUD REST API生成器，可根据可视化模式生成后端和可选的Angular或React前端。
 
