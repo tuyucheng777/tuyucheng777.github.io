@@ -1115,6 +1115,7 @@
 * [Dyd.BusinessMQ](https://gitee.com/chejiangyi/Dyd.BusinessMQ)：Dyd.BusinessMQ提供了一个分布式、高性能、高可靠性的业务消息队列解决方案。
 * [NewLife.MQ](https://github.com/NewLifeX/NewLife.MQ)：NewLife.MQ是一个轻量级消息队列，无延迟分发、支持消费组和消息去重，不支持集群部署。
 * [ServiceBroker.Net](https://github.com/jdaigle/servicebroker.net)：一个简单的SQL Service Broker封装API，以及NServiceBus的ITransport插件。
+* [Westwind.QueueMessageManager](https://github.com/RickStrahl/Westwind.QueueMessageManager)：.NET库，提供一个简单的双向消息队列，用于将长时间运行的操作卸载到其他进程/机器上。
 
 ## 消息队列客户端
 
@@ -2667,6 +2668,9 @@
 * [CodeArts](https://github.com/tinylit/codearts)：CodeArts是一套简单、高效的轻量级框架。
 * [Saritasa Tools](https://github.com/saritasa-nest/saritasa-dotnet-tools)：Saritasa的基础设施组件和开发工具。
 * [JadeFramework](https://github.com/wangmaosheng/JadeFramework)：一些常用的辅助类和扩展方法包。
+* [Simplify](https://github.com/SimplifyNet/Simplify)：Simplify是一套开源的轻量级.NET库，为你的应用程序提供基础设施。
+* [Nextended](https://github.com/fgilde/Nextended)：一套由18个.NET库组成的套件，扩展方法、自定义类型、缓存、EF Core、ASP.NET Core响应过滤、源代码生成以及.NET Aspire托管集成。
+* [Westwind.AspNetCore](https://github.com/RickStrahl/Westwind.AspNetCore)：为ASP.NET Core提供实用辅助函数、格式化程序和扩展的实用程序库。
 
 ## ORM
 
@@ -4007,6 +4011,7 @@
 * [Vue Simple Template](https://github.com/Jaxelr/VueSimpleTemplate)：一个用于Vuejs 3.X的最小化.NET模板，使用单文件组件。
 * [MiniClean.Template](https://github.com/dorlugasigal/MiniClean.Template)：一个用于.NET 10 Minimal API的Clean Architecture项目的通用模板。
 * [TauriNET](https://github.com/RubenPX/TauriNET)：这个模板能帮助你开始使用Tauri、.NET和Vite进行开发。
+* [Starbase](https://github.com/Red-Cardinal-Software/Secure-DotNet-Clean-Architecture)：一个安全可靠、企业级的.NET API模板，采用Clean Architecture。
 
 ## 后台管理系统
 
@@ -4123,6 +4128,7 @@
 * [Firebend.AutoCrud](https://github.com/firebend/auto-crud)：一个提供CRUD .NET核心服务的框架。
 * [HCore](https://github.com/rh78/HCore)：一个有见解的项目集合，帮你打造出色的ASP.NET Core项目。
 * [CFCFrame](https://github.com/mqg007/CFCFrame)：CFCFrame是基于Angular和WCF的一套微服务研发框架。
+* [Compendium](https://github.com/SCOJH/Compendium)：一个务实的.NET框架，用于构建事件溯源的多租户SaaS应用程序。
 
 ## 权限管理系统
 
@@ -4712,6 +4718,7 @@
 * [ColorPickerWPF](https://github.com/sh-akira/ColorPickerWPF)：类似Unity编辑器的WPF的颜色选择器。
 * [WPF Circular Gauge](https://github.com/mesta1/WPF-Circular-Gauge)：WPF CircularGauge.dll是基于EvelynT代码的仪表UserControl。
 * [Caliburn.Micro.Telerik](https://github.com/vcaraulean/Caliburn.Micro.Telerik)：一个包含Telerik可视化控件的Caliburn.Micro约定的库。
+* [Westwind.Wpf.Statusbar](https://github.com/RickStrahl/Westwind.Wpf.Statusbar)：一个用于提供动画状态栏操作的小型WPF库。
 
 #### WPF主题库
 
@@ -5373,6 +5380,7 @@
 * [BlazorPrettyCode](https://github.com/chanan/BlazorPrettyCode)：Blazor Pretty Code是一个组件，供其他组件创建者在其文档页面上展示代码片段。
 * [UISupportBlazor](https://github.com/Graphene-Lab/UISupportBlazor)：Blazor的AI渲染GUI和自动API。
 * [Flare](https://github.com/jrfrigat/Flare)：适用于.NET 10的Blazor组件库，支持Material Design 3和Fluent UI 2主题。
+* [QuickGrid.Toolkit](https://github.com/VaclavElias/QuickGrid.Toolkit)：QuickGrid.Toolkit扩展了Blazor QuickGrid，提供可重用的动态列管理和一些小的UI工具。
 
 ## IDE
 
@@ -8225,6 +8233,7 @@
 * [OutboxKit](https://github.com/YakShaveFx/outboxkit)：OutboxKit的目标是提供基础功能，以帮助实现事务性发件箱模式。
 * [OrangeLoop.Sagas](https://github.com/orangeloop/sagas)：使用IDbTransaction和Sagas来协调跨域事务的.NET UnitOfWork模式实现。
 * [UnitOfWorkCore](https://github.com/piotrekh/unit-of-work-core)：一个独立的工作单元组件，适用于Entity Framework Core 2.0和ASP.NET Core 2.0。
+* [DynamoDBv2.Transactions](https://github.com/vitalybibikov/DynamoDBv2.Transactions)：一个高性能的.NET库，用于Amazon DynamoDB事务，支持编译时源代码生成。
 
 ## 幂等
 
@@ -8589,6 +8598,7 @@
 * [AutoCAD Code Pack](https://github.com/jankozik/AutoCAD_CodePack)：AutoCAD Code Pack是一个功能强大的库，可帮助你使用AutoCAD .NET API开发AutoCAD插件。
 * [PiaNO](https://github.com/phusband/PiaNO)：一个用于打开和修改AutoDesk绘图文件(.pc3、.pmp、.stb、.ctb)的参考库。
 * [Ara3D SDK](https://github.com/ara3d/ara3d-sdk)：Ara3D SDK是一套功能强大的开源C#库，用于处理、转换和可视化大规模3D模型，专为AEC工作流程量身定制。
+* [Tida.CAD](https://github.com/JanusTida/Tida.CAD)：Tida.CAD是一个基于.NET平台的CAD框架，注重高扩展性、MVVM友好性和高性能。
 
 ## MQTT
 
@@ -9310,7 +9320,8 @@
 * [Direction.NFSe.Danfe](https://github.com/JairoMarques/direction-nfse-danfe)：.NET库，用于从国家NFSe(DPS/NFSe)的XML生成DANFSe(PDF)，无需依赖外部端点，可实现高容量、低延迟和完全的布局自定义。
 * [ARSoftware.Cfdi.DescargaMasiva](https://github.com/AndresRamos/ARSoftware.Cfdi.DescargaMasiva)：该项目是一个库，它公开了类和服务，可以使用SAT网络服务批量下载CFDI。
 * [GeeSuthSoft.KSA.ZATCA](https://github.com/GeeSuth/GeeSuthSoft.KSA.ZATCA)：GeeSuthSoft.KSA.ZATCA是一个.NET库，旨在帮助开发人员集成沙特阿拉伯的ZATCA(天课、税务和海关总署)相关要求。
-* [](https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional)：用于发布和传输NFSe国家标准的库。
+* [OpenAC.Net.NFSe.Nacional](https://github.com/OpenAC-Net/OpenAC.Net.NFSe.Nacional)：用于发布和传输NFSe国家标准的库。
+* [GasperSoft.SUNAT](https://github.com/GasperSoft/GasperSoft.SUNAT)：.NET库集合，用于生成秘鲁电子发票所需的XML文件。
 
 ## NFC
 
@@ -10108,6 +10119,7 @@
 * [DHTSpider](https://github.com/zhangkong828/DHTSpider)：一个用C#编写的非常简单的DHT爬虫。
 * [MagicBox](https://github.com/ShivrajY/MagicBox)：MagicBox是一个基于配置的异步.NET网络爬虫框架。
 * [WebReaper](https://github.com/alex-on-ai/WebReaper)：AI原生的网页抓取工具。
+* [Spidey](https://github.com/JaCraig/Spidey)：Spidey是一个灵活且可扩展的.NET库，用于抓取网页内容。
 
 ## 短链
 
@@ -10230,6 +10242,7 @@
 * [Orc.FileSystem](https://github.com/WildGums/Orc.FileSystem)：该库将文件系统方法封装在服务中。
 * [VirtualFileSystem](https://github.com/axuno/VirtualFileSystem)：虚拟文件系统，可以管理物理文件系统上不存在的文件。
 * [Cactus.Fileserver](https://github.com/CactusSoft/Cactus.Fileserver)：一个简单的库，用于快速构建你自己的文件存储微服务。
+* [OwlCore.Storage](https://github.com/Arlodotexe/OwlCore.Storage)：OwlCore.Storage是一个为.NET应用设计的文件系统抽象层库。
 
 ## NTFS
 
@@ -10310,6 +10323,8 @@
 * [AspSecurityHeaders](https://github.com/BrickmakersGmbH/AspSecurityHeaders)：一个用于ASP.NET(Core)的轻量包，用于自动配置安全的HTTP头。
 * [U2F](https://github.com/brucedog/U2F_Core)：.NET Core的U2F库。
 * [ZAP API .NET](https://github.com/zaproxy/zap-api-dotnet)：ZAP .NET API。
+* [FluentCertificates](https://github.com/lethek/FluentCertificates)：FluentCertificates是一个使用不可变Fluent Builder模式的库，用于轻松创建、查找和导出证书。
+* [OSV.NET](https://github.com/JamieMagee/osv.net)：一个用于开源漏洞(OSV)架构和API客户端的.NET库。
 
 ## 安全框架
 
@@ -10458,6 +10473,7 @@
 * [SessionStorage](https://github.com/Blazored/SessionStorage)：SessionStorage是一个库，为Blazor应用程序提供访问浏览器会话存储API的功能。
 * [Harbour.RedisSessionStateStore](https://github.com/TheCloudlessSky/Harbour.RedisSessionStateStore)：这是一个使用ServiceStack.Redis用C#编写的基于Redis的SessionStateStoreProvider。
 * [RedisSessionProvider](https://github.com/leewang0/RedisSessionProvider)：RedisSessionProvider是一个类库，它改变了ASP.NET的Session属性的行为，以便有效地将数据持久化到Redis服务器。
+* [AspNetSessionState](https://github.com/aspnet/AspNetSessionState)：SessionStateModule是ASP.NET的默认会话状态处理程序，它负责检索会话数据并将其写入会话状态存储。
 
 ## Paseto
 
@@ -10787,6 +10803,7 @@
 * [DatabaseBenchmark](https://github.com/STSSoft/DatabaseBenchmark)：Database Benchmark是一个强大的开源工具，专为对具有大数据流的数据库进行压力测试而设计。
 * [JMeter .NET DSL](https://github.com/abstracta/jmeter-dotnet-dsl)：简单易用的.NET API，以JMeter为引擎，以Git和程序员友好的方式运行性能测试。
 * [BenchmarkIt](https://github.com/joeyciechanowicz/BenchmarkIt)：简单易用的.NET代码基准测试工具，适用于测试少量代码。
+* [Sailfish](https://github.com/paulegradie/Sailfish)：Sailfish是一个.NET性能测试框架，它可以轻松编写、运行和分析具有统计严谨性的性能测试。
 
 ## 契约测试
 
@@ -10974,6 +10991,7 @@
 * [Motus](https://github.com/DataficationSDK/Motus)：这是一个可扩展的.NET浏览器自动化和测试框架。
 * [Keysharp](https://github.com/keysharp-org/Keysharp)：Keysharp是一个跨平台的C#实现的AutoHotkey v2。
 * [CrossMacro](https://github.com/alper-han/CrossMacro)：CrossMacro是一个跨平台的桌面自动化应用，用于记录、编辑、安排和重放鼠标/键盘操作流程。
+* [Patchright .NET](https://github.com/DevEnterpriseSoftware/patchright-dotnet)：Patchright .NET是一个经过修补、专门用于绕过网站反爬/反机器人检测的Playwright .NET框架分支。
 
 ## Selenium
 
@@ -11550,6 +11568,8 @@
 * [SharpHDiffPatch.Core](https://github.com/CollapseLauncher/SharpHDiffPatch.Core)：SharpHDiffPatch是一个用C#编写的HDiffPatch格式补丁库，目的作为HPatchZ实现的移植。
 * [ZlibStream](https://github.com/SixLabors/ZlibStream)：.NET的Zlib托管实现。
 * [LibZipSharp](https://github.com/dotnet/android-libzipsharp)：围绕Libzip的一个托管包装器。
+* [Libarchive .NET](https://github.com/jas88/libarchive.net)：.NET包装器，用于出色的libarchive项目，提供对多种归档和压缩格式的读写访问。
+* [GrindCore](https://github.com/Nanook/GrindCore.net)：一个兼容AOT的压缩和哈希库，采用System.IO.Compression风格。
 
 ## 文件压缩
 
@@ -11778,6 +11798,7 @@
 * [Orc.Sort](https://github.com/WildGums/Orc.Sort)：这个库包含各种排序算法。
 * [TopologicalSorting](https://github.com/martindevans/TopologicalSorting)：C#/.NET的拓扑排序系统。
 * [Mapperator](https://github.com/mappingtools/Mapperator)：Mapperator是一个用于高效谱面模式搜索的库，基于节奏和距离等特征。
+* [HeuristicLib](https://github.com/heal-research/HeuristicLib)：HeuristicLib是一个用于构建、运行和研究启发式优化算法的.NET库。
 
 ## 字符串算法
 
