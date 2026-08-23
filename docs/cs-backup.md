@@ -2746,6 +2746,7 @@
 * [SqlRepo](https://github.com/SqlRepo/SqlRepo)：SqlRepo是一个.NET库，用于通过Lambda表达式构建SQL语句并将结果映射到对象。
 * [Easy4NET](https://gitee.com/wangwei123/easy4net)：Easy4NET是一个轻量级ORM框架。
 * [Nemo](https://github.com/stepaside/Nemo)：.NET企业级微型ORM。
+* [ToolGood.ReadyGo](https://github.com/toolgood/ToolGood.ReadyGo)：ToolGood.ReadyGo是一款轻量级ORM，基于NPOCO核心修改。
 
 ## 持久层库
 
@@ -3202,6 +3203,7 @@
 * [ClickHouse.Client](https://github.com/DarkWanderer/ClickHouse.Client)：ClickHouse非官方ADO.NET客户端。
 * [ClickHouse C#](https://github.com/ClickHouse/clickhouse-cs)：ClickHouse C#客户端。
 * [ClickHouse.Net](https://github.com/ilyabreev/ClickHouse.Net)：用于Clickhouse.ADO的.NET Core抽象和辅助函数。
+* [ClickHouse.Facades](https://github.com/MikeAmputer/ClickHouse.Facades)：ClickHouse的无ORM原始SQL迁移和上下文。
 
 ## InfluxDB
 
@@ -5110,6 +5112,7 @@
 * [WebScene](https://github.com/wieslawsoltes/WebScene)：WebScene是一个原生组件运行时，用于将Web创建的体验引入Flutter、Uno平台、WPF、WinUI、Avalonia以及其他原生应用框架。
 * [LoadingIndicators.Avalonia](https://github.com/moviegear/LoadingIndicators.Avalonia)：LoadingIndicators.Avalonia是LoadingIndicators.WPF集合中9个动画加载指示器的Avalonia版本。
 * [Irihi.Mafia](https://github.com/irihitech/Irihi.Mafia)：Irihi.Mafia是一个移动优先的Avalonia控件库，从底层开始就针对触摸交互、拇指友好型尺寸和响应式布局进行了精心打造。
+* [MarkView.Avalonia](https://github.com/Kryptos-FR/MarkView.Avalonia)：一款基于Markdig的Avalonia UI v12 Markdown查看器控件。
 
 #### Avalonia图标库
 
@@ -9595,6 +9598,7 @@
 * [RESTFulLinq](https://github.com/hassanhabib/RESTFulLinq)：RESTfulLinq是一种轻松流式地向API发送LINQ查询的方法。
 * [DynamicExpression](https://github.com/vivet/DynamicExpression)：动态构建Lambda表达式，并将条件模型转换为Linq查询。
 * [Neomaster.JsonToLinq](https://github.com/neomasterhub/Neomaster.JsonToLinq)：一个轻量级的C#库，可以将基于JSON的查询定义转换为LINQ表达式。
+* [LINQBridge](https://github.com/atifaziz/LINQBridge)：LINQBridge是Framework 3.5的System.Linq.Enumerable类中所有标准查询运算符的重新实现。
 
 ## 表达式树
 
@@ -11799,6 +11803,7 @@
 * [TopologicalSorting](https://github.com/martindevans/TopologicalSorting)：C#/.NET的拓扑排序系统。
 * [Mapperator](https://github.com/mappingtools/Mapperator)：Mapperator是一个用于高效谱面模式搜索的库，基于节奏和距离等特征。
 * [HeuristicLib](https://github.com/heal-research/HeuristicLib)：HeuristicLib是一个用于构建、运行和研究启发式优化算法的.NET库。
+* [Diffs](https://github.com/spkl/Diffs)：灵活的.NET实现的Eugene Myers diff算法。
 
 ## 字符串算法
 
