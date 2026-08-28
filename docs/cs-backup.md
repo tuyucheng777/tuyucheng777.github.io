@@ -855,6 +855,7 @@
 * [Needlr](https://github.com/ncosentino/needlr)：Needlr是一个流式依赖注入库，适用于.NET，它通过一个简单、可发现的API提供自动服务注册和Web应用程序设置。
 * [NanoFramework.DependencyInjection](https://github.com/nanoframework/nanoFramework.DependencyInjection)：.NET nanoFramework依赖注入类库。
 * [SteroidsDI](https://github.com/sungam3r/SteroidsDI)：SteroidsDI是一个.NET依赖注入扩展库。
+* [DependencyModules](https://github.com/ipjohnson/DependencyModules)：.NET的属性驱动依赖注入模块，在编译时生成。
 
 ## AOP
 
@@ -4759,6 +4760,7 @@
 * [Coho.UI](https://github.com/sebbouez/Coho.UI)：Coho.UI是PageFabric UI的WPF开源版本。
 * [WpfStyles](https://github.com/Sharkboy-j/WpfStyles)：WPF控件的样式库。
 * [WPF.Win11Style](https://github.com/NC-Automation/WPF.Win11Style)：WPF Win11样式。
+* [Fluence.Wpf](https://github.com/sintaxasn/Fluence.Wpf)：Fluence.Wpf是一个基于WinUI 3的现代主题和控件库。
 
 #### WPF图表库
 
@@ -5113,6 +5115,7 @@
 * [LoadingIndicators.Avalonia](https://github.com/moviegear/LoadingIndicators.Avalonia)：LoadingIndicators.Avalonia是LoadingIndicators.WPF集合中9个动画加载指示器的Avalonia版本。
 * [Irihi.Mafia](https://github.com/irihitech/Irihi.Mafia)：Irihi.Mafia是一个移动优先的Avalonia控件库，从底层开始就针对触摸交互、拇指友好型尺寸和响应式布局进行了精心打造。
 * [MarkView.Avalonia](https://github.com/Kryptos-FR/MarkView.Avalonia)：一款基于Markdig的Avalonia UI v12 Markdown查看器控件。
+* [Material3.Avalonia](https://github.com/klorman/Material3.Avalonia)：一个适用于Avalonia应用的现代Material Design 3主题库。
 
 #### Avalonia图标库
 
@@ -5620,6 +5623,7 @@
 * [Qu3e Sharp](https://github.com/willnode/Qu3e-Sharp)：Qu3e Sharp是RandyGaul的Qu3e物理引擎的非官方C#移植版本。
 * [MagicPhysX](https://github.com/Cysharp/MagicPhysX)：.NET PhysX 5绑定到所有平台，适用于3D引擎、深度学习和游戏专用服务器。
 * [Box3D.NET](https://github.com/Miguel249/Box3D.NET)：一个用于Box3D的惯用C#绑定。
+* [Box3D CS](https://github.com/MoonsideGames/Box3D-CS)：Box3D物理引擎的C#绑定。
 
 ## 游戏开发库
 
@@ -5839,6 +5843,7 @@
 * [Flecs C#](https://github.com/flecs-hub/flecs-cs)：自动更新Flecs的C#绑定，支持原生动态链接库。
 * [Myriad.ECS](https://github.com/martindevans/Myriad.ECS)：Myriad.ECS是一个用于C#的高性能实体组件系统。
 * [EntitiesDb](https://github.com/Juiix/EntitiesDb)：高性能轻量级C#实体组件系统。
+* [MoonTools.ECS](https://github.com/MoonsideGames/MoonTools.ECS)：一个非常简单的C# ECS系统。
 
 ## Git工具
 
@@ -6516,6 +6521,7 @@
 * [GreenPassValidator](https://github.com/lucapisano/GreenPassValidator)：这个项目提供了一个库，用来验证欧盟各国政府发放的绿码二维码。
 * [QR.NET](https://github.com/aaronogan/QR.NET)：ThoughtWorks持续开发的QRCode库。
 * [EMV Complaint QR Codes](https://github.com/juanroman-zz/emvqr)：基于.NET Standard构建的EMV(R)兼容库，用于生成和解析二维码。
+* [Bing.QRCode](https://github.com/bing-framework/Bing.QRCode)：Bing.QRCode是Bing应用框架的二维码操作核心库。
 
 ## 验证码
 
@@ -7260,6 +7266,7 @@
 * [AdvancedDLSupport](https://github.com/Nihlus/AdvancedDLSupport)：基于委托的C# P/Invoke替代方案，与所有平台和运行时兼容。
 * [NativeLibraryLoader](https://github.com/mellinoe/nativelibraryloader)：一个用于加载本机共享库和检索函数指针的.NET Standard库。
 * [CppPinvokeGenerator](https://github.com/EgorBo/CppPinvokeGenerator)：一个基于CppAst的简单PInvoke生成器，用于为C/C++生成C#。
+* [Rxmxnx.PInvoke.Extensions](https://github.com/josephmoresena/Rxmxnx.PInvoke.Extensions)：Rxmxnx.PInvoke.Extensions是一个全面的库，旨在简化并增强.NET与本地P/Invoke方法的交互。
 
 ## 互操作
 
@@ -7516,6 +7523,7 @@
 * [IppPrinter](https://github.com/danielklecha/IppPrinter)：IppPrinter是一个轻量级、跨平台的IPP打印服务器Web应用程序，使用ASP.NET Core构建，并由SharpIppNext库提供支持。
 * [SharpIpp](https://github.com/Zelenov/SharpIpp)：互联网打印协议1.1(IPP)以及部分CUPS 1.0功能的.NET实现。
 * [Gerene.DFe.EscPos](https://github.com/Hercules-NET/Gerene.DFe.EscPos)：通过EscPos及其衍生版本在.NET中原生支持58毫米和80毫米格式的电子文档热敏打印。
+* [Bing.EasyPrint](https://github.com/bing-framework/Bing.EasyPrint)：Bing.EasyPrint是Bing应用框架的便携式打印机命令生成库。
 
 ## 生物信息学
 
@@ -9983,6 +9991,7 @@
 * [DataLoader .NET](https://github.com/dlukez/dataloader-dotnet)：Facebook DataLoader的.NET移植版。
 * [NGql](https://github.com/dolifer/NGql)：一个零依赖、无模式的.NET GraphQL查询构建器。
 * [DataAnnotatedModelValidations](https://github.com/fiakkasa/DataAnnotatedModelValidations)：HotChocolate的数据标注模型验证中间件。
+* [GraphZen](https://github.com/GraphZen/graphzen-dotnet)：.NET的一个代码优先GraphQL框架。
 
 ## OData
 
@@ -11313,6 +11322,7 @@
 ## Office
 
 * [DocumentFormat.OpenXml.Extensions](https://github.com/dotnet-campus/DocumentFormat.OpenXml.Extensions)：OpenXML SDK扩展，包括库和工具。
+* [Bing.Offices](https://github.com/bing-framework/Bing.Offices)：Bing.Offices是Bing应用框架的Office操作类库。
 
 ## Visio
 
