@@ -2296,6 +2296,7 @@
 * [LightweightMatrixCSharp](https://github.com/darkdragon-001/LightweightMatrixCSharp)：C#轻量级快速矩阵类。
 * [MatrixLibrary](https://github.com/YanjieHe/MatrixLibrary)：一个用C#编写的矩阵库。
 * [GlmSharp](https://github.com/Philip-Trettner/GlmSharp)：用于小型向量和矩阵的开源C#/.NET数学库。
+* [Open.Numeric.Primes](https://github.com/Open-NET-Libraries/Open.Numeric.Primes)：素数检测和发现的方法和扩展。
 
 ## 绘图库
 
@@ -3701,6 +3702,7 @@
 * [SafeObjectPool](https://github.com/2881099/SafeObjectPool)：对象池容器化管理一批对象，重复使用从而提升性能。
 * [CloneExtensions](https://github.com/MarcinJuraszek/CloneExtensions)：克隆扩展方法库。
 * [StringPool](https://github.com/Molth/StringPool)：基于ArrayPool的高性能字符串池。
+* [Open.Disposable.ObjectPools](https://github.com/Open-NET-Libraries/Open.Disposable.ObjectPools)：一组具有不同底层集合的ObjectPool实现变体。
 
 ## 缓存库
 
@@ -4132,6 +4134,7 @@
 * [HCore](https://github.com/rh78/HCore)：一个有见解的项目集合，帮你打造出色的ASP.NET Core项目。
 * [CFCFrame](https://github.com/mqg007/CFCFrame)：CFCFrame是基于Angular和WCF的一套微服务研发框架。
 * [Compendium](https://github.com/SCOJH/Compendium)：一个务实的.NET框架，用于构建事件溯源的多租户SaaS应用程序。
+* [GCFoundation](https://github.com/tbs-imtd/GCFoundation)：GCFoundation是一个全面的.NET 10 ASP.NET MVC基础框架。
 
 ## 权限管理系统
 
@@ -5116,6 +5119,7 @@
 * [Irihi.Mafia](https://github.com/irihitech/Irihi.Mafia)：Irihi.Mafia是一个移动优先的Avalonia控件库，从底层开始就针对触摸交互、拇指友好型尺寸和响应式布局进行了精心打造。
 * [MarkView.Avalonia](https://github.com/Kryptos-FR/MarkView.Avalonia)：一款基于Markdig的Avalonia UI v12 Markdown查看器控件。
 * [Material3.Avalonia](https://github.com/klorman/Material3.Avalonia)：一个适用于Avalonia应用的现代Material Design 3主题库。
+* [Iciclecreek.Avalonia.Terminal](https://github.com/tomlm/Iciclecreek.Avalonia.Terminal)：Iciclecreek.Avalonia.Terminal提供Avalonia控件，用于在跨平台桌面应用程序中嵌入功能齐全的终端模拟器。
 
 #### Avalonia图标库
 
@@ -7623,6 +7627,7 @@
 * [Tmc](https://github.com/JeffreyZhao/Tmc)：.NET框架缺失的集合。
 * [SwiftCollections](https://github.com/mrdav30/SwiftCollections)：SwiftCollections是一个面向性能的.NET系统集合库。
 * [PersistentCollection](https://github.com/jchristn/PersistentCollection)：用C#编写的轻量级、持久化、线程安全、基于磁盘的集合类，支持队列、栈、字典和列表。
+* [Open.Collections](https://github.com/Open-NET-Libraries/Open.Collections)：一组实用的集合，以及具有线程安全读写访问选项的集合扩展。
 
 ## 数组库
 
@@ -7784,6 +7789,7 @@
 * [NString](https://github.com/thomaslevesque/NString)：一套用于在.NET中处理字符串的工具集合。
 * [StringExtensions](https://github.com/koenbeuk/StringExtensions)：String Extensions项目旨在通过添加扩展方法来提供更完整的String类型体验。
 * [ZaString](https://github.com/CorentinGS/ZaString)：ZaString是一个面向现代.NET应用的高性能、零分配字符串工具箱。
+* [Open.Text](https://github.com/Open-NET-Libraries/Open.Text)：一组用于处理字符串、字符串段、跨度、枚举和值格式化的实用扩展。
 
 ## 锁
 
@@ -9557,6 +9563,7 @@
 * [SuccincT](https://github.com/DavidArno/SuccincT)：C#语言的区分类联合、模式匹配。
 * [SumSharp](https://github.com/christiandaley/SumSharp)：一个高度可配置的C#可区分联合库。
 * [AltaSoft.Choice](https://github.com/altasoft/Choice)：AltaSoft.ChoiceGenerator是一个轻量级的C#源生成器，允许你使用最少的语法定义选择类型(可区分联合)。
+* [UnionTypes.Toolkit](https://github.com/mattwar/UnionTypes.Toolkit)：该项目实现了一个源生成器，用于生成使用非装箱重叠数据策略的自定义C#联合类型。
 
 ## LINQ
 
@@ -11140,6 +11147,7 @@
 * [ExcelObjectMapper](https://github.com/ShadyNagy/ExcelObjectMapper)：一个简单高效的.NET库，用于将Excel文件映射到C#对象。
 * [NetCore.Utilities.Spreadsheet](https://github.com/IowaComputerGurus/netcore.utilities.spreadsheet)：一个用来在.NET Core和ASP.NET Core应用中使用OpenXML库创建Excel表格的工具。
 * [Excelize CS](https://github.com/xuri/excelize-cs)：Excelize CS包是Go Excelize库的C#移植版。
+* [PanoramicData.SheetMagic](https://github.com/panoramicdata/PanoramicData.SheetMagic)：使用强类型C#类轻松地将数据保存/加载到Excel(XLSX)文档中。
 
 ## CSV
 
