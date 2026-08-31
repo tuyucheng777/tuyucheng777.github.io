@@ -1117,6 +1117,7 @@
 * [NewLife.MQ](https://github.com/NewLifeX/NewLife.MQ)：NewLife.MQ是一个轻量级消息队列，无延迟分发、支持消费组和消息去重，不支持集群部署。
 * [ServiceBroker.Net](https://github.com/jdaigle/servicebroker.net)：一个简单的SQL Service Broker封装API，以及NServiceBus的ITransport插件。
 * [Westwind.QueueMessageManager](https://github.com/RickStrahl/Westwind.QueueMessageManager)：.NET库，提供一个简单的双向消息队列，用于将长时间运行的操作卸载到其他进程/机器上。
+* [MyServiceBus](https://github.com/marinasundstrom/MyServiceBus)：MyServiceBus是一个专注于异步服务总线运行时，面向使用Java和.NET构建生产系统的企业，其灵感来源于MassTransit。
 
 ## 消息队列客户端
 
@@ -5413,6 +5414,7 @@
 * [EsPy](https://github.com/jungervin/EsPy)：ESP8266的Micropython集成开发环境。
 * [Nyan Compiler](https://github.com/NYAN-x-CAT/Nyan-Compiler)：Nyan Compiler是一个使用CodeDOM的基础C# VB.NET集成开发环境。
 * [LInjector](https://github.com/lexteamz/LInjector)：LInjector是一个开源的Luau脚本IDE，方便与各种用途整合。
+* [Kodo](https://github.com/Kodo-IDE/Kodo)：一款基于.NET构建的轻量级开源IDE，其灵感来源于VS Code和Zed等编辑器。
 
 ## 文本编辑器
 
@@ -5700,6 +5702,7 @@
 
 * [Noise](https://github.com/Metalnem/noise)：Noise协议的.NET实现。
 * [Simplex Noise](https://github.com/WardBenjamin/SimplexNoise)：C#单纯形噪声。
+* [FastNoise Lite](https://github.com/Auburn/FastNoiseLite)：FastNoise Lite是一个极其便携的开源噪声生成库，具有大量噪声算法可供选择。
 * [Icaria Noise](https://github.com/krubbles/Icaria-Noise)：一个高度优化的C#噪声函数库。
 * [AccidentalNoiseLibrary](https://github.com/TinkerWorX/AccidentalNoiseLibrary)：Accidental Noise Library的C#修改版。
 * [NoiseDotNet](https://github.com/krubbles/NoiseDotNet)：NoiseDotNet是一个用C#编写的相干噪声库。
@@ -8004,6 +8007,7 @@
 * [CASL](https://github.com/KinsonDigital/CASL)：跨平台的声音播放和管理库。
 * [Celeritas](https://github.com/sheinv78/Celeritas)：Celeritas是一款高性能的符号音乐分析和生成引擎，专注于和声、结构和算法作曲。
 * [MiniAudioExNET](https://github.com/japajoe/MiniAudioExNET)：MiniAudioEx的.NET封装库。
+* [Concentus](https://github.com/lostromb/concentus)：Opus音频编解码器的纯可移植C#和Java实现。
 
 ## 视频库
 
@@ -8251,6 +8255,7 @@
 * [OrangeLoop.Sagas](https://github.com/orangeloop/sagas)：使用IDbTransaction和Sagas来协调跨域事务的.NET UnitOfWork模式实现。
 * [UnitOfWorkCore](https://github.com/piotrekh/unit-of-work-core)：一个独立的工作单元组件，适用于Entity Framework Core 2.0和ASP.NET Core 2.0。
 * [DynamoDBv2.Transactions](https://github.com/vitalybibikov/DynamoDBv2.Transactions)：一个高性能的.NET库，用于Amazon DynamoDB事务，支持编译时源代码生成。
+* [DTM C#](https://github.com/dtm-labs/client-csharp)：DTM C#是分布式事务管理器DTM的C#客户端。
 
 ## 幂等
 
@@ -8546,6 +8551,7 @@
 * [SerialPortHelper](https://github.com/xiaoxinpro/SerialPortHelper)：SerialPortHelper是一款基于C#的串口助手类库。
 * [System.IO.Ports](https://github.com/nanoframework/System.IO.Ports)：.NET nanoFramework的System.IO.Ports库。
 * [Sharer.NET](https://github.com/Rufus31415/Sharer.NET)：Arduino和.NET串口通信库，使用Sharer协议读取/写入变量和远程调用函数。
+* [Gurux.Serial](https://github.com/Gurux/Gurux.Serial)：Gurux C#串口组件。
 
 ## EtherNet/IP
 
@@ -9080,6 +9086,7 @@
 * [Bitcoin Tool](https://github.com/mb300sd/Bitcoin-Tool)：比特币相关类的集合，可用于实现各种功能。
 * [Denovo](https://github.com/Autarkysoft/Denovo)：从零开始的独特且独立的.NET比特币协议实现。
 * [C# Monero RPC Client](https://github.com/monero-ecosystem/csharp-monero-rpc-client)：一个钱包和守护进程客户端，用于通过.NET Standard 2.1与Monero的JSON-RPC API交互。
+* [DotNut](https://github.com/Kukks/DotNut)：Cashu协议的C#库。
 
 ## 钱包应用
 
@@ -9255,6 +9262,7 @@
 * [ISO-8583 .Net](https://github.com/imohsenb/ISO8583-Message-Client-DotNet)：ISO8583消息打包器和解包器，带有用于与ISO服务器通信的ISO客户端。
 * [ISO8583Net](https://github.com/nikmes/iso8583net)：这是一个高度可配置的.NET库，用于构建和解析ISO 8583金融交易消息。
 * [PTUlitity](https://github.com/patrick-tingson/PTUlitity)：C#库，用于转换、加密、EMV数据解析和获取处理选项，ISO8583创建和解析。
+* [Beneficial Strategies ISO20022 Library](https://github.com/Beneficial-Strategies/Iso20022Library)：该项目包含一个.NET实现，用于存储ISO20022标准定义的3311种不同类型的金融服务消息的容器。
 
 ## 理财系统
 
@@ -9698,6 +9706,7 @@
 * [BAMCIS GeoJSON](https://github.com/bamcis-io/GeoJSON)：这是一个用.NET Core 2.0编写的GeoJSON实现。
 * [Geo.Library](https://github.com/songjiahong/Geo.Library)：一个用于.NET的2D地理空间库。
 * [DotNetGeoJson](https://github.com/Terradue/DotNetGeoJson)：.NET的GeoJson库。
+* [GeoJSON.NET](https://github.com/bsimser/GeoJSON.NET)：GeoJson.NET是一个用于将KML文件转换为.NET平台GeoJSON格式的库。
 
 ## 地图渲染
 
@@ -9760,6 +9769,7 @@
 * [MessagePack C#](https://github.com/MessagePack-CSharp/MessagePack-CSharp)：适用于C#的超快MessagePack序列化器。
 * [ZeroFormatter](https://github.com/neuecc/ZeroFormatter)：适用于.NET、.NET Core和Unity的最快C#序列化器和无限快速的反序列化器。
 * [Bebop](https://github.com/6over3/bebop)：Bebop是一种专为快速序列化和反序列化而设计的高性能数据交换格式。
+* [Fast Binary Encoding](https://github.com/chronoxor/FastBinaryEncoding)：Fast Binary Encoding是适用于C++、C#、Go、Java、JavaScript、Kotlin、Python、Ruby、Swift的超快速通用序列化解决方案。
 * [OdinSerializer](https://github.com/TeamSirenix/odin-serializer)：为Unity构建的快速、稳健、强大且可扩展的.NET序列化器。
 * [GadgetToJScript](https://github.com/med0x2e/GadgetToJScript)：一种用于生成.NET序列化小工具的工具，当使用BinaryFormatter从JS/VBS/VBA脚本反序列化时，可以触发.NET程序集加载/执行。
 * [Nino](https://github.com/JasonXuDeveloper/Nino)：适用于C#的终极高性能二进制序列化库。
@@ -10032,6 +10042,7 @@
 
 ## ID生成器
 
+* [IdGenerator](https://github.com/yitter/IdGenerator)：IdGenerator是一个多语言的分布式ID生成库。
 * [ICH.Snowflake](https://github.com/fuluteam/ICH.Snowflake)：雪花分布式id的.NET Core实现方案。
 * [NewId](https://github.com/phatboyg/NewId)：NewId可以用作嵌入式唯一ID生成器，生成128位的顺序ID。
 * [Sqids .NET](https://github.com/sqids/sqids-dotnet)：Sqids是一个小型库，它让你可以从数字生成类似YouTube的ID。
@@ -10586,6 +10597,7 @@
 * [LibOQS .NET](https://github.com/open-quantum-safe/liboqs-dotnet)：LibOQS .NET是一个用C#编写的.NET liboqs封装器，提供抗量子加密算法。
 * [LibOQS.NET](https://github.com/filipw/maybe-liboqs-dotnet)：LibOQS.NET为Open Quantum Safe liboqs C库提供.NET封装/绑定。
 * [CryptAByte](https://github.com/DavidVeksler/CryptAByte)：CryptAByte是一个免费的开源C#/.NET工具包，用于通过公钥基础设施在网上安全(加密)地分享消息和文件。
+* [NSign](https://github.com/Unisys/NSign)：NSign提供基于HTTP消息签名(RFC 9421)的库，用于对HTTP消息进行签名和验证。
 
 ## 密码库
 
@@ -11004,7 +11016,7 @@
 * [CUITe](https://github.com/icnocop/cuite)：CUITe是在Microsoft Visual Studio Team Test的Coded UI Test引擎之上开发的一个轻量级框架，它有助于减少代码，提高可读性和可维护性。
 * [Winium.Mobile](https://github.com/2gis/Winium.Mobile)：Winium.Mobile是一个开源测试自动化工具，可用于在Windows Phone或Windows Mobile模拟器上测试Windows Store应用和Windows Silverlight应用。
 * [Playwrightdotnet](https://github.com/executeautomation/Playwrightdotnet)：包含带有.NET语言绑定的Playwright仓库。
-* [BELLATRIX](https://github.com/AutomateThePlanet/BELLATRIX)：自定义并扩展我们的跨平台.NET框架，以完美契合你的需求。
+* [BELLATRIX](https://github.com/AutomateThePlanet/BELLATRIX)：BELLATRIX是一个跨平台的.NET测试自动化框架。
 * [SimpleRemote](https://github.com/microsoft/SimpleRemote)：SimpleRemote是一个旨在简化设备自动化的框架。
 * [GuiTestSharp](https://github.com/PlasticSCM/GuiTestSharp)：一个可扩展的多平台框架，用于测试WinForms、WPF、GtkSharp和Xamarin.Mac中的GUI。
 * [MAQS](https://github.com/Magenic/MAQS)：MAQS是一个模块化测试自动化框架。
@@ -11012,6 +11024,7 @@
 * [Keysharp](https://github.com/keysharp-org/Keysharp)：Keysharp是一个跨平台的C#实现的AutoHotkey v2。
 * [CrossMacro](https://github.com/alper-han/CrossMacro)：CrossMacro是一个跨平台的桌面自动化应用，用于记录、编辑、安排和重放鼠标/键盘操作流程。
 * [Patchright .NET](https://github.com/DevEnterpriseSoftware/patchright-dotnet)：Patchright .NET是一个经过修补、专门用于绕过网站反爬/反机器人检测的Playwright .NET框架分支。
+* [MaaFramework.Binding.CSharp](https://github.com/MaaXYZ/MaaFramework.Binding.CSharp)：MaaFramework C#绑定。
 
 ## Selenium
 
@@ -11148,6 +11161,7 @@
 * [NetCore.Utilities.Spreadsheet](https://github.com/IowaComputerGurus/netcore.utilities.spreadsheet)：一个用来在.NET Core和ASP.NET Core应用中使用OpenXML库创建Excel表格的工具。
 * [Excelize CS](https://github.com/xuri/excelize-cs)：Excelize CS包是Go Excelize库的C#移植版。
 * [PanoramicData.SheetMagic](https://github.com/panoramicdata/PanoramicData.SheetMagic)：使用强类型C#类轻松地将数据保存/加载到Excel(XLSX)文档中。
+* [DsExcel](https://github.com/GrapeCity/DsExcel)：DsExcel是一款高速、轻量级的电子表格API，无需依赖Excel。
 
 ## CSV
 
@@ -11315,6 +11329,7 @@
 * [PDF Pixel](https://github.com/zayg21-pixel/pdf-pixel)：PDF Pixel是一个基于SkiaSharp渲染引擎的.NET原生C# PDF渲染库。
 * [Codeuctivity.PdfAValidator](https://github.com/Codeuctivity/PdfAValidatorApi)：PdfAValidatorApi将VeraPdf调用封装在.NET Standard程序集和Web API中。
 * [Bhowra.Ink](https://bhowra.com/bhowra-ink.html)：Bhowra.Ink是一个完整的HTML转PDF渲染引擎。
+* [TypstSharp](https://github.com/evolvedlight/typstsharp)：C#的Typest绑定。
 
 ## PPT
 
