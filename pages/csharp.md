@@ -1,3 +1,20 @@
+---
+layout: post
+title: .NET生态
+titlebar: .NET生态
+subtitle: <span class="mega-octicon octicon-organization"></span>&nbsp;&nbsp; .NET生态大全
+menu: .NET生态
+permalink: /csharp
+---
+
+# Java生态资源大全
+
+这里汇总了Java/JVM生态圈中的各种框架、库、工具，包括Web开发、大数据、桌面开发、人工智能、软件测试、物联网等领域。
+
+所有框架和库都是基于Java语言实现的，只有极少数是由Kotlin、Scala、Groovy等JVM系语言混合开发，并且也可以在Java中兼容使用。
+
+
+
 ## 目录
 
 * [Web框架](#Web框架)
@@ -65,7 +82,7 @@
 * [A2A](#A2A)
 * [RAG](#RAG)
 * [AI网关](#AI网关)
-* [OpenAI客户端](#OpenAI客户端)
+* [LLM客户端](#LLM客户端)
 * [智能体](#智能体)
 * [NL2SQL](#NL2SQL)
 * [LLM推理](#LLM推理)
@@ -975,6 +992,8 @@
 * [.NET Debounce](https://github.com/dorssel/dotnet-debounce)：.NET库，用于合并、消除抖动、序列化和限制传入的并发事件。
 * [Abp.AspNetCoreRateLimit](https://github.com/EasyAbp/Abp.AspNetCoreRateLimit)：Abp模块，可帮助你控制服务的使用频率。
 * [Finity](https://github.com/savariamir/Finity)：Finity是一个.NET Core弹性和容错库。
+* [Kevlar](https://github.com/thomhurst/Kevlar)：为.NET提供快速、资源分配敏感的弹性。
+* [Fences](https://github.com/BrighterCommand/Fences)：Fences是一个.NET弹性及瞬态故障处理库，它允许开发人员以流畅且线程安全的方式表达诸如重试、熔断器、对冲、超时、速率限制器和回退等弹性策略。
 
 ## 重试
 
@@ -1081,6 +1100,7 @@
 * [Obvs](https://github.com/christopherread/Obvs)：一个可观察的.NET微服务总线库，将底层消息传输包裹在基于Rx的简单接口中。
 * [MiniBus](https://github.com/SteveBate/MiniBus)：一个基于MSMQ构建的小型.NET消息库，用于应用集成场景。
 * [EQueue](https://github.com/tangxuehua/equeue)：一个用C#编写的高性能分布式MQ。
+* [BullMQ](https://github.com/taskforcesh/bullmq)：基于Redis或PostgreSQL的消息队列和批处理平台。
 * [Wolverine](https://github.com/jasperfx/wolverine)：Wolverine是下一代.NET中介和消息总线。
 * [Tmds.DBus](https://github.com/tmds/Tmds.DBus)：D-Bus是一种消息总线系统，它为应用程序之间的通信提供了一种简便的方法。
 * [VitalRouter](https://github.com/hadashiA/VitalRouter)：VitalRouter是一个高性能、零内存分配的C#内存消息传递库。
@@ -1914,6 +1934,7 @@
 * [MCP Plugin .NET](https://github.com/IvanMurzak/MCP-Plugin-dotnet)：MCP Plugin .NET是一个用于将.NET应用程序与MCP集成的综合解决方案。
 * [McpToolkit](https://github.com/nuskey8/McpToolkit)： MCP Toolkit是一个用于在.NET中构建MCP服务器/客户端的框架。
 * [Manifold](https://github.com/Garume/Manifold)：Manifold是一个.NET基础，用于定义一次操作并通过CLI和MCP界面展示它。
+* [Nabu.NET](https://github.com/hovik-aghajanyan/Nabu.NET)：Nabu是一个ASP.NET Core扩展，它可以轻松地将现有的应用程序端点和操作公开为MCP工具，从而允许AI代理和MCP兼容客户端以最小的配置与你的应用程序进行交互。
 
 ## A2A
 
@@ -1937,7 +1958,7 @@
 * [MCP Gateway](https://github.com/microsoft/mcp-gateway)：MCP Gateway是MCP服务器的反向代理和管理层，能够在Kubernetes环境中实现可扩展的、支持会话的路由、授权和MCP服务器的生命周期管理。
 * [Thor](https://github.com/AIDotNet/Thor)：Thor是一款企业级AI模型管理网关，提供统一的API访问，用于管理和协调多个AI模型。
 
-## OpenAI客户端
+## LLM客户端
 
 * [GitHub Copilot CLI SDKs](https://github.com/github/copilot-sdk)：用于将GitHub Copilot Agent集成到应用程序和服务中的多平台SDK。
 * [Betalgo.OpenAI](https://github.com/betalgo/openai)：用于访问OpenAI的API的.NET库，作为社区库提供。
@@ -1983,6 +2004,7 @@
 * [JKToolKit.CodexSDK](https://github.com/JKamsker/JKToolKit.CodexSDK)：一个强类型的.NET SDK，用于Codex CLI。
 * [ManagedCode.CodexSharpSDK](https://github.com/managedcode/CodexSharpSDK)：ManagedCode.CodexSharpSDK是一个开源的.NET SDK，用于从C#驱动Codex CLI。
 * [RxAI](https://github.com/vbandi/RxAI)：RxAI是一个C#库，它提供了一个响应式编程接口，用于与OpenAI和Azure Realtime API进行交互。
+* [Sdcb.SparkDesk](https://github.com/sdcb/Sdcb.SparkDesk)：Sdcb.SparkDesk是一个非官方的开源项目，提供SparkDesk WebSocket API的.NET客户端。
 
 ## 智能体
 
@@ -2219,6 +2241,7 @@
 * [IronOCR](https://ironsoftware.com/zh/csharp/ocr/)：IronOCR是领先的C# OCR库。
 * [Tesseract](https://github.com/charlesw/tesseract)：Tesseract OCR的.NET包装器。
 * [TesseractOCR](https://github.com/Sicos1977/TesseractOCR)：Tesseract 5.5.0的.NET包装器。
+* [SimdPaddleOCR](https://github.com/sdcb/SimdPaddleOCR)：纯C# PP-OCRv6推理库，多平台SIMD优化、较低内存占用、高正确率。
 * [Xamarin.Tesseract](https://github.com/halkar/Tesseract.Xamarin)：Xamarin.Tesseract是Tesseract OCR库的封装器。
 * [PaddleSharp](https://github.com/sdcb/PaddleSharp)：百度Paddle推理库和PaddleOCR .NET/C#绑定。
 * [PaddleOCRApi](https://github.com/PaddleOCRCore/PaddleOCRApi)：基于PaddleOCR深度封装的完全离线文字识别组件。
@@ -2379,6 +2402,7 @@
 * [Octave.NET](https://github.com/triforcely/Octave.NET)：Octave.NET是一个用于从.NET应用调用和控制Octave进程的跨平台封装库。
 * [MathExtensions](https://github.com/TommasoScalici/MathExtensions)：MathExtensions是一个.NET库，它提供了关于各种数学领域的简单而有用的扩展方法。
 * [FftFlat](https://github.com/sinshu/fftflat)：该库旨在提供一个完全用纯C#编写的快速傅里叶变换(FFT)实现。
+* [Mpir.NET](https://github.com/akasubi/Mpir.NET)：Mpir.NET允许你从.NET语言中使用MPIR库。
 
 ## 矩阵
 
@@ -2794,6 +2818,7 @@
 * [Drastic.Tools](https://github.com/drasticactions/Drastic.Tools)：Drastic.Tools是一系列用于辅助应用开发的工具和库的集合。
 * [Swifter.Core](https://github.com/Dogwei/Swifter.Core)：一个高效可靠的通用库。
 * [Net.CommonLib](https://github.com/Wikey100/Net.CommonLib)：Net.CommonLib项目是积累下的包括各种功能的第二次高级封装的类库。
+* [Carbon](https://github.com/kocdigital/Carbon)：Carbon包含许多实用库，可解决基础设施、设计模式、封装、易用性、即插即用、标准化等方面的诸多问题。
 
 ## ORM
 
@@ -3003,6 +3028,7 @@
 * [NewLife.MySql](https://github.com/NewLifeX/NewLife.MySql)：NewLife.MySql是新生命团队出品的纯国产MySQL客户端驱动，基于ADO.NET标准接口，直接通过TCP实现MySQL协议层。
 * [HBaseNet](https://github.com/hsxian/HBaseNet)：这是一个纯C#编写的HBase客户端。
 * [Dgraph.NET](https://github.com/dgraph-io/dgraph.net)：官方Dgraph .NET客户端。
+* [Apex](https://github.com/sebastienros/apex)：Apex是一套异步的.NET 10和.NET 11数据库驱动程序，直接实现了PostgreSQL、MySQL/MariaDB和Microsoft SQL Server的网络协议。
 
 ## EF Core扩展
 
@@ -3655,6 +3681,7 @@
 * [Ajxnetcore](https://github.com/Amine-Smahi/ajxnetcore)：Ajxnetcore是一种将ASP.NET Core MVC应用转换为单页应用的创新方法。
 * [BootstrapHelpers](https://github.com/gordon-matt/BootstrapHelpers)：ASP.NET MVC Bootstrap HTML助手。
 * [Bootstrap.A11y](https://github.com/pmcfernandes/Bootstrap.A11y)：适用于ASP.NET的Twitter Bootstrap控件。
+* [DNZ.MvcComponents](https://github.com/mjebrahimi/DNZ.MvcComponents)：一套基于流行的JavaScript插件的ASP.NET Core MVC实用UI组件。
 
 ## 路由库
 
@@ -4201,6 +4228,7 @@
 * [LET Portal](https://github.com/phucan1108/letportal)：LET Portal是一个面向开发者的快速Web平台。
 * [Classic .NET Templates](https://github.com/jpobst/classic-dotnet-templates)：提供不使用顶级语句的.NET 6+项目模板。
 * [Boilerplate .NET](https://github.com/kontent-ai/boilerplate-net)：这个模板可以帮助你轻松搭建基于Kontent.ai的Web项目开发框架。
+* [ASP.NET Core CoreUI Free Bootstrap Admin Template](https://github.com/tolbxela/ASP.NET-Core-UI-Free-Admin-Template)：ASP.NET Core UI免费管理后台模板。
 
 ## 后台管理系统
 
@@ -4386,6 +4414,7 @@
 * [Pleasanter](https://github.com/Implem/Implem.Pleasanter)：Pleasanter是一个开发平台，采用无代码和低代码两种方法，运行于.NET平台。
 * [GeneXus](https://www.genexus.com/en/)：GeneXus是一款低代码、跨平台、基于知识表示的开发工具，主要面向Web应用程序、智能设备和Microsoft Windows平台的企业级应用程序。
 * [Rintagi](https://github.com/Rintagi/Low-Code-Development-Platform)：Rintagi是开源的低代码应用平台，具备无限扩展和焕发新生的能力。
+* [Shesha](https://github.com/shesha-io/shesha-framework)：Shesha是一个专为.NET开发人员设计的开源低代码开发框架。
 * [Forge](https://github.com/microsoft/Forge)：Forge是一个基于配置驱动树步器的通用低代码框架。
 * [Serein Flow](https://github.com/fhhyyp/serein-flow)：基于.NET 8的跨平台可视化编程平台。
 * [Data API Builder](https://github.com/Azure/data-api-builder)：Data API Builder是一款开源的无代码工具，可为你的数据库创建安全、功能齐全的REST和GraphQL端点。
@@ -4516,6 +4545,7 @@
 * [HBlog](https://github.com/hyunbin7303/HBlog)：使用Blazor WASM和ASP.NET Web API实现博客文章网站。
 * [BlogEngine](https://github.com/BesoGenebashvili/BlogEngine)：一个基于ASP.NET Core的博客引擎。
 * [BlogEngine](https://github.com/moritzmla/BlogEngine)：一个简单的开源博客引擎，用ASP.NET Core 3.1编写。
+* [SpaceForum](https://github.com/Carapacik/SpaceForum)：SpaceForum是一个响应迅速、服务器端渲染的社区论坛，支持深度讨论、实用解答和周到的版主管理。
 
 ## 项目管理
 
@@ -5339,6 +5369,7 @@
 * [FluentAvalonia.BreadcrumbBar](https://github.com/yuto-trd/FluentAvalonia.BreadcrumbBar)：Avalonia控件库，为FluentAvalonia包添加了WinUI面包屑导航栏。
 * [LoadingAnimation.Avalonia](https://github.com/JamesBaiJun/LoadingAnimation.Avalonia)：LoadingAnimation是一个AvloniaUI项目，它包含一些简单的加载动画。
 * [CobaltFluent](https://github.com/RoorJiaMo/CobaltFluent)：Avalonia的Windows 11 Fluent实现。
+* [CompositionMaterial.Avalonia](https://github.com/HelloWRC/CompositionMaterial.Avalonia)：CompositionMaterial.Avalonia是一个.NET 8.0控件库，它为Avalonia应用程序添加了形状裁剪的Windows材质。
 
 #### Avalonia图标库
 
@@ -7099,6 +7130,7 @@
 * [DWKit](https://github.com/optimajet/DWKit)：DWKit是一个基于.NET的BPM系统，设计时考虑到了简洁性和灵活性。
 * [BpmNet](https://github.com/aiska/BpmNet)：.NET Framework的BPM引擎。
 * [DFlow](https://github.com/deveel/dflow)：一个用于在.NET Core中设计和执行工作流的轻量级库。
+* [.NET BPMN](https://github.com/valence-works/bpmn)：一个用于.NET的BPMN 2.0解释器和交换库。
 
 ## 编排引擎
 
@@ -7360,6 +7392,7 @@
 * [CSharpier](https://github.com/belav/csharpier)：CSharpier是一个有主见的C#和XML代码格式化工具。
 * [CodeFormatter](https://github.com/dotnet/codeformatter)：CodeFormatter是一个使用Roslyn的工具，可以自动重写源代码以遵循编码风格。
 * [Workleap.DotNet.CodingStandards](https://github.com/workleap/wl-dotnet-codingstandards)：该软件包为.NET项目提供了一套编程标准，包括风格、质量、安全性和性能方面的规则。
+* [Curb](https://github.com/nullean/curb)：一款超快的C#格式化工具，可与你的IDE格式化和.NET格式兼容。
 
 ## 依赖分析
 
@@ -7395,6 +7428,7 @@
 * [Visitor.NET](https://github.com/Stepami/visitor-net)：使用Visitor.NET，即使你无法访问可访问结构的源代码，也可以开发类型安全的无环访问者。
 * [SimpleFactoryGenerator](https://github.com/DingpingZhang/SimpleFactoryGenerator)：该库用于辅助简单工厂模式的实现。
 * [Reprise](https://github.com/yavorfingarov/Reprise)：Reprise是一个微框架，将REPR模式和垂直切片架构引入到ASP.NET Core 6/7 Minimal API中。
+* [PureSpec](https://github.com/dzmprt/PureSpec)：PureSpec是Specification模式的极简实现，用于创建可重用的业务规则。
 
 ## 代码属性图
 
@@ -8627,6 +8661,7 @@
 * [CSharpAnalytics](https://github.com/AttackPattern/CSharpAnalytics)：CSharpAnalytics是一个免费的C#库，用于通过Google Analytics跟踪应用程序指标。
 * [X.Spectator](https://github.com/a-gubskiy/X.Spectator)：X.Spectator是一个轻量级且可扩展的.NET应用监控和健康评估框架。
 * [Zabbix.NET](https://github.com/Vidlec/Zabbix.NET)：Zabbix.NET是一个基于.NET的Zabbix API库。
+* [AspNetDebugDashboard](https://github.com/eladser/AspNetDebugDashboard)：一个轻量级、对开发者友好的ASP.NET Core应用调试仪表板。
 
 ## 指标库
 
@@ -8924,6 +8959,7 @@
 * [HslCommunication](https://github.com/dathlin/HslCommunication)：HslCommunication是非常流行的一款工业物联网通讯插件。
 * [NModbus](https://github.com/NModbus/NModbus)：NModbus是Modbus协议的C#实现。
 * [FluentModbus](https://github.com/Apollo3zehn/FluentModbus)：FluentModbus是一个.NET Standard库，它提供Modbus TCP/RTU服务器和客户端实现，以便于流程数据交换。
+* [Async Modbus Master](https://github.com/zluo001/modbus-master)：Async Modbus Master是一个完全使用C#和.NET 10实现的高性能Modbus Master库。
 * [Modbus.Net](https://github.com/parallelbgls/Modbus.Net)：Modbus.Net是一个开源硬件通信平台。
 * [JccModbus](https://github.com/LessIsMoreInSZ/JccModbus)：Modbus池寄存器通信库。
 * [SharpModbus](https://github.com/samuelventura/SharpModbus)：C# Modbus工具。
@@ -10217,6 +10253,7 @@
 * [OgcApi.Net](https://github.com/sam-is/OgcApi.Net)：OgcApi.Net是OGC API系列标准的.NET实现，用于处理地理空间数据。
 * [IP2C.NET](https://github.com/darkthread/IP2C.NET)：IP2C.NET是一个轻量级的.NET库，用于根据IP地址快速查询其归属国家或地区。
 * [GeoParquet](https://github.com/bertt/geoparquet)：用于GeoParquet文件的.NET 8读取器/写入器库。
+* [OGU4Net](https://github.com/znlgis/opengis-utils-for-net)：OGU4Net是一个基于MaxRev.Gdal.Universal的.NET综合GIS开发工具包。
 
 ## GeoJSON
 
@@ -10920,6 +10957,7 @@
 * [HCaptcha.AspNetCore](https://github.com/BenjaminAbt/hcaptcha)：HCaptcha.AspNetCore项目包含用于Refit的IHCaptchaApi接口。
 * [Activation Key](https://github.com/ng256/Activation-Key)：表示用于保护你的C#应用程序的激活密钥。
 * [KeySharp](https://github.com/goaaats/KeySharp)：跨平台C#/.NET密钥环访问。
+* [AutoHttps](https://github.com/astralmaster/AutoHttps)：为ASP.NET Core自动启用HTTPS。
 
 ## 安全框架
 
@@ -11896,7 +11934,6 @@
 * [XiaoFeng.Ofd](https://github.com/zhuovi/XiaoFeng.Ofd)：OFD读写处理库，支持文档的生成、文档编辑、数字签名、文档合并、文档拆分、文档转换至PDF、文档查询等功能。
 * [PdfPig.Rendering.Skia](https://github.com/BobLd/PdfPig.Rendering.Skia)：跨平台库，用于使用SkiaSharp通过PdfPig将PDF文档渲染为图像，或将PDF页面中包含的图像提取为SkiaSharp图像。
 * [PdfReader](https://github.com/ComponentFactory/PdfReader)：在C#中快速加载和解析PDF格式。
-* [iText PDF OCR](https://github.com/itext/itext-pdfocr-dotnet)：PDF OCR是iText的一个附加组件，用于识别和提取扫描文档和图像中的文本。
 * [PdfDocumentParser](https://github.com/SergiyStoyan/PdfDocumentParser)：PdfDocumentParser是一个用于构建PDF解析器的.NET工具集。
 * [PDF To Image](https://github.com/chen0040/cs-pdf-to-image)：一个基于.NET 4.0的x86简单库，用于将PDF转换为.NET的图像。
 * [iDiTect C#.NET Converter Tool](https://github.com/iditectweb/converter)：独立的.NET转换库，无需Adobe Acrobat组件或Microsoft Office Interop程序集，可在.NET框架中转换PDF、DOCX、XLSX、HTML、图像、CSV、RTF、TXT。
@@ -12097,7 +12134,7 @@
 * [WkHtmlToXSharp](https://github.com/pruiz/WkHtmlToXSharp)：这是一个针对优秀的Html转PDF转换库wkhtmltopdf的C#封装。
 * [Wkhtmltopdf.NetCore](https://github.com/fpanaccia/Wkhtmltopdf.NetCore-deprecated)：这个项目在ASP.NET Core中实现了wkhtmltopdf库，支持在Windows、Linux、macOS和Docker上运行。
 * [OpenHtmlToPdf](https://github.com/vilppu/OpenHtmlToPdf)：用于将HTML文档渲染为PDF格式的.NET库。
-* [MiniPdf](https://github.com/mini-software/MiniPdf)：一个极简、轻量化的.NET库，用于将Office文件转换为PDF。
+* [MiniPdf](https://github.com/mini-software/MiniPdf)：适用于.NET、Rust、Java、Python、Node.js和Go的轻量级Office转PDF库和命令行工具。
 * [HtmlToPDFCore](https://github.com/carloscds/HtmlToPDFCore)：将HTML转换为PDF。
 * [QuestPdfUtil](https://github.com/adamfoneil/QuestPdfUtil)：一个用于QuestPDF的轻量级HTML转PDF转换库。
 * [Bhowra.Ink](https://bhowra.com/bhowra-ink.html)：Bhowra.Ink是一个完整的HTML转PDF渲染引擎。
@@ -12124,6 +12161,9 @@
 * [XPS2Img](https://github.com/peters/xps2img)：将XPS文档转换为.NET位图。
 * [CloudConvert .NET](https://github.com/cloudconvert/cloudconvert-dotnet)：这是CloudConvert API的官方.NET SDK v2。
 * [XpsToPdf](https://github.com/XpsToPdf/XpsToPdf)：一个用于将XPS转换为PDF的单一软件包。
+* [Unpdf](https://github.com/iyulab/unpdf)：一个高性能的Rust库，用于从PDF文档中提取内容到结构化的Markdown、纯文本和JSON。
+* [Undoc](https://github.com/iyulab/undoc)：一个高性能的Rust库，用于从Microsoft Office文档中提取内容到Markdown、纯文本和JSON。
+* [Unhwp](https://github.com/iyulab/unhwp)：一个高性能的Rust库，用于将HWP/HWPX韩语文字处理器文档提取为带有资源的结构化Markdown。
 
 ## 文件上传
 
@@ -12536,6 +12576,10 @@
 * [MeowHash.NET](https://github.com/tvandijck/meow_hash.NET)：Meow Hash .NET Core移植。
 * [MurmurHash .NET](https://github.com/jitbit/MurmurHash.net)：Murmur Hash 2的C#实现。
 * [xxHash.NET](https://github.com/wilhelmliao/xxHash.NET)：xxHash的.NET实现。
+* [K4os.Hash.xxHash](https://github.com/MiloszKrajewski/K4os.Hash.xxHash)：适用于.NET Core 1.1/2.0和.NET Standard 1.6/2.0的XXHash。
+* [xxHash3.NET](https://github.com/Zhentar/xxHash3.NET)：XXH3的C#移植版。
+* [XXHash](https://github.com/shibox/XXHash)：XXHash是一款速度极快的哈希算法。
+* [YYProject.XXHash](https://github.com/differentrain/YYProject.XXHash)：一个纯C#库，提供了xxHash算法的实现。
 
 ## 聚类算法
 
@@ -12848,6 +12892,7 @@
 * [ColorMinePortable](https://github.com/muak/ColorMinePortable)：这是使ColorMine与可移植类库相对应的库。
 * [SciColorMaps](https://github.com/ar1st0crat/SciColorMaps)：一个简单方便的库，提供自定义.NET颜色映射用于科学可视化。
 * [RandomColorSharped](https://github.com/nathanpjones/randomColorSharped)：David Merfield的JavaScript随机颜色生成器移植版。
+* [Hsluv C#](https://github.com/hsluv/hsluv-csharp)：HSLuv的C#实现。
 
 ## 字典库
 
@@ -13096,4 +13141,3 @@
 * [GaDotNet](https://github.com/dougrathbone/Ga.net)：GaDotNet是一个.NET库，它允许通过服务器端代码进行页面浏览和事件跟踪。
 * [Dispose.Scope](https://github.com/InCerryGit/Dispose.Scope)：Dispose.Scope是一个可以让你方便的使用作用域管理实现了IDisposable接口的对象实例的类库。
 * [VectorTraits](https://github.com/zyl910/VectorTraits)：VectorTraits是一个跨平台库，可以增强SIMD向量运算。
-

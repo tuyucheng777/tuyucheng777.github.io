@@ -74,6 +74,10 @@ menus:
     label: Awesome Java
     target: _self
 
+  - href: /csharp.html
+    label: Awesome .NET
+    target: _self
+
 # Navigation. main menu list
 navs:
 
