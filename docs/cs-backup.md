@@ -65,7 +65,7 @@
 * [A2A](#A2A)
 * [RAG](#RAG)
 * [AI网关](#AI网关)
-* [OpenAI客户端](#OpenAI客户端)
+* [LLM客户端](#LLM客户端)
 * [智能体](#智能体)
 * [NL2SQL](#NL2SQL)
 * [LLM推理](#LLM推理)
@@ -1081,6 +1081,7 @@
 * [Obvs](https://github.com/christopherread/Obvs)：一个可观察的.NET微服务总线库，将底层消息传输包裹在基于Rx的简单接口中。
 * [MiniBus](https://github.com/SteveBate/MiniBus)：一个基于MSMQ构建的小型.NET消息库，用于应用集成场景。
 * [EQueue](https://github.com/tangxuehua/equeue)：一个用C#编写的高性能分布式MQ。
+* [BullMQ](https://github.com/taskforcesh/bullmq)：基于Redis或PostgreSQL的消息队列和批处理平台。
 * [Wolverine](https://github.com/jasperfx/wolverine)：Wolverine是下一代.NET中介和消息总线。
 * [Tmds.DBus](https://github.com/tmds/Tmds.DBus)：D-Bus是一种消息总线系统，它为应用程序之间的通信提供了一种简便的方法。
 * [VitalRouter](https://github.com/hadashiA/VitalRouter)：VitalRouter是一个高性能、零内存分配的C#内存消息传递库。
@@ -1937,7 +1938,7 @@
 * [MCP Gateway](https://github.com/microsoft/mcp-gateway)：MCP Gateway是MCP服务器的反向代理和管理层，能够在Kubernetes环境中实现可扩展的、支持会话的路由、授权和MCP服务器的生命周期管理。
 * [Thor](https://github.com/AIDotNet/Thor)：Thor是一款企业级AI模型管理网关，提供统一的API访问，用于管理和协调多个AI模型。
 
-## OpenAI客户端
+## LLM客户端
 
 * [GitHub Copilot CLI SDKs](https://github.com/github/copilot-sdk)：用于将GitHub Copilot Agent集成到应用程序和服务中的多平台SDK。
 * [Betalgo.OpenAI](https://github.com/betalgo/openai)：用于访问OpenAI的API的.NET库，作为社区库提供。
@@ -1983,6 +1984,7 @@
 * [JKToolKit.CodexSDK](https://github.com/JKamsker/JKToolKit.CodexSDK)：一个强类型的.NET SDK，用于Codex CLI。
 * [ManagedCode.CodexSharpSDK](https://github.com/managedcode/CodexSharpSDK)：ManagedCode.CodexSharpSDK是一个开源的.NET SDK，用于从C#驱动Codex CLI。
 * [RxAI](https://github.com/vbandi/RxAI)：RxAI是一个C#库，它提供了一个响应式编程接口，用于与OpenAI和Azure Realtime API进行交互。
+* [Sdcb.SparkDesk](https://github.com/sdcb/Sdcb.SparkDesk)：Sdcb.SparkDesk是一个非官方的开源项目，提供SparkDesk WebSocket API的.NET客户端。
 
 ## 智能体
 
@@ -2231,6 +2233,7 @@
 * [iText PDFOCR .NET](https://github.com/itext/itext-pdfocr-dotnet)：PDFOCR是iText的一个附加组件，用于识别和提取扫描文档和图像中的文本。
 * [RapidOCRSharpOnnx](https://github.com/meloht/RapidOCRSharpOnnx)：一个高性能、跨平台的基于OpenCV和ONNX Runtime的PaddleOCR C#推理库。
 * [Tesseract.NET](https://github.com/tvn-cosine/tesseract.net)：Tesseract的.NET封装。
+* [SimdPaddleOCR](https://github.com/sdcb/SimdPaddleOCR)：纯C# PP-OCRv6推理库，多平台SIMD优化、较低内存占用、高正确率。
 
 ## 人脸识别
 
@@ -4386,6 +4389,7 @@
 * [Pleasanter](https://github.com/Implem/Implem.Pleasanter)：Pleasanter是一个开发平台，采用无代码和低代码两种方法，运行于.NET平台。
 * [GeneXus](https://www.genexus.com/en/)：GeneXus是一款低代码、跨平台、基于知识表示的开发工具，主要面向Web应用程序、智能设备和Microsoft Windows平台的企业级应用程序。
 * [Rintagi](https://github.com/Rintagi/Low-Code-Development-Platform)：Rintagi是开源的低代码应用平台，具备无限扩展和焕发新生的能力。
+* [Shesha](https://github.com/shesha-io/shesha-framework)：Shesha是一个专为.NET开发人员设计的开源低代码开发框架。
 * [Forge](https://github.com/microsoft/Forge)：Forge是一个基于配置驱动树步器的通用低代码框架。
 * [Serein Flow](https://github.com/fhhyyp/serein-flow)：基于.NET 8的跨平台可视化编程平台。
 * [Data API Builder](https://github.com/Azure/data-api-builder)：Data API Builder是一款开源的无代码工具，可为你的数据库创建安全、功能齐全的REST和GraphQL端点。
@@ -10217,6 +10221,7 @@
 * [OgcApi.Net](https://github.com/sam-is/OgcApi.Net)：OgcApi.Net是OGC API系列标准的.NET实现，用于处理地理空间数据。
 * [IP2C.NET](https://github.com/darkthread/IP2C.NET)：IP2C.NET是一个轻量级的.NET库，用于根据IP地址快速查询其归属国家或地区。
 * [GeoParquet](https://github.com/bertt/geoparquet)：用于GeoParquet文件的.NET 8读取器/写入器库。
+* [OGU4Net](https://github.com/znlgis/opengis-utils-for-net)：OGU4Net是一个基于MaxRev.Gdal.Universal的.NET综合GIS开发工具包。
 
 ## GeoJSON
 
@@ -11896,7 +11901,6 @@
 * [XiaoFeng.Ofd](https://github.com/zhuovi/XiaoFeng.Ofd)：OFD读写处理库，支持文档的生成、文档编辑、数字签名、文档合并、文档拆分、文档转换至PDF、文档查询等功能。
 * [PdfPig.Rendering.Skia](https://github.com/BobLd/PdfPig.Rendering.Skia)：跨平台库，用于使用SkiaSharp通过PdfPig将PDF文档渲染为图像，或将PDF页面中包含的图像提取为SkiaSharp图像。
 * [PdfReader](https://github.com/ComponentFactory/PdfReader)：在C#中快速加载和解析PDF格式。
-* [iText PDF OCR](https://github.com/itext/itext-pdfocr-dotnet)：PDF OCR是iText的一个附加组件，用于识别和提取扫描文档和图像中的文本。
 * [PdfDocumentParser](https://github.com/SergiyStoyan/PdfDocumentParser)：PdfDocumentParser是一个用于构建PDF解析器的.NET工具集。
 * [PDF To Image](https://github.com/chen0040/cs-pdf-to-image)：一个基于.NET 4.0的x86简单库，用于将PDF转换为.NET的图像。
 * [iDiTect C#.NET Converter Tool](https://github.com/iditectweb/converter)：独立的.NET转换库，无需Adobe Acrobat组件或Microsoft Office Interop程序集，可在.NET框架中转换PDF、DOCX、XLSX、HTML、图像、CSV、RTF、TXT。
@@ -12097,7 +12101,7 @@
 * [WkHtmlToXSharp](https://github.com/pruiz/WkHtmlToXSharp)：这是一个针对优秀的Html转PDF转换库wkhtmltopdf的C#封装。
 * [Wkhtmltopdf.NetCore](https://github.com/fpanaccia/Wkhtmltopdf.NetCore-deprecated)：这个项目在ASP.NET Core中实现了wkhtmltopdf库，支持在Windows、Linux、macOS和Docker上运行。
 * [OpenHtmlToPdf](https://github.com/vilppu/OpenHtmlToPdf)：用于将HTML文档渲染为PDF格式的.NET库。
-* [MiniPdf](https://github.com/mini-software/MiniPdf)：一个极简、轻量化的.NET库，用于将Office文件转换为PDF。
+* [MiniPdf](https://github.com/mini-software/MiniPdf)：适用于.NET、Rust、Java、Python、Node.js和Go的轻量级Office转PDF库和命令行工具。
 * [HtmlToPDFCore](https://github.com/carloscds/HtmlToPDFCore)：将HTML转换为PDF。
 * [QuestPdfUtil](https://github.com/adamfoneil/QuestPdfUtil)：一个用于QuestPDF的轻量级HTML转PDF转换库。
 * [Bhowra.Ink](https://bhowra.com/bhowra-ink.html)：Bhowra.Ink是一个完整的HTML转PDF渲染引擎。
@@ -12124,6 +12128,9 @@
 * [XPS2Img](https://github.com/peters/xps2img)：将XPS文档转换为.NET位图。
 * [CloudConvert .NET](https://github.com/cloudconvert/cloudconvert-dotnet)：这是CloudConvert API的官方.NET SDK v2。
 * [XpsToPdf](https://github.com/XpsToPdf/XpsToPdf)：一个用于将XPS转换为PDF的单一软件包。
+* [Unpdf](https://github.com/iyulab/unpdf)：一个高性能的Rust库，用于从PDF文档中提取内容到结构化的Markdown、纯文本和JSON。
+* [Undoc](https://github.com/iyulab/undoc)：一个高性能的Rust库，用于从Microsoft Office文档中提取内容到Markdown、纯文本和JSON。
+* [Unhwp](https://github.com/iyulab/unhwp)：一个高性能的Rust库，用于将HWP/HWPX韩语文字处理器文档提取为带有资源的结构化Markdown。
 
 ## 文件上传
 
@@ -12536,6 +12543,10 @@
 * [MeowHash.NET](https://github.com/tvandijck/meow_hash.NET)：Meow Hash .NET Core移植。
 * [MurmurHash .NET](https://github.com/jitbit/MurmurHash.net)：Murmur Hash 2的C#实现。
 * [xxHash.NET](https://github.com/wilhelmliao/xxHash.NET)：xxHash的.NET实现。
+* [K4os.Hash.xxHash](https://github.com/MiloszKrajewski/K4os.Hash.xxHash)：适用于.NET Core 1.1/2.0和.NET Standard 1.6/2.0的XXHash。
+* [xxHash3.NET](https://github.com/Zhentar/xxHash3.NET)：XXH3的C#移植版。
+* [XXHash](https://github.com/shibox/XXHash)：XXHash是一款速度极快的哈希算法。
+* [YYProject.XXHash](https://github.com/differentrain/YYProject.XXHash)：一个纯C#库，提供了xxHash算法的实现。
 
 ## 聚类算法
 
@@ -12848,6 +12859,7 @@
 * [ColorMinePortable](https://github.com/muak/ColorMinePortable)：这是使ColorMine与可移植类库相对应的库。
 * [SciColorMaps](https://github.com/ar1st0crat/SciColorMaps)：一个简单方便的库，提供自定义.NET颜色映射用于科学可视化。
 * [RandomColorSharped](https://github.com/nathanpjones/randomColorSharped)：David Merfield的JavaScript随机颜色生成器移植版。
+* [Hsluv C#](https://github.com/hsluv/hsluv-csharp)：HSLuv的C#实现。
 
 ## 字典库
 
