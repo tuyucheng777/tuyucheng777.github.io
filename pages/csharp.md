@@ -2254,6 +2254,7 @@ permalink: /csharp
 * [iText PDFOCR .NET](https://github.com/itext/itext-pdfocr-dotnet)：PDFOCR是iText的一个附加组件，用于识别和提取扫描文档和图像中的文本。
 * [RapidOCRSharpOnnx](https://github.com/meloht/RapidOCRSharpOnnx)：一个高性能、跨平台的基于OpenCV和ONNX Runtime的PaddleOCR C#推理库。
 * [Tesseract.NET](https://github.com/tvn-cosine/tesseract.net)：Tesseract的.NET封装。
+* [SimdPaddleOCR](https://github.com/sdcb/SimdPaddleOCR)：纯C# PP-OCRv6推理库，多平台SIMD优化、较低内存占用、高正确率。
 
 ## 人脸识别
 
