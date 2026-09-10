@@ -11066,6 +11066,7 @@ permalink: /javalibs
 * [KalDB](https://github.com/kaldb/kaldb)：KalDB是一款云原生日志搜索和分析引擎，专为高容量可观测性工作负载而构建。
 * [Quarkus Logging Manager](https://github.com/quarkiverse/quarkus-logging-manager)：Quarkus Logging Manager扩展为你提供了可视化和管理日志记录器日志级别的端点。
 * [Mache](https://github.com/StreakYC/mache)：Mache框架是一个Java App Engine库，它可以轻松地将App Engine应用程序日志导出到BigQuery进行分析。
+* [Log Parser](https://github.com/adobe/log-parser)：Log Parser旨在帮助将日志结果集成到测试、报告和一般应用程序流程中，由Adobe开源。
 
 #### Logback Appender
 
@@ -14002,9 +14003,11 @@ permalink: /javalibs
 
 * [JCommander](https://github.com/cbeust/jcommander)：JCommander是一个非常小的Java框架，可以轻松解析命令行参数。
 * [Args4j](https://github.com/kohsuke/args4j)：Args4j是一个小型Java类库，可以轻松解析CUI应用程序中的命令行选项/参数。
+* [Scopt](https://github.com/scopt/scopt)：Scopt是一个小型命令行选项解析库。
 * [JArgs](https://github.com/purcell/jargs)：JArgs是一个命令行参数解析库。
 * [JOpt Simple](https://github.com/jopt-simple/jopt-simple)：JOpt Simple是一个用于解析命令行选项的Java库。
 * [Argparse4j](https://github.com/argparse4j/argparse4j)：Argparse4j是一个基于Python argparse模块的Java命令行参数解析器库。
+* [Spring boot Picocli Starter](https://github.com/kakawait/picocli-spring-boot-starter)：Spring Boot Starter，适用于Picocli命令行解析器，可简化你的CommandLineRunner。
 * [Kotlin ArgParser](https://github.com/xenomachina/kotlin-argparser)：这是一个用于解析命令行参数的库。
 * [MainArgs](https://github.com/com-lihaoyi/mainargs)：MainArgs是一个小型、无依赖的Scala命令行参数解析库。
 * [JaCoLine](https://github.com/chriswhocodes/JaCoLine)：为开发人员提供有用的工具来理解和验证他们的Java命令行选项。
@@ -14038,6 +14041,8 @@ permalink: /javalibs
 * [Flow Commands](https://github.com/flowpowered/commands)：这是一个命令行解析库，用于构建命令树。
 * [Argparser](https://www.cs.ubc.ca/~lloyd/java/argparser.html)：Argparser可以用来为Java应用程序指定命令行选项，由不列颠哥伦比亚大学开源。
 * [Command Line Util](https://github.com/YunaBraska/command-line-util)：CommandLineUtil工具可让你轻松访问Unix/Windows命令行。
+* [Jargo](https://github.com/Softhouse/jargo)：用于简化程序参数/选项处理的工具。
+* [Argvester](https://github.com/forax/argvester)：一个简单的命令行解析器。
 
 #### 命令框架
 
@@ -23743,6 +23748,7 @@ Kafka生态管理系统、运维平台。
 * [JCEditor](https://github.com/cristianzsh/JCEditor)：Java文本编辑器。
 * [Programming Editor](https://github.com/Eadgyth/Programming-Editor)：Programming Editor是一个用Java编写的文本和代码编辑器。
 * [Ballad](https://github.com/RohitAwate/Ballad)：一款使用JavaFX编写的简洁而美观的文本编辑器。
+* [Bug Gym](https://github.com/PhilixTheExplorer/bug-gym)：Bug Gym是一款轻量级的离线Java练习桌面应用，它模拟Moodle风格的考试题，提供语法高亮、自动测试和适合初学者的循序渐进的练习模式。
 
 ## 数学软件
 
@@ -24220,6 +24226,7 @@ Kafka生态管理系统、运维平台。
 * [Writemem](https://github.com/ExploitTheLoop/writemem)：这是一个用于在Java中向PUBG等游戏写入内存的实用库，无需使用C++。
 * [Dota 2 GSI](https://github.com/MrBean355/dota2-gsi)：这是一个JVM库，旨在简化Dota 2游戏状态集成(GSI)的使用。
 * [ClashAPI](https://github.com/Lycoon/clash-api)：ClashAPI是一个非常简单但功能齐全的JVM封装库，用于封装部落冲突移动游戏API。
+* [GW2ML](https://github.com/GW2ToolBelt/GW2ML)：GW2ML是一个Java库，用于通过MumbleLink机制快速、无缓存地访问Guild Wars 2游戏客户端提供的数据。
 
 #### 物理引擎
 
