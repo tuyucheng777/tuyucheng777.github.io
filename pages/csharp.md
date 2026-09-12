@@ -1175,6 +1175,7 @@ permalink: /csharp
 * [Redlock CS](https://github.com/KidFashion/redlock-cs)：基于Redlock算法的Redis和C#分布式锁。
 * [ScarletLock](https://github.com/aidapsibr/scarletlock)：ScarletLock是RedLock算法的.NET实现，它可以通过实现一个简单的接口与Redis以及其他数据存储配合使用。
 * [Loki](https://github.com/Trendyol/Loki)：Loki提供了一种在分布式系统中轻松处理锁定场景的方法。
+* [ReactiveLock](https://github.com/micheloliveira-com/ReactiveLock)：ReactiveLock是一个适用于.NET 8/9+的库，用于实现响应式分布式锁协调。
 
 ## Raft
 
@@ -1586,6 +1587,7 @@ permalink: /csharp
 * [PocoHttp](https://github.com/PocoHttp/PocoHttp)：PocoHttp是一个.NET客户端库，它使用熟悉的IQueryable接口访问HTTP数据服务，类似于Entity Framework等ORM框架。
 * [HttpRequestToCurl](https://github.com/imperugo/HttpRequestToCurl)：一个简单的扩展方法，可以根据HTTP请求生成Curl命令。
 * [SpeakEasy](https://github.com/jonnii/SpeakEasy)：SpeakEasy是一个用于使用Web API最擅长的语言HTTP来操作Web API的库。
+* [FluentHttpClient](https://github.com/scottoffen/fluenthttpclient)：FluentHttpClient在HttpClient之上添加了一个可链式调用的API。
 
 ## Socket
 
@@ -1603,7 +1605,6 @@ permalink: /csharp
 * [Bouyei.NetFactory](https://gitee.com/bouyei/Bouyei.NetFactory)：高性能并发Socket通信库。
 * [Weaving Socket](https://gitee.com/dotnetchina/weaving-socket)：基于.NET Core设计的通用Socket通信框架，满足多平台、多场景的通信需求。
 * [AwesomeSockets](https://github.com/nterry/AwesomeSockets)：AwesomeSockets是一个C#库，促进网络通信。
-* [Fracture](https://github.com/fractureio/fracture)：Fracture是一个基于F#的库，适用于高速、高吞吐应用。
 * [ReliableNetcode.NET](https://github.com/GlaireDaggers/ReliableNetcode.NET)：ReliableNetcode.NET提供了一个简单易用的可靠性层，专为构建在不可靠UDP连接上的游戏设计。
 * [ReactiveSockets](https://github.com/clariuslabs/reactivesockets)：ReactiveSockets实现了一个非常易用的套接字API，基于IObservable。
 * [Netly](https://github.com/alec1o/Netly)：跨平台、多协议的C#套接字库。
@@ -2090,6 +2091,7 @@ permalink: /csharp
 * [SharpMind](https://github.com/Integral2u/SharpMind)：SharpMind是一个完全用C#编写的端到端LLM堆栈。
 * [LMSupply](https://github.com/iyulab/lm-supply)：.NET库，用于按需本地AI模型推理。
 * [LlamaLib](https://github.com/undreamai/LlamaLib)：LlamaLib是一个高级C和C#库，可以在任何地方运行LLM。
+* [SharpAI](https://github.com/jchristn/SharpAI)：一个用于本地AI模型推理的.NET库，提供与Ollama和OpenAI兼容的REST API。
 
 ## 代理框架
 
@@ -2286,15 +2288,11 @@ permalink: /csharp
 
 ## 神经网络
 
-* [NNCase](https://github.com/kendryte/nncase)：NNCase是一个为AI加速器设计的神经网络编译器。
 * [Keras.NET](https://github.com/SciSharp/Keras.NET)：Keras.NET是一个支持C#和F#的高级神经网络API，支持Python绑定，能够运行在TensorFlow、CNTK或Theano之上。
 * [NeuralNetwork.NET](https://github.com/Sergio0694/NeuralNetwork.NET)：NeuralNetwork.NET是一个基于.NET Standard 2.0的库，实现了具有可自定义层的顺序图和计算图神经网络，并用C#从零构建。
 * [SharpNEAT](https://github.com/colgreen/sharpneat)：SharpNEAT是用C#编写、面向.NET 9的完整NEAT实现。
-* [RNNSharp](https://github.com/zhongkaifu/RNNSharp)：RNNSharp是一个深度循环神经网络工具包，广泛应用于多种任务，如序列标记、序列对序列等。
 * [Neural Network](https://github.com/trentsartain/Neural-Network)：这是一个用C#编写的可配置神经网络。
-* [BlazePoseBarracuda](https://github.com/creativeIKEP/BlazePoseBarracuda)：BlazePoseBarracuda是一款人类二维/三维姿态估计神经网络，配合单眼彩色相机工作。
 * [Seq2SeqSharp](https://github.com/zhongkaifu/Seq2SeqSharp)：Seq2SeqSharp是一个高性能、基于张量的深度神经网络框架。
-* [BrainSimII](https://github.com/FutureAIGuru/BrainSimII)：用于通用人工智能研发的神经模拟器。
 * [SharpML Recurrent](https://github.com/andrewfry/SharpML-Recurrent)：基于RecurrentJs的神经网络库。
 * [NNSharp](https://github.com/adamtiger/NNSharp)：一个用于运行预训练神经网络的轻量级软件包。
 * [WeaveAI](https://gitee.com/UDCS/WeaveAI)：一个使用C#编写的用于神经网络的计算图框架。
@@ -2309,12 +2307,9 @@ permalink: /csharp
 * [MyCaffe](https://github.com/MyCaffe/MyCaffe)：MyCaffe是对原生C++ CAFFE开源项目的完整C#重写。
 * [TorchSharp](https://github.com/dotnet/TorchSharp)：TorchSharp是一个.NET库，它提供了对支持PyTorch的库的访问。
 * [TransformersSharp](https://github.com/tonybaloney/TransformersSharp)：用于C#的Hugging Face Transformers的小型封装器。
-* [Hype](https://github.com/hypelib/Hype)：Hype是一个概念验证深度学习库。
 * [DeepNet](https://github.com/DeepMLNet/DeepNet)：适用于F#的深度学习库。
-* [YoloDeployCsharp](https://github.com/guojin-yan/YoloDeployCsharp)：基于C#的YOLO系列深度学习模型部署平台。
 * [KAMONOHASHI](https://github.com/KAMONOHASHI/kamonohashi)：KAMONOHASHI是一个专为高效开发深度学习模型而设计的AI开发平台。
 * [Merkurius](https://github.com/milchchan/Merkurius)：.NET平台的可移植深度学习库实现。
-* [Partydonk](https://github.com/Partydonk/partydonk)：Partydonk是一个实验性的.NET语言和运行时分支项目，旨在为C#和.NET添加深度学习和科学计算所需的基础特性。
 * [RCNet](https://github.com/okozelsk/NET)：用于.NET的储层计算库。
 
 ## 模型推理
@@ -2323,6 +2318,7 @@ permalink: /csharp
 * [NcnnDotNet](https://github.com/takuya-takeuchi/NcnnDotNet)：用C++和C#编写的Ncnn封装程序，支持Windows、macOS、Linux、iOS和Android平台。
 * [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET)：StableDiffusion.cpp的C#封装。
 * [Lobe.NET](https://github.com/lobe/lobe.NET)：用于在导出的Lobe模型上运行推理的.NET库。
+* [YoloDeployCsharp](https://github.com/guojin-yan/YoloDeployCsharp)：基于C#的YOLO系列深度学习模型部署平台。
 
 ## 推荐系统
 
@@ -3930,6 +3926,7 @@ permalink: /csharp
 * [TokenExchange](https://github.com/Farfetch/token-exchange)：TokenExchange是一个.NET Framework框架，它实现了RFC 8693 OAuth 2.0令牌交换规范。
 * [Maui.Blazor.Authentication](https://github.com/Aguafrommars/Maui.Blazor.Authentication)：简化MAUI Blazor应用的OIDC身份验证。
 * [Identity Base](https://github.com/Amaretto-Software-Labs/identity-base)：Identity Base是一个模块化的Identity、OpenID Connect平台，适用于.NET 9。
+* [OAuth1 Signer C#](https://github.com/Mastercard/oauth1-signer-csharp)：用于生成符合万事达卡API标准的OAuth签名的零依赖库。
 
 ## 授权服务器
 
@@ -4073,6 +4070,7 @@ permalink: /csharp
 * [AES GCM SIV](https://github.com/Metalnem/aes-gcm-siv)：AES GCM SIV是一个实现了AES-GCM-SIV加密算法的.NET库。
 * [AdvSim.Cryptography](https://github.com/FuzzySecurity/AdvSim.Cryptography)：AdvSim.Cryptography包含一组可重用的加密封装函数，这些函数配置合理且易于使用。
 * [GPGME Sharp](https://github.com/gpgme-sharp/gpgme-sharp)：GPGME Sharp是GPGME的C#封装库。
+* [Client Encryption C#](https://github.com/Mastercard/client-encryption-csharp)：符合Mastercard API的有效负载加密/解密库。
 
 ## 密码库
 
@@ -4620,6 +4618,7 @@ permalink: /csharp
 * [MathExtensions](https://github.com/TommasoScalici/MathExtensions)：MathExtensions是一个.NET库，它提供了关于各种数学领域的简单而有用的扩展方法。
 * [FftFlat](https://github.com/sinshu/fftflat)：该库旨在提供一个完全用纯C#编写的快速傅里叶变换(FFT)实现。
 * [Mpir.NET](https://github.com/akasubi/Mpir.NET)：Mpir.NET允许你从.NET语言中使用MPIR库。
+* [VectorTraits](https://github.com/zyl910/VectorTraits)：VectorTraits是一个跨平台库，可以增强SIMD向量运算。
 
 ## 矩阵
 
@@ -6204,6 +6203,7 @@ permalink: /csharp
 * [DNZ.MvcComponents](https://github.com/mjebrahimi/DNZ.MvcComponents)：一套基于流行的JavaScript插件的ASP.NET Core MVC实用UI组件。
 * [Tuxboard](https://github.com/jdanylko/Tuxboard)：Tuxboard是一个轻量级的开源ASP.NET Core仪表盘库。
 * [DotVue](https://github.com/mbdavid/DotVue)：实现带有服务器端ViewModel的.vue单文件组件。
+* [DataTables .NET](https://github.com/DataTables/NET)：这是一个.NET库的集合，旨在为DataTables提供简单的服务器端支持。
 
 ## 路由库
 
@@ -7765,6 +7765,7 @@ permalink: /csharp
 * [CobaltFluent](https://github.com/RoorJiaMo/CobaltFluent)：Avalonia的Windows 11 Fluent实现。
 * [CompositionMaterial.Avalonia](https://github.com/HelloWRC/CompositionMaterial.Avalonia)：CompositionMaterial.Avalonia是一个.NET 8.0控件库，它为Avalonia应用程序添加了形状裁剪的Windows材质。
 * [Clowd.Clipboard](https://github.com/clowd/Clowd.Clipboard)：一个用于.NET的Windows剪贴板库，以及一个定制的bmp/dib解析器。
+* [Lang.Avalonia](https://github.com/dotnet9/Lang.Avalonia)：Lang.Avalonia是面向Avalonia UI的插件化多语言库。
 
 #### Avalonia图标库
 
@@ -7837,6 +7838,7 @@ permalink: /csharp
 * [MatrixAPI](https://github.com/VRocker/MatrixAPI)：一个用于C# UWP的矩阵库。
 * [WinUX UWP Toolkit](https://github.com/jamesmcroft/WinUX-App-Toolkit)：WinUX UWP是一个必备工具包，可以帮助开发者开始使用在Windows 10应用开发中常用的XAML控件、转换器、行为、状态触发器和扩展。
 * [CompositionHelper](https://github.com/devkanro/CompositionHelper)：为UWP的Composition API提供助手。
+* [Mica UWP](https://github.com/wherewhere/Mica-For-UWP)：一个无需WinUI便可实现的Mica笔刷。
 
 ## UNO
 
@@ -8046,6 +8048,7 @@ permalink: /csharp
 * [A2UI.Blazor](https://github.com/xuzeyu91/A2UI.Blazor)：为Blazor应用程序提供完整的.NET 9 A2UI协议实现。
 * [BlazorDataTable](https://github.com/erossini/BlazorDataTable)：适用于Blazor WebAssembly和Blazor Server的DataTable组件，支持客户端/服务器端分页、筛选和排序。
 * [Blazor Highcharts](https://github.com/Allegiance-Consulting/blazor-highcharts)：Highcharts库的Blazor封装。
+* [BlazorTextDiff](https://github.com/lzinga/BlazorTextDiff)：一个用于并排显示文本差异并进行字符级高亮显示的Blazor组件。
 
 ## IDE
 
@@ -10088,6 +10091,7 @@ permalink: /csharp
 * [RainLisp](https://github.com/chr1st0scli/RainLisp)：RainLisp是一种编程语言，属于LISP语言家族，与Scheme有许多相似之处。
 * [HydraScript](https://github.com/Stepami/hydrascript)：受TypeScript和Go启发的小型解释型编程语言，用C#编写。
 * [C#ML](https://github.com/DevAndersen/csml)：C#ML是一种编程语言，旨在通过XML的强大语法提供C#的功能。
+* [Dassie Compiler](https://github.com/loschsoftware/dc)：Dassie编译器、项目系统和核心库。
 
 ## 编译器
 
@@ -11330,6 +11334,7 @@ permalink: /csharp
 * [Hatch Baby Rest BLE API](https://github.com/Marcus-L/m4rcus.HatchBaby.Rest)：此.NET API允许对Hatch Baby Rest智能夜灯、声音机和OK-to-Wake的基本功能进行编程控制，包括控制电源、颜色、音量和音频曲目。
 * [SonosSharp](https://github.com/samneirinck/SonosSharp)：适用于.NET的Sonos API。
 * [ZWaveJS.NET](https://github.com/zwave-js/ZWaveJS.NET)：一个用于.NET Framework的Z-Wave JS封装库。
+* [CodeCasa](https://github.com/DevJasperNL/CodeCasa)：一系列.NET库，提供NetDaemon扩展以及通用智能家居自动化实用程序。
 
 ## 仿真框架
 
@@ -13219,11 +13224,9 @@ permalink: /csharp
 
 ## 其他
 
-* [VectorTraits](https://github.com/zyl910/VectorTraits)：VectorTraits是一个跨平台库，可以增强SIMD向量运算。
 * [CalculatedProperties](https://github.com/StephenCleary/CalculatedProperties)：MVVM应用中易用的计算属性。
 * [RamDisk](https://github.com/mjebrahimi/RamDisk)：RamDisk是一个用于在系统内存上创建虚拟磁盘驱动器的库。
 * [Breeze](https://breeze.github.io/doc-main/)：Breeze是一个库，可以帮助你在富客户端应用程序中管理数据。
 * [KitchenPC](https://github.com/KitchenPC/core)：KitchenPC是一个用C#编写的免费开源框架，用于处理食谱、购物清单和菜单。
 * [AppDomainToolkit](https://github.com/jduv/AppDomainToolkit)：用于管理.NET应用程序领域编程复杂性的工具包。
-* [PrettySize](https://github.com/neosmart/PrettySize.net)：PrettySize是一个用于处理和格式化文件大小的.NET库。
 * [Carbon Aware Computing](https://github.com/bluehands/Carbon-Aware-Computing)：该项目的目标是为开发者提供易于使用、可立即运行的碳感知计算工具。
