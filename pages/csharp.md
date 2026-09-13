@@ -146,8 +146,14 @@ permalink: /csharp
 * [HTTP回放](#HTTP回放)
 * [测试生成器](#测试生成器)
 * [其他测试库](#其他测试库)
-* [功能标志](#功能标志)
 * [数据库](#数据库)
+* [NoSQL数据库](#NoSQL数据库)
+* [图数据库](#图数据库)
+* [时序数据库](#时序数据库)
+* [向量数据库](#向量数据库)
+* [关系型数据库](#关系型数据库)
+* [对象数据库](#对象数据库)
+* [嵌入式数据库](#嵌入式数据库)
 * [事件存储](#事件存储)
 * [搜索引擎](#搜索引擎)
 * [ORM](#ORM)
@@ -242,7 +248,11 @@ permalink: /csharp
 * [对象映射](#对象映射)
 * [类型转换](#类型转换)
 * [对象比较](#对象比较)
-* [缓存库](#缓存库)
+* [本地缓存](#本地缓存)
+* [分布式缓存](#分布式缓存)
+* [HTTP缓存](#HTTP缓存)
+* [缓存管理器](#缓存管理器)
+* [键值存储](#键值存储)
 * [日志库](#日志库)
 * [结构化日志](#结构化日志)
 * [日志追踪](#日志追踪)
@@ -344,8 +354,25 @@ permalink: /csharp
 * [WinForms](#WinForms)
 * [WinForms主题库](#WinForms主题库)
 * [WinForms控件库](#WinForms控件库)
+* [WinForms图表库](#WinForms图表库)
+* [WinForms对话框](#WinForms对话框)
+* [WinForms布局库](#WinForms布局库)
+* [WinForms动画库](#WinForms动画库)
+* [WinForms节点图](#WinForms节点图)
+* [WinForms编辑器组件](#WinForms编辑器组件)
 * [MAUI](#MAUI)
 * [Avalonia](#Avalonia)
+* [Avalonia主题库](#Avalonia主题库)
+* [Avalonia控件库](#Avalonia控件库)
+* [Avalonia图表库](#Avalonia图表库)
+* [Avalonia对话框](#Avalonia对话框)
+* [Avalonia布局库](#Avalonia布局库)
+* [Avalonia动画库](#Avalonia动画库)
+* [Avalonia节点图](#Avalonia节点图)
+* [Avalonia编辑器组件](#Avalonia编辑器组件)
+* [Avalonia选择器](#Avalonia选择器)
+* [Avalonia媒体库](#Avalonia媒体库)
+* [Avalonia终端/控制台](#Avalonia终端控制台)
 * [Avalonia图标库](#Avalonia图标库)
 * [Xamarin](#Xamarin)
 * [Dock库](#Dock库)
@@ -432,6 +459,7 @@ permalink: /csharp
 * [规则引擎](#规则引擎)
 * [状态机](#状态机)
 * [状态管理](#状态管理)
+* [功能标志](#功能标志)
 * [构建工具](#构建工具)
 * [SDK管理工具](#SDK管理工具)
 * [CI/CD](#CICD)
@@ -692,14 +720,9 @@ permalink: /csharp
 ## REST框架
 
 * [FastEndpoints](https://github.com/FastEndpoints/FastEndpoints)：FastEndpoints是Minimal API和MVC的开发人员友好替代方案。
-* [WebApiClient](https://github.com/dotnetcore/WebApiClient)：具有比Refit更好的功能、性能和可扩展性的REST API库。
-* [RestEase](https://github.com/canton7/RestEase)：RestEase是一个小型类型安全的REST API客户端库。
 * [RESTier](https://github.com/OData/RESTier)：Restier是一个用于构建基于.NET的标准化OData V4 RESTful服务的API开发框架。
-* [RestClient.Net](https://github.com/MelbourneDeveloper/RestClient.Net)：用C#语言进行REST调用的最安全方法。
 * [LightNode](https://github.com/neuecc/LightNode)：LightNode是一个基于OWIN构建的微型RPC/REST框架。
-* [RestLess](https://github.com/letsar/RestLess)：RestLess是另一个类型安全的REST API客户端库。
 * [JsonApiDotNetCore](https://github.com/json-api-dotnet/JsonApiDotNetCore)：一个用于使用ASP.NET Core和Entity Framework Core构建符合JSON:API规范的REST API的框架。
-* [Refitter](https://github.com/christianhelle/refitter)：Refitter是一款使用Refit库生成C# REST API客户端的工具。
 * [JsonApiSerializer](https://github.com/codecutout/JsonApiSerializer)：JsonApiSerializer提供无需配置的方式，将对象序列化和反序列化为json:api格式。
 * [APIJSON.NET](https://github.com/liaozb/APIJSON.NET)：这是APIJSON的C# .NET Core版后端实现。
 * [RService.IO](https://github.com/StummeJ/RService.IO)：适用于ASP.NET Core的轻量级REST服务框架。
@@ -902,6 +925,7 @@ permalink: /csharp
 * [NMolecules](https://github.com/xmolecules/nmolecules)：一套帮助开发者在.NET中处理架构概念的库。
 * [Hexa.Core](https://github.com/cmendible/Hexa.Core)：Hexa.Core是HexaSystems对领域驱动设计架构(DDD)的实现，同时还提供了一组用于ASP.NET和WCF开发的辅助类。
 * [DDD Based Enterprise Application Framework](https://github.com/sandipray63in/DDD-Based-Enterprise-Application-Framework)：基于领域驱动设计的企业应用框架。
+* [Memoria](https://github.com/lucabriguglia/Memoria)：.NET框架，实现了DDD、CQRS和事件溯源。
 
 ## CQRS框架
 
@@ -962,6 +986,8 @@ permalink: /csharp
 * [DryIoc](https://github.com/dadhi/DryIoc)：DryIoc是适用于.NET的快速、小型、功能齐全的IoC容器。
 * [Jab](https://github.com/pakrym/jab)：Jab提供了基于C#源生成器的依赖注入容器实现。
 * [Grace](https://github.com/ipjohnson/Grace)：Grace是一个功能丰富的依赖注入容器库。
+* [Unity](https://github.com/unitycontainer/unity)：Unity是一个功能齐全、可扩展的依赖注入容器。
+* [VS MEF](https://github.com/microsoft/vs-mef)：VS MEF是Visual Studio团队实现的.NET托管扩展框架，它是一个高性能的MEF引擎，支持System.ComponentModel.Composition和System.Composition。
 * [Spring.NET](https://github.com/spring-projects/spring-net)：.NET Spring框架。
 * [MicroResolver](https://github.com/neuecc/MicroResolver)：极快的依赖注入库。
 * [AutoInject](https://github.com/chickensoft-games/AutoInject)：用于C# Godot脚本的基于无反射节点的依赖注入。
@@ -1530,6 +1556,11 @@ permalink: /csharp
 * [Replicant](https://github.com/SimonCropp/Replicant)：一个缓存到磁盘的HttpClient包装器。
 * [Tiny.RestClient](https://github.com/jgiacomini/Tiny.RestClient)：.NET的简单流式REST客户端。
 * [CurlSharp](https://github.com/masroore/CurlSharp)：CurlSharp是一个面向对象的libcurl封装程序和.NET绑定。
+* [RestEase](https://github.com/canton7/RestEase)：RestEase是一个小型类型安全的REST API客户端库。
+* [RestClient.Net](https://github.com/MelbourneDeveloper/RestClient.Net)：用C#语言进行REST调用的最安全方法。
+* [WebApiClient](https://github.com/dotnetcore/WebApiClient)：具有比Refit更好的功能、性能和可扩展性的REST API库。
+* [RestLess](https://github.com/letsar/RestLess)：RestLess是另一个类型安全的REST API客户端库。
+* [Refitter](https://github.com/christianhelle/refitter)：Refitter是一款使用Refit库生成C# REST API客户端的工具。
 * [FluentlyHttpClient](https://github.com/sketch7/FluentlyHttpClient)：.NET Standard的HTTP客户端，拥有直观、易用且高度可扩展的流式API。
 * [FluentHttpClient](https://github.com/Pathoschild/FluentHttpClient)：FluentHttpClient是一个现代的异步HTTP客户端，用于REST API。
 * [DalSoft.RestClient](https://github.com/DalSoft/DalSoft.RestClient)：DalSoft .NET REST客户端适用于所有平台。
@@ -2037,6 +2068,7 @@ permalink: /csharp
 * [ChatGPT.Net](https://github.com/PawanOsman/ChatGPT.Net)：使用官方OpenAI API的ChatGPT C#库。
 * [Sdcb Chats](https://github.com/sdcb/chats)：用户友好的企业就绪AI接口。
 * [ChatGptNet](https://github.com/marcominerva/ChatGptNet)：适用于.NET的ChatGPT集成库，支持OpenAI和Azure OpenAI服务。
+* [Cledev.OpenAI](https://github.com/Cledev-Limited/Cledev.OpenAI)：非官方的OpenAI .NET SDK。
 * [Standard.AI.OpenAI](https://github.com/hassanhabib/Standard.AI.OpenAI)：Standard.AI.OpenAI是一个符合标准的.NET库，建立在OpenAI API RESTful端点之上，使软件工程师能够在.NET中开发AI驱动的解决方案。
 * [OpenAI.Net](https://github.com/jodendaal/OpenAI.Net)：适用于.NET的OpenAI库。
 * [OpenAI Tools](https://github.com/dluc/openai-tools)：用于OpenAI的工具集合。
@@ -2127,7 +2159,6 @@ permalink: /csharp
 
 * [KernelMemory.StructRAG](https://github.com/kbeaugrand/KernelMemory.StructRAG)：该项目利用创新的StructRAG方法来提高在复杂场景中RAG的准确性。
 * [RAGSharp](https://github.com/MrRazor22/RAGSharp)：RAGSharp是一个轻量级、可扩展的RAG库，完全用C#构建。
-* [VectorRAG.Net](https://github.com/likeslines-maker/VectorRAG.Net)：VectorRAG.Net是一个面向.NET的高性能向量数据库库，用于语义搜索和RAG。
 * [SmartRAG](https://github.com/byerlikaya/SmartRAG)：.NET的多模态RAG。
 * [GraphRag.Net](https://github.com/shuyu-labs/GraphRag.Net)：参考GraphRag的.NET简单实现。
 * [GraphRAG](https://github.com/managedcode/graphrag)：GraphRAG .NET是将微软的GraphRAG参考实现完全移植到现代.NET 10堆栈的版本。
@@ -2446,6 +2477,7 @@ permalink: /csharp
 * [Decider](https://github.com/lifebeyondfife/Decider)：一个开源的.NET约束编程求解器。
 * [Cassowary.NET](https://github.com/jozilla/Cassowary.net)：Cassowary.NET是Cassowary约束求解工具包的.NET平台移植版本。
 * [Z3.Linq](https://github.com/endjin/Z3.Linq)：Z3定理证明器的.NET 8.0 LINQ绑定。
+* [NanoByte SAT Solver](https://github.com/nano-byte/sat-solver)：NanoByte SAT Solver是一个用于.NET的CDCL布尔可满足性求解器。
 
 ## 概率编程
 
@@ -2548,6 +2580,7 @@ permalink: /csharp
 * [Fixie](https://github.com/fixie/fixie)：Fixie是一个类似于NUnit和xUnit的.NET测试框架，但强调低仪式默认和灵活的自定义。
 * [JazSharp](https://github.com/Sellorio/JazSharp)：受Jasmine启发的C# Mock和单元测试框架。
 * [Hallstatt](https://github.com/Tyrrrz/Hallstatt)：Hallstatt是一个简单易用的C#测试框架。
+* [Fuchu](https://github.com/mausch/Fuchu)：Fuchu是一个.NET测试库，支持C#和VB.NET。
 
 ## 集成测试
 
@@ -2655,6 +2688,7 @@ permalink: /csharp
 ## 代码覆盖率
 
 * [Coverlet](https://github.com/coverlet-coverage/coverlet)：Coverlet是一个跨平台的.NET代码覆盖框架，支持行、分支和方法覆盖。
+* [DotCover](https://www.jetbrains.com/dotcover)：DotCover是一个.NET单元测试运行器和代码覆盖率工具，可与Visual Studio和JetBrains Rider集成。
 * [FineCodeCoverage](https://github.com/FortuneN/FineCodeCoverage)：在Visual Studio社区版中，免费轻松可视化单元测试代码覆盖率。
 * [AxoCover](https://github.com/axodox/AxoCover)：Visual Studio不错且免费的.NET代码覆盖支持，支持OpenCover。
 * [MiniCover](https://github.com/lucaslorentz/minicover)：.NET Core的代码覆盖率工具。
@@ -2783,7 +2817,8 @@ permalink: /csharp
 * [NSpec](https://github.com/nspec/NSpec)：NSpec是.NET的xSpec风格的BDD测试框架。
 * [Ogooreck](https://github.com/oskardudycz/Ogooreck)：Ogooreck是一个Sneaky Test库。
 * [SpecsFor](https://github.com/MattHoneycutt/SpecsFor)：SpecsFor是另一个行为驱动开发框架，它专注于通过最大限度地减少测试摩擦来提高开发人员的易用性。
-* [TickSpec](https://github.com/fsprojects/TickSpec)：具有强大F#集成的精益.NET BDD框架。
+* [TickSpec](https://github.com/fsprojects/TickSpec)：精简的.NET BDD框架，并具有强大的F#集成。
+* [Storyteller](https://github.com/storyteller/Storyteller)：Storyteller是一款用于编写可执行规范的工具。
 * [Chill](https://github.com/ChillBDD/Chill)：Chill是一个BDD风格的测试框架。
 * [Machine.Specifications](https://github.com/machine/machine.specifications)：Machine.Specifications是一个针对.NET的上下文/规范框架。
 * [xBehave.NET](https://github.com/adamralph/xbehave.net)：xBehave.NET是一个xUnit.NET扩展，用于用自然语言描述测试中的每一步。
@@ -2802,6 +2837,17 @@ permalink: /csharp
 * [Tranquire](https://github.com/Galad/tranquire)：Tranquire将剧本模式引入了.NET，它的实现很大程度上受到了Serenity BDD的启发。
 * [Kekiri](https://github.com/chris-peterson/kekiri)：一个.NET框架，支持使用Gherkin语言编写低仪式感的BDD测试。
 * [Gauge .NET](https://github.com/getgauge/gauge-dotnet)：用于Gauge的C#运行器。
+* [BddDotNet](https://github.com/Romfos/BddDotNet)：支持Gherkin的现代开源C#和.NET BDD框架。
+* [NSpectator](https://github.com/novikov-school/NSpectator)：NSpectator是一个即用型解决方案，适用于使用.NET进行上下文/规范开发。
+* [CoreBDD](https://github.com/stevenknox/CoreBDD)：xUnit.NET的BDD框架。
+* [Concordion.NET](https://concordion.org/)：Concordion.NET是一个小巧便捷的C#/.NET行为驱动开发(BDD)框架，它可以将需求的纯英文描述转换为自动化测试。
+* [LoFuUnit](https://github.com/hlaueriksson/LoFuUnit)：LoFuUnit是一个基于局部函数的.NET/C#测试框架，用于以BDD风格编写单元测试。
+* [NaturalSpec](https://github.com/forki/NaturalSpec)：NaturalSpec是一个基于NUnit的BDD测试框架，完全用F#编写。
+* [NScenario](https://github.com/cezarypiatek/NScenario)：一个非常简单的库，用于注释测试用例场景的步骤。
+* [Specter](https://specter.sourceforge.net/)：Specter是一个对象行为规范框架。
+* [Suzianna](https://github.com/suzianna/Suzianna)：一个用于编写灵活、易读且易于维护的验收测试的库，采用剧本模式。
+* [JustBehave](https://github.com/justeat/JustBehave)：JustBehave是一个小型.NET库，可帮助你将C#测试组织成BDD风格的上下文和场景。
+* [SpecLight](https://github.com/robfe/SpecLight)：SpecLight是一个简单的C# BDD框架。
 
 ## 自动化框架
 
@@ -2855,6 +2901,7 @@ permalink: /csharp
 * [Patchright .NET](https://github.com/DevEnterpriseSoftware/patchright-dotnet)：Patchright .NET是一个经过修补、专门用于绕过网站反爬/反机器人检测的Playwright .NET框架分支。
 * [MaaFramework.Binding.CSharp](https://github.com/MaaXYZ/MaaFramework.Binding.CSharp)：MaaFramework C#绑定。
 * [Laz](https://github.com/tinfoil-herald/laz)：.NET的跨平台用户输入模拟和屏幕截图。
+* [FluentAutomation](https://github.com/stirno/FluentAutomation)：用于UI自动化的简单Fluent API。
 
 ## Selenium
 
@@ -2922,110 +2969,92 @@ permalink: /csharp
 * [EnvironmentAbstractions](https://github.com/jeffkl/EnvironmentAbstractions)：EnvironmentAbstractions是.NET中System.Environment类的一个接口抽象，旨在简化组件的测试。
 * [Exude](https://github.com/GreanTech/Exude)：XUnit.NET的一个扩展，为测试用例提供作为一等公民的程序化支持。
 * [TimeProviderExtensions](https://github.com/egil/TimeProviderExtensions)：测试System.TimeProvider API的扩展。
-
-## 功能标志
-
-* [ViVe](https://github.com/thebookisclosed/ViVe)：ViVe是一个C#库，你可以使用它来制作自己的程序，与Windows 10及更新版本中的A/B功能实验机制进行交互。
-* [FeatBit](https://github.com/featbit/featbit)：FeatBit是一个开源功能标志管理工具。
-* [Scientist.NET](https://github.com/scientistproject/Scientist.net)：Scientist库的.NET端口，用于仔细重构关键路径。
-* [.NET Feature Management](https://github.com/microsoft/FeatureManagement-Dotnet)：Feature Management提供了一种基于功能开发和公开应用程序功能的方法。
-* [FeatureToggle](https://github.com/jason-roberts/FeatureToggle)：.NET中简单、可靠的功能切换。
-* [FeatureSwitcher](https://github.com/mexx/FeatureSwitcher)：FeatureSwitcher是用于功能切换的小型库。
-* [Tweek](https://github.com/Soluto/tweek)：Tweek是一款开源的功能管理解决方案。
-* [Unleash .NET](https://github.com/Unleash/unleash-dotnet-sdk)：Unleash是一个私密、安全且可扩展的功能管理平台。
-* [OpenFeature .NET SDK](https://github.com/open-feature/dotnet-sdk)：OpenFeature是一个开放规范，提供供应商无关、社区驱动的功能开关API，可与你喜欢的功能开关管理工具或内部解决方案配合使用。
-* [NFeature](https://github.com/benaston/NFeature)：一个简单的功能配置系统。
-* [FeatureBits](https://github.com/microsoft/featurebits)：FeatureBits是一个功能切换系统，用于支持多个平台的持续交付。
-* [Moggles](https://github.com/NSIAppDev/Moggles)：非开发向导的功能标志管理。
-* [FeatureManagement.UI](https://github.com/Odonno/FeatureManagement.UI)：此包允许你在自己的ASP.NET Web API中配置应用程序。
-* [FeatureSwitch](https://github.com/valdisiljuconoks/FeatureSwitch)：FeatureSwitch是一个库，应该可以减少在项目中实现功能切换所需的时间和代码量。
-* [LaunchDarkly .NET](https://github.com/launchdarkly/dotnet-server-sdk)：LaunchDarkly .NET服务器端SDK。
-* [Esquio](https://github.com/Xabaril/Esquio)：Esquio是一个用于.NET Core 3.0的功能开关和A/B测试框架。
-* [Nona](https://github.com/Ryware/nona-config)：开源的自托管功能标志和远程配置。
-* [Optimizely C# SDK](https://github.com/optimizely/csharp-sdk)：基于.NET的C# SDK，适用于Optimizely Feature Experimentation和Optimizely Full Stack。
-* [ReallySimpleFeatureToggle](https://github.com/davidwhitney/ReallySimpleFeatureToggle)：一个用于.NET的功能配置库。
-* [FeatureFlags.app](https://featureflags.app/)：.NET开发者的云无关功能管理，无用户追踪，无供应商锁定，且与微软无缝集成。
-* [Unleash FeatureToggle .NET Client](https://github.com/stiano/unleash-client-dotnet)：为.NET开发的FeatureToggle客户端。
-* [AbTestMaster](https://github.com/htayebi/AbTestMaster)：AbTestMaster是一个免费的ASP.NET MVC应用程序A/B测试框架。
-* [Split .NET](https://github.com/splitio/split-openfeature-provider-dotnet)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
-* [NToggle](https://github.com/SteveMoyer/nToggle)：.NET功能切换库。
+* [xRetry](https://github.com/JoshKeegan/xRetry)：xRetry是一个用于.NET的测试重试库。
 
 ## 数据库
 
-* [KurrentDB](https://github.com/kurrent-io/KurrentDB)：KurrentDB是一个专为现代软件应用程序和事件驱动架构设计的数据库。
-* [LiteDB](https://github.com/litedb-org/LiteDB)：LiteDB是一个小型、快速、轻量级的.NET NoSQL嵌入式数据库。
-* [RavenDB](https://github.com/ravendb/ravendb)：RavenDB是一个NoSQL数据库。
-* [BrightstarDB](https://github.com/BrightstarDB/BrightstarDB)：BrightstarDB是一个原生的.NET RDF三元组存储。
-* [DBreeze](https://github.com/hhblaze/DBreeze)：DBreeze数据库是一个专业、开源、多范式、多线程、事务性和符合ACID的数据管理系统。
-* [MasterMemory](https://github.com/Cysharp/MasterMemory)：基于源生成器的嵌入式类型只读内存文档数据库，适用于.NET和Unity。
-* [YesSql](https://github.com/sebastienros/yessql)：YesSql是一个基于关系型数据库的.NET Core文档数据库接口。
-* [Realm](https://github.com/realm/realm-dotnet)：Realm是一个直接运行在手机、平板或可穿戴设备上的移动数据库。
-* [ZoneTree](https://github.com/koculu/ZoneTree)：ZoneTree是一个持久化、高性能、事务性且符合ACID标准的.NET有序键值数据库。
-* [Couchbase Lite](https://github.com/couchbase/couchbase-lite-net)：Couchbase Lite是一个轻量级嵌入式NoSQL数据库，内置了与更大后端结构(如Couchbase Server)的同步功能。
-* [SapphireDb](https://github.com/SapphireDb/SapphireDb)：SapphireDb是一个自架、易于使用的实时数据库，适用于Asp.Net Core和EF Core。
-* [NMemory](https://github.com/zzzprojects/nmemory)：NMemory是一款轻量级、非持久化的内存关系型数据库引擎。
-* [Sones](https://github.com/sones/sones)：开源图数据库。
-* [SliccDB](https://github.com/pmikstacki/SliccDB)：.NET轻型嵌入式图数据库。
-* [BTDB](https://github.com/Bobris/BTDB)：.NET中的键值数据库，包含对象数据库层、RPC、动态IL等功能。
-* [OrigoDB](https://github.com/DevrexLabs/OrigoDB)：.NET/Mono内存事件源数据库引擎。
-* [Fallen-8](https://github.com/cosh/fallen-8)：Fallen-8是一个用C#实现的内存图数据库。
-* [SharpVector](https://github.com/Build5Nines/SharpVector)：SharpVector是一个为.NET应用程序设计的内存向量数据库。
-* [RaptorDB](https://github.com/mgholam/RaptorDB-Document)：基于NoSQL和JSON的文档存储数据库。
 * [Sick](https://github.com/7mind/sick)：用于JSON的去重索引二进制存储。
-* [MysticMind.PostgresEmbed](https://github.com/mysticmind/mysticmind-postgresembed)：MysticMind.PostgresEmbed是.NET应用程序的Postgres嵌入式数据库等效项。
-* [NoDb](https://github.com/cloudscribe/NoDb)：一个面向.NET Core/ASP.NET Core的“无数据库”文件系统存储。
-* [NEventStore](https://github.com/NEventStore/NEventStore)：NEventStore是一个持久化库，用于在使用事件溯源作为存储机制时抽象不同的存储实现。
-* [Lex.DB](https://github.com/demigor/lex.db)：Lex.DB是一个轻量级、超高速、内嵌式数据库引擎。
-* [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET)：Lightning.NET是一个.NET库，提供对Lightning内存映射数据库的快速且易于使用的接口。
-* [TeaFiles.Net](https://github.com/discretelogics/TeaFiles.Net-Time-Series-Storage-in-Files)：使用TeaFiles.Net创建、读取和写入包含时序数据的文件。
+* [NoDb](https://github.com/cloudscribe/NoDb)：一个面向.NET Core/ASP.NET Core的无数据库文件系统存储。
 * [Dazzle.NET](https://github.com/kellabyte/Dazzle.NET)：Dazzle是一个列式数据库。
-* [VeloxDB](https://github.com/VeloxDB/VeloxDB)：VeloxDB是一个高性能的内存面向对象数据库。
-* [ComponentKit](https://github.com/jhauberg/ComponentKit)：一个用于存储由一组组件构成的实体的内存对象数据库。
-* [DevelDB](https://github.com/deveel/deveeldb)：DevelDB是一个完整、可嵌入的SQL-99关系数据库管理系统，适用于.NET/Mono框架。
 * [JSON Flat File Data Store](https://github.com/ttu/json-flatfile-datastore)：一款轻量级、基于JSON的数据存储解决方案，非常适合需要简单文件存储的小型应用和原型。
-* [BinaryRage](https://github.com/mchidk/BinaryRage)：超高速.NET键值存储。
-* [StringDB](https://github.com/monoclex/StringDB)：StringDB是一个键/值对存储，提供友好的API，以尽可能少地使用RAM和空间。
-* [STSdb4](https://github.com/STSSoft/STSdb4)：STSdb 4.0是一个具有创新索引算法的NoSQL键值存储开源数据库。
-* [DataTanker](https://github.com/VictorScherbakov/DataTanker)：.NET的嵌入式持久化键值存储。
-* [DryDB](https://github.com/hadashiA/DryDB)：DryDB是一个只读的嵌入式B树键/值数据库，用纯C#实现。
 * [Fast Persistent Dictionary](https://github.com/jgric2/Fast-Persistent-Dictionary)：Fast Persistent Dictionary是在C#中实现持久字典的一种方式。
-* [SharpDB](https://github.com/Polyhaze/SharpDB)：SharpDB是基于C#的高性能键值NoSQL数据库，支持ACID事务。
-* [SimpleStorage](https://github.com/zauberzeug/SimpleStorage)：简单的跨平台键/值存储。
-* [Shielded.Gossip](https://github.com/jbakic/Shielded.Gossip)：Shielded.Gossip是一个用于.NET Standard的分布式键/值存储库，支持最终一致性和强一致性事务。
-* [VestPocket](https://github.com/pocketsol/VestPocket)：Vest Pocket是一个单文件持久化查找库，包含在一个纯.NET 8.0库中。
-* [LiteGraph](https://github.com/litegraphdb/litegraph)：LiteGraph是一个属性图数据库，支持图关系、标签、元数据、数据和向量。
-* [HyperVectorDB](https://github.com/deatos/HyperVectorDB)：HyperVectorDB是一个用C#构建的本地向量数据库，支持各种距离/相似度度量。
-* [CogniPy](https://github.com/cognitum-octopus/cognipy)：内存图数据库和知识图谱，带自然语言接口，兼容Pandas。
-* [HexaDb](https://github.com/angshuman/hexadb)：HexaDb是一个基于三元组的图数据存储，创建在RocksDb存储之上。
-* [Stellar.FastDB](https://github.com/stonstad/Stellar.FastDB)：Stellar.FastDB是一个用于C#的非常快速的文档存储，其速度大约比类似产品快100倍。
-* [BLite](https://github.com/EntglDb/BLite)：BLite是一个嵌入式、符合ACID的面向文档的数据库，从零开始构建，以实现最大性能和零分配。
-* [NosDB](https://github.com/Alachisoft/NosDB)：NosDB是一个100%原生.NET开源NoSQL数据库。
-* [Sterling Database](https://github.com/JeremyLikness/sterling-net-core)：Sterling开源NoSQL数据库.NET版本移植。
 * [BlazorDB](https://github.com/chanan/BlazorDB)：.NET Blazor浏览器框架的数据库。
-* [SharpFileDB](https://github.com/bitzhuwei/SharpFileDB)：SharpFileDB是一个纯C#的无SQL的支持CRUD的小型文件数据库。
-* [MarcelloDB](https://github.com/markmeeus/MarcelloDB)：MarcelloDB是一个嵌入式NoSQL对象数据库。
-* [CSharpDB](https://github.com/MaxAkbar/CSharpDB)：专为.NET构建的嵌入式数据库引擎。
 * [CSJsonDB](https://github.com/Khelechy/CSJsonDB)：这是一个简单的C#包，它对JSON文件执行基本的CRUD操作，用于示例最小数据库。
-* [VelocityDB](https://github.com/VelocityDB/VelocityDB)：VelocityDB和VelocityGraph开源库。
-* [LocalStorage](https://github.com/hanssens/localstorage)：LocalStorage是一个简单的工具，它以务实的方式解决了一个常见问题-在.NET应用中快速存储和访问对象。
-* [SonnetDB](https://github.com/IoTSharp/SonnetDB)：SonnetDB是一个面向IoT、工业数据、可观测性与实时分析场景的时序数据库。
-* [Voron](https://github.com/ayende/raven.voron)：Voron是RavenDB的下一代存储解决方案。
-* [TrimDB](https://github.com/Drawaes/TrimDB)：一个可嵌入、支持事务、并发的键值存储。
-* [SterlingDB](https://github.com/Wintellect/SterlingDB)：Sterling是一个轻量级的NoSQL面向对象数据库。
 * [Relatude.DB](https://github.com/Relatude/Relatude.DB)：Relatude.DB是一个开源、C#原生数据库引擎，旨在提供统一的存储解决方案，满足你构建Web应用程序后端的所有需求。
 * [EvenireDB](https://github.com/mizrael/EvenireDB)：小型流式数据库引擎。
-* [Shiny.DocumentDb](https://github.com/shinyorg/DocumentDb)：一个轻量级、多提供商的.NET文档存储，将关系型数据库转变为无模式的JSON文档数据库，支持LINQ查询、空间/地理查询，以及完整的AOT/裁剪支持。
-* [CamusDB](https://github.com/camusdb/camusdb)：CamusDB是一个开源的NewSQL分布式数据库，用C#在.NET 10上编写。
-* [Mars](https://gitee.com/chongdaoyang/mars)：Mars数据库是一个集数据采集、存储、分析为一体的实时数据库。
 * [Redb.NET](https://github.com/nuskey8/Redb.NET)：Redb.NET是一个高性能的C#绑定，用于Redb。
 * [ArrayDb](https://github.com/AiursoftWeb/ArrayDb)：Aiursoft ArrayDb是一款轻量级、高效的数据库引擎，专为存储固定长度数据而优化，并具有恒定时间复杂度(O(1))的索引性能。
-* [SharpCoreDB](https://github.com/MPCoreDeveloper/SharpCoreDB)：.NET 10高性能加密数据库嵌入式引擎。
-* [RedBase](https://github.com/redbase-app/redb)：RedBase是一个面向.NET的数据平台，它在关系型后端中存储类型化对象。
-* [NoDb](https://github.com/NewLifeX/NoDb)：百万级KV数据库，基于内存映射文件的持久化读写。
-* [Jigen DB](https://github.com/ppossanzini/Jigen)：Jigen DB是一个用C#从零编写的向量数据库，适用于.NET平台。
-* [SnapDB](https://github.com/snapdb/SnapDB)：SNAPdb引擎是一种高性能的键/值对归档技术。
-* [Ahtola.NET](https://github.com/Devolutions/ahtola)：Turso的SQLite兼容数据库引擎的实验性C#移植版。
+
+## NoSQL数据库
+
+* [RavenDB](https://github.com/ravendb/ravendb)：RavenDB是一个NoSQL数据库。
+* [LiteDB](https://github.com/litedb-org/LiteDB)：LiteDB是一个小型、快速、轻量级的.NET NoSQL嵌入式数据库。
+* [NosDB](https://github.com/Alachisoft/NosDB)：NosDB是一个100%原生.NET开源NoSQL数据库。
+* [Sterling Database](https://github.com/JeremyLikness/sterling-net-core)：Sterling开源NoSQL数据库.NET版本移植。
+* [SterlingDB](https://github.com/Wintellect/SterlingDB)：Sterling是一个轻量级的NoSQL面向对象数据库。
+* [MarcelloDB](https://github.com/markmeeus/MarcelloDB)：MarcelloDB是一个嵌入式NoSQL对象数据库。
+* [RaptorDB](https://github.com/mgholam/RaptorDB-Document)：基于NoSQL和JSON的文档存储数据库。
+* [BLite](https://github.com/EntglDb/BLite)：BLite是一个嵌入式、符合ACID的面向文档的数据库，从零开始构建，以实现最大性能和零分配。
+* [Stellar.FastDB](https://github.com/stonstad/Stellar.FastDB)：Stellar.FastDB是一个用于C#的非常快速的文档存储，其速度大约比类似产品快100倍。
 * [Biggy](https://github.com/omederos/biggy)：适用于.NET的文件型文档存储。
+* [Shiny.DocumentDb](https://github.com/shinyorg/DocumentDb)：一个轻量级、多提供商的.NET文档存储，将关系型数据库转变为无模式的JSON文档数据库，支持LINQ查询、空间/地理查询，以及完整的AOT/裁剪支持。
+* [YesSql](https://github.com/sebastienros/yessql)：YesSql是一个基于关系型数据库的.NET Core文档数据库接口。
+* [SapphireDb](https://github.com/SapphireDb/SapphireDb)：SapphireDb是一个自架、易于使用的实时数据库，适用于Asp.Net Core和EF Core。
+
+## 图数据库
+
+* [Sones](https://github.com/sones/sones)：开源图数据库。
+* [SliccDB](https://github.com/pmikstacki/SliccDB)：.NET轻型嵌入式图数据库。
+* [Fallen-8](https://github.com/cosh/fallen-8)：Fallen-8是一个用C#实现的内存图数据库。
+* [LiteGraph](https://github.com/litegraphdb/litegraph)：LiteGraph是一个属性图数据库，支持图关系、标签、元数据、数据和向量。
+* [CogniPy](https://github.com/cognitum-octopus/cognipy)：内存图数据库和知识图谱，带自然语言接口，兼容Pandas。
+* [HexaDb](https://github.com/angshuman/hexadb)：HexaDb是一个基于三元组的图数据存储，创建在RocksDb存储之上。
+* [VelocityDB](https://github.com/VelocityDB/VelocityDB)：VelocityDB和VelocityGraph开源库。
+* [BrightstarDB](https://github.com/BrightstarDB/BrightstarDB)：BrightstarDB是一个原生的.NET RDF三元组存储。
+
+## 时序数据库
+
+* [SonnetDB](https://github.com/IoTSharp/SonnetDB)：SonnetDB是一个面向IoT、工业数据、可观测性与实时分析场景的时序数据库。
+* [TeaFiles.Net](https://github.com/discretelogics/TeaFiles.Net-Time-Series-Storage-in-Files)：使用TeaFiles.Net创建、读取和写入包含时序数据的文件。
+* [Mars](https://gitee.com/chongdaoyang/mars)：Mars数据库是一个集数据采集、存储、分析为一体的实时数据库。
+
+## 向量数据库
+
+* [VectorRAG.Net](https://github.com/likeslines-maker/VectorRAG.Net)：VectorRAG.Net是一个面向.NET的高性能向量数据库库，用于语义搜索和RAG。
+* [SharpVector](https://github.com/Build5Nines/SharpVector)：SharpVector是一个为.NET应用程序设计的内存向量数据库。
+* [HyperVectorDB](https://github.com/deatos/HyperVectorDB)：HyperVectorDB是一个用C#构建的本地向量数据库，支持各种距离/相似度度量。
+* [Jigen DB](https://github.com/ppossanzini/Jigen)：Jigen DB是一个用C#从零编写的向量数据库，适用于.NET平台。
+* [Neighborly](https://github.com/nickna/Neighborly)：Neighborly是一个功能强大的开源向量数据库，使用C#编写。
+* [NewBeeDB](https://github.com/nscript-site/NewBeeDB)：NewBeeDB是在HNSWIndex.Net的代码基础上开发的嵌入式向量数据库。
+* [Qvec](https://github.com/matengo/Qvec)：Qvec是一个开源、嵌入式、高性能的向量数据库。
+
+## 关系型数据库
+
+* [DevelDB](https://github.com/deveel/deveeldb)：DevelDB是一个完整、可嵌入的SQL-99关系型数据库管理系统，适用于.NET/Mono框架。
+* [NMemory](https://github.com/zzzprojects/nmemory)：NMemory是一款轻量级、非持久化的内存关系型数据库引擎。
+* [SharpCoreDB](https://github.com/MPCoreDeveloper/SharpCoreDB)：.NET 10高性能加密数据库嵌入式引擎。
+* [CamusDB](https://github.com/camusdb/camusdb)：CamusDB是一个开源的NewSQL分布式数据库，用C#在.NET 10上编写。
+* [Ahtola.NET](https://github.com/Devolutions/ahtola)：Turso的SQLite兼容数据库引擎的实验性C#移植版。
+
+## 对象数据库
+
+* [VeloxDB](https://github.com/VeloxDB/VeloxDB)：VeloxDB是一个高性能的内存面向对象数据库。
+* [ComponentKit](https://github.com/jhauberg/ComponentKit)：一个用于存储由一组组件构成的实体的内存对象数据库。
+* [RedBase](https://github.com/redbase-app/redb)：RedBase是一个面向.NET的数据平台，它在关系型后端中存储类型化对象。
+* [LocalStorage](https://github.com/hanssens/localstorage)：LocalStorage是一个简单的工具，它以务实的方式解决了一个常见问题-在.NET应用中快速存储和访问对象。
+
+## 嵌入式数据库
+
+* [DBreeze](https://github.com/hhblaze/DBreeze)：DBreeze数据库是一个专业、开源、多范式、多线程、事务性和符合ACID的数据管理系统。
+* [MasterMemory](https://github.com/Cysharp/MasterMemory)：基于源生成器的嵌入式类型只读内存文档数据库，适用于.NET和Unity。
+* [Realm](https://github.com/realm/realm-dotnet)：Realm是一个直接运行在手机、平板或可穿戴设备上的移动数据库。
+* [Couchbase Lite](https://github.com/couchbase/couchbase-lite-net)：Couchbase Lite是一个轻量级嵌入式NoSQL数据库，内置了与更大后端结构(如Couchbase Server)的同步功能。
+* [Lex.DB](https://github.com/demigor/lex.db)：Lex.DB是一个轻量级、超高速、内嵌式数据库引擎。
+* [Lightning.NET](https://github.com/CoreyKaylor/Lightning.NET)：Lightning.NET是一个.NET库，提供对Lightning内存映射数据库的快速且易于使用的接口。
+* [SharpFileDB](https://github.com/bitzhuwei/SharpFileDB)：SharpFileDB是一个纯C#的无SQL的支持CRUD的小型文件数据库。
+* [CSharpDB](https://github.com/MaxAkbar/CSharpDB)：专为.NET构建的嵌入式数据库引擎。
+* [MysticMind.PostgresEmbed](https://github.com/mysticmind/mysticmind-postgresembed)：MysticMind.PostgresEmbed是.NET应用程序的Postgres嵌入式数据库等效项。
+* [VestPocket](https://github.com/pocketsol/VestPocket)：Vest Pocket是一个单文件持久化查找库，包含在一个纯.NET 8.0库中。
 
 ## 事件存储
 
@@ -3037,6 +3066,10 @@ permalink: /csharp
 * [EStore](https://github.com/tangxuehua/estore)：一个用纯C#实现的基于文件的事件存储。
 * [Domino Event Store](https://github.com/sapiens/DominoEventStore)：.NET Core的轻量级事件存储。
 * [Orleans.EventSourcing.Snapshot](https://github.com/OrleansContrib/Orleans.EventSourcing.Snapshot)：Orleans事件溯源的快照存储提供商。
+* [NEventStore](https://github.com/NEventStore/NEventStore)：NEventStore是一个持久化库，用于在使用事件溯源作为存储机制时抽象不同的存储实现。
+* [KurrentDB](https://github.com/kurrent-io/KurrentDB)：KurrentDB是一个专为现代软件应用程序和事件驱动架构设计的数据库。
+* [OrigoDB](https://github.com/DevrexLabs/OrigoDB)：.NET/Mono内存事件源数据库引擎。
+* [Voron](https://github.com/ayende/raven.voron)：Voron是RavenDB的下一代存储解决方案。
 
 ## 搜索引擎
 
@@ -3081,6 +3114,7 @@ permalink: /csharp
 * [NPoco](https://github.com/schotime/NPoco)：简单的MicroORM，将查询结果映射到POCO对象。
 * [SqlFu](https://github.com/sapiens/SqlFu)：SqlFu是适用于.NET Core 3的灵活数据映射器。
 * [FastCrud](https://github.com/MoonStorm/FastCrud)：为强类型用户提供快速的.NET ORM。
+* [SQLProvider](https://github.com/fsprojects/SQLProvider)：一个通用的F# SQL数据库擦除类型提供程序，支持LINQ查询、模式探索、个体、CRUD操作等等。
 * [Tortuga Chain](https://github.com/TortugaResearch/Tortuga.Chain)：适用于.NET的Fluent ORM。
 * [TinyORM](https://github.com/sdrapkin/SecurityDriven.TinyORM)：简单、快速、安全的.NET微型ORM。
 * [ORMi](https://github.com/nicoriff/ORMi)：ORMi是一个非常简单的轻量级ORM。
@@ -3134,11 +3168,12 @@ permalink: /csharp
 * [Nemo](https://github.com/stepaside/Nemo)：.NET企业级微型ORM。
 * [ToolGood.ReadyGo](https://github.com/toolgood/ToolGood.ReadyGo)：ToolGood.ReadyGo是一款轻量级ORM，基于NPOCO核心修改。
 * [Iridium](https://github.com/activa/iridium)：Iridium是一个.NET ORM，可以在任何.NET平台上使用，包括Linux和OSX上的Xamarin和.NET Core。
+* [Jerrycurl](https://jerrycurl.net/)：一款快速、类型安全的ORM，基于Razor SQL。
 
 ## 持久层库
 
 * [Mini SQL Query](https://github.com/paulkohler/minisqlquery)：适用于任何.NET数据库提供程序的极简SQL查询工具。
-* [Laraue.EfCoreTriggers](https://github.com/win7user10/Laraue.EfCoreTriggers)：EfCoreTriggers是一个用于使用EFCore模型构建器编写原生SQL触发器的库。
+* [FluentNHibernate](https://github.com/nhibernate/fluent-nhibernate)：FluentNHibernate为NHibernate提供流式、无XML、编译安全、自动化、基于约定的映射。
 * [PL/.NET](https://github.com/Brick-Abode/pldotnet)：使用C#和F#构建PostgreSQL函数、过程和触发器。
 * [DbUtility](https://github.com/Ivony/DbUtility)：DataPithy是一款轻量级的数据库访问工具。
 * [GraphDiff](https://github.com/zzzprojects/GraphDiff)：GraphDiff是Entity Framework Code First的DbContext扩展方法，它允许你将整个分离的模型/实体保存到数据库中，而无需编写相应的代码。
@@ -3284,6 +3319,7 @@ permalink: /csharp
 * [GenericServices](https://github.com/JonPSmith/GenericServices)：GenericServices是一个.NET类库，用于帮助构建服务层，即在数据层的数据库与表示层的用户界面或HTTP服务之间充当外观/适配器的层。
 * [EfCore.GenericServices](https://github.com/JonPSmith/EfCore.GenericServices)：一个帮助你快速编写使用EF Core的Web/移动/桌面应用CRUD访问的库。
 * [SQLiteCodeFirst](https://github.com/msallin/SQLiteCodeFirst)：使用Entity Framework CodeFirst根据EdmModel创建SQLite数据库。
+* [Laraue.EfCoreTriggers](https://github.com/win7user10/Laraue.EfCoreTriggers)：EfCoreTriggers是一个用于使用EFCore模型构建器编写原生SQL触发器的库。
 * [EntityFramework.CommonTools](https://github.com/gnaeus/EntityFramework.CommonTools)：EntityFramework和EFCore的扩展、审计、并发检查、JSON属性和事务日志。
 * [BlazarTech.QueryableValues](https://github.com/yv989c/BlazarTech.QueryableValues)：这个库允许你在使用SQL Server数据库提供程序时，在Entity Framework Core查询中高效地组合IEnumerable。
 * [Lolita](https://github.com/PomeloFoundation/Lolita)：一个轻量级扩展，提供针对Entity Framework Core的批量更新和删除操作。
@@ -3347,6 +3383,7 @@ permalink: /csharp
 ## Dapper扩展
 
 * [Dapper.Contrib](https://github.com/DapperLib/Dapper.Contrib)：Dapper.Contrib包含许多用于插入、获取、更新和删除记录的辅助方法。
+* [MicroOrm.Dapper.Repositories](https://github.com/phnx47/dapper-repositories)：根据Dapper的POCO类生成用于CRUD操作的SQL。
 * [LnskyDB](https://github.com/liningit/Dapper.LnskyDB)：LnskyDB是基于Dapper的Lambda扩展。
 * [Dapper.SimpleCRUD](https://github.com/ericdc1/Dapper.SimpleCRUD)：SimpleCRUD为Dapper提供简单的CRUD辅助工具。
 * [Dommel](https://github.com/henkmollema/Dommel)：Dommel通过在接口上使用扩展方法提供了用于CRUD操作的便捷API。
@@ -3809,6 +3846,7 @@ permalink: /csharp
 * [Activation Key](https://github.com/ng256/Activation-Key)：表示用于保护你的C#应用程序的激活密钥。
 * [KeySharp](https://github.com/goaaats/KeySharp)：跨平台C#/.NET密钥环访问。
 * [AutoHttps](https://github.com/astralmaster/AutoHttps)：为ASP.NET Core自动启用HTTPS。
+* [Lib.AspNetCore.Security](https://github.com/tpeczek/Lib.AspNetCore.Security)：Lib.AspNetCore.Security是一个为ASP.NET Core提供内容安全策略(CSP)、严格传输安全(STS)或Expect-CT等安全功能的库。
 
 ## 安全框架
 
@@ -4354,6 +4392,7 @@ permalink: /csharp
 * [Net.CommonLib](https://github.com/Wikey100/Net.CommonLib)：Net.CommonLib项目是积累下的包括各种功能的第二次高级封装的类库。
 * [Carbon](https://github.com/kocdigital/Carbon)：Carbon包含许多实用库，可解决基础设施、设计模式、封装、易用性、即插即用、标准化等方面的诸多问题。
 * [VassasCo.Utility](https://github.com/VassasCo/VassasCo.Utility)：C#桌面开发工具库。
+* [PhenX.EntityFrameworkCore.BulkInsert](https://github.com/PhenX/PhenX.EntityFrameworkCore.BulkInsert)：适用于Entity Framework Core 8+的高性能、与数据库提供商无关的批量插入扩展。
 
 ## 日期时间
 
@@ -4619,6 +4658,7 @@ permalink: /csharp
 * [FftFlat](https://github.com/sinshu/fftflat)：该库旨在提供一个完全用纯C#编写的快速傅里叶变换(FFT)实现。
 * [Mpir.NET](https://github.com/akasubi/Mpir.NET)：Mpir.NET允许你从.NET语言中使用MPIR库。
 * [VectorTraits](https://github.com/zyl910/VectorTraits)：VectorTraits是一个跨平台库，可以增强SIMD向量运算。
+* [Jodosoft Library](https://github.com/Jodosoft/Libraries)：Jodosoft Library是一个旨在创建简单、可靠的.NET库的项目，涵盖数值、几何和数据结构。
 
 ## 矩阵
 
@@ -4821,6 +4861,7 @@ permalink: /csharp
 * [LangExt](https://github.com/LangExt/LangExt)：一个主要用于支持C#函数式编程的库。
 * [FCSlib](https://github.com/oliversturm/FCSlib)：函数式C#库。
 * [PatternMatching](https://github.com/johansson/PatternMatching)：一个简单的.NET库，带有扩展方法，允许你使用流式的语法进行模式匹配，而不是使用Switch或字典。
+* [CSharpEssentials](https://github.com/senrecep/CSharpEssentials)：CSharpEssentials是一个模块化的.NET NuGet生态系统，旨在在C#中连接面向对象编程和函数式编程。
 
 ## 函数式异常处理
 
@@ -4928,6 +4969,7 @@ permalink: /csharp
 * [DynamicExpression](https://github.com/vivet/DynamicExpression)：动态构建Lambda表达式，并将条件模型转换为Linq查询。
 * [Neomaster.JsonToLinq](https://github.com/neomasterhub/Neomaster.JsonToLinq)：一个轻量级的C#库，可以将基于JSON的查询定义转换为LINQ表达式。
 * [LINQBridge](https://github.com/atifaziz/LINQBridge)：LINQBridge是Framework 3.5的System.Linq.Enumerable类中所有标准查询运算符的重新实现。
+* [Linq.Expression.Optimizer](https://github.com/Thorium/Linq.Expression.Optimizer)：轻量级System.Linq.Expression表达式优化器。
 
 ## 表达式树
 
@@ -5047,73 +5089,98 @@ permalink: /csharp
 * [ObjectComparator](https://github.com/valeraf23/ObjectComparator)：ObjectComparator是一个专门用于深度对象比较的.NET库。
 * [Comparation](https://github.com/pepelev/Comparation)：Comparement是一个用于处理相等性和排序的小型库。
 
-## 缓存库
+## 本地缓存
 
-* [Garnet](https://github.com/microsoft/garnet)：Garnet是微软研究院推出的一款新型远程缓存存储。
-* [FASTER](https://github.com/microsoft/FASTER)：一个快速并发持久键值存储和日志记录工具，使用C#和C++编写。
 * [FusionCache](https://github.com/ZiggyCreatures/FusionCache)：FusionCache是一种易于使用、快速且强大的混合缓存，具有高级弹性功能。
-* [Akavache](https://github.com/reactiveui/Akavache)：Akavache是一个异步、持久的键值存储，基于SQLite3，使用C#编写桌面和移动应用程序而创建。
-* [CacheManager](https://github.com/MichaCo/CacheManager)：CacheManager是一个用C#编写的开源.NET缓存抽象层。
 * [EasyCaching](https://github.com/dotnetcore/EasyCaching)：EasyCaching是一个开源的缓存库，包含缓存的基本用法和一些高级用法。
 * [LazyCache](https://github.com/alastairtree/LazyCache)：LazyCache是一个简单的内存缓存服务。
-* [CacheCow](https://github.com/aliostad/CacheCow)：这是.NET Core和4.52+中HTTP缓存的实现，适用于HttpClient、ASP.NET Web API、ASP.NET MVC Core和Carter。
 * [Monkey Cache](https://github.com/jamesmontemagno/monkey-cache)：在任何.NET应用程序中，可以轻松缓存任意数据结构，持续特定时间。
-* [NCache](https://github.com/Alachisoft/NCache)：NCache是一款极其快速且可扩展的开源分布式缓存，适用于.NET应用程序。
 * [CacheTower](https://github.com/TurnerSoftware/CacheTower)：CacheTower是一个高效的多层缓存系统，适用于.NET。
 * [BitFaster.Caching](https://github.com/bitfaster/BitFaster.Caching)：.NET的高性能、线程安全的内存缓存原语。
-* [CachingFramework.Redis](https://github.com/thepirat000/CachingFramework.Redis)：基于StackExchange的分布式缓存。
 * [FastCache](https://github.com/jitbit/FastCache)：这是MemoryCache的7倍到10倍快的替代方案。
-* [Dache](https://github.com/haneytron/dache)：Dache是一个高度可扩展、高效且性能优异的分布式缓存系统，基于.NET框架开发。
 * [Cachalot](https://github.com/usinesoft/Cachalot)：Cachalot是一个用于.NET应用的内存数据库。
 * [FasterKvCache](https://github.com/InCerryGit/FasterKvCache)：FasterKv.Cache是一个基于微软FasterKv封装的进程内混合缓存库。
 * [ActualLab.Fusion](https://github.com/ActualLab/Fusion)：ActualLab.Fusion充当方法调用中间件，透明地丰富对Fusion增强服务的每次调用，提供缓存、依赖项跟踪、失效、RPC等功能。
 * [SqliteCache](https://github.com/neosmart/SqliteCache)：SqliteCache是一个用于.NET和ASP.NET Core项目持久缓存实现。
 * [FastCache](https://github.com/neon-sunset/fast-cache)：这是用C#编写的最快缓存库，适用于具有固定到期时间的项目。
 * [Faster.Map](https://github.com/Wsm2110/Faster.Map)：Faster.Map是一个极其快速、内存高效的.NET HashMap库。
-* [Net.DistributedFileStoreCache](https://github.com/JonPSmith/Net.DistributedFileStoreCache)：.NET分布式缓存，使用JSON文件作为共享资源，非常快速地获取。
 * [FluentCache](https://github.com/evan-rash/FluentCache)：FluentCache是一个简单流式的库，帮助你通过减少模板代码，编写干净、易读的缓存代码。
+* [Rezoom](https://github.com/rspeele/Rezoom)：Rezoom是一个旨在减少处理跨越延迟边界的数据所带来的痛苦的库。
+* [FluidCaching](https://github.com/dennisdoomen/FluidCaching)：支持Async/Await的多线程.NET高性能最近最少使用缓存。
+* [Caching](https://github.com/sixeyed/caching)：C#框架库，用于封装.NET缓存访问，包括MemoryCache、AppFabric Cache、Memcached和磁盘缓存。
+* [AddressablesMaster](https://github.com/inc8877/AddressablesMaster)：使用同步、异步、协程、生命周期管理可寻址对象，以及使用结果缓存管理系统。
+* [Yakari](https://github.com/efaruk/yakari)：Yakari是一个内存缓存分发器。
+* [FastCache](https://github.com/sj-distributor/FastCache)：快速、并发、内存驱逐、支持大缓存。
+* [Polly.Caching.Memory](https://github.com/App-vNext/Polly.Caching.MemoryCache)：用于Polly缓存策略的MemoryCache插件。
+* [Caching](https://github.com/jchristn/Caching)：适用于.NET的高性能、线程安全的缓存库，具有FIFO和LRU淘汰策略、自动过期、持久化支持和全面的事件通知。
+* [TinyCache](https://github.com/TinyStuff/TinyCache)：用于离线和缓存长时间运行进程的工具。
+* [LinqCache](https://github.com/osjoberg/LinqCache)：LinqCache是一个简单而强大的LINQ查询缓存框架。
+* [EasyCache](https://github.com/furkandeveloper/EasyCache)：该库包含多个用于.NET的缓存提供程序。
+* [FileCache](https://github.com/acarteas/FileCache)：FileCache是.NET Framework 4的System.Runtime.Caching.ObjectCache的具体实现，它使用本地文件系统作为目标位置。
+* [EasyCaching.Extensions](https://github.com/yrinleung/EasyCaching.Extensions)：EasyCaching项目的第三方扩展，Autofac、WebApiClient、CAP、Microsoft.Extensions.Caching IDistributedCache。
+* [NewLife.Cache](https://github.com/NewLifeX/NewLife.Cache)：NewLife.Cache轻量级缓存服务器，定位于高吞吐和低延迟。
+* [Memoizer.NET](https://github.com/eirikt/Memoizer.NET)：Memoizer.NET是一个用于在C#中实现函数级细粒度缓存的库。
+
+## 分布式缓存
+
+* [NCache](https://github.com/Alachisoft/NCache)：NCache是一款极其快速且可扩展的开源分布式缓存，适用于.NET应用程序。
+* [Dache](https://github.com/haneytron/dache)：Dache是一个高度可扩展、高效且性能优异的分布式缓存系统，基于.NET框架开发。
 * [Hazelcast .NET](https://github.com/hazelcast/hazelcast-csharp-client)：Hazelcast .NET将Hazelcast高性能内存计算平台的全部功能带入了Microsoft .NET生态系统。
+* [CacheR](https://github.com/davidfowl/CacheR)：基于SignalR实现的分布式缓存。
+* [CachingFramework.Redis](https://github.com/thepirat000/CachingFramework.Redis)：基于StackExchange的分布式缓存。
+* [CacheSleeve](https://github.com/jdehlin/CacheSleeve)：CacheSleeve让你可以轻松地为ASP.NET项目添加二级分布式内存缓存。
+* [L1L2RedisCache](https://github.com/null-d3v/L1L2RedisCache)：L1L2RedisCache是IDistributedCache的一个实现，它利用IMemoryCache作为一级缓存，MessagingRedisCache作为二级缓存。
+* [HybridRedisCache](https://github.com/bezzad/HybridRedisCache)：HybridRedisCache是一个面向.NET应用程序、以Redis为中心的两级缓存库。
+* [DoubleCache](https://github.com/AurumAS/DoubleCache)：一种使用Redis结合内存缓存的缓存实现方案。
+* [StackRedis.L1](https://github.com/johnnycardy/StackRedis.L1)：.NET StackExchange.Redis库的内存L1缓存。
+* [Redis MemoLock](https://github.com/kristoff-it/redis-memolock)：MemoLock是一种基于Promise的分布式缓存机制。
+* [Net.DistributedFileStoreCache](https://github.com/JonPSmith/Net.DistributedFileStoreCache)：.NET分布式缓存，使用JSON文件作为共享资源，非常快速地获取。
+* [Service Fabric Distributed Cache](https://github.com/SoCreate/service-fabric-distributed-cache)：IDistributedCache的一个实现，它使用有状态的可靠Service Fabric服务作为缓存存储。
+* [UiPath Caching](https://github.com/UiPath/dotnet-caching)：.NET的多层缓存库。
+* [TsavoriteCache](https://github.com/mgravell/TsavoriteCache)：TsavoriteCache是一个使用Tsavorite的IDistributedCache实现。
+* [AWS .NET Distributed Cache Provider](https://github.com/aws/aws-dotnet-distributed-cache-provider)：AWS .NET Distributed Cache Provider提供了一个基于Amazon DynamoDB的ASP.NET Core接口IDistributedCache的实现。
+* [MongoDbCache](https://github.com/outmatic/MongoDbCache)：基于MongoDB的分布式缓存实现。
+* [Microsoft.Extensions.Caching.Cosmos](https://github.com/Azure/Microsoft.Extensions.Caching.Cosmos)：使用Azure Cosmos DB实现的分布式缓存。
+* [Microsoft.Extensions.Caching.Postgres](https://github.com/Azure/Microsoft.Extensions.Caching.Postgres)：使用PostgreSQL为.NET应用程序实现分布式缓存。
+* [Community.Microsoft.Extensions.Caching.PostgreSQL](https://github.com/leonibr/community-extensions-cache-postgres)：Community.Microsoft.Extensions.Caching.PostgreSQL是一个强大且可扩展的分布式缓存实现，适用于使用PostgreSQL 11+作为底层数据存储的ASP.NET Core应用程序。
+
+## HTTP缓存
+
+* [CacheCow](https://github.com/aliostad/CacheCow)：这是.NET Core和4.52+中HTTP缓存的实现，适用于HttpClient、ASP.NET Web API、ASP.NET MVC Core和Carter。
 * [CacheOutput](https://github.com/filipw/Strathweb.CacheOutput)：CacheOutput会负责服务器端缓存，并为你设置合适的客户端(响应)头。
 * [HttpCacheHeaders](https://github.com/KevinDockx/HttpCacheHeaders)：ASP.NET Core中间件，用于向响应添加HttpCache头，并实现缓存过期和验证模型。
 * [ASP.NET Caching](https://github.com/aspnet/Caching)：用于内存缓存和分布式缓存的库。
 * [ASP.NET MVC Cache](https://github.com/moonpyk/mvcdonutcaching)：ASP.NET MVC缓存扩展，为ASP.NET MVC 3及更高版本引入了缓存功能。
-* [Rezoom](https://github.com/rspeele/Rezoom)：Rezoom是一个旨在减少处理跨越延迟边界的数据所带来的痛苦的库。
-* [FluidCaching](https://github.com/dennisdoomen/FluidCaching)：支持Async/Await的多线程.NET高性能最近最少使用缓存。
-* [Cashew](https://github.com/joakimskoog/Cashew)：Cashew是一个.NET库，它通过一个简洁优雅且功能强大的API，使用HttpClient轻松缓存响应。
-* [Community.Microsoft.Extensions.Caching.PostgreSQL](https://github.com/leonibr/community-extensions-cache-postgres)：Community.Microsoft.Extensions.Caching.PostgreSQL是一个强大且可扩展的分布式缓存实现，适用于使用PostgreSQL 11+作为底层数据存储的ASP.NET Core应用程序。
-* [Redis MemoLock](https://github.com/kristoff-it/redis-memolock)：MemoLock是一种基于Promise的分布式缓存机制。
-* [CacheR](https://github.com/davidfowl/CacheR)：基于SignalR实现的分布式缓存。
-* [Microsoft.Extensions.Caching.Postgres](https://github.com/Azure/Microsoft.Extensions.Caching.Postgres)：使用PostgreSQL为.NET应用程序实现分布式缓存。
-* [Microsoft.Extensions.Caching.Cosmos](https://github.com/Azure/Microsoft.Extensions.Caching.Cosmos)：使用Azure Cosmos DB实现的分布式缓存。
-* [Caching](https://github.com/sixeyed/caching)：C#框架库，用于封装.NET缓存访问，包括MemoryCache、AppFabric Cache、Memcached和磁盘缓存。
-* [AddressablesMaster](https://github.com/inc8877/AddressablesMaster)：使用同步、异步、协程、生命周期管理可寻址对象，以及使用结果缓存管理系统。
-* [Yakari](https://github.com/efaruk/yakari)：Yakari是一个内存缓存分发器。
-* [StackRedis.L1](https://github.com/johnnycardy/StackRedis.L1)：.NET StackExchange.Redis库的内存L1缓存。
-* [Nancy.LightningCache](https://github.com/creamdog/Nancy.LightningCache)：为Nancy启用异步缓存。
-* [Tavis.HttpCache](https://github.com/tavis-software/Tavis.HttpCache)：HttpClient的私有HTTP缓存处理程序。
-* [FastCache](https://github.com/sj-distributor/FastCache)：快速、并发、内存驱逐、支持大缓存。
-* [Polly.Caching.Memory](https://github.com/App-vNext/Polly.Caching.MemoryCache)：用于Polly缓存策略的MemoryCache插件。
-* [MongoDbCache](https://github.com/outmatic/MongoDbCache)：基于MongoDB的分布式缓存实现。
-* [Caching](https://github.com/jchristn/Caching)：适用于.NET的高性能、线程安全的缓存库，具有FIFO和LRU淘汰策略、自动过期、持久化支持和全面的事件通知。
-* [AgFx](https://github.com/shawnburke/AgFx)：适用于Windows Phone和Silverlight应用程序的数据缓存库。
-* [TinyCache](https://github.com/TinyStuff/TinyCache)：用于离线和缓存长时间运行进程的工具。
-* [CacheSleeve](https://github.com/jdehlin/CacheSleeve)：CacheSleeve让你可以轻松地为ASP.NET项目添加二级分布式内存缓存。
-* [LinqCache](https://github.com/osjoberg/LinqCache)：LinqCache是一个简单而强大的LINQ查询缓存框架。
-* [EasyCache](https://github.com/furkandeveloper/EasyCache)：该库包含多个用于.NET的缓存提供程序。
-* [DoubleCache](https://github.com/AurumAS/DoubleCache)：一种使用Redis结合内存缓存的缓存实现方案。
-* [FileCache](https://github.com/acarteas/FileCache)：FileCache是.NET Framework 4的System.Runtime.Caching.ObjectCache的具体实现，它使用本地文件系统作为目标位置。
 * [WebEssentials.AspNetCore.OutputCaching](https://github.com/madskristensen/WebEssentials.AspNetCore.OutputCaching)：用于ASP.NET 2.0的服务器端缓存中间件。
-* [AWS .NET Distributed Cache Provider](https://github.com/aws/aws-dotnet-distributed-cache-provider)：AWS .NET Distributed Cache Provider提供了一个基于Amazon DynamoDB的ASP.NET Core接口IDistributedCache的实现。
-* [EasyCaching.Extensions](https://github.com/yrinleung/EasyCaching.Extensions)：EasyCaching项目的第三方扩展，Autofac、WebApiClient、CAP、Microsoft.Extensions.Caching IDistributedCache。
 * [AspNetCore.CacheOutput](https://github.com/Iamcerba/AspNetCore.CacheOutput)：Strathweb.CacheOutput库重写以支持ASP.NET Core。
-* [L1L2RedisCache](https://github.com/null-d3v/L1L2RedisCache)：L1L2RedisCache是IDistributedCache的一个实现，它利用IMemoryCache作为一级缓存，MessagingRedisCache作为二级缓存。
-* [TsavoriteCache](https://github.com/mgravell/TsavoriteCache)：TsavoriteCache是一个使用Tsavorite的IDistributedCache实现。
-* [Service Fabric Distributed Cache](https://github.com/SoCreate/service-fabric-distributed-cache)：IDistributedCache的一个实现，它使用有状态的可靠Service Fabric服务作为缓存存储。
-* [UiPath Caching](https://github.com/UiPath/dotnet-caching)：.NET的多层缓存库。
+* [Cashew](https://github.com/joakimskoog/Cashew)：Cashew是一个.NET库，它通过一个简洁优雅且功能强大的API，使用HttpClient轻松缓存响应。
+* [Tavis.HttpCache](https://github.com/tavis-software/Tavis.HttpCache)：HttpClient的私有HTTP缓存处理程序。
+* [Nancy.LightningCache](https://github.com/creamdog/Nancy.LightningCache)：为Nancy启用异步缓存。
+
+## 缓存管理器
+
+* [CacheManager](https://github.com/MichaCo/CacheManager)：CacheManager是一个用C#编写的开源.NET缓存抽象层。
 * [CacheManagement](https://github.com/EasyAbp/CacheManagement)：ABP应用模块，帮助管理员管理应用缓存数据。
-* [HybridRedisCache](https://github.com/bezzad/HybridRedisCache)：HybridRedisCache是一个面向.NET应用程序、以Redis为中心的两级缓存库。
-* [NewLife.Cache](https://github.com/NewLifeX/NewLife.Cache)：NewLife.Cache轻量级缓存服务器，定位于高吞吐和低延迟。
-* [Memoizer.NET](https://github.com/eirikt/Memoizer.NET)：Memoizer.NET是一个用于在C#中实现函数级细粒度缓存的库。
+* [AgFx](https://github.com/shawnburke/AgFx)：适用于Windows Phone和Silverlight应用程序的数据缓存库。
+
+## 键值存储
+
+* [Garnet](https://github.com/microsoft/garnet)：Garnet是微软研究院推出的一款新型远程缓存存储。
+* [FASTER](https://github.com/microsoft/FASTER)：一个快速并发持久键值存储和日志记录工具，使用C#和C++编写。
+* [Akavache](https://github.com/reactiveui/Akavache)：Akavache是一个异步、持久的键值存储，基于SQLite3，使用C#编写桌面和移动应用程序而创建。
+* [BTDB](https://github.com/Bobris/BTDB)：.NET中的键值数据库，包含对象数据库层、RPC、动态IL等功能。
+* [ZoneTree](https://github.com/koculu/ZoneTree)：ZoneTree是一个持久化、高性能、事务性且符合ACID标准的.NET有序键值数据库。
+* [BinaryRage](https://github.com/mchidk/BinaryRage)：超高速.NET键值存储。
+* [StringDB](https://github.com/monoclex/StringDB)：StringDB是一个键/值对存储，提供友好的API，以尽可能少地使用RAM和空间。
+* [STSdb4](https://github.com/STSSoft/STSdb4)：STSdb 4.0是一个具有创新索引算法的NoSQL键值存储开源数据库。
+* [DataTanker](https://github.com/VictorScherbakov/DataTanker)：.NET的嵌入式持久化键值存储。
+* [DryDB](https://github.com/hadashiA/DryDB)：DryDB是一个只读的嵌入式B树键/值数据库，用纯C#实现。
+* [SharpDB](https://github.com/Polyhaze/SharpDB)：SharpDB是基于C#的高性能键值NoSQL数据库，支持ACID事务。
+* [SimpleStorage](https://github.com/zauberzeug/SimpleStorage)：简单的跨平台键/值存储。
+* [Shielded.Gossip](https://github.com/jbakic/Shielded.Gossip)：Shielded.Gossip是一个用于.NET Standard的分布式键/值存储库，支持最终一致性和强一致性事务。
+* [TrimDB](https://github.com/Drawaes/TrimDB)：一个可嵌入、支持事务、并发的键值存储。
+* [SnapDB](https://github.com/snapdb/SnapDB)：SNAPdb引擎是一种高性能的键/值对归档技术。
+* [NoDb](https://github.com/NewLifeX/NoDb)：百万级KV数据库，基于内存映射文件的持久化读写。
 
 ## 日志库
 
@@ -5164,6 +5231,7 @@ permalink: /csharp
 * [SeqProxy](https://github.com/SimonCropp/SeqProxy)：允许通过ASP.NET控制器或中间件代理请求来写入Seq日志。
 * [SlackLogger](https://github.com/severisv/SlackLogger)：一个简单且可配置的.NET项目日志记录器，可将日志记录到Slack。
 * [ObjectPrinter](https://github.com/drewburlingame/ObjectPrinter)：C#库，用于打印对象的成员。可用于记录应用程序的当前状态。
+* [Tracer](https://github.com/csnemes/tracer)：使用Fody进行跟踪和日志重写。
 
 ## 结构化日志
 
@@ -5237,6 +5305,7 @@ permalink: /csharp
 * [OdinSerializer](https://github.com/TeamSirenix/odin-serializer)：为Unity构建的快速、稳健、强大且可扩展的.NET序列化器。
 * [GadgetToJScript](https://github.com/med0x2e/GadgetToJScript)：一种用于生成.NET序列化小工具的工具，当使用BinaryFormatter从JS/VBS/VBA脚本反序列化时，可以触发.NET程序集加载/执行。
 * [Nino](https://github.com/JasonXuDeveloper/Nino)：适用于C#的终极高性能二进制序列化库。
+* [Bond](https://github.com/microsoft/bond)：Bond是一个用于处理模式化数据的跨平台框架，支持跨语言反/序列化和强大的通用机制，可有效地操作数据，Microsoft开源。
 * [FlatSharp](https://github.com/jamescourtney/FlatSharp)：快速、惯用的Flatbuffers C#实现。
 * [Ceras](https://github.com/rikimaru0345/Ceras)：Ceras是一个二进制序列化器。
 * [Wire](https://github.com/asynkron/Wire)：一个用于.NET框架的高性能多态序列化器。
@@ -5297,6 +5366,7 @@ permalink: /csharp
 * [Rainbow](https://github.com/SitecoreUnicorn/Rainbow)：Rainbow是一个适用于Sitecore 7及更高版本的高级序列化库。
 * [QuantBox.Data](https://github.com/QuantBox/QuantBox.Data)：QuantBox.Data是一个自定义的二进制行情数据存储格式。
 * [CGDK.Buffer](https://github.com/CGLabs/CGDK.buffer)：CGDK.Buffer是一个消息序列化缓冲区系统。
+* [VarDump](https://github.com/ycherkes/VarDump)：VarDump是一个用于将运行时对象序列化为C#或Visual Basic字符串的实用程序。
 
 ## JSON
 
@@ -5773,6 +5843,8 @@ permalink: /csharp
 * [Nutrient.NET](https://github.com/PSPDFKit/dotnet-pdf-library-for-ios)：Nutrient SDK是一个框架，允许你在iOS、Android、Windows、macOS和Web上查看、注释、签名和填写PDF表单。
 * [PDFiumDotNET](https://github.com/MilosKonecny/PDFiumDotNET)：PDFiumDotNET是Google PDFium库的C#封装库。
 * [CorePDF](https://github.com/GZidar/CorePDF)：一个可与.NET配合使用的基础PDF库。
+* [Pdf.Wpf](https://github.com/Patagames/Pdf.Wpf)：高级C# PDF库，用于渲染、创建、编辑、合并、拆分、打印和查看PDF。
+* [PDFFlow](https://www.pdfflow.io/)：PDFFlow是一个开源的跨平台C#库，用于创建PDF文档。
 
 ## PPT
 
@@ -5823,6 +5895,7 @@ permalink: /csharp
 * [CC.CSX](https://github.com/codechem/htnet)：C.CSX能够以声明式的方式定义和生成HTML输出。
 * [Westwind.HtmlPackager](https://github.com/RickStrahl/Westwind.HtmlPackager)：HtmlPackager是一个小巧的独立Windows可执行文件或.NET组件，它可以让你将来自URL的内容打包成一个独立的本地HTML文件或文件包，保存后可以离线查看。
 * [Textify](https://github.com/matteocontrini/Textify)：一个用C#编写的用于.NET Standard 2.0的HTML到纯文本转换库。
+* [Markupolation](https://github.com/hlaueriksson/Markupolation)：一个用于在C#中生成HTML的库。
 
 ## XML
 
@@ -5919,6 +5992,7 @@ permalink: /csharp
 * [Markdig](https://github.com/xoofx/markdig)：Markdig是一款快速、强大、符合CommonMark标准、可扩展的.NET Markdown处理器。
 * [CommonMark.NET](https://github.com/Knagis/CommonMark.NET)：CommonMark规范C#实现，用于将Markdown文档转换为HTML。
 * [MarkdownLog](https://github.com/Wheelies/MarkdownLog)：一个轻量级的.NET组件，用于以编程方式生成Markdown文档。
+* [MarkdownDeep](https://github.com/toptensoftware/markdowndeep)：适用于C#和Javascript的Markdown开源实现。
 * [MarkdownSharp](https://github.com/StackExchange/MarkdownSharp)：Stack Overflow使用的Markdown处理器的开源C#实现。
 * [DotMarkdown](https://github.com/josefpihrt/dotmarkdown)：DotMarkdown是一个用于创建Markdown内容的框架。
 * [MoonShine](https://github.com/brandonc/moonshine)：由Sundown提供支持的C#超高速Markdown解析器。
@@ -6876,7 +6950,6 @@ permalink: /csharp
 * [LdCms.NetCore](https://gitee.com/6666298/LdCmsNetCore)：LdCms.NetCore是一个轻量级的网站内容管理系统。
 * [YAF.NET](https://github.com/YAFNET/YAFNET)：YAF.NET是一个ASP.NET开源论坛解决方案。
 * [NETCoreBBS](https://github.com/linezero/NETCoreBBS)：.NET Core跨平台轻论坛。
-* [Pretzel](https://github.com/Code52/pretzel)：一款简单易用的、可插拔的网站生成工具，适用于.NET开发人员和Windows用户。
 * [POPForums](https://github.com/POPWorldMedia/POPForums)：一款论坛和问答应用程序，支持实时更新、图片上传和多语言私信聊天。
 * [Blazor Blogs](https://github.com/ADefWebserver/Blazor-Blogs)：用Blazor编写的简单博客应用程序。
 * [AspNetStatic](https://github.com/ZarehD/AspNetStatic)：将ASP.NET Core转换为静态站点生成器。
@@ -7044,6 +7117,8 @@ permalink: /csharp
 * [IronBeard](https://github.com/wkallhof/iron-beard)：一个用.NET构建的跨平台静态网站生成器。
 * [Scissorhands.NET](https://github.com/getscissorhands/Scissorhands.NET)：一个基于Blazor的静态网站生成器。
 * [MoltenObsidian](https://github.com/Nodsoft/MoltenObsidian)：MoltenObsidian是一个高性能库，设计为易于集成的轻量级开源免费替代方案，用于替代Obsidian Publish。
+* [Pretzel](https://github.com/Code52/pretzel)：一款简单易用的、可插拔的网站生成工具，适用于.NET开发人员和Windows用户。
+* [Wyam](https://github.com/Wyamio/Wyam)：Wyam是一款简单易用、高度模块化且可配置性极强的静态内容生成器，可用于生成网站、制作文档、创建电子书等等。
 
 ## GUI框架
 
@@ -7054,7 +7129,6 @@ permalink: /csharp
 * [Avalonia](https://github.com/AvaloniaUI/Avalonia)：Avalonia是一个跨平台的.NET UI框架，提供灵活的样式系统，并支持Windows、macOS、Linux、iOS、Android和WebAssembly等多种平台。
 * [UWP](https://learn.microsoft.com/en-us/windows/uwp)：UWP是为Windows创建客户端应用程序的众多方法之一。
 * [Uno](https://github.com/unoplatform/uno)：Uno是一个开源平台，用于快速构建单一代码库原生移动、Web、桌面和嵌入式应用程序。
-* [Xamarin.Forms](https://github.com/xamarin/Xamarin.Forms)：Xamarin.Forms提供了一种完全使用C#快速构建适用于iOS、Android、Windows和macOS的本机应用程序的方法。
 * [Electron.NET](https://github.com/ElectronNET/Electron.NET)：Electron.NET是一个围绕原生Electron应用程序的包装器，其中嵌入了ASP.NET Core应用程序。
 * [Eto](https://github.com/picoe/Eto)：.NET中用于桌面和移动应用程序的跨平台GUI框架。
 * [Gtk#](https://www.mono-project.com/docs/gui/gtksharp/)：Gtk#是一个适用于Mono和.NET的图形用户界面工具包。
@@ -7081,7 +7155,6 @@ permalink: /csharp
 * [Gir.Core](https://github.com/gircore/gir.core)：Gir.Core提供了几个基于GObject的库的C#绑定。
 * [MewUI](https://github.com/aprillz/MewUI)：MewUI是一个跨平台、轻量级、以代码为先的.NET GUI框架，面向NativeAOT。
 * [Jalium.UI](https://github.com/VeryJokerJal/Jalium.UI)：Jalium.UI是一个优先支持Windows的.NET 10 GPU加速的UI框架。
-* [GliderUI](https://github.com/mdgrs-mei/GliderUI)：基于Avalonia的跨平台PowerShell桌面GUI框架。
 * [Mono Curses](https://github.com/mono/mono-curses)：Mono/.NET与Unix Curses的绑定，以及用于创建Curses文本应用程序的GUI框架。
 * [MPF](https://github.com/sunnycase/MPF)：一个类似WPF的.NET Core GUI框架。
 * [ImGui.Net](https://github.com/EvergineTeam/ImGui.Net)：Evergine使用的ImGUI的轻量级底层自动生成的C#绑定。
@@ -7175,7 +7248,6 @@ permalink: /csharp
 * [Markdig.WPF](https://github.com/Kryptos-FR/markdig.wpf)：一个用于xoofx/markdig的WPF库。
 * [Gu.Wpf.DataGrid2D](https://github.com/GuOrg/Gu.Wpf.DataGrid2D)：附带的WPF DataGrid属性，支持绑定不同类型的源代码。
 * [MechaView](https://github.com/marktoman/mechaview)：自动WPF界面，用于单一用途工具和快速原型制作。
-* [MediaPlayerUI.NET](https://github.com/mysteryx93/MediaPlayerUI.NET)：一个适用于任何媒体播放器的.NET媒体播放器界面，适用于WPF和Avalonia。
 * [Mpv.NET](https://github.com/hudec117/Mpv.NET-lib-)：基于mpv的.NET嵌入视频/媒体播放器，适用于WinForms和WPF。
 * [WpfScreenHelper](https://github.com/micdenny/WpfScreenHelper)：WPF的WinForms屏幕助手移植。
 * [QuickConverter](https://github.com/JohannesMoersch/QuickConverter)：QuickConverter为你提供了WPF标签，让你能直接在XAML中用类似C#的语言写入内联转换器、多绑定和事件处理程序。
@@ -7213,7 +7285,7 @@ permalink: /csharp
 * [Baboon](https://github.com/RRQM/Baboon)：这是一个轻量级WPF和Winform的插件化开发的基础库。
 * [Smart.Navigation .NET](https://github.com/usausa/Smart-Net-Navigation)：用于WPF/MAUI/Avalonia/Windows Form的导航库。
 
-#### WPF UI库
+## WPF UI库
 
 * [MUI](https://github.com/firstfloorsoftware/mui)：一套控件和样式，可将你的WPF应用程序转换为美观的Modern UI应用。
 * [WPF UI](https://github.com/lepoco/wpfui)：WPF UI在你熟悉和喜爱的WPF框架中提供流畅的体验。
@@ -7229,8 +7301,9 @@ permalink: /csharp
 * [FluentWpfChromes](https://github.com/vbobroff-app/FluentWpfChromes)：轻松将模糊、亚克力和透明效果应用于WPF窗口。
 * [WPF UI Violeta](https://github.com/emako/wpfui.violeta)：WPF UI Violeta基于WPF UI，并在你熟悉和喜爱的WPF框架中提供Fluent体验。
 * [WPFEffects](https://github.com/DuelCodes/WPFEffects)：简版WPF UI框架。
+* [SSUI](https://github.com/JaykeBird/ssui)：适用于WPF应用的Solid Shine UI库。
 
-#### WPF控件库
+## WPF控件库
 
 * [HandyControl](https://github.com/HandyOrg/HandyControl)：HandyControl是一套WPF控件库，它几乎重写了所有原生样式，同时包含80余款自定义控件。
 * [Windows Community Toolkit](https://github.com/CommunityToolkit/WindowsCommunityToolkit)：Windows Community Toolkit是帮助程序、扩展和自定义控件的集合。
@@ -7354,8 +7427,9 @@ permalink: /csharp
 * [WPF Monitor Aware Window](https://github.com/emoacht/WpfMonitorAware)：一个用于WPF的库，支持按显示器DPI感知和颜色配置文件感知窗口。
 * [RiotSlider](https://github.com/JamesnetGroup/riotslider)：这是一个受《英雄联盟》启发而实现的WPF CustomControl滑块控件。
 * [LogViewer](https://github.com/PeterHuberSg/LogViewer)：LogViewer是一个WPF控件，它在RichTextBox中显示日志信息，并始终滚动到内容末尾。
+* [MosaicUIWpf](https://github.com/blakepell/MosaicUIWpf)：Mosaic UI WPF是一个控件库，旨在提供模块化的控件。
 
-#### WPF主题库
+## WPF主题库
 
 * [Material Design In XAML Toolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)：适用于C#和VB.Net的XAML和WPF中的Google Material Design。
 * [ModernWPF](https://github.com/Kinnara/ModernWpf)：适用于你的WPF应用程序的现代样式和控件。
@@ -7396,7 +7470,7 @@ permalink: /csharp
 * [Maya WPF Dark Theme](https://github.com/ADN-DevTech/Maya-Net-Wpf-DarkScheme)：Maya .NET WPF暗黑主题。
 * [SyminUI](https://github.com/syminomega/SyminUI)：SyminUI是WPF的UI组件库，并使用称为C#UI的MVU设计模式进行UI搭建，默认样式为新拟态风格。
 
-#### WPF图表库
+## WPF图表库
 
 * [ReoGrid](https://github.com/unvell/ReoGrid)：适用于.NET应用程序的快速且强大的可视化电子表格组件。
 * [SciChart](https://www.scichart.com/)：SciChart WPF是一个实时、高性能的WPF图表库，专为金融、医疗和工程应用设计。
@@ -7415,7 +7489,7 @@ permalink: /csharp
 * [CaliDiagram](https://github.com/toomasz/CaliDiagram)：基于Caliburn.Micro框架的WPF图表/图形设计器。
 * [MicroGauge](https://github.com/galenblakeman/MicroGauge)：MicroGauge是一个.NET库，用于轻松创建可自定义的径向和线性仪表。
 
-#### WPF对话框
+## WPF对话框
 
 * [Ookii.Dialogs.Wpf](https://github.com/ookii-dialogs/ookii-dialogs-wpf)：用于WPF应用程序的类库，提供多个常见对话框。
 * [MVVM Dialogs](https://github.com/FantasticFiasco/mvvm-dialogs)：MVVM Dialogs是一个库，简化了在WPF中使用MVVM时，从视图模型打开对话框的概念。
@@ -7427,7 +7501,7 @@ permalink: /csharp
 * [WPFCustomMessageBox](https://github.com/evanwon/WPFCustomMessageBox)：WPFCustomMessageBox是Windows/.NET原生MessageBox的WPF克隆版，增加了自定义按钮文本等额外功能。
 * [WPF Material Message Box](https://github.com/denpalrius/Material-Message-Box)：一个实现了Material Design的WPF消息框。
 
-#### WPF布局库
+## WPF布局库
 
 * [VirtualizingWrapPanel](https://github.com/sbaeumlisberger/VirtualizingWrapPanel)：WPF VirtualizingWrapPanel的功能丰富实现。
 * [GridExtra](https://github.com/sourcechord/GridExtra)：GridExtra是一个为WPF/UWP定制的面板库。
@@ -7436,7 +7510,7 @@ permalink: /csharp
 * [ResponsiveGrid](https://github.com/sourcechord/ResponsiveGrid)：ResponsiveGrid是WPF/UWP的一个自定义面板控件。
 * [HexGrid](https://github.com/AlexanderSharykin/HexGrid)：WPF HexGrid面板。
 
-#### WPF动画库
+## WPF动画库
 
 * [XamlFlair](https://github.com/XamlFlair/XamlFlair)：XamlFlair库的目标是简化常见动画的实现，并允许开发者仅用几行Xaml轻松添加单一或组合动画集。
 * [LoadingIndicators.WPF](https://github.com/zeluisping/LoadingIndicators.WPF)：LoadingIndicators.WPF是一套包含8个WPF动画加载指示器的集合，兼容MahApps.Metro。
@@ -7445,7 +7519,7 @@ permalink: /csharp
 * [LottieSharp](https://github.com/quicoli/LottieSharp)：用于WPF应用的Lottie动画。
 * [WPF Loaders](https://github.com/MrMitch/WPF-Loaders)：一系列可用于WPF项目的动画加载器。
 
-#### WPF图标库
+## WPF图标库
 
 * [MahApps.Metro.IconPacks](https://github.com/MahApps/MahApps.Metro.IconPacks)：IconPacks库包含控件、标签扩展和转换器，可以以简单的方式将这些出色的图标与你的应用程序一起使用。
 * [WPF NotifyIcon](https://github.com/hardcodet/wpf-notifyicon)：WPF平台的NotifyIcon(又称系统托盘图标或任务栏图标)。
@@ -7456,7 +7530,7 @@ permalink: /csharp
 * [Material.Icons](https://github.com/SKProCH/Material.Icons)：来自materialdesignicons.com的强类型解析图标集，以及适用于不同GUI框架的显示控件实现。
 * [FontAwesome](https://github.com/seayxu/FontAwesome)：Windows Forms和WPF图标库。
 
-#### WPF通知库
+## WPF通知库
 
 * [ToastNotifications](https://github.com/rafallopatka/ToastNotifications)：ToastNotifications允许你在WPF应用中创建和显示富通知。
 * [Wpf.Notifications](https://github.com/Enterwell/Wpf.Notifications)：WPF通知UI控件。
@@ -7470,85 +7544,45 @@ permalink: /csharp
 * [MLNotifications](https://github.com/moraleslarios/MLNotifications)：适用于所有环境的WPF通知。
 * [Orc.Notifications](https://github.com/WildGums/Orc.Notifications)：这个库用于创建和显示桌面通知。
 
-#### WPF节点图
+## WPF节点图
 
 * [NodeNetwork](https://github.com/Wouterdek/NodeNetwork)：NodeNetwork是一个.NET C# WPF库，提供节点编辑器组件。
 * [NodeGraph](https://github.com/Jinten/NodeGraph)：WPF中的节点图控件。
 * [NodeGraph](https://github.com/lifeisforu/NodeGraph)：用于节点图的WPF控件库。
 
-#### WinForms
+## WinForms
 
-* [Krypton](https://github.com/ComponentFactory/Krypton)：适用于.NET的Krypton WinForms组件。
-* [ReaLTaiizor](https://github.com/Taiizor/ReaLTaiizor)：ReaLTaiizor是一个.NET WinForms控件库，提供广泛的组件，并且用户友好且注重设计。
-* [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin)：将.NET WinForms、C#或VB.Net主题化为Google的Material Design原则。
-* [NanUI](https://github.com/XuanchenLin/NanUI)：NanUI是.NET平台上的一个开源框架，用于使用HTML5、CSS3和JavaScript为WinForm应用程序创建用户界面。
-* [SunnyUI](https://github.com/yhuse/SunnyUI)：SunnyUI.NET是基于.NET Framework 4.0+、.NET6、.NET8、.NET9框架的C# WinForm UI、开源控件库、工具类库、扩展类库、多页面开发框架。
 * [Modern.Forms](https://github.com/modern-forms/Modern.Forms)：Winforms .NET 8+的跨平台继任者。
-* [AntdUI](https://github.com/AntdUI/AntdUI)：Ant Design WinForms重新构想了桌面应用的美学，融合了现代前端设计元素。
-* [RibbonWinForms](https://github.com/RibbonWinForms/RibbonWinForms)：.NET WinForms的Office功能区控件。
-* [STNodeEditor](https://github.com/DebugST/STNodeEditor)：STNodeEditor是一个轻量且功能强大的节点编辑器。
-* [Winform.Controls](https://github.com/kwonganding/winform.controls)：Winform控件库。
-* [Ookii.Dialogs.WinForms](https://github.com/ookii-dialogs/ookii-dialogs-winforms)：一个用于WinForms应用程序的类库，提供多个常见对话框。
 * [WasmWinforms](https://github.com/roozbehid/WasmWinforms)：Wasm.Winforms是一个Nuget包，你可以安装并使用不变的代码，并在浏览器上运行。
-* [Advanced DataGridView](https://github.com/davidegironi/advanceddatagridview)：Advanced DataGridView是一款.NET WinForms DataGridView，具备先进的筛选和排序功能。
-* [Sheng.Winform.Controls](https://github.com/iccb1013/Sheng.Winform.Controls)：Sheng.Winform.Controls提供超过15个WinForm控件。
-* [CxFlatUI](https://github.com/HuJinguang/CxFlatUI)：Winform控件。
 * [WinFormsComInterop](https://github.com/kant2002/WinFormsComInterop)：该仓库包含WinForms的ComWrapper实现。
-* [CircularProgressBar](https://github.com/falahati/CircularProgressBar)：Circular ProgressBar是WinForm的一个带有动画功能的自定义控件。
-* [FlowSharp](https://github.com/cliftonm/FlowSharp)：一个WinForm图表工具。
 * [Sheng.Winform.IDE](https://github.com/iccb1013/Sheng.Winform.IDE)：用.NET WinForm开发一个所见即所得IDE，无需写代码即可生成应用程序。
-* [WinFormAnimation](https://github.com/falahati/WinFormAnimation)：一个用于在.NET WinForm中动画控件/值的简单库。
 * [GTKSystem.Windows.Forms](https://github.com/easywebfactory/gtksystem-windows-forms)：C#桌面应用跨平台开发框架，基于GTK组件。
 * [BMap.NET](https://github.com/sherlockchou86/BMap.NET)：一个用于运行百度地图的库，封装了Web服务API。
-* [GanttChart](https://github.com/jakesee/ganttchart)：这个.NET类库项目提供了一个C# Winforms UserControl，使用原生GDI+绘制甘特图。
 * [I'm Only Resting](https://github.com/SwensenSoftware/im-only-resting)：I'm Only Resting是一款功能丰富的基于WinForms的HTTP客户端。
-* [Dark Mode Forms](https://github.com/BlueMystical/Dark-Mode-Forms)：在WinForms中对所有控件应用暗色模式。
-* [WinHtmlEditor](https://github.com/tewuapple/WinHtmlEditor)：Winform的一个HTML编辑器。
-* [EasyTabs](https://github.com/lstratman/EasyTabs)：EasyTabs是一个库，你可以添加到你的.NET WinForms应用程序中，以便在应用标题栏中生成标签列表，类似于Chrome、Firefox、Edge等。
-* [System.Windows.Forms.DataVisualization](https://github.com/dotnet/winforms-datavisualization)：System.Windows.Forms.DataVisualization为WinForms应用程序提供了基础的图表。
-* [Krypton OutlookGrid](https://github.com/Cocotteseb/Krypton-OutlookGrid)：Krypton定制的.NET Winforms DataGridView版本，支持多分组和多排序。
-* [SWD4CS](https://github.com/hry2566/SWD4CS)：简易WinForms设计器。
-* [SimpleCad](https://github.com/oozcitak/SimpleCad)：一个基本的类CADWinforms控制面板。
-* [WinForm.UI](https://github.com/YuanJianTing/WinForm.UI)：WinForm皮肤，自定义控件。
 * [FluentDragDrop](https://github.com/awaescher/FluentDragDrop)：WinForms拖放功能。
 * [WinformsMVP](https://github.com/DavidRogersDev/WinformsMVP)：一个简单的Winforms平台MVP框架。
-* [AltoControls](https://github.com/aalitor/AltoControls)：.NET WinForm的自定义控件。
 * [Bedrock](https://github.com/jackhuclan/bedrock)：一个用于Winform应用程序的MVVM插件框架。
-* [MetroFramework](https://github.com/AshishKilmist/MetroFramework)：将Windows 8的新现代UI别名Metro UI引入.NET Windows Forms应用。
-* [HZHControls](https://gitee.com/kwwwvagaa/net_winform_custom_control)：HZHControls控件库。
 * [WinformGeneralDeveloperFrame](https://gitee.com/wkjerry_admin/WinformGeneralDeveloperFrame)：Winform通用开发框架是一个简单实用的二次开发框架。
-* [ScintillaNET](https://github.com/jacobslusser/ScintillaNET)：ScintillaNET是WinForms中的一个控件、封装器和绑定，用于多功能的Scintilla源代码编辑组件。
-* [Node Editor Winforms](https://github.com/komorra/NodeEditorWinforms)：Node Editor Winforms是一个WinForms类库项目，它提供通用的节点编辑器控件。
-* [AdamsLair.WinForms](https://github.com/AdamsLair/winforms)：一系列适用于Windows Forms的自定义控件。
-* [ModernUI Form](https://github.com/NetDimension/WinForm-ModernUI)：ModernUI Form是一个库，它可以让你的.NET Windows窗体应用看起来像Win8/8.1和Win10中的ModernUI窗口。
-* [NShape](https://github.com/dataweb-GmbH/NShape)：NShape是一个用于.NET WinForms的开源图表设计框架。
-* [Be.HexEditor](https://github.com/Pkcs11Admin/Be.HexEditor)：用C#编写的十六进制编辑器应用程序和WinForms控件。
-* [Smart.FormDesigner](https://github.com/SmallAnts/FormDesigner.Demo)：FormDesigner是一个基于.NET C#开发的Winform自定义表单设计组件。
-* [Fast Colored TextBox](https://github.com/PavelTorgashov/FastColoredTextBox)：Fast Colored TextBox是.NET的文本编辑器组件。
-* [SystemEx](https://github.com/pvginkel/SystemEx)：用于处理.NET和WinForms的实用程序集合。
-* [DockPanel](https://sourceforge.net/projects/dockpanelsuite/)：用于 .Net Windows Forms开发的停靠库，模拟Visual Studio。
-* [FluentTransitions](https://github.com/awaescher/FluentTransitions)：FluentTransitions允许你在.NET中为用户界面元素的任何属性创建动画过渡效果。
 * [MWinNet](https://github.com/mroccyen/MWinNet)：MWinNet是基于.NET WinForm平台的插件式开发框架。
-* [BorderlessForm](https://github.com/mganss/BorderlessForm)：Windows Forms中的无边框窗口，带有自定义窗口装饰控件。
-* [TurtleGraphics.NET](https://github.com/nakov/TurtleGraphics.NET)：C# Turtle图形库。
-* [AutoScaleHelper](https://github.com/hlz2516/AutoScaleHelper)：一个适用于Winform的窗体/控件布局缩放自适应辅助类，其前身是Winform.AutoSizeHelper。
 * [WinForms MVC](https://github.com/shane-lab/winforms-mvc)：用于C# Windows Forms应用程序的MVC模式库。
-* [MaterialSkin2DotNet](https://github.com/DigitalAdeel/MaterialSkin2DotNet)：将.NET WinForms、C#或VB.Net的主题设计应用于Google的Material Design原则。
-* [Notification Popup Window](https://github.com/Tulpep/Notification-Popup-Window)：一个出现在屏幕右下角的.NET通知窗口。
-* [Animator](https://github.com/PavelTorgashov/Animator)：Animator组件允许你为WinForms上的任何控件添加动画效果。
-* [FluentWinForms](https://github.com/diegoxd12wee436/FluentWinForms)：FluentWinForms是一款现代化的WinForms渲染引擎，它融合了CSS式的声明式简洁性和WinUI的强大视觉效果，并由SkiaSharp驱动。
-* [WinBlur](https://github.com/xauuzd/WinBlur)：WinBlur是一个C#、VB .NET库，允许开发者在他们的窗体上使用现代模糊类型。
 * [WinformsNotPaid](https://github.com/g-otn/winforms-not-paid)：这个类库为Windows.Forms.Form添加了一个扩展方法，该方法会根据DateTime.Today与给定DateTime到期日的接近程度降低Form.Opacity。
-* [AutoCompleteMenu ScintillaNET](https://github.com/Ahmad45123/AutoCompleteMenu-ScintillaNET)：ScintillaNET的自动完成菜单。
 * [WinAppDriver](https://github.com/kfrajtak/WinAppDriver)：用于WinForms应用的完整开源Selenium驱动，使用Windows自动化。
 * [WebFormsForCore](https://github.com/webformsforcore/WebFormsForCore)：WebFormsForCore是一个开源库，用于在ASP.NET Core上运行WebForms应用程序。
-* [ExDUIR.NET](https://gitee.com/william_lzw/ExDUIR.NET)：Windows平台轻量DirectUI框架。
-* [EasyToast](https://github.com/anhquoctran/EasyToast)：一个用于Windows Form的简单Toast库。
 * [Windows Forms Extensions](https://github.com/FlorianRappl/WinFormsX)：Windows Forms Extensions库的创建是为了为Windows Forms技术提供优雅且实用的功能。
-* [NullLib.TickAnimation](https://github.com/SlimeNull/NullLib.TickAnimation)：NullLib.TickAnimation用于实现对一个对象的属性，以指定的计时函数在一定时间内从一个值平滑的过渡到另一个值。
 
 ## WinForms主题库
 
+* [NanUI](https://github.com/XuanchenLin/NanUI)：NanUI是.NET平台上的一个开源框架，用于使用HTML5、CSS3和JavaScript为WinForm应用程序创建用户界面。
+* [MaterialSkin](https://github.com/IgnaceMaes/MaterialSkin)：将.NET WinForms、C#或VB.Net主题化为Google的Material Design原则。
+* [MaterialSkin2DotNet](https://github.com/DigitalAdeel/MaterialSkin2DotNet)：将.NET WinForms、C#或VB.Net的主题设计应用于Google的Material Design原则。
+* [ReaLTaiizor](https://github.com/Taiizor/ReaLTaiizor)：ReaLTaiizor是一个.NET WinForms控件库，提供广泛的组件，并且用户友好且注重设计。
+* [MetroFramework](https://github.com/AshishKilmist/MetroFramework)：将Windows 8的新现代UI别名Metro UI引入.NET Windows Forms应用。
+* [ModernUI Form](https://github.com/NetDimension/WinForm-ModernUI)：ModernUI Form是一个库，它可以让你的.NET Windows窗体应用看起来像Win8/8.1和Win10中的ModernUI窗口。
+* [Dark Mode Forms](https://github.com/BlueMystical/Dark-Mode-Forms)：在WinForms中对所有控件应用暗色模式。
+* [WinForm.UI](https://github.com/YuanJianTing/WinForm.UI)：WinForm皮肤，自定义控件。
+* [FluentWinForms](https://github.com/diegoxd12wee436/FluentWinForms)：FluentWinForms是一款现代化的WinForms渲染引擎，它融合了CSS式的声明式简洁性和WinUI的强大视觉效果，并由SkiaSharp驱动。
+* [WinBlur](https://github.com/xauuzd/WinBlur)：WinBlur是一个C#、VB .NET库，允许开发者在他们的窗体上使用现代模糊类型。
+* [ExDUIR.NET](https://gitee.com/william_lzw/ExDUIR.NET)：Windows平台轻量DirectUI框架。
 * [WinForms Theme Pack](https://github.com/Runnin-N-Gunnin/WinForms-Theme-Pack)：包含约26个自定义WinForms主题和控件。
 * [SkinFramework](https://github.com/Danielku15/SkinFramework)：SkinFramework允许你为WinForms .NET应用程序添加自定义窗体边框。
 * [FlatUI Midnight](https://github.com/dr4k0nia/FlatUI-Midnight)：FlatUI Midnight是C# FlatUI移植版的修改版，配色方案和部分控件样式也进行了修改。
@@ -7559,6 +7593,24 @@ permalink: /csharp
 
 ## WinForms控件库
 
+* [SunnyUI](https://github.com/yhuse/SunnyUI)：SunnyUI.NET是基于.NET Framework 4.0+、.NET6、.NET8、.NET9框架的C# WinForm UI、开源控件库、工具类库、扩展类库、多页面开发框架。
+* [AntdUI](https://github.com/AntdUI/AntdUI)：Ant Design WinForms重新构想了桌面应用的美学，融合了现代前端设计元素。
+* [RibbonWinForms](https://github.com/RibbonWinForms/RibbonWinForms)：.NET WinForms的Office功能区控件。
+* [Winform.Controls](https://github.com/kwonganding/winform.controls)：Winform控件库。
+* [Sheng.Winform.Controls](https://github.com/iccb1013/Sheng.Winform.Controls)：Sheng.Winform.Controls提供超过15个WinForm控件。
+* [AltoControls](https://github.com/aalitor/AltoControls)：.NET WinForm的自定义控件。
+* [HZHControls](https://gitee.com/kwwwvagaa/net_winform_custom_control)：HZHControls控件库。
+* [AdamsLair.WinForms](https://github.com/AdamsLair/winforms)：一系列适用于Windows Forms的自定义控件。
+* [Advanced DataGridView](https://github.com/davidegironi/advanceddatagridview)：Advanced DataGridView是一款.NET WinForms DataGridView，具备先进的筛选和排序功能。
+* [Krypton OutlookGrid](https://github.com/Cocotteseb/Krypton-OutlookGrid)：Krypton定制的.NET Winforms DataGridView版本，支持多分组和多排序。
+* [CircularProgressBar](https://github.com/falahati/CircularProgressBar)：Circular ProgressBar是WinForm的一个带有动画功能的自定义控件。
+* [EasyTabs](https://github.com/lstratman/EasyTabs)：EasyTabs是一个库，你可以添加到你的.NET WinForms应用程序中，以便在应用标题栏中生成标签列表，类似于Chrome、Firefox、Edge等。
+* [DockPanel](https://sourceforge.net/projects/dockpanelsuite/)：用于.NET Windows Forms开发的停靠库，模拟Visual Studio。
+* [BorderlessForm](https://github.com/mganss/BorderlessForm)：Windows Forms中的无边框窗口，带有自定义窗口装饰控件。
+* [System.Windows.Forms.DataVisualization](https://github.com/dotnet/winforms-datavisualization)：System.Windows.Forms.DataVisualization为WinForms应用程序提供了基础的图表。
+* [CxFlatUI](https://github.com/HuJinguang/CxFlatUI)：Winform控件。
+* [Krypton](https://github.com/ComponentFactory/Krypton)：适用于.NET的Krypton WinForms组件。
+* [SystemEx](https://github.com/pvginkel/SystemEx)：用于处理.NET和WinForms的实用程序集合。
 * [Zeta HTML Edit Control](https://github.com/UweKeim/ZetaHtmlEditControl)：本项目为你提供了一个围绕Windows Forms 2.0 WebBrowser控件的小型封装类。
 * [Active Directory Object Picker](https://github.com/Tulpep/Active-Directory-Object-Picker)：.NET的标准Active Directory对象选择器对话框。
 * [FastTree](https://github.com/PavelTorgashov/FastTree)：这些组件旨在以虚拟模式替代标准的TreeView、ListBox和CheckedListBox。
@@ -7605,7 +7657,47 @@ permalink: /csharp
 * [Diagram.NET](https://github.com/dalssoft/diagramnet)：Diagram.NET是一款完全用C#编写的免费开源图表绘制工具。
 * [ObjectListView](https://objectlistview.sourceforge.net/cs/index.html)：ObjectListView是一个基于.NET ListView的C#封装。
 
-#### MAUI
+## WinForms图表库
+
+* [GanttChart](https://github.com/jakesee/ganttchart)：这个.NET类库项目提供了一个C# Winforms UserControl，使用原生GDI+绘制甘特图。
+* [FlowSharp](https://github.com/cliftonm/FlowSharp)：一个WinForm图表工具。
+* [NShape](https://github.com/dataweb-GmbH/NShape)：NShape是一个用于.NET WinForms的开源图表设计框架。
+* [SimpleCad](https://github.com/oozcitak/SimpleCad)：一个基本的类CAD Winforms控制面板。
+* [TurtleGraphics.NET](https://github.com/nakov/TurtleGraphics.NET)：C# Turtle图形库。
+
+## WinForms对话框
+
+* [Ookii.Dialogs.WinForms](https://github.com/ookii-dialogs/ookii-dialogs-winforms)：一个用于WinForms应用程序的类库，提供多个常见对话框。
+* [Notification Popup Window](https://github.com/Tulpep/Notification-Popup-Window)：一个出现在屏幕右下角的.NET通知窗口。
+* [EasyToast](https://github.com/anhquoctran/EasyToast)：一个用于Windows Form的简单Toast库。
+
+## WinForms布局库
+
+* [AutoScaleHelper](https://github.com/hlz2516/AutoScaleHelper)：一个适用于WinForm的窗体/控件布局缩放自适应辅助类，其前身是Winform.AutoSizeHelper。
+* [SWD4CS](https://github.com/hry2566/SWD4CS)：简易WinForms设计器。
+* [Smart.FormDesigner](https://github.com/SmallAnts/FormDesigner.Demo)：FormDesigner是一个基于.NET C#开发的Winform自定义表单设计组件。
+
+## WinForms动画库
+
+* [WinFormAnimation](https://github.com/falahati/WinFormAnimation)：一个用于在.NET WinForm中动画控件/值的简单库。
+* [FluentTransitions](https://github.com/awaescher/FluentTransitions)：FluentTransitions允许你在.NET中为用户界面元素的任何属性创建动画过渡效果。
+* [Animator](https://github.com/PavelTorgashov/Animator)：Animator组件允许你为WinForms上的任何控件添加动画效果。
+* [NullLib.TickAnimation](https://github.com/SlimeNull/NullLib.TickAnimation)：NullLib.TickAnimation用于实现对一个对象的属性，以指定的计时函数在一定时间内从一个值平滑的过渡到另一个值。
+
+## WinForms节点图
+
+* [STNodeEditor](https://github.com/DebugST/STNodeEditor)：STNodeEditor是一个轻量且功能强大的节点编辑器。
+* [Node Editor Winforms](https://github.com/komorra/NodeEditorWinforms)：Node Editor Winforms是一个WinForms类库项目，它提供通用的节点编辑器控件。
+
+## WinForms编辑器组件
+
+* [ScintillaNET](https://github.com/jacobslusser/ScintillaNET)：ScintillaNET是WinForms中的一个控件、封装器和绑定，用于多功能的Scintilla源代码编辑组件。
+* [AutoCompleteMenu ScintillaNET](https://github.com/Ahmad45123/AutoCompleteMenu-ScintillaNET)：ScintillaNET的自动完成菜单。
+* [Fast Colored TextBox](https://github.com/PavelTorgashov/FastColoredTextBox)：Fast Colored TextBox是.NET的文本编辑器组件。
+* [Be.HexEditor](https://github.com/Pkcs11Admin/Be.HexEditor)：用C#编写的十六进制编辑器应用程序和WinForms控件。
+* [WinHtmlEditor](https://github.com/tewuapple/WinHtmlEditor)：Winform的一个HTML编辑器。
+
+## MAUI
 
 * [SimpleToolkit](https://github.com/RadekVyM/SimpleToolkit)：SimpleToolkit是一个.NET MAUI库，包含辅助工具和简单、易于定制的控件。
 * [Sharpnado.MaterialFrame](https://github.com/roubachof/Sharpnado.MaterialFrame)：一款现代化的MAUI边框组件，支持模糊、亚克力和深色模式。
@@ -7629,146 +7721,181 @@ permalink: /csharp
 * [Maui.NullableDateTimePicker](https://github.com/sebarslan/Maui.NullableDateTimePicker)：Nullable DateTimePicker是一个自定义日历控件，用于在.NET MAUI应用程序中选择可为空的日期和时间值。
 * [Plugin.Maui.AppRating](https://github.com/FabriBertani/Plugin.Maui.AppRating)：Plugin.Maui.AppRating为开发者提供了一种快速简便的方式，可以请求用户在应用商店中对应用进行评分。
 
-#### Avalonia
+## Avalonia
 
-* [Semi Avalonia](https://github.com/irihitech/Semi.Avalonia)：灵感来自Semi Design的Avalonia主题。
-* [SukiUI](https://github.com/kikipoulet/SukiUI)：SukiUI是AvaloniaUI的主题，支持明暗主题和不同的颜色主题。
-* [FluentAvalonia](https://github.com/amwx/FluentAvalonia)：现代、流式设计和受WinUI启发的Avalonia应用工具包。
-* [Ursa.Avalonia](https://github.com/irihitech/Ursa.Avalonia)：Ursa是一个企业级UI库，用于构建使用Avalonia UI的跨平台应用。
-* [AtomUI](https://github.com/AtomUI/AtomUI)：AtomUI利用Avalonia强大的跨平台能力，实现了Ant Design系统。
-* [Citrus.Avalonia](https://github.com/AvaloniaUI/Citrus.Avalonia)：现代风格的Avalonia控件。
-* [PanAndZoom](https://github.com/wieslawsoltes/PanAndZoom)：Avalonia的PanAndZoom控件。
-* [Avalonia Controls](https://www.actiprosoftware.com/products/controls/avalonia)：一套免费的主题和UI控件，用于构建漂亮的跨平台Avalonia应用。
 * [Live.Avalonia](https://github.com/AvaloniaUI/Live.Avalonia)：Live.Avalonia这是一个实验性项目，旨在使热重载功能在基于Avalonia的应用中正常工作。
 * [AvaloniaBehaviors](https://github.com/AvaloniaUI/Avalonia.Xaml.Behaviors)：AvaloniaBehaviors是Windows UWP版本XAML Behaviors for Avalonia XAML的移植版。
 * [HotAvalonia](https://github.com/Kira-NT/HotAvalonia)：HotAvalonia是Avalonia的一个热重载插件，能让你在编辑XAML文件时实时看到UI变化，极大加快你的设计和开发流程。
-* [Neumorphism.Avalonia](https://github.com/flarive/Neumorphism.Avalonia)：AvaloniaUI框架下易用且可定制的Neumorphism Design实现。
 * [Prism.Avalonia](https://github.com/AvaloniaCommunity/Prism.Avalonia)：Prism.Avalonia为你的跨平台Avalonia应用提供Prism库支持，让你比以前更容易导航、创建对话框窗口和通知，提供依赖注入和内部消息传递。
-* [Classic.Avalonia](https://github.com/BAndysc/Classic.Avalonia)：该项目将经典的Windows 9x主题带入Avalonia。
-* [Markdown.Avalonia](https://github.com/whistyun/Markdown.Avalonia)：Markdown.Avalonia是Avalonia UI上MdXaml的移植版本。
 * [.NET Meteor](https://github.com/JaneySprings/DotNet.Meteor)：.NET Meteor扩展允许你构建、调试和部署.NET应用到设备或模拟器。
-* [Avalonia.Controls.TreeDataGrid](https://github.com/AvaloniaUI/Avalonia.Controls.TreeDataGrid)：TreeDataGrid是Avalonia UI框架的一个控件，可将分层和表格数据同时显示在同一视图中。
-* [ShadUI](https://github.com/accntech/shad-ui)：ShadUI是一个基于Avalonia的桌面UI库。
-* [OxyPlot.Avalonia](https://github.com/oxyplot/oxyplot-avalonia)：OxyPlot是一个.NET的绘图库。
-* [AvaloniaGraphControl](https://github.com/Oaz/AvaloniaGraphControl)：AvaloniaUI的图布局面板。
-* [Avalonia.PropertyGrid](https://github.com/bodong1987/Avalonia.PropertyGrid)：这是Avalonia的PropertyGrid实现，你可以在Avalonia应用中使用。
-* [Avalonia.Labs](https://github.com/AvaloniaUI/Avalonia.Labs)：Avalonia的实验性控件。
-* [Avalonia.ExtendedToolkit](https://github.com/mameolan/Avalonia.ExtendedToolkit)：Avalonia.ExtendedTool将WPF的一些控件移植到Avalonia。
-* [AvaloniaProgressRing](https://github.com/Deadpikle/AvaloniaProgressRing)：AvaloniaProgressRing是一个简单的Avalonia进度环。
 * [Avant Garde](https://github.com/kuiperzone/AvantGarde)：Avant Garde是一个跨平台的C# Avalonia框架XAML预览器。
 * [Avalonia.Css](https://github.com/liwuqingxin/Avalonia.Css)：Avalonia Css是一个Avalonia UI框架的扩展功能库，提供和结构分离的样式编写功能。
-* [NodeEditor](https://github.com/wieslawsoltes/NodeEditor)：NodeEditor是Avalonia的一个控件，用于编辑和渲染节点及连接器。
 * [AsyncImageLoader.Avalonia](https://github.com/AvaloniaUtils/AsyncImageLoader.Avalonia)：提供了从网页进行异步位图加载的方法，用于Avalonia图像控制等功能。
 * [NXUI](https://github.com/wieslawsoltes/NXUI)：使用C# 10和.NET 8创建最小化的Avalonia下一代应用。
-* [Tabalonia](https://github.com/egorozh/Tabalonia)：Avalonia上可拖拽Tab项。
-* [Avalonia.HtmlRenderer](https://github.com/AvaloniaUI/Avalonia.HtmlRenderer)：HtmlRenderer的Avalonia移植。
-* [ColorPicker](https://github.com/wieslawsoltes/ColorPicker)：ColorPicker是Avalonia UI框架的一个颜色选择控件。
-* [NP.Ava.UniDock](https://github.com/npolyak/NP.Ava.UniDock)：UniDock是一种新的多平台对接框架。
-* [Avalonia.IconPacks](https://github.com/ahopper/Avalonia.IconPacks)：导入了37000多个矢量图标，来自Visual Studio 2017和2019年图片库、VSCode图标、FluentUI图标和MahApps.Metro.IconPacks，用于Avalonia。
-* [Avalonia.Microcharts](https://github.com/AvaloniaCommunity/Avalonia.Microcharts)：这是Alois Deniel制作的Microcharts库中仅限Avalonia的简单移植版。
 * [MFAAvalonia](https://github.com/SweetSmellFox/MFAAvalonia)：基于Avalonia UI构建的MaaFramework通用GUI解决方案。
-* [MediaPlayerUI.NET](https://github.com/mysteryx93/MediaPlayerUI.NET)：一个适用于任何媒体播放器的.NET媒体播放器界面，适用于WPF和Avalonia。
-* [Avalonia.ThemeManager](https://github.com/wieslawsoltes/Avalonia.ThemeManager)：用于Avalonia应用的主题管理器。
 * [DependencyPropertyGenerator](https://github.com/HavenDV/DependencyPropertyGenerator)：依赖属性、路由事件和针对WPF/UWP/WinUI/Uno/Avalonia/MAUI平台的弱事件源生成器。
-* [IconPacks.Avalonia](https://github.com/MahApps/IconPacks.Avalonia)：这些软件包包含控件、标记扩展和转换器，方便你用这些酷炫的图标配合你的Avalonia应用。
 * [AvaloniaRibbon](https://github.com/amazerol/AvaloniaRibbon)：该Avalonia组件的目的是复制Microsoft的Ribbon UI。
-* [Mechanism](https://github.com/Splitwirez/Mechanism-for-Avalonia)：Mechanism是一组控件、主题及其他类似工具。
-* [AvaloniaHex](https://github.com/Washi1337/AvaloniaHex)：这是一个用于Avalonia UI框架的十六进制编辑器控件。
 * [AvaloniaUI.PrintToPDF](https://github.com/Oaz/AvaloniaUI.PrintToPDF)：这是一个实验性库，用于从Avalonia UI视觉生成PDF文档。
-* [CalendarControl](https://github.com/satial-interfaces/CalendarControl)：CalendarControl是Avalonia的一个日历控件。
-* [Avalonia.GIF](https://github.com/AvaloniaUI/Avalonia.GIF)：Avalonia UI框架的GIF图像渲染器和播放器。
-* [Avalonia.WebView2](https://github.com/BeyondDimension/Avalonia.WebView2)：WebView2控件使用Microsoft Edge作为绘制引擎，以在原生应用中显示Web内容。
-* [LucideAvaloniaUI](https://github.com/MarwanFr/LucideAvaloniaUI)：Lucide Icons AvaloniaUI是一个库，允许你将超过1400个现代优雅的图标集成到AvaloniaUI项目中。
-* [MatoEditor](https://github.com/CoolCoolTomato/MatoEditor)：基于Avalonia的开源Markdown编辑器。
 * [Blazonia](https://github.com/Blazonia/Blazonia)：Blazonia使开发者能够使用Blazor语法构建Avalonia应用程序。
-* [AvaloniaColorPicker](https://github.com/arklumpus/AvaloniaColorPicker)：AvaloniaColorPicker是Avalonia的色彩选择控件工具。
-* [MessageBox.Avalonia](https://github.com/AvaloniaCommunity/MessageBox.Avalonia)：AvaloniaUI的消息框。
-* [Aura.UI](https://github.com/PieroCastillo/Aura.UI)：一个包含大量控件的AvaloniaUI库。
-* [DialogHost.Avalonia](https://github.com/AvaloniaUtils/DialogHost.Avalonia)：Avalonia DialogHost控件提供了一种简单的方法来显示包含信息的对话框，或在需要信息时提示用户。
-* [Aero Theme Avalonia](https://github.com/Splitwirez/aero-theme-for-avalonia)：Avalonia的Aero主题。
-* [ThemeManager.Avalonia](https://github.com/wieslawsoltes/ThemeManager.Avalonia)：Avalonia应用程序的主题管理器。
-* [Material.Avalonia](https://github.com/AvaloniaCommunity/Material.Avalonia)：针对AvaloniaUI框架的可定制Material Design实现。
-* [Avalonia.Markup.Declarative](https://github.com/AvaloniaUI/Avalonia.Markup.Declarative)：Avalonia.Markup.Declarative是一套基于Avalonia控件的基础类和扩展方法。
-* [Icons.Avalonia](https://github.com/Projektanker/Icons.Avalonia)：一个能在Avalonia应用中轻松显示图标的库。
-* [ProDataGrid](https://github.com/wieslawsoltes/ProDataGrid)：ProDataGrid是Avalonia的高性能DataGrid控件。
 * [DesktopNotifications](https://github.com/pr8x/DesktopNotifications)：一个用于原生桌面Toast通知的跨平台C#库。
-* [Aura3D](https://github.com/CeSun/Aura3D)：Aura3D是一个轻量级、可扩展且高性能的3D渲染控件。
-* [CSharpEditor](https://github.com/arklumpus/CSharpEditor)：CSharpEditor是一个用于Avalonia应用程序的C#源代码编辑器控件。
-* [LayUI Avalonia](https://github.com/Coolkeke/LayUI-Avalonia)：这是一款Avalonia版本的LayUI风格的前端组件库。
 * [Avalonia.NameGenerator](https://github.com/AvaloniaUI/Avalonia.NameGenerator)：生成对Avalonia XAML控件的x:Name引用。
-* [FastTreeDataGrid](https://github.com/wieslawsoltes/FastTreeDataGrid)：FastTreeDataGrid是一个高性能的Avalonia UI树状数据网格。
-* [SpacedGrid Avalonia](https://github.com/Nickelony/SpacedGrid-Avalonia)：这是AvaloniaUI的Grid类的扩展，添加了RowSpacing和ColumnSpacing属性。
-* [Egorozh.ColorPicker](https://github.com/egorozh/Egorozh.ColorPicker)：WPF和AvaloniaUI上最好的颜色选择器。
 * [ReactiveValidation](https://github.com/Karnah/ReactiveValidation)：一个用于WPF和Avalonia的小型校验库，它使用流式的接口，并允许在MVVM下在GUI控件附近显示消息。
-* [Nova.Avalonia.UI](https://github.com/jsuarezruiz/Nova.Avalonia.UI)：Nova.Avalonia.UI是一套针对Avalonia UI的综合性UI控件套件，旨在帮助开发者构建现代、可访问且高性能的跨平台应用程序。
-* [Huskui.Avalonia](https://github.com/d3ara1n/Huskui.Avalonia)：一个现代、优雅的Avalonia UI组件库，旨在用于美观的跨平台桌面应用程序。
-* [Avalonia Themes](https://github.com/Devolutions/avalonia-extensions)：由Devolutions开发的自定义Avalonia主题。
-* [Romzetron.Avalonia](https://github.com/Romzetron/Romzetron.Avalonia)：Romzetron.Avalonia是一个UI主题库，旨在与Avalonia跨平台UI框架配合使用。
-* [StockPlot](https://github.com/BizUnity/StockPlot)：一个用于AvaloniaUI的技术分析库，基于ScottPlot数据可视化库。
-* [PleasantUI](https://github.com/Onebeld/PleasantUI)：PleasantUI是一个针对Avalonia的跨平台UI主题和控件库，灵感来自微软的Fluent Design以及WinUI/UWP的视觉语言。
-* [Zafiro.Avalonia](https://github.com/SuperJMN/Zafiro.Avalonia)：这是一个适用于Avalonia 11.3.x的UI组件库，为桌面、移动和浏览器应用程序提供控件、对话框、行为和辅助函数。
 * [OpenTKAvalonia](https://github.com/SamboyCoding/OpenTKAvalonia)：OpenTKAvalonia是一个简单的封装器，为Avalonia提供OpenTK OpenGL绑定。
-* [Nodify.Avalonia](https://github.com/trrahul/nodify-avalonia)：一款功能强大、特性丰富的节点编辑器控件，适用于Avalonia UI应用程序。
-* [HyperText.Avalonia](https://github.com/AvaloniaUtils/HyperText.Avalonia)：用于在Avalonia UI应用中显示富文本的控件。
 * [Avalonia.SimpleRouter](https://github.com/sandreas/Avalonia.SimpleRouter)：主要面向AvaloniaUI的跨平台路由库。
 * [StaticViewLocator](https://github.com/wieslawsoltes/StaticViewLocator)：一个C#源代码生成器，无需使用反射即可自动为Avalonia实现静态视图定位器。
 * [MinimalApi.Endpoints](https://github.com/IeuanWalker/MinimalApi.Endpoints)：MinimalApi.Endpoints是一个源代码生成器，可让你为.NET Minimal API编写简洁、基于类的端点。
-* [TreeDataGridEx](https://github.com/wieslawsoltes/TreeDataGridEx)：TreeDataGridEx是Avalonia的TreeDataGrid的实验版本，增加了XAML语法。
-* [Avalonia.RangeSlider](https://github.com/DmitryNizhebovsky/Avalonia.RangeSlider)：AvaloniaUI的范围滑块。
-* [JamSoft.AvaloniaUI.Dialogs](https://github.com/jamsoft/JamSoft.AvaloniaUI.Dialogs)：提供在DI可注入服务中显示各种对话框、子窗口、消息框和向导的能力，可直接集成到MVVM AvaloniaUI应用程序中。
-* [Responsive.Avalonia](https://github.com/russkyc/responsive-avalonia)：Responsive.Avalonia是一个为AvaloniaUI应用程序提供响应式断点的库。
-* [Avalonia Controls](https://github.com/HeBianGu/Avalonia-Controls)：Avalonia皮肤、主题、自定义控件、数据库、系统模块资源库。
-* [AvaloniaPdfViewer](https://github.com/chrisg32/AvaloniaPdfViewer)：Avalonia UI控件，用于查看PDF文件。
-* [AvaloniaCalendarView](https://github.com/SaverinOnRails/AvaloniaCalendarView)：用于在日历视图中显示事件的Avalonia控件。
-* [AvalonStudio.TerminalEmulator](https://github.com/VitalElement/AvalonStudio.TerminalEmulator)：Avalonia控件，允许在模拟终端中嵌入应用程序。
-* [VLCSharpAvalonia](https://github.com/donandren/vlcsharpavalonia)：Avalonia对VLC播放器的实验性跨平台支持。
-* [ToolBarControls.Avalonia](https://github.com/Tulesha/ToolBarControls.Avalonia)：此软件包为Avalonia UI提供了两个自定义控件ToolBar和ToolBarTray。
-* [Avalonia.Controls.DataGrid](https://github.com/AvaloniaUI/Avalonia.Controls.DataGrid)：Avalonia的官方DataGrid控件。
-* [Paginator.Avalonia](https://github.com/AvaloniaUtils/Paginator.Avalonia)：Avalonia分页器。
-* [DotNetCampus.InkCanvas](https://github.com/dotnet-campus/DotNetCampus.InkCanvas)：.NET Avalonia应用程序的InkCanvas控件，它提供了一个多功能的画布，可用于手写和绘图。
-* [ShowMeTheXaml.Avalonia](https://github.com/AvaloniaUtils/ShowMeTheXaml.Avalonia)：一个Avalonia组件，使显示自定义样式和控件的对应XAML变得容易。
-* [FFME.Avalonia](https://github.com/WangsYi/ffme.avalonia)：一个基于Ffmpeg.Autogen的Avalonia视频播放控件。
 * [Sortable.Avalonia](https://github.com/russkyc/sortable-avalonia)：Avalonia的MVVM排序、交换和跨集合传输。
-* [NewBeeUI](https://github.com/nscript-site/NewBeeUI)：NewBeeUI是基于Avalonia的MVU GUI库。
 * [BoTech.DesignerForAvalonia](https://github.com/BoTech-Development/BoTech.DesignerForAvalonia)：在BoTech.DesignerForAvalonia中预览设计并为你的Avalonia应用设置样式。
-* [Spreadalonia](https://github.com/arklumpus/Spreadalonia)：Spreadalonia是一个为Avalonia提供简单电子表格控件的库，支持一些基本功能。
-* [AakStudio.Shell.UI.Themes.AvalonDock](https://github.com/Wenveo/AakStudio.Shell.UI.Themes.AvalonDock)：AakStudio.Shell.UI的AvalonDock主题。
-* [SideScroll](https://github.com/SideScrollUI/SideScroll)：SideScroll是一个跨平台的Avalonia UI框架，旨在快速浏览标签树。
 * [XamlToCSharpGenerator](https://github.com/wieslawsoltes/XamlToCSharpGenerator)：XamlToCSharpGenerator是一个为Avalonia提供的源生成XAML编译器堆栈。
-* [NativeWebView](https://github.com/wieslawsoltes/NativeWebView)：NativeWebView为Avalonia提供了一个以原生WebView为先的控制栈，而无需捆绑Chromium。
-* [SmoothScroll.Avalonia](https://github.com/zxbmmmmmmmmm/SmoothScroll.Avalonia)：在Avalonia中实现WinUI的InteractionTracker和ScrollView。
-* [AvaloniaFixedWrapPanel](https://github.com/MikD1/AvaloniaFixedWrapPanel)：Avalonia WrapPanel控件。
 * [Jc.AdMob.Avalonia](https://github.com/jcsawyer/Jc.AdMob.Avalonia)：用于将AdMob广告引入Avalonia移动项目的库。
-* [Movere](https://github.com/jp2masa/Movere)：Movere是Avalonia的托管对话框实现。
 * [ReactiveUI.Avalonia](https://github.com/reactiveui/ReactiveUI.Avalonia)：该软件包为Avalonia UI框架提供ReactiveUI绑定和辅助函数，使你能够为Windows、macOS和Linux构建可组合的跨平台MVVM应用程序。
 * [CDP](https://github.com/wieslawsoltes/CDP)：这个库为使用Avalonia UI框架构建的应用提供了对Chrome DevTools Protocol(CDP)的服务器端支持。
-* [Pipboy.Avalonia](https://github.com/NeverMorewd/Pipboy.Avalonia)：一个受Pip-Boy启发的Avalonia UI主题库。
-* [OnePointUI.Avalonia](https://github.com/Round-Studio/OnePointUI.Avalonia)：一个为Avalonia开发的高动效轻量级的主题/控件库。
-* [MediaPlayer](https://github.com/wieslawsoltes/MediaPlayer)：针对Avalonia的GPU加速媒体播放器。
-* [Coachlight.Avalonia](https://github.com/c3n9/Coachlight.Avalonia)：为Avalonia应用提供交互式引导/产品导览，突出重点提示、模态步骤和分步导航。
-* [RoyalTerminal](https://github.com/royalapplications/RoyalTerminal)：高性能.NET 10终端堆栈，具有后端无关的Avalonia核心、帧缓冲着色器支持、官方原生Ghostty VT集成以及独立的完全托管的VT实现。
-* [VeloxDev](https://github.com/Axvser/VeloxDev)：VeloxDev为.NET开发人员提供了一个完整的基础，用于构建交互式工作流编辑器。
-* [WPFDevelopers.Avalonia](https://github.com/WPFDevelopersOrg/WPFDevelopers.Avalonia)：基于Avalonia 11.3的UI组件库，提供丰富的控件主题和实用工具。
 * [RolandK.AvaloniaExtensions](https://github.com/RolandKoenig/RolandK.AvaloniaExtensions)：一个.NET库，扩展了Avalonia，提供常用功能，比如ViewServices、依赖注入和一些Mvvm小工具。
-* [SvcSystems.UI.Terminal](https://github.com/IvanJosipovic/SvcSystems.UI.Terminal)：基于XTerm.NET构建的Avalonia终端控件。
 * [AsyncNavigation](https://github.com/NeverMorewd/AsyncNavigation)：基于Microsoft.Extensions.DependencyInjection的轻量级异步导航框架。
-* [WebScene](https://github.com/wieslawsoltes/WebScene)：WebScene是一个原生组件运行时，用于将Web创建的体验引入Flutter、Uno平台、WPF、WinUI、Avalonia以及其他原生应用框架。
-* [LoadingIndicators.Avalonia](https://github.com/moviegear/LoadingIndicators.Avalonia)：LoadingIndicators.Avalonia是LoadingIndicators.WPF集合中9个动画加载指示器的Avalonia版本。
-* [Irihi.Mafia](https://github.com/irihitech/Irihi.Mafia)：Irihi.Mafia是一个移动优先的Avalonia控件库，从底层开始就针对触摸交互、拇指友好型尺寸和响应式布局进行了精心打造。
-* [MarkView.Avalonia](https://github.com/Kryptos-FR/MarkView.Avalonia)：一款基于Markdig的Avalonia UI v12 Markdown查看器控件。
-* [Material3.Avalonia](https://github.com/klorman/Material3.Avalonia)：一个适用于Avalonia应用的现代Material Design 3主题库。
-* [Iciclecreek.Avalonia.Terminal](https://github.com/tomlm/Iciclecreek.Avalonia.Terminal)：Iciclecreek.Avalonia.Terminal提供Avalonia控件，用于在跨平台桌面应用程序中嵌入功能齐全的终端模拟器。
-* [Akbura](https://github.com/Asaicraft/Akbura)：Akbura是一种实验性的声明式UI语言和编译器，适用于.NET和Avalonia，通过AKCSS实现响应式状态和类型化样式。
-* [Breakpoints.Avalonia](https://github.com/AVVI94/Breakpoints.Avalonia)：Breakpoints.Avalonia是一个用于Avalonia UI的库，它利用断点提供响应式设计功能。
 * [FluentAvalonia.BreadcrumbBar](https://github.com/yuto-trd/FluentAvalonia.BreadcrumbBar)：Avalonia控件库，为FluentAvalonia包添加了WinUI面包屑导航栏。
-* [LoadingAnimation.Avalonia](https://github.com/JamesBaiJun/LoadingAnimation.Avalonia)：LoadingAnimation是一个AvloniaUI项目，它包含一些简单的加载动画。
+* [Lang.Avalonia](https://github.com/dotnet9/Lang.Avalonia)：Lang.Avalonia是面向Avalonia UI的插件化多语言库。
+* [GliderUI](https://github.com/mdgrs-mei/GliderUI)：基于Avalonia的跨平台PowerShell桌面GUI框架。
+
+## Avalonia主题库
+
+* [Semi Avalonia](https://github.com/irihitech/Semi.Avalonia)：Avalonia UI控件主题，灵感来自Semi Design。
+* [Citrus.Avalonia](https://github.com/AvaloniaUI/Citrus.Avalonia)：Avalonia实验主题。
+* [SukiUI](https://github.com/kikipoulet/SukiUI)：SukiUI是AvaloniaUI的主题，支持明暗主题和不同的颜色主题。
+* [FluentAvalonia](https://github.com/amwx/FluentAvalonia)：现代、流式设计和受WinUI启发的Avalonia应用工具包。
+* [Material.Avalonia](https://github.com/AvaloniaCommunity/Material.Avalonia)：针对AvaloniaUI框架的可定制Material Design实现。
+* [Material3.Avalonia](https://github.com/klorman/Material3.Avalonia)：一个适用于Avalonia应用的现代Material Design 3主题库。
+* [Neumorphism.Avalonia](https://github.com/flarive/Neumorphism.Avalonia)：AvaloniaUI框架下易用且可定制的Neumorphism Design实现。
+* [Classic.Avalonia](https://github.com/BAndysc/Classic.Avalonia)：该项目将经典的Windows 9x主题带入Avalonia。
+* [Aero Theme Avalonia](https://github.com/Splitwirez/aero-theme-for-avalonia)：Avalonia的Aero主题。
+* [Pipboy.Avalonia](https://github.com/NeverMorewd/Pipboy.Avalonia)：一个受Pip-Boy启发的Avalonia UI主题库。
+* [PleasantUI](https://github.com/Onebeld/PleasantUI)：PleasantUI是一个针对Avalonia的跨平台UI主题和控件库，灵感来自微软的Fluent Design以及WinUI/UWP的视觉语言。
+* [Romzetron.Avalonia](https://github.com/Romzetron/Romzetron.Avalonia)：Romzetron.Avalonia是一个UI主题库，旨在与Avalonia跨平台UI框架配合使用。
+* [Huskui.Avalonia](https://github.com/d3ara1n/Huskui.Avalonia)：一个现代、优雅的Avalonia UI组件库，旨在用于美观的跨平台桌面应用程序。
+* [OnePointUI.Avalonia](https://github.com/Round-Studio/OnePointUI.Avalonia)：一个为Avalonia开发的高动效轻量级的主题/控件库。
 * [CobaltFluent](https://github.com/RoorJiaMo/CobaltFluent)：Avalonia的Windows 11 Fluent实现。
 * [CompositionMaterial.Avalonia](https://github.com/HelloWRC/CompositionMaterial.Avalonia)：CompositionMaterial.Avalonia是一个.NET 8.0控件库，它为Avalonia应用程序添加了形状裁剪的Windows材质。
+* [Avalonia Themes](https://github.com/Devolutions/avalonia-extensions)：由Devolutions开发的自定义Avalonia主题。
+* [Avalonia.ThemeManager](https://github.com/wieslawsoltes/Avalonia.ThemeManager)：用于Avalonia应用的主题管理器。
+* [ThemeManager.Avalonia](https://github.com/wieslawsoltes/ThemeManager.Avalonia)：Avalonia应用程序的主题管理器。
+* [LayUI Avalonia](https://github.com/Coolkeke/LayUI-Avalonia)：这是一款Avalonia版本的LayUI风格的前端组件库。
+* [ShadUI](https://github.com/accntech/shad-ui)：ShadUI是一个基于Avalonia的桌面UI库。
+* [AakStudio.Shell.UI.Themes.AvalonDock](https://github.com/Wenveo/AakStudio.Shell.UI.Themes.AvalonDock)：AakStudio.Shell.UI的AvalonDock主题。
+
+## Avalonia控件库
+
+* [Ursa.Avalonia](https://github.com/irihitech/Ursa.Avalonia)：Ursa是一个企业级UI库，用于构建使用Avalonia UI的跨平台应用。
+* [AtomUI](https://github.com/AtomUI/AtomUI)：AtomUI利用Avalonia强大的跨平台能力，实现了Ant Design系统。
+* [Avalonia Controls](https://www.actiprosoftware.com/products/controls/avalonia)：一套免费的主题和UI控件，用于构建漂亮的跨平台Avalonia应用。
+* [PanAndZoom](https://github.com/wieslawsoltes/PanAndZoom)：Avalonia的PanAndZoom控件。
+* [Avalonia.Labs](https://github.com/AvaloniaUI/Avalonia.Labs)：Avalonia的实验性控件。
+* [Avalonia.ExtendedToolkit](https://github.com/mameolan/Avalonia.ExtendedToolkit)：Avalonia.ExtendedTool将WPF的一些控件移植到Avalonia。
+* [Aura.UI](https://github.com/PieroCastillo/Aura.UI)：一个包含大量控件的AvaloniaUI库。
+* [Nova.Avalonia.UI](https://github.com/jsuarezruiz/Nova.Avalonia.UI)：Nova.Avalonia.UI是一套针对Avalonia UI的综合性UI控件套件，旨在帮助开发者构建现代、可访问且高性能的跨平台应用程序。
+* [Zafiro.Avalonia](https://github.com/SuperJMN/Zafiro.Avalonia)：这是一个适用于Avalonia 11.3.x的UI组件库，为桌面、移动和浏览器应用程序提供控件、对话框、行为和辅助函数。
+* [Avalonia Controls](https://github.com/HeBianGu/Avalonia-Controls)：Avalonia皮肤、主题、自定义控件、数据库、系统模块资源库。
+* [Mechanism](https://github.com/Splitwirez/Mechanism-for-Avalonia)：Mechanism是一组控件、主题及其他类似工具。
+* [Avalonia.RangeSlider](https://github.com/DmitryNizhebovsky/Avalonia.RangeSlider)：AvaloniaUI的范围滑块。
+* [ToolBarControls.Avalonia](https://github.com/Tulesha/ToolBarControls.Avalonia)：此软件包为Avalonia UI提供了两个自定义控件ToolBar和ToolBarTray。
+* [AvaloniaFixedWrapPanel](https://github.com/MikD1/AvaloniaFixedWrapPanel)：Avalonia WrapPanel控件。
+* [SpacedGrid Avalonia](https://github.com/Nickelony/SpacedGrid-Avalonia)：这是AvaloniaUI的Grid类的扩展，添加了RowSpacing和ColumnSpacing属性。
+* [Avalonia.Markup.Declarative](https://github.com/AvaloniaUI/Avalonia.Markup.Declarative)：Avalonia.Markup.Declarative是一套基于Avalonia控件的基础类和扩展方法。
+* [NewBeeUI](https://github.com/nscript-site/NewBeeUI)：NewBeeUI是基于Avalonia的MVU GUI库。
+* [SideScroll](https://github.com/SideScrollUI/SideScroll)：SideScroll是一个跨平台的Avalonia UI框架，旨在快速浏览标签树。
+* [WPFDevelopers.Avalonia](https://github.com/WPFDevelopersOrg/WPFDevelopers.Avalonia)：基于Avalonia 11.3的UI组件库，提供丰富的控件主题和实用工具。
+* [Irihi.Mafia](https://github.com/irihitech/Irihi.Mafia)：Irihi.Mafia是一个移动优先的Avalonia控件库，从底层开始就针对触摸交互、拇指友好型尺寸和响应式布局进行了精心打造。
+* [AvaloniaProgressRing](https://github.com/Deadpikle/AvaloniaProgressRing)：AvaloniaProgressRing是一个简单的Avalonia进度环。
+* [LoadingIndicators.Avalonia](https://github.com/moviegear/LoadingIndicators.Avalonia)：LoadingIndicators.Avalonia是LoadingIndicators.WPF集合中9个动画加载指示器的Avalonia版本。
+* [LoadingAnimation.Avalonia](https://github.com/JamesBaiJun/LoadingAnimation.Avalonia)：LoadingAnimation是一个AvloniaUI项目，它包含一些简单的加载动画。
+* [Avalonia.GIF](https://github.com/AvaloniaUI/Avalonia.GIF)：Avalonia UI框架的GIF图像渲染器和播放器。
+* [HyperText.Avalonia](https://github.com/AvaloniaUtils/HyperText.Avalonia)：用于在Avalonia UI应用中显示富文本的控件。
+* [ShowMeTheXaml.Avalonia](https://github.com/AvaloniaUtils/ShowMeTheXaml.Avalonia)：一个Avalonia组件，使显示自定义样式和控件的对应XAML变得容易。
+* [Akbura](https://github.com/Asaicraft/Akbura)：Akbura是一种实验性的声明式UI语言和编译器，适用于.NET和Avalonia，通过AKCSS实现响应式状态和类型化样式。
+* [SmoothScroll.Avalonia](https://github.com/zxbmmmmmmmmm/SmoothScroll.Avalonia)：在Avalonia中实现WinUI的InteractionTracker和ScrollView。
+* [CalendarControl](https://github.com/satial-interfaces/CalendarControl)：CalendarControl是Avalonia的一个日历控件。
+* [Aura3D](https://github.com/CeSun/Aura3D)：Aura3D是一个轻量级、可扩展且高性能的3D渲染控件。
+* [AvaloniaCalendarView](https://github.com/SaverinOnRails/AvaloniaCalendarView)：用于在日历视图中显示事件的Avalonia控件。
+* [DotNetCampus.InkCanvas](https://github.com/dotnet-campus/DotNetCampus.InkCanvas)：.NET Avalonia应用程序的InkCanvas控件，它提供了一个多功能的画布，可用于手写和绘图。
 * [Clowd.Clipboard](https://github.com/clowd/Clowd.Clipboard)：一个用于.NET的Windows剪贴板库，以及一个定制的bmp/dib解析器。
-* [Lang.Avalonia](https://github.com/dotnet9/Lang.Avalonia)：Lang.Avalonia是面向Avalonia UI的插件化多语言库。
 
-#### Avalonia图标库
+## Avalonia图表库
 
+* [OxyPlot.Avalonia](https://github.com/oxyplot/oxyplot-avalonia)：OxyPlot是一个.NET的绘图库。
+* [Avalonia.Microcharts](https://github.com/AvaloniaCommunity/Avalonia.Microcharts)：这是Alois Deniel制作的Microcharts库中仅限Avalonia的简单移植版。
+* [StockPlot](https://github.com/BizUnity/StockPlot)：一个用于AvaloniaUI的技术分析库，基于ScottPlot数据可视化库。
+* [AvaloniaGraphControl](https://github.com/Oaz/AvaloniaGraphControl)：AvaloniaUI的图布局面板。
+
+## Avalonia对话框
+
+* [MessageBox.Avalonia](https://github.com/AvaloniaCommunity/MessageBox.Avalonia)：AvaloniaUI的消息框。
+* [DialogHost.Avalonia](https://github.com/AvaloniaUtils/DialogHost.Avalonia)：Avalonia DialogHost控件提供了一种简单的方法来显示包含信息的对话框，或在需要信息时提示用户。
+* [JamSoft.AvaloniaUI.Dialogs](https://github.com/jamsoft/JamSoft.AvaloniaUI.Dialogs)：提供在DI可注入服务中显示各种对话框、子窗口、消息框和向导的能力，可直接集成到MVVM AvaloniaUI应用程序中。
+* [Movere](https://github.com/jp2masa/Movere)：Movere是Avalonia的托管对话框实现。
+
+## Avalonia布局库
+
+* [Avalonia.Controls.TreeDataGrid](https://github.com/AvaloniaUI/Avalonia.Controls.TreeDataGrid)：TreeDataGrid是Avalonia UI框架的一个控件，可将分层和表格数据同时显示在同一视图中。
+* [ProDataGrid](https://github.com/wieslawsoltes/ProDataGrid)：ProDataGrid是Avalonia的高性能DataGrid控件。
+* [FastTreeDataGrid](https://github.com/wieslawsoltes/FastTreeDataGrid)：FastTreeDataGrid是一个高性能的Avalonia UI树状数据网格。
+* [Avalonia.Controls.DataGrid](https://github.com/AvaloniaUI/Avalonia.Controls.DataGrid)：Avalonia的官方DataGrid控件。
+* [TreeDataGridEx](https://github.com/wieslawsoltes/TreeDataGridEx)：TreeDataGridEx是Avalonia的TreeDataGrid的实验版本，增加了XAML语法。
+* [Avalonia.PropertyGrid](https://github.com/bodong1987/Avalonia.PropertyGrid)：这是Avalonia的PropertyGrid实现，你可以在Avalonia应用中使用。
+* [Spreadalonia](https://github.com/arklumpus/Spreadalonia)：Spreadalonia是一个为Avalonia提供简单电子表格控件的库，支持一些基本功能。
+* [Paginator.Avalonia](https://github.com/AvaloniaUtils/Paginator.Avalonia)：Avalonia分页器。
+* [Tabalonia](https://github.com/egorozh/Tabalonia)：Avalonia上可拖拽Tab项。
+* [NP.Ava.UniDock](https://github.com/npolyak/NP.Ava.UniDock)：UniDock是一种新的多平台对接框架。
+* [Responsive.Avalonia](https://github.com/russkyc/responsive-avalonia)：Responsive.Avalonia是一个为AvaloniaUI应用程序提供响应式断点的库。
+* [Breakpoints.Avalonia](https://github.com/AVVI94/Breakpoints.Avalonia)：Breakpoints.Avalonia是一个用于Avalonia UI的库，它利用断点提供响应式设计功能。
+
+## Avalonia动画库
+
+* [Coachlight.Avalonia](https://github.com/c3n9/Coachlight.Avalonia)：为Avalonia应用提供交互式引导/产品导览，突出重点提示、模态步骤和分步导航。
+* [VeloxDev](https://github.com/Axvser/VeloxDev)：VeloxDev为.NET开发人员提供了一个完整的基础，用于构建交互式工作流编辑器。
+
+## Avalonia节点图
+
+* [NodeEditor.Net](https://github.com/Johnny2x2/NodeEditor.Net)：一个强大、事件驱动的可视化节点编辑器，适用于.NET 10，支持基于图形的交互式可视化编程，拥有完整的执行引擎、插件市场、AI集成以及无头执行支持。
+* [Nodify.Avalonia](https://github.com/trrahul/nodify-avalonia)：一款功能强大、特性丰富的节点编辑器控件，适用于Avalonia UI应用程序。
+* [NodeEditor](https://github.com/wieslawsoltes/NodeEditor)：NodeEditor是Avalonia的一个控件，用于编辑和渲染节点及连接器。
+
+## Avalonia编辑器组件
+
+* [Markdown.Avalonia](https://github.com/whistyun/Markdown.Avalonia)：Markdown.Avalonia是Avalonia UI上MdXaml的移植版本。
+* [MatoEditor](https://github.com/CoolCoolTomato/MatoEditor)：基于Avalonia的开源Markdown编辑器。
+* [AvaloniaHex](https://github.com/Washi1337/AvaloniaHex)：这是一个用于Avalonia UI框架的十六进制编辑器控件。
+* [CSharpEditor](https://github.com/arklumpus/CSharpEditor)：CSharpEditor是一个用于Avalonia应用程序的C#源代码编辑器控件。
+* [MarkView.Avalonia](https://github.com/Kryptos-FR/MarkView.Avalonia)：一款基于Markdig的Avalonia UI v12 Markdown查看器控件。
+* [Avalonia.HtmlRenderer](https://github.com/AvaloniaUI/Avalonia.HtmlRenderer)：HtmlRenderer的Avalonia移植。
+* [AvaloniaPdfViewer](https://github.com/chrisg32/AvaloniaPdfViewer)：Avalonia UI控件，用于查看PDF文件。
+* [Avalonia.WebView2](https://github.com/BeyondDimension/Avalonia.WebView2)：WebView2控件使用Microsoft Edge作为绘制引擎，以在原生应用中显示Web内容。
+* [NativeWebView](https://github.com/wieslawsoltes/NativeWebView)：NativeWebView为Avalonia提供了一个以原生WebView为先的控制栈，而无需捆绑Chromium。
+* [WebScene](https://github.com/wieslawsoltes/WebScene)：WebScene是一个原生组件运行时，用于将Web创建的体验引入Flutter、Uno平台、WPF、WinUI、Avalonia以及其他原生应用框架。
+
+## Avalonia选择器
+
+* [ColorPicker](https://github.com/wieslawsoltes/ColorPicker)：ColorPicker是Avalonia UI框架的一个颜色选择控件。
+* [AvaloniaColorPicker](https://github.com/arklumpus/AvaloniaColorPicker)：AvaloniaColorPicker是Avalonia的颜色选择控件工具。
+* [Egorozh.ColorPicker](https://github.com/egorozh/Egorozh.ColorPicker)：WPF和AvaloniaUI上最好的颜色选择器。
+
+## Avalonia媒体库
+
+* [VLCSharpAvalonia](https://github.com/donandren/vlcsharpavalonia)：Avalonia对VLC播放器的实验性跨平台支持。
+* [FFME.Avalonia](https://github.com/WangsYi/ffme.avalonia)：一个基于Ffmpeg.Autogen的Avalonia视频播放控件。
+* [MediaPlayer](https://github.com/wieslawsoltes/MediaPlayer)：针对Avalonia的GPU加速媒体播放器。
+* [MediaPlayerUI.NET](https://github.com/mysteryx93/MediaPlayerUI.NET)：一个适用于任何媒体播放器的.NET媒体播放器界面，适用于WPF和Avalonia。
+
+## Avalonia终端/控制台
+
+* [AvalonStudio.TerminalEmulator](https://github.com/VitalElement/AvalonStudio.TerminalEmulator)：Avalonia控件，允许在模拟终端中嵌入应用程序。
+* [RoyalTerminal](https://github.com/royalapplications/RoyalTerminal)：高性能.NET 10终端堆栈，具有后端无关的Avalonia核心、帧缓冲着色器支持、官方原生Ghostty VT集成以及独立的完全托管的VT实现。
+* [Iciclecreek.Avalonia.Terminal](https://github.com/tomlm/Iciclecreek.Avalonia.Terminal)：Iciclecreek.Avalonia.Terminal提供Avalonia控件，用于在跨平台桌面应用程序中嵌入功能齐全的终端模拟器。
+* [SvcSystems.UI.Terminal](https://github.com/IvanJosipovic/SvcSystems.UI.Terminal)：基于XTerm.NET构建的Avalonia终端控件。
+
+## Avalonia图标库
+
+* [Avalonia.IconPacks](https://github.com/ahopper/Avalonia.IconPacks)：导入了37000多个矢量图标，来自Visual Studio 2017和2019年图片库、VSCode图标、FluentUI图标和MahApps.Metro.IconPacks，用于Avalonia。
+* [IconPacks.Avalonia](https://github.com/MahApps/IconPacks.Avalonia)：这些软件包包含控件、标记扩展和转换器，方便你用这些酷炫的图标配合你的Avalonia应用。
+* [LucideAvaloniaUI](https://github.com/MarwanFr/LucideAvaloniaUI)：Lucide Icons AvaloniaUI是一个库，允许你将超过1400个现代优雅的图标集成到AvaloniaUI项目中。
+* [Icons.Avalonia](https://github.com/Projektanker/Icons.Avalonia)：一个能在Avalonia应用中轻松显示图标的库。
 * [Irihi.Iconica.IconPark](https://github.com/irihitech/Irihi.Iconica.IconPark)：Irihi.Iconica.IconPark是一个.NET库，为Avalonia应用程序提供超过2400个高质量图标。
 * [Lucide.Avalonia](https://github.com/dme-compunet/Lucide.Avalonia)：在AvaloniaUI中实现Lucide图标库。
 * [Material.Icons.Avalonia](https://github.com/AvaloniaUtils/Material.Icons.Avalonia)：用于显示Material.Icons中Material图标的Avalonia控件。
@@ -7803,7 +7930,7 @@ permalink: /csharp
 * [Xamarin.Swift](https://github.com/Flash3001/Xamarin.Swift)：该项目旨在用于Xamarin.iOS项目，同时对Xamarin.tvOS和Xamarin.macOS提供实验性支持。
 * [SegmentedControl](https://github.com/alexrainman/SegmentedControl)：Xamarin Forms的分段控件插件。
 
-#### Dock库
+## Dock库
 
 * [DockPanel Suite](https://github.com/dockpanelsuite/dockpanelsuite)：受Visual Studio启发的.NET WinForms扩展坞库。
 * [AvalonDock](https://github.com/Dirkster99/AvalonDock)：AvalonDock是一个WPF文档和工具窗口布局容器，用于以与许多知名IDE(例如Eclipse、Visual Studio、PhotoShop等)类似的方式排列文档和工具窗口。
@@ -7817,7 +7944,7 @@ permalink: /csharp
 * [PixiDocks](https://github.com/PixiEditor/PixiDocks)：Avalonia的Dock库。
 * [AcrylicUI](https://github.com/colhountech/AcrylicUI)：AcrylicUI是一个适用于.NET Core WinForms的现代控件和停靠框架，针对Windows 11进行了优化。
 
-#### UWP
+## UWP
 
 * [FFMediaElement](https://github.com/unosquare/ffmediaelement)：高级WPF MediaElement替代方案。
 * [WpfDesigner](https://github.com/icsharpcode/WpfDesigner)：SharpDevelop的WPF设计器。
@@ -8029,7 +8156,6 @@ permalink: /csharp
 * [CKEditor 5 Blazor](https://github.com/Mati365/ckeditor5-blazor)：一个轻量级的多平台所见即所得编辑器集成，适用于ASP.NET Core Blazor服务器和WebAssembly。
 * [Blazor Terra](https://github.com/LumexUI/blazor-terra)：为Blazor构建的漂亮地图组件，使用了Tailwind CSS。
 * [Blorc.PatternFly](https://github.com/WildGums/Blorc.PatternFly)：PatternFly的Blazor封装组件。
-* [NodeEditor.Net](https://github.com/Johnny2x2/NodeEditor.Net)：一个强大、事件驱动的可视化节点编辑器，适用于.NET 10，支持基于图形的交互式可视化编程，拥有完整的执行引擎、插件市场、AI集成以及无头执行支持。
 * [BlazorDX](https://github.com/logixrcorp/BlazorDX)：BazorDX包含100多个组件，涵盖叠加层、输入框、导航、数据网格系列、数据可视化、日程安排、编辑器、文件、表单。
 * [Blazor.State](https://github.com/BitzArt/Blazor.State)：BitzArt.Blazor.State允许使用Blazor在渲染环境之间持久化组件状态。
 * [Abp.RadzenUI](https://github.com/ShaoHans/Abp.RadzenUI)：Abp RadzenUI是一个基于ABP框架构建的Blazor Server UI主题，并使用Radzen Blazor组件库精心打造。
@@ -8049,6 +8175,9 @@ permalink: /csharp
 * [BlazorDataTable](https://github.com/erossini/BlazorDataTable)：适用于Blazor WebAssembly和Blazor Server的DataTable组件，支持客户端/服务器端分页、筛选和排序。
 * [Blazor Highcharts](https://github.com/Allegiance-Consulting/blazor-highcharts)：Highcharts库的Blazor封装。
 * [BlazorTextDiff](https://github.com/lzinga/BlazorTextDiff)：一个用于并排显示文本差异并进行字符级高亮显示的Blazor组件。
+* [Blaizio](https://github.com/blaizio/blaizio)：一个基于无头原语和Tailwind CSS v4构建的Blazor UI组件框架。
+* [BlazorMemoire](https://github.com/matthetherington/Blazor-Memoire)：Blazor的备忘录组件，类似于React的useMemo，可以避免冗余的重新渲染。
+* [Blazor.BroadcastChannel](https://github.com/tpeczek/Blazor.BroadcastChannel)：这是一个基于Blazor的HTML5广播频道API实现。
 
 ## IDE
 
@@ -8271,6 +8400,7 @@ permalink: /csharp
 * [SharpText](https://github.com/drjaydenm/SharpText)：一个用C#实现的GPU加速文本渲染器。
 * [MeshIO](https://github.com/DomCR/MeshIO)：用于读取/写入和修改不同3D格式的C#库。
 * [RiveSharp](https://github.com/rive-app/rive-sharp)：Rive的C#运行时。
+* [JeremyAnsel.DirectX](https://github.com/JeremyAnsel/JeremyAnsel.DirectX)：DirectX API的托管封装。
 
 ## 布局库
 
@@ -8915,6 +9045,7 @@ permalink: /csharp
 * [Mixpanel CSharp](https://github.com/eealeivan/mixpanel-csharp)：Mixpanel C#集成库。
 * [GoogleAnalyticsTracker](https://github.com/maartenba/GoogleAnalyticsTracker)：一个用于跟踪Google Analytics的C#库。
 * [Corsinvest.ProxmoxVE.Api](https://github.com/Corsinvest/cv4pve-api-dotnet)：Proxmox VE客户端.NET API。
+* [TenantCloudClient](https://github.com/yllibed/TenantCloudClient)：这是用于TenantCloud的非官方.NET工具包，它包含一个用于程序化访问的客户端库和一个用于集成AI代理的MCP服务器。
 
 ## Twitter
 
@@ -9622,6 +9753,7 @@ permalink: /csharp
 
 * [RulesEngine](https://github.com/microsoft/RulesEngine)：Rules Engine是一个用于从系统中抽象出业务逻辑/规则/策略的库/NuGet包。
 * [NRules](https://github.com/NRules/NRules)：NRules是.NET的开源生产规则引擎，基于Rete匹配算法。
+* [Code Effects](https://codeeffects.com/decision-automation-engine)：可嵌入的.NET决策自动化平台。
 * [MicroRuleEngine](https://github.com/runxc1/MicroRuleEngine)：MicroRuleEngine是一个单文件规则引擎。
 * [NxBRE](https://github.com/ddossot/NxBRE)：NxBRE是用于.NET平台的轻量级业务规则引擎。
 * [DMN Engine](https://github.com/adamecr/Common.DMN.Engine)：DMN Engine是一个规则引擎，允许执行和评估DMN模型中定义的决策。
@@ -9682,6 +9814,33 @@ permalink: /csharp
 * [Reducible](https://github.com/mrpmorris/Reducible)：Reducible是一个用于Microsoft .NET的Reducer库。
 * [UniMob](https://github.com/codewriter-packages/UniMob)：UniMob是一个库，它通过透明地应用函数式响应式编程，简化并扩展了状态管理。
 
+## 功能标志
+
+* [ViVe](https://github.com/thebookisclosed/ViVe)：ViVe是一个C#库，你可以使用它来制作自己的程序，与Windows 10及更新版本中的A/B功能实验机制进行交互。
+* [FeatBit](https://github.com/featbit/featbit)：FeatBit是一个开源功能标志管理工具。
+* [Scientist.NET](https://github.com/scientistproject/Scientist.net)：Scientist库的.NET端口，用于仔细重构关键路径。
+* [.NET Feature Management](https://github.com/microsoft/FeatureManagement-Dotnet)：Feature Management提供了一种基于功能开发和公开应用程序功能的方法。
+* [FeatureToggle](https://github.com/jason-roberts/FeatureToggle)：.NET中简单、可靠的功能切换。
+* [FeatureSwitcher](https://github.com/mexx/FeatureSwitcher)：FeatureSwitcher是用于功能切换的小型库。
+* [Tweek](https://github.com/Soluto/tweek)：Tweek是一款开源的功能管理解决方案。
+* [Unleash .NET](https://github.com/Unleash/unleash-dotnet-sdk)：Unleash是一个私密、安全且可扩展的功能管理平台。
+* [OpenFeature .NET SDK](https://github.com/open-feature/dotnet-sdk)：OpenFeature是一个开放规范，提供供应商无关、社区驱动的功能开关API，可与你喜欢的功能开关管理工具或内部解决方案配合使用。
+* [NFeature](https://github.com/benaston/NFeature)：一个简单的功能配置系统。
+* [FeatureBits](https://github.com/microsoft/featurebits)：FeatureBits是一个功能切换系统，用于支持多个平台的持续交付。
+* [Moggles](https://github.com/NSIAppDev/Moggles)：非开发向导的功能标志管理。
+* [FeatureManagement.UI](https://github.com/Odonno/FeatureManagement.UI)：此包允许你在自己的ASP.NET Web API中配置应用程序。
+* [FeatureSwitch](https://github.com/valdisiljuconoks/FeatureSwitch)：FeatureSwitch是一个库，应该可以减少在项目中实现功能切换所需的时间和代码量。
+* [LaunchDarkly .NET](https://github.com/launchdarkly/dotnet-server-sdk)：LaunchDarkly .NET服务器端SDK。
+* [Esquio](https://github.com/Xabaril/Esquio)：Esquio是一个用于.NET Core 3.0的功能开关和A/B测试框架。
+* [Nona](https://github.com/Ryware/nona-config)：开源的自托管功能标志和远程配置。
+* [Optimizely C# SDK](https://github.com/optimizely/csharp-sdk)：基于.NET的C# SDK，适用于Optimizely Feature Experimentation和Optimizely Full Stack。
+* [ReallySimpleFeatureToggle](https://github.com/davidwhitney/ReallySimpleFeatureToggle)：一个用于.NET的功能配置库。
+* [FeatureFlags.app](https://featureflags.app/)：.NET开发者的云无关功能管理，无用户追踪，无供应商锁定，且与微软无缝集成。
+* [Unleash FeatureToggle .NET Client](https://github.com/stiano/unleash-client-dotnet)：为.NET开发的FeatureToggle客户端。
+* [AbTestMaster](https://github.com/htayebi/AbTestMaster)：AbTestMaster是一个免费的ASP.NET MVC应用程序A/B测试框架。
+* [Split .NET](https://github.com/splitio/split-openfeature-provider-dotnet)：该SDK旨在与Split(受控部署平台)配合使用，通过功能标志向用户提供功能，以管理完整的客户体验。
+* [NToggle](https://github.com/SteveMoyer/nToggle)：.NET功能切换库。
+
 ## 构建工具
 
 * [Microsoft.Build](https://github.com/dotnet/msbuild)：Microsoft Build Engine是一个用于构建应用程序的平台。
@@ -9734,6 +9893,8 @@ permalink: /csharp
 * [.NET Outdated](https://github.com/dotnet-outdated/dotnet-outdated)：一个.NET Core全局工具，用于显示和更新项目中过时的NuGet包。
 * [Cement](https://github.com/skbkontur/cement)：C#依赖管理工具。
 * [NuLink](https://github.com/nwheels-io/NuLink)：NuLink允许直接从本地计算机上的源代码使用NuGet包。
+* [BaGet](https://github.com/loic-sharma/BaGet)：一个轻量级的NuGet和符号服务器。
+* [Sleet](https://github.com/emgarten/Sleet)：一个静态NuGet包源生成器。
 
 ## 工件仓库
 
@@ -9939,7 +10100,11 @@ permalink: /csharp
 
 * [Ultra](https://github.com/xoofx/ultra)：Ultra是一个适用于Windows的.NET应用程序高级性能分析器。
 * [NanoProfiler](https://github.com/ef-labs/nanoprofiler)：NanoProfiler是一个用C#编写的轻量级性能分析库，要求.NET 4.0。
+* [DotMemory](https://www.jetbrains.com/dotmemory)：DotMemory是一个.NET内存分析器，可以直接从Visual Studio启动，也可以作为JetBrains Rider的插件使用。
+* [DotTrace](https://www.jetbrains.com/profiler)：DotTrace可帮助你检测各种.NET和.NET Core应用程序的性能瓶颈。
+* [YourKit .NET Profiler](https://www.yourkit.com/dotnet-profiler/features/)： YourKit .NET Profiler是一款易于使用且准确的.NET应用程序性能和内存分析器。
 * [Optick](https://github.com/bombomby/optick)：Optick是一款用于游戏的超轻量级C++分析器。
+* [Glimpse](https://github.com/glimpse/glimpse)：面向Web的开源诊断平台。
 * [Profile Explorer](https://github.com/microsoft/profile-explorer)：Profile Explorer是一个用于查看通过Windows事件追踪基础设施在x64和ARM64 CPU机器上收集的CPU性能分析跟踪的工具。
 * [Crank](https://github.com/dotnet/crank)：Crank是.NET团队用来运行基准测试的基准测试基础设施。
 * [Microsoft.Diagnostics.Runtime](https://github.com/microsoft/clrmd)：ClrMD是一个进程和崩溃转储内省库。
@@ -10289,6 +10454,7 @@ permalink: /csharp
 * [NativeLibraryLoader](https://github.com/mellinoe/nativelibraryloader)：一个用于加载本机共享库和检索函数指针的.NET Standard库。
 * [CppPinvokeGenerator](https://github.com/EgorBo/CppPinvokeGenerator)：一个基于CppAst的简单PInvoke生成器，用于为C/C++生成C#。
 * [Rxmxnx.PInvoke.Extensions](https://github.com/josephmoresena/Rxmxnx.PInvoke.Extensions)：Rxmxnx.PInvoke.Extensions是一个全面的库，旨在简化并增强.NET与本地P/Invoke方法的交互。
+* [PInvoke Interop Assistant](https://github.com/jaredpar/pinvoke-interop-assistant)：PInvoke Interop Assistant是一个用于辅助C/C++代码与托管P/Invoke签名之间相互转换的工具。
 
 ## 互操作
 
@@ -10313,6 +10479,7 @@ permalink: /csharp
 * [JuliadotNET](https://github.com/HyperSphereStudio/JuliadotNET)：JuliaDotNet是.NET和Julia编程语言之间的双向桥梁。
 * [LegacyWrapper](https://github.com/CodefoundryDE/LegacyWrapper)：LegacyWrapper使用包装进程从对立架构(X86或AMD64)的进程调用DLL。
 * [FreSharp](https://github.com/tuarua/FreSharp)：C#的FlashRuntimeExtensions封装器。
+* [CXXI](https://github.com/mono/cxxi)：C++互操作框架。
 
 ## Lua
 
@@ -10556,6 +10723,7 @@ permalink: /csharp
 * [AdventurerClientDotNet](https://github.com/andycb/AdventurerClientDotNet)：一个用于与FlashForge Adventurer和Monoprice Voxel通信的跨平台.NET库。
 * [FsAPI](https://github.com/z1c0/FsApi)：这是Frontier Silicon API(FsAPI)的.NET应用程序实现。
 * [RawDiskLib](https://github.com/LordMike/RawDiskLib)：一个用于读取磁盘原始扇区的C#库。
+* [SharpOdinClient](https://github.com/Alephgsm/SharpOdinClient)：SharpOdinClient是一个.NET库，它允许C#应用程序与处于下载模式的三星Android设备进行通信。
 
 ## 键盘鼠标库
 
@@ -11214,6 +11382,7 @@ permalink: /csharp
 * [FeishuNetSdk](https://github.com/vicenteyu/FeishuNetSdk)：适用于飞书开放平台的.NET开发包。
 * [MudFeishu](https://github.com/mudtools/MudFeishu)：MudFeishu是一套现代化的企业级.NET飞书API集成SDK，提供完整的HTTP API调用、WebSocket实时事件订阅和Webhook事件处理能力。
 * [MASA.MC](https://github.com/masastack/MASA.MC)：MASA MC是MASA Stack的消息服务，支持站内消息、短信、电子邮件和模板消息。
+* [NPushOver](https://github.com/RobThree/NPushOver)：.NET Pushover客户端。
 
 ## 通知
 
@@ -11715,11 +11884,13 @@ permalink: /csharp
 * [ShellSyntaxTree](https://github.com/Aaronontheweb/ShellSyntaxTree)：一个专注于.NET的库，用于将Bash和PowerShell命令字符串解析为结构化的抽象语法树(AST)。
 * [Kadlet](https://github.com/oledfish/Kadlet)：这是一个基于.NET的KDL文档语言解析器实现。
 * [Human Parser Generator](https://github.com/christophevg/human-parser-generator)：一个简洁易用的递归下降解析器生成器。
+* [Pliant](https://github.com/patrickhuber/Pliant)：Pliant是一个基于表格的解析器，它实现了Earley算法。
 
 ## 解析器组合器
 
 * [Pidgin](https://github.com/benjamin-hodgson/Pidgin)：Pidgin是一个解析器组合器库，一个轻量级、高级、声明式的构建解析器的工具。
 * [Sprache](https://github.com/sprache/Sprache)：Sprache是一个简单、轻量级的库，用于直接在C#代码中构建解析器。
+* [FParsec](https://github.com/stephan-tolksdorf/fparsec)：FParsec是一个用于F#的解析器组合器库。
 * [Superpower](https://github.com/datalust/superpower)：基于Sprache的解析器组合器库。
 * [Parlot](https://github.com/sebastienros/parlot)：Parlot是一个快速、轻量级且易于使用的.NET解析器组合器。
 * [Eto.Parse](https://github.com/picoe/Eto.Parse)：Eto.Parse是一个高度优化的递归下降解析器框架，可用于创建上下文无关文法的解析器，其能力超越了正则表达式。
@@ -12772,6 +12943,7 @@ permalink: /csharp
 * [OpenFileSystem](https://github.com/OpenWrap/openfilesystem)：OpenFileSystem是一个.NET框架，它为包括内存文件系统在内的多个文件系统提供统一的抽象。
 * [FuseSharp](https://github.com/PlasticSCM/FuseSharp)：FuseSharp是由Códice Software使用C#开发的macOS FUSE包装器。
 * [Xdg.Directories](https://github.com/xdg-net/Xdg.Directories)：Xdg.Directories是一个小巧、快速且可移植的.NET实现，用于实现XDG基本目录规范和XDG用户目录。
+* [PCLExt.FileStorage](https://github.com/PCLExt/PCLExt.FileStorage)：PCLExt.FileStorage是一个为可移植类库项目实现存储API的库，旨在简化托管代码中文件和文件夹的操作，并支持多种.NET平台。
 
 ## NTFS
 
