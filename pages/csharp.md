@@ -1500,6 +1500,7 @@ permalink: /csharp
 * [McNNTP](https://github.com/seanmcelroy/McNNTP)：C#实现NNTP协议，用于创建NNTP服务器。
 * [ENet.Managed](https://github.com/moien007/ENet.Managed)：ENet.Managed是ENet的一个非官方托管封装库，适用于.NET。
 * [UdtSharp](https://github.com/PlasticSCM/UdtSharp)：用纯C#语言实现UDT协议，简洁美观。
+* [Cube.Net](https://github.com/cube-soft/cube.net)：Cube.Net是一个网络库。
 
 ## Web服务器
 
@@ -2728,6 +2729,7 @@ permalink: /csharp
 * [SMock](https://github.com/SvetlovA/static-mock)：SMock是一个开源库，用于Mock静态方法、实例方法和属性。
 * [LightMock](https://github.com/seesharper/LightMock)：LightMock是一个简单的Mock库，可以在不允许动态代码生成的平台上使用。
 * [MockMe](https://github.com/connorivy/MockMe)：MockMe是一个用来在你的单元测试项目中Mock依赖的库。
+* [Mockolate](https://github.com/Testably/Mockolate)：Mockolate是一个现代化、强类型、兼容AOT的.NET Mock库，由源代码生成器驱动。
 
 ## Mock库
 
@@ -4492,6 +4494,7 @@ permalink: /csharp
 * [SwiftCollections](https://github.com/mrdav30/SwiftCollections)：SwiftCollections是一个面向性能的.NET系统集合库。
 * [PersistentCollection](https://github.com/jchristn/PersistentCollection)：用C#编写的轻量级、持久化、线程安全、基于磁盘的集合类，支持队列、栈、字典和列表。
 * [Open.Collections](https://github.com/Open-NET-Libraries/Open.Collections)：一组实用的集合，以及具有线程安全读写访问选项的集合扩展。
+* [ObservableView](https://github.com/thomasgalliker/ObservableView)：ObservableView是一个轻量级的.NET集合封装库，它添加了强大的搜索、筛选、排序和分组功能。
 
 ## 数组库
 
@@ -7193,6 +7196,7 @@ permalink: /csharp
 * [Qt Bridge C#](https://github.com/qt/qtbridge-csharp)：Qt Bridge C#是一个连接C#和QML的桥接工具，旨在让用户使用C#编写应用程序逻辑，同时使用Qt Quick创建用户界面。
 * [NativeFileDialogSharp](https://github.com/milleniumbug/NativeFileDialogSharp)：用于NativeFileDialog的C#库绑定。
 * [CarloSharp](https://github.com/gkmo/CarloSharp)：用于.NET应用程序的Web渲染表面。
+* [ImGuiApp](https://github.com/ktsu-dev/ImGuiApp)：Ktsu.ImGui.App是一套.NET库，它提供了使用Dear ImGui构建桌面应用程序所需的一切。
 
 ## UI库
 
@@ -9273,6 +9277,7 @@ permalink: /csharp
 * [Bots](https://github.com/i4egod/Bots)：.NET中的机器人开发库。
 * [Bot Builder SDK](https://github.com/CXuesong/BotBuilder.Standard)：BotBuilder是一个非官方、面向CoreCLR的.NET Standard移植版本。
 * [Guilded.NET](https://github.com/Guilded-NET/Guilded.NET)：Guilded.NET是一个基于.NET平台的免费开源非官方Guilded API框架/库。
+* [MaxBotApi](https://github.com/AntipovVladimir/MaxBotApi)：适用于Max Bot API的.NET客户端。
 
 ## QQ机器人
 
@@ -9705,6 +9710,7 @@ permalink: /csharp
 * [PowerPipe](https://github.com/mvSapphire/PowerPipe)：PowerPipe是一个多功能.NET库，旨在简化使用流式接口构建高级工作流程的过程。
 * [StepWise](https://github.com/LittleLittleCloud/StepWise)：StepWise是一个.NET框架，可帮助你编写代码、可视化和执行基于事件的工作流程。
 * [Stepping.NET](https://github.com/TeamStepping/Stepping.NET)：Stepping是一种分布式BASE作业实现，你可以将其用作工作流引擎、事件发件箱/收件箱、电子邮件/短信发送者、远程调用者等。
+* [FlowWright Workflow](https://flowwright.com/workflow)：FlowWright为需要大规模设计、运行和优化复杂流程的企业提供高吞吐量的.NET工作流自动化解决方案。
 * [Stateless.Workflow](https://github.com/mrsalmon1976/Stateless.WorkflowEngine)：Stateless.Workflow是一个基本的.NET工作流引擎，基于出色的无状态状态机。
 * [TheFlow](https://github.com/ElemarJR/TheFlow)：适用于.NET的工作流自动化库。
 * [AntFlow.NET](https://github.com/mrtylerzhou/AntFlow.net)：AntFlow.NET是一款仿钉钉的开源低代码工作流引擎。
@@ -9764,6 +9770,7 @@ permalink: /csharp
 * [RuleEngine](https://github.com/gsoulavy/RuleEngine)：这是一个使用动态LINQ的基础规则引擎。
 * [Rules Framework](https://github.com/Farfetch/rules-framework)：Rules.Framework是一个通用框架，允许为复杂的业务场景定义和评估规则。
 * [JsonRuleEngine.Net](https://github.com/antoinebidault/JsonRuleEngine.Net)：一个简单的C# Asp.Net Core规则引擎解析器和评估器，使用简单的JSON格式。
+* [FlowWright](https://flowwright.com/rules-engine)：FlowWright提供高性能的.NET规则引擎，支持从简单到复杂的任何表达式。
 
 ## 状态机
 
