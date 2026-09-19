@@ -528,7 +528,7 @@ permalink: /csharp
 * [家谱学](#家谱学)
 * [物理库](#物理库)
 * [天文学](#天文学)
-* [气象学](#气象学)
+* [水文/气象学](#水文气象学)
 * [几何学](#几何学)
 * [Wiki](#Wiki)
 * [教育](#教育)
@@ -1506,6 +1506,7 @@ permalink: /csharp
 * [ENet.Managed](https://github.com/moien007/ENet.Managed)：ENet.Managed是ENet的一个非官方托管封装库，适用于.NET。
 * [UdtSharp](https://github.com/PlasticSCM/UdtSharp)：用纯C#语言实现UDT协议，简洁美观。
 * [Cube.Net](https://github.com/cube-soft/cube.net)：Cube.Net是一个网络库。
+* [MIG .NET](https://github.com/genielabs/mig-service-dotnet)：MIG是一个.NET库，为开发网络应用程序和实时Web应用程序提供集成解决方案。
 
 ## Web服务器
 
@@ -2065,6 +2066,7 @@ permalink: /csharp
 * [Mythosia.AI](https://github.com/AJ-comp/Mythosia.AI)：一个用于构建智能应用程序的模块化.NET AI库。
 * [LlamaIndex.NET](https://github.com/run-llama/llamaindex.net)：LlamaIndex.NET包含用于处理LlamaIndex的核心类型和客户端SDK。
 * [DSpyNet](https://github.com/al322se/DSpyNet)：DSpyNet是Stanford DSPy框架的C# .NET移植版。
+* [CrestApps.Core](https://github.com/CrestApps/CrestApps.Core)：CrestApps.Core是一个适用于.NET的可组合AI管理和应用程序框架。
 
 ## LLM客户端
 
@@ -2189,6 +2191,7 @@ permalink: /csharp
 * [MyClaw.NET](https://github.com/linkerlin/myclaw.net)：基于C#的OpenClaw复刻。
 * [AgentEval](https://github.com/AgentEvalHQ/AgentEval)：AgentEval是用于AI代理评估的综合.NET工具包。
 * [Kode Agent SDK .NET](https://github.com/JinFanZheng/kode-sdk-csharp)：一个强大的AI Agent运行时SDK，基于.NET 10构建。
+* [IntelligenceX](https://github.com/EvotecIT/IntelligenceX)：IntelligenceX是一个用于Codex应用服务器协议和GitHub Actions审阅器的.NET工具包。
 
 ## NL2SQL
 
@@ -4412,6 +4415,7 @@ permalink: /csharp
 * [LeanCode CoreLibrary](https://github.com/leancodepl/corelibrary)：LeanCode CoreLibrary是一套辅助库，旨在帮助简化日常开发工作。
 * [Cogito](https://github.com/alethic/Cogito)：.NET基础实用程序。
 * [Vault](https://github.com/danielcrenna/vault)：Vault包含大量开源.NET库。
+* [DotNet.Util](https://github.com/cuiwenyuan/DotNet.Util)：DotNet.Util是一组面向多个框架的C#实用程序库。
 
 ## 日期时间
 
@@ -5391,6 +5395,7 @@ permalink: /csharp
 * [CGDK.Buffer](https://github.com/CGLabs/CGDK.buffer)：CGDK.Buffer是一个消息序列化缓冲区系统。
 * [VarDump](https://github.com/ycherkes/VarDump)：VarDump是一个用于将运行时对象序列化为C#或Visual Basic字符串的实用程序。
 * [StaticPack](https://github.com/Felid-Force-Studios/StaticPack)：C#简单二进制序列化库。
+* [Thrifty](https://github.com/endink/Thrifty)：Thrifty.Net是.NET的Swift移植版，用于创建Thrift可序列化类型和服务。
 
 ## JSON
 
@@ -5958,6 +5963,7 @@ permalink: /csharp
 * [VYaml](https://github.com/hadashiA/VYaml)：VYaml是纯C# YAML 1.2实现，速度超快，内存占用低，专注于.NET和Unity。
 * [SharpYaml](https://github.com/xoofx/SharpYaml)：SharpYaml是一个.NET库，它为.NET对象提供YAML解析器和序列化引擎，与CoreCLR兼容。
 * [Magic Chunks](https://github.com/magic-chunks/magic-chunks-dotnetcore)：Magic Chunks允许你转换JSON、XML和YAML文件。
+* [Yamlify](https://github.com/SwissLife-OSS/Yamlify)：一款高性能、兼容AOT的.NET YAML 1.2序列化器。
 
 ## TOML
 
@@ -6838,6 +6844,7 @@ permalink: /csharp
 * [XPlatformCloudKit](https://github.com/toolboc/XPlatformCloudKit)：一个用于创建你自己的多平台应用程序的框架，该应用程序可提供由RSS源、本地XML文件或Azure移动服务的任何组合提供的数据。
 * [Dasync](https://github.com/Dasync/Dasync)：D-ASYNC是一个功能全面、用途广泛的解决方案，用于构建面向服务的应用程序。
 * [Simplify.Web](https://github.com/SimplifyNet/Simplify.Web)：Simplify.Web是一个基于ASP.NET Core的开源、轻量级、快速且高度可定制的服务器端.NET Web框架，用于构建基于HTTP的Web应用程序、RESTful API等。
+* [NRSRx](https://github.com/ikemtz/NRSRx)：NRSRx是一个具有明确方向、灵活且可扩展的框架，可以加快基ASP.NET 6-8构建的后端服务的开发。
 
 ## 权限管理系统
 
@@ -7074,6 +7081,7 @@ permalink: /csharp
 * [SilkRoadErp](https://github.com/TunNetCom/TunNetCom-SilkRoadErp)：SilkRoadERP是一款基于.NET Aspire构建的多租户ERP解决方案。
 * [AsToolkit](https://github.com/andrich-software/asToolkit)：开源、自托管、基于客户端/服务器架构的ERP系统，具有多平台GUI，使用C#编写。
 * [NewLife.ERP](https://github.com/NewLifeX/NewLife.ERP)：新生命ERP系统平台。
+* [Merconiq](https://github.com/nirzaf/merconiq)：Merconiq是一个基于.NET和PostgreSQL构建的开源企业管理平台。
 
 ## CRM系统
 
@@ -8748,6 +8756,7 @@ permalink: /csharp
 * [ScriptHookVDotNetCore](https://github.com/Sardelka9515/scripthookvdotnetcore)：适用于.NET Core的ScriptHookV。
 * [SharpTrooper](https://github.com/olcay/SharpTrooper)：一个用于SWAPI的C#辅助库。
 * [MojangSharp](https://github.com/innocenzi/MojangSharp)：MojangSharp是Mojang API和Mojang Authentication API的C#封装器。
+* [RadiantConnect](https://github.com/RiisDev/RadiantConnect)：RadiantConnect是一个功能强大的.NET库，旨在与Valorant的内部和外部API及系统无缝集成。
 
 ## 象棋引擎
 
@@ -9718,6 +9727,7 @@ permalink: /csharp
 * [FreeScheduler](https://github.com/2881099/FreeScheduler)：FreeScheduler是利用IdleBus实现的轻量化定时任务调度。
 * [Immediate.Jobs](https://github.com/ImmediatePlatform/Immediate.Jobs)：Immediate.Jobs是一个基于Immediate.Handlers构建的无反射后台作业调度器，适用于.NET 8。
 * [GearmanSharp](https://github.com/twingly/GearmanSharp)：GearmanSharp是一个用于Gearman的C# API。
+* [NexJob](https://github.com/oluciano/NexJob)：NexJob是一个可靠的.NET 8后台作业处理库。
 
 ## Cron
 
@@ -10877,10 +10887,11 @@ permalink: /csharp
 * [SwissEphNet](https://github.com/ygrenier/SwissEphNet)：适用于.NET的瑞士星历表。
 * [Tucan](https://github.com/OpenVOGEL/Tucan)：OpenVOGEL是一个提供.NET计算机程序的项目，这些程序可用于研究受气动载荷作用的机械系统的某些特性。
 
-## 气象学
+## 水文/气象学
 
 * [GribApi.NET](https://github.com/GribApiDotNet/GribApi.NET)：GribApi.NET是一个C#封装库，围绕欧洲中期天气预报中心强大的grib_api，这是一个用于读取、写入和转换GRIB1和GRIB2文件的C语言库。
 * [NGrib](https://github.com/nmangue/NGrib)：NGrib是一个用于读取GRIB文件的.NET库。
+* [EncDotNet.S100](https://github.com/philliphoff/EncDotNet.S100)：EncDotNet.S100是一个托管、跨平台的IHO S-100通用水文数据模型.NET实现。
 
 ## 几何学
 
@@ -12389,6 +12400,7 @@ permalink: /csharp
 * [Ezreal.ShouQianBa.ApiClient](https://github.com/EzrealJ/ShouQianBa)：Ezreal.ShouQianBa.ApiClient是一个.NET实现的收钱吧WebApi连接库。
 * [Razorpay .NET SDK](https://github.com/razorpay/razorpay-dot-net)：Razorpay API的官方.NET绑定。
 * [Liqpay .NET](https://github.com/JTOne123/liqpay-dotnet)：Liqpay的.NET SDK。
+* [Pinch.SDK](https://github.com/PinchPayments/Pinch.SDK)：适用于.NET的Pinch SDK。
 
 ## 支付网关
 
