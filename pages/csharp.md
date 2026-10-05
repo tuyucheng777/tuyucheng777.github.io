@@ -1524,6 +1524,7 @@ permalink: /csharp
 * [SpeakEasy](https://github.com/jonnii/SpeakEasy)：SpeakEasy是一个用于使用Web API最擅长的语言HTTP来操作Web API的库。
 * [FluentHttpClient](https://github.com/scottoffen/fluenthttpclient)：FluentHttpClient在HttpClient之上添加了一个可链式调用的API。
 * [SendGrid C# HTTP Client](https://github.com/sendgrid/csharp-http-client)：SendGrid的C# HTTP客户端，用于调用API。
+* [CosmosHttp](https://github.com/CosmosOS/CosmosHttp)：CosmosHTTP是一个用C#编写的HTTP客户端，专为Cosmos操作系统构建工具包而设计。
 
 ## Socket
 
@@ -1714,6 +1715,7 @@ permalink: /csharp
 * [FlagFtp](https://github.com/flagbug/FlagFtp)：FlagFtp是一个适用于.NET的FTP库，支持各种操作，例如获取文件列表、从/向文件写入和读取、获取文件和目录信息等。
 * [NewLife.Ftp](https://github.com/NewLifeX/NewLife.Ftp)：FTP组件，支持Fx/Mono/.NET Core。
 * [Miracle.FileZilla.Api](https://github.com/PolarbearDK/Miracle.FileZilla.Api)：用于FileZilla FTP服务器的托管API。
+* [CosmosFTP](https://github.com/CosmosOS/Cosmos.Network.Ftp)：CosmosFTP是一个用C#编写的FTP服务器，适用于Cosmos操作系统构建工具包。
 
 ## TFTP
 
@@ -3474,6 +3476,7 @@ permalink: /csharp
 * [DeskRedis](https://gitee.com/sunnypaine/DeskRedis)：Redis客户端桌面管理工具。
 * [NRediSearch](https://github.com/StackExchange/NRediSearch)：基于StackExchange.Redis构建的RediSearch .NET客户端库。
 * [RespClient](https://github.com/neuecc/RespClient)：RespClient是一个适用于C#和PowerShell的极简RESP客户端。
+* [Respire](https://github.com/thomhurst/Respire)：一款快速、现代的.NET Redis客户端，具有分布式锁、速率限制器。
 
 ## Solr
 
@@ -3851,6 +3854,7 @@ permalink: /csharp
 * [MvcAccount](https://github.com/maxtoroq/MvcAccount)：MvcAccount是为ASP.NET MVC应用程序设置密码保护的最简单方法。
 * [LeXun.Security.OAuth](https://github.com/ArcherTrister/LeXun.Security.OAuth)：LeXun.Security.OAuth是一组安全中间件，你可以在ASP.NET Core应用程序中使用它来支持社交身份验证提供程序，如QQ、Baidu或Alipay。
 * [EFMembership](https://github.com/OmidID/Ado.net-Entity-Framework-Membership-Provider)：EFMembership为你提供System.Security.Membership或WebMatrix的成员资格提供程序。
+* [SimpleAuth4Net](https://github.com/lymestack/SimpleAuth4Net)：SimpleAuth .NET是一个免费的开源解决方案，旨在简.NET WebApi和客户端应用程序中基于用户和角色的身份验证和授权的实现。
 
 ## JWT库
 
@@ -4328,6 +4332,8 @@ permalink: /csharp
 * [DotNet.Util](https://github.com/cuiwenyuan/DotNet.Util)：DotNet.Util是一组面向多个框架的C#实用程序库。
 * [SpackleNet](https://github.com/JasonBock/SpackleNet)：Spackle是一系列扩展方法和实用类的集合。
 * [NexuriaCore](https://github.com/KOSASIH/NexuriaCore)：Nexuria Core是一个.NET 6.0库，它提供了一系列用于构建高性能应用程序的高级功能。
+* [Cosmos Common](https://github.com/CosmosOS/Common)：Cosmos项目使用的通用库和工具。
+* [SharpUltimateTools](https://github.com/JGCompTech/SharpUltimateTools)：SharpUltimateTools是一个大型脚本库，其中包含可用于任何C#程序的脚本。
 
 ## 日期时间
 
@@ -4598,6 +4604,7 @@ permalink: /csharp
 * [Mpir.NET](https://github.com/akasubi/Mpir.NET)：Mpir.NET允许你从.NET语言中使用MPIR库。
 * [VectorTraits](https://github.com/zyl910/VectorTraits)：VectorTraits是一个跨平台库，可以增强SIMD向量运算。
 * [Jodosoft Library](https://github.com/Jodosoft/Libraries)：Jodosoft Library是一个旨在创建简单、可靠的.NET库的项目，涵盖数值、几何和数据结构。
+* [NeinMath](https://github.com/axelheer/nein-math)：NeinMath是一个.NET的任意精度整数库。
 
 ## 矩阵
 
@@ -7136,6 +7143,7 @@ permalink: /csharp
 * [MES](https://github.com/jianjipan/MES)：这是一个用C#写的MES系统，基于SuperSocket、WPF。
 * [iMES](https://github.com/zmrid/iMES-Factory)：一款基于.NET Core 3.1和Vue 3的MES管理系统。
 * [Mes](https://github.com/fengxing1121/Mes)：板式家具Mes生产管理系统。
+* [iPlusMES](https://github.com/iplus-framework/iPlusMES)：iPlus-MES是一款高度可配置、可扩展且适应性强的制造执行系统。
 
 ## WMS系统
 
@@ -8266,6 +8274,8 @@ permalink: /csharp
 * [Shiny Controls](https://github.com/shinyorg/controls)：一个功能丰富、即用型的UI控件库，适用于.NET MAUI和Blazor。
 * [FlowState](https://github.com/sps014/FlowState)：一款高性能的Blazor节点编辑器。
 * [VisNetwork.Blazor](https://github.com/stiankroknes/VisNetwork.Blazor)：Blazor组件，适用于vis-network JavaScript库。
+* [Blazor Reports](https://github.com/atlitech/reports)：使用Blazor组件生成PDF报告。
+* [TwBlazor](https://github.com/twblazor/twblazor)：功能全面的可定制Tailwind CSS、Blazor .NET 10组件库。
 
 ## IDE
 
@@ -13434,6 +13444,7 @@ permalink: /csharp
 * [LibreTranslate.Net](https://github.com/sigaloid/LibreTranslate.Net)：使用LibreTranslate的C#翻译库，用于.NET。
 * [DeepL.NET](https://github.com/lecode-official/deepl-dotnet)：一个非官方的、功能齐全的DeepL翻译服务.NET客户端。
 * [GoogleTranslateNet](https://github.com/Genbox/GoogleTranslateNet)：Google Translate 2.0 API的完整实现。
+* [BergamotTranslatorSharp](https://github.com/Freeesia/BergamotTranslatorSharp)：BergamotTranslatorSharp是Bergamot Translator的C#封装库。
 
 ## 国际化
 
