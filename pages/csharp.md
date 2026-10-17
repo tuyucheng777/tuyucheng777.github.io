@@ -1376,6 +1376,7 @@ permalink: /csharp
 * [UniFiSharp](https://github.com/anthturner/UniFiSharp)：UniFiSharp为Ubiquiti UniFi控制器提供了一个基本的C# API，以及一个编排叠加层，以便更轻松地可视化网络拓扑并执行设备命令。
 * [DHCPServer](https://github.com/jpmikkers/DHCPServer)：这是一个用C#编写的开源托管IPv4 DHCP服务器实现。
 * [DhcpServerApi](https://github.com/garysharp/DhcpServerApi)：适用于Windows提供的原生DHCP管理API的.NET封装器。
+* [DhcpDotNet](https://github.com/maxlluky/DhcpDotNet)：使用C#实现的DHCPv4和DHCPv6数据包结构。
 * [UniFi API](https://github.com/KoenZomers/UniFiApi)：.NET 9中用于从本地Ubiquiti UniFi控制器获取数据的API。
 * [Mono.Zeroconf](https://github.com/mono/Mono.Zeroconf)：Mono.Zeroconf是一个用于Mono和.NET的跨平台ZeroConf网络库。
 * [OpenVpnManagement](https://github.com/GildedHonour/OpenVpnManagement)：C# OpenVPN接口。
@@ -2026,6 +2027,7 @@ permalink: /csharp
 * [RxAI](https://github.com/vbandi/RxAI)：RxAI是一个C#库，它提供了一个响应式编程接口，用于与OpenAI和Azure Realtime API进行交互。
 * [Sdcb.SparkDesk](https://github.com/sdcb/Sdcb.SparkDesk)：Sdcb.SparkDesk是一个非官方的开源项目，提供SparkDesk WebSocket API的.NET客户端。
 * [TypeSafeAI .NET SDK](https://github.com/saibimajdi/typesafeai-dotnet-sdk)：用于TypeSafe AI System One API的社区版.NET SDK。
+* [OpenCode SDK .NET](https://github.com/opencode-dotnet/opencode-sdk-dotnet)：这是一个强类型的.NET客户端，用于连接OpenCode服务器。
 
 ## LLM推理
 
@@ -2275,6 +2277,7 @@ permalink: /csharp
 * [StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET)：StableDiffusion.cpp的C#封装。
 * [Lobe.NET](https://github.com/lobe/lobe.NET)：用于在导出的Lobe模型上运行推理的.NET库。
 * [YoloDeployCsharp](https://github.com/guojin-yan/YoloDeployCsharp)：基于C#的YOLO系列深度学习模型部署平台。
+* [SimdGcdrNet](https://github.com/sdcb/SimdGcdrNet)：Sdcb.SimdGcdrNet是GCDRNet的纯C#实现，它无需OnnxRuntime或任何其他第三方推理引擎即可去除文档图像阴影并增强其外观。
 
 ## 推荐系统
 
@@ -2338,6 +2341,7 @@ permalink: /csharp
 * [Florence2](https://github.com/curiosity-ai/florence2-sharp)：一个轻量级、易于使用的C#库，提供对Microsoft Florence-2基础模型的访问，用于执行高级图像理解任务，包括添加字幕、OCR、对象检测和短语定位。
 * [YoloSharp](https://github.com/Eviav/YoloSharp)：YoloSharp是一个基于ONNX Runtime的YOLO目标检测库，支持多种YOLO模型，包括YOLO26，提供了简洁易用的C# API。
 * [VisualIdentity](https://github.com/shunnet/VisualIdentity)：应用于工业物联网项目上基础视觉识别服务。
+* [SimdYolo](https://github.com/hnlyf168/SimdYolo)：纯C#/.NET 10的YOLO推理与检测头微调。
 
 ## OCR
 
@@ -2918,6 +2922,7 @@ permalink: /csharp
 * [EvenireDB](https://github.com/mizrael/EvenireDB)：小型流式数据库引擎。
 * [Redb.NET](https://github.com/nuskey8/Redb.NET)：Redb.NET是一个高性能的C#绑定，用于Redb。
 * [ArrayDb](https://github.com/AiursoftWeb/ArrayDb)：Aiursoft ArrayDb是一款轻量级、高效的数据库引擎，专为存储固定长度数据而优化，并具有恒定时间复杂度(O(1))的索引性能。
+* [NewLife.NovaDb](https://github.com/NewLifeX/NewLife.NovaDb)：一个用C#实现的中大型混合数据库，运行在.NET平台上。
 
 ## NoSQL数据库
 
@@ -3104,6 +3109,7 @@ permalink: /csharp
 * [Iridium](https://github.com/activa/iridium)：Iridium是一个.NET ORM，可以在任何.NET平台上使用，包括Linux和OSX上的Xamarin和.NET Core。
 * [Jerrycurl](https://jerrycurl.net/)：一款快速、类型安全的ORM，基于Razor SQL。
 * [EntitySpaces](https://github.com/MikeGriffinReborn/EntitySpaces)：EntitySpaces是一个适用于SQL Server、SQLite、MySQL、PostgreSQL等数据库的流式API。
+* [DataProvider](https://github.com/Nimblesite/DataProvider)：DataProvider是一个完整的.NET数据库访问工具包，优先考虑类型安全。
 
 ## 持久层库
 
@@ -3879,6 +3885,7 @@ permalink: /csharp
 * [SQRL .NET Standard](https://github.com/sqrldev/SQRL-For-Dot-Net-Standard)：适用于.NET Standard运行时的SQRL。
 * [ExternalLoginMiddleWare](https://github.com/Kiakaa/ExternalLoginMiddleWare)：.NET Core项目第三方登录中间件。
 * [Softaware.Authentication](https://github.com/softawaregmbh/library-authentication)：一个支持ASP.NET Core和.NET Standard 2.0客户端的Basic、HMAC和SAS令牌身份验证的库。
+* [ErtisAuth](https://github.com/ertugrulozcan/ErtisAuth)：ErtisAuth是一个免费开源的OpenID Connect框架和高性能的身份与访问管理API。
 
 ## JWT库
 
@@ -4066,6 +4073,7 @@ permalink: /csharp
 * [AdvSim.Cryptography](https://github.com/FuzzySecurity/AdvSim.Cryptography)：AdvSim.Cryptography包含一组可重用的加密封装函数，这些函数配置合理且易于使用。
 * [GPGME Sharp](https://github.com/gpgme-sharp/gpgme-sharp)：GPGME Sharp是GPGME的C#封装库。
 * [Client Encryption C#](https://github.com/Mastercard/client-encryption-csharp)：符合Mastercard API的有效负载加密/解密库。
+* [Asn1DerParser.NET](https://github.com/Crypt32/Asn1DerParser.NET)：这是一个基于.NET的ASN.1二进制解析器实现。
 
 ## 密码库
 
@@ -4151,6 +4159,7 @@ permalink: /csharp
 * [AwsSignatureVersion4](https://github.com/FantasticFiasco/aws-signature-version-4)：AwsSignatureVersion4是一个.NET库，用于生成AWS签名版本4的签名，以对向AWS服务发出的HTTP请求进行身份验证。
 * [Minisign.Net](https://github.com/bitbeans/minisign-net)：Minisign.Net是Minisign的.NET移植版。
 * [SignNow.NET](https://github.com/signnow/SignNow.NET)：SignNow.Net是SignNow API的官方.NET 4.6.2+和.NET Standard类库。
+* [SimpleSign](https://github.com/eupassarin/simplesign)：SimpleSign是一个用于创建和验证PAdES(ETSI EN 319 142)、CAdES(ETSI EN 319 122)和XAdES(ETSI EN 319 132)数字签名的.NET库。
 
 ## 工具库
 
@@ -5856,6 +5865,7 @@ permalink: /csharp
 
 * [DocumentFormat.OpenXml.Extensions](https://github.com/dotnet-campus/DocumentFormat.OpenXml.Extensions)：OpenXML SDK扩展，包括库和工具。
 * [Bing.Offices](https://github.com/bing-framework/Bing.Offices)：Bing.Offices是Bing应用框架的Office操作类库。
+* [NewLife.Office](https://github.com/NewLifeX/NewLife.Office)：NewLife.Office是一个功能全面的.NET办公自动化库。
 
 ## Visio
 
@@ -6349,6 +6359,7 @@ permalink: /csharp
 * [GraphQL .NET Upload](https://github.com/JannikLassahn/graphql-dotnet-upload)：实验性中间件和上传标量，为ASP.NET Core添加对GraphQL Multipart请求的支持。
 * [Graphity](https://github.com/WiredUK/Graphity)：一个.NET Core库，无需任何配置即可将DbContext公开为GraphQL端点。
 * [Green Donut](https://github.com/ChilliCream/greendonut)：Green Donut是Facebook的DataLoader工具的移植版。
+* [Linq2GraphQL.Client](https://github.com/Linq2GraphQL/Linq2GraphQL.Client)：Linq2GraphQL从GraphQL Schema生成C#类。
 
 ## OData
 
@@ -7325,6 +7336,7 @@ permalink: /csharp
 * [CarloSharp](https://github.com/gkmo/CarloSharp)：用于.NET应用程序的Web渲染表面。
 * [ImGuiApp](https://github.com/ktsu-dev/ImGuiApp)：Ktsu.ImGui.App是一套.NET库，它提供了使用Dear ImGui构建桌面应用程序所需的一切。
 * [MAUI Linux](https://github.com/open-maui/maui-linux)：一个使用SkiaSharp渲染的.NET MAUI的全面Linux平台实现。
+* [Guinevere](https://github.com/MASS4ORG/Guinevere)：Guinevere是一个基于SkiaSharp构建的GPU加速即时模式GUI系统。
 
 ## UI库
 
@@ -7922,6 +7934,7 @@ permalink: /csharp
 * [ShadUI](https://github.com/accntech/shad-ui)：ShadUI是一个基于Avalonia的桌面UI库。
 * [AakStudio.Shell.UI.Themes.AvalonDock](https://github.com/Wenveo/AakStudio.Shell.UI.Themes.AvalonDock)：AakStudio.Shell.UI的AvalonDock主题。
 * [Cupertino.Avalonia](https://github.com/jsuarezruiz/Cupertino.Avalonia)：适用于Avalonia的iOS 26设计系统。
+* [Synthora](https://github.com/zrt2399/Synthora)：适用于Avalonia应用的现代控件样式和主题。
 
 ## Avalonia控件库
 
@@ -11326,6 +11339,7 @@ permalink: /csharp
 * [Openize.HEIC](https://github.com/openize-com/openize-heic-net)：Openize.HEIC是一个开源SDK，实现了ISO/IEC 23008-12:2017 HEIF文件格式解码器。
 * [ThumbnailSharp](https://github.com/mirzaevolution/ThumbnailSharp)：一个简单但功能强大的库，可用于从图像创建灵活的缩略图，支持.NET Framework 4.5及更高版本。
 * [OpenSlideNET](https://github.com/yigolden-oss/OpenSlideNET)：OpenSlide的.NET绑定。
+* [SharpAstro Codecs](https://github.com/SharpAstro/Codecs)：适用于.NET的图像编解码器。
 
 ## 二维码/条形码
 
