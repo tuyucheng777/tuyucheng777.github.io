@@ -1054,6 +1054,9 @@ permalink: /csharp
 * [Dodo.HttpClient.ResiliencePolicies](https://github.com/dodopizza/httpclient-resilience-policies)：Dodo.HttpClient.ResiliencePolicies库通过易于使用的弹性策略扩展了IHttpClientBuilder，用于HttpClient。
 * [Cleipnir.ResilientFunctions](https://github.com/stidsborg/Cleipnir.ResilientFunctions)：Resilient Functions是一个.NET框架，用于管理函数的执行，这些函数必须完整地完成，即使发生故障、重启和部署。
 * [Trybot](https://github.com/z4kn4fein/trybot)：Trybot是一个瞬态故障处理框架，包含重试、超时、回退、速率限制和熔断等多种弹性解决方案。
+* [Endjin.Retry](https://github.com/endjin/Endjin.Retry)：Endjin的重试工具。
+* [Easy Retry](https://github.com/alicommit-malp/Easy-Retry)：轻松重试异步操作。
+* [RetryHelper](https://github.com/gildorwang/RetryHelper)：这是一个通用的辅助函数，用于尝试执行某些操作，直到满足给定条件为止。
 
 ## 健康检查
 
@@ -1077,6 +1080,7 @@ permalink: /csharp
 * [LoadShedding](https://github.com/Farfetch/loadshedding)：一个.NET库，旨在帮助应用程序应用负载均衡技术并简化配置过程。
 * [.NET Load Balancer](https://github.com/zeppaman/.Net-Load-Balancer)：使用ASP.NET Core实现的简单负载均衡器。
 * [Roundrobin](https://github.com/alicommit-malp/roundrobin)：用C#和循环链表实现一个简单的线程安全的轮询算法。
+* [Agoda.Frameworks.LoadBalancing](https://github.com/agoda-com/net-loadbalancing)：Agoda.Frameworks.LoadBalancing是一个.NET Standard库，提供用于处理重试和负载均衡的逻辑。
 
 ## 分布式开发
 
@@ -1114,6 +1118,10 @@ permalink: /csharp
 * [ScarletLock](https://github.com/aidapsibr/scarletlock)：ScarletLock是RedLock算法的.NET实现，它可以通过实现一个简单的接口与Redis以及其他数据存储配合使用。
 * [Loki](https://github.com/Trendyol/Loki)：Loki提供了一种在分布式系统中轻松处理锁定场景的方法。
 * [ReactiveLock](https://github.com/micheloliveira-com/ReactiveLock)：ReactiveLock是一个适用于.NET 8/9+的库，用于实现响应式分布式锁协调。
+* [CloudDistributedLock](https://github.com/briandunnington/CloudDistributedLock)：提供基于Azure Cosmos DB的分布式锁定机制，以同步不同云服务之间的工作。
+* [DistributedLock.Mongo](https://github.com/gritse/mongo-lock)：DistributedLock.Mongo是一个可在NuGet上获取的类库，它为使用.NET和MongoDB的应用程序启用独占分布式锁定机制。
+* [Gibraltar.DistributedLocking](https://github.com/GibraltarSoftware/DistributedLocking)：DistributedLocking提供了一种易于使用、经过实战检验的方法，可以在.NET应用程序中执行分布式锁。
+* [DynamoLock](https://github.com/danielgerlag/DynamoLock)：DynamoLock是一个.NET Standard客户端库，它在Amazon DynamoDB之上实现了一个分布式锁管理器。
 
 ## Raft
 
@@ -1124,6 +1132,8 @@ permalink: /csharp
 * [Orleans.Consensus](https://github.com/OrleansContrib/Orleans.Consensus)：Orleans.Consensus是一个用于使用Orleans创建容错、强一致性、持久化服务的库。
 * [SlimCluster](https://github.com/zarusz/SlimCluster)：SlimCluster实现了用.NET编写的Raft分布式共识算法。
 * [RAFTiNG](https://github.com/dupdob/RAFTiNG)：RAFTiNG是.NET中Raft算法的实现。
+* [Kommander](https://github.com/kahunakv/kommander)：Kommander是一个用于C#/.NET的开源分布式共识库。
+* [Rhino.Raft](https://github.com/myarichuk/Rhino.Raft)：用于RavenDB的Raft协议实现。
 
 ## 中介器
 
@@ -1244,6 +1254,7 @@ permalink: /csharp
 * [Resque Sharp](https://github.com/chad/resque-sharp)：Resque的.NET实现。
 * [NSQnet](https://github.com/wcharczuk/NSQnet)：NSQ.net该项目是NSQ协议的.NET实现。
 * [Eventfully](https://github.com/cfrenzel/Eventfully)：基于外发件箱模式的轻量级可靠消息传递框架。
+* [Mirage Queue](https://github.com/inova-notas/mirage-queue)：Mirage Queue是一个旨在提供消息代理优势而无需引入额外基础设施依赖的库。
 
 ## 消息队列客户端
 
@@ -2772,6 +2783,10 @@ permalink: /csharp
 * [CreateAndFake](https://github.com/Werecodent/CreateAndFake)：一个处理Mock、测试数据生成和验证的C#类库。
 * [AutoFixture.XUnit2.AutoMock](https://github.com/Accenture/AutoFixture.XUnit2.AutoMock)：通过配置AutoFixture数据生成以使用你选择的Mock库，加快XUnit2下单元测试的Mock结构准备速度。
 * [CherrySeed](https://github.com/altmann/CherrySeed)：CherrySeed是一个简单的.NET库，创建测试数据并将其填充到数据库中。
+* [RimuTec.Faker](https://github.com/RimuTec/faker)：RimuTec.Faker提供生成虚假但看起来很逼真的数据的生成器。
+* [Faker.Portable](https://github.com/dotnet-ad/Faker.Portable)：使用C#生成模拟数据，用于测试和原型设计。
+* [FakeO](https://github.com/rally25rs/FakeO)：用于.NET的伪对象数据生成和填充，类似于Ruby的Faker gem。
+* [FactoryAlien](https://github.com/fnandes/FactoryAlien)：一个用于.NET的虚假数据生成器。
 
 ## 断言库
 
@@ -3386,6 +3401,7 @@ permalink: /csharp
 * [InfoCarrier.Core](https://github.com/azabluda/InfoCarrier.Core)：InfoCarrier.Core是一个用于多层应用程序客户端的Entity Framework Core提供程序。
 * [PhenX.EntityFrameworkCore.BulkInsert](https://github.com/PhenX/PhenX.EntityFrameworkCore.BulkInsert)：适用于Entity Framework Core 8+的高性能、与数据库提供商无关的批量插入扩展。
 * [Reinforced.Stroke](https://github.com/reinforced/Reinforced.Stroke)：针对强类型原始SQL查询的EntityFramework 6.1简单增强。
+* [EFCore.Seeder](https://github.com/DanielAltamirano/EFCore.Seeder)：一个使用.NET Core 3.0和Entity Framework Core 3.0.0从CSV文件填充数据库的库。
 
 ## Dapper扩展
 
@@ -4740,6 +4756,14 @@ permalink: /csharp
 * [Epsilon](https://github.com/XBambinoX/Epsilon)：.NET的符号数学库。
 * [NeinMath](https://github.com/axelheer/nein-math)：NeinMath是一个.NET的任意精度整数库。
 * [Singulink.Numerics.BigDecimal](https://github.com/Singulink/Singulink.Numerics.BigDecimal)：完全支持任意大精度的十进制值。
+* [Coplt.Mathematics](https://github.com/coplt/Coplt.Mathematics)：HLSL风格的线性代数库。
+* [Hexa.NET.Math](https://github.com/HexaEngine/Hexa.NET.Math)：HexaEngine的数学库提供了全面的数学函数和实用程序，并针对性能和精度进行了优化。
+* [EigenNet](https://github.com/tbmorgan/EigenNet)：Eigen数学库.NET封装器。
+* [Sharp3D.Math](https://github.com/treeDiM/Sharp3D.Math)：Sharp3D.Math包含用于在.NET平台上处理数值的基本类。
+* [FastMath](https://github.com/wiu-wiu/FastMath)：FastMath是一个C#库，它实现了速度极快但精度不高的System.Math方法。
+* [Epicycle.Math](https://github.com/open-epicycle/Epicycle.Math-cs)：Epicycle .NET数学库。
+* [SlimMath](https://github.com/omgwtfgames/slimmath)：SlimMath是SlimDX中数学库的通用托管版本。
+* [Vertesaur](https://github.com/aarondandy/vertesaur)：这是一个面向CLR的计算几何和数学库。
 
 ## 矩阵
 
@@ -4813,6 +4837,8 @@ permalink: /csharp
 * [DotMP](https://github.com/computablee/DotMP)：一个用于在.NET中编写OpenMP风格并行代码的库。
 * [ComposableAsync](https://github.com/David-Desmaisons/ComposableAsync)：在.NET Framework和.NET Core中创建、组合和注入异步行为。
 * [SecurityDriven.OneFlight](https://github.com/sdrapkin/SecurityDriven.OneFlight)：高性能.NET单次执行/合并库。
+* [C# Promises](https://github.com/AgeOfLearning/promises)：用于C#和Unity的Promise库。
+* [C# Promises](https://github.com/Real-Serious-Games/C-Sharp-Promise)：用于C#的Promise库，用于管理异步操作。
 
 ## Actor
 
@@ -4869,6 +4895,10 @@ permalink: /csharp
 * [AsyncKeyedLock](https://github.com/MarkCiliaVincenti/AsyncKeyedLock)：异步.NET Standard 2.0库，允许你基于键进行锁定，将共享相同键的并发线程限制为指定数量，并使用可选池来减少内存分配。
 * [AsyncLock](https://github.com/neosmart/AsyncLock)：AsyncLock是.NET Standard的一个async/await友好型锁实现。
 * [File Lock](https://github.com/markedup-mobi/file-lock)：一个简单的C#文件锁实现。
+* [Backport.System.Threading.Lock](https://github.com/MarkCiliaVincenti/Backport.System.Threading.Lock)：一个微型库，可将.NET 9.0及更高版本的System.Threading.Lock方法向后移植/兼容到早期版本。
+* [LockProvider](https://github.com/Darkseal/LockProvider)：一个轻量级的C#类，可以根据给定的唯一ID选择性地锁定对象、资源或语句块。
+* [ReentrantAsyncLock](https://github.com/matthew-a-thomas/cs-reentrant-async-lock)：可重入异步锁。
+* [AsyncLock](https://github.com/bmbsqd/AsyncLock)：C#中的异步/可等待轻量级、非阻塞锁。
 
 ## 响应式
 
@@ -5005,6 +5035,7 @@ permalink: /csharp
 * [SumSharp](https://github.com/christiandaley/SumSharp)：一个高度可配置的C#可区分联合库。
 * [AltaSoft.Choice](https://github.com/altasoft/Choice)：AltaSoft.ChoiceGenerator是一个轻量级的C#源生成器，允许你使用最少的语法定义选择类型(可区分联合)。
 * [UnionTypes.Toolkit](https://github.com/mattwar/UnionTypes.Toolkit)：该项目实现了一个源生成器，用于生成使用非装箱重叠数据策略的自定义C#联合类型。
+* [Coplt.Union](https://github.com/coplt/Coplt.Union)：C# Union库。
 
 ## LINQ
 
@@ -5070,6 +5101,7 @@ permalink: /csharp
 * [ExpressionPowerTools](https://github.com/JeremyLikness/ExpressionPowerTools)：用于处理IQueryable和表达式树的强大工具。
 * [GrobExp.Compiler](https://github.com/skbkontur/GrobExp.Compiler)：GrobExp.Compiler有助于高效地编译表达式树。
 * [PredicateLib](https://github.com/xljiulang/PredicateLib)：PredicateLib是谓词筛选表达式Expression的一个扩展库，它可以帮你创建一个复杂且灵活的Expression，以作为EF、MongoDB Driver等ORM框架的查询条件。
+* [Hyperbee.XS](https://github.com/Stillpoint-Software/hyperbee.xs)：XS是一种轻量级脚本语言，旨在简化和增强C#表达式树的使用。
 
 ## 对象校验
 
@@ -5276,6 +5308,10 @@ permalink: /csharp
 * [TrimDB](https://github.com/Drawaes/TrimDB)：一个可嵌入、支持事务、并发的键值存储。
 * [SnapDB](https://github.com/snapdb/SnapDB)：SNAPdb引擎是一种高性能的键/值对归档技术。
 * [NoDb](https://github.com/NewLifeX/NoDb)：百万级KV数据库，基于内存映射文件的持久化读写。
+* [KeyValueStore](https://github.com/JeringTech/KeyValueStore)：Jering.KeyValueStore允许你跨内存和磁盘存储键值数据。
+* [RazorDB](https://github.com/gnoso/razordb)：一个用C#编写的轻量级、快速且嵌入式的键值存储数据库。
+* [DataMangler](https://github.com/sq/DataMangler)：DataMangler嵌入式键值存储。
+* [Firkin](https://github.com/sdether/Firkin)：快速、并发且可靠的.NET/Mono可嵌入键值存储。
 
 ## 日志库
 
@@ -5383,6 +5419,7 @@ permalink: /csharp
 * [HttpTracker](https://github.com/Meowv/HttpTracker)：HttpTracker是一个基于.NET Standard的C#库，它是一种收集HTTP请求的解决方案。
 * [RequestLogger](https://github.com/dotnetzoom/RequestLogger-AspNetCore)：记录ASP.NET Core中操作的请求和响应详情。
 * [WcfSoapLogger](https://github.com/capslocky/WcfSoapLogger)：该库是一个用于跟踪基于WCF构建的Web服务和客户端的消息跟踪工具。
+* [RequestLog](https://github.com/requestlog/request-log)：RequestLog是一个基于Spring Boot的HTTP请求日志记录和重试补偿工具。
 
 ## 序列化
 
@@ -5467,6 +5504,7 @@ permalink: /csharp
 * [Thrifty](https://github.com/endink/Thrifty)：Thrifty.Net是.NET的Swift移植版，用于创建Thrift可序列化类型和服务。
 * [Aqua Core](https://github.com/6bee/aqua-core)：Aqua Core是一个.NET/C#的对象序列化、动态对象模型库。
 * [REDox](https://github.com/CAPCOM-TD-OSS/REDox)：REDox是一个高性能、基于令牌的.NET结构化数据引擎。
+* [HotChai.Serialization](https://github.com/hotchaipro/HotChai.Serialization)：一个跨平台的.NET库，用于高效地将对象序列化为各种格式。
 
 ## JSON
 
@@ -5513,6 +5551,10 @@ permalink: /csharp
 * [FadeJSON](https://github.com/fanyang89/FadeJSON)：.NET平台上速度最快的动态JSON反序列化库。
 * [JsonKit](https://github.com/toptensoftware/JsonKit)：JsonKit是一个简单、轻量级但灵活的JSON序列化库。
 * [Shapeless](https://gitee.com/dotnetchina/Shapeless)：Shapeless是一个高性能的C#开源库，提供类似JavaScript JSON的灵活操作体验。
+* [CompactJson](https://github.com/pupsette/CompactJson)：适用于.NET的快速轻量级JSON序列化器。
+* [STJson](https://github.com/DebugST/STJson)：STJson是一个开源的JSON解析库。
+* [NekoRush.JsonChan](https://github.com/NekoRushX/NekoRush.JsonChan)：一个全新的JSON解析器库，可以将JSON解析成动态树状结构。
+* [Maptionary](https://github.com/rangerscience/maptionary)：用于将JSON、XML和YAML解析为超级方便使用的数据结构的C#库。
 
 ## JSON库
 
@@ -5551,11 +5593,13 @@ permalink: /csharp
 * [Cogito.Json.Schema](https://github.com/alethic/Cogito.Json.Schema)：用于处理JSON模式的各种工具。
 * [NoJsonSchema](https://github.com/hadashiA/NoJsonSchema)：从JSON Schema生成C#类型和零依赖的UTF-8 JSON解析器/生成器。
 * [JSON Schema To POCO](https://github.com/cvent/deprecated-json-schema-2-poco)：此工具旨在将基于官方JSON Schema标准的JSON Schema转换为C# POCO对象。
+* [OpenAi.JsonSchema](https://github.com/r-Larch/OpenAi.JsonSchema)：OpenAi JsonSchema是一个轻量级库，用于为OpenAI的结构化输出功能生成有效的JSON Schema，确保与OpenAI的JSON Schema子集兼容。
 
 ## JSONPath
 
 * [JSONPath](https://github.com/atifaziz/JSONPath)：JSONPath的C#实现。
 * [JsonDocumentPath](https://github.com/azambrano/JsonDocumentPath)：JsonDocumentPath是一个类库，用于使用单行表达式从JSON中提取值。
+* [Hyperbee Json](https://github.com/Stillpoint-Software/hyperbee.json)：Hyperbee Json是一个高性能的.NET JSON库，为JSONPath、JsonPointer、JsonPatch和JsonDiff提供强大的支持。
 
 ## JsonPatch
 
@@ -5587,6 +5631,7 @@ permalink: /csharp
 * [JsonRpc.Standard](https://github.com/CXuesong/JsonRpc.Standard)：一个用于实现JSON RPC客户端和服务器的异步.NET Standard 1.3和.NET Framework 4.5库。
 * [Jayrock](https://github.com/atifaziz/Jayrock)：Jayrock是一个简洁的开源JSON和JSON-RPC实现，适用于Microsoft .NET Framework。
 * [JsonRpcSharp](https://github.com/nblockchain/JsonRpcSharp)：适用于.NET框架的JsonRpc客户端库。
+* [HttpJsonRpc](https://github.com/httpjsonrpcnet/httpjsonrpcnet)：HttpJsonRpc是一个跨平台的.NET Standard库，它实现了JSON-RPC 2.0规范。
 
 ## JSON API
 
@@ -5798,6 +5843,7 @@ permalink: /csharp
 * [SpreadsheetLight](https://spreadsheetlight.com/)：SpreadsheetLight是一个用C#编写、适用于.NET Framework的开源Open XML电子表格库。
 * [ExcelReader](https://github.com/GabrielMarquezMatte/ExcelReader)：适用于.NET 10的高性能、低分配Excel读取器和写入器。
 * [ExcelStreamer](https://github.com/fatihkazanci/excelstreamer)：ExcelStreamer是一个.NET库，它利用ClosedXML和ExcelDataReader ，使你能够以更简单的方式编写读取和更新Microsoft Excel文件的代码。
+* [SheetToObjects](https://github.com/josdeweger-zz/SheetToObjects)：一个简单的库，旨在为开发人员提供一个简单的解决方案，将表格映射到模型/POCO。
 
 ## CSV
 
@@ -5841,6 +5887,13 @@ permalink: /csharp
 * [Addax](https://github.com/alexanderkozlenko/addax)：提供高性能、低分配的类型，用于处理以分隔符分隔值(DSV)表示的表格数据。
 * [Orc.Csv](https://github.com/WildGums/Orc.Csv)：CsvHelper库的小型扩展和辅助方法库。
 * [CsvParser](https://github.com/SoftCircuits/CsvParser)：CsvParser是一个.NET库，可以轻松处理逗号分隔值(CSV)文件。
+* [CSV Validator](https://github.com/barry-jones/csv-validator)：.NET Core CSV文本文件验证器。
+* [SheetReader](https://github.com/smourier/SheetReader)：一款支持CSV、XLSX或JSON数据表读取器。
+* [FlameCsv](https://github.com/ovska/FlameCsv)：适用于.NET 9/10的高性能、符合RFC 4180标准的CSV库，支持修剪/AOT功能。
+* [CSV2Entity](https://github.com/EricWebsmith/csv2entity)：CSV2Entity为CSV文件生成C#类，并通过生成的类读取、修改和写入CSV文件。
+* [AspNetCoreCsvImportExport](https://github.com/damienbod/AspNetCoreCsvImportExport)：ASP.NET Core CSV导入导出自定义格式化程序。
+* [LiteCSV](https://github.com/terrynoya/LiteCSV)：一个用C#编写的轻量级CSV表格解析器。
+* [ExportTable](https://github.com/meziantou/ExportTable)：用于将对象列表导出到Excel、HTML表格或CSV的.NET库。
 
 ## Word
 
@@ -6071,6 +6124,8 @@ permalink: /csharp
 * [ToonEncoder](https://github.com/Cysharp/ToonEncoder)：.NET的高性能TOON编码器。
 * [ToonSharp](https://github.com/0xZunia/ToonSharp)：一个高性能的.NET 9库，用于序列化和反序列化TOON格式的数据。
 * [Toon.NET](https://github.com/AIDotNet/Toon.NET)：.NET实现的TOON。
+* [NIZZOLA.TOON.NET](https://github.com/NIZZOLA/ToonSerializerDotnet)：NIZZOLA.TOON.NET是一个专为AI和LLM工作负载而创建的高性能序列化库。
+* [ToonDotNet](https://github.com/CharlesHunt/ToonDotNet)：TOON .NET实现。
 
 ## EDI
 
@@ -6275,6 +6330,18 @@ permalink: /csharp
 * [BitPacking](https://github.com/Cobo3/BitPacking)：BitPacking是一种压缩技术，它从要压缩的数据中删除不必要的位。
 * [VCDiff](https://github.com/Metric/VCDiff)：这是一个基于Google Open VCDiff的C#完整实现。
 * [AuroraLib.Compression](https://github.com/Venomalia/AuroraLib.Compression)：AuroraLib.Compression是一个高性能、内存高效的压缩库，提供了视频游戏和游戏引擎中常用的各种算法。
+* [Joveler.Compression](https://github.com/ied206/Joveler.Compression)：C# P/Invoke压缩库。
+* [ZLibDotNet](https://github.com/mgnsm/ZLibDotNet)：ZLibDotNet是一个完全托管且高性能的C#/.NET实现的Zlib压缩库，支持Zlib和原始Deflate数据格式。
+* [LibDeflate.NET](https://github.com/jzebedee/LibDeflate.NET)：LibDeflate.NET是libdeflate的托管包装器。
+* [AdvSim.Compression](https://github.com/FuzzySecurity/AdvSim.Compression)：AdvSim.Compression包含一组可重用的压缩包装函数。
+* [Zlib.NET](https://github.com/zyborg/zlib.net)：ZLIB压缩库.NET Core移植版本。
+* [PowerPlay Zipper](https://github.com/kekyo/PowerPlayZipper)：PowerPlay Zipper是.NET上Lightning-Fast Zip文件压缩/解压缩库的实现。
+* [XCompression](https://github.com/gibbed/XCompression)：用于XMemCompress的.NET压缩包装库。
+* [KENSSharp](https://github.com/sonicretro/KENSSharp)：KENSSharp是由FraGag开发的跨平台压缩和解压缩库。
+* [OodleSharp](https://github.com/Crauzer/OodleSharp)：OodleSharp是一个使用Oodle压缩和解压缩格式的.NET库。
+* [Xiao](https://github.com/ayende/Xiao)：Smazz的托管移植，小型字符串压缩库。
+* [LZ4PCL](https://github.com/xorxornop/LZ4PCL)：C#中的流式安全/不安全x86/64 LZ4压缩可移植类库。
+* [Rhea.Compression](https://github.com/ayende/Rhea.Compression)：基于FemtoZip的小型压缩库，旨在压缩非常短的字符串。
 
 ## 文件压缩
 
@@ -6509,6 +6576,7 @@ permalink: /csharp
 * [CollectionJson.Net](https://github.com/WebApiContrib/CollectionJson.Net)：用于构建支持collection json媒体类型的API的库。
 * [Nancy.Hal](https://github.com/NancyHal/Nancy.Hal)：Nancy.Hal为Nancy添加了对Hal+JSON媒体类型的轻量级支持。
 * [HoneyBear.HalClient](https://github.com/eoin55/HoneyBear.HalClient)：一个轻量级的.NET客户端，用于浏览和使用HAL API。
+* [HalClient.Net](https://github.com/wis3guy/HalClient.Net)：一个简化与响应application\hal+json媒体类型的API交互的库。
 
 ## API版本控制
 
@@ -7073,6 +7141,7 @@ permalink: /csharp
 * [NeerCore](https://github.com/neerspace/neercore)：NeerCore是一个基于ASP.NET 6的样板库，用于简化Web应用程序的编写。
 * [NReco](https://github.com/nreco/nreco)：NReco是一个ASP.NET应用程序框架，它支持轻量级的模型驱动开发和特定领域的建模。
 * [Remember.Core](https://github.com/yiyungent/Remember.Core)：一个轻量的Web应用框架, 具有优雅、高效、简洁、富于表达力等优点。
+* [Paralax Framework](https://github.com/itsharppro/Paralax)：Paralax Framework是一个现代、强大且模块化的开源.NET框架，专为构建微服务架构而优化。
 
 ## 权限管理系统
 
@@ -9883,6 +9952,7 @@ permalink: /csharp
 * [WolfCurses](https://github.com/Maxwolf/WolfCurses)：WolfCurses是一个用于.NET的控制台控件库，用于构建文本用户界面(TUI)应用程序。
 * [Jumbee.Console](https://github.com/allisterb/Jumbee.Console)：Jumbee.Console是一个用于高级TUI的.NET库，专注于性能和易用性。
 * [Tui.Net](https://github.com/henrydn/Tui.Net)：.NET的基于文本的用户界面框架。
+* [Ratatui.cs](https://github.com/holo-q/Ratatui.cs)：Ratatui.cs是一款高性能、跨平台的终端用户界面，支持.NET和C#。
 
 ## 文本表
 
@@ -10071,6 +10141,9 @@ permalink: /csharp
 * [CronCraft](https://github.com/teesofttech/CronCraft)：CronCraft是一个轻量级、对开发者友好的.NET SDK，它将Cron表达式转换为人类可读的字符串。
 * [TimeCrontab](https://github.com/monksoul/TimeCrontab)：.NET全能Cron表达式解析库，支持Cron所有特性。
 * [NCrontab Advanced](https://github.com/jcoutch/NCrontab-Advanced)：.NET的Cron字符串解析器。
+* [Cron.Core](https://github.com/cwinland/Cron.Core)：可用于构建Cron表达式、描述表达式和操作对象的Cron Builder对象。
+* [CronEspresso](https://github.com/conway91/CronEspresso)：用于根据给定的时间和日期生成Cron表达式的C#库。
+* [Yisoft.Crontab](https://github.com/yisoft-dotnet/crontab)：用于.NET Core的Cron表达式解析器和执行器。
 
 ## 批处理
 
@@ -10470,6 +10543,8 @@ permalink: /csharp
 * [SimpleFactoryGenerator](https://github.com/DingpingZhang/SimpleFactoryGenerator)：该库用于辅助简单工厂模式的实现。
 * [Reprise](https://github.com/yavorfingarov/Reprise)：Reprise是一个微框架，将REPR模式和垂直切片架构引入到ASP.NET Core 6/7 Minimal API中。
 * [PureSpec](https://github.com/dzmprt/PureSpec)：PureSpec是Specification模式的极简实现，用于创建可重用的业务规则。
+* [DecoratR](https://github.com/omarzawahry/DecoratR)：DecoratR是一个直观的.NET库，用于使用Microsoft的依赖注入容器实现装饰器模式。
+* [PipelineRD](https://github.com/eduardosbcabral/pipelineRD)：.NET中的责任链模式实现。
 
 ## 代码属性图
 
@@ -11306,6 +11381,13 @@ permalink: /csharp
 * [CoordConvert](https://github.com/NewMapper/CoordConvert)：空间坐标、经纬度坐标的七参数、四参数转换以及高斯投影正反算。
 * [GsSlicer](https://github.com/gradientspace/gsSlicer)：开源3D打印切片器，采用C#编写。
 * [GCodeNet](https://github.com/chrismiller7/GCodeNet)：一个简单的.NET库，用于解析3D打印的G代码。
+* [Triangulator](https://github.com/bertt/triangulator)：用于三角剖分3D几何体的.NET Standard 2.0库。
+* [GeometryDashAPI](https://github.com/Folleach/GeometryDashAPI)：Geometry Dash的API。
+* [CSG.Sharp](https://github.com/PSneijder/CSG.Sharp)：使用C#中的BSP树在网格上构造实体几何。
+* [GeoPlanarNet](https://github.com/kulikov-dev/GeoPlanarNet)：GeoPlanarNet库的主要功能是操作二维空间中的基本几何图元，例如点、线、三角形和矩形。
+* [Nine.Geometry](https://github.com/studio-nine/Nine.Geometry)：Nine.Geometry是一个轻量级的几何和空间查询库。
+* [CSG](https://github.com/erictuvesson/CSG)：通过布尔运算创建几何对象。
+* [GeometrySharp](https://github.com/martindevans/GeometrySharp)：一个用于C#的实时构造实体几何库。
 
 ## Wiki
 
@@ -11655,6 +11737,7 @@ permalink: /csharp
 * [Vlc.DotNet](https://github.com/ZeBobo5/Vlc.DotNet)：Vlc.DotNet是一个.NET库，托管了VLC库的音视频功能。
 * [SoundFingerPrinting](https://github.com/AddictedCS/soundfingerprinting)：SoundFingerPrinting是一个C#框架，专为数字信号处理、数据挖掘和音频/视频识别领域的公司、爱好者和研究人员而设计。
 * [MediaToolkit](https://github.com/AydinAdn/MediaToolkit)：MediaToolkit提供了一个简便的媒体数据处理接口，使得音频和视频的转换、剪辑和编辑等任务变得轻松无阻。
+* [EchoSharp](https://github.com/sandrohanea/echosharp)：EchoSharp是一个开源库，专为近实时音频处理而设计，能够无缝协调不同的AI模型，以应对各种音频分析需求。
 * [FFMpegCore](https://github.com/rosenbjerg/FFMpegCore)：一个.NET Standard FFMpeg/FFProbe封装器，方便将媒体分析和转换集成到你的.NET应用中。
 * [Libpd](https://github.com/libpd/libpd)：Pure Data可嵌入音频合成库。
 * [Flyleaf](https://github.com/SuRGeoNix/Flyleaf)：基于FFmpeg/DirectX的WinUI 3/WPF/WinForms媒体播放器.NET库。
@@ -11744,6 +11827,10 @@ permalink: /csharp
 * [OpusDotNet](https://github.com/mrphil2105/OpusDotNet)：一个易于使用的库，用于使用Opus音频编解码器对16位音频进行编码和解码。
 * [SteamAudio.NET](https://github.com/Mirsario/SteamAudio.NET)：为Valve的Steam Audio自动生成的C#/.NET绑定。
 * [CryMedia](https://github.com/CryShana/CryMedia)：一个跨平台的.NET库，提供一个简单的接口，用于使用FFmpeg读取、写入和播放视频和音频文件。
+* [BasicAudio](https://github.com/blakepell/BasicAudio)：一个简单的类库，方便在Windows桌面应用程序中录制音频。
+* [Foster.Audio](https://github.com/MrBrixican/Foster.Audio)：一个小型的C#游戏音频库。
+* [Bufdio](https://github.com/luthfiampas/Bufdio)：这是一个面向.NET Standard 2.1的跨平台音频播放库。
+* [CSVideo](https://github.com/Twometer/CSVideo)：CSVideo是一个使用FFmpeg编写视频文件的C#库。
 
 ## 视频库
 
@@ -12029,6 +12116,9 @@ permalink: /csharp
 * [ModbusRx](https://github.com/ChrisPulman/ModbusRx)：ModbusRx是面向.NET应用程序的现代化、响应式Modbus协议实现。
 * [Modbus Client .NET](https://github.com/plasmapper/modbus-dotnet)：适用于.NET的Modbus客户端库。
 * [Rodbus](https://github.com/stepfunc/rodbus)：用Rust实现的Modbus，并提供C、C++、.NET和Java的惯用绑定。
+* [ModbusSharp](https://github.com/Max1musy/ModbusSharp)：适用于.NET实现的Modbus TCP、Modbus UDP、Modbus ASCII和Modbus RTU客户端/服务器库。
+* [NProtocol](https://github.com/LUJIAN2020/NProtocol)：用于通信协议(Modbus、西门子S7、三菱MC、欧姆龙FINS)的C#库。
+* [CsModbus](https://github.com/crane-soft/csModbus)：功能齐全的C# Modbus库。
 
 ## PLC
 
@@ -12099,6 +12189,8 @@ permalink: /csharp
 
 * [EEIP.NET](https://github.com/rossmann-engineering/EEIP.NET)：.NET实现的以太网/IP兼容库。
 * [EtherCAT.NET](https://github.com/XzuluX/EtherCAT.NET)：EtherCAT.NET提供了对底层原生开源EtherCAT主站的高级抽象。
+* [Giselle.Net.EtherNetIP](https://github.com/gisellevonbingen/Giselle.Net.EtherNetIP)：EtherNet/IP消息实现。
+* [CAN-Ethernet Gateway](https://github.com/Mmagnuson/CAN_Ethernet_Gateway)：CAN-Ethernet Gateway是一个C#库，它允许通过IP网络轻松与CAN总线进行通信。
 
 ## USB
 
@@ -12771,6 +12863,7 @@ permalink: /csharp
 * [ISO8583Net](https://github.com/nikmes/iso8583net)：这是一个高度可配置的.NET库，用于构建和解析ISO 8583金融交易消息。
 * [PTUlitity](https://github.com/patrick-tingson/PTUlitity)：C#库，用于转换、加密、EMV数据解析和获取处理选项，ISO8583创建和解析。
 * [Beneficial Strategies ISO20022 Library](https://github.com/Beneficial-Strategies/Iso20022Library)：该项目包含一个.NET实现，用于存储ISO20022标准定义的3311种不同类型的金融服务消息的容器。
+* [Iso8583Lib](https://github.com/nikmes/iso8583lib)：用于C#的Iso8583消息解析和构建库。
 
 ## 理财系统
 
@@ -12783,6 +12876,7 @@ permalink: /csharp
 
 * [QuickFIX/n](https://github.com/connamara/quickfixn)：QuickFIX/n在.NET上实现了FIX协议。
 * [FIX Antenna .NET Core](https://github.com/epam/fix-antenna-net-core)：FIX Antenna .NET Core是一个高性能低延迟的.NET FIX引擎。
+* [Hotfix](https://github.com/fedjabosnic/hotfix)：Hotfix是一个用纯.NET编写的FIX引擎，旨在实现低延迟和高吞吐量。
 
 ## 支付
 
@@ -13234,6 +13328,10 @@ permalink: /csharp
 * [IdHelper](https://github.com/Coldairarrow/IdHelper)：IdHelper是一个.NET生成分布式趋势自增Id组件。
 * [ClockSnowFlake](https://github.com/Bryan-Cyf/ClockSnowFlake)：这是一个基于.NET开源的改进版雪花算法组件。
 * [Snowflake C#](https://github.com/hueifeng/snowflake-csharp)：Twitter SnowFlake算法C#语言实现。
+* [Jordium.Snowflake.NET](https://github.com/nelson820125/Jordium.Snowflake.NET)：高性能分布式ID生成器，基于Twitter Snowflake算法的.NET实现。
+* [Azure AutoNumber](https://github.com/0x414c49/AzureAutoNumber)：适用于Azure的高性能、分布式唯一线程安全ID生成器。
+* [CosId C#](https://github.com/Ahoo-Wang/CosId-CSharp)：通用、灵活、高性能的分布式ID生成器。
+* [SnowflakeIdGeneratorForCSharp](https://github.com/TanerSaydam/SnowflakeIdGeneratorForCSharp)：该库为C#提供了一个简单且线程安全的Snowflake ID生成器。
 
 ## 随机生成器
 
@@ -13304,6 +13402,8 @@ permalink: /csharp
 * [WebBrowserWaiter](https://github.com/LeastOne/WebBrowserWaiter)：.NET WebBrowser的无头封装器，可用于自动化浏览器测试，或用作网络爬虫或屏幕抓取器，并包含HTML和JavaScript处理功能。
 * [Thrinax](https://github.com/ziyunhx/thrinax)：用于中文非结构化文本捕获的库。
 * [Mechanize.NET](https://github.com/WilliamABradley/Mechanize.NET)：基于Python Mechanize的状态化程序化网页浏览。
+* [NetCrawlerDetect](https://github.com/gplumb/NetCrawlerDetect)：NetCrawlerDetect是一个.NET标准类，用于通过用户代理和/或HTTP from标头检测机器人/爬虫/蜘蛛程序。
+* [Tenteikura](https://github.com/bolthar/tenteikura)：一个极简的C#多线程网络爬虫。
 
 ## Robots
 
@@ -13328,6 +13428,7 @@ permalink: /csharp
 * [AriaNet](https://github.com/huming2207/AriaNet)：适用于C#/.NET的Aria2 JSON-RPC API处理程序。
 * [Aria2 CSharp](https://github.com/isRight/Aria2-CSharp)：C#封装的Ari2c接口。
 * [Downloader.NET](https://github.com/rogerfar/Downloader.NET)：一款简单高效的.NET下载器，支持多块下载和带宽限制。
+* [YoutubeExtractor](https://github.com/flagbug/YoutubeExtractor)：YoutubeExtractor是一个用C#编写的.NET库，允许从YouTube下载视频和/或提取其音轨。
 
 ## WebDAV
 
@@ -13552,6 +13653,8 @@ permalink: /csharp
 * [AhoCorasick.Net](https://github.com/alexandrnikitin/AhoCorasick.Net)：.NET中Aho-Corasick字符串匹配算法的实现。
 * [Orvina](https://github.com/webbersmak/Orvina)：Orvina是一款高性能文本搜索工具，使用C#/.NET 6编写。
 * [KMP Algorithm .NET](https://github.com/rvhuang/kmp-algorithm)：KMP Algorithm .NET是Knuth-Morris-Pratt算法的.NET实现。
+* [StringSimilarity](https://github.com/jchristn/StringSimilarity)：该类库根据两个提供的字符串的相似度计算0到1之间的分数。
+* [Bit.Simila](https://github.com/mehrandvd/Simila)：一个用于字符串相似性分析的项目。
 
 ## 哈希算法
 
@@ -13598,6 +13701,7 @@ permalink: /csharp
 * [Ycs](https://github.com/yjs/ycs)：Yjs CRDT框架的.NET兼容实现。
 * [Akade.IndexedSet](https://github.com/akade/Akade.IndexedSet)：一种便捷的数据结构，支持高效的内存索引和查询，包括范围查询和模糊字符串匹配。
 * [ProbabilisticDataStructures](https://github.com/mattlorimor/ProbabilisticDataStructures)：一个用于C#的概率数据结构库。
+* [LockFreeDoublyLinkedList](https://github.com/c7hm4r/LockFreeDoublyLinkedList)：C#中无锁双向链表的实现。
 
 ## 图
 
