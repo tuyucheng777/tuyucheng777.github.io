@@ -1126,6 +1126,7 @@ permalink: /csharp
 * [DistributedLock.Mongo](https://github.com/gritse/mongo-lock)：DistributedLock.Mongo是一个可在NuGet上获取的类库，它为使用.NET和MongoDB的应用程序启用独占分布式锁定机制。
 * [Gibraltar.DistributedLocking](https://github.com/GibraltarSoftware/DistributedLocking)：DistributedLocking提供了一种易于使用、经过实战检验的方法，可以在.NET应用程序中执行分布式锁。
 * [DynamoLock](https://github.com/danielgerlag/DynamoLock)：DynamoLock是一个.NET Standard客户端库，它在Amazon DynamoDB之上实现了一个分布式锁管理器。
+* [Redlock4Net](https://github.com/LiZhenNet/Redlock4Net)：Redlock是基于Redis的分布式锁的.NET实现。
 
 ## Raft
 
@@ -2727,9 +2728,7 @@ permalink: /csharp
 * [SMock](https://github.com/SvetlovA/static-mock)：SMock是一个开源库，用于Mock静态方法、实例方法和属性。
 * [LightMock](https://github.com/seesharper/LightMock)：LightMock是一个简单的Mock库，可以在不允许动态代码生成的平台上使用。
 * [MockMe](https://github.com/connorivy/MockMe)：MockMe是一个用来在你的单元测试项目中Mock依赖的库。
-* [MockGen](https://github.com/thomas-girotto/MockGen)：MockGen旨在构建一个基于源代码生成器的.NET Mock库。
 * [Mockolate](https://github.com/Testably/Mockolate)：Mockolate是一个现代化、强类型、兼容AOT的.NET Mock库，由源代码生成器驱动。
-* [MockSourceGenerator](https://github.com/hermanussen/MockSourceGenerator)：一个C# Mock库，它使用源代码生成器在编译时生成Mock对象。
 
 ## Mock库
 
@@ -3291,6 +3290,14 @@ permalink: /csharp
 * [Sequel](https://github.com/nhlpa/Sequel)：.NET SQL生成器，可模拟编写SQL。
 * [ToleSql](https://github.com/tolemac/ToleSql)：SQL构建器和生成器。
 * [TypesafeSQL](https://github.com/jacentino/TypesafeSQL)：用于微型ORM的类似Linq的SQL查询构建器。
+* [FluentSqlKata](https://github.com/fairking/FluentSqlKata)：简单、具体、流式的构建SQL查询的方法。
+* [SqlQueryBuilder.NET](https://github.com/mladenb/sql-query-builder)：一个C#库，可帮助创建可扩展的类似LINQ的SQL查询。
+* [SqModel](https://github.com/mk3008/SqModel)：一个用于解析和构建SELECT查询的轻量级库。
+* [RQL.NET](https://github.com/ashtonian/RQL.NET)：RQL.NET是一种用于.NET的资源查询语言，专为Web应用程序而设计。
+* [Dynamic SQL](https://github.com/filipeesch/dynamic-sql)：这是一个.NET库，旨在利用灵活的模板语法动态创建复杂的参数化SQL查询。
+* [SqlQueryBuilder](https://github.com/Rem0o/SqlQueryBuilder)：C#库，用于围绕POCO类构建类型安全的T-SQL查询。
+* [SqlLinq](https://github.com/dkackman/SqlLinq)：动态.NET SQL查询。
+* [DynamicLinq](https://github.com/maydaytx/DynamicLinq)：一个用于对SQL数据库进行简单读写操作的库。
 
 ## 数据库驱动
 
