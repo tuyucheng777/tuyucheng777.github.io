@@ -828,6 +828,7 @@ permalink: /csharp
 * [DDD Based Enterprise Application Framework](https://github.com/sandipray63in/DDD-Based-Enterprise-Application-Framework)：基于领域驱动设计的企业应用框架。
 * [Memoria](https://github.com/lucabriguglia/Memoria)：.NET框架，实现了DDD、CQRS和事件溯源。
 * [GridDomain](https://github.com/ContextCore/GridDomain)：GridDomain是一个架构框架，旨在构建以领域为中心、可扩展且容错的分布式应用程序，同时不牺牲领域模型的纯粹性。
+* [Qitar](https://github.com/Bullabs/Qitar)：Qitar是一个面向领域驱动设计的应用框架。
 
 ## CQRS框架
 
@@ -1070,6 +1071,7 @@ permalink: /csharp
 * [NotDeadYet](https://github.com/NotDeadYetContributors/NotDeadYet)：.NET应用程序运行状况检查库。
 * [AspNetCore.Health](https://github.com/lurumad/aspnetcore-health)：AspNetCore.Health使负载均衡器能够监控已部署Web应用程序的状态。
 * [TinyHealthCheck](https://github.com/bruceharrison1984/TinyHealthCheck)：这是一个非常小的库，用于为C# Service Worker或其他无头进程添加健康检查。
+* [App Metrics Health](https://github.com/AppMetrics/Health)：App Metrics Health是一个开源的跨平台.NET库，用于定义应用程序中的健康检查。
 
 ## 混沌工程
 
@@ -2088,6 +2090,7 @@ permalink: /csharp
 * [TypeSafeAI .NET SDK](https://github.com/saibimajdi/typesafeai-dotnet-sdk)：用于TypeSafe AI System One API的社区版.NET SDK。
 * [OpenCode SDK .NET](https://github.com/opencode-dotnet/opencode-sdk-dotnet)：这是一个强类型的.NET客户端，用于连接OpenCode服务器。
 * [ChatGPTSharp](https://github.com/aiqinxuancai/ChatGPTSharp)：本项目实现了基于ConversationId的ChatGPT连续对话功能，只需几行代码即可快速集成。
+* [GenAI.NET](https://github.com/AutomationAgent-AI/GenAI.NET)：一个用于与OpenAI等大型语言模型交互的.NET库。
 
 ## LLM推理
 
@@ -2292,7 +2295,7 @@ permalink: /csharp
 * [TinyPinyin.Net](https://github.com/hstarorg/TinyPinyin.Net)：适用于.NET平台的快速、低内存占用的汉字转拼音库。
 * [ToolGood.Words.Pinyin](https://github.com/toolgood/ToolGood.Words.Pinyin)：一款高性能拼音字母转化类。
 * [Pinyin4net](https://github.com/YangKuang/pinyin4net)：Pinyin4net是一个.NET库，支持中文字符与拼音系统之间的转换。
-* [Pinyin4NET](https://gitee.com/hyjiacan/Pinyin4Net)：.NET环境下使用的拼音/汉字互转库。
+* [Pinyin4NET](https://github.com/hyjiacan/Pinyin4NET)：.NET环境下使用的拼音/汉字互转库。
 
 ## 拼写检查
 
@@ -4502,6 +4505,18 @@ permalink: /csharp
 * [Touki](https://github.com/JeremyKuhne/touki)：为.NET和.NET Framework应用程序提供实用功能。
 * [Kros.AspNetCore](https://github.com/Kros-sk/Kros.AspNetCore)：该仓库包含有助于在Windows、Mac或Linux上构建现代云端Web应用程序的实用程序。
 * [Neuroglia Framework](https://github.com/neuroglia-io/framework)：一组用于扩展.NET Framework的库。
+* [Web Toolkit](https://github.com/neosmart/web)：这是一个包含众多实用类和函数的集合，可用于编写ASP.NET项目，包括MVC和Forms模式。
+* [Skybrud.Essentials](https://github.com/skybrud/Skybrud.Essentials)：Skybrud.Essentials是一个具有通用功能的库，用于处理.NET代码。
+* [QuickLook.Common](https://github.com/QL-Win/QuickLook.Common)：QuickLook的通用库。
+* [Arebis.Common](https://github.com/codetuner/Arebis.Common)：Arebis的.NET通用基础库。
+* [TryAtSoftware.Extensions](https://github.com/TryAtSoftware/Extensions)：TryAtSoftware.Extensions是一个包含众多扩展方法和实用组件的仓库。
+* [NCommons](https://github.com/manuelroemer/NCommons)：一组包含多个.NET库的集合，这些库提供了可供任何类型的库或应用程序使用的通用构建模块。
+* [SimpleCore](https://github.com/Decimation/SimpleCore)：.NET Core C#通用库。
+* [Rareform](https://github.com/flagbug/Rareform)：C#编写的.NET通用库。
+* [Candor Common](https://github.com/michael-lang/candor-common)：Candor是一套共享库，可用于Web应用程序、控制台应用程序或Windows服务。
+* [Ensage.Common](https://github.com/EnsageSharp/Ensage.Common)：EnsageSharp的通用库。
+* [DotnetFramework](https://github.com/liubo19861028/DotnetFramework)：DotnetFramework是一个C#开发的工具类库。
+* [Cavemantools](https://github.com/sapiens/cavemantools)：通用工具库。
 
 ## 日期时间
 
@@ -4910,6 +4925,7 @@ permalink: /csharp
 * [Skynet](https://github.com/cholf5/skynet)：Skynet是一个面向游戏后端的Actor框架。
 * [Winton.Extensions.Threading.Actor](https://github.com/wintoncode/Winton.Extensions.Threading.Actor)：一个轻量级的Actor模式实现，旨在与C#的Async/Await关键字集成。
 * [ActorSrcGen](https://github.com/aabs/ActorSrcGen)：ActorSrcGen是一个C#源代码生成器，它可以将简单的C#类转换为与TPL数据流兼容的管道。
+* [Distribution](https://github.com/Indemos/Distribution)：通用虚拟Actor框架，用于点对点微服务或同一应用程序内的进程内通信，并可能扩展到区块链。
 
 ## 线程池
 
@@ -4992,6 +5008,7 @@ permalink: /csharp
 * [EndianBinaryIO](https://github.com/Kermalis/EndianBinaryIO)：这个.NET库提供了一个简单的API，用于使用用户指定的字节序从流和跨度读取/写入字节。
 * [StreamExtensions](https://github.com/KevinDockx/StreamExtensions)：一组用于处理流的辅助扩展方法(针对Stream)。
 * [Singulink.IO.FileSystem](https://github.com/Singulink/Singulink.IO.FileSystem)：Singulink.IO.FileSystem是一个可靠的跨平台库，它在.NET中提供强类型的文件/目录路径操作和文件系统访问。
+* [Gibbed.IO](https://github.com/gibbed/Gibbed.IO)：用于常见I/O操作的辅助库。
 
 ## 函数式编程
 
@@ -7091,6 +7108,7 @@ permalink: /csharp
 * [Template DotNet5 Angular11](https://github.com/NicolasRibeiroFontes/Template-DotNet5-Angular11)：使用.NET 5和Angular 11的项目模板。
 * [.NET 6 MVC Template](https://github.com/meesvrh/.NET-MVC-Template)：用于ASP.NET MVC Web应用程序的模板。
 * [Boilerplate .NET](https://github.com/vallettasoftware/boilerplate-dotnet)：基于现代方法和最新版.NET 8的多功能企业级HTTP API项目模板。
+* [Alloy MVC Template](https://github.com/episerver/alloy-mvc-template)：适用于CMS 11的Alloy模板站点的MVC版本。
 
 ## 后台管理系统
 
@@ -7151,7 +7169,7 @@ permalink: /csharp
 * [Wissance.WebApiToolkit](https://github.com/Wissance/WebApiToolkit)：WebApi工具集，只需一行代码即可创建CRUD REST API，还可以从可重用组件创建gRPC和SignalR。
 * [Signals](https://github.com/EmitKnowledge/Signals)：Signals是一个基于.NET8的框架，它通过为开发团队提供工具、切面和流程，专注于提高开发团队的质量和生产力。
 * [Coalesce](https://github.com/IntelliTect/Coalesce)：Coalesce是一个用于快速开发ASP.NET Core和Vue.js Web应用程序的框架。
-* [CodeBehind](https://github.com/elanatframework/Code_behind)：CodeBehind是一个基于ASP.NET Core的现代全栈Web框架。
+* [CodeBehind](https://github.com/elanatframework/CodeBehind)：CodeBehind是一个基于ASP.NET Core的现代全栈Web框架。
 * [Devon4net](https://github.com/devonfw/devon4net)：Devon4net是devonfw免费开源框架的一部分，该框架适用于 .NET 技术栈。它提供了一个基于洋葱分层设计的稳固架构模型，用于构建云原生解决方案、微服务、WebAPI 应用程序和协议缓冲区Protobuf应用程序。
 * [EasyData](https://github.com/KorzhCom/EasyData)：EasyData库让你可以在任何使用Entity Framework Core的ASP.NET Core应用程序中快速构建用于CRUD操作的用户界面。
 * [CodeFrame.Web](https://github.com/2014fighting/CodeFrame.Web)：基于.NET Core 2.0的代码框架，用于快速构建Web项目。
@@ -7244,6 +7262,12 @@ permalink: /csharp
 * [Creekdream.AspNetCore](https://github.com/zengqinglei/Creekdream.AspNetCore)：基于.NET Standard开发的应用框架。
 * [Quick.Framework](https://github.com/autcn/Quick.Framework)：WPF的快速开发框架。
 * [Brandy](https://github.com/hazzik/Brandy)：用于快速启动和快速开发的Web应用程序框架。
+* [Nop.Framework](https://github.com/dreling8/Nop.Framework)：一个基于nopCommerce提取的开发框架，去除了电商业务，保留基础功能。
+* [Nike](https://github.com/SabaCell/Nike)：Nike是一套旨在实现基于领域驱动设计和微服务架构的项目的库。
+* [Atlas](https://github.com/DataArt/Atlas)：微服务引导框架。
+* [Daishi.Microservices](https://github.com/daishisystems/Daishi.Microservices)：Daishi Systems微服务框架。
+* [Qf.Core](https://github.com/ren8179/Qf.Core)：基于.NET 10的微服务开发框架，使用简化的DDD、CQRS设计。
+* [Batman](https://github.com/JaCraig/Batman)：.NET基础应用框架。
 
 ## 权限管理系统
 
@@ -9656,6 +9680,7 @@ permalink: /csharp
 * [Telebot](https://github.com/mrtaikandi/Telebot)：Telebot是一个文档齐全的.NET客户端库，用于Telegram Bot API客户端，完全用C#编写。
 * [CSChatBot](https://github.com/GreyWolfDev/CSChatBot)：CSChatBot是一个面向.NET开发人员的机器人框架，用于构建Telegram机器人。
 * [Telegram.Bot.Extensions.Passport](https://github.com/TelegramBots/Telegram.Bot.Extensions.Passport)：本项目是对Telegram.Bot包的扩展，用于支持Telegram Passport功能。
+* [Telegram.Bot.Mvc](https://github.com/Zaid-Al-Omari/Telegram.Bot.Mvc)：一个类似MVC的框架，用于创建Telegram机器人。
 
 ## Instagram
 
@@ -10165,6 +10190,10 @@ permalink: /csharp
 * [POP3Dotnet](https://github.com/rfinochi/pop3dotnet)：一个小巧简单的库，用于从POP3服务器获取邮件，完全支持.NET 4.8、.NET Standard 2.1以及异步编程模型。
 * [Mnailgun](https://github.com/typesafe/mnailgun)：Mnailgun是Mailgun REST API的一个封装库。
 * [MailBounceDetector](https://github.com/rgl/MailBounceDetector)：检测MailKit电子邮件消息是否为退信。
+* [Mailgen](https://github.com/hsndmr/Mailgen)：一个用于生成简洁、响应式HTML电子邮件的.NET程序包，用于发送事务邮件。
+* [Mail](https://github.com/skyhop/Mail)：一个库，通过在模板和渲染模板的代码之间强制建立严格的界限，来简化.NET代码的电子邮件生成过程。
+* [MarkdownMailer](https://github.com/half-ogre/MarkdownMailer)：MarkdownMailer是一个简单的库，用于发送带有Markdown正文的电子邮件，它可以根据Markdown创建文本和HTML视图。
+* [Api.Mailgun](https://github.com/Groxan/Api.Mailgun)：这是一个用于操作Mailgun API的库。
 
 ## SMTP服务器
 
@@ -10780,6 +10809,10 @@ permalink: /csharp
 * [StatsN](https://github.com/TryStatsN/StatsN)：StatsN是一个面向.NET Core的现代化高性能Statsd客户端。
 * [Graphite Client](https://github.com/peschuster/graphite-client)：用于将数据输入Graphite和StatsD的Windows(.NET)库和工具。
 * [Metrics](https://github.com/shopyourway/metrics)：Metrics是一个用于报告.NET应用程序数据点信息(测量和时间序列)的框架。
+* [EndpointTracker](https://github.com/Pavesi99/EndpointTracker)：EndpointTracker是一个ASP.NET Core中间件，用于发现已映射的端点并报告点击次数、上次访问时间和未使用的路由。
+* [Ubiquitous Metrics](https://github.com/UbiquitousLanguage/metrics)：为APM提供商提供指标抽象及其实现。
+* [Finite.Metrics](https://github.com/FiniteReality/Finite.Metrics)：一个简单的.NET指标库，采用Microsoft.Extensions.Logging的风格编写。
+* [Qoollo Performance Counters](https://github.com/qoollo/performance-counters)：这是一个非常实用的库，可用于收集和跟踪.NET应用程序的性能指标。
 
 ## 内存转储
 
@@ -11393,6 +11426,7 @@ permalink: /csharp
 * [ThermalPrinterWrapper](https://github.com/whc2001/ThermalPrinterWrapper)：热敏小票打印机ESC/POS库。
 * [FluentZpl](https://github.com/agglerithm/FluentZpl)：FluentZpl由一个名为ZplLabels的程序集组成，它允许通过流式的接口创建和打印Zebra标签。
 * [OpenAC.Net.EscPos](https://github.com/OpenAC-Net/OpenAC.Net.EscPos)：一个跨平台的.NET库，用于在非金融热敏打印机上使用ESC/POS协议和主要制造商的各种变体进行收据的通信、打印和图形预览。
+* [DotNet.Util.Zpl](https://github.com/cuiwenyuan/DotNet.Util.Zpl)：DotNet.Util.Zpl是一套.NET Standard 2.0库，用于轻松设计标签和生成ZPL数据，它支持4种方式将标签打印到Zebra打印机。
 
 ## 生物信息学
 
@@ -11455,6 +11489,7 @@ permalink: /csharp
 * [ASCOMRemote](https://github.com/ASCOMInitiative/ASCOMRemote)：基于ASCOM REST的远程驱动程序服务器和远程访问客户端。
 * [SwissEphNet](https://github.com/ygrenier/SwissEphNet)：适用于.NET的瑞士星历表。
 * [Tucan](https://github.com/OpenVOGEL/Tucan)：OpenVOGEL是一个提供.NET计算机程序的项目，这些程序可用于研究受气动载荷作用的机械系统的某些特性。
+* [Astronomy](https://github.com/jamesstill/Astronomy)：支持常见天文计算和算法的.NET代码库。
 
 ## 水文/气象学
 
@@ -12082,6 +12117,7 @@ permalink: /csharp
 * [PushbulletSharp](https://github.com/adamyeager/PushbulletSharp)：这是一个用C#编写的简单的Pushbullet封装库。
 * [.NET Novu SDK](https://github.com/novuhq/novu-dotnet)：适用于Novu的.NET SDK。
 * [PushServer](https://github.com/tuwrraphael/PushServer)：一个适用于ASP.NET Core 2的推送通知框架。
+* [AdsPush](https://github.com/adessoTurkey-dotNET/AdsPush)：AdsPush是一个服务器端推送通知库，完全支持APNS、FCM和VAPID WebPush功能，并可与大多数常用平台配合使用。
 
 ## 通知
 
@@ -12164,6 +12200,7 @@ permalink: /csharp
 
 * [BlynkLibrary](https://github.com/sverrefroy/BlynkLibrary)：BlynkLibrary是一个简化的Blynk客户端，支持Blynk的最基本功能。
 * [TagDataTranslation](https://github.com/dannyhaak/TagDataTranslation)：对RAIN(UHF) RFID标签的GS1 EPC标识符进行编码和解码。
+* [Thingsboard.NET](https://github.com/nepton/Thingsboard.Net)：Thingsboard.NET是一个用于Thingsboard物联网平台的.NET客户端库。
 
 ## 物联网网关
 
@@ -14106,6 +14143,7 @@ permalink: /csharp
 * [ISO 3166-1](https://github.com/schourode/iso3166)：ISO 3166-1 .NET国家/地区列表。
 * [A-VS-An](https://github.com/EamonNerbonne/a-vs-an)：找出单词的英语不定冠词(“a”或“an”)。
 * [NISOCountries](https://github.com/RobThree/NISOCountries)：NISOCountries是一个用于获取和查找ISO 3166-1国家代码的.NET库。
+* [Romanization.NET](https://github.com/zedseven/Romanization.NET)：一个使用通用罗马化系统对常用语言进行罗马化的库。
 
 ## 字符集
 
