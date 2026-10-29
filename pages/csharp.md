@@ -4916,6 +4916,7 @@ permalink: /csharp
 * [SmartThreadPool](https://github.com/amibar/SmartThreadPool)：一个完全用C#实现的.NET线程池，具有许多功能。
 * [PowerThreadPool](https://github.com/ZjzMisaka/PowerThreadPool)：一个全面高效的低争用线程池，可轻松管理同步和异步工作负载。
 * [DedicatedThreadPool](https://github.com/helios-io/DedicatedThreadPool)：一个实例化的专用线程池，用于消除CLR线程池上的噪声邻居问题。
+* [ThreadPool](https://github.com/UnterrainerInformatik/threadpool)：这是一个C#线程池，允许你在不同的线程上并行执行各种任务。
 
 ## 并发数据结构
 
@@ -6822,6 +6823,7 @@ permalink: /csharp
 * [StringPool](https://github.com/Molth/StringPool)：基于ArrayPool的高性能字符串池。
 * [Open.Disposable.ObjectPools](https://github.com/Open-NET-Libraries/Open.Disposable.ObjectPools)：一组具有不同底层集合的ObjectPool实现变体。
 * [PoolSharp](https://github.com/Yortw/PoolSharp)：PoolSharp是一款简单、轻便、线程安全的对象池。
+* [LightObjectPool](https://github.com/justinamiller/LightObjectPool)：一个简单、轻量级、线程安全的对象池。
 
 ## 项目模板
 
