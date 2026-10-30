@@ -1625,6 +1625,7 @@ permalink: /csharp
 * [Si-Net](https://github.com/muaazali/si-net)：轻量级的异步套接字网络库。
 * [SockRock](https://github.com/kenkendk/SockRock)：SockRock是一个封装库，用于在C#中使用epoll和kqueue，而无需依赖本地库。
 * [FireLite](https://github.com/tomglenn/FireLite)：FireLite是一个极其轻量级的TCP套接字服务器/客户端库。
+* [SockNet](https://github.com/arenanet/socknet)：一个功能强大而又简单的异步网络应用程序框架，用于实现低延迟和高性能的服务器和客户端应用程序。
 
 ## WebSocket
 
@@ -1752,6 +1753,7 @@ permalink: /csharp
 * [ENet C#](https://github.com/Molth/enet-csharp)：ENet可靠UDP网络库。
 * [GameFrameX.Server](https://github.com/GameFrameX/GameFrameX.Server)：GameFrameX Server是基于C# .NET 10.0开发的高性能游戏服务器框架，采用Actor模型设计，支持热更新机制。
 * [RUDP.Net](https://github.com/MatthiWare/RUDP.Net)：C#实现可靠的UDP协议。
+* [DotNetOpenServerSDK](https://github.com/UpperSetting/DotNetOpenServerSDK)：DotNetOpenServer SDK是一个开源、轻量级且完全可扩展的TCP套接字客户端/服务器应用程序框架。
 
 ## QUIC
 
@@ -6158,6 +6160,7 @@ permalink: /csharp
 * [LiteHtmlSharp](https://github.com/PingmanTools/LiteHtmlSharp)：LiteHtmlSharp是一个用于HTML/CSS(2/3)可视化的C#跨平台库。
 * [HtmlGenerator](https://github.com/hughbe/html-generator)：一个简化从C#代码生成复杂HTML文件的库。
 * [BracketPipe](https://github.com/erdomke/BracketPipe)：BracketPipe是一个.NET库，用于构建HTML、CSS、JavaScript、SVG和MathML等Web语言的解析和处理管道。
+* [HtmlKit](https://github.com/jstedfast/HtmlKit)：HtmlKit是一个用于解析HTML的跨平台.NET框架。
 
 ## XML
 
@@ -7268,6 +7271,9 @@ permalink: /csharp
 * [Daishi.Microservices](https://github.com/daishisystems/Daishi.Microservices)：Daishi Systems微服务框架。
 * [Qf.Core](https://github.com/ren8179/Qf.Core)：基于.NET 10的微服务开发框架，使用简化的DDD、CQRS设计。
 * [Batman](https://github.com/JaCraig/Batman)：.NET基础应用框架。
+* [CODEFramework](https://github.com/MarkusEggerInc/CODEFramework)：面向专业开发人员的业务应用程序开发框架。
+* [Epic.NET](https://github.com/Shamar/Epic.NET)：Epic是一个框架，旨在让你的领域模型实现完全专注于你的应用程序所面向的企业业务，而无需考虑基础设施。
+* [Blossom](https://github.com/sparc-coop/blossom)：Blossom是一个具有鲜明风格的框架框架，用于.NET 7.0 Web、移动和桌面开发。
 
 ## 权限管理系统
 
@@ -8780,6 +8786,7 @@ permalink: /csharp
 * [Mvvmicro](https://github.com/dotnet-ad/Mvvmicro)：适用于.NET的极简MVVM框架。
 * [ATC.Net WPF](https://github.com/atc-net/atc-wpf)：这是一套全面的现代化企业级WPF库，用于构建采用MVVM设计模式的专业桌面应用程序。
 * [Jellyfish](https://github.com/mrousavy/Jellyfish)：一个极其轻量级且类型安全的MVVM库，适用于.NET WPF、Silverlight、Xamarin和UWP。
+* [OpenMVVM](https://github.com/BananaBytes/openmvvm)：OpenMVVM框架为跨多个平台的MVVM应用程序提供统一的API。
 
 ## 更新框架
 
@@ -10276,6 +10283,7 @@ permalink: /csharp
 * [GearmanSharp](https://github.com/twingly/GearmanSharp)：GearmanSharp是一个用于Gearman的C# API。
 * [NexJob](https://github.com/oluciano/NexJob)：NexJob是一个可靠的.NET 8后台作业处理库。
 * [NJob](https://github.com/2881099/NJob)：轻量级作业调度器。
+* [Nortal.Utilities.TaskSchedulerEngine](https://github.com/nortal/Utilities.TaskSchedulerEngine)：适用于.NET代码的简单任务调度工具。
 
 ## Cron
 
@@ -10782,6 +10790,7 @@ permalink: /csharp
 * [X.Spectator](https://github.com/a-gubskiy/X.Spectator)：X.Spectator是一个轻量级且可扩展的.NET应用监控和健康评估框架。
 * [Zabbix.NET](https://github.com/Vidlec/Zabbix.NET)：Zabbix.NET是一个基于.NET的Zabbix API库。
 * [AspNetDebugDashboard](https://github.com/eladser/AspNetDebugDashboard)：一个轻量级、对开发者友好的ASP.NET Core应用调试仪表板。
+* [Perfon.Net](https://github.com/magsoft2/Perfon.Net)：Perfon.Net是一个用于Web应用程序的性能监控.NET框架。
 
 ## 指标库
 
@@ -11238,6 +11247,7 @@ permalink: /csharp
 * [Lazulite](https://github.com/lavellex86/Lazulite)：Lazulite是一个基于ILGPU的GPU加速库，它负责自动缓冲区池化和延迟内核初始化。
 * [WebGPUSharp](https://github.com/EmilSV/WebGPUSharp)：WebGPU原生绑定，并在上面提供一个安全的C#包装API，模仿浏览器中的JavaScript API。
 * [Forme](https://github.com/AristurtleDev/Forme)：Forme直接在GPU上根据二次贝塞尔曲线字形轮廓数据渲染文本，无需预先计算纹理、距离场或栅格化图集。
+* [CUDAfy .NET](https://github.com/Cr33zz/CUDAfy.NET)：CUDAfy .NET允许完全基于Microsoft .NET框架轻松开发高性能GPGPU应用程序。
 
 ## DLL注入
 
