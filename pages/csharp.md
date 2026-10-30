@@ -2936,6 +2936,7 @@ permalink: /csharp
 * [Selone](https://github.com/skbkontur/Selone)：Selone是一个库，用于快速启动自己的一套浏览器测试或搜索机器人。
 * [Passenger](https://github.com/davidwhitney/Passenger)：Passenger是一个C#页面对象模型库，旨在保持你的Selenium代码简洁清晰。
 * [Selenium.HtmlElements.Net](https://github.com/eger-geger/Selenium.HtmlElements.Net)：HtmlElements是一个.NET库，它与Selenium WebDriver的页面对象模型相辅相成，允许你创建更复杂、更精细的页面对象。
+* [SeleniumHelper](https://github.com/vinzh05/SeleniumHelper)：SeleniumSupport是一个强大的库，旨在简化和增强你基于Selenium的自动化任务。
 
 ## HTTP回放
 
@@ -5326,6 +5327,7 @@ permalink: /csharp
 * [EasyMemoryCache](https://github.com/thiagoloureiro/EasyMemoryCache)：用于轻松为你的.NET Core应用程序实现MemoryCache的.NET组件。
 * [HybridCachePlus](https://github.com/sagasta/HybridCachePlus)：HybridCache.Plus是一个高性能的扩展库，适用于.NET 10中的Microsoft.Extensions.Caching.HybridCache，由Roslyn源生成器提供支持。
 * [AopCaching](https://github.com/ZeeLyn/AopCaching)：AOP缓存库，不会对缓存方法进行任何代码侵入。
+* [GroupCacheDotNet](https://github.com/microsoft/GroupCacheDotNet)：小型C#缓存和缓存填充库。
 
 ## 分布式缓存
 
@@ -5351,6 +5353,7 @@ permalink: /csharp
 * [Community.Microsoft.Extensions.Caching.PostgreSQL](https://github.com/leonibr/community-extensions-cache-postgres)：Community.Microsoft.Extensions.Caching.PostgreSQL是一个强大且可扩展的分布式缓存实现，适用于使用PostgreSQL 11+作为底层数据存储的ASP.NET Core应用程序。
 * [RedisNearCache](https://github.com/magna-nz/redis-near-cache)：基于StackExchange.Redis的客户端缓存。
 * [Cachula](https://github.com/ne4ta/Cachula)：Cachula是一个灵活的.NET多层缓存库，专为现代分布式应用程序而设计。
+* [RedisCache.Core](https://github.com/hamed-shirbandi/RedisCache.Core)：一个简单的库，用于在.NET Core项目中使用Redis缓存。
 
 ## HTTP缓存
 
@@ -5640,6 +5643,13 @@ permalink: /csharp
 * [STJson](https://github.com/DebugST/STJson)：STJson是一个开源的JSON解析库。
 * [NekoRush.JsonChan](https://github.com/NekoRushX/NekoRush.JsonChan)：一个全新的JSON解析器库，可以将JSON解析成动态树状结构。
 * [Maptionary](https://github.com/rangerscience/maptionary)：用于将JSON、XML和YAML解析为超级方便使用的数据结构的C#库。
+* [JsonStreamer](https://github.com/kekyo/JsonStreamer)：.NET和ASP.NET Core上的JSON Lines流式序列化器/反序列化器。
+* [BinaryGo](https://github.com/Ali-YousefiTelori/BinaryGo)：BinaryGo是一个易于使用且速度非常快的JSON序列化器/反序列化器。
+* [VJson](https://github.com/yutopp/VJson)：VJson是一个纯C#编写的JSON序列化/反序列化库。
+* [JsonJitSerializer](https://github.com/Martin1994/JsonJitSerializer)：适用于.NET Core 3.0的JSON序列化JIT编译器。
+* [MicroJson](https://github.com/mganss/MicroJson)：MicroJson是一个小型库，用于从强类型CLR对象(POCO)序列化/反序列化JSON字符串。
+* [SpracheJson](https://github.com/IanWold/SpracheJson)：SpracheJson是一个用C#编写的JSON解析器。
+* [LiteJson](https://github.com/RevenantX/LiteJson)：基于MiniJSON的小型JSON解析库。
 
 ## JSON库
 
@@ -5717,6 +5727,7 @@ permalink: /csharp
 * [Jayrock](https://github.com/atifaziz/Jayrock)：Jayrock是一个简洁的开源JSON和JSON-RPC实现，适用于Microsoft .NET Framework。
 * [JsonRpcSharp](https://github.com/nblockchain/JsonRpcSharp)：适用于.NET框架的JsonRpc客户端库。
 * [HttpJsonRpc](https://github.com/httpjsonrpcnet/httpjsonrpcnet)：HttpJsonRpc是一个跨平台的.NET Standard库，它实现了JSON-RPC 2.0规范。
+* [JsonServices](https://github.com/yallie/JsonServices)：适用于C#和TypeScript的简单JSON-RPC服务框架。
 
 ## JSON API
 
@@ -5798,6 +5809,9 @@ permalink: /csharp
 * [DotNet.Config](https://github.com/jknight/DotNet.Config)：DotNet.Config是一个小巧但功能强大的.NET配置库。
 * [NotNot.AppSettings](https://github.com/jasonswearingen/NotNot.AppSettings)：从AppSettings.json自动创建强类型C#设置对象。
 * [Dotenv Generator](https://github.com/betwixt-labs/dot-env-generator)：一个用于C#的源代码生成器，可以将.env文件转换为运行时常量。
+* [Innovatian.Configuration](https://github.com/idavis/innovatian.configuration)：支持INI、XML、独立存储、注册表、命令行、.NET配置文件等存储机制的配置库。
+* [ConventionalOptions](https://github.com/derekgreer/conventional-options)：ConventionalOptions是一个方便使用Microsoft .NET Core配置API的库。
+* [Configuration](https://github.com/res-tec-systems-legacy/configuration)：一个用于强类型配置并带有验证功能的C#库。
 
 ## INI
 
@@ -6161,6 +6175,7 @@ permalink: /csharp
 * [HtmlGenerator](https://github.com/hughbe/html-generator)：一个简化从C#代码生成复杂HTML文件的库。
 * [BracketPipe](https://github.com/erdomke/BracketPipe)：BracketPipe是一个.NET库，用于构建HTML、CSS、JavaScript、SVG和MathML等Web语言的解析和处理管道。
 * [HtmlKit](https://github.com/jstedfast/HtmlKit)：HtmlKit是一个用于解析HTML的跨平台.NET框架。
+* [HtmlSharp](https://github.com/wallerdev/htmlsharp)：HtmlSharp是一个用于解析HTML的C#库，它允许使用CSS选择器查询DOM。
 
 ## XML
 
@@ -6182,7 +6197,6 @@ permalink: /csharp
 * [XmlDiffLib](https://github.com/BrutalSimplicity/XmlDiffLib)：用于查找两个XML文件之间差异的库。
 * [XmlToDynamic](https://github.com/jonathanconway/XmlToDynamic)：XmlToDynamic将你的XML对象转换为嵌套对象的层次结构，以便可以更轻松地获取值和属性。
 * [XmlToObjectParser](https://github.com/tucaz/XmlToObjectParser)：一个用C# 4.0实现的简单动态库，用于处理XML结构。
-* [UdonXML](https://github.com/Foorack/UdonXML)：UdonXML是一个用Udon编写、专为VRChat设计的XML解析器。
 * [PlistCS](https://github.com/animetrics/PlistCS)：一个C#属性列表序列化库。
 * [PList CLI](https://github.com/claunia/plist-cil)：该库使.NET (CLR)应用程序能够处理各种格式的属性列表。
 * [SgmlReader](https://github.com/lovettchris/SgmlReader)：SgmlReader是一个.NET库，它能够方便地将SGML内容通过XmlReader、XmlDocument、XDocument或XPathDocument转换为格式良好的XML。
@@ -6193,6 +6207,7 @@ permalink: /csharp
 * [SharpXml](https://github.com/kongo2002/SharpXml)：SharpXml是一个独立、无依赖且速度很快的.NET XML序列化库。
 * [Serialization.Plists](https://github.com/ChadBurggraf/plists-cs)：Serialization.Plists是一个用于.NET的二进制Plist读取器/写入器实现。
 * [XMLDiff](https://github.com/lovettchris/xmldiff)：一个用于比较两个XML文档的C#库。
+* [NetBike.Xml](https://github.com/netbike/netbike.xml)：快速、灵活且高度可定制的XML序列化器，用于在.NET对象和XML之间进行转换。
 
 ## YAML
 
@@ -8549,6 +8564,7 @@ permalink: /csharp
 * [BlazorFileReader](https://github.com/Tewr/BlazorFileReader)：用于在Blazor中从文件输入元素或拖放目标创建只读文件流的库。
 * [DevExpress Blazor](https://github.com/DevExpress/Blazor)：DevExpress UI Blazor提供原生且高性能的UI组件，包括网格、数据透视表、调度器、图表和数据编辑器。
 * [Plotly.Blazor](https://github.com/LayTec-AG/Plotly.Blazor)：这个库将知名的图表库plotly.js封装成一个Razor组件，可用于Blazor项目中。
+* [LeafletBlazor](https://github.com/ichim/LeafletForBlazor-NuGet)：LeafletBlazor是一个提供用于在Blazor应用程序中显示地图的组件的库。
 * [BlazorWasmPreRendering.Build](https://github.com/jsakamoto/BlazorWasmPreRendering.Build)：发布Blazor WebAssembly应用时，此包会将应用预渲染并以静态HTML文件的形式保存到你的公共文件夹中。
 * [MudBlazor.Markdown](https://github.com/MyNihongo/MudBlazor.Markdown)：基于MudBlazor环境的Markdown组件。
 * [BrowserInterop](https://github.com/RemiBou/BrowserInterop)：该库提供在Blazor应用中访问浏览器API的功能。
@@ -8707,6 +8723,7 @@ permalink: /csharp
 * [Blazorators](https://github.com/IEvangelist/blazorators)：Blazorators提供C#源代码生成器和生成的包，用于实现强类型Blazor JavaScript互操作。
 * [SpeedyGenerators](https://github.com/raffaeler/SpeedyGenerators)：SpeedyGenerators是一套C#代码生成器。
 * [MD2RazorGenerator](https://github.com/jsakamoto/MD2RazorGenerator)：MD2RazorGenerator是一个用于Blazor的C#源代码生成器NuGet包，它可以将Markdown文件转换为Razor组件。
+* [Toolbelt.Blazor.HotKeys](https://github.com/jsakamoto/Toolbelt.Blazor.HotKeys)：这是一个类库，为你的Blazor WebAssembly应用程序提供以配置为中心的键盘快捷键。
 
 ## IDE
 
@@ -9065,6 +9082,7 @@ permalink: /csharp
 * [AxEngine](https://github.com/AximoGames/AxEngine)：Aximo是一个用C#编写的开源3D游戏引擎。
 * [Furball](https://github.com/Furball-Engine/Furball)：Furball是一个用C#编写的游戏引擎。
 * [SharpGDX](https://github.com/SharpGDX/SharpGDX)：LibGDX的C#移植版。
+* [HipsterEngine](https://github.com/Winster332/HipsterEngine)：HipsterEngine是一个跨平台游戏开发引擎。
 
 ## 碰撞检测
 
@@ -9096,6 +9114,8 @@ permalink: /csharp
 * [Box2DNet](https://github.com/thomasvt/Box2DNet)：一个轻量级的Box2D v3 .NET封装库。
 * [Box2D.NET](https://github.com/BeanCheeseBurrito/Box2D.NET)：Box2D.NET是Box2D的C#绑定。
 * [ChipmunkBinding](https://github.com/codefoco/ChipmunkBinding)：Chipmunk2D的C#原生绑定。
+* [HughPH.Box2D](https://github.com/Kira-PH/Box2D-dotnet-bindings)：Box2D 3.x的.NET绑定。
+* [Box2D.C#](https://github.com/MackinnonBuck/Box2D.CSharp)：使用P/Invoke的Box2D的C#封装。
 
 ## ECS
 
@@ -10284,6 +10304,17 @@ permalink: /csharp
 * [NexJob](https://github.com/oluciano/NexJob)：NexJob是一个可靠的.NET 8后台作业处理库。
 * [NJob](https://github.com/2881099/NJob)：轻量级作业调度器。
 * [Nortal.Utilities.TaskSchedulerEngine](https://github.com/nortal/Utilities.TaskSchedulerEngine)：适用于.NET代码的简单任务调度工具。
+* [C# Schtick](https://github.com/schyntax/cs-schtick)：一个基于Schyntax构建的计划任务运行器。
+* [Jobber](https://github.com/GokGokalp/Jobber)：Jobber是一款轻量级、简单易用的分布式任务调度器。
+* [Panteon.Sdk](https://github.com/bugthesystem/Panteon.Sdk)：一个用于.NET的分布式调度实时任务处理服务器。
+* [CodeSoda.Scheduler](https://github.com/codesoda/Scheduler)：CodeSoda.Scheduler是一个简单的C#任务调度程序，它使任何WinForms或ASP.NET/MVC项目能够在后台运行计划任务。
+* [Jobba](https://github.com/firebend/jobba)：一个适用于.NET的持久性作业调度平台。
+* [FabulousScheduler](https://github.com/lif0/FabulousScheduler)：一款高性能的调度器，适用于周期性作业和基于队列的作业。
+* [OddJob](https://github.com/to11mtm/OddJob)：OddJob是一款适用于.NET的简单作业调度器。
+* [Ronixa.Scheduler.Core](https://github.com/mh-zolfaghari/Ronixa.Scheduler.Core)：Ronixa.Scheduler.Core项目是一个基于.NET 8的库，用于使用IHostedService进行后台作业调度。
+* [Job.Scheduler](https://github.com/Belphemur/Job.Scheduler)：一个简单的基于C#中Async/Await模式的作业调度库。
+* [Fabron](https://github.com/DCArea/Fabron)：基于Project Orleans构建的分布式定时器/作业调度器。
+* [Ever.y](https://github.com/mlowijs/every)：Ever.y是一个适用于.NET的流式API作业调度引擎。
 
 ## Cron
 
