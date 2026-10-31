@@ -830,6 +830,8 @@ permalink: /csharp
 * [GridDomain](https://github.com/ContextCore/GridDomain)：GridDomain是一个架构框架，旨在构建以领域为中心、可扩展且容错的分布式应用程序，同时不牺牲领域模型的纯粹性。
 * [Qitar](https://github.com/Bullabs/Qitar)：Qitar是一个面向领域驱动设计的应用框架。
 * [SW.PrimitiveTypes](https://github.com/simplify9/SW-PrimitiveTypes)：用于领域驱动设计、消息传递和API开发的基础类型和接口的.NET库。
+* [DFlow](https://github.com/roadtoagility/dflow)：DFlow是一个领域驱动设计平台，它提供组织业务逻辑、设计领域模型、交付领域事件以及以不同格式存储的基础架构。
+* [BullOak](https://github.com/BullOak/BullOak)：一个用于创建事件驱动型微服务、具有鲜明特色的库。
 
 ## CQRS框架
 
@@ -1131,6 +1133,7 @@ permalink: /csharp
 * [DynamoLock](https://github.com/danielgerlag/DynamoLock)：DynamoLock是一个.NET Standard客户端库，它在Amazon DynamoDB之上实现了一个分布式锁管理器。
 * [Redlock4Net](https://github.com/LiZhenNet/Redlock4Net)：Redlock是基于Redis的分布式锁的.NET实现。
 * [LeaderElection](https://github.com/gregyjames/LeaderElection)：这是一个易于使用的C#分布式领导者选举模式实现。
+* [RedLock](https://github.com/Elders/RedLock)：使用C#和Redis实现分布式锁算法。
 
 ## Raft
 
@@ -1264,6 +1267,7 @@ permalink: /csharp
 * [NSQnet](https://github.com/wcharczuk/NSQnet)：NSQ.net该项目是NSQ协议的.NET实现。
 * [Eventfully](https://github.com/cfrenzel/Eventfully)：基于外发件箱模式的轻量级可靠消息传递框架。
 * [Mirage Queue](https://github.com/inova-notas/mirage-queue)：Mirage Queue是一个旨在提供消息代理优势而无需引入额外基础设施依赖的库。
+* [Resonance](https://github.com/kwaazaar/Resonance)：Resonance消息传递库，支持MSSQL和MySQL。
 
 ## 消息队列客户端
 
@@ -1331,6 +1335,8 @@ permalink: /csharp
 * [EventTower](https://github.com/fatihdumanli/EventTower)：一个消息总线实现，其功能是使用RabbitMQ向其他进程发送命令/事件。
 * [Abp.RemoteEventBus](https://github.com/wuyi6216/Abp.RemoteEventBus)：受Abp事件总线的灵感而开发的一个分布式的事件总线。
 * [EventBus](https://github.com/liorcohenflw/EventBus)：Event Bus是一个受Google Guava项目启发，基于.NET平台的组件。
+* [Roque](https://github.com/BlogTalkRadio/Roque)：Roque是一个简单易用的.NET事件和工作队列框架。
+* [Eventing](https://github.com/firov/Eventing)：Eventing是一个用于异步事件驱动编程的库。
 
 ## 服务总线
 
