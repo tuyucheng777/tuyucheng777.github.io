@@ -832,6 +832,8 @@ permalink: /csharp
 * [SW.PrimitiveTypes](https://github.com/simplify9/SW-PrimitiveTypes)：用于领域驱动设计、消息传递和API开发的基础类型和接口的.NET库。
 * [DFlow](https://github.com/roadtoagility/dflow)：DFlow是一个领域驱动设计平台，它提供组织业务逻辑、设计领域模型、交付领域事件以及以不同格式存储的基础架构。
 * [BullOak](https://github.com/BullOak/BullOak)：一个用于创建事件驱动型微服务、具有鲜明特色的库。
+* [Xer.DomainDriven](https://github.com/XerProjects/Xer.DomainDriven)：领域驱动设计实体和标记接口。
+* [DomainGuard](https://github.com/TuralSuleymani/DomainGuard)：用于DDD和Clean Architecture的轻量级高性能Guard子句库。
 
 ## CQRS框架
 
@@ -878,6 +880,10 @@ permalink: /csharp
 * [Lokad.CQRS](https://github.com/abdullin/lokad-cqrs)：Lokad.CQRS是一个.NET框架，以及一套用于构建分布式、可扩展应用程序的指导材料。
 * [Aggregator](https://github.com/huysentruitw/Aggregator)：Aggregator包含一些用于构建基于CQRS/ES的应用程序的基本基类和接口。
 * [Fluent CQRS](https://github.com/devCrowd-Team/fluent-cqrs)：面向.NET应用程序的下一代CQRS框架。
+* [TwentyTwenty.DomainDriven](https://github.com/2020IP/TwentyTwenty.DomainDriven)：事件溯源和CQRS抽象。
+* [Intellias CQRS](https://github.com/IntelliasLabs/Intellias_CQRS)：Intellias CQRS框架。
+* [SeekYouRS](https://github.com/jfellien/SeekYouRS)：非常简单，遵循KISS原则开发的CQRS框架。
+* [Enjoy.CQRS](https://github.com/ircnelson/enjoy.cqrs)：该库可帮助你使用CQRS和事件源概念构建应用程序。
 
 ## 插件框架
 
@@ -1010,6 +1016,8 @@ permalink: /csharp
 * [RedNb.Nacos](https://github.com/yinghongzhen/RedNb.Nacos)：RedNb.Nacos是一个功能完整的现代化.NET Nacos客户端SDK。
 * [Stardust](https://github.com/NewLifeX/Stardust)：分布式服务平台，提供平台管理、星尘代理、节点管理、注册中心、配置中心、发布中心、监控中心、星尘网关等子系统。
 * [MinimalApiDiscovery](https://github.com/wilder-minds/MinimalApiDiscovery)：一个用于以合理方式注册Minimal API的.NET Core库。
+* [ServiceStack.Discovery.Consul](https://github.com/wwwlicious/servicestack-discovery-consul)：一个ServiceStack插件，它使用Consul.io作为服务注册中心，提供透明的客户端服务发现功能。
+* [Nanophone](https://github.com/lvermeulen/Nanophone)：Nanophone是一个极简的服务注册和发现库。
 
 ## Consul
 
@@ -1181,6 +1189,7 @@ permalink: /csharp
 * [MediatRRise](https://github.com/ademguney/MediatRRise)：MediatRRise是一个现代化、轻量级、可扩展的.NET进程内消息传递库。
 * [TurboMediator](https://github.com/MarcoCestari/TurboMediator)：一个高性能、企业级的.NET中介器库，使用源生成器。
 * [MDiator](https://github.com/MostafaDesoky95/MDiator)：MDiator是一个轻量级、可扩展的.NET进程内消息传递库。
+* [TS.MediatR](https://github.com/TS-NuGet-Packages/TS.MediatR)：轻量级且灵活的.NET中介器库，支持CQRS、管道行为和通知。
 
 ## 消息总线
 
@@ -1862,6 +1871,7 @@ permalink: /csharp
 * [RSSDP](https://github.com/Yortw/RSSDP)：RSSDP是100%基于.NET实现的简单服务发现(SSDP)协议，它是UPnP标准的一部分。
 * [NCast](https://github.com/jeremylcarter/NCast)：NCast C# SSDP发现和内容投射。
 * [SSDP.UPnP.PCL](https://github.com/1iveowl/SSDP.UPnP.PCL)：用于UPnP 2.0的SSDP实现。
+* [SSDP](https://github.com/kakone/SSDP)：.NET实现的简单服务发现协议。
 
 ## SNTP
 
@@ -2323,6 +2333,7 @@ permalink: /csharp
 * [ToolGood.Words](https://github.com/toolgood/ToolGood.Words)：一款高性能非法词(敏感词)检测组件，附带繁体简体互换，支持全角半角互换等功能。
 * [ProfanityDetector](https://github.com/stephenhaunts/ProfanityDetector)：这是一个用于检测文本字符串中脏话的C#库。
 * [Censored](https://github.com/jamesmontemagno/Censored)：一个用于轻松检测和屏蔽关键词的.NET库。
+* [.NET Bad Word Detector And Filter](https://github.com/FelipeLuz/dotnet-bad-word-detector-and-filter)：这是一个快速且强大的库，用于检测文本字符串中的冒犯性语言。
 
 ## 神经网络
 
@@ -3446,6 +3457,7 @@ permalink: /csharp
 * [Reinforced.Stroke](https://github.com/reinforced/Reinforced.Stroke)：针对强类型原始SQL查询的EntityFramework 6.1简单增强。
 * [EFCore.Seeder](https://github.com/DanielAltamirano/EFCore.Seeder)：一个使用.NET Core 3.0和Entity Framework Core 3.0.0从CSV文件填充数据库的库。
 * [Westwind.Data.EfCore](https://github.com/RickStrahl/Westwind.Data.EfCore)：适用于Entity Framework Code First的轻量级业务对象库。
+* [EntityFramework.Rx](https://github.com/NickStrupat/EntityFramework.Rx)：Entity Framework实体的响应式扩展包装器，用于热可观察对象。
 
 ## Dapper扩展
 
@@ -4220,6 +4232,7 @@ permalink: /csharp
 * [Asn1DerParser.NET](https://github.com/Crypt32/Asn1DerParser.NET)：这是一个基于.NET的ASN.1二进制解析器实现。
 * [WVCore](https://github.com/nilaoda/WVCore)：面向.NET开发人员的Widevine库。
 * [ASodium](https://github.com/Chewhern/ASodium)：一个用于C#的实验性libsodium封装库。
+* [Obfuscator](https://github.com/kent-id/Obfuscation)：Obfuscator是一个C#库，它可以将非负整数转换为8个字符的字符串，生成类似于YouTube视频ID的结果。
 
 ## 密码库
 
@@ -4539,6 +4552,7 @@ permalink: /csharp
 * [Cavemantools](https://github.com/sapiens/cavemantools)：通用工具库。
 * [MM Common](https://github.com/meshmakers/mm-common)：Meshmakers和OctoMesh服务共享的基础.NET库。
 * [Withywoods](https://github.com/devpro/withywoods)：共享的.NET库，让你用更少的代码完成更多的工作。
+* [Extensions](https://github.com/ilkerhalil/Extensions)：C#扩展方法库。
 
 ## 日期时间
 
@@ -4623,6 +4637,7 @@ permalink: /csharp
 * [Geranium.Reflection](https://github.com/aneteanetes/Geranium.Reflection)：ExpressionTrees提供的.NET反射。
 * [DynamicBinder](https://github.com/jsakamoto/dynamicbinder)：该库允许你使用.NET的反射技术动态访问对象的方法、属性和字段，无论它们是否是私有成员。
 * [FastExpressionKit](https://github.com/vivainio/FastExpressionKit)：一个用于加快反射类操作速度的小型库。
+* [PhilosophicalMonkey](https://github.com/dburriss/PhilosophicalMonkey)：一个C#反射辅助库。
 
 ## 集合库
 
@@ -4754,6 +4769,10 @@ permalink: /csharp
 * [StringFormat](https://github.com/little-sharps/string_format)：该库扩展了String.Format的功能，允许你使用命名变量而不是序数占位符。
 * [LibProtection.NET](https://github.com/LibProtection/libprotection-dotnet)：Libprotection.NET是LibProtection库的.NET版本，它是格式化和插值字符串标准功能的另一种实现方式。
 * [OutParser](https://github.com/AntonBergaker/OutParser)：OutParser是一个C#库，它能够按照简单的模板模式进行简单的字符串解析。
+* [IvanStoychev.Useful.String.Extensions](https://github.com/IvanStoychev/IvanStoychev.Useful.String.Extensions)：一个用于C#中String类的.NET实用扩展方法库。
+* [Expansive](https://github.com/anderly/Expansive)：一款功能强大的.NET字符串扩展库。
+* [CaseConverter](https://github.com/markcastle/CaseConverter)：该库旨在通过一些简单易用的字符串扩展方法，使在C#/.NET中转换不同的大小写约定变得更加容易。
+* [Wivuu.Sprog](https://github.com/wivuu/Wivuu.Sprog)：Sprog是一个跨平台字符串解析库，专为C# 7+和.NET Core编写。
 
 ## 数学库
 
@@ -5009,6 +5028,7 @@ permalink: /csharp
 * [PropertyChanged](https://github.com/reactivemarbles/PropertyChanged)：一个用于提供属性表达式最新值的可观察对象的框架。
 * [DynamicData.ReactiveUI](https://github.com/RolandPheasant/DynamicData.ReactiveUI)：Dynamic Data是一个基于Rx的可移植类库，它提供可观察列表和可观察缓存。
 * [ReactGraph](https://github.com/AdaptiveConsulting/ReactGraph)：ReactGraph是一个用于简化.NET中变更传播的库。
+* [Kinetic](https://github.com/YohDeadfall/Kinetic)：Kinetic是Reactive框架的另一种实现方式，专注于提升性能并减少内存分配。
 
 ## I/O库
 
@@ -5292,6 +5312,7 @@ permalink: /csharp
 * [DTOGenerator](https://github.com/zeshan321/DTOGenerator)：使用C#中的源生成器实现实验性的零代码编译时DTO生成器和映射器。
 * [Facet](https://github.com/Tim-Maes/Facet)：Facet是一个C#源代码生成器，可以消除DTO样板代码。
 * [DeepClone](https://github.com/night-moon-studio/DeepClone)：基于Natasha的深度克隆库。
+* [Nuclex.Cloning](https://github.com/junweilee/Nuclex.Cloning)：这是一个基于C#的.NET 4库，用于深度克隆对象。
 
 ## 类型转换
 
@@ -5717,6 +5738,8 @@ permalink: /csharp
 * [JSONPath](https://github.com/atifaziz/JSONPath)：JSONPath的C#实现。
 * [JsonDocumentPath](https://github.com/azambrano/JsonDocumentPath)：JsonDocumentPath是一个类库，用于使用单行表达式从JSON中提取值。
 * [Hyperbee Json](https://github.com/Stillpoint-Software/hyperbee.json)：Hyperbee Json是一个高性能的.NET JSON库，为JSONPath、JsonPointer、JsonPatch和JsonDiff提供强大的支持。
+* [JsonPathway](https://github.com/stanac/JsonPathway)：.NET Standard 2.0中仅依赖于System.Text.Json的JsonPath实现。
+* [BlushingPenguin.JsonPath](https://github.com/blushingpenguin/BlushingPenguin.JsonPath)：BlushingPenguin.JsonPath是 MongoDB.Bson的JsonPath实现。
 
 ## JsonPatch
 
@@ -7149,6 +7172,8 @@ permalink: /csharp
 * [.NET 6 MVC Template](https://github.com/meesvrh/.NET-MVC-Template)：用于ASP.NET MVC Web应用程序的模板。
 * [Boilerplate .NET](https://github.com/vallettasoftware/boilerplate-dotnet)：基于现代方法和最新版.NET 8的多功能企业级HTTP API项目模板。
 * [Alloy MVC Template](https://github.com/episerver/alloy-mvc-template)：适用于CMS 11的Alloy模板站点的MVC版本。
+* [AspNet.Frontend.Templates](https://github.com/Baune8D/AspNet.Frontend.Templates)：dotnet new模板，适用于ASP.NET Core MVC和Razor Pages，支持Vite或Webpack。
+* [MinimalAPIs Template](https://github.com/RobertoFalconi/MinimalAPIsTemplate)：一个可用于构建.NET 10最小API的生产就绪模板，遵循Clean Architecture、领域驱动设计和CQRS，无需任何外部中介库。
 
 ## 后台管理系统
 
@@ -7312,6 +7337,7 @@ permalink: /csharp
 * [Epic.NET](https://github.com/Shamar/Epic.NET)：Epic是一个框架，旨在让你的领域模型实现完全专注于你的应用程序所面向的企业业务，而无需考虑基础设施。
 * [Blossom](https://github.com/sparc-coop/blossom)：Blossom是一个具有鲜明风格的框架框架，用于.NET 7.0 Web、移动和桌面开发。
 * [CleanCodeJN.GenericApis](https://github.com/decius999/CleanCodeJN-Generic-Apis)：CleanCodeJN包通过提供强大的CRUD操作框架，简化了.NET应用程序中Web API的开发，并以清晰易维护的方式促进了复杂业务逻辑的实现。
+* [Teclyn](https://github.com/klejeune/teclyn)：Teclyn是一个使用CQRS和事件溯源的多平台C#/ASP.NET生产就绪工具包。
 
 ## 权限管理系统
 
@@ -7447,7 +7473,7 @@ permalink: /csharp
 * [StarBlog](https://github.com/Deali-Axy/StarBlog)：StarBlog是一个基于.NET 6和ASP.NET Core开发的现代博客系统，支持Markdown文章导入。
 * [EasyCMS](https://github.com/aprilyush/EasyCMS)：EasyCMS基于ASP.NET Core的后台快速开发框架、内容管理系统。
 * [Grissom.CMS](https://github.com/grissomlau/Grissom.CMS)：基于.NET平台的后台内容管理系统。
-* [SiteServer CMS](https://gitee.com/siteserver/cms)：SiteServer CMS基于.NET Core，能够以最低的成本、最少的人力投入在最短的时间内架设一个功能齐全、性能优异、规模庞大并易于维护的网站平台。
+* [SiteServer CMS](https://github.com/siteserver/cms)：SiteServer CMS基于.NET Core，能够以最低的成本、最少的人力投入在最短的时间内架设一个功能齐全、性能优异、规模庞大并易于维护的网站平台。
 * [FytSoaCms](https://gitee.com/feiyit/FytSoaCms)：一款基于.NET Core 2.2/3.1功能强大的CMS建站系统。
 * [ShenNiusModularity](https://gitee.com/shenniu_code_group/shen-nius.-modularity)：基于.NET Core框架研发的自媒体内容管理系统。
 * [LdCms.NetCore](https://gitee.com/6666298/LdCmsNetCore)：LdCms.NetCore是一个轻量级的网站内容管理系统。
@@ -8860,6 +8886,7 @@ permalink: /csharp
 
 ## 撤销框架
 
+* [ReactiveHistory](https://github.com/wieslawsoltes/ReactiveHistory)：ReactiveHistory是一个用于.NET的撤销/重做框架。
 * [Monitored Undo](https://github.com/nathanaw/muf)：Monitored Undo是一个.NET Standard 2.0的撤销/重做框架。
 * [Memento](https://github.com/buunguyen/memento)：Memento是一个轻量且可扩展的.NET应用撤销框架。
 * [EditingSystem](https://github.com/YoshihiroIto/EditingSystem)：EditingSystem是一个适用于.NET的NativeAOT兼容的撤销/重做库。
@@ -9967,6 +9994,7 @@ permalink: /csharp
 * [IGeekFan.AspNetCore.RapiDoc](https://github.com/luoyunchong/IGeekFan.AspNetCore.RapiDoc)：一个实现Swagger 2.0和OpenAPI 3.0的API文档。
 * [OpenApi.ApiManifest](https://github.com/microsoft/OpenApi.ApiManifest)：用于解析/验证描述应用程序的HTTP API依赖项的文档的解析器/验证器。
 * [QSwag](https://github.com/swimlane/qswag)：适用于.NET Core的快速轻量级Swagger生成器。
+* [OpenAPI UI](https://github.com/jakubkozera/openapi-ui)：OpenAPI UI是一个交互式工作区，用于探索、测试和自动化OpenAPI API。
 
 ## 技术文档
 
@@ -10088,6 +10116,7 @@ permalink: /csharp
 * [Commander.NET](https://github.com/haath/Commander.NET)：C#命令行参数解析库，支持反序列化、命令和帮助文本生成。
 * [Odin](https://github.com/crmckenzie/Odin)：Odin是一个.NET库，它提供了一个基于约定的命令行解析器。
 * [CommandLineArgsGenerator](https://github.com/xb-bx/CommandLineArgsGenerator)：用于生成命令行参数解析器的源代码生成器。
+* [NullLib.CommandLine](https://github.com/SlimeNull/NullLib.CommandLine)：NullLib.CommandLine是一个C#/.NET库，用于通过命令行字符串方便快捷地调用C#中定义的方法。
 
 ## 控制台
 
@@ -10159,6 +10188,7 @@ permalink: /csharp
 * [PrettyPrintTreeCSharp](https://github.com/AharonSambol/PrettyPrintTreeCSharp)：此包允许你以可读的方式打印树数据结构。
 * [TableParser](https://github.com/Robert-McGinley/TableParser)：TableParser是一个.NET工具库，用于将集合对象格式化为易于阅读的ASCII表格字符串。
 * [FluentTextTable](https://github.com/nuitsjp/FluentTextTable)：FluentTextTable让使用支持全角字符的文本表格变得轻松便捷。
+* [DataTablePrettyPrinter](https://github.com/fjeremic/DataTablePrettyPrinter)：System.Data.DataTable的扩展库，提供扩展方法，可将DataTable完全自定义地美化打印为ASCII格式的字符串。
 
 ## ASCII艺术
 
@@ -10799,6 +10829,7 @@ permalink: /csharp
 
 * [Ultra](https://github.com/xoofx/ultra)：Ultra是一个适用于Windows的.NET应用程序高级性能分析器。
 * [NanoProfiler](https://github.com/ef-labs/nanoprofiler)：NanoProfiler是一个用C#编写的轻量级性能分析库，要求.NET 4.0。
+* [.NET Core Diagnostics](https://github.com/dotnet/diagnostics)：本仓库包含各种.NET Core运行时诊断工具的源代码。
 * [DotMemory](https://www.jetbrains.com/dotmemory)：DotMemory是一个.NET内存分析器，可以直接从Visual Studio启动，也可以作为JetBrains Rider的插件使用。
 * [DotTrace](https://www.jetbrains.com/profiler)：DotTrace可帮助你检测各种.NET和.NET Core应用程序的性能瓶颈。
 * [YourKit .NET Profiler](https://www.yourkit.com/dotnet-profiler/features/)： YourKit .NET Profiler是一款易于使用且准确的.NET应用程序性能和内存分析器。
@@ -13631,6 +13662,7 @@ permalink: /csharp
 * [Troschuetz.Random](https://gitlab.com/pomma89/troschuetz-random)：提供各种随机数生成器和分布的完全托管库。
 * [Moniker](https://github.com/alexmg/Moniker)：Moniker是一个小型.NET库和CLI工具，用于生成有趣的名字。
 * [CodenameGenerator](https://github.com/colinmxs/CodenameGenerator)：适用于.NET的可配置代码名称生成器。
+* [RandomStringGenerator4DotNet](https://github.com/keyvan/RandomStringGenerator4DotNet)：一个完全可定制的.NET库，用于生成不同长度和字符类型的随机字符串。
 
 ## 硬件ID生成器
 
@@ -14262,6 +14294,7 @@ permalink: /csharp
 * [SciColorMaps](https://github.com/ar1st0crat/SciColorMaps)：一个简单方便的库，提供自定义.NET颜色映射用于科学可视化。
 * [RandomColorSharped](https://github.com/nathanpjones/randomColorSharped)：David Merfield的JavaScript随机颜色生成器移植版。
 * [Hsluv C#](https://github.com/hsluv/hsluv-csharp)：HSLuv的C#实现。
+* [ColorHashSharp](https://github.com/fernandezja/ColorHashSharp)：根据给定的字符串生成颜色。
 
 ## 字典库
 
@@ -14308,6 +14341,7 @@ permalink: /csharp
 * [URL Canonicalize](https://github.com/schourode/canonicalize)：使用ASP.NET路由进行URL规范化。
 * [TldExtract](https://github.com/migueldeicaza/TldExtract)：.NET库，用于使用公共后缀列表从主机名中提取根域名、子域名和顶级域名。
 * [URI Template Library](https://github.com/tunnelvisionlabs/dotnet-uritemplate)：该库提供了.NET中RFC 6570模板的基本实现。
+* [ApiUrlsGenerator](https://github.com/VahidN/ApiUrlsGenerator)：这个库可以帮助你将字符串类型的API URL转换为强类型URL。
 
 ## 呼叫中心
 
