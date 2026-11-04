@@ -536,8 +536,8 @@ permalink: /csharp
 * [教育](#教育)
 * [数字资产](#数字资产)
 * [源代码生成](#源代码生成)
-* [代码生成器](#代码生成器)
 * [构建器模式](#构建器模式)
+* [代码生成器](#代码生成器)
 * [图像处理](#图像处理)
 * [二维码](#二维码)
 * [条形码](#条形码)
@@ -781,6 +781,7 @@ permalink: /csharp
 * [Kveer.XmlRPC](https://github.com/LordVeovis/xmlrpc)：该库包含一个用于使用XML-RPC Web Services的.NET库。
 * [NetRpc](https://github.com/newshadowk/NetRpc)：NetRpc是一个轻量级的RPC引擎，基于RabbitMQ、gRPC、HTTP，面向.NET 5.0/6.0/7.0/8.0。
 * [RPCForSMBLibrary](https://github.com/vletoux/RPCForSMBLibrary)：用于RPC调用的SMBLibrary扩展。
+* [DubboNet](https://github.com/apache/dubbo-net)：DubboNet是一个用于.NET的Dubbo客户端库。
 
 ## WebService框架
 
@@ -2143,6 +2144,7 @@ permalink: /csharp
 * [LlamaLib](https://github.com/undreamai/LlamaLib)：LlamaLib是一个高级C和C#库，可以在任何地方运行LLM。
 * [SharpAI](https://github.com/jchristn/SharpAI)：一个用于本地AI模型推理的.NET库，提供与Ollama和OpenAI兼容的REST API。
 * [HyMT2Sharp](https://github.com/sdcb/HyMT2Sharp)：纯C#的Hy-MT2非官方CPU推理实现。
+* [DotFly](https://github.com/kkokosa/dotFly)：DotFly是一个原生.NET推理引擎。
 
 ## 代理框架
 
@@ -2159,6 +2161,8 @@ permalink: /csharp
 * [HPD AI Framework](https://github.com/HPD-AI/HPD-AI-Framework)：一套用于构建生产级AI应用程序、自主代理、沙盒计算环境、高精度文档提取、数据持久化和主权金融基础设施的C#框架。
 * [Runiq AI](https://github.com/runiq-net/Runiq.AI)：Runiq AI是一个面向.NET的代码优先型代理运行时环境。
 * [Jacquard](https://github.com/apncodes/Jacquard)：用于构建智能体的原生C# SDK。
+* [Pi.NET](https://github.com/AIDotNet/pi.net)：Pi.NET是Pi的.NET 10移植版。
+* [MentorAgent](https://github.com/Novior-dev/MentorAgent)：为你的.NET应用添加AI代理。
 
 ## MCP
 
@@ -2956,6 +2960,7 @@ permalink: /csharp
 * [Laz](https://github.com/tinfoil-herald/laz)：.NET的跨平台用户输入模拟和屏幕截图。
 * [FluentAutomation](https://github.com/stirno/FluentAutomation)：用于UI自动化的简单Fluent API。
 * [Testflow](https://github.com/SeeSharpOpenSource/Testflow)：Testflow是由JYTEK维护的面向测试与测量行业的测试自动化平台。
+* [AutoMancer](https://github.com/pturch/AutoMancer)：Windows自动化框架。
 
 ## Selenium
 
@@ -3480,6 +3485,8 @@ permalink: /csharp
 * [Westwind.Data.EfCore](https://github.com/RickStrahl/Westwind.Data.EfCore)：适用于Entity Framework Code First的轻量级业务对象库。
 * [EntityFramework.Rx](https://github.com/NickStrupat/EntityFramework.Rx)：Entity Framework实体的响应式扩展包装器，用于热可观察对象。
 * [Moq.EntityFrameworkCore](https://github.com/MichalJankowskii/Moq.EntityFrameworkCore)：该库可帮助你Mock EntityFramework上下文。
+* [EntityFramework.OrderBy](https://github.com/SimonCropp/EntityFramework.OrderBy)：根据Fluent配置，对EntityFramework查询应用默认排序。
+* [EfQueryComplexity](https://github.com/SimonCropp/EfQueryComplexity)：检测过于复杂的Entity Framework Core查询，并将其记录到日志或抛出异常。
 
 ## Dapper扩展
 
@@ -4310,6 +4317,7 @@ permalink: /csharp
 * [Coverity Security Library .NET](https://github.com/coverity/coverity-security-library-.net)：CSL是一套轻量级的转义例程，用于修复ASP.NET Web应用程序中的跨站脚本(XSS)、SQL注入和其他安全缺陷。
 * [ProceXSS](https://github.com/bugthesystem/ProceXSS)：ProceXSS是一个Asp.NET HTTP模块，用于防止XSS攻击。
 * [SecurityHeadersMiddleware](https://github.com/StefanOssendorf/SecurityHeadersMiddleware)：用于在OWIN应用程序中设置有用的安全相关HTTP标头的中间件。
+* [Umbraco.Community.CSPManager](https://github.com/Matthew-Wise/Umbraco-CSP-manager)：一款适用于Umbraco CMS的全面内容安全策略(CSP)管理工具包，可帮助保护你的网站免受XSS攻击和其他代码注入漏洞的侵害。
 
 ## 数据脱敏
 
@@ -4605,6 +4613,8 @@ permalink: /csharp
 * [Visual FoxPro Toolkit .NET](https://github.com/mattslay/Visual-FoxPro-Toolkit-for-.NET)：Visual FoxPro Toolkit .NET是一个类库，包含超过225个Visual FoxPro函数，可用于任何.NET语言。
 * [CoreSystem](https://github.com/benmccallum/CoreSystem)：一个包含核心辅助函数、扩展函数、常量、枚举和其他适用于所有.NET项目的实用工具的库。
 * [Common8](https://github.com/BeyondDimension/Common)：次元超越.NET 8+通用类库。
+* [Krafted](https://github.com/maiconheck/krafted-guards)：Krafted提供了一套实用且可复用的代码工具包，旨在提高你的工作效率。
+* [Wisej Extensions](https://github.com/iceteagroup/wisej-extensions)：适用于Wisej.NET的开源控件、组件和服务，图表、编辑器、地图、日历、功能区、设备 API、图标包等等。
 
 ## 日期时间
 
@@ -5376,6 +5386,7 @@ permalink: /csharp
 * [Facet](https://github.com/Tim-Maes/Facet)：Facet是一个C#源代码生成器，可以消除DTO样板代码。
 * [DeepClone](https://github.com/night-moon-studio/DeepClone)：基于Natasha的深度克隆库。
 * [Nuclex.Cloning](https://github.com/junweilee/Nuclex.Cloning)：这是一个基于C#的.NET 4库，用于深度克隆对象。
+* [DotNetMapper](https://github.com/sanamhub/DotNetMapper)：DotNetMapper是一个零配置的.NET对象映射器。
 
 ## 类型转换
 
@@ -6186,6 +6197,7 @@ permalink: /csharp
 * [GhostscriptSharp](https://github.com/mephraim/ghostscriptsharp)：GhostscriptSharp是Ghostscript库的一个简单C#封装器。
 * [MuPDF.NET](https://github.com/ArtifexSoftware/MuPDF.NET)：MuPDF.NET为MuPDF添加了C#绑定和抽象层。
 * [Wisp](https://github.com/patriksvensson/wisp)：一个用于与PDF文件交互的底层库。
+* [PaperSharp](https://github.com/SpringHgui/papersharp)：面向.NET的高性能PDF/Image渲染引擎。
 * [RazorPDF](https://github.com/RazorAnt/RazorPDF)：RazorPDF是一个简单的项目，它让使用Razor视图引擎创建PDF文件变得轻而易举。
 * [DanfeSharp](https://github.com/SilverCard/DanfeSharp)：DanfeSharp是一个C#库，它允许生成PDF格式的DANFE。
 * [Api2Pdf.NET](https://github.com/Api2Pdf/api2pdf.dotnet)：Api2Pdf.com是一个强大的REST API，用于在.NET应用程序中生成文档、文件转换和自动化内容提取。
@@ -6233,6 +6245,14 @@ permalink: /csharp
 * [SelectPDF](https://selectpdf.com/)：SelectPDF可将HTML转换为PDF。
 * [PdfTocExtractor](https://github.com/iugamlabs/pdf-toc-extractor)：PdfTocExtractor是一个纯C# AOT实现的轻量级PDF目录提取工具，用于从PDF文件中提取目录并导出为多种格式。
 * [TerraPDF](https://github.com/sahebansari/TerraPDF)：TerraPDF是一个免费开源的C# PDF库和.NET PDF生成器。
+* [FileFormats.Pdf](https://github.com/synercoder/FileFormats.Pdf)：用于创建包含图像的简单PDF文件的库。
+* [PdfDocuments](https://github.com/porrey/PdfDocuments)：使用PdfSharp轻松创建PDF文档的高级C#库。
+* [SafeRapidPdf](https://github.com/Color-Of-Code/SafeRapidPdf)：该库旨在提供一个快速而可靠的PDF文件解析器。
+* [DoclingDotNet](https://github.com/sparkeh9/DoclingDotNet)：Docling文档解析库的高性能、纯托管.NET移植版。
+* [DotImpose](https://github.com/sillsdev/pdfdroplet)：一个用于PDF拼版和布局操作的.NET库，支持各种小册子和日历布局。
+* [Cliboard](https://github.com/clipboard-org/clipboard)：一个C#库，能够从各种文档文件格式中提取文本。
+* [SharpLayout](https://github.com/AVPolyakov/SharpLayout)：用于创建PDF的C#库。
+* [DocnetExtended](https://github.com/talrand/DocnetExtended)：DocNetExtended是一个基于DocNet库的小型扩展库，旨在从PDF中提取可读顺序的文本。
 
 ## PPT
 
@@ -6458,6 +6478,7 @@ permalink: /csharp
 * [Unhwp](https://github.com/iyulab/unhwp)：一个高性能的Rust库，用于将HWP/HWPX韩语文字处理器文档提取为带有资源的结构化Markdown。
 * [MarkItDownSharp](https://github.com/kelter-antunes/MarkItDownSharp)： MarkItDownSharp是一个C# .NET Framework库，旨在将各种文件格式转换为Markdown。
 * [PdfPecker](https://github.com/Moonwalker1307/PdfPecker)：快速、无依赖的.NET HTML和Markdown转PDF工具。
+* [Markdown2Pdf](https://github.com/Flayms/Markdown2Pdf)：用于将Markdown转换为PDF的.NET库。
 
 ## 文件上传
 
@@ -6966,6 +6987,7 @@ permalink: /csharp
 * [SharpTAL](https://github.com/lck/SharpTAL)：SharpTAL是一个适用于.NET平台的HTML/XML模板引擎。
 * [Veil](https://github.com/csainty/Veil)：Veil是一个.NET模板渲染器/视图引擎。
 * [Transplator](https://github.com/atifaziz/Transplator)：简单的C#文本模板源代码生成器。
+* [Lissic](https://github.com/gendeg/Lissic)：Lissic是一个用于.NET的Web和文本模板引擎。
 
 ## 对象池
 
@@ -7250,6 +7272,8 @@ permalink: /csharp
 * [MinimalAPIs Template](https://github.com/RobertoFalconi/MinimalAPIsTemplate)：一个可用于构建.NET 10最小API的生产就绪模板，遵循Clean Architecture、领域驱动设计和CQRS，无需任何外部中介库。
 * [ASP.NET Core WebApi Template](https://github.com/lucadallavalle/template-webapi-aspnet)：此模板可用于通过单个CLI命令引导启动一个功能齐全的ASP.NET Web Api项目。
 * [Orion Api](https://github.com/vanderlan/Orion-Api)：用于创建.NET Web API的简单项目模板。
+* [CleanGraphQLApi](https://github.com/LeanMeanCleanApps/CleanGraphQLApi)：这是一个基于.NET 10的GraphQL API模板，使用Hot Chocolate库，并采用精简的Clean Architecture架构构建。
+* [BlazorKit Application Template](https://github.com/oqtanelabs/blazorkit.application)：这是一个专为Blazor开发项目设计的Visual Studio项目模板。
 
 ## 后台管理系统
 
@@ -7419,6 +7443,10 @@ permalink: /csharp
 * [Zongsoft Framework](https://github.com/Zongsoft/framework)：这是一个基于Zongsoft开发框架的开源项目集合，支持.NET 8、9、10等版本。
 * [ServerFramework](https://github.com/DavidRogersDev/ServerFramework)：一系列小型库，具有一定的规范性，可以减少在启动新的ASP.NET Core Web应用程序时需要编写的设置代码量。
 * [Cimpress.Nancy](https://github.com/Cimpress-MCP/Cimpress.Nancy)：一个用于构建NancyFx微服务的库。
+* [Polhem Framework](https://github.com/polhem-dev/polhem)：Polhem框架是一个N层架构、整洁架构、MVVM混合架构，旨在加速企业信息系统的开发。
+* [CoworkeeLib](https://github.com/fgilde/CoworkeeLib)：适用于.NET 10的模块化应用程序框架。
+* [iPlus](https://github.com/iplus-framework/iPlus)：iPlus是一个开源的工业软件平台，它将传统编程与低代码环境相结合。
+* [Facility](https://github.com/FacilityApi/Facility)：用于与Facility API框架配合使用的工具和库。
 
 ## 权限管理系统
 
@@ -7681,6 +7709,7 @@ permalink: /csharp
 * [iMES](https://github.com/zmrid/iMES-Factory)：一款基于.NET Core 3.1和Vue 3的MES管理系统。
 * [Mes](https://github.com/fengxing1121/Mes)：板式家具Mes生产管理系统。
 * [iPlusMES](https://github.com/iplus-framework/iPlusMES)：iPlus-MES是一款高度可配置、可扩展且适应性强的制造执行系统。
+* [VisionMES](https://github.com/agentthink/wpf-mes)：VisionMES Pro是一款基于WPF开发的工业级视觉检测制造执行系统桌面客户端。
 
 ## WMS系统
 
@@ -8303,6 +8332,7 @@ permalink: /csharp
 * [WinFormsSyntaxHighlighter](https://github.com/sinairv/WinFormsSyntaxHighlighter)：Windows Forms富文本框语法高亮显示。
 * [MACTrackBarLib](https://github.com/mscrivo/MACTrackBarLib)：适用于.NET WinForms的更友好的滑块/滑动条控件。
 * [T2tWinFormAppBarLib](https://github.com/tip2tail/t2tWinFormAppBarLib)：用于创建AppBar的辅助库。
+* [ZenForms](https://github.com/drJhonatan00/ZenForms)：一个适用于.NET Framework 4.7.2的主题化WinForms组件库。
 
 ## WinForms图表库
 
@@ -8442,6 +8472,7 @@ permalink: /csharp
 * [Avalonia.Labs](https://github.com/AvaloniaUI/Avalonia.Labs)：Avalonia的实验性控件。
 * [Avalonia.ExtendedToolkit](https://github.com/mameolan/Avalonia.ExtendedToolkit)：Avalonia.ExtendedTool将WPF的一些控件移植到Avalonia。
 * [Aura.UI](https://github.com/PieroCastillo/Aura.UI)：一个包含大量控件的AvaloniaUI库。
+* [TKCode.Arc](https://github.com/AIDotNet/TKCode.Arc)：适用于Avalonia的Arc风格组件。
 * [Nova.Avalonia.UI](https://github.com/jsuarezruiz/Nova.Avalonia.UI)：Nova.Avalonia.UI是一套针对Avalonia UI的综合性UI控件套件，旨在帮助开发者构建现代、可访问且高性能的跨平台应用程序。
 * [Zafiro.Avalonia](https://github.com/SuperJMN/Zafiro.Avalonia)：这是一个适用于Avalonia 11.3.x的UI组件库，为桌面、移动和浏览器应用程序提供控件、对话框、行为和辅助函数。
 * [Avalonia Controls](https://github.com/HeBianGu/Avalonia-Controls)：Avalonia皮肤、主题、自定义控件、数据库、系统模块资源库。
@@ -8471,6 +8502,7 @@ permalink: /csharp
 * [Clowd.Clipboard](https://github.com/clowd/Clowd.Clipboard)：一个用于.NET的Windows剪贴板库，以及一个定制的bmp/dib解析器。
 * [Asv.Avalonia.Map](https://github.com/asv-soft/asv-avalonia-map)：Avalonia UI的地图库。
 * [AvaloniaTokenizingTextBox](https://github.com/puppetsw/AvaloniaTokenizingTextBox)：一个用于Avalonia的分词文本框，类似于Marcus Perryman为WindowsCommunityToolkit创建的文本框。
+* [StreamMark](https://github.com/AtomUICommunity/StreamMark)：为Avalonia构建的高性能流式Markdown渲染，专为AI聊天客户端而设计。
 
 ## Avalonia图表库
 
@@ -8864,6 +8896,7 @@ permalink: /csharp
 * [MD2RazorGenerator](https://github.com/jsakamoto/MD2RazorGenerator)：MD2RazorGenerator是一个用于Blazor的C#源代码生成器NuGet包，它可以将Markdown文件转换为Razor组件。
 * [Toolbelt.Blazor.HotKeys](https://github.com/jsakamoto/Toolbelt.Blazor.HotKeys)：这是一个类库，为你的Blazor WebAssembly应用程序提供以配置为中心的键盘快捷键。
 * [VxFormGenerator](https://github.com/Aaltuj/VxFormGenerator)：VxFormGenerator是一个Blazor表单生成库。
+* [BlazorToolkit](https://github.com/devInstance/BlazorToolkit)：Blazor Toolkit是一套全面的工具集，旨在增强Blazor应用程序的开发。
 
 ## IDE
 
@@ -8914,6 +8947,7 @@ permalink: /csharp
 * [MD Redactor](https://github.com/aresyn/MD_Redactor)：MD Redactor是一款适用于Windows的Markdown编辑器。
 * [Notepad#](https://github.com/Hexman768/Notepad-Sharp)：Notepad#是一款通用文本编辑器，支持多种编程语言进行代码编辑。
 * [MarkLeaf](https://github.com/zhuanshunjishi2017/markleaf)：MarkLeaf这是一个原生轻量化Markdown可视化编辑器。
+* [MDNote](https://github.com/Lahai-Roi/MDNote)：像记事本一样轻快敏捷的Windows Markdown与TXT编辑器。
 
 ## MVVM框架
 
@@ -9912,6 +9946,7 @@ permalink: /csharp
 * [Weixin.PublicAccount](https://gitee.com/xrwang2/xrwang.weixin.PublicAccount)：免费开源的强类型.NET微信公众平台类库。
 * [Aquarius.Weixin](https://github.com/Weidaicheng/Aquarius.Weixin)：.NET Core 2.0微信公众号开发框架。
 * [WeChatAPI](https://github.com/xJonathanLEI/WeChatAPI)：WeChatAPI是一个用C#编写的第三方API，用于微信。
+* [MudWechat](https://github.com/mudtools/MudWechat)：微信生态的AI原生.NET SDK。
 
 ## QQ
 
@@ -10821,6 +10856,7 @@ permalink: /csharp
 * [Binary Compatibility Checker](https://github.com/tunnelvisionlabs/dotnet-compatibility)：本项目实现了一个.NET程序集的二进制兼容性检查器。
 * [ParallelHelper](https://github.com/Concurrency-Lab/ParallelHelper)：Parallel Helper是一个用于C#项目的静态代码分析器，支持并行和异步代码的开发。
 * [StaticCs](https://github.com/agocke/StaticCs)：一系列分析器、属性和库，旨在帮助C#开发人员编写更清晰、更类型安全的代码。
+* [EFDoctor](https://github.com/vuglll/EFDoctor)：EF Core的本地优先静态分析。
 
 ## 空安全
 
@@ -11141,6 +11177,7 @@ permalink: /csharp
 * [TypeCobol](https://github.com/TypeCobolTeam/TypeCobol)：TypeCobol是一个用于IBM Enterprise Cobol 6 for z/OS语法的增量式Cobol解析器。
 * [Type Inference](https://github.com/cdiggins/type-inference)：这是一个用TypeScript、C#实现的多态类型推断算法。
 * [TypeScript .NET](https://github.com/stepwisehq/typescript-dotnet)：这是一个基于Go TypeScript编译器的C#移植版本，具有项目检查、普通程序输出和真正的语言服务器功能。
+* [UniversalToolchain](https://github.com/Misha1302/UniversalToolchain)：UniversalToolchain是一个.NET编译器和运行时框架，用于从包拥有的功能、贡献、类型化工件转换、后端和运行时提供程序组合语言实现。
 
 ## 解释器
 
@@ -11588,6 +11625,7 @@ permalink: /csharp
 * [VCI4 .NET Wrapper](https://github.com/hms-networks/ixxat-vci4-dotnet-wrapper)：本项目包含VCI4 .NET封装器的源代码，该组件提供对VCI4 C++ API的访问。
 * [Mitel API](https://github.com/eventphone/mitel-api)：.NET库，用于Mitel OMM使用的SIP-DECT OM应用程序XML接口。
 * [IOLink.NET](https://github.com/domdeger/IOLink.NET)：用于处理IO-Link数据和设备的C# .NET库。
+* [RfidDotNet](https://github.com/maxbl4/RfidDotNet)：用于与RFID读取器配合使用的.NET Standard 2.0库。
 
 ## 键盘鼠标库
 
@@ -11639,6 +11677,7 @@ permalink: /csharp
 * [OpenAC.Net.EscPos](https://github.com/OpenAC-Net/OpenAC.Net.EscPos)：一个跨平台的.NET库，用于在非金融热敏打印机上使用ESC/POS协议和主要制造商的各种变体进行收据的通信、打印和图形预览。
 * [DotNet.Util.Zpl](https://github.com/cuiwenyuan/DotNet.Util.Zpl)：DotNet.Util.Zpl是一套.NET Standard 2.0库，用于轻松设计标签和生成ZPL数据，它支持4种方式将标签打印到Zebra打印机。
 * [Zepra Barcode Print](https://github.com/emrecavunt/zeprabarcodeprint)：使用WPF打印Zepra条形码。
+* [Library PDF Printer](https://github.com/PockyBum522/library-pdf-printer)：一种无需安装Adobe Reader即可在Windows系统上轻松打印PDF文件的方法。
 
 ## 生物信息学
 
@@ -11687,6 +11726,7 @@ permalink: /csharp
 ## 物理库
 
 * [SharpProp](https://github.com/portyanikhin/sharpprop)：CoolProp的C#封装器。
+* [University Physics](https://github.com/Stuart88/University-Physics)：University Physics是一个用于执行各种物理计算的C#库。
 
 ## 天文学
 
@@ -11864,6 +11904,7 @@ permalink: /csharp
 * [Nucleotide](https://github.com/dpvreony/nucleotide)：Nucleotide是一个库，用于帮助生成.NET代码。
 * [AutomaticApi](https://github.com/csc414/AutomaticApi)：AutomaticApi可以根据服务自动生成API，只需定义一个REST API接口即可。
 * [Typescript.Definitions.Tools](https://github.com/originalmoose/Typescript.Definitions.Tools)：一个用于从C#代码生成TypeScript定义文件和TypeScript文件的辅助库。
+* [Sourcy](https://github.com/thomhurst/Sourcy)：Sourcy是一个源代码生成器，它可以为存储库中的文件路径提供静态编译时属性。
 
 ## 构建器模式
 
@@ -12011,6 +12052,7 @@ permalink: /csharp
 * [OpenSlideNET](https://github.com/yigolden-oss/OpenSlideNET)：OpenSlide的.NET绑定。
 * [SharpAstro Codecs](https://github.com/SharpAstro/Codecs)：适用于.NET的图像编解码器。
 * [IEU.Core](https://github.com/ptrsuder/IEU.Core)：图像增强工具的核心库。
+* [Sdcb.SimdCodecs](https://github.com/sdcb/SimdCodecs)：适用于.NET 10的纯托管图像编解码器。
 
 ## 二维码
 
@@ -12031,6 +12073,7 @@ permalink: /csharp
 * [QRCode](https://github.com/Uzi-Granot/QRCode)：适用于VS 2022 .NET 6.0的QR码编码器和解码器C#类库。
 * [ColorZXing.Net](https://github.com/HainanZhao/ColorZXing.Net)：一款基于ZXing.Net的彩色二维码生成器。
 * [Oscore.QrCodes](https://github.com/oscoreio/QrCodes)：现代高效的跨平台二维码生成、渲染和序列化。
+* [VietQR.Core](https://github.com/Ngochiendev/vietqr-core)：适用于.NET的NAPAS247二维码支付生态系统。
 
 ## 条形码
 
@@ -12290,6 +12333,7 @@ permalink: /csharp
 * [SIPSorcery](https://github.com/sipsorcery-org/sipsorcery)：SIPSorcery是一个全面的实时通信库，能够让开发者在其应用程序中添加VoIP和WebRTC功能。
 * [Pjsip4NET](https://github.com/ladendirekt/pjsip4net)：适用于.NET的pjsip高级用户代理API封装。
 * [C# SIP Library](https://github.com/ims-research/C-Sharp-Sip-Lib)：用C#编写的SIP库。
+* [SpawnDev.RTC](https://github.com/LostBeard/SpawnDev.RTC)：适用于.NET的跨平台WebRTC。
 
 ## 多媒体库
 
@@ -12528,6 +12572,7 @@ permalink: /csharp
 * [NG.Velox](https://github.com/MachineGate/NG.Velox)：用于数控运动学、轨迹规划和实时插补的零分配、高性能G代码处理流水线。
 * [Tecan SiLA2 SDK](https://gitlab.com/SiLA2/vendors/sila_tecan)：此仓库包含使用.NET的SiLA 2标准的替代实现。
 * [TwinSharp](https://github.com/kimblad/TwinSharp)：TwinSharp是一个免费的.NET开源库，它使在C#中表示和控制TwinCAT对象变得容易。
+* [ZeroUI](https://github.com/agentthink/forge-scada)：ZeroUI是一款企业级工业自动化UI套件和运行时引擎。
 
 ## Modbus
 
@@ -12886,6 +12931,7 @@ permalink: /csharp
 * [Pliant](https://github.com/patrickhuber/Pliant)：Pliant是一个基于表格的解析器，它实现了Earley算法。
 * [Lokad.Parsing](https://github.com/Lokad/Parsing)：Lokad.Parsing是一个类型安全的.NET库，用于构建词法分析器和语法分析器。
 * [Kingsland.MofParser](https://github.com/mikeclayton/Kingsland.MofParser)：Kingsland.MofParser是一个用于解析托管对象格式(MOF)文件内容的C#库。
+* [Parsley](https://github.com/codewitch-honey-crisis/Parsley)：一个利用代码合成的解析器生成器。
 
 ## 解析器组合器
 
@@ -13478,6 +13524,7 @@ permalink: /csharp
 * [De4dot Cex](https://github.com/ViRb3/de4dot-cex)：De4dot反混淆器，完全支持原版ConfuserEx。
 * [UnConfuserEx](https://github.com/Zypherion-Technologies/UnConfuserEx)：UnconfuserEx的增强分支，增强对现代ConfuserEx2变体的支持，包括防篡改恢复、压缩机移除、控制流恢复和资源重建。
 * [Skater .NET Obfuscator](https://github.com/Rustemsoft/Skater-.NET-Obfuscator)：Skater .NET Obfuscator是一款高级工具，可通过各种混淆技术和算法来保护.NET代码。
+* [EazUnpacker](https://github.com/JacksonOnly/EazUnpacker)：面向Eazfuscator.NET托管程序集的命令行解包与反混淆工具。
 
 ## 逆向工程
 
@@ -14231,6 +14278,7 @@ permalink: /csharp
 
 * [Faster.Map](https://github.com/Wsm2110/Faster.Map)：Faster.Map是一个速度极快、内存效率极高的.NET HashMap库。
 * [FastHashtable](https://github.com/neuecc/FastHashtable)：高性能代码基础设施。
+* [BBTree](https://github.com/LukaszRozmej/BBTree)：适用于.NET的快速有序映射。
 
 ## 布隆过滤器
 
