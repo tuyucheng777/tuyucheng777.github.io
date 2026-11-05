@@ -194,6 +194,11 @@ permalink: /javalibs
   * [ICAP](#ICAP)
   * [SNTP](#SNTP)
   * [EPP](#EPP)
+* [网络爬虫](#网络爬虫)
+  * [爬虫库](#爬虫库)
+  * [HTML提取](#HTML提取)
+  * [爬虫系统](#爬虫系统)
+  * [爬虫IP池](#爬虫IP池)
 * [并发编程](#并发编程)
   * [响应式](#响应式)
   * [线程库](#线程库)
@@ -450,6 +455,7 @@ permalink: /javalibs
   * [运筹学](#运筹学)
   * [LaTeX](#LaTeX)
   * [MATLAB](#MATLAB)
+* [SMT求解器](#SMT求解器)
 * [DSL](#DSL)
 * [JMX](#JMX)
 * [RMI](#RMI)
@@ -477,11 +483,6 @@ permalink: /javalibs
 * [化学库](#化学库)
 * [家谱学](#家谱学)
 * [心理测量学](#心理测量学)
-* [网络爬虫](#网络爬虫)
-  * [爬虫库](#爬虫库)
-  * [HTML提取](#HTML提取)
-  * [爬虫系统](#爬虫系统)
-  * [爬虫IP池](#爬虫IP池)
 * [工作流](#工作流)
 * [编排引擎](#编排引擎)
 * [规则引擎](#规则引擎)
@@ -501,7 +502,6 @@ permalink: /javalibs
   * [Cron解析](#Cron解析)
   * [任务监控](#任务监控)
 * [企业集成模式](#企业集成模式)
-* [SMT求解器](#SMT求解器)
 * [REST错误处理](#REST错误处理)
 * [REST版本控制](#REST版本控制)
 * [插件框架](#插件框架)
@@ -727,6 +727,7 @@ permalink: /javalibs
   * [支付平台](#支付平台)
   * [支付网关](#支付网关)
   * [银行卡/信用卡](#银行卡信用卡)
+  * [支付文件格式](#支付文件格式)
 * [短信](#短信)
 * [邮件库](#邮件库)
 * [邮件服务器](#邮件服务器)
@@ -821,6 +822,7 @@ permalink: /javalibs
   * [量化框架](#量化框架)
   * [算法交易](#算法交易)
   * [FIX引擎](#FIX引擎)
+  * [复式记账](#复式记账)
   * [订单匹配引擎](#订单匹配引擎)
   * [金融消息格式](#金融消息格式)
   * [货币](#货币)
@@ -2531,6 +2533,7 @@ permalink: /javalibs
 * [Apache Amaterasu](https://github.com/apache/incubator-retired-amaterasu)：Apache Amaterasu是一个开源的数据管道部署工具。
 * [HiveIO](https://github.com/facebookarchive/hive-io-experimental)：一个用Java编写的Hive输入/输出库，由Facebook开源。
 * [Com Cotdp Hadoop](https://github.com/cotdp/com-cotdp-hadoop)：一个小型工具类库，旨在帮助用户使用Hadoop。
+* [Hive Third Functions](https://github.com/aaronshan/hive-third-functions)：一些有用的自定义Hive UDF函数，特别是数组和JSON函数。
 
 #### 大数据组件
 
@@ -6210,7 +6213,7 @@ permalink: /javalibs
 * [Java WebSocket Client](https://github.com/SpatialInteractive/java-websocket-client)：用于Java的WebSocket客户端类。
 * [WebSocket](https://github.com/DitchOoM/websocket)：简单的Kotlin多平台WebSocket封装器。
 * [CraftsNet](https://github.com/CraftsBlock/CraftsNet)：CraftsNet是一个易于使用的Java库，它使开发人员能够轻松地在服务器应用程序中创建和管理HTTP路由和WebSocket端点。
-* [WebSocket4Java](https://github.com/foundry4j/WebSocket4Java)：WebSocket4Java是一个基于JDK NIO和虚拟线程构建的高性能WebSocket服务器框架，完全符合RFC 6455标准。
+* [Foundry4j WebSocket](https://github.com/foundry4j/foundry4j-websocket)：Foundry4j WebSocket是一个基于JDK NIO和虚拟线程构建的高性能WebSocket服务器框架，完全符合RFC 6455标准。
 * [WebSocket API](https://github.com/caoliang1918/websocket-api)：WebSocket压测工具。
 * [ModernConnector](https://github.com/ProgrammerIn-wonderland/ModernConnector)：用于在J2ME上使用WebSocket和TLS 1.2进行更现代连接的库。
 * [MatsSocket](https://github.com/centiservice/matssocket)：MatsSocket是一个基于WebSocket的客户端/服务器解决方案。
@@ -6806,6 +6809,168 @@ permalink: /javalibs
 * [ARI Toolkit](https://github.com/AusRegistry/ari-toolkit)：实现核心EPP规范的客户端库。
 * [Verisign EPP](https://github.com/edvin/epp-verisign)：Verisign EPP捆绑包。
 
+## 网络爬虫
+
+这里列出来网络爬虫相关的库、软件、工具。
+
+#### 爬虫库
+
+* [Crawler4j](https://github.com/yasserg/crawler4j)：Crawler4j是一个开源的Java网络爬虫库，它提供了一个用于爬虫的简单界面，由加州大学欧文分校开源。
+* [Apache Nutch](https://github.com/apache/nutch)：Nutch是一个高度可扩展、成熟、可用于生产的网络爬虫，它支持细粒度配置并适应各种数据采集任务。
+* [Jsoup](https://github.com/jhy/jsoup)：Jsoup是一个Java HTML解析器，专为HTML编辑、清理、抓取和XSS安全而构建。
+* [Salyut](https://github.com/taofen8/salyut)：Salyut是基于标记语言的开源爬虫框架，由淘粉吧开源。
+* [StormCrawler](https://github.com/DigitalPebble/storm-crawler)：StormCrawler是一个开源框架，用于在Storm上构建低延迟、可扩展的网络爬虫。
+* [Sparkler](https://github.com/USCDataScience/sparkler)：Sparkler是在Spark上运行的类似Nutch的爬虫库，由南加州大学开源。
+* [WebMagic](https://github.com/code4craft/webmagic)：WebMagic是一个简单灵活的Java爬虫框架。
+* [Venom](https://github.com/PreferredAI/venom)：Venom是一个速度极快、完全可定制、功能强大且简单易用的爬虫，由PreferredAI开发。
+* [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是Java程序的无GUI浏览器。
+* [Gecco](https://github.com/xtuhcy/gecco)：Gecco集成了Jsoup、HttpClient、FastJson、Spring、HtmlUnit、Redission框架，让你只需要配置一些JQuery风格的选择器就可以非常快速的编写一个爬虫。
+* [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：SeimiCrawler是一个敏捷、独立部署、支持分布式的Java爬虫框架。
+* [NewPipe Extractor](https://github.com/TeamNewPipe/NewPipeExtractor)：NewPipe Extractor是一个用于从流媒体站点中提取内容的库。
+* [Apache ManifoldCF](https://github.com/apache/manifoldcf)：ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
+* [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，它提供了一些简单的网络爬虫接口，由合肥工业大学开源。
+* [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：XXL-Crawler是一个分布式爬虫框架。
+* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：Jvppeteer通过DevTools and WebDriver-bidi控制Chrome或Firefox。
+* [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
+* [Spiderman](https://gitee.com/l-weiwei/spiderman)：Spiderman是一个垂直领域的爬虫，可用于抓取特定目标网页的内容，并且解析为所需要的业务数据，整个过程追求无需任何编码就能实现。
+* [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：MongooCrawler是一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
+* [XueQiuSuperSpider](https://github.com/decaywood/XueQiuSuperSpider)：雪球超级爬虫是基于雪球网、东方财富和同花顺实现的股票数据爬虫程序。
+* [Crawljax](https://github.com/crawljax/crawljax)：Crawljax是一个自动爬取和测试现代Web应用程序的工具。
+* [Spiderman2](https://gitee.com/l-weiwei/Spiderman2)：Spiderman的升级版，在性能、架构、易用性上有提升，支持分布式。
+* [Itsy](https://github.com/dakrone/itsy)：一个用Clojure编写的多线程网络爬虫。
+* [Jaunt](https://jaunt-api.com/)：Jaunt是一个用于Web抓取、Web自动化和JSON查询的Java库。
+* [Jauntium](https://jauntium.com/)：Jauntium是一个新的免费Java库，可让你轻松自动化Chrome、Firefox、Safari、Edge、IE和其他现代Web浏览器。
+* [SuperSpider](https://github.com/Lyx3314844-03/superspider)：SuperSpider是一个多语言网络爬虫框架，提供Python、Go、Rust和Java四种可用于生产环境的运行时环境。
+* [Robots.txt Java](https://github.com/google/robotstxt-java)：Java中的Google Robots.txt解析器和匹配器库。
+* [Crawler Commons](https://github.com/crawler-commons/crawler-commons)：Crawler Commons是一组可重用的Java组件，可实现任何网络爬虫的通用功能。
+* [CommonCrawl](https://github.com/commoncrawl/commoncrawl-crawler)：CommonCrawl爬虫引擎及相关MapReduce代码。
+* [Common Crawl](https://github.com/commoncrawl/commoncrawl)：Common Crawl是一个用于访问Common Crawl语料库ARC文件的Java支持库，提供Hadoop集成和直接读取API。
+* [Norconex HTTP Collector](https://github.com/Norconex/crawlers)：Norconex是一个功能齐全的爬虫库，可以操作收集的数据并将其存储到你选择的仓库(例如搜索引擎)中。
+* [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
+* [VSCrawler](https://gitee.com/virjar/vscrawler)：适合抓取封堵的爬虫框架。
+* [Crawler](https://github.com/vidageek/crawler)：简单的Java网络爬虫库。
+* [Fess Crawler](https://github.com/codelibs/fess-crawler)：Fess Crawler是一个用于爬取网站和文件系统的爬虫库。
+* [URL Frontier](https://github.com/crawler-commons/url-frontier)：URL Frontier项目的目标是开发一个爬虫/语言中立的API，用于网络爬虫在与网络前沿通信时执行的操作。
+* [Skraper](https://github.com/sokomishalov/skraper)：Kotlin/Java库和CLI工具，用于从各种来源抓取帖子和媒体，无需授权也无需整页渲染。
+* [Pegasus](https://github.com/shriphani/pegasus)：Pegasus是一个高度模块化、耐用且可扩展的Clojure爬虫。
+* [Google Play Crawler Java API](https://github.com/Akdeniz/google-play-crawler)：Google Play Crawler用于在GooglePlay上搜索Android应用程序并下载它们。
+* [Elves](https://github.com/hellokaton/elves)：一个轻量级的爬虫框架设计与实现。
+* [VIPS](https://github.com/tpopela/vips_java)：用Java实现基于视觉的页面分割算法。
+* [Website Crawler](https://github.com/pc8544/Website-Crawler)：Website Crawler API允许开发者通过四个简单端点程序爬取网站并访问结构化元数据。
+* [EasyBook](https://github.com/Zzzia/EasyBook)：Java/Android多站点小说爬虫库。
+* [ScriptSpider](https://github.com/xjtushilei/ScriptSpider)：一个Java版本的组件化的分布式通用爬虫。
+* [JLiteSpider](https://github.com/luohaha/jlitespider)：JLiteSpider是一个轻量级的分布式Java爬虫框架。
+* [Krawler](https://github.com/brianmadden/krawler)：Krawler是一个用Kotlin编写的爬虫框架。
+* [Cockroach](https://github.com/zhangyingwei/cockroach)：Cockroach是一个小巧、灵活、健壮的爬虫框架。
+* [Goniub](https://github.com/CreditTone/goniub)：Goniub是一个Java爬虫工具库。
+* [CrawlerPack](https://github.com/abola/CrawlerPack)：Java网络资料爬虫包。
+* [Firecrawl Java SDK](https://github.com/firecrawl/firecrawl-java-sdk)：一个用于Firecrawl API的Java客户端库，提供网页爬虫、数据抓取和搜索功能。
+* [BUbiNG](https://github.com/LAW-Unimi/BUbiNG)：BUbiNG是Web算法实验室开发的下一代网络爬虫，由米兰大学开源。
+* [Scrala](https://github.com/dyweb/scrala)：Scrala是一个基于Scala的网页爬虫框架，其灵感来源于Scrapy。
+* [GuozhongCrawler](https://github.com/out0fmemory/GuozhongCrawler)：GuozhongCrawler是一个无须配置、便于二次开发的爬虫开源框架。
+* [MySpider](https://github.com/zazaluMonster/MySpider)：MySpider是使用Java语言实现的网络爬虫项目。
+* [Web Data Extractor](https://github.com/fivesmallq/web-data-extractor)：使用Jquery Selector、XPath或JsonPath从常见的Web格式(如HTML、XML和JSON)中提取和解析结构化数据。
+* [AiPa](https://github.com/onblog/AiPa)：AiPa是一款小巧、灵活、扩展性高的多线程爬虫框架。
+* [EasyCrawl](https://github.com/kingschan1204/easyCrawl)：EasyCrawl是一个基于Java实现的爬虫工具包。
+* [Crawler](https://github.com/soulgalore/crawler)：Crawler是一个简单的Java爬虫，用于抓取同一域名下的网页。
+* [QuickCrawler](https://github.com/liuyueyi/quick-crawler)：Java实现的爬虫框架。
+* [Elise](https://github.com/Programming-With-Love/Elise)：Elise一个开源的商业友好的Java爬虫框架。
+* [LDSpider](https://github.com/ldspider/ldspider)：LDSpider项目为Linked Data Web提供了一个网络爬虫框架。
+* [Serritor](https://github.com/peterbencze/serritor)：Serritor是一个基于Selenium构建、用Java编写的开源网络爬虫框架。
+* [Crawler4j](https://github.com/zhuoran/crawler4j)：Crawler4j是使用Java开发的开源Web爬虫。
+* [Java Web Crawler](https://github.com/jjenkov/java-web-crawler)：用Java实现的网络爬虫。
+* [Widow](https://github.com/ScottMansfield/widow)：Widow是一款专门用于抓取你指定域名的网站爬虫。
+* [WindBell](https://gitee.com/zhiyubujian/wind-bell)：WindBell是一款轻量级的爬虫工具，轻松抓取互联网上的内容。
+* [Pikachu](https://gitee.com/ironzheng/pikachu)：Java注解方式的爬虫框架。
+* [WebFetch](https://gitee.com/hexleowang/WebFetch)：无依赖极简网络爬虫组件，能在移动设备上运行的微型爬虫。
+* [Sman](https://gitee.com/slkb/Sman)：Sman是一个轻量级的Web网络多线程爬虫框架，无需配置即可完成一个自定义的网络爬虫。
+* [ScreenSlicer](https://github.com/hollingsworthd/ScreenSlicer)：ScreenSlicer是一款网页爬虫工具。
+* [Charles](https://github.com/opencharles/charles)：Java网络爬虫库。
+* [Embedded PhantomJS](https://github.com/Jarlakxen/embedphantomjs)：适用于Java的嵌入式PhantomJS。
+* [Phanbedder](https://github.com/anthavio/phanbedder)：PhantomJS Windows/Linux/MacOSX原生二进制嵌入器。
+* [Pixiv Crawler](https://github.com/ScienJus/pixiv-crawler)：通过网页爬虫批量下载Pixiv图片。
+* [SpiderJackson](https://github.com/MrJiao/SpiderJackson)：一个简单易用的爬虫框架，内置代理管理模块，灵活设置多线程爬取。
+* [PicCrawler](https://github.com/fengzhizi715/PicCrawler)：使用RxJava2和Java 8的特性开发的图片爬虫。
+* [jFitbit](https://github.com/claygregory/jfitbit)：一个用于下载Fitbit日内数据的网络爬虫。
+* [Bixo](https://github.com/bixo/bixo)：Bixo是一个开源的Web数据挖掘工具包，它以级联管道的形式运行在Hadoop之上。
+* [Crawling Framework](https://github.com/tokenmill/crawling-framework)：Crawling Framework旨在提供配置和运行基于Storm Crawler的爬虫的工具。
+* [GoodCrawler](https://github.com/shenbaise/goodcrawler)：GoodCrawler是一个开源的爬虫框架。
+* [Scalescrape](https://github.com/bfil/scalescrape)：一个用于构建Akka Actor系统的Scala网络爬虫库，该系统可以从任何网站抓取和收集数据。
+* [MLib](https://github.com/mediathekview/MLib)：用于MediathekView程序和爬虫的库。
+* [Webscrape.ai SDKs](https://github.com/webscrape-ai/webscrape-ai)：webscrape.ai API的官方客户端SDK。
+* [Cetty](https://github.com/heyingcai/cetty)：一个轻量级的基于事件分发的爬虫框架。
+* [WebGrude](https://github.com/beothorn/webGrude)：WebGrude是一个Java库，用于通过注解将HTML或XML映射到Java类。
+* [SiteCrawler](https://github.com/forcedotcom/SiteCrawler)：SiteCrawler是一个Java库，可用于抓取某些网站的内容，由Salesforce开源。
+* [JSpider](https://github.com/brucezee/jspider)：JSpider是一个简单高效扩展性良好的Java网络爬虫框架。
+* [J-Crawler](https://gitee.com/qianyi-community/J-crawler)：Java爬虫框架。
+* [Spider4j](https://github.com/yida-lxw/spider4j)：Spider4j是一个开源的网络爬虫，基于Java的WebMagic扩展而来，提供了一个简单的网络爬虫接口。
+* [Grab4j](https://www.sauronsoftware.it/projects/grab4j/)：Grab4j库使你的Java应用程序能够执行一些网页抓取操作。
+* [WebHunger](https://github.com/jerrycshen/webhunger)：WebHunger是一个可扩展、功能齐全的爬虫框架。
+* [EasyCrawler](https://github.com/GabrielMesquitaOliveira/EasyCrawler)：这是一个多线程的Java网络爬虫库，具有灵活的搜索策略和可配置的持久化选项。
+* [Skraper](https://github.com/bruno-ortiz/skraper)：Skraper是一个用Kotlin编写的简单爬虫。
+* [WikiPageRank](https://github.com/ciganche/Wiki-page-rank)：维基百科网络爬虫和谷歌的PageRank算法实现。
+* [Crawler](https://github.com/xbynet/crawler)：一个简单灵活的Java网络爬虫框架。
+* [Gecko Redis](https://github.com/xtuhcy/gecco-redis)：Gecco分布式爬虫扩展。
+* [Web2Warc](https://github.com/helgeho/Web2Warc)：一款易于使用且高度可定制的爬虫，使你能够创建自己的小型网络存档。
+* [Webmuncher](https://github.com/dadepo/Webmuncher)：Webmuncher是一款可以轻松检索网站所有内容的工具。
+* [LoginCrawler](https://github.com/hexiaohong-code/LoginCrawler)：LoginCrawler是一套基于Webmagic框架拓展了用户登录后抓取数据的模块。
+
+#### HTML提取
+
+* [Goose](https://github.com/GravityLabs/goose)：Goose是一个用Scala编写的文章提取器。
+* [Scala Scraper](https://github.com/ruippeixotog/scala-scraper)：一个提供DSL的库，用于从HTML页面加载和提取内容。
+* [Crux](https://github.com/chimbori/crux)：Crux提供灵活的基于插件的API和实现，用于从网页中提取元数据。
+* [Snacktory](https://github.com/karussell/snacktory)：Java的Readability克隆。
+* [JReadability](https://github.com/wuman/JReadability)：JReadability是一个Java库，它将HTML作为输入进行解析并返回干净、易读的文本。
+* [Readability4J](https://github.com/dankito/Readability4J)：Readability4J是Mozilla的Readability.js的Kotlin端口。
+* [Java Readability](https://github.com/basis-technology-corp/Java-readability)：Readability包的Java移植。
+* [ReadabilityBundle](https://github.com/srijiths/readabilityBUNDLE)：用Java编写的HTML主内容提取工具。
+* [Skrapt](https://github.com/skrapeit/skrape.it)：Skrape是一个基于Kotlin的HTML/XML测试和Web抓取库。
+* [HtmlSucker](https://gitee.com/ld/HtmlSucker)：HtmlSucker是一个用来从一个网页中提取文章信息的小工具包。
+* [HtmlExtractor](https://github.com/ysc/HtmlExtractor)：HtmlExtractor是一个Java实现的基于模板的网页结构化信息精准抽取组件。
+* [Essence](https://github.com/cdimascio/essence)：Kotlin和Java的自动网页内容提取器。
+* [ContentExtractor](https://github.com/hfut-dmic/ContentExtractor)：ContentExtractor是一个开源的网页正文抽取工具，具有非常高的抽取精度，由合肥工业大学开源。
+* [Norconex Importer](https://github.com/Norconex/importer)：Norconex Importer是一个Java库和命令行应用程序，旨在解析和提取计算机文件中的内容，并将其转换为纯文本格式，支持各种格式(HTML、PDF、Word等)。
+* [XTractor](https://github.com/mohaps/xtractor)：XTractor是一个用Java编写的网页文本提取算法。
+* [MeaningfulWeb](https://github.com/javasoze/meaningfulweb)：网页内容提取器。
+* [HTMLP](https://gitee.com/scrapy4j/htmlp)：HTML页面内容中属性的自动解析工具，自动提取文章标题、正文、作者、发布时间、来源。
+* [XSExtractor](https://github.com/qingyu1229/XSExtractor)：提取新闻、博客等长文本网页的正文工具。
+* [Skrape](https://github.com/esafirm/skrape)：使用Kotlin DSL抓取HTML并将其转换为JSON。
+* [Pagelyzer](https://github.com/openpreserve/pagelyzer)：一套用于检测网页及其渲染变化的工具集。
+* [Image Resolver](https://github.com/shekhargulati/image-resolver)：一个用于从URL中提取主图像的Java 8库。
+* [HTQL](https://github.com/AICDEV/htql)：HTQL是一种类似SQL的查询语言，专为从HTML结构中提取数据而设计。
+* [Pickaxe](https://github.com/mautini/pickaxe)：Pickaxe是一个Java库，用于解析HTML页面以提取schema.org词汇表。
+
+#### 爬虫系统
+
+* [SpiderFlow](https://github.com/ssssssss-team/spider-flow)：SpiderFlow是新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
+* [Heritrix](https://github.com/internetarchive/heritrix3)：Heritrix是互联网档案馆的开源、可扩展、网络规模、档案质量的网络爬虫项目。
+* [Gather](https://github.com/gsh199449/spider)：Gather Platform是一套基于WebMagic内核、具有Web任务配置和任务管理界面的数据采集与搜索平台。
+* [TemplateSpider](https://gitee.com/mail_osc/templatespider)：TemplateSpider是一款用于从各种网站收集模板的开源工具。
+* [FSCrawler](https://github.com/dadoonet/fscrawler)：该爬虫有助于索引二进制文档，例如PDF、Open Office、MS Office。
+* [PulsarRPA](https://github.com/platonai/PulsarRPA)：PulsarRPA是一个高性能、分布式、开源的机器人流程自动化(RPA)框架。
+* [GitHub Crawler](https://github.com/societe-generale/github-crawler)：Github Crawler旨在通过GitHub API爬取组织的仓库，从而实现信息收集的自动化，由法国兴业银行开源。
+* [Anthelion](https://github.com/YahooArchive/anthelion)：Anthelion是Nutch的一个插件，用于抓取HTML页面中的语义注释，由Yahoo开源。
+* [ACHE](https://github.com/VIDA-NYU/ache)：ACHE是一个专注的网络爬虫，它收集满足某些特定标准的网页，例如属于给定域或包含用户指定模式的页面，由纽约大学开源。
+* [Kspider](https://github.com/kkangert/kspider)：Kspider是一个爬虫平台，以图形化方式定义爬虫流程，无需代码即可实现一个爬虫流程。
+* [YayCrawler](https://gitee.com/shentong_012/YayCrawler)：YayCrawler是一个分布式爬虫系统，使用简单，高级配置。
+* [NewCrawler](https://github.com/speed/newcrawler)：鸟巢采集器是一款Web版的网页数据采集工具，拥有强大的内容采集和数据过滤功能，能将你采集的数据发布到远程服务器。
+* [Phoneutria](https://sourceforge.net/projects/phoneutria/)：可用于对任何Web或企业网站进行爬取和索引，并且可通过XML配置文件进行配置。
+* [ISpider](https://github.com/xpleaf/ispider)：由Java设计的分布式爬虫系统。
+* [Novel Grabber](https://github.com/Flameish/Novel-Grabber)：Novel Grabber是一款基于GUI的网络爬虫，可以从各种支持的在线小说网站或任何其他网站手动下载章节并将其转换为EPUB格式。
+* [WebBee](https://github.com/codesofun/web-bee)：WebBee是基于JDK 8的垂直爬虫框架项目。
+* [Dodder](https://github.com/xwlcn/Dodder)：Dodder是一个支持集群部署的分布式DHT网络爬虫。
+* [Zhihu Crawler](https://github.com/wycm/zhihu-crawler)：Zhihu Crawler是一个基于Java的高性能、支持免费HTTP代理池、横向扩展、全方位抓取爬虫项目。
+* [YaCy Grid Crawler](https://github.com/yacy/yacy_grid_crawler)：YaCy Grid的爬虫微服务。
+
+#### 爬虫IP池
+
+* [ProxyPool](https://github.com/fengzhizi715/ProxyPool)：给爬虫使用的代理IP池。
+* [Proxy Pool](https://github.com/chenerzhu/proxy-pool)：Java代理IP池，提供可用率达到95%以上的代理IP。
+* [ProxyIpPool](https://github.com/javagaorui5944/ProxyIpPool)：爬虫代理IP池组件。
+* [Proxy Pool](https://github.com/denghuichao/proxy-pool)：爬虫代理IP池服务，可供其他爬虫程序通过REST API获取。
+* [HttpProxy](https://github.com/asche910/HttpProxy)：Java实现的IP代理池，支持HTTP与HTTPS两种方式。
+
 ## 并发编程
 
 * [Concurrent Ruby](https://github.com/ruby-concurrency/concurrent-ruby)：Ruby的现代并发工具，可通过JRuby、TruffleRuby用于Java。
@@ -6877,7 +7042,6 @@ permalink: /javalibs
 * [Ratpack](https://github.com/ratpack/ratpack)：Ratpack是一个简单、功能强大的工具包，用于创建高性能Web应用程序。
 * [REScala](https://github.com/rescala-lang/REScala)：REScala是JVM和Web上最先进的函数式响应式编程解决方案，由达姆施塔特工业大学开源。
 * [RxRelay](https://github.com/JakeWharton/RxRelay)：Relay是RxJava类型，它既是Observable又是Consumer。
-* [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
 * [Reactors.IO](https://github.com/reactors-io/reactors)：Reactors.IO是一个基于异步事件流的并发、分布式编程框架。
 * [AutoDispose](https://github.com/uber/AutoDispose)：AutoDispose是一个RxJava 2+工具，用于通过处置/取消自动将RxJava流的执行绑定到提供的作用域，由Uber开源。
 * [Electric](https://github.com/hyperfiddle/electric)：Electric是一种响应式和网络感知的Clojure/Script DSL，它在编程语言层完全抽象客户端/服务器状态同步，以便在动态Web应用程序中实现跨越前端/后端边界的强大组合。
@@ -6932,7 +7096,7 @@ permalink: /javalibs
 * [LiteGo](https://github.com/litesuits/android-lite-go)：LiteGo是一款基于Java语言的异步并发类库。
 * [Claypoole](https://github.com/clj-commons/claypoole)：Clojure的线程池工具。
 * [ThreadPool4j](https://github.com/aofeng/threadpool4j)：ThreadPool4j是一个实现多线程池的类。
-* [FastThreadPool](https://github.com/foundry4j/FastThreadPool)：由平台线程或虚拟线程支持的快速ScheduledExecutorService实现。
+* [Foundry4j ThreadPool](https://github.com/foundry4j/foundry4j-threadpool)：由平台线程或虚拟线程支持的快速ScheduledExecutorService实现。
 * [HY.Common.TPool](https://github.com/HY-Org/hy.common.tpool)：线程池、任务、任务组、任务池，定时任务的类库。
 * [ThreadDebugger](https://github.com/Jacksgong/ThreadDebugger)：线程监视器和线程池工厂。
 * [EasyThread](https://github.com/yjfnypeu/EasyThread)：EasyThread通过对原生的线程池进行封装，可让你更方便的进行线程任务操作。
@@ -8410,6 +8574,7 @@ permalink: /javalibs
 * [iDFlakies](https://github.com/UT-SE-Research/iDFlakies)：iDFlakies是一个Java测试工具，用于检测和分类不稳定测试，由伊利诺伊大学开源。
 * [Unitils](https://github.com/arteam/unitils)：Unitils提供了一系列实用工具，旨在进一步简化结合JUnit、DBUnit、EasyMock、Hibernate和Spring进行单元测试的过程。
 * [VMVM](https://github.com/Programming-Systems-Lab/vmvm)：VMVM是一个开销极低的单元测试隔离系统，由哥伦比亚大学开源。
+* [IoC Unit](https://github.com/1and1/ioc-unit)：一个用于创建部署测试的工具箱，支持JPA、RESTEAS、EJB、JTA、JMS和验证等技术。
 
 #### Spring测试
 
@@ -8692,6 +8857,7 @@ permalink: /javalibs
 * [Chromattic](https://github.com/exoplatform/chromattic)：Chromattic是一个JCR/对象映射框架。
 * [Evelon](https://github.com/HttpMarco/evelon)：Evelon是一个Java数据库层对象映射器。
 * [JWS ORM](https://github.com/JavaWebStack/orm)：JavaWebStack的对象关系映射框架。
+* [Bibernate](https://github.com/svydovets-bobocode/bibernate)：Bibernate是一个开源的ORM工具，用于将面向对象的领域模型映射到关系型数据库。
 
 #### JDBC框架
 
@@ -8735,7 +8901,7 @@ permalink: /javalibs
 * [Kwery](https://github.com/andrewoma/kwery)：Kwery是一个用于Kotlin的SQL库。
 * [Yesql](https://github.com/krisajenkins/yesql)：Yesql是一个用于使用SQL的Clojure库。
 * [Fluent JDBC](https://github.com/jhannes/fluent-jdbc)：不使用ORM的Java数据库代码，风格流式美观。
-* [EasyJDBC](https://gitee.com/xphsc/easyjdbc)：EasyJDBC在Spring JdbcTemplate之上进行了一些包装，支持部分常用的JPA注解。
+* [EasyJDBC](https://github.com/xphsc/EasyJdbc)：EasyJDBC在Spring JdbcTemplate之上进行了一些包装，支持部分常用的JPA注解。
 * [SimplifyDb](https://gitee.com/keepbx/SimplifyDb)：SimplifyDb是一个Java基于Druid的一款Builder简化写SQL语句操作的框架。
 * [EasySQL](https://github.com/CarmJos/EasySQL)：简单便捷的数据库操作工具，可自定义连接池来源。
 * [Mirage SQL](https://github.com/mirage-sql/mirage)：Mirage SQL是一个简单而强大的以SQL为中心的Java数据库访问库，它在纯SQL文件中提供动态SQL模板。
@@ -8785,6 +8951,8 @@ permalink: /javalibs
 * [Lightbox JDBC](https://github.com/strogiyotec/lightbox-jdbc)：面向对象的库，作为JDBC API的封装。
 * [MJDBC](https://github.com/mjdbc/mjdbc)：小巧高效的JDBC封装器。
 * [AJDBC](https://github.com/vexsoftware/ajdbc)：一个简单轻量的JDBC异步封装库。
+* [MyJDBC](https://github.com/beijing-penguin/myjdbc-rainbow)：轻量级ORM模式对象与数据库映射API。
+* [JDBC Plus](https://github.com/deeround/jdbc-plus)：JDBC Plus是一款基于JdbcTemplate增强工具包。
 
 #### DAO框架
 
@@ -8818,6 +8986,7 @@ permalink: /javalibs
 * [Alcl JDBC](https://github.com/ALOHA-CLASS/alcl-jdbc)：DAO自动CRUD库。
 * [EasyDao](https://github.com/vanioinformatika/easydao)：EasyDao是一个Maven插件，用于为基于Spring的项目生成轻量级、快速且灵活的模型和DAO。
 * [Badger](https://github.com/fang-yan-peng/badger)：Badger轻量级单表操作Dao框架。
+* [GenericDAO](https://github.com/lp895876294/genericdao)：GenericDAO是结合了JPA和Mybatis各自优势的DAO插件。
 
 #### 持久层库
 
@@ -8945,23 +9114,26 @@ permalink: /javalibs
 * [Spring CursorPaging](https://github.com/p3t/spring-cursorpaging)：Spring CursorPaging是一个库，它为Spring Data JPA Repository提供高效的基于游标的分页，避免了传统偏移量/页码分页的性能缺陷。
 * [MyBatis Pageable](https://gitee.com/hengboy/mybatis-pageable)：MyBatis Pageable是一款自动化分页的插件，基于MyBatis内部的插件Interceptor拦截器编写完成。
 * [Mybatis Pager Spring Boot Starter](https://gitee.com/cat73/mybatis-pager)：Mybatis Pager Spring Boot Starter为Spring Boot、Mybatis提供简单易用的分页查询支持。
+* [Query Search](https://github.com/joaquimsn/query-search)：使用Hibernate ORM和JPQL或SQL轻松实现搜索和分页。
+* [Spring Data Mybatis Pagination](https://github.com/sea-huang/spring-data-mybatis-pagination)：在Mybatis中支持来自Spring Data Commons的Pageable/Page/Sort/Order。
+* [MyPages](https://github.com/yihleego/mypages)：MyPages是一个基于Java的开源MyBatis分页插件，它简化了数据库分页查询。
 
 #### Mybatis库
 
 * [Mybatis Plus](https://github.com/baomidou/mybatis-plus)：MyBatis Plus是MyBatis的一个强大的增强工具包，用于简化开发。
 * [Mybatis Flex](https://github.com/mybatis-flex/mybatis-flex)：Mybatis Flex是一个优雅的Mybatis增强框架。
 * [Fluent Mybatis](https://gitee.com/fluent-mybatis/fluent-mybatis)：Fluent MyBatis是一个MyBatis增强工具。
-* [MybatisPlus Ext](https://gitee.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
+* [MybatisPlus Ext](https://github.com/dromara/mybatis-plus-ext)：MybatisPlus Ext对MybatisPlus做了进一步的拓展封装，即保留原功能，又添加了更多有用便捷的功能。
 * [Mapper](https://github.com/abel533/Mapper)：易于使用的Mybatis通用Mapper。
 * [Mapper](https://gitee.com/free/Mapper)：极其方便的使用Mybatis单表的增删改查工具。
 * [MyBatis Mapper](https://github.com/mybatis-mapper/mapper)：这是一个不需要任何配置就可以直接使用的通用Mapper。
 * [FastMybatis](https://gitee.com/durcframework/fastmybatis)：FastMybatis是一个Mybatis开发框架，其宗旨为简单、快速、有效。
-* [MyBatis Plus Join](https://gitee.com/best_handsome/mybatis-plus-join)：对MyBatis Plus多表查询的扩展。
+* [MyBatis Plus Join](https://github.com/yulichang/mybatis-plus-join)：对MyBatis Plus多表查询的扩展。
 * [MyBatis Dynamic SQL](https://github.com/mybatis/mybatis-dynamic-sql)：适用于Kotlin和Java的SQL DSL，支持MyBatis或Spring JdbcTemplate的渲染。
 * [Mybatis Mate](https://gitee.com/baomidou/mybatis-mate-examples)：Mybatis-Mate为MP企业级模块，支持分库分表，数据审计、数据敏感词过滤(AC算法)，字段加密，字典回写(数据绑定)，数据权限，表结构自动生成SQL维护，支持国密SM2、SM3、SM4加密算法等。
 * [PNDao](https://gitee.com/piaoniu/pndao)：一个非常简单的MyBatis辅助工具，可以基于DAO的命名约定帮你生成并维护SQL语句，由票牛开源。
 * [MyBatis Enhance](https://gitee.com/hengboy/mybatis-enhance)：MyBatis Enhance是对于原生的MyBatis的增强编写，不影响任何原生的使用。
-* [Mybatis Plus Join](https://gitee.com/mhb0409/mybatis-plus-join)：Mybatis Plus Join是Mybatis Plus的一个多表插件。
+* [Mybatis Plus Join](https://github.com/bobo667/mybatis-plus-join)：Mybatis Plus Join是Mybatis Plus的一个多表插件。
 * [MybatisExt](https://gitee.com/srb/mybatisext)：MybatisExt项目扩展自Mybatis。
 * [Stream Query](https://gitee.com/dromara/stream-query)：Stream Query允许完全摆脱Mapper的Mybatis Plus体验。
 * [OpenScope](https://gitee.com/mofum/open-scope)：OpenScope是一种轻量级、易维护的数据权限的解决方案，它能处理比较复杂的权限操作逻辑。
@@ -8978,7 +9150,7 @@ permalink: /javalibs
 * [Mybatis Generator](https://github.com/mybatis/generator)：用于Mybatis的代码生成器。
 * [MybatisPlus Generator](https://github.com/baomidou/generator)：用于Mybatis Plus的代码生成器。
 * [Mybatis DSC Generator](https://github.com/flying-cattle/mybatis-dsc-generator)：完美集成Lombok，Swagger的代码生成工具。
-* [MyBatis SQLHelper](https://github.com/heykb/mybatis-sqlhelper)：MyBatis SQK注入、多租户、逻辑删除、数据权限插件。
+* [MyBatis SQLHelper](https://github.com/heykb/mybatis-sqlhelper)：MyBatis SQL注入、多租户、逻辑删除、数据权限插件。
 * [MPRelation](https://github.com/dreamyoung/mprelation)：MPRelation是MybatisPlus的一个一对一/一对多/多对一/多对多工具。
 * [Shardbatis](https://github.com/rookiefly/shardbatis)：Mybatis分表插件。
 * [Ourbatis](https://github.com/ainilili/ourbatis)：使Mybatis开发更轻松的增强工具。
@@ -9027,6 +9199,38 @@ permalink: /javalibs
 * [Mybatis Kits](https://gitee.com/blackfox/mybatis-kits)：MyBatis增强工具包，实现了便捷的单表CRUD。
 * [Update Record](https://github.com/geekidea/update-record)：Update Record是一个MyBatis插件，它结合Spring AOP，记录指定请求/数据表修改前后的变化，并将修改日志记录到数据库中。
 * [AutoMapper](https://github.com/fengwk/mybatis-auto-mapper)：AutoMapper是一个MyBatis编译期SQL生成器。
+* [Quarkus MyBatis](https://github.com/quarkiverse/quarkus-mybatis)：Quarkus MyBatis扩展。
+* [Mybatis Thymeleaf](https://github.com/mybatis/thymeleaf-scripting)：Mybatis Thymeleaf是一个插件，它可以帮助使用Thymeleaf 3提供的模板应用SQL。
+* [MyBatis Generator Ext](https://github.com/wangjohnny/mybatis-generator-ext)：一个MyBatis Generator的特殊扩展方式。
+* [MyBatis CDI](https://github.com/mybatis/cdi)：MyBatis CDI扩展负责管理MyBatis映射器和SqlSession的生命周期。
+* [MyBatis Guice](https://github.com/mybatis/guice)：MyBatis Guice模块是一个易于使用的Google Guice桥接器，用于MyBatis SQL映射框架。
+* [EasyMybatis](https://github.com/onlyGuo/easymybatis)：自动生成Mybatis的SQL语句。
+* [SQLBard](https://github.com/MiilnVo/sqlbard)：SQLBard是一款基于MyBatis的轻量级插件，旨在如诗般优雅地呈现完整SQL。
+* [Mybatis Generator Extension](https://github.com/drtrang/mybatis-generator-extension)：MyBatis Generator拓展。
+* [Mybatis Plus Ext](https://github.com/photowey/mybatis-plus-ext)：MyBatisPlus CRUD的扩展项目。
+* [Mybatis Ext](https://github.com/cjbi/mybatis-ext)：MyBatis Ext是MyBatis的增强扩展，简化了MyBatis对单表增删改查的操作。
+* [Mybatis XMLLess Spring Starter](https://github.com/wuhao000/mybatis-xmlless-spring-starter)：使用该工具基本可以告别Mybatis的XML文件，它可以根据方法名称自动推断SQL。
+* [Easy Mybatis](https://github.com/zuoyuip/easy-mybatis)：Easy Mybatis是一个对Mybatis的增强框架。
+* [Cheese Repository](https://github.com/cheese1ne/cheese-repository)：以Mybatis为核心的多数据源的持久层操作框架。
+* [Mybatis Generator YML Maven Plugin](https://github.com/javthon/mybatis-generator-yml-maven-plugin)：MyBatis生成器YAML配置、Lombok插件、Swagger插件支持。
+* [RSQL Mybatis](https://github.com/qclucky7/rsql-mybatis)：一款基于RSQL的Mybatis查询工具。
+* [Mybatis Generator Plugins](https://github.com/bigpuritz/mybatis-generator-plugins)：本项目提供了一系列实用的MyBatis生成器插件。
+* [Mybatis Spring Support](https://github.com/colin-lee/mybatis-spring-support)：Mybatis Spring增强。
+* [MyBatis Batch](https://github.com/wen866595/MyBatis-batch)：基于MyBatis执行SQL批量操作的插件。
+* [TgDao](https://github.com/twogoods/TgDao)：TgDao是一款基于Mybatis的编译期SQL生成器。
+* [Mybatis JSON](https://github.com/jneat/mybatis-gson)：MyBatis通过Gson库提供JSON支持。
+* [Mybatis Generator Plus](https://github.com/ostenant/mybatis-generator-plus)：Mybatis Generator自定义插件扩展。
+* [Mybatis SqlAdder](https://github.com/localhost02/Mybatis-SqlAdder)：Mybatis条件动态添加插件。
+* [MyBatis Type Handlers JSR 310](https://github.com/mybatis/typehandlers-jsr310)：MyBatis JSR-310类型处理程序。
+* [Mybatis Helper](https://github.com/itfinally/mybatis-helper)：该项目是Mybatis插件包，用于扩展Mybatis的特性。
+* [Mybatis Types](https://github.com/jneat/mybatis-types)：为Java 8运行时添加额外的MyBatis类型处理程序。
+* [DataPermissionUtils](https://github.com/chen226/DataPermissionUtils)：使用Mybatis Interceptor的一个数据权限工具包。
+* [Roncoo Mybatis Generator](https://github.com/roncoo/roncoo-mybatis-generator)：Mybatis代码自动生成工具。
+* [Data Audit](https://github.com/xjs1919/data-audit)：MySQL、Mybatis数据库操作审计，记录数据库数据的变化。
+* [Joda Time Mybatis](https://github.com/LukeL99/joda-time-mybatis)：Mybatis为Joda Time类型提供的映射。
+* [Mybatis Mapper Reload Spring Boot Start](https://github.com/WangJi92/mybatis-mapper-reload-spring-boot-start)：Mybatis XML热更新插件。
+* [EnumHandler](https://github.com/bichengfei/EnumHandler)：Mybatis枚举类型处理器扩展。
+* [Vertx Mybatis](https://github.com/frjufvjn/vertx-mybatis)：使用Vertx提供的SQL客户端进行异步非阻塞数据库访问。
 
 #### Hibernate库
 
@@ -9047,6 +9251,24 @@ permalink: /javalibs
 * [Grails PostgreSQL Extensions](https://github.com/gpc/grails-postgresql-extensions)：用于使用PostgreSQL原生元素(例如数组、hstore等)的Grails插件。
 * [Hibernate Query Validator](https://github.com/hibernate/query-validator)：Java代码中HQL和JPQL查询的编译时验证。
 * [Posjsonhelper](https://github.com/starnowski/posjsonhelper)：Posjsonhelper库是一个开源项目，它为Hibernate查询PostgreSQL JSON函数添加了支持。
+* [Hibernate Reactive](https://github.com/hibernate/hibernate-reactive)：Hibernate ORM的响应式API，支持非阻塞数据库驱动程序以及与数据库的响应式交互。
+* [Jackson Datatype Hibernate](https://github.com/FasterXML/jackson-datatype-hibernate)：Jackson JSON处理器的附加模块，可处理Hibernate数据类型，特别是延迟加载方面的内容。
+* [Google Cloud Spanner Dialect Hibernate ORM](https://github.com/GoogleCloudPlatform/google-cloud-spanner-hibernate)：官方的Google Cloud Spanner方言，适用于Hibernate ORM。
+* [Quarkus Hibernate Types](https://github.com/quarkiverse/quarkus-hibernate-types)：基于Hibernate Types的Quarkus扩展。
+* [Joda Time Hibernate](https://github.com/JodaOrg/joda-time-hibernate)：Hibernate为Joda-Time进行映射。
+* [Hibernate Commons Annotations](https://github.com/hibernate/hibernate-commons-annotations)：Hibernate Commons Annotations是一个实用项目。
+* [Snowflake Hibernate](https://github.com/snowflakedb/snowflake-hibernate)：该项目是Hibernate Core的SQL方言定义，使Java开发人员能够将ORM功能与Snowflake数据库结合使用。
+* [Hibernate SQL Query Assertions](https://github.com/Lemick/hibernate-query-asserts)：断言Spring测试中Hibernate生成的SQL语句数量。
+* [Hibernate Finite State Machine](https://github.com/skydo-tech/hibernate-fsm)：在Hibernate之上构建的一层，遵循可配置的有限状态机。
+* [Spring Data Hibernate Event](https://github.com/teastman/spring-data-hibernate-event)：Spring Data Hibernate Event项目的主要目标是通过使用注解来更轻松地监听影响给定实体的Hibernate SPI事件。
+* [Hibernate Types QueryDSL APT](https://github.com/jwgmeligmeyling/hibernate-types-querydsl-apt)：QueryDSL APT的Hibernate Types扩展。
+* [Hibernate PG JSON](https://github.com/datapublica/hibernate-pg-json)：为Hibernate提供JSON/JSONB映射。
+* [Phoenix Hibernate Dialect](https://github.com/jruesga/phoenix-hibernate-dialect)：Apache Phoenix Hibernate方言。
+* [Vavr Hibernate](https://github.com/vavr-io/vavr-hibernate)：Vavr的Hibernate模块。
+* [LiteBatch](https://github.com/bryan31/liteBatch)：LiteBatch是一个轻量级、高性能、高通用的批插框架。
+* [Localized](https://github.com/deathman92/localized)：通过@Localized注解为Hibernate实体启用国际化。
+* [Hibernate SQLite Dialect](https://github.com/EnigmaBridge/hibernate4-sqlite-dialect)：Hibernate 4的SQLite方言。
+* [PGJson](https://github.com/bazar-nazar/pgjson)：支持PostgreSQL JSON类型的Hibernate扩展。
 
 #### JPA库
 
@@ -9095,7 +9317,7 @@ permalink: /javalibs
 * [AG Grid JPA Adapter](https://github.com/smolcan/ag-grid-jpa-adapter)：一个轻量级的Java Maven库，用于将AG Grid服务器端模式与使用JPA的后端应用程序集成。
 * [RSQL JPA Search](https://github.com/ggomarighetti/rsql-jpa-search)：RSQL JPA Search是一个适用于Spring应用程序的小型契约层，用于接收动态搜索输入并将其转换为Spring Data JPA工件。
 * [CDI Query](https://github.com/ctpconsulting/query)：CDI Query是一个CDI扩展，它允许基于方法名或方法注解创建JPA查询。
-* [UaiCriteria](https://github.com/uaihebert/uaicriteria)：uaiCriteria是一个旨在简化JPA Criteria API使用的Java库。
+* [UaiCriteria](https://github.com/uaihebert/uaicriteria)：UaiCriteria是一个旨在简化JPA Criteria API使用的Java库。
 * [REST Filter](https://github.com/Blackdread/rest-filter)：REST Filter为REST API提供一致的筛选/排序功能。
 * [Spring Dynamic JPA](https://github.com/joutvhu/spring-dynamic-jpa)：Spring Dynamic JPA可以方便地使用JpaRepository实现动态查询。
 * [ProjectionQuery](https://github.com/juliocmbueno/jb-projects-projection-query)：ProjectionQuery是一个轻量级、类型安全且与框架无关的Java查询投影库。
@@ -9110,6 +9332,53 @@ permalink: /javalibs
 * [Upsert Repository](https://github.com/mpecan/upsert)：这是一个Spring Data JPA扩展，为存储库提供Upsert功能。
 * [Generic Data](https://github.com/danjee/generic-data)：通用Hibernate DAO方法。
 * [Hades](https://github.com/synyx/hades)：Hades是一个用于处理基于Spring和JPA实现的数据访问对象的实用库。
+* [Hypersistence Optimizer](https://vladmihalcea.com/hypersistence-optimizer/)：Hypersistence Optimizer是一款动态分析工具，可以扫描你的JPA和Hibernate应用程序，并提供有关你需要对实体映射、配置、查询和持久化上下文操作进行哪些更改的提示，以加快你的数据访问层。
+* [GraphQL JPA Query](https://github.com/introproventures/graphql-jpa-query)：GraphQL JPA Query库使用JPA规范为你的JPA实体Java类使用GraphQL Java派生和构建GraphQL API。
+* [GraphQL JPA](https://github.com/jcrygier/graphql-jpa)：这是一个简单的项目，用于扩展GraphQL Java并让它从JPA模型派生模式。
+* [Olingo JPA Processor](https://github.com/SAP/olingo-jpa-processor-v4)：JPA Processor是一个用于在Apache Olingo V4和JPA数据库之间建立桥梁的库，由SAP开源。
+* [DataNucleus API JPA](https://github.com/datanucleus/datanucleus-api-jpa)：支持使用JPA API实现DataNucleus持久化。
+* [Dropwizard EntityManager](https://github.com/scottescue/dropwizard-entitymanager)：Dropwizard EntityManager是一个附加模块，专为使用JPA EntityManager API的旧版Dropwizard应用程序而创建，同时仍然希望实现与Dropwizard Hibernate和@UnitOfWork兼容的托管生命周期行为。
+* [EclipseLink Maven Plugin](https://github.com/ethlo/eclipselink-maven-plugin)：EclipseLink Maven Plugin旨在通过自动化必要的配置和生成任务来简化EclipseLink JPA开发人员的工作流程。
+* [Aries JPA](https://github.com/apache/aries-jpa)：实现了OSGi规范汇编中的JPA服务规范。
+* [CRUD REST Gen](https://github.com/yanndemel/crud-rest-gen)：基于JPA实体的CRUD应用生成，包含文档的REST API、包含单元测试的审计REST API以及AngularJS管理应用。
+* [Hibernate5 DDL Maven Plugin](https://github.com/jpdigital/hibernate5-ddl-maven-plugin)：Hibernate5 DDL Maven Plugin是一个简单的Maven插件，用于为JPA实体创建SQL DDL文件。
+* [Firestore JDBC Driver](https://github.com/shiveshnavin/firestore-jdbc-driver)：一个可直接与JPA和Hibernate一起使用的Firebase集合的JDBC驱动程序。
+* [SQLite JPA](https://github.com/josueribeiro/sqlite-jpa)：该项目旨在实现JPA与关系型数据库SQLite的集成。
+* [Threeten JPA](https://github.com/marschall/threeten-jpa)：用于JSR-310日期和时间的JPA属性转换器。
+* [Instancio JPA](https://github.com/Mobe91/instancio-jpa)：Instancio JPA是Instancio库的扩展，它能够创建和填充JPA实体，包括随后使用JPA持久化这些实体，以便在集成测试中生成测试数据。
+* [Cassandra Driver Mapping](https://github.com/valchkou/cassandra-driver-mapping)：适用于DataStax Cassandra Java Driver的JPA插件。
+* [FluentMapper](https://github.com/rilindbicaj/fluentmapper)：以编程方式配置JPA实体。
+* [ScrudBeans](https://github.com/manosbatsis/scrudbeans)：Spring Boot中用于Java/Kotlin JPA实体的免手动、RESTful、可扩展的SCRUD操作。
+* [JPA Schema Maven Plugin](https://github.com/divinespear/jpa-schema-maven-plugin)：用于使用JPA 2.1 Schema生成器从JPA实体生成Schema或DDL脚本的Maven插件。
+* [QueryDSL JPA Postgres Json](https://github.com/alexliesenfeld/querydsl-jpa-postgres-json)：该存储库包含一个Querydsl扩展，用于在使用JPA、Hibernate和PostgreSQL时处理JSON类型。
+* [Dynamic Query Generator](https://github.com/vishal-attarde/dynamic-query-generator)：Dynamic Query Generator借助Criteria API和Specification支持，有助于在连接表上生成动态查询。
+* [JPA Security](https://github.com/ArneLimburg/jpasecurity)：JPA Security是JPA的访问控制解决方案。
+* [OData JPA Extension](https://github.com/RWS/odata-jpa-datasource)：本项目包含一个用于SDL OData框架的JPA数据源和查询扩展。
+* [Layer3Gen](https://github.com/GaetanoPiazzolla/Layer3Gen)：从JPA实体开始生成标准的Spring 3层CRUD架构。
+* [JPA Predicate Builder](https://github.com/marcopotok/jpa-predicate-builder)：在JPA之上构建的轻量级层，方便在Java中构建查询。
+* [JPA Maven Plugin](https://github.com/ljnelson/jpa-maven-plugin)：该项目包含一个Maven插件，用于执行各种任务以帮助基于JPA的项目。
+* [JPAQuery](https://github.com/ajiang-open/jpaquery)：一个基于原生Java代码查询方式的JPA查询框架。
+* [JPA Query by Example framework](https://github.com/jaxio/jpa-query-by-example)：JPA的Query By Example最初是受Hibernate Example标准的启发而设计的。
+* [JpaCommentAnnotation](https://github.com/elyar-adil/JpaCommentAnnotation)：支持JPA DDL生成的注释注解。
+* [Jpa Fluid Select](https://github.com/ordnaelmedeiros/jpa-fluid-select)：JPA Fluid Select扩展。
+* [DbUtils JPA](https://github.com/mwanji/DbUtils-JPA)：DbUtils JPA将JPA易于使用的映射注解引入到DbUtils中。
+* [Test Data Loader](https://github.com/triologygmbh/test-data-loader)：该项目实现了一个Groovy DSL，可用于使用JPA实体填充数据库。
+* [Specification Builder](https://github.com/ozayduman/spring-data-specification-builder)：Specification Builder是一个面向客户端的动态搜索查询库，支持以强类型方式在Spring项目中连接多个表。
+* [Active Persistence](https://github.com/lazaronixon/active-persistence)：Active Persistence是JPA的Active Record查询接口的一种实现，它使JPA查询变得简单有趣。
+* [Zuji JPA](https://github.com/azhengZJ/zuji-jpa)：Zuji JPA是一个不用写SQL的Spring Data JPA增强库。
+* [JPAComment Spring Boot Starter](https://github.com/dwhgygzt/jpacomment-spring-boot-starter)：JPA创建或修改数据库的表注释和字段注释。
+* [MPTT JPA](https://github.com/hacker-works/mptt-jpa)：改进的前序遍历，使用JPA的Java实现。
+* [JPA Codegen](https://github.com/gcdd1993/jpa-codegen)：适用于Spring Data JPA的CRUD，FreeMarker模板驱动的代码生成器。
+* [Spring Data JPA Condition](https://github.com/timely-rain/spring-data-jpa-condition)：Spring Data JPA动态查询工具类，用于快速生成动态查询的查询条件。
+* [Spring Social JPA](https://github.com/mschipperheyn/spring-social-jpa)：Spring Social JPA是Spring Social的一个插件，它允许你使用JPA作为存储库的基础，而不是直接使用JDBC。
+* [Spring Data JPA Expansion](https://github.com/fast-family/spring-data-jpa-expansion)：Spring Data JPA Expansion是一款针对Spring Data JPA增强的插件。
+* [JPA Metamodel Gradle Plugins](https://github.com/iboyko/gradle-plugins)：用于生成JPA元模型的Gradle插件。
+* [Kk ERM Maven Plugin](https://github.com/kekingcn/kk-erm-maven-plugin)：将ER关系描述文件生成JPA实体Entity的Maven插件。
+* [JPA MapStruct](https://github.com/wavesoftware/java-mapstruct-jpa)：一组用于将JPA管理的实体映射到MapStruct的实用程序。
+* [Functional JPA](https://github.com/davidmoten/functional-jpa)：适用于JPA和Guava的函数式风格辅助工具。
+* [Guice JPA](https://github.com/sclassen/guice-jpa)：非官方的Guice JPA扩展，支持容器管理的持久化单元和事务。
+* [JPA Repository](https://github.com/duydo/jpa-repository)：采用JPA 2和Specification模式的存储库编程模型提供了一种简单易用的方法来构建数据访问层。
+* [QueryBySepc](https://github.com/jeroenvs/querybyspec)：Java DDD规范和存储库库，提供内存实现和JPA实现，以便按规范进行查询。
 
 #### Spring Data库
 
@@ -9117,7 +9386,7 @@ permalink: /javalibs
 * [Spring JDBC Plus](https://github.com/naver/spring-jdbc-plus)：Spring JDBC Plus提供基于Spring Data JDBC的扩展，由Naver开源。
 * [Spring Data JDBC MyBatis](https://github.com/VonChange/spring-data-jdbc-mybatis)：一个轻量级的Spring Data JDBC扩展，具有MyBatis动态SQL功能。
 * [Spring Boot Data R2DBC JOOQ](https://github.com/gofabian/spring-boot-data-r2dbc-jooq)：一个用于Spring Boot的R2DBC适配器。
-* [Spring Data Ebean](https://gitee.com/hexagonframework/spring-data-ebean)：基于Ebean ORM的仓储层实现。
+* [Spring Data Ebean](https://github.com/hexagonframework/spring-data-ebean)：基于Ebean ORM的仓储层实现。
 * [WCDK R2DBC](https://github.com/WCDK/wcdk-r2dbc)：WCDK R2DBC是一个基于Spring Boot、Spring Data R2DBC和Project Reactor的响应式数据库访问框架，面向WebFlux微服务和响应式业务场景。
 * [Spring R2DBC Relationships](https://github.com/JoseLion/spring-r2dbc-relationships)：一组用于在处理Spring Data R2DBC时处理实体关系的注解。
 * [FluentRepo4j](https://github.com/auspis/fluent-repo-4j)：一个轻量级的Spring Boot库，支持Repository Pattern。
@@ -9262,7 +9531,7 @@ permalink: /javalibs
 * [DBUtil](https://github.com/vladmihalcea/db-util)：该工具可以在测试期间自动检测N+1查询问题。
 * [JPlusOne](https://github.com/adgadev/jplusone)：JPlusOne是用于自动检测和断言基于JPA的Spring Boot Java应用程序中发生的“N+1问题”并查找JPA发出的SQL语句的一般来源的工具。
 * [Spring Hibernate Query Utils](https://github.com/yannbriancon/spring-hibernate-query-utils)：该库提供了检测N+1查询并对Spring和Hibernate生成的查询进行计数的工具。
-* [JPA N+1 Detector](https://github.com/joon6093/jpa-nplus1-detector)：检测JPA应用中的N+1查询问题。
+* [JPA N+1 Detector](https://github.com/jeyongsong/jpa-nplus1-detector)：检测JPA应用中的N+1查询问题。
 * [QueryAudit](https://github.com/haroya01/query-audit)：QueryAudit是一个用于在JUnit测试阶段自动检测和分析SQL性能问题的Java库。
 
 #### MySQL库/工具
@@ -9417,6 +9686,7 @@ permalink: /javalibs
 * [Redisses](https://github.com/jsondream/redisses)：Redisses是一个Redis操作相关的项目。
 * [Kedis](https://github.com/domgew/kedis)：Kedis是一个适用于Kotlin的Redis客户端库，支持多平台。
 * [AtlasRedisAPI](https://github.com/Swofty-Developments/AtlasRedisAPI)：基于Jedis的超高速多用途Redis API，由Atlas Network使用和维护。
+* [JRediSearch Spring Boot Starter](https://github.com/rnbWarden/jredisearch-spring-boot-starter)：该库提供了一个用于处理JRediSearch客户端和索引的设置和配置的Spring Boot Starter。
 
 #### MongoDB库/工具
 
@@ -9498,7 +9768,6 @@ permalink: /javalibs
 * [Pelops](https://github.com/s7/scale7-pelops)：Pelops的创建是为了让使用Cassandra变得简单。
 * [Easy Cassandra](https://github.com/otaviojava/Easy-Cassandra)：EasyCassandra使用Cassandra驱动程序，其主要目标是成为一个简单的ORM。
 * [Vert.x Cassandra Client](https://github.com/vert-x3/vertx-cassandra-client)：Vert.x的Cassandra客户端。
-* [Cassandra Driver Mapping](https://github.com/valchkou/cassandra-driver-mapping)：适用于DataStax Cassandra Java Driver的JPA插件。
 * [Troilus](https://github.com/1and1/Troilus)：Troilus是一个基于DataStax Apache Cassandra Java Driver的高级Cassandra Java客户端。
 * [Cascal](https://github.com/shorrockin/cascal)：Cascal是一个基于Scala语言构建的简单Cassandra库。
 * [Hayt](https://github.com/mpenet/hayt)：Hayt是一个用于CQL的精简查询DSL。
@@ -9927,6 +10196,8 @@ permalink: /javalibs
 * [J360](https://github.com/xuminwlt/j360-datasource)：分布式数据源分表分库、读写分离应用层框架。
 * [OpenDDAL](https://github.com/neradb/openddal)：OpenDDAL致力于提供一个简单易用，高性能的分布式数据库访问服务。
 * [DDAL](https://github.com/hellojavaer/ddal)：DDAL是访问数据库分片的简单解决方案。
+* [Hibernate Shards](https://github.com/hibernate/hibernate-shards)：Hibernate ORM的水平分区。
+* [Sharding Mybatis](https://github.com/winjeg/sharding-mybatis)：生产可用的简单的基于Mybatis的分库分表工具。
 
 #### Binlog
 
@@ -10976,6 +11247,7 @@ permalink: /javalibs
 * [JOOQ Encryption](https://github.com/cashapp/jooq-encryption)：JOOQ Encryption库提供工具和接口，以支持在应用层使用jOOQ ORM的数据库的字段级加密。
 * [Encrypt JPA Spring Boot Starter](https://github.com/acshmily/encrypt-jpa-spring-boot-starter)：Spring Boot数据库字段加密Starter。
 * [Mybatis Encrypt](https://github.com/9526xu/mybatis-encrypt)：通用的数据库加解密转换方案。
+* [Mybatis Encrypt](https://github.com/zhaoguhong/mybatis-encrypt)：一个简单的Mybatis加密组件。
 
 #### 字段脱敏
 
@@ -10996,6 +11268,8 @@ permalink: /javalibs
 * [Quick Transform](https://github.com/Silwings-git/quick-transform)：基于Spring AOP实现的脱敏组件，支持自定义脱敏策略。
 * [Sensitive Data](https://gitee.com/fyoutech/sensitive-data)：脱敏工具类。
 * [ID Encryptor](https://github.com/fillumina/id-encryptor)：对Long和UUID字段进行加密，并可选择将其序列化为JSON或从JSON序列化。
+* [Mybatis DBField Encrypt](https://github.com/duanbt/mybatis-dbfield-encrypt)：Mybatis字段加解密插件。
+* [Mybatis Column Encryption](https://github.com/ColinZou/mybatis-column-encryption)：基于Mybatis的数据库字段数据加密解决方法。
 
 #### 匿名网络
 
@@ -11646,6 +11920,8 @@ permalink: /javalibs
 * [KBox](https://github.com/robstoll/kbox)：KBox是一个非常小巧但实用的Kotlin工具库，它提供了标准库中缺少的功能，有助于提高代码的可读性。
 * [SuperUtilities](https://github.com/Nuix/SuperUtilities)：一个基于Nuix API构建的辅助方法库。
 * [Joki Utils](https://github.com/jokoframework/joko-utils)：用于DTOS映射、UUID生成等项目的实用程序。
+* [Smilonet Common](https://github.com/cn-percy-wang/smilonet-common)：Java公用框架工具。
+* [Slyak Commons](https://github.com/slyak/slyak-commons)：Slyak Commons微服务。
 
 ## 集合库
 
@@ -12101,6 +12377,7 @@ permalink: /javalibs
 * [JValidation](https://github.com/tianyirenjian/jvalidation)：JValidation是一个为Spring Boot开发的校验库。
 * [Request Validator](https://github.com/SeunMatt/request-validator)：这是一个用于验证Java Web应用程序JSON HTTP请求体的实用库。
 * [Kaval](https://github.com/MonkeyPatchIo/kaval)：Kaval这是一个用于验证模型的Kotlin多平台库。
+* [Demoiselle Velidation](https://github.com/demoiselle/validation)：Demoiselle Velidation是包含多种验证器实现的组件。
 
 ## Bean映射&复制
 
@@ -13948,8 +14225,6 @@ permalink: /javalibs
 * [GraphQL Java Annotations](https://github.com/Enigmatis/graphql-java-annotations)：该库为GraphQL模式定义提供基于注解的语法。
 * [GraphQL Kotlin](https://github.com/ExpediaGroup/graphql-kotlin)：GraphQL Kotlin构建在GraphQL Java之上，可简化在Kotlin中运行GraphQL客户端和服务器，由Expedia开源。
 * [Spring GraphQL Common](https://github.com/yandooo/spring-graphql-common)：简化在Spring框架中使用GraphQL的库。
-* [GraphQL JPA Query](https://github.com/introproventures/graphql-jpa-query)：GraphQL JPA Query库使用JPA规范为你的JPA实体Java类使用GraphQL Java派生和构建GraphQL API。
-* [GraphQL JPA](https://github.com/jcrygier/graphql-jpa)：这是一个简单的项目，用于扩展GraphQL Java并让它从JPA模型派生模式。
 * [Elide](https://github.com/yahoo/elide)：Elide是一个Java库，可以轻松设置模型驱动的GraphQL或JSON API Web服务，由Yahoo开源。
 * [SchemaGen GraphQL](https://github.com/bpatters/schemagen-graphql)：GraphQL Java插件，增加了对企业级应用程序的模式生成和执行的支持。
 * [Vertx GraphQL Client](https://github.com/graphqly/vertx-graphql-client)：代码优先GraphQL客户端的优雅实现。
@@ -14181,6 +14456,11 @@ permalink: /javalibs
 * [TeraMath](https://github.com/MovingBlocks/TeraMath)：Terasology的数学库。
 * [Unicode Math](https://github.com/adereth/unicode-math)：一个Clojure库，旨在让你轻松编写易于阅读的数学公式。
 * [JInterval](https://github.com/oneteme/jinterval)：JInterval是一个用于Java的区间计算库。
+* [Foundry4j Math](https://github.com/foundry4j/foundry4j-math)：Foundry4j Math是基于Java Vector API的高性能数学库，提供向量化的数组运算、快速标量数学函数、矩阵运算、复数运算和FFT功能。
+* [EO Math](https://github.com/objectionary/eo-math)：EO编程语言的数学对象。
+* [CompaJ](https://github.com/CrissNamon/compaj)：CompaJ是一个开源、跨平台的数学建模编程和数值计算平台。
+* [Marlin Math](https://github.com/bourgesl/marlin-math)：Java中准确且最快的数学函数。
+* [Complex Numbers](https://github.com/kotlincook/complex-numbers)：一个用于Kotlin编程语言的小型库，可以方便地处理复数。
 
 #### 线性代数
 
@@ -14249,6 +14529,9 @@ permalink: /javalibs
 * [Clatrix](https://github.com/tel/clatrix)：Clatrix是一个Clojure编写的矩阵库。
 * [Tjungblut Math](https://github.com/thomasjungblut/tjungblut-math)：Tjungblut Math包含一些关于稀疏/稠密向量和矩阵的日常数学运算。
 * [Open Cezeri Library](https://github.com/hakmesyo/open-cezeri-library)：Open Cezeri Library是一个Java矩阵与计算机视觉框架，由锡尔特大学开源。
+* [3D Math Java](https://github.com/trrt-good/3d-Math-Java)：一个用Java编写的3D数学包，具有向量、矩阵和四元数方法。
+* [Subspace](https://github.com/jpbetz/subspace)：用于Scala中OpenGL编程的轻量级向量和矩阵数学库。
+* [VVecMath](https://github.com/miho/VVecMath)：JCSG、VRL和VMF使用的向量数学软件包。
 
 #### 多维数组
 
@@ -14309,6 +14592,8 @@ permalink: /javalibs
 * [Quadruple](https://github.com/m-vokhm/Quadruple)：Quadruple是一个Java类，用于四精度浮点运算。
 * [JGMP](https://github.com/jandom-devel/JGMP)：GMP库的Java绑定。
 * [Deci](https://github.com/Kimplify/Deci)：Deci是一个Kotlin多平台库，用于高精度十进制运算。
+* [EvalEx Big Math](https://github.com/ezylang/EvalEx-big-math)：Big Math提供了使用任意精度的高级Java BigDecimal数学函数。
+* [BigDecimal Math](https://github.com/keedio/bigdecimal-math)：核心数学函数的Java Math.BigDecimal实现。
 
 #### 微分
 
@@ -14387,6 +14672,7 @@ permalink: /javalibs
 * [SnuggleTeX](https://github.com/davemckain/snuggletex)：SnuggleTeX是一个免费开源的Java库，用于将LaTeX转换为XML。
 * [CV Generator LaTeX](https://github.com/melkassib/cv-generator-latex)：一个用于生成基于LaTeX的简历的Kotlin库。
 * [RaTeX CMP](https://github.com/darriousliu/RaTeX-CMP)：RaTeX CMP是一个面向多端UI场景的数学公式渲染项目。
+* [WebTeX](https://github.com/KTH/webtex)：WebTeX是一个简单的Servlet，它根据TeX表达式作为输入，创建用于在Web上发布的PNG图像，由瑞典皇家理工学院开源。
 
 ### MATLAB
 
@@ -14395,6 +14681,17 @@ permalink: /javalibs
 * [MatFileRW](https://github.com/diffplug/matfilerw)：MatFileRW是一个允许读取和写入MAT文件的库。
 * [MatConsoleCtl](https://github.com/diffplug/matconsolectl)：MatConsoleCtl是一个Java API，允许从Java调用MATLAB。
 * [JMatIO](https://github.com/gradusnikov/jmatio)：JMatIO是一个Java库，用于读取/写入/操作Matlab二进制MAT文件。
+
+## SMT求解器
+
+* [CVC5](https://github.com/cvc5/cvc5)：CVC5是一种用于确定一阶公式对一阶理论(或此类理论的组合)的可满足性的工具，由伯克利大学和三星研究院开发。
+* [JavaSMT](https://github.com/sosy-lab/java-smt)：JavaSMT是用于访问各种SMT求解器的通用API层，由德国慕尼黑大学开源。
+* [SMTInterpol](https://github.com/ultimate-pa/smtinterpol)：SMTInterpol是弗莱堡大学开发的插值SMT求解器。
+* [KSMT](https://github.com/UnitTestBot/ksmt)：满足各种SMT求解器的统一Kotlin/Java API。
+* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3)：使用Z3 SMT求解器进行约束求解的Scala DSL。
+* [OSTRICH](https://github.com/uuverifiers/ostrich)：OSTRICH是一个基于自动机的字符串约束SMT求解器。
+* [Z3 Theorem](https://github.com/tudo-aqua/z3-turnkey)：Z3 Theorem证明器是一个广泛使用的SMT求解器，由多特蒙德工业大学开源。
+* [jSMTLIB](https://github.com/smtlib/jSMTLIB)：jSMTLIB是用Java实现的SMT-LIB开源版本，它以命令行工具、Eclipse插件和API的形式提供。
 
 ## DSL
 
@@ -15057,168 +15354,6 @@ permalink: /javalibs
 
 * [Psychometrics](https://github.com/meyerjp3/psychometrics)：一个用于心理测量分析的Java库。
 * [jMetrik](https://itemanalysis.com/jmetrik-download)：jMetrik是一款免费开源的心理测量软件。
-
-## 网络爬虫
-
-这里列出来网络爬虫相关的库、软件、工具。
-
-#### 爬虫库
-
-* [Crawler4j](https://github.com/yasserg/crawler4j)：Crawler4j是一个开源的Java网络爬虫库，它提供了一个用于爬虫的简单界面，由加州大学欧文分校开源。
-* [Apache Nutch](https://github.com/apache/nutch)：Nutch是一个高度可扩展、成熟、可用于生产的网络爬虫，它支持细粒度配置并适应各种数据采集任务。
-* [Jsoup](https://github.com/jhy/jsoup)：Jsoup是一个Java HTML解析器，专为HTML编辑、清理、抓取和XSS安全而构建。
-* [Salyut](https://github.com/taofen8/salyut)：Salyut是基于标记语言的开源爬虫框架，由淘粉吧开源。
-* [StormCrawler](https://github.com/DigitalPebble/storm-crawler)：StormCrawler是一个开源框架，用于在Storm上构建低延迟、可扩展的网络爬虫。
-* [Sparkler](https://github.com/USCDataScience/sparkler)：Sparkler是在Spark上运行的类似Nutch的爬虫库，由南加州大学开源。
-* [WebMagic](https://github.com/code4craft/webmagic)：WebMagic是一个简单灵活的Java爬虫框架。
-* [Venom](https://github.com/PreferredAI/venom)：Venom是一个速度极快、完全可定制、功能强大且简单易用的爬虫，由PreferredAI开发。
-* [HtmlUnit](https://github.com/HtmlUnit/htmlunit)：HtmlUnit是Java程序的无GUI浏览器。
-* [Gecco](https://github.com/xtuhcy/gecco)：Gecco集成了Jsoup、HttpClient、FastJson、Spring、HtmlUnit、Redission框架，让你只需要配置一些JQuery风格的选择器就可以非常快速的编写一个爬虫。
-* [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler)：SeimiCrawler是一个敏捷、独立部署、支持分布式的Java爬虫框架。
-* [NewPipe Extractor](https://github.com/TeamNewPipe/NewPipeExtractor)：NewPipe Extractor是一个用于从流媒体站点中提取内容的库。
-* [Apache ManifoldCF](https://github.com/apache/manifoldcf)：ManifoldCF是一个多仓库爬虫框架，具有多个连接器。
-* [WebCollector](https://github.com/CrawlScript/WebCollector)：WebCollector是一个基于Java的开源网络爬虫框架，它提供了一些简单的网络爬虫接口，由合肥工业大学开源。
-* [XXL-Crawler](https://github.com/xuxueli/xxl-crawler)：XXL-Crawler是一个分布式爬虫框架。
-* [Jvppeteer](https://github.com/fanyong920/jvppeteer)：Jvppeteer通过DevTools and WebDriver-bidi控制Chrome或Firefox。
-* [NetDiscovery](https://github.com/fengzhizi715/NetDiscovery)：NetDiscovery是一款基于Vert.x、RxJava 2等框架实现的通用爬虫框架/中间件。
-* [Spiderman](https://gitee.com/l-weiwei/spiderman)：Spiderman是一个垂直领域的爬虫，可用于抓取特定目标网页的内容，并且解析为所需要的业务数据，整个过程追求无需任何编码就能实现。
-* [MongooCrawler](https://gitee.com/coliza/MongooCrawler)：MongooCrawler是一款低入侵分布式爬虫框架，仅仅依赖少量第三方包，具有多进程多线程，集成反爬、验证码破解方案等特性。
-* [XueQiuSuperSpider](https://github.com/decaywood/XueQiuSuperSpider)：雪球超级爬虫是基于雪球网、东方财富和同花顺实现的股票数据爬虫程序。
-* [Crawljax](https://github.com/crawljax/crawljax)：Crawljax是一个自动爬取和测试现代Web应用程序的工具。
-* [Spiderman2](https://gitee.com/l-weiwei/Spiderman2)：Spiderman的升级版，在性能、架构、易用性上有提升，支持分布式。
-* [Itsy](https://github.com/dakrone/itsy)：一个用Clojure编写的多线程网络爬虫。
-* [Jaunt](https://jaunt-api.com/)：Jaunt是一个用于Web抓取、Web自动化和JSON查询的Java库。
-* [Jauntium](https://jauntium.com/)：Jauntium是一个新的免费Java库，可让你轻松自动化Chrome、Firefox、Safari、Edge、IE和其他现代Web浏览器。
-* [SuperSpider](https://github.com/Lyx3314844-03/superspider)：SuperSpider是一个多语言网络爬虫框架，提供Python、Go、Rust和Java四种可用于生产环境的运行时环境。
-* [Robots.txt Java](https://github.com/google/robotstxt-java)：Java中的Google Robots.txt解析器和匹配器库。
-* [Crawler Commons](https://github.com/crawler-commons/crawler-commons)：Crawler Commons是一组可重用的Java组件，可实现任何网络爬虫的通用功能。
-* [CommonCrawl](https://github.com/commoncrawl/commoncrawl-crawler)：CommonCrawl爬虫引擎及相关MapReduce代码。
-* [Common Crawl](https://github.com/commoncrawl/commoncrawl)：Common Crawl是一个用于访问Common Crawl语料库ARC文件的Java支持库，提供Hadoop集成和直接读取API。
-* [Norconex HTTP Collector](https://github.com/Norconex/crawlers)：Norconex是一个功能齐全的爬虫库，可以操作收集的数据并将其存储到你选择的仓库(例如搜索引擎)中。
-* [CrawlerDemon](https://gitee.com/spirit_demon/CrawlerDemon)：基于Akka的高性能分布式爬虫框架。
-* [VSCrawler](https://gitee.com/virjar/vscrawler)：适合抓取封堵的爬虫框架。
-* [Crawler](https://github.com/vidageek/crawler)：简单的Java网络爬虫库。
-* [Fess Crawler](https://github.com/codelibs/fess-crawler)：Fess Crawler是一个用于爬取网站和文件系统的爬虫库。
-* [URL Frontier](https://github.com/crawler-commons/url-frontier)：URL Frontier项目的目标是开发一个爬虫/语言中立的API，用于网络爬虫在与网络前沿通信时执行的操作。
-* [Skraper](https://github.com/sokomishalov/skraper)：Kotlin/Java库和CLI工具，用于从各种来源抓取帖子和媒体，无需授权也无需整页渲染。
-* [Pegasus](https://github.com/shriphani/pegasus)：Pegasus是一个高度模块化、耐用且可扩展的Clojure爬虫。
-* [Google Play Crawler Java API](https://github.com/Akdeniz/google-play-crawler)：Google Play Crawler用于在GooglePlay上搜索Android应用程序并下载它们。
-* [Elves](https://github.com/hellokaton/elves)：一个轻量级的爬虫框架设计与实现。
-* [VIPS](https://github.com/tpopela/vips_java)：用Java实现基于视觉的页面分割算法。
-* [Website Crawler](https://github.com/pc8544/Website-Crawler)：Website Crawler API允许开发者通过四个简单端点程序爬取网站并访问结构化元数据。
-* [EasyBook](https://github.com/Zzzia/EasyBook)：Java/Android多站点小说爬虫库。
-* [ScriptSpider](https://github.com/xjtushilei/ScriptSpider)：一个Java版本的组件化的分布式通用爬虫。
-* [JLiteSpider](https://github.com/luohaha/jlitespider)：JLiteSpider是一个轻量级的分布式Java爬虫框架。
-* [Krawler](https://github.com/brianmadden/krawler)：Krawler是一个用Kotlin编写的爬虫框架。
-* [Cockroach](https://github.com/zhangyingwei/cockroach)：Cockroach是一个小巧、灵活、健壮的爬虫框架。
-* [Goniub](https://github.com/CreditTone/goniub)：Goniub是一个Java爬虫工具库。
-* [CrawlerPack](https://github.com/abola/CrawlerPack)：Java网络资料爬虫包。
-* [Firecrawl Java SDK](https://github.com/firecrawl/firecrawl-java-sdk)：一个用于Firecrawl API的Java客户端库，提供网页爬虫、数据抓取和搜索功能。
-* [BUbiNG](https://github.com/LAW-Unimi/BUbiNG)：BUbiNG是Web算法实验室开发的下一代网络爬虫，由米兰大学开源。
-* [Scrala](https://github.com/dyweb/scrala)：Scrala是一个基于Scala的网页爬虫框架，其灵感来源于Scrapy。
-* [GuozhongCrawler](https://github.com/out0fmemory/GuozhongCrawler)：GuozhongCrawler是一个无须配置、便于二次开发的爬虫开源框架。
-* [MySpider](https://github.com/zazaluMonster/MySpider)：MySpider是使用Java语言实现的网络爬虫项目。
-* [Web Data Extractor](https://github.com/fivesmallq/web-data-extractor)：使用Jquery Selector、XPath或JsonPath从常见的Web格式(如HTML、XML和JSON)中提取和解析结构化数据。
-* [AiPa](https://github.com/onblog/AiPa)：AiPa是一款小巧、灵活、扩展性高的多线程爬虫框架。
-* [EasyCrawl](https://github.com/kingschan1204/easyCrawl)：EasyCrawl是一个基于Java实现的爬虫工具包。
-* [Crawler](https://github.com/soulgalore/crawler)：Crawler是一个简单的Java爬虫，用于抓取同一域名下的网页。
-* [QuickCrawler](https://github.com/liuyueyi/quick-crawler)：Java实现的爬虫框架。
-* [Elise](https://github.com/Programming-With-Love/Elise)：Elise一个开源的商业友好的Java爬虫框架。
-* [LDSpider](https://github.com/ldspider/ldspider)：LDSpider项目为Linked Data Web提供了一个网络爬虫框架。
-* [Serritor](https://github.com/peterbencze/serritor)：Serritor是一个基于Selenium构建、用Java编写的开源网络爬虫框架。
-* [Crawler4j](https://github.com/zhuoran/crawler4j)：Crawler4j是使用Java开发的开源Web爬虫。
-* [Java Web Crawler](https://github.com/jjenkov/java-web-crawler)：用Java实现的网络爬虫。
-* [Widow](https://github.com/ScottMansfield/widow)：Widow是一款专门用于抓取你指定域名的网站爬虫。
-* [WindBell](https://gitee.com/zhiyubujian/wind-bell)：WindBell是一款轻量级的爬虫工具，轻松抓取互联网上的内容。
-* [Pikachu](https://gitee.com/ironzheng/pikachu)：Java注解方式的爬虫框架。
-* [WebFetch](https://gitee.com/hexleowang/WebFetch)：无依赖极简网络爬虫组件，能在移动设备上运行的微型爬虫。
-* [Sman](https://gitee.com/slkb/Sman)：Sman是一个轻量级的Web网络多线程爬虫框架，无需配置即可完成一个自定义的网络爬虫。
-* [ScreenSlicer](https://github.com/hollingsworthd/ScreenSlicer)：ScreenSlicer是一款网页爬虫工具。
-* [Charles](https://github.com/opencharles/charles)：Java网络爬虫库。
-* [Embedded PhantomJS](https://github.com/Jarlakxen/embedphantomjs)：适用于Java的嵌入式PhantomJS。
-* [Phanbedder](https://github.com/anthavio/phanbedder)：PhantomJS Windows/Linux/MacOSX原生二进制嵌入器。
-* [Pixiv Crawler](https://github.com/ScienJus/pixiv-crawler)：通过网页爬虫批量下载Pixiv图片。
-* [SpiderJackson](https://github.com/MrJiao/SpiderJackson)：一个简单易用的爬虫框架，内置代理管理模块，灵活设置多线程爬取。
-* [PicCrawler](https://github.com/fengzhizi715/PicCrawler)：使用RxJava2和Java 8的特性开发的图片爬虫。
-* [jFitbit](https://github.com/claygregory/jfitbit)：一个用于下载Fitbit日内数据的网络爬虫。
-* [Bixo](https://github.com/bixo/bixo)：Bixo是一个开源的Web数据挖掘工具包，它以级联管道的形式运行在Hadoop之上。
-* [Crawling Framework](https://github.com/tokenmill/crawling-framework)：Crawling Framework旨在提供配置和运行基于Storm Crawler的爬虫的工具。
-* [GoodCrawler](https://github.com/shenbaise/goodcrawler)：GoodCrawler是一个开源的爬虫框架。
-* [Scalescrape](https://github.com/bfil/scalescrape)：一个用于构建Akka Actor系统的Scala网络爬虫库，该系统可以从任何网站抓取和收集数据。
-* [MLib](https://github.com/mediathekview/MLib)：用于MediathekView程序和爬虫的库。
-* [Webscrape.ai SDKs](https://github.com/webscrape-ai/webscrape-ai)：webscrape.ai API的官方客户端SDK。
-* [Cetty](https://github.com/heyingcai/cetty)：一个轻量级的基于事件分发的爬虫框架。
-* [WebGrude](https://github.com/beothorn/webGrude)：WebGrude是一个Java库，用于通过注解将HTML或XML映射到Java类。
-* [SiteCrawler](https://github.com/forcedotcom/SiteCrawler)：SiteCrawler是一个Java库，可用于抓取某些网站的内容，由Salesforce开源。
-* [JSpider](https://github.com/brucezee/jspider)：JSpider是一个简单高效扩展性良好的Java网络爬虫框架。
-* [J-Crawler](https://gitee.com/qianyi-community/J-crawler)：Java爬虫框架。
-* [Spider4j](https://github.com/yida-lxw/spider4j)：Spider4j是一个开源的网络爬虫，基于Java的WebMagic扩展而来，提供了一个简单的网络爬虫接口。
-* [Grab4j](https://www.sauronsoftware.it/projects/grab4j/)：Grab4j库使你的Java应用程序能够执行一些网页抓取操作。
-* [WebHunger](https://github.com/jerrycshen/webhunger)：WebHunger是一个可扩展、功能齐全的爬虫框架。
-* [EasyCrawler](https://github.com/GabrielMesquitaOliveira/EasyCrawler)：这是一个多线程的Java网络爬虫库，具有灵活的搜索策略和可配置的持久化选项。
-* [Skraper](https://github.com/bruno-ortiz/skraper)：Skraper是一个用Kotlin编写的简单爬虫。
-* [WikiPageRank](https://github.com/ciganche/Wiki-page-rank)：维基百科网络爬虫和谷歌的PageRank算法实现。
-* [Crawler](https://github.com/xbynet/crawler)：一个简单灵活的Java网络爬虫框架。
-* [Gecko Redis](https://github.com/xtuhcy/gecco-redis)：Gecco分布式爬虫扩展。
-* [Web2Warc](https://github.com/helgeho/Web2Warc)：一款易于使用且高度可定制的爬虫，使你能够创建自己的小型网络存档。
-* [Webmuncher](https://github.com/dadepo/Webmuncher)：Webmuncher是一款可以轻松检索网站所有内容的工具。
-* [LoginCrawler](https://github.com/hexiaohong-code/LoginCrawler)：LoginCrawler是一套基于Webmagic框架拓展了用户登录后抓取数据的模块。
-
-#### HTML提取
-
-* [Goose](https://github.com/GravityLabs/goose)：Goose是一个用Scala编写的文章提取器。
-* [Scala Scraper](https://github.com/ruippeixotog/scala-scraper)：一个提供DSL的库，用于从HTML页面加载和提取内容。
-* [Crux](https://github.com/chimbori/crux)：Crux提供灵活的基于插件的API和实现，用于从网页中提取元数据。
-* [Snacktory](https://github.com/karussell/snacktory)：Java的Readability克隆。
-* [JReadability](https://github.com/wuman/JReadability)：JReadability是一个Java库，它将HTML作为输入进行解析并返回干净、易读的文本。
-* [Readability4J](https://github.com/dankito/Readability4J)：Readability4J是Mozilla的Readability.js的Kotlin端口。
-* [Java Readability](https://github.com/basis-technology-corp/Java-readability)：Readability包的Java移植。
-* [ReadabilityBundle](https://github.com/srijiths/readabilityBUNDLE)：用Java编写的HTML主内容提取工具。
-* [Skrapt](https://github.com/skrapeit/skrape.it)：Skrape是一个基于Kotlin的HTML/XML测试和Web抓取库。
-* [HtmlSucker](https://gitee.com/ld/HtmlSucker)：HtmlSucker是一个用来从一个网页中提取文章信息的小工具包。
-* [HtmlExtractor](https://github.com/ysc/HtmlExtractor)：HtmlExtractor是一个Java实现的基于模板的网页结构化信息精准抽取组件。
-* [Essence](https://github.com/cdimascio/essence)：Kotlin和Java的自动网页内容提取器。
-* [ContentExtractor](https://github.com/hfut-dmic/ContentExtractor)：ContentExtractor是一个开源的网页正文抽取工具，具有非常高的抽取精度，由合肥工业大学开源。
-* [Norconex Importer](https://github.com/Norconex/importer)：Norconex Importer是一个Java库和命令行应用程序，旨在解析和提取计算机文件中的内容，并将其转换为纯文本格式，支持各种格式(HTML、PDF、Word等)。
-* [XTractor](https://github.com/mohaps/xtractor)：XTractor是一个用Java编写的网页文本提取算法。
-* [MeaningfulWeb](https://github.com/javasoze/meaningfulweb)：网页内容提取器。
-* [HTMLP](https://gitee.com/scrapy4j/htmlp)：HTML页面内容中属性的自动解析工具，自动提取文章标题、正文、作者、发布时间、来源。
-* [XSExtractor](https://github.com/qingyu1229/XSExtractor)：提取新闻、博客等长文本网页的正文工具。
-* [Skrape](https://github.com/esafirm/skrape)：使用Kotlin DSL抓取HTML并将其转换为JSON。
-* [Pagelyzer](https://github.com/openpreserve/pagelyzer)：一套用于检测网页及其渲染变化的工具集。
-* [Image Resolver](https://github.com/shekhargulati/image-resolver)：一个用于从URL中提取主图像的Java 8库。
-* [HTQL](https://github.com/AICDEV/htql)：HTQL是一种类似SQL的查询语言，专为从HTML结构中提取数据而设计。
-* [Pickaxe](https://github.com/mautini/pickaxe)：Pickaxe是一个Java库，用于解析HTML页面以提取schema.org词汇表。
-
-#### 爬虫系统
-
-* [SpiderFlow](https://github.com/ssssssss-team/spider-flow)：SpiderFlow是新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
-* [Heritrix](https://github.com/internetarchive/heritrix3)：Heritrix是互联网档案馆的开源、可扩展、网络规模、档案质量的网络爬虫项目。
-* [Gather](https://github.com/gsh199449/spider)：Gather Platform是一套基于WebMagic内核、具有Web任务配置和任务管理界面的数据采集与搜索平台。
-* [TemplateSpider](https://gitee.com/mail_osc/templatespider)：TemplateSpider是一款用于从各种网站收集模板的开源工具。
-* [FSCrawler](https://github.com/dadoonet/fscrawler)：该爬虫有助于索引二进制文档，例如PDF、Open Office、MS Office。
-* [PulsarRPA](https://github.com/platonai/PulsarRPA)：PulsarRPA是一个高性能、分布式、开源的机器人流程自动化(RPA)框架。
-* [GitHub Crawler](https://github.com/societe-generale/github-crawler)：Github Crawler旨在通过GitHub API爬取组织的仓库，从而实现信息收集的自动化，由法国兴业银行开源。
-* [Anthelion](https://github.com/YahooArchive/anthelion)：Anthelion是Nutch的一个插件，用于抓取HTML页面中的语义注释，由Yahoo开源。
-* [ACHE](https://github.com/VIDA-NYU/ache)：ACHE是一个专注的网络爬虫，它收集满足某些特定标准的网页，例如属于给定域或包含用户指定模式的页面，由纽约大学开源。
-* [Kspider](https://github.com/kkangert/kspider)：Kspider是一个爬虫平台，以图形化方式定义爬虫流程，无需代码即可实现一个爬虫流程。
-* [YayCrawler](https://gitee.com/shentong_012/YayCrawler)：YayCrawler是一个分布式爬虫系统，使用简单，高级配置。
-* [NewCrawler](https://github.com/speed/newcrawler)：鸟巢采集器是一款Web版的网页数据采集工具，拥有强大的内容采集和数据过滤功能，能将你采集的数据发布到远程服务器。
-* [Phoneutria](https://sourceforge.net/projects/phoneutria/)：可用于对任何Web或企业网站进行爬取和索引，并且可通过XML配置文件进行配置。
-* [ISpider](https://github.com/xpleaf/ispider)：由Java设计的分布式爬虫系统。
-* [Novel Grabber](https://github.com/Flameish/Novel-Grabber)：Novel Grabber是一款基于GUI的网络爬虫，可以从各种支持的在线小说网站或任何其他网站手动下载章节并将其转换为EPUB格式。
-* [WebBee](https://github.com/codesofun/web-bee)：WebBee是基于JDK 8的垂直爬虫框架项目。
-* [Dodder](https://github.com/xwlcn/Dodder)：Dodder是一个支持集群部署的分布式DHT网络爬虫。
-* [Zhihu Crawler](https://github.com/wycm/zhihu-crawler)：Zhihu Crawler是一个基于Java的高性能、支持免费HTTP代理池、横向扩展、全方位抓取爬虫项目。
-* [YaCy Grid Crawler](https://github.com/yacy/yacy_grid_crawler)：YaCy Grid的爬虫微服务。
-
-#### 爬虫IP池
-
-* [ProxyPool](https://github.com/fengzhizi715/ProxyPool)：给爬虫使用的代理IP池。
-* [Proxy Pool](https://github.com/chenerzhu/proxy-pool)：Java代理IP池，提供可用率达到95%以上的代理IP。
-* [ProxyIpPool](https://github.com/javagaorui5944/ProxyIpPool)：爬虫代理IP池组件。
-* [Proxy Pool](https://github.com/denghuichao/proxy-pool)：爬虫代理IP池服务，可供其他爬虫程序通过REST API获取。
-* [HttpProxy](https://github.com/asche910/HttpProxy)：Java实现的IP代理池，支持HTTP与HTTPS两种方式。
 
 ## 工作流
 
@@ -15992,17 +16127,6 @@ permalink: /javalibs
 * [Reedelk](https://github.com/codecentric/reedelk-runtime)：Reedelk是一个轻量级的数据集成平台，允许用户使用预构建组件设计、构建和执行连接数据与应用程序的集成流程。
 * [Integration Adapters](https://github.com/inomera/integration-adapters)：Integration Adapters是一个旨在简化与后端或基础设施系统集成的库。
 
-## SMT求解器
-
-* [CVC5](https://github.com/cvc5/cvc5)：CVC5是一种用于确定一阶公式对一阶理论(或此类理论的组合)的可满足性的工具，由伯克利大学和三星研究院开发。
-* [JavaSMT](https://github.com/sosy-lab/java-smt)：JavaSMT是用于访问各种SMT求解器的通用API层，由德国慕尼黑大学开源。
-* [SMTInterpol](https://github.com/ultimate-pa/smtinterpol)：SMTInterpol是弗莱堡大学开发的插值SMT求解器。
-* [KSMT](https://github.com/UnitTestBot/ksmt)：满足各种SMT求解器的统一Kotlin/Java API。
-* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3)：使用Z3 SMT求解器进行约束求解的Scala DSL。
-* [OSTRICH](https://github.com/uuverifiers/ostrich)：OSTRICH是一个基于自动机的字符串约束SMT求解器。
-* [Z3 Theorem](https://github.com/tudo-aqua/z3-turnkey)：Z3 Theorem证明器是一个广泛使用的SMT求解器，由多特蒙德工业大学开源。
-* [jSMTLIB](https://github.com/smtlib/jSMTLIB)：jSMTLIB是用Java实现的SMT-LIB开源版本，它以命令行工具、Eclipse插件和API的形式提供。
-
 ## REST错误处理
 
 * [Problem](https://github.com/zalando/problem)：Problem是一个实现application/problem+json的Java库，由Zalando开源。
@@ -16596,6 +16720,7 @@ permalink: /javalibs
 * [Try Catch](https://github.com/Scarlet-Pan/try-catch)：一个Kotlin扩展，它将Try Catch的优雅引入到函数式错误处理中。
 * [Validation](https://github.com/unruly/validation)：Java 8中用于函数式错误处理的类，可以表示成功并返回一个值，也可以表示失败并返回错误信息。
 * [Godemiche](https://github.com/rankedproject/godemiche)：Godemiche是一个Java实用程序库，它明确地处理失败、共享对象重用和计划任务生命周期。
+* [EID Runtime Exceptions](https://github.com/wavesoftware/java-eid-exceptions)：这个小型库包含一系列异常和实用工具，实现了快速、可重用的错误代码，以便在发生不可预测且无法恢复的应用程序故障时能够快速抛出。
 
 #### Stream工具库
 
@@ -20978,6 +21103,8 @@ Kafka库、管理系统、运维平台。
 * [Spring DDD Starter](https://github.com/sth77/spring-ddd-starter)：这是一个种子项目，旨在帮助用户轻松上手，使用Java中的战术领域驱动设计模式来实现应用程序。
 * [EDA Quickstarts](https://github.com/ibm-cloud-architecture/eda-quickstarts)：本项目包含一套事件驱动型项目的入门代码模板，由IBM开源。
 * [Enterprise Business Template](https://github.com/eGovFramework/egovframe-enterprise-business-template)：本项目源文件是一个参考项目，通过选择标准框架提供的常用组件的一些功能进行配置。
+* [Spring Boot REST API Seed](https://github.com/thoersch/spring-boot-rest-api-seed)：这是一个使用Spring Boot、Jersey、Hibernate和Jackson构建RESTful API的种子项目和示例项目。
+* [Spring JSF JPA Quickstart](https://github.com/michelrisucci/spring-jsf-jpa-quickstart)：使用Spring 4.x、JSF 2.2、JPA 2.1的Java Maven快速入门项目。
 
 #### 脚手架
 
@@ -21431,6 +21558,10 @@ Kafka库、管理系统、运维平台。
 * [Spi4J](https://github.com/spi4j/spi4j)：Spi4J是一个简化Java EE应用程序API的框架，由法国国防部开源。
 * [JeefuseMDA](https://github.com/jeefuse/jeefuseMDA)：JeefuseMDA是一个基于MDA的JavaEE Web应用快速开发平台。
 * [Invesdwin Context](https://github.com/invesdwin/invesdwin-context)：Invesdwin软件产品线平台轻量级模块系统的核心。
+* [OWSI Core](https://github.com/openwide-java/owsi-core-parent)：OWSI Core是一个功能强大的Java框架，用于构建业务应用程序。
+* [Myoss Starter Projects](https://github.com/myoss-cloud/myoss-starter-projects)：Myoss开源项目，用Java编写的入门项目。
+* [Dk Foundation](https://github.com/dk-lockdown/dk-foundation)：Spring快速开发工具包，自动集成了Mybatis、Sharding JDBC、Redis等。
+* [Sky Framework](https://github.com/xk11961677/framework)：Java工具类、Spring Boot开发框架。
 
 #### 后台管理系统
 
@@ -21597,6 +21728,7 @@ Kafka库、管理系统、运维平台。
 * [Halcyon Admin](https://github.com/hhfb8848/halcyon-springboot)：Halcyon Admin是一个基于Spring Boot 3和Vue 3的通用后台管理系统。
 * [Basin Cloud](https://gitee.com/zhong-runsen/basin-cloud)：企业级多租户后台管理系统。
 * [Spring Boot Angular](https://github.com/duqian42707/spring-boot-angular)：基于Spring Boot、Angular的前后端分离框架。
+* [Begcode Admin](https://github.com/begcode/begcode-admin)：开箱即用的中后台管理系统。
 
 #### 低代码
 
@@ -21749,6 +21881,7 @@ Kafka库、管理系统、运维平台。
 * [Aegis](https://github.com/OOMEcho/aegis)：Aegis是一个功能完整的企业级RBAC权限管理系统，采用前后端分离架构设计。
 * [Spark Platform](https://github.com/wangdingfeng/spark-platform)：基于Spring Cloud、Spring Boot、OAuth2的RBAC权限管理系统。
 * [Dahe](https://github.com/calvin008/dahe)：Dahe是一个轻量级RBAC后台管理系统。
+* [Tang Boot](https://github.com/tangllty/tang-boot)：Tang Boot是一个基于Spring Boot 3的权限管理系统。
 
 #### 即时通讯系统
 
@@ -22902,6 +23035,8 @@ Kafka库、管理系统、运维平台。
 
 ## 支付
 
+* [Stripe](https://github.com/stripe/stripe-java)：Stripe API的Java库。
+* [Stripe Clojure](https://github.com/yonureker/stripe-clojure)：用于Stripe API的Clojure SDK。
 * [x402](https://github.com/coinbase/x402)：x402是一个面向互联网原生支付的开放标准。
 * [Wallee Java SDK](https://github.com/wallee-payment/java-sdk)：Wallee Java库封装了Wallee API，该库方便你与各种服务(例如交易、帐户和订阅)进行交互。
 * [PayPal](https://github.com/paypal/PayPal-Android-SDK)：PayPal Android SDK可以轻松地将PayPal付款添加到移动应用程序。
@@ -23035,6 +23170,12 @@ Kafka库、管理系统、运维平台。
 * [PaymentCardGenerator](https://github.com/kloverde/java-PaymentCardGenerator)：PaymentCardGenerator是一个用于测试支付卡处理系统的Java库。
 * [IBAN Commons](https://github.com/SpeedBankingDe/iban-commons)：IBAN Commons是一个适用于Java 8及更高版本的Java IBAN验证库和BIC验证器，能够快速可靠地解析、验证和格式化国际银行账号(IBAN)和商业识别码(BIC/SWIFT代码)。
 * [IBAN4G](https://github.com/NaluKit/iban4g)：IBAN4j项目的移植版本，使其能够在纯Java项目以及使用GWT或J2CL的项目中运行。
+
+#### 支付文件格式
+
+* [jSEPA](https://github.com/OpenKnowledgeHub/jSEPA)：一个用于创建有效的PAIN.008.001.11 SEPA直接借记和PAIN.001.001.12 SEPA转账XML文档的Java库。
+* [Simple Java SEPA XML Generator](https://github.com/java-sepa-xml/java-sepa-xml)：此Java库提供SEPA XML文件，用于自动化直接借记和贷记转账支付流程。
+* [jACH](https://github.com/afrunt/jach)：用于读写ACH文档的Java库。
 
 ## 短信
 
@@ -24578,20 +24719,9 @@ Kafka库、管理系统、运维平台。
 * [CDM](https://github.com/finos/common-domain-model)：CDM是金融产品、这些产品的交易以及这些交易的生命周期事件的模型，由金融科技开源基金会FINOS托管。
 * [DROP](https://github.com/lakshmiDRIP/DROP)：DROP实现的库针对固定收益、信贷、商品、股票、外汇和结构性产品内部和之间的分析/风险、交易成本分析、资产负债分析、资本、风险敞口和保证金分析、估值调整分析和投资组合构建分析。
 * [FinMath Library](https://github.com/finmath/finmath-lib)：FinMath Library库提供了与数学金融相关但适用于其他领域的方法的(JVM)实现。
-* [Stripe](https://github.com/stripe/stripe-java)：Stripe API的Java库。
-* [Stripe Clojure](https://github.com/yonureker/stripe-clojure)：用于Stripe API的Clojure SDK。
-* [Abandon](https://github.com/hrj/abandon)：Abandon是一款基于文本的复式记账系统。
-* [JUXT Accounting](https://github.com/juxt/juxt-accounting)：JUXT Accounting是一个免费、开源的复式记账软件。
 * [Q-Calculator](https://github.com/CyrilFeng/Q-calculator)：Stateless高性能优惠叠加计算框架。
-* [Prowide](https://github.com/prowide/prowide-core)：Prowide Core是一个用于管理SWIFT FIN消息的开源Java框架。
-* [Sailfish](https://github.com/exactpro/sailfish-core)：Sailfish是一个测试自动化工具，其主要目的是测试分布式交易平台和市场数据交付系统中的双向消息流。
 * [JavaMoney](https://github.com/JavaMoney/javamoney-lib)：JavaMoney提供基于JSR 354(兼容实现)构建的扩展和库。
-* [Bateman](https://github.com/fearofcode/bateman)：Bateman是一个非常简单的交易系统，旨在筛选美国股票市场的子集。
 * [XS2A](https://github.com/adorsys/xs2a)：XS2A是一个完全符合PSD2标准的XS2A接口，支持所有强制和大多数可选的PSD2 XS2A流程。
-* [Accounting](https://github.com/Nick-Triller/accounting)：Accounting是一个用Java编写的内存中复式记账组件。
-* [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
-* [Univocity Trader](https://github.com/uniVocity/univocity-trader)：Univocity Trader是一个开源交易框架，旨在使任何具有基本编程技能的人都能有效地创建和测试用于买卖股票、加密货币或任何其他类型工具的交易算法。
-* [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一个模块化、高性能的资本市场平台，旨在统一并保障你的金融运营。
 * [ObjectLab Kit](https://github.com/Appendium/objectlabkit)：商业/外汇日期计算器、外汇汇率计算器和实用工具。
 * [Lamma](https://github.com/maxcellent/lamma)：Lamma是一个专业的金融工具时间表生成库，用于生成抵押贷款还款时间表、固定收益票息支付时间表、股票衍生品定价日期等。
 * [AML Monitoring Engine](https://github.com/Jeremiahcheng1206/AML-Monitoring-Engine)：AML Monitoring Engine是一个尖端系统，它利用深度学习来检测和打击可疑的金融交易。
@@ -24599,20 +24729,8 @@ Kafka库、管理系统、运维平台。
 * [Simm-Lib](https://github.com/AcadiaSoft/simm-lib)：Simm-Lib是ISDA开发的风险价值标准初始保证金模型。
 * [OpenSIMM](https://github.com/OpenGamma/OpenSIMM)：ISDA提出的非清算衍生品标准初始保证金模型(SIMM)的参考实现。
 * [Java CME MDP3 Handler](https://github.com/epam/java-cme-mdp3-handler)：CME市场数据的Java市场数据处理器，由EPAM开源。
-* [Juncture](https://github.com/paritytrading/juncture)：Juncture是一个用于JVM的快速交易协议库。
-* [Double Entry Bookkeeping API](https://github.com/imetaxas/double-entry-bookkeeping-api)：Double Entry Bookkeeping API是一个实现复式记账核心逻辑的Java库。
-* [FinTx Accounting](https://github.com/fintx/fintx-accounting)：FinTx Accounting是一个适用于所有FinTx项目的通用会计项目，支持单式记账、复式记账、账户操作/控制等。
-* [Skattemeldingen](https://github.com/Skatteetaten/skattemeldingen)：最终用户系统提供商的合作伙伴/供应商的年度结算/纳税申报代码和规范。
 * [MFTOOL Java](https://github.com/ankitwasankar/mftool-java)：MFTOOL Java是一个Java库，旨在简化印度共同基金的操作流程。
-* [jACH](https://github.com/afrunt/jach)：用于读写ACH文档的Java库。
-* [Lohnsteuer](https://github.com/MarcelLehmann/Lohnsteuer)：Lohnsteuer是一个由德国联邦财政部官方程序流程图自动生成的Java工资税计算库。
-* [Book Keeper](https://github.com/ghacupha/book-keeper)：Book Keeper是一个实现了复式记账核心模式的Java库。
-* [Tax CA](https://github.com/kronostechnologies/tax-ca)：Tax CA库包含最新的省和联邦税务数据和计算函数。
-* [jSEPA](https://github.com/OpenKnowledgeHub/jSEPA)：一个用于创建有效的PAIN.008.001.11 SEPA直接借记和PAIN.001.001.12 SEPA转账XML文档的Java库。
-* [Simple Java SEPA XML Generator](https://github.com/java-sepa-xml/java-sepa-xml)：此Java库提供SEPA XML文件，用于自动化直接借记和贷记转账支付流程。
 * [Financial Formulas](https://github.com/srbrettle/Financial-Formulas)：一系列用于求解财务/会计方程的方法。
-* [Accounting Library](https://github.com/DenissLarka/druvu-acc-parent)：一个用于处理GnuCash会计数据的模块化Java库。
-* [SimpleAccounting](https://github.com/tnaran/SimpleAccounting)：一个简单的内存Java库，用于简单的复式记账。
 * [Ticker Symbol Search](https://github.com/w3stling/tickersymbol)：用于股票代码查询的Java库。
 
 #### 金融API
@@ -24732,6 +24850,7 @@ Kafka库、管理系统、运维平台。
 * [Breeze Java SDK](https://github.com/Idirect-Tech/Breeze-Java-SDK)：BreezeConnect是ICICI Securities交易API的官方Java客户端库。
 * [SZExchangeV5BinaryMarket](https://github.com/xjsunup/SZExchangeV5BinaryMarket)：深交所v5版行情接入框架。
 * [BHEX OpenApi](https://github.com/bhexopen/BHEX-OpenApi)：BHEX交易所SDK。
+* [Juncture](https://github.com/paritytrading/juncture)：Juncture是一个用于JVM的快速交易协议库。
 
 #### 银行API
 
@@ -24784,6 +24903,8 @@ Kafka库、管理系统、运维平台。
 * [Clojure Backtesting Library](https://github.com/clojure-finance/clojure-backtesting)：基于每日CRSP式证券数据的量化投资和交易回测框架。
 * [Backtest](https://github.com/yuanzhixiang/backtest)：Java实现的基于事件的量化回测框架。
 * [EasyQuant](https://github.com/nashse/easy-quant)：EasyQuant是一个轻量级数字货币量化框架。
+* [Ojalgo Finance](https://github.com/optimatika/ojAlgo-finance)：ojAlgo的金融特定扩展。
+* [NablaTensor Quant](https://github.com/nablatensor-dev/quant)：基于Java 25的量化金融、风险和CVA。
 
 #### 算法交易
 
@@ -24805,6 +24926,11 @@ Kafka库、管理系统、运维平台。
 * [AlgoTrader](https://github.com/alexcwyu/algotrader)：AlgoTrader是一个快速的Java回测和自动交易系统。
 * [Robindrew Trading](https://github.com/robindrew/robindrew-trading)：Java算法交易核心库。
 * [Tickerstorm](https://github.com/tickerstorm/tickerstorm)：一个用于开发Java交易算法的事件驱动框架。
+* [Bateman](https://github.com/fearofcode/bateman)：Bateman是一个非常简单的交易系统，旨在筛选美国股票市场的子集。
+* [Univocity Trader](https://github.com/uniVocity/univocity-trader)：Univocity Trader是一个开源交易框架，旨在使任何具有基本编程技能的人都能有效地创建和测试用于买卖股票、加密货币或任何其他类型工具的交易算法。
+* [Eclipse Tradista](https://github.com/eclipse-tradista/tradista)：Tradista是一个模块化、高性能的资本市场平台，旨在统一并保障你的金融运营。
+* [IBC](https://github.com/IbcAlpha/IBC)：IBC可以自动化运行盈透证券交易者工作站和网关的许多方面。
+* [Sailfish](https://github.com/exactpro/sailfish-core)：Sailfish是一个测试自动化工具，其主要目的是测试分布式交易平台和市场数据交付系统中的双向消息流。
 
 #### FIX引擎
 
@@ -24823,6 +24949,18 @@ Kafka库、管理系统、运维平台。
 * [Fix4j](https://github.com/tools4j/fix4j)：Java构建的快速、零垃圾的FIX引擎。
 * [BTCC Pro Exchange Fix Client](https://github.com/wenqingyu/btcc-pro-exchange-fix-client)：BTCC Pro交易所FIX API交易引擎。
 * [WontFIX](https://github.com/atemerev/wontfix)：实用的Scala FIX引擎。
+
+#### 复式记账
+
+* [Abandon](https://github.com/hrj/abandon)：Abandon是一款基于文本的复式记账系统。
+* [JUXT Accounting](https://github.com/juxt/juxt-accounting)：JUXT Accounting是一个免费、开源的复式记账软件。
+* [Accounting](https://github.com/Nick-Triller/accounting)：Accounting是一个用Java编写的内存中复式记账组件。
+* [Double Entry Bookkeeping API](https://github.com/imetaxas/double-entry-bookkeeping-api)：Double Entry Bookkeeping API是一个实现复式记账核心逻辑的Java库。
+* [FinTx Accounting](https://github.com/fintx/fintx-accounting)：FinTx Accounting是一个适用于所有FinTx项目的通用会计项目，支持单式记账、复式记账、账户操作/控制等。
+* [Book Keeper](https://github.com/ghacupha/book-keeper)：Book Keeper是一个实现了复式记账核心模式的Java库。
+* [SimpleAccounting](https://github.com/tnaran/SimpleAccounting)：一个简单的内存Java库，用于简单的复式记账。
+* [Accounting Library](https://github.com/DenissLarka/druvu-acc-parent)：一个用于处理GnuCash会计数据的模块化Java库。
+* [FinCore Engine](https://github.com/tiana-code/fincore-engine)：一个适用于JVM的开源财务核心，复式记账、支付编排、合规工作流程和确定性决策引擎。
 
 #### 订单匹配引擎
 
@@ -24854,6 +24992,7 @@ Kafka库、管理系统、运维平台。
 * [jBSBE](https://github.com/keyhan/jBSBE)：jBSBE是一个基于j8583的库。
 * [ISO8583 JSON XML](https://github.com/kamshory/ISO8583-JSON-XML)：该库用于将消息从一种格式转换为另一种格式，支持的格式包括ISO 8583、JSON和XML。
 * [ISO8583 Processor](https://github.com/artivisi/iso8583-processor)：用于处理ISO-8583消息的库。
+* [Prowide](https://github.com/prowide/prowide-core)：Prowide Core是一个用于管理SWIFT FIN消息的开源Java框架。
 * [Prowide ISO 20022](https://github.com/prowide/prowide-iso20022)：Prowide ISO 20022是一个用于管理ISO 20022消息的开源Java框架。
 * [Finaplo](https://www.paymentcomponents.com/)：Finaplo SDK是一个Java库，用于构建、解析、验证和翻译金融消息。
 * [ISO20022 Message Validator](https://github.com/Payment-Components/demo-iso20022)：ISO20022 Message Validator是一个用于解析、验证和生成SWIFT MX(ISO20022)金融消息格式的Java SDK。
@@ -24957,6 +25096,9 @@ Kafka库、管理系统、运维平台。
 * [Mytax Client](https://github.com/loolzaaa/mytax-client)：Mytax API服务的客户端。
 * [Opes](https://github.com/yanaga/opes)：Opes是一个面向巴西市场的Java工具库，提供常用的巴西本地化值对象实现。
 * [Brazil Validator](https://github.com/matheuslm7/brazil-validator)：一个用于巴西数据的验证、规范化和格式化库。
+* [Lohnsteuer](https://github.com/MarcelLehmann/Lohnsteuer)：Lohnsteuer是一个由德国联邦财政部官方程序流程图自动生成的Java工资税计算库。
+* [Tax CA](https://github.com/kronostechnologies/tax-ca)：Tax CA库包含最新的省和联邦税务数据和计算函数。
+* [Skattemeldingen](https://github.com/Skatteetaten/skattemeldingen)：最终用户系统提供商的合作伙伴/供应商的年度结算/纳税申报代码和规范。
 
 ## 教育
 
@@ -26988,6 +27130,7 @@ Kafka库、管理系统、运维平台。
 * [Vulkan Kotlin](https://github.com/technoir-lab/vulkan-kotlin)：Vulkan API的Kotlin多平台绑定。
 * [VK Boiler](https://github.com/knokko/vk-boiler)：这是一个旨在减少Java Vulkan项目中样板代码量并提供一些可选抽象的库。
 * [Meta](https://github.com/Frotty/Meta)：Meta是一个可复用的Kotlin/LibGDX运行时层，适用于JVM游戏。
+* [3d Rendering Java](https://github.com/trrt-good/3d-Rendering-JAVA)：一款性能卓越的Java 3D渲染程序，可与Swing API无缝集成。
 
 #### 游戏开发库
 
@@ -27777,6 +27920,7 @@ Kafka库、管理系统、运维平台。
 * [Dynapath](https://github.com/tobias/dynapath)：Dynapath为类加载器提供了一个协议和实用函数，使其有效类路径可读和/或可修改。
 * [Jcabi Aether](https://github.com/jcabi/jcabi-aether)：Sonatype Aether的包装器。
 * [MavenDependencyResolver](https://github.com/maxxq-org/maxxq-maven)：通过简单易用的Java类，以编程方式解析Maven依赖项。
+* [Tomcat ClassLoader Ordered](https://github.com/openwide-java/tomcat-classloader-ordered)：Apache Tomcat 8的类加载器，按字母顺序加载WEB-INF库的JAR文件。
 
 ## 类转储
 
@@ -28436,6 +28580,7 @@ Kafka库、管理系统、运维平台。
 * [Badiff](https://github.com/org-badiff/badiff)：一个纯Java字节级差异库，用于处理大型输入，并在优化过程中利用并行处理。
 * [jLZJD](https://github.com/EdwardRaff/jLZJD)：jLZJD是Lempel-Ziv Jaccard距离的Java实现，该距离度量专为任意字节序列设计。
 * [SudokuGeneratorAndSolver](https://github.com/nguyennd97/SudokuGeneratorAndSolver)：这是一个用于Java的数独生成器和求解器库。
+* [OpenSkill Java](https://github.com/pocketcombats/openskill-java)：这是一个基于Java的面向对象实现的Weng-Lin排名系统，可为多人游戏提供精准的基于技能的排名。
 
 #### 字符串算法
 
@@ -29367,6 +29512,7 @@ Kafka库、管理系统、运维平台。
 * [Geom](https://github.com/javagl/Geom)：用于几何计算的实用类。
 * [DB4GeO Core](https://github.com/geodb/db3dcore)：DB4GeO/DB3D内核是一个完全用Java编写的3D几何数据类型库。
 * [CompGeom](https://github.com/bkiers/CompGeom)：一个尽可能使用任意精度算术的计算几何库，用Java编写。
+* [JOML Primitives](https://github.com/JOML-CI/joml-primitives)：JOML几何原语。
 
 ## 航空航天
 
@@ -29568,7 +29714,6 @@ Kafka库、管理系统、运维平台。
 * [Apache Olingo](https://github.com/apache/olingo-odata4)：Apache Olingo是一个围绕OData规范的Java库及扩展，由SAP开源。
 * [OData Client](https://github.com/davidmoten/odata-client)：用于生成基于OData CSDL 4.0元数据描述的服务的Java客户端。
 * [OData4j](https://github.com/odata4j/odata4j)：OData4j是一个全新的开源工具包，用于在Java中构建一流的OData生产者和消费者。
-* [Olingo JPA Processor](https://github.com/SAP/olingo-jpa-processor-v4)：JPA Processor是一个用于在Apache Olingo V4和JPA数据库之间建立桥梁的库，由SAP开源。
 * [JAXRS OData](https://github.com/dometec/jaxrs-odata)：用于将端点公开为OData规范的实用程序类，仅用于服务器端查询、筛选和分页。
 
 ## OSC
@@ -30007,6 +30152,9 @@ Kafka库、管理系统、运维平台。
 * [Symja Parser](https://github.com/axkr/symja-parser)：实现用于Java double值或Apache Commons Math Complex、Dfp或BigFraction数字的数学表达式解析器。
 * [SymbolMath](https://github.com/dumitrupetrusca-okta/SymbolMath)：SymbolMath项目的目标是开发一个用于符号数学的Java库。
 * [SCalc](https://github.com/MatWein/SCalc)：一个简单的计算库，用于解析和计算数学表达式。
+* [SMP](https://github.com/Noxcrew/smp)：SMP是一个能够解析文本格式中相对简单的数学表达式的库。
+* [Jep Java GPL](https://github.com/nathanfunk/jep-java-gpl)：Java数学表达式解析器和求值器。
+* [JParser](https://github.com/lzfelix/JParser)：JParser是一个用Java编写的数学解析器和求值器。
 
 #### 正则表达式
 
@@ -30231,7 +30379,6 @@ Kafka库、管理系统、运维平台。
 * [Protostuff Runtime](https://github.com/webby-social/protostuff-runtime-proto)：Protostuff运行时proto文件生成器。
 * [MacroGroovy](https://github.com/bsideup/MacroGroovy)：Groovy代码生成助手。
 * [CodeGen](https://github.com/Pyknic/CodeGen)：CodeGen是一个用Java编写的基于模型-视图的代码生成器。
-* [CRUD REST Gen](https://github.com/yanndemel/crud-rest-gen)：基于JPA实体的CRUD应用生成，包含文档的REST API、包含单元测试的审计REST API以及AngularJS管理应用。
 * [Vert.x Codegen](https://github.com/eclipse-vertx/vertx-codegen)：Vert.x异步多语言API代码生成器。
 * [Mica Auto](https://github.com/lets-mica/mica-auto)：Mica Auto是Spring Cloud微服务框架Mica中的一个基础组件，用来生成Spring Boot Starter的一些基础配置。
 * [Krasa Jaxb Tools](https://github.com/krasa/krasa-jaxb-tools)：用于生成Bean校验注解(JSR-303)和替换基本类型的XJC/JAXB插件。
